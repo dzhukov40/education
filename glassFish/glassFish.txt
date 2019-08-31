@@ -1,0 +1,71 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://javaee.github.io/glassfish/ ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [glassfish] сервер приложений с открытым исходным кодом, реализующий спецификации Java EE.
+
+
+
+
+1) устанавливаем 
+  - обновляемся [ sudo apt update ] [ sudo apt upgrade ]
+  - должна быть установлена [ Oracle Java ]
+    - проверяем [ java -version ]
+    - [*] если нету ставим
+      - устанавливаем [jdk] -> [sudo apt install openjdk-8-jre]
+      - устанавливаем переменную среды [/etc/enviroment]
+        добавляем строчку [JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"]
+      - перезагружаемся [reboot]
+      - проверяем [echo "$JAVA_HOME"]
+  - устанавливаем [Glassfish]
+    - качаем [wget download.java.net/glassfish/4.0/release/glassfish-4.0.zip]
+    - распаковываем [unzip ./glassfish-4.0.zip]
+      - [*] распакованный архивчик это и есть нах чудо сервачек [Glassfish]
+
+
+2) запускаем сервер
+  - [/bin/asadmin start-domain]
+  - другие команды:
+    - [restart-domain]
+    - [change-admin-password]
+    - [create-service --serviceuser <имя пользователя
+      от которого запускать сервис>]
+      - появится сервис [/etc/init.d/GlassFish_domain1]
+        - для сервиса: [start, stop, restart]
+    - регестрируем сервис:
+      [update-rc.d GlassFish_domain1 defaults]
+    - [start-database]
+    - [stop-database]
+  - топаем на него посмотреть [ localhost:4848 ]
+  - есть лог сервера [/logs/server.log]
+
+
+  
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

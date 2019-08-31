@@ -1,0 +1,101 @@
+---
+Ресурсы:
+
+// офф сайт
+- [ https://jenkins.io/ ]
+- [ https://jenkins.io/doc/ ] (*) документация
+ 
+// старт "spring-boot"
+- [ https://community.vscale.io/hc/ru/community/posts/208799669-%D0%9A%D0%B0%D0%BA-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-Jenkins-%D0%B8-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D1%83%D1%8E-%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D1%83-maven-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-%D0%BD%D0%B0-Ubuntu-16-04 ]
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [jenkins] проект для непрерывной интеграции с открытым исходным кодом, написанный на Java. Был ответвлён от проекта Hudson, принадлежащего компании Oracle. Распространяется под лицензией MIT
+
+
+1) смотрим как установить на [linux] 
+  - [https://jenkins.io/doc/pipeline/tour/getting-started/]
+  - качаем: [ wget -q mirrors.jenkins.io/war-stable/latest/jenkins.war ]
+  - запускаем: [ java -jar jenkins.war --httpPort=8080 ]
+    - надо установить [java]
+    - установим оракловую:
+    - [ sudo add-apt-repository ppa:webupd8team/java && sudo apt update ]
+    - [ sudo apt install oracle-java8-installer ]
+    - [ java -version ]
+
+2) стучимся и поехали
+  - указываем ключ, который генериться на сервере, 
+    на котором запущен [jenkins] -> [ cat /home/proxy40/.jenkins/secrets/initialAdminPassword ] 
+  - Чтобы начать установку стандартного набора плагинов, нажмите Install suggested plugins.
+  - Create First Admin User
+    - Username: dzhukov
+    - Password: 1111
+    - Confirm Password: 1111
+    - Full name: dzhukov   
+    - E-mail address: dscjncrbq@mail.ru
+  -...
+  - рестартуем [jenkins]
+  - заходим как пользователь [ dzhukov/1111 ]
+ 
+3) пробуем создать задание 
+  - new item
+  - Enter an item name: [springRestService]
+  - выбираем [Freestyle project]
+  - [Source Code Management]
+    - выбираем [Git]
+    - указываем репозиторий [https://github.com/dzhukov40/springRestService]
+    - [!] будет ошибка, указываем пользователя и пароль 
+      - [ dzhukov40/D....... ]
+    - не помогло, так как не установлен [git]
+      - [ sudo apt install git -y ]
+      - (*) обновили страничку, все прокатило !
+    - теперь идем в [Build]
+      - добавляем шаг сборки [ Add build step ]
+        - [ Invoke Gradle Script ]
+        - [ Use Gradlew Wrapper ] (*) Make gradle executable
+        - [ Tasks ] -> [ clean build ]
+        - (*) Результат сборки будет сохраняться в папке /var/lib/jenkins/workspace/Lolipop/target/, где Lolipop — название нашего проекта
+      - добавляем шаг для запуска [ Add build step ] 
+        - (*) запустить "shell" скриптик [ Execute shell ]   
+          - забираем на части скриптик:
+            - убиваем [ if pgrep gs-rest-service-0.1.0.jar; then pkill gs-rest-service-0.1.0.jar; fi ]
+            - копируем [ yes | cp -rf '/home/proxy40/.jenkins/workspace/springRestService/build/libs/gs-rest-service-0.1.0.jar' '/home/proxy40/My/app' ]
+            - делаем исполняемым [ chmod +x '/home/proxy40/My/app/gs-rest-service-0.1.0.jar' ]
+            - запускаем и отпускаем
+              - (*) надо указать не убивать процесс [BUILD_ID=do_not_kill_me]
+              - наш запуск [ BUILD_ID=do_not_kill_me java -jar '/home/proxy40/My/app/gs-rest-service-0.1.0.jar' --server.port=8090 & ]
+          - [!] полный текст команды состоит из этих команд записанных с новой строчки   
+      - СОХРАНИТЬ
+
+4) настроили теперь смотрим
+  - [ Build Now ] смотрим тут сборки
+
+
+
+
+
+
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #
+#----------------------------------------------- 
+
+
+#----------------------------------------------- 
+ 

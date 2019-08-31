@@ -1,0 +1,69 @@
+---
+Ресурсы:
+
+// оф сайт
+- [  ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [jboss] теперь [wildfy]. В [idea] мы работаем с плагином [jboss]
+
+
+
+
+1) устанавливаем
+  - Топаем на сайт [http://wildfly.org/downloads/]
+  - качаем [10.1.0.Final]
+  - распаковываем [tar xvfz *.tar.gz]
+  - [*] если нет [java], то ставим (пример поставить OracleJava):
+    - [ sudo add-apt-repository ppa:webupd8team/java ]
+    - [ sudo apt-get update ]
+    - [ sudo apt-get install oracle-java8-installer ]
+    - [!] указать путь
+      - [ sudo update-alternatives --config java ] (*) где Java
+      - [ cd /etc/enviroment ]
+      - [ sudo vim /etc/environment ]
+        - добавили переменную к [PATH]
+        - [ JAVA_HOME="/usr/lib/jvm/java-8-oracle/" ]
+  - нужно добавить юзера запустив скрипт [./add-user.sh]
+    - добавляем именно [a) Management User (mgmt-users.properties)]
+      - login:    root
+      - password: root
+    - везде [yes] или [enter]
+
+
+2) запускаем
+  - теперь запускаем [sudo ./standalone.sh]
+  - [!] чтобы со всех [ip] можно было подключиться
+    - [ sudo ./standalone.sh -b=0.0.0.0 ]
+    - [ sudo ./standalone.sh -bmanagement=0.0.0.0 ]
+  - топаем на запущенный сервер [http://127.0.0.1:9990] (*) админка
+  - топаем на запущенный сервер [http://127.0.0.1:8080] (*) приложение
+
+	  
+	
+	
+
+[?] nop
+  - nop
+
+ 
+ 
+// #nop
+#----------------------------------------------- 
+
+  [!] nop
+
+#----------------------------------------------- 
+ 

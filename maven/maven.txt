@@ -1,0 +1,85 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://maven.apache.org/ ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [maven]  фреймворк для автоматизации сборки проектов на основе описания их 
+  структуры в файлах на языке POM.
+
+
+
+
+1) хотим удаленный деплой при помощи плагина [maven] 
+  - передеплоить надо операцией -> [tomcat7:redeploy]
+  - добавляем в [.pom] [#remotePlaginDeploy]
+
+
+2) хотим подключиться к базе из IDEA через плагин
+  - открываем плагин [View]->[Tool Windows]->[Database]
+  - жмем [+] выбираем [MySql]
+  - мы до этого создали базу на вертуалке [192.168.56.11] порт [3306]
+    с базой [doneathome] и пользователем [dzhukov]
+  - предложат скачать драйвер, качаем проверяем соединение
+    и вуаля все готово используем.
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #remotePlaginDeploy 
+#----------------------------------------------- 
+
+    <!--указываем что проект надо собрать в .war-->
+    <packaging>war</packaging>
+
+    <build>
+        <plugins>
+            <!-- СРАБОТАЛО !! только выбирать надо:
+                 tomcat7(org.apache.tomcat.maven:tomcat7-maven-plugin:2.2)-->
+
+            <!-- без него нельзя было работать без файла [WEB-INF\web.xml] -->
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+
+
+            <!-- говорят что плаген работает и с tomkat 8-->
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <url>http://192.168.56.11:8080/manager/text</url>
+                    <username>tomcat</username>
+                    <password>tomcat</password>
+                    <path>/myapp</path>
+                </configuration>
+            </plugin>
+
+        </plugins>
+
+    </build> 
+
+#----------------------------------------------- 
+ 

@@ -1,0 +1,100 @@
+---
+Ресурсы:
+
+// документация
+- [ https://docs.spring.io/spring-boot/docs/current/reference/html/index.html ]
+ 
+// старт "spring-boot"
+- [ https://projects.spring.io/spring-boot/ ]
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [spring] универсальный фреймворк с открытым исходным кодом для Java-платформы. 
+  Также существует форк для платформы .NET Framework, названный Spring.NET
+
+
+1) попробуем пойти по пути в [spring-start]
+  - инструкция [https://spring.io/guides/gs/intellij-idea/]
+  - выполняем:
+    - [mrkdir springRestService]
+    - [cd ./springRestService]
+    - [git clone https://github.com/spring-guides/gs-rest-service.git]
+    - открываем проект в [IDEA] (*) ВАЖНО выбрать либо [build.gradle] или [pom.xml]
+      -(*) откроем в [gradle]
+    - билдим [gradle build] -> все прошло, теперь стартанем [jar] файл
+    - сделаем [jar] исполняемой и запустим в консоли IDEA
+      - [chmod +x ./build/libs/gs-rest-service-0.1.0.jar && java -jar ./build/libs/gs-rest-service-0.1.0.jar]
+  - проверяем ответ на запросс [GET] -> [ http://localhost:8080/greeting ]
+  - получаем ответ и все хорошо!!
+
+
+2) не совсем про спринг, скорей про архитектуру (*) заметочка
+  - [!] раскидаем такую архитектурку:
+  - [контроллеры] тут мапинг запросов на методы и вызов фасадов
+    - [testController]  
+  - [фасады] тут мы юзаем сервисы
+    - [testFasade]
+  - [сервисы] это разные функцианальные штуки обособленные в класс
+    - [testService]
+  - [DAO] тут мы работаем именно с моделями
+    - [testDAO]
+  - [модели] это сущности в базюле или хранилище
+  -...
+  - при реализации такой архитектуры не забудь поместить [Application.class] выше в пакетах
+  - [!] тесты надо расположить в том же пакете !!!
+
+
+3) юзаем [in Memory database] (*) выбираем [h2]
+  - добавляем зависимость в [build.gradle]
+    - [ testCompile group: 'com.h2database', name: 'h2', version: '1.4.196' ]
+    - [ compile group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc', version: '1.5.12.RELEASE' ]
+  - создадим папку [resources] в [main]
+    - кинем туда [ application.properties ]
+    - есть мега-файл всех пропертей для разных свойств и настроек
+      - [https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html]
+  -...
+  - В корневой директории ресурсов создадим файл [schema.sql] из которого 
+  [Spring JDBC] будет создавать структуру базы данных
+  - проставим:
+    [
+spring.datasource.url = jdbc:h2:~/test
+spring.datasource.username = sa
+spring.datasource.password =
+spring.datasource.driverClassName = org.h2.Driver
+
+# H2
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+    ]
+  - теперь можем при запуске сходить в консоль [ http://localhost:8080/h2-console ]
+  -...
+  - надобы приконектиться
+
+
+
+
+
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #
+#----------------------------------------------- 
+
+
+#----------------------------------------------- 
+ 

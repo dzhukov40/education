@@ -1,0 +1,169 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://www.virtualbox.org/ ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [virtualBox] крутая программа вертуализации.
+  аналог этой программы [vmware]  
+
+
+
+
+1) устанавливаем
+  - Есть в репозитории [ sudo apt install virtualbox ] (*) чет не пошло
+  - поставим с сайта
+    - [ https://www.virtualbox.org/wiki/Linux_Downloads ]
+    - [ wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add - ]
+    - [ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add - ]
+    - (!) [ sudo apt-get update ]
+    - [ sudo apt-get install virtualbox-5.2 ] (*) не прокатило
+  - меняем файл 
+    - [ sudo vim /etc/apt/sources.list ]
+    - добавили [ deb https://download.virtualbox.org/virtualbox/debian xenial contrib ]
+  - пробуемс:
+    - [ sudo apt-get update ; sudo apt-get install virtualbox-5.2 ]
+    - УСТАНОВИЛОСЬ! 
+  - ОШИБКА !!
+    - [ https://askubuntu.com/questions/900794/virtualbox-rtr3initex-failed-with-rc-1912-rc-1912]
+    - поступили так
+    - [ dpkg -l | grep virtualbox-dkms ]
+    - [ sudo apt-get purge virtualbox-dkms && sudo apt-get install dkms ]
+    - [ sudo /sbin/vboxconfig ]
+  - УРА ! все завелось!
+
+
+2) создаем сеть между виртуальными машинами
+  - в [VirtualBox] -> [File] -> [Настройки] -> [Сеть] 
+    -> [виртуальные сети хоста] -> [добавим сеть]
+  - у виртуалок -> [Сеть] -> [Адаптер] -> [виртуальный адаптер хоста] 
+    -> [выбираем созданный в VirtualBox]
+  - теперь можно всех попинговать. 
+
+
+*) быстринько замутили сеть н виртуалке
+   - открыли файл [ sudo vim /etc/network/interfaces ]
+     - добавили интерфейс котор ранее посмотрели через [ifconfig]
+     [
+        auto enp0s8
+        iface enp0s8 inet static
+        address 192.168.56.10
+        netmask 255.255.255.0
+     ] 
+   - перезапустили сервис:
+     - [ service networking restart ]
+
+
+
+3) Хотим сделать общую папку между гостевой ОС и вертуальными
+  - идем в настройки виртуальной машины
+    [настройки]->[носители]->[ставим пустой CD контроллер]
+  - разворачиваем виртуалку на все окно, чтобы появилось меню
+    сверху, где выбираем [устройства]->[Подключить образ диска...]  
+  - жмем скачать через интернет
+  - жмем установить
+  - посл установке в терменале надо нажать [Enter]
+  - идем в настройки виртуалки [настройки]->[общие папки]->[указываем папочку]
+  - [reboot]
+  - надо добавить себя(юзера) в группу [vboxsf] чтоб иметь права на общую папку
+    [ sudo adduser <мое имя юзера> vboxsf ]
+  - [reboot]
+  - [!] если такой подход не работает есть второй вариант
+    - [ sudo yum install kernel-header kernel-devel ]  
+    - [ sudo yum install gcc perl ]  
+    - [ poweroff ]  
+    - [устройства] -> [Подключить образ диска Дополнений гостевой ОС]
+      // длЯ работы общих папок
+    - [ sudo usermod -G vboxsf -a <username> ]
+    - [ добавили через UI от VB указали папку ]
+    - [ reboot ]  
+
+
+4) Хотим сделать статический [ip] на виртуалке
+  - узнаем имя адаптера [ifconsig]
+  - идем редактировать файл [ sudo vim /etc/network/interfaces]
+  - добавляем статический ip [192.168.56.20] для адаптера [enp0s8]
+    - [!] ошибся писал маску 225 -> а не 255
+    - [!] большая беда была с тем, что [vim] не показывал хитрые символы которые не видно
+  - наша настроечка [#configInterfaces]
+  - теперь надо поменять еще один файл [ sudo vim /etc/NetworkManager/NetworkManager.conf ]
+    - было  : [ managed=true ]
+      стало : [ managed=false ]   
+    - [!] или надо менять ! 
+  - перезапускаем сервис [ sudo service network-manager restart ]
+
+
+5) хотим увеличить обьем виртуального диска [virtualBox]
+  - топаем туда где этот диск и запускаем консоль 
+  - для [windows]:  
+    - [ "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"  modifyhd "C:\Users\Dzhukov\VirtualBox VMs\centos7_1\centos7_1.vdi" --resize 20000 ] 
+  - для [linux]: 
+    - [ vboxmanage  modifyhd  Slave.vdi  --resize 20000 ]
+  - мы используем утилиту [VBoxManage.exe] для изменения размера
+    виртуального диска [centos7_1.vdi]. Новый размер [ 20 Gb ]
+  - теперь надо образовавшееся место разметить, это делается через [fdisk]
+    - переходим за суперпользователя [ sudo su - ]
+    - смотрим доступные диски [ fdisk -l ]
+    - выбираем доступный и начинаем модить разделы [ fdisk /dev/sda ]
+    - смотрим сколько у нас есть свободного места [ F ]
+    - создаем новый раздел (add a new partition) [ n ]
+    - выбираем тип раздела (default p) [ enter ]
+    - выбираем номер (default 3) [ enter ]
+    - выбираем начало раздела (внимательно посмотри где кончаются существующие сектора
+      прибавь один и вот твое начало)
+    - смотрим что вышло [ p ]
+    - сохраняем изменения [ w ]
+    - [ reboot ]
+  - теперь надо новый раздел диска (partition) прифигачить к существующему
+    - [*] заюзаем программу [resize2fs]
+    - тут остановились ... [http://www.adminhelp.pro/how-to/how-to-datacare/318/]
+
+6) проблемы с файловой системой (*) не грузится ubuntu
+  - загружаемся через [recovery mod]
+  - видим ошибочку [ fsck -fy /dev/sda* ]
+
+
+
+[?] Ошибочка
+  - [!] -> [ virtualbox kernel service is not running ]
+  - [ sudo apt-get install build-essential module-assistant ]
+  - [ sudo m-a prepare ]
+  - [ sudo apt-get install virtualbox-guest-x11 ] (*) reboot (!) стало хуже)))) 
+    - [ https://askubuntu.com/questions/204098/error-building-main-guest-additions-module-while-installing-virtualbox-guest-add/204106 ]
+  - [ sudo apt install linux-headers-generic ]
+  - [ sudo apt install virtualbox-guest-dkms] - перестала грузиться
+ 
+[?] как запустить консоль [windows] в конкретной папке
+  - [ shift + ПКМ ] -> [открыть командную строку]
+  - [*] тут еще появится команда сохранить в буфер полный путь
+ 
+[?] как посмотреть пользователей и группы в linux
+  - [ cat /etc/passwd ]
+  - [ cat /etc/group ]   
+
+
+ 
+// #configInterfaces
+#----------------------------------------------- 
+
+  #dzhukov add for stati address-ip
+  auto enp0s8
+  iface enp0s8 inet static
+  address 192.168.56.20
+  netmask 255.255.255.0
+
+#----------------------------------------------- 
+ 

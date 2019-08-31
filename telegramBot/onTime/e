@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Tue, 12 Sep 2017 08:50:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept
+X-Frame-Options: SAMEORIGIN
+Allow: GET, HEAD, OPTIONS
+
+{"soffer":[{"short_url":"gR6py","creadt":"2017-09-12T01:55:35.266608+03:00","orderdt":"2017-09-13","user":{"site_id":"ee9efd7a-51e8-4b71-9c21-a2844b065c17","groupclient":{"id":59,"name":"Ontime","menuEndTime":"10:30:00","deliveryTime":"13:00:00","building":{"short_address":"Мурманский пр-д 14к1","backendId":"913def7f-577b-410d-99b9-c5bcf806f1e6","usersCount":136},"tga":null}}},{"short_url":"ZYsfP","creadt":"2017-09-11T13:21:49.214925+03:00","orderdt":"2017-09-12","user":{"site_id":"ee9efd7a-51e8-4b71-9c21-a2844b065c17","groupclient":{"id":59,"name":"Ontime","menuEndTime":"10:30:00","deliveryTime":"13:00:00","building":{"short_address":"Мурманский пр-д 14к1","backendId":"913def7f-577b-410d-99b9-c5bcf806f1e6","usersCount":136},"tga":null}}}]}

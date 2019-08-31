@@ -1,0 +1,118 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ http://tomcat.apache.org/ ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [tomcat] облегченный сервер приложений
+
+
+
+
+1) устанавливаем
+  - идем [tomcat.apache.org] -> [Tomcat 8] -> [Core: tar.gz]
+  - используем [unxip] и [tar] чтобы распаковать архив
+  - устанавливаем [jdk] -> [sudo apt install openjdk-8-jre]
+  - устанавливаем переменную среды [/etc/enviroment]
+     добавляем строчку [JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"]
+  - перезагружаемся [reboot]
+  - проверяем [echo "$JAVA_HOME"]
+  - запускаем [bin/startup.sh]
+  - смотрим [netstat -natp | grep java]
+  - идем на наш сервачек через браузер [localhost:8080] 
+  - выключаем сервер [bin/shutdown.sh]
+
+
+2) добавляем пользователя и делаем удаленный доступ
+  - идем [tomcat/conf/tomcat-users.xml]
+    - пишем там:
+      [
+        <role rolename="manager-gui"/>
+        <role rolename="manager-script"/>
+        <user username="doneathome" password="doneathome" roles="manager-gui, manager-script"/>
+      ]
+    - делаем [reboot] и зайти от пользователя можно только с локальной машины
+    - хотим попадать с любого ip указав аерного пользователя и пароль
+      создаем файл [conf/Catalina/localhost/manager.xml]
+      - пишем там:
+        [
+          <Context privileged="true" antiResourceLocking="false"
+                   docBase="${catalina.home}/webapps/manager">
+    
+            <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="^.*$" />
+
+          </Context>
+        ]
+
+
+3) хотим [init] скрипт 
+  - написали скрипт [#dzhukovTomcat]
+    - меняем в скрипте значение [CATALINA_HOME] 
+    - меняем пользователя от имени которого будем запускать [RUNAS]
+  - помещаем его в [/etc/init.d/]
+  - хотим запускать при запуске виртуальной машины.
+    Для этого регаем этот сервис командой
+    [ update-rc.d <имя нашего файла запуска> defaults ]
+  - reboot - проверяем и радуемся [ netstat -natp | grep 8080 ]
+
+
+4) хотим удаленно подключаться через плагин в [idea]
+  - хотим удаленно подключиться [останавливаем stop]->[запускаем start]
+    но подлючиться не сможем так как адрес указан в другой сети
+    [ netstat -natp | grep 8000 ] видим 127.0.0.0
+  - идем менять в файле [catalina.sh], где находим строчку и меняем:
+    [JPDA_ADDRESS="localhost:8000"] -> [ JPDA_ADDRESS="192.168.56.11:8000" ]
+  - еще для удобства отладки в скрипте прописываем любой старт с [jpda]
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #dzhukovTomcat
+#----------------------------------------------- 
+
+#!/bin/bash
+# description: Tomcat Start Stop Restart
+# processname: tomcat
+# chkconfig: 234 20 80
+CATALINA_HOME=/u01/searchwiz/coordinator
+
+RUNAS=searchwiz
+
+case $1 in
+start)
+    sudo -u $RUNAS sh -c "$CATALINA_HOME/bin/catalina.sh start"
+;;
+stop)
+    sudo -u $RUNAS sh -c "$CATALINA_HOME/bin/catalina.sh stop -force"
+;;
+restart)
+    sudo -u $RUNAS sh -c "$CATALINA_HOME/bin/catalina.sh stop -force"
+    sleep 5
+    sudo -u $RUNAS sh -c "$CATALINA_HOME/bin/catalina.sh start"
+;;
+jpda)
+    sudo -u $RUNAS sh -c "$CATALINA_HOME/bin/catalina.sh jpda start"
+;;
+esac
+exit 0
+
+#----------------------------------------------- 
+ 

@@ -1,0 +1,133 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://gradle.org/ ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [gradle] система сборки проектов. Круче чем [maven]
+
+
+
+
+1) пара слов про [wrapper]
+  - Например, вы используете gradle с версией X (икс). 
+    И ваш скрипт сборки точно будет работать на этой 
+    версии. Будет ли он работать на других версиях – 
+    вопрос. Программист, скачавший ваш репозиторий с 
+    кодом и скриптами сборки, вынужден будет 
+    установить у себя такую же версию градла. 
+    Неудобно. Но градло спешит на помощь !
+  - файлы для [ gradle wrapper ]
+    [
+      gradlew
+      gradlew.bat
+      gradle/wrapper/
+      gradle-wrapper.jar
+      gradle-wrapper.properties
+    ]
+  - [*] эти файлы надо закомитить и нести вместе с проектом
+    - и теперь чтобы собрать проект, достаточно вместо 
+      [gradle] использовать [gradlew]
+  - [*] Враппер сам скачает нужную версию градла, поместит 
+    её в .gradle-кеш и использует её для сборки. Таким 
+    образом, пользователю, скачавшему ваш репозиторий, 
+    вообще ничего не нужно делать, кроме запуска 
+    bat-файла (или shell-скрипта в не-Windows системах) 
+    ! Вот такой вот best practice.  
+
+
+2) (1/4) собираем дома [hcs_trunk]
+  - скачали проектик [ svn checkout https://vcs.lanit.ru/svn/hcs/trunk ./hcs_trunk ]
+  - отрываем через idea
+    - ставим SDK для проекта file->Project Structure->Project->set SDK
+    - (*) поставить память для [gradle]. 
+      - File->settings->Build,Execution,Deployment->Build Tools->Gradle
+      - Gradle VM options =  -Xmx3g
+  - указываем [JAVA_HOME]
+    - [ sudo su - ]
+    - [ vim .bashrc ] (*) для каждого пользователя свой такой файл!
+      - [!] для [root] и [dzhukov] сделали
+    - добавляем в конец: 
+      - [ 
+          #dzhukov
+          JAVA_HOME=/home/dzhukov/soft_install/java/jdk1.8.0_161
+          export JAVA_HOME 
+          PATH=$PATH:$JAVA_HOME/bin   
+          export PATH
+        ]   
+
+3) (2/4) собираем дома [hcs_trunk]            
+  - топаем смотреть как установить [gradle] 
+    - [https://docs.gradle.org/current/userguide/installation.html]
+  - качаем 4.6 [ Download: complete ]
+    - [ https://gradle.org/releases/ ]
+    - [ unzip -d ./ ./gradle-4.6-all.zip ] 
+      - (*) распаковали в [/home/dzhukov/soft_install/gradle/gradle-4.6/bin]
+    - идем ставить переменную [ GRADLE_HOME ]
+    - [!]
+    - [ sudo su - ]
+    - [ vim .bashrc ] (*) для каждого пользователя свой такой файл!
+      - [!] для [root] и [dzhukov] сделали
+    - добавляем в конец: 
+      - [ 
+          #dzhukov
+          GRADLE_HOME=/home/dzhukov/soft_install/gradle/gradle-4.6/bin 
+          export GRADLE_HOME 
+          PATH=$PATH:$GRADLE_HOME   
+          export PATH
+        ] 
+
+4) (3/4) собираем дома [hcs_trunk] 
+  - надо бы теперь попробовать собрать проектик
+  - (*) больше памяти idea по всем фронтам дать
+  - в терминале в проекте [ gradle build ]
+    - [!] ОШИБКА [ ru.lanit.hcs.standard.api.NewBaseStandardTest > npaDocumentsIsNotEmpty FAILED ]
+    - установим [ npm ]
+      - [ sudo apt install npm ] (*) не помогло
+      - [ gradle build --stacktrace ] (*) не помогло
+      - запустим с пропуском тестов [ gradle build -x test ]
+      - [!] ОШИБКА [ bower: not found ]
+        - [ sudo npm install -g bower ]
+      - [!] ОШИБКА [/usr/bin/env: ‘node’: No such file or directory]
+        - [ ln -s /usr/bin/nodejs /usr/bin/node ]
+      - [!] ОШИБКА [ ENOGIT git is not installed or not in the PATH ]
+        - [ sudo apt install git ]
+      - [!] ОШИБКА [ sh: 1: grunt: not found ]
+        - [ sudo npm install -g grunt-cli ]
+
+
+
+
+
+
+
+
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
