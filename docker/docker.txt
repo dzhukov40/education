@@ -5,6 +5,8 @@
 - [ https://hub.docker.com/ ]
 // крутой набор статей
 - [ https://habr.com/post/310460/ ]
+// видосики
+- [ https://youtu.be/XtO3hUWLKF8?list=PLD5U-C5KK50XMCBkY0U-NLzglcRHzOwAg ]
  
 
 
@@ -24,16 +26,219 @@
 
 
 
-1) регаемся:
+1) регаемся на докерхабе https://hub.docker.com/:
   - [ dzhukov40 ]
   - [ dzhukov40.v@mail.ru ]
   - [ D..... ]
+  
+  
+2) основы Dockerfile
+  - есть две версии Docker
+    - Docker Community Edition (CE) (*) работаем с этой версией
+    - Docker Enterprise -> это платная версия системы	
+  - Docker Это клиент-серверное приложение
+    - у нас на сервере живет Docker daemon, который выполняет всю работу
+	- подключение к деману происходит черед (Docker Command Line Interface, CLI)
 
-1) тестим на виртуалочке: 
-  - [ sudo apt install docker ] устанавливаем
+
+3) основные термины
+  - Image (образ) 
+    – собранная подсистема, необходимая для работы процесса, сохраненная в образе.
+  - Container (контейнер) 
+    – процесс, инициализированный на базе образа. То есть контейнер существует только когда запущен. 
+	  Это как экземпляр класса, а образ это типа класс. Ну я думаю идея понятна.
+  - Host (хост) 
+    – среда, в которой запускается докер. Проще говоря – ваша локальная машина.
+  - Volume (Том)
+    – это дисковое пространство между хостом и контейнером. 
+	  Проще – это папка на вашей локальной машине примонтированная внутрь контейнера. 
+	  Меняете тут меняется там, и наоборот, миракл.
+  - Dockerfile (файл создания образа)
+    – файл с набором инструкций для создания образа будущего контейнера
+  - Service (сервис) 
+    – по сути это запущенный образ (один или несколько контейнеров), дополнительно сконфигурированный такими опциями как открытие портов, маппинг папок (volume) и прочее. 
+	  Обычно это делается при помощи docker-compose.yml файла.
+  - Docker-compose (запуск связанных контейнеров) 
+    – тулза, облегчающая сборку и запуск системы состоящей из нескольких контейнеров, связанных между собой. 
+  - Build (билд, билдить) 
+    – процесс создания образа из набора инструкций в докерфайле, или нескольких докерфайлов, если билд делается с помощью композера
 
 
+4) устанавливаем docker на ubuntu:
+  - [ https://docs.docker.com/install/linux/docker-ce/ubuntu/ ] 
+    - [ sudo apt-get update ] устанавливаем
+    - [ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common ]
+    - [ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - ] добавляем ключ
+    - [ sudo apt-key fingerprint 0EBFCD88 ] сравниваем отпечаток
+    - [ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" ] добавляем ссылку на репозиторий
+    - [ sudo apt update ] обновляем индексы
+	- [ sudo apt-get install docker-ce docker-ce-cli containerd.io ] устанавливаем докер
+    - [ sudo docker run hello-world ] проверяем установленный докер
+  - протестируем, скачав и запустив контейнер  
+    - [ sudo docker run -it ubuntu bash ] скачается образ и запустится
+    - [ exit ] этой командой можем выйти из контейнера
 
+4+) устанавливаем docker на windows
+  - [ https://docs.docker.com/docker-for-windows/install/ ]
+  - аккаунт на докерХабе -> [ dzhukov40 ]
+  - [!] Роль Hyper-V невозможно установить в Windows 10 Домашняя.
+  - в биусе отключаем разрешение виртуализации
+  - качаем Docker Desktop
+
+
+5) устанавливаем docker-compose на ubuntu:
+  - [ https://docs.docker.com/compose/install/ ]
+    - [ sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose ] качаем посл версию
+    - [ sudo chmod +x /usr/local/bin/docker-compose ] делаем исполняемым
+    - [ docker-compose -v ] проверяем
+	
+	
+6) основные команды для работы с докером
+  - (*) чтобы не писать постоянно sudo 
+    - [ sudo groupadd docker ] создаем группу докер
+	- [ sudo usermod -aG docker $USER ] добавляем пользователя в группу
+	- [ id ] смторим группы пользователя 
+    - [ reboot ] рестартнуть 
+  - [ sudo docker pull ubuntu ] команда позволяет скачать образ, ubuntu
+  - созданные/скаченные образы пожно посмотреть/удалить
+	- [ docker images ] смотрим список образов
+	- [ docker rmi $(docker images -q) --force ] удалить все образы
+  - [ sudo docker run ubuntu ] запускаем контейнер с образом ubuntu
+    - мы не задали что делать образу поэтому он запустился и завершился 
+  - [ sudo docker run ubuntu echo "Hello World!" ] теперь мы из контейнера запустили команду
+  - [ sudo docker run -it ubuntu ] тут важны флаги [ -it ] мы попадем в терминал ubuntu
+  - [ sudo docker ps -a ] получаем список контейнеров из которых вышли
+  - смотрим на запущенны контейнер
+    - [ sudo docker run --name myDocker1 -it ubuntu ] так мы запустим контейнер присвоив имя
+    - [ sudo docker ps ] смотрим запущенные контейнеры
+	- [ docker attach myDocker1 ] подключиться к работающему контейнеру
+    - [ sudo docker inspect myDocker1 ] получить информацию о запущенном контейнере
+    - [ sudo docker diff  myDocker1 ] посмотреть измененные файлы 
+    - [ sudo docker logs  myDocker1 ] посмотреть список всех событий в контейнере 
+    - [ sudo docker stop myDocker1 ] останавливаем контейнер
+  - важные флаги/параметры запуска
+    - [ sudo docker run -d ubuntu ] флаг -d говорит запустить контейнер в фоновом режиме
+    - [ sudo docker run -p 8000:8080 ubuntu ] флаг -p это проброс портов, сначала порт гостевой машины, потом порт в контейнере 
+    - [ sudo docker run -e JAVA_HOME=/home ubuntu ] флаг -e передает значение переменной окружения
+  - созданные контейнеры не удаляются после выхода
+    - [ sudo docker rm myDocker1 ] удалить контейнер по его имени
+    - [ sudo docker rm -v $(sudo docker ps -aq -f status=exited) ] удалить все контейнеры
+
+
+7) создаем свой образ 
+  - создадим образ с использованием Dockerfile
+    - у нас есть spring-boot приложение [ webClient-0.0.1.jar ]
+    - [ touch Dockerfile ] создаем докер файл
+	- содержимое докер файла: [
+	  #это образ основа
+      FROM openjdk:8-jdk-alpine
+
+      # этот католог машины хоста и он будет двунаправлено доступен в контейнере
+	  # удобно мапить базу данных в контейнере на деректорию на хостовой машине для сохранения данных между запусками
+      VOLUME /tmp
+	  # это аргумент передаваемый в команде build
+      ARG JAR_FILE
+	  # так мы можем выполнить любую команду внутри контейнера
+      RUN echo "$JAR_FILE"
+	  # копируем что либо из нашей машины в контейнер 
+	  # (*) есть еще команда ADD - она позволет тянуть файл по url и распаковывает архивы
+      COPY ${JAR_FILE} app.jar
+
+      # указываем порт нужный нашему контейнеру
+      EXPOSE 8080
+	  # тут определяем как запускать наш контейнер 
+	  # (*) можно указать ключ
+      ENTRYPOINT ["java", "-jar", "/app.jar"]
+	  ]
+	- [ docker build --build-arg JAR_FILE=./webClient-0.0.1.jar -t dzhukov40/myapp  ./ ] собираем образ
+	- [ docker images ] смотрим список образов
+	- [ docker rmi $(docker images -q) --force ] удалить все образы
+	- [ docker run -p 8000:8080 --name myApp dzhukov40/myapp ] запускаем образ
+	- [ http://localhost:8000/health-check/check ] топаем в браузер и видем что смапили порт приложения в контейнере на порт гостевой машины
+	
+
+8) закидываем образ в dockerHub
+  - [ https://hub.docker.com/ ]
+  - [ docker login ] при первом пуше надо залогиниться
+  - [ docker push dzhukov40/myapp ]
+  
+  
+9) создадим пример docker-compose
+  - [ touch docker-compose.yaml ] создадим конфигурационный файл
+  - [ https://hub.docker.com/_/mariadb ] тут есть пример для docker-compos файла
+  - содержимое докер компос файла: [  
+    # Use root/example as user/password credentials
+    version: '3.1'
+
+    services:
+
+      db:
+        image: mariadb
+        restart: always
+        environment:
+          MYSQL_ROOT_PASSWORD: example
+
+      adminer:
+        image: adminer
+        restart: always
+        ports:
+          - 8080:8080
+    ]
+  - [ docker-compose up ] запускаем докер компос (*) можно запустить в фоне -d
+  - [ http://127.0.0.1:8080/ ] топаем в браузер, там увидем клиент DB
+  - [ docker-compose ps ] смотрим на запущенные контейнери через докер компос
+  - (*) в докер компос можно указывать не image а build и указать путь 
+    к скрипту Dockerfile это позволяет запускать образы нами сделанные в докер файлах
+
+
+10) docker-compose термины
+  - services(сервисы) это абстракция, которую можно определить поверх образа
+    чтобы настроить дополнительные параметры, число инстансов балансировку,
+	потребляемые ресурсы, политику востановления и тд.
+  - популярные параметры:
+    - replicas(реплики) это число копий экземпляра контейнера
+    - resources(ресурсы)
+	  - cpus(процессор)
+      - memory(память)
+	- restart_policy(политика перезапуска)
+  - напишем еще один docker-compose файл
+    [
+version: "3"
+services:
+  web:
+    # мой образ hellow world
+    image: dzhukov40/myapp
+    deploy:
+      replicas: 5
+      resources:
+        limits:
+          cpus: "0.1"
+          # memory: 50M
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "8080:8080"
+    networks:
+      - webnet
+networks:
+  webnet:
+	]
+  - теперь пробуем запустить это
+    - [ docker swarm init --advertise-addr enp0s8 ]
+	  - пришлось постафить параметр определяющий сетевой адаптер [ --advertise-addr ]
+	  - команда возвращает токен для подключения другой ноды в кластер swarm
+	    - пример: docker swarm join --token SWMTKN-1-2...pp 192.168.56.101:2377
+	  - [ docker node ls ] смотрим список нод в нашем swarm кластере
+	- [ docker stack deploy -c docker-compose.yaml mySwarmApp ] запускаем приложение
+  - [ docker service ls ] смотрим запущенный сервис
+    - [ docker stack ] другой способ посмотреть запущенные сервисы
+  - [ docker service ps mySwarmApp_web ] посмотреть отдельно инстансы(реплики)
+  - [ curl http://master:8080 ] можем посмотреть что у нас все работает
+    - есть проблемка к прямому обращению к сервису (Failed to connect ...)
+ 	  - [!] надо подаждвть минуты две и тогда доступ появится
+	  - [ nslookup master ] пробуем узнать ip адрес
+  - [ docker stack rm mySwarmApp ] убиваем приложение
+  - [ docker swarm leave --force ] прекращаем работу в swarm режиме
 
 
 
