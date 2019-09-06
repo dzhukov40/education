@@ -1,0 +1,195 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://ru.wordpress.com/ ]
+// gitHub
+- [ https://github.com/php/php-src ]
+
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [wordpress]  система управления содержимым сайта с открытым исходным кодом; 
+написана на PHP
+
+
+
+
+1) устанавливаем на ubuntu wordpress
+  - надо установить [ PHP, Mysql, apache2 ]
+  
+2) устанавливаем [ apache2 ]
+  - смотрим версию в репозитории [ sudo apt show apache2 ]
+  - [ sudo apt install apache2 -y ]
+  - разрешаем входящий трафик [ sudo ufw allow in "Apache Full" ]
+  - заходим на сервер приложений в браузере [ http://<свой ip> ]
+  - проверить состояние сервиса [ sudo systemctl status apache2 ]
+  - по умолчанию похоже надо кидать приложение в [ /var/www/ ]
+  
+3) установим [ php ]
+  - ПЕРВЫЙ СПОСОБ:
+    - [ sudo apt install libapache2-mod-php ]
+  - ВТОРОЙ СПОСОБ :
+  - инструкция: [ https://www.php.net/manual/ru/install.unix.debian.php ]
+  - качаем [ https://www.php.net/downloads.php ]
+    - распаковываем: [ tar -xzvf php-7.3.8.tar.gz ]
+    - выполняем [ ./buildconf --force ]
+      - [*] надо установить [ autoconf ]
+	  - смотрим версию в репозитории [ sudo apt show autoconf ]
+	  - ставим [ sudo apt install autoconf ]
+	- выполняем [ ./buildconf --force ]
+    - выполняем [ ./configure ]
+	  - [*] configure: error: libxml2 not found. Please check your libxml2 installation.
+    - устанавливаем [ sudo apt-get install libxml2-dev ]
+    - компилируем [ make install ]
+	- запускаем тесты: [ make test ]
+  - [!!!!]
+  - после установки рестартуем сервер приложений [ sudo service apache2 reload ]
+  - В директории /var/www/html (или в корне любого другого виртуального хоста) 
+    создайте файл test.php и запишите в него следующую строку: [ <?php phpinfo(); ]
+	- заходим на [ http://localhost/test.php ] 
+	  
+	  
+4) устанавливаем [ mysql ]
+  - [!!!!] ставить из исходников только на машине с десятком гигов свободного места
+	- есть второй способ описанный ниже
+  - ПЕРВЫЙ СПОСОБ :
+    - смотрим версию в репозитории [ sudo apt show mysql-server ]
+    - [ sudo apt install mysql-server -y ]
+  - ВТОРОЙ СПОСОБ СОБРАТЬ ИЗ ИСХОДНИКОВ:
+  - github [ https://github.com/mysql/mysql-server ]
+    - качаем релизный архив [ wget https://github.com/mysql/mysql-server/archive/mysql-cluster-8.0.17.tar.gz ]
+	- распаковываем [ tar -xzvf ./ ]
+	- установим либы [ sudo apt install -y build-essential libncurses5-dev ]
+	- инструкция [ http://dev.mysql.com/doc/refman/8.0/en/source-installation.html ]
+    - ставим сборщик [ sudo apt install cmake cmake-gui ]
+	- устанавливаем [ mkdir bld && cd bld && cmake .. && sudo make ]
+	  - [*] CMake Error at cmake/boost.cmake:103 (MESSAGE):
+	- создали папку и замускаем cmake с флагами на скачку boost
+	  - [ mkdir bld && cd bld && sudo cmake .. -DDOWNLOAD_BOOST=1 -DWITH_BOOST=/home/master/My/boost && sudo make ]
+      - [*] Please install the appropriate openssl developer package.
+      - устанавливаем: [ sudo apt install libssl-dev -y ]
+	- поднялись выше, удалили папку [ sudo rm -fr ./bld ] и опять пробуем собрать
+      - [*]  Bison (GNU parser generator) is required to build MySQL.Please install bison.
+      - ставим [ sudo apt install bison -y ] удаляем старое и по новой
+      - [ mkdir bld && cd bld && sudo cmake .. -DDOWNLOAD_BOOST=1 -DWITH_BOOST=/home/master/My/boost && sudo make ]		
+      - [*] сборка стопится [ sudo make ]
+	    - похоже надо поставить больше памяти для виртуалки -> [ 4G ]
+	  - собирать из исходников на виртуалке плохая идея,
+		при сборке занялось все свободное место диска, виртуалка больше не загружалась
+
+
+5) ставим wordpress
+  - Mysql
+    - создадим базу данных в mysql
+    - конектимся [ sudo mysql ]
+    - создаем [ CREATE DATABASE wordpress; ]
+    - создаем пользователя [ GRANT ALL ON wordpress.* TO 'wordpressuser'@'localhost' IDENTIFIED BY 'password';]
+    - флашнем изменения [ FLUSH PRIVILEGES; ]
+    - выходим [ exit ]   
+  - apache2
+    - Теперь нужно внести поправки в настройки Apache. 
+	  На данный момент файлы .htaccess не поддерживаются. 
+	  WordPress и многие плагины этой системы широко используют функции файлов .htaccess.
+	- открываем [ sudo vim /etc/apache2/apache2.conf ]
+    - добавляем в конец файла:
+[
+<Directory /var/www/html/>
+AllowOverride All
+</Directory>
+]	
+    - включаем мод [ sudo a2enmod rewrite ]
+	- рестартуем сервер приложений [ sudo systemctl restart apache2 ]
+  - WordPress
+    - топаем в директорию где распакован wordpress [ cd /home/master/My/wordpress/wordpress ]
+    - создаем файл [ touch .htaccess ]
+	- устанавливаем права [ chmod 660 .htaccess ] 
+	- копируем образец конфигурации [ cp wp-config-sample.php wp-config.php ]
+	- копируем с сохранением прав на файлы, флаг [ -a ]
+	  - [ sudo cp -a /home/master/My/wordpress/wordpress/. /var/www/html ]
+	-...
+	- теперь настроим права доступа
+	  - [ sudo chown -R <имя_пользователя>:www-data /var/www/html ]
+	  - доступ к файлам [ sudo find /var/www/html -type d -exec chmod g+s {} \; ]
+      - права [ sudo chmod g+w /var/www/html/wp-content ]
+	  - еще права [ sudo chmod -R g+w /var/www/html/wp-content/themes ]
+	  - еще права [ sudo chmod -R g+w /var/www/html/wp-content/plugins ]
+	-...
+	- теперь настроим конфигурационный файл
+	  - получим уникальные ключи [ curl -s https://api.wordpress.org/secret-key/1.1/salt/ ]
+	  - полученные уникальные значения надо пихнуть в файл (*) заменить 
+	    - открываем [ vim /var/www/html/wp-config.php ]
+    -...
+	- установим имя БД, имя пользователя и пароль MySQL.
+	  - открываем [ vim /var/www/html/wp-config.php ]
+	  - устанавливаем 
+[
+define( 'DB_NAME', 'wordpress' );
+
+/** MySQL database username */
+define( 'DB_USER', 'wordpressuser' );
+
+/** MySQL database password */
+define( 'DB_PASSWORD', 'password' );
+
+/** MySQL hostname */
+define( 'DB_HOST', 'localhost' );
+
+/** Database Charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8' );
+
+/** The Database Collate type. Don't change this if in doubt. */
+define( 'DB_COLLATE', '' );
+]
+    - еще надо добавить один дефайн в файл
+	  - [ define('FS_METHOD', 'direct'); ]
+	  
+6) настраиваем уже через гуй wordpress
+  - идем на [ http://192.168.56.103/index.php ]
+    - (*) [ Your PHP installation appears to be missing the MySQL extension which is required by WordPress. ]
+	- проверяем [ mysql -u wordpressuser -p ] -> пароль = [ password ]
+	- решение [ sudo apt update && sudo apt install php7.0-mysql -y ]
+	- перезапуск сервера [ sudo systemctl restart apache2 ]
+	- (*) решаем дальше
+	  - [ php -v ] получаем версию 7.2
+	  - устанавливаем согласно версии [ sudo apt install php7.2-mysql ]
+	  - перезапуск сервера [ sudo systemctl restart apache2 ]
+	- УРА WordPress очнулся [ http://192.168.56.103/index.php ]
+	  
+	  
+	  
+	  
+	  
+
+
+	
+	
+	
+	
+		
+		
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #nop
+#----------------------------------------------- 
+
+  [!] nop
+
+#----------------------------------------------- 
+ 
