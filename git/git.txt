@@ -89,6 +89,7 @@
    - ssh-keygen
    - linux/windows [ cat ~/.ssh/id_rsa.pub ]
    - теперь идем на гитхаб и там в настройках добавляем этот ключ
+   - можно посмотреть настройки локальной копии: [ cat .\.git\config || git config ]
 
 
 [?] nop
