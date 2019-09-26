@@ -23,27 +23,14 @@
 
 
 
-1) устанавливаем
-  - Есть в репозитории [ sudo apt install virtualbox ] (*) чет не пошло
-  - поставим с сайта
-    - [ https://www.virtualbox.org/wiki/Linux_Downloads ]
-    - [ wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add - ]
-    - [ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add - ]
-    - (!) [ sudo apt-get update ]
-    - [ sudo apt-get install virtualbox-5.2 ] (*) не прокатило
-  - меняем файл 
-    - [ sudo vim /etc/apt/sources.list ]
-    - добавили [ deb https://download.virtualbox.org/virtualbox/debian xenial contrib ]
-  - пробуемс:
-    - [ sudo apt-get update ; sudo apt-get install virtualbox-5.2 ]
-    - УСТАНОВИЛОСЬ! 
-  - ОШИБКА !!
-    - [ https://askubuntu.com/questions/900794/virtualbox-rtr3initex-failed-with-rc-1912-rc-1912]
-    - поступили так
-    - [ dpkg -l | grep virtualbox-dkms ]
-    - [ sudo apt-get purge virtualbox-dkms && sudo apt-get install dkms ]
-    - [ sudo /sbin/vboxconfig ]
-  - УРА ! все завелось!
+1) установка
+  - инструкция: [ https://www.virtualbox.org/wiki/Linux_Downloads ]
+  - [ sudo apt update && sudo apt upgrade -y ]
+  - [ wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add - ]
+  - [ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add  ]
+  - [ sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian xenial contrib" ]
+  - [ sudo apt update && sudo apt install virtualbox -y ] 
+  - запуск: [ virtualBox ]
 
 
 2) создаем сеть между виртуальными машинами
