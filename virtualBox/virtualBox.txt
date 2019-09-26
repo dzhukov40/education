@@ -28,10 +28,19 @@
   - [ sudo apt update && sudo apt upgrade -y ]
   - [ wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add - ]
   - [ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add  ]
-  - [ sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian xenial contrib" ]
+  - [ sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib" ]
   - [ sudo apt update && sudo apt install virtualbox -y ] 
   - запуск: [ virtualBox ]
-
+  - ...
+  - хотим ставим 6 версию
+  - качаем деб пакет [ https://download.virtualbox.org/virtualbox/6.0.12/virtualbox-6.0_6.0.12-133076~Ubuntu~bionic_amd64.deb ]
+  - [ sudo apt install ./ ]
+    - ОШИБКА !!	
+      - [ https://askubuntu.com/questions/900794/virtualbox-rtr3initex-failed-with-rc-1912-rc-1912]	
+      - поступили так	
+      - [ sudo apt purge virtualbox-dkms -y && sudo apt install dkms -y ]	
+      - [ sudo /sbin/vboxconfig ]	
+   - УРА ! все завелось!
 
 2) создаем сеть между виртуальными машинами
   - в [VirtualBox] -> [File] -> [Настройки] -> [Сеть] 
