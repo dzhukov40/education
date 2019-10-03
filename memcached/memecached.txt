@@ -28,7 +28,33 @@
 
 2) настройка
   - работа memcached задается через файл /etc/memcached.conf
-  - 
+  
+
+3) работа
+  - для общения с [ memcached ] можно использовать [ telnet ] 
+    - выйти из [ telnet ] -> команда [ quit ] 
+    - простой пример
+      - подключаемся [ telnet localhost 11211 ]
+      - сетаем значение 
+        [ set greeting 1 0 11 
+          Hello World! ]
+      - получаем значение [ get greeting ]
+  - выполнить одну команду [ echo -e 'КОМАНДА\r' | nc localhost 11211 ]
+    - пример [ echo -e 'stats\r' | nc localhost 11211 ] 
+    - получить значение [ echo -e 'get greeting\r' | nc localhost 11211 ]
+
+
+4) как посмотреть все ключи содержащиеся в [ memcached ]
+  - [ echo -e 'stats items\r' | nc localhost 11211 ]
+  - обращаем внимание на [ STAT items:1:number 2 ]
+    - Номер, написанный после items является идентификатором slab. 
+    - каждый slab хранит пары, у которых размер значения лежит в определенном диапазоне. 
+  - [ stats cachedump <slab_id> <number_of_keys_to_display> ]
+    - пример [ echo -e 'stats cachedump  1 100\r' | nc localhost 11211 ]
+
+
+
+
 
 
 
