@@ -3,6 +3,8 @@
 
 // оф сайт
 - [ https://memcached.org/ ]
+- команды [ https://github.com/memcached/memcached/wiki/Commands ]
+- команды [ https://www.tutorialspoint.com/memcached/index.htm ]
  
 
 
@@ -45,6 +47,7 @@
 
 
 4) основные команды
+  - описание команд [ https://www.tutorialspoint.com/memcached/index.htm ]
   - ПОЛУЧИТЬ:
     - get - получить значение по ключу
       - пример [ echo -e 'get key_name\r' | nc localhost 11211 ]
@@ -59,10 +62,6 @@
        - пример [ echo -e 'delete key_name\r' | nc localhost 11211 ] 
 
 
-
-
-
-
 5) как посмотреть все ключи содержащиеся в [ memcached ]
   - [ echo -e 'stats items\r' | nc localhost 11211 ]
   - обращаем внимание на [ STAT items:1:number 2 ]
@@ -72,7 +71,12 @@
     - пример [ echo -e 'stats cachedump  1 100\r' | nc localhost 11211 ]
 
 
-
+6) для числовых значений есть отдельные команды
+  - incr - увеличить значение на <число>
+  - decr - уменьшить на <число>
+    - шаблон [ <команда> <имя ключа> <на сколько поменять> ]
+    - пример [ echo -e 'incr key_name 3\r' | nc localhost 11211 ]
+    - пример [ echo -e 'decr key_name 3\r' | nc localhost 11211 ]
 
 
 
