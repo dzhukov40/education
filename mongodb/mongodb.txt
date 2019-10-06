@@ -1,0 +1,75 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://www.mongodb.com/ ]
+
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ MongoDB ] документоориентированная система управления базами данных (СУБД) 
+с открытым исходным кодом, не требующая описания схемы таблиц. 
+Классифицирована как NoSQL, использует JSON-подобные документы и схему базы данных. 
+Написана на языке C++.
+
+ 
+
+1) устанавливаем [ https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/ ]
+  - [ wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add - ]
+  - [ echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list ]
+  - [ sudo apt-get update ]
+  - [ sudo apt-get install -y mongodb-org ]
+  - [
+echo "mongodb-org hold" | sudo dpkg --set-selections
+echo "mongodb-org-server hold" | sudo dpkg --set-selections
+echo "mongodb-org-shell hold" | sudo dpkg --set-selections
+echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+echo "mongodb-org-tools hold" | sudo dpkg --set-selections
+  ]
+
+
+2) настройка
+  - работа memcached задается через файл [ /etc/mongod.conf ]
+  - файл логов [ /var/log/mongodb ]
+  - стартуем сервис [ sudo service mongod start ]
+    - (*) порт по умолчанию [ 27017 ]
+  - чтобы подключиться к запущенному инстансу пишем [ mongo ]
+  
+
+3) работа [ https://docs.mongodb.com/manual/reference/mongo-shell/ ]
+  - подключаемся через консольный клиент [ mongo ]
+  - КОМАНДЫ ПОМОШНИКИ:
+    - смотрим список баз данных [ show dbs ]
+    - подключаемся к базе [ use <имя базы> ]
+    - посмотреть список коллекций [ db.getCollectionNames() ]
+    - посмотреть информацию о коллекциях [ db.getCollectionInfos() ] 
+  - КОМАНДЫ ЗАПРОСОВ:
+
+
+
+  
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
