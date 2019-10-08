@@ -46,23 +46,22 @@ echo "mongodb-org-tools hold" | sudo dpkg --set-selections
   - чтобы подключиться к запущенному инстансу пишем [ mongo ]
   
 
-3) работа [ https://docs.mongodb.com/manual/reference/mongo-shell/ ]
+3) команды помошники [ https://docs.mongodb.com/manual/reference/mongo-shell/ ]
   - подключаемся через консольный клиент [ mongo ]
   - КОМАНДЫ ПОМОШНИКИ:
     - смотрим список баз данных [ show dbs ]
     - подключаемся к базе [ use <имя базы> ]
     - посмотреть список коллекций [ db.getCollectionNames() ]
     - посмотреть информацию о коллекциях [ db.getCollectionInfos() ] 
-  - КОМАНДЫ ЗАПРОСОВ: (*) примеры запросов есть дальше
-    - поиск [ db.collection_name.find({запрос}, {оператор проекции}) ]
-      - collection_name - имя коллекции
-      - запрос - определяем какие документы ищем
-      - оператор проекции - определяем что хотим видеть в результате
-        - состоит из пар "название поля: флаг отображен (1 — отображать, 0 — не отображать).
+  
 
-
-4) примеры
-  - команды поиска
+4) команды поиска 
+  - поиск [ db.collection_name.find({запрос}, {оператор проекции}) ]
+    - collection_name - имя коллекции
+    - запрос - определяем какие документы ищем
+    - оператор проекции - определяем что хотим видеть в результате
+      - состоит из пар "название поля: флаг отображен (1 — отображать, 0 — не отображать).
+  - (*) ПРИМЕРЫ:
     - Найти все документы в коллекции
       - [ db.collection_name.find() ]
     - оператор AND
@@ -94,6 +93,73 @@ echo "mongodb-org-tools hold" | sudo dpkg --set-selections
   - [ count ] оператор подсчета документов в результате
   - (*) пример
     - [ db.collection_name.find({...}).count() ]
+
+
+8) команды вставки
+  - вставка [ db.collection_name.insert() лучше не использовать]
+    - для вставки используем один из этих методов:
+      - [ db.collection_name.insertOne(<document>, {writeConcern: <document>}) ]
+      - [ db.collection_name.insertMany([ <document 1> ... ], {writeConcern: <document>, ordered: <boolean}) ]
+      - (*) если не указать явно [ _id ], то он сгенерируется автоматически
+        - collection_name - имя коллекции
+        - document - вставляемый документ 
+        - writeConcern - политика распространения изменений на другие узлы
+        - ordered - булевский флаг, определяет упорядочить изменения или нет
+  - (*) ПРИМЕРЫ:
+    - вставить один документ
+      - [ db.collection_name.insertOne({field1: "val1", field2: "val2"}) ]
+    - вставить несколько документов
+      - [ db.collection_name.insertMany([{_id: "doc1",field1: "val1"}, {_id: "doc2", field2: "val2"}]) ]
+
+
+8) команды обновления
+  - вставка [ db.collection_name.update() лучше не использовать]
+    - для вставки обновления один из этих методов:
+      - [ db.collection_name.updateOne({запрос}, {update-операторы}, 
+          { upsert: <boolean>, multi: <boolean>, writeConcern: <document>, collation: <document>}) ]
+      - [ db.collection_name.updateMany({запрос}, {update-операторы}, 
+          { upsert: <boolean>, multi: <boolean>, writeConcern: <document>, collation: <document>}) ]
+    - запрос — условие для поиска удаляемых документов
+    - update-операторы — документ, описывающий вносимые изменения
+      - (*) [ https://docs.mongodb.com/manual/reference/operator/update/ ]
+      - $set
+      - $unset
+      - $inc 
+      - $rename
+    - upsert — создавать ли новый документ, если ни один из существующих не подходит под запрос
+    - multi — применять ли изменения ко всем документам, подходящим под запрос, или к первому найденному
+    - writeConcern — политика распространения изменений на другие узлы
+    - collation — специфические для отдельных локалей параметры обработки строк
+  - (*) ПРИМЕРЫ:
+    - обновим документ у которого _id = 123, изменяем поле location
+      - [ db.collection_name.updateOne({_id: "123"}, {$set: {location: "Berlin"}}) ]
+
+
+8) команды удаления
+  - удаление [ db.collection_name.remove({запрос}, 
+    {justOne: <boolean>, writeConcern: <document>, collation: <document> }) ]
+    - запрос — условие для поиска удаляемых документов
+    - justOne — удалять ли все документы, или только первый
+    - writeConcern — определяет политику распространения изменений на другие узлы
+    - collation — определяет специфические для отдельных локалей параметры обработки строк
+  - (*) ПРИМЕРЫ:
+    - удалить все записи по условию
+      - [ db.collection_name.remove({field1: "a", field2: "b"}) ]
+    - удалить только первую запись по условию
+      - [ db.collection_name.remove({field1: "a", field2: "b"}, {justOne: true}) ]
+
+
+9) как посмотреть размер данных в коллекции
+  - посмотреть характеристики базы данных [ db.stats() ]
+
+
+
+
+
+
+
+
+
 
 
 
