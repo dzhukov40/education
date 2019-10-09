@@ -1,0 +1,87 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://neo4j.com/ ]
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ neo4j ] графовая система управления базами данных с открытым исходным кодом, 
+реализованная на Java. 
+
+ 
+
+1) устанавливаем
+  - (*) [ https://neo4j.com/docs/operations-manual/current/installation/ ]
+  - у нас должна быть установлена [ Java ]
+  - [ sudo add-apt-repository -y ppa:openjdk-r/ppa ]
+  - [ wget -O - https://debian.neo4j.org/neotechnology.gpg.key | sudo apt-key add - ]
+  - [ echo 'deb https://debian.neo4j.org/repo stable/' | sudo tee -a /etc/apt/sources.list.d/neo4j.list ]
+  - [ sudo apt update]
+  - [ sudo apt install neo4j=1:3.5.11 -y ]
+  - проверка [ neo4j --version ]
+
+
+2) работа
+  - конфигурационный файл [ /etc/neo4j/neo4j.conf ]
+  - раскоментим строчку из конфига [ dbms.security.auth_enabled=false ]
+  - запускаем: [ neo4j start ]
+  - топаем в браузер [ http://localhost:7474/ ]
+  - (*) [ cypher-shell ] утилита для работы в консоле с node4j
+    - документация [ https://neo4j.com/docs/cypher-manual/current/ ]
+    - [ :help ] справка по командам
+
+
+3) как создать граф/отношение
+  - (*) [ https://neo4j.com/docs/cypher-manual/current/clauses/create/ ]
+  - [ CREATE ] - команда для создания узла или отношения между узлами
+  - [
+CREATE (
+   <node_name>:<label_name>
+   {
+      <property_name_1>:<property_value_1>,
+      ... ,
+      <property_name_n>:<property_value_n>
+   }
+); 
+]
+  - <node_name> — имя узла в текущем запросе (при поиске имя узла может быть другим)
+  - <label_name> — метка этого узла
+  - (*) Свойства представляют собой пару ключ-значение:
+    - <property_name_*> — имя свойства
+    - <property_value_*> — значение свойства
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
