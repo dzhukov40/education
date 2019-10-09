@@ -49,9 +49,9 @@
 CREATE (
    <node_name>:<label_name>
    {
-      <property_name_1>:<property_value_1>,
+      <property_name_1>: "<property_value_1>",
       ... ,
-      <property_name_n>:<property_value_n>
+      <property_name_n>: "<property_value_n>"
    }
 ); 
 ]
@@ -60,10 +60,16 @@ CREATE (
   - (*) Свойства представляют собой пару ключ-значение:
     - <property_name_*> — имя свойства
     - <property_value_*> — значение свойства
-
-
-
-
+  - СОЗДАЕМ СВЯЗЬ:
+    - [ CREATE (node1)-[:RelationshipType]->(node2); ]]
+      - node1 - имя первого узла
+      - node2 - имя второго узла
+      - RelationshipType - метка для создаваемого отношения
+  - (*) ПРИМЕРЫ:
+    - создать узел 
+      - [ CREATE (Person:person { name: "Ben" } ); ]    
+    - создать узел и вернуть его назад [ RETURN ]
+      - [ CREATE (a:Person {name:'Andres' }) RETURN a; ]
 
 
 
