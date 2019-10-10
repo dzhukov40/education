@@ -37,6 +37,7 @@
   - раскоментим строчку из конфига [ dbms.security.auth_enabled=false ]
   - запускаем: [ neo4j start ]
   - топаем в браузер [ http://localhost:7474/ ]
+  - для запросов используется специальный язык [ Cypher Query Language ]
   - (*) [ cypher-shell ] утилита для работы в консоле с node4j
     - документация [ https://neo4j.com/docs/cypher-manual/current/ ]
     - [ :help ] справка по командам
@@ -70,7 +71,71 @@ CREATE (
       - [ CREATE (Person:person { name: "Ben" } ); ]    
     - создать узел и вернуть его назад [ RETURN ]
       - [ CREATE (a:Person {name:'Andres' }) RETURN a; ]
+    - создаем два узла и связь между ними
+      - [ CREATE (Person1:Person { name: "Alice" } ) RETURN Person1; ]
+      - [ CREATE (Person2:Person { name: "Bob" } ) RETURN Person2; ]
+      - [ MATCH (Person1:Person { name: "Alice" } ), (Person2:Person { name: "Bob" } ) 
+          CREATE (Person1)-[:HAS_FRIEND]->(Person2) RETURN Person1, Person2;
+        ]
+    - найти узлы с метками [ Person ] c именами [ Alice и Bob] создать связь с [ duration ]
+    - [ MATCH (a:Person),(b:Person) WHERE a.name = 'Alice' AND b.name ='Bob' 
+        CREATE (b)-[r:HAS_FRIEND { duration: 6}]->(a);  
+      ]
+ 
 
+4) операция слияния [ MERGE ]
+  - если выполнять одну и ту же команду создания, это породит кучу одинаковых узлов
+    - [ CREATE (:Person {name: "Alice"}); ]
+  - существует ли такой узел: если нет, то создаст его, иначе ничего не будет делать.
+    - (*) тип и атрибуты с их значениями должны полностью соответствовать
+    - [ MERGE (:Person {name: "Alice"}); ]
+  - Можно использовать MERGE и для создания связей у существующих узлов
+    - [ MATCH (a:Person {name: "Alice"}), (b:Person {name: "Katya"})
+        MERGE (a)-[:Friendship]->(b)
+        RETURN a, b;
+      ]
+
+
+
+5) поиск в графе
+  - [ https://neo4j.com/docs/cypher-manual/current/syntax/patterns/ ]
+  - общий шаблон [ MATCH <шаблон> RETURN <возвращаемые_значения>; ]
+    - шаблон - определяем какие узлы мы ищем
+    - возвращаемые_значения - указываем элементы, которые хотим вернуть
+  - ПОИСК УЗЛОВ:
+    - (*) переменная обернутая в круглые скобки соответствует всем узлам
+    - [ MATCH (n) RETURN n; ] найти все узлы
+    - [ MATCH (n:Person) RETURN n; ] найти все узлы с меткой [Person]
+    - [ MATCH (n:Person {name: "Alice"}) RETURN n; ] с меткой [Person] и свойством
+    - [ MATCH (n:Person) RETURN n.name; ] вывести определенные свойства
+    - [ MATCH (n:Person) RETURN n LIMIT 25; ] ограничим результат
+    - [ MATCH (n:Person) RETURN DISTINCT n.name; ] определить уникальные свойства
+    - [ MATCH (n:Person) RETURN n.name, n.id ORDER BY n.name; ] сортировка
+    - [ MATCH (n1:Person), (n2:Person) RETURN *; ] вывести все переменные из шаблона
+  - ПОИСК СВЯЗЕЙ:
+    - [ MATCH (n1)--(n2) RETURN n1, n2; ] найти все пары узлов между которыми есть связь
+    - [ MATCH (n1)-->(n2) RETURN n1, n2;] только со связью в одну сторону
+    - [ MATCH (n1)<--(n2) RETURN n1, n2;] только со связью в одну сторону
+    - [ MATCH (n1)-[r]->(n2) RETURN n1, n2, r; ] ищем все связи
+    - [ MATCH (n1)-[relationship]->(n2) RETURN n1, n2;]  ищем определенную связь
+    - [ MATCH (n1)-[r:relationship]->(n2) RETURN n1, n2, r;] вывести связь
+    - [ MATCH (n1)-[:Friendship {date: "1 Sep 2017"}]->(n2) RETURN n1, n2; ]
+      - (*) у связей есть свойства, можем их использовать для поиска
+    - [ MATCH (n)-->() RETURN n; ] найти все связанные узлы
+    - [ ()-[r]->() ] найти все связи
+    - [ MATCH ()-[r]->() RETURN DISTINCT type(r); ] узнать, какие метки у связей существуют
+  - ПРИМЕНЕНИЕ [ WHERE ]:
+    - [ AND, OR, XOR, NOT ] логические операторы
+    - [  =, <>, <, >, <=, >= ] операторы сравнения
+    - [ IS NULL, IS NO NULL ] есть работа с null полями
+    - (*) есть поддержка регулярных выражений
+    - (*) примеры:
+      - [ MATCH (n:Person) WHERE n.age >= 21 AND n.age <= 35 RETURN n; ] 
+      - [ MATCH (n) WHERE NOT (n)--() RETURN n; ] найти узлы без каких либо связей
+      - [ MATCH (n),(n2) WHERE n.id = 0 AND (n)-->(n2) RETURN n, n2; ] все связвнные пары
+
+
+6) изменения в графе
 
 
 
