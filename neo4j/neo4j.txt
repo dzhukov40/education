@@ -136,6 +136,33 @@ CREATE (
 
 
 6) изменения в графе
+  - для удаления используется [ DELETE ]
+    - (*) Удобно представлять [ DELETE ] как противоположную версию [ RETURN ]
+  - [ DETACH ] - удалить узел вместе с зависимостями
+  - ПРИМЕРЫ:
+    - [ MATCH (n) DELETE n; ] удалить все узлы в базе (*) усл есть связи, не удалит
+    - [ MATCH ()-[r]->() DELETE r; ] удалить все связи в базе
+    - [ MATCH (n) DETACH DELETE n; ] удалить все узлы в базе (*) с зависимостями
+  -...
+  - изменение полей в графе [ REMOVE ]
+    - [ MATCH (n:Person {name: "Borya"}) REMOVE n.age RETURN n; ] удалить поле [n.age]
+    - [ MATCH (n:Person {name: "Borya"}) REMOVE n:Person; ] удалить метку
+  -...
+  - изменение полей в графе [ SET ]
+    - (*) [ https://neo4j.com/docs/developer-manual/3.3/cypher/clauses/set/ ]
+    - [ MATCH (n:Person {name: "Borya"}) SET n.name = "Boris"; ] изменить имя
+    - если полей небыло то они добавятся, если есть изменятся
+      - [ MATCH (n:Person {name: "Bоris"}) SET n.surname = "Yurinоv", n.alias = "thе Blаdе"; ]
+    - (*) эти правила актуальны и для связей 
+
+
+7) профилирование запросов
+  - (*) [ https://neo4j.com/docs/developer-manual/3.4/cypher/execution-plans/ ]
+  - [ EXPLAIN ]
+    - перед запросом ставим [ EXPLAIN ] увидем план запроса, (*) запрос не выполнитчя
+  - [ PROFILE ]
+    - перед запросом ставим [ PROFILE ] и мы увидем план запроса, (*) запрос выполнитчя
+    - (*) подсчитает, сколько строк прошло через операторы
 
 
 
