@@ -95,8 +95,10 @@
 	
 6) основные команды для работы с докером
   - (*) чтобы не писать постоянно sudo 
+    - [ https://docs.docker.com/install/linux/linux-postinstall/ ]
     - [ sudo groupadd docker ] создаем группу докер
 	- [ sudo usermod -aG docker $USER ] добавляем пользователя в группу
+  - [ newgrp docker ]
 	- [ id ] смторим группы пользователя 
     - [ reboot ] рестартнуть 
   - [ sudo docker pull ubuntu ] команда позволяет скачать образ, ubuntu
@@ -241,9 +243,15 @@ networks:
   - [ docker swarm leave --force ] прекращаем работу в swarm режиме
 
 
+11) как посмотреть слои образа
+  - [ docker history <имя образа> ]
+  - пример: [ docker history payment --format "{{.ID}}: {{.CreatedBy}}" --no-trunc ]
 
 
-
+12) как примонтировать директорию/файл в контейнер
+  - [ -v ] рименяется для монтирования директории
+  - [ docker run -v <директория_гостевой_ос>:<директория_ос_докере>  ubuntu:14.04 ]
+    - пример [ docker run -it --rm -v $(pwd):/home ubuntu:14.04 ]
 
 
 
