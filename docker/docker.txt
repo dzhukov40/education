@@ -7,6 +7,8 @@
 - [ https://habr.com/post/310460/ ]
 // видосики
 - [ https://youtu.be/XtO3hUWLKF8?list=PLD5U-C5KK50XMCBkY0U-NLzglcRHzOwAg ]
+// дока на русском
+- [ https://dker.ru/docs/docker-engine/learn-by-example/manage-data-in-containers/ ]
  
 
 
