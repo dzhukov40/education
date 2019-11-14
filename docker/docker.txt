@@ -90,7 +90,7 @@
 
 5) устанавливаем docker-compose на ubuntu:
   - [ https://docs.docker.com/compose/install/ ]
-    - [ sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose ] качаем посл версию
+    - [ sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose ] качаем посл версию
     - [ sudo chmod +x /usr/local/bin/docker-compose ] делаем исполняемым
     - [ docker-compose -v ] проверяем
 	
@@ -252,8 +252,17 @@ networks:
 
 12) как примонтировать директорию/файл в контейнер
   - [ -v ] рименяется для монтирования директории
-  - [ docker run -v <директория_гостевой_ос>:<директория_ос_докере>  ubuntu:14.04 ]
+  - [ docker run -v <директория_гостевой_ос>:<директория_ос_докере> --name store ubuntu:14.04 ]
     - пример [ docker run -it --rm -v $(pwd):/home ubuntu:14.04 ]
+
+13) как совместно использовать контейнерами директорию/файл гостевой ОС
+  - [ docker run -v <директория_гостевой_ос>:<директория_ос_докере>  ubuntu:14.04 ] 
+    - апускаем контейнер с примонтированными директориями
+  - [ --volumes-from ] теперь при запуске нового контейнера мы будем ссылаться на него
+    - [ docker run -it --rm --volumes-from store ubuntu] (*) [ store ] это имя контейнера
+
+14) как удалить тома докерфа
+  - 
 
 
 
