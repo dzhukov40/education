@@ -28,8 +28,7 @@ inline void* createMetaData(void* point, std::size_t size, void* prevPoint, void
     ((dataHeader*)point)->previous = prevPoint;
     ((dataHeader*)point)->next = nextPoint;
 
-    //std::cout << "dataPointer: " << (void*)((uint64_t)point + sizeof(dataHeader)) << std::endl;
-    return point;
+    return (void*)((uint64_t)point + sizeof(dataHeader));
 }
 
 inline void* getDataPoint(void *point) {
@@ -41,10 +40,12 @@ inline  void* newPointBySize(void *point, uint64_t size) {
 }
 
 inline uint64_t getFreeSpace(rootMetaData* root, void *point, void *prevPoint) {
+    void* localPrevPoint = (prevPoint == NULL) ? root->buf : prevPoint;
+
     if (point == NULL)  // дошлли до конца списка
-        return (uint64_t)root->endBuf - ((uint64_t)prevPoint + ((dataHeader*)prevPoint)->size + sizeof(dataHeader));
-    else
-        return (uint64_t)prevPoint - (uint64_t)point;
+        return (uint64_t)root->endBuf - ((uint64_t)localPrevPoint + ((dataHeader*)localPrevPoint)->size + sizeof(dataHeader));
+    else // где - то между элементами
+        return (uint64_t)localPrevPoint - (uint64_t)point;
 }
 
 inline  dataHeader* castPoint(void *point) {
@@ -67,8 +68,10 @@ inline void freePlace(rootMetaData* localRoot, dataHeader* ptr) {
     if(ptr == NULL) return;
     dataHeader* nextPtr = castPoint(ptr->next);
 
-    if(ptr->previous == localRoot) {
-        ((rootMetaData*)ptr->previous)->next = nextPtr;
+    if(ptr->previous == NULL) {
+        localRoot->next = nextPtr;
+        if (nextPtr != NULL)
+            nextPtr->previous = NULL;
     } else {
         dataHeader* previousPtr = castPoint(ptr->previous);
         previousPtr->next = nextPtr;
@@ -76,6 +79,8 @@ inline void freePlace(rootMetaData* localRoot, dataHeader* ptr) {
 }
 
 void printAllDataHeader(dataHeader* header, int i) {
+    if(header == NULL) return;
+
     std::cout << "-- " << i << " --" << std::endl;
     std::cout << "dataHeader->size: " << header->size << std::endl;
     std::cout << "dataHeader->next: " << static_cast<void*>(header->next) << std::endl;
@@ -97,8 +102,9 @@ void printMemory(rootMetaData* localRoot) {
     int i = 0;
     printAllDataHeader((dataHeader*)localRoot->next, i);
 
-    std::cout << "-- END MEMORY --" << std::endl;
+    std::cout << "-- END MEMORY --" << std::endl << std::endl;
 }
+
 
 
 static rootMetaData root;
@@ -113,7 +119,7 @@ void mysetup(void *buf, std::size_t size)
 
 inline void findBestChoice(rootMetaData* localRoot, int64_t size, bestChoice* bestPlace) {
     void* point = localRoot->next;
-    void* prevPoint = localRoot->buf;
+    void* prevPoint = NULL;
     bestPlace->freeSpace = UINT64_MAX;
 
     int i = 1;
@@ -124,7 +130,9 @@ inline void findBestChoice(rootMetaData* localRoot, int64_t size, bestChoice* be
             bestPlace->freeSpace = freeSpace;
             bestPlace->next = point;
             bestPlace->previous = prevPoint;
-            bestPlace->newPlace = newPointBySize(prevPoint, sizeof(dataHeader));
+            bestPlace->newPlace = (prevPoint == NULL)
+                    ? localRoot->buf
+                    : newPointBySize(prevPoint, castPoint(prevPoint)->size + sizeof(dataHeader));
         }
 
         if (point == NULL) { //дошли до конца
@@ -152,11 +160,15 @@ void *myalloc(std::size_t size)
 
     dataHeader* previousPtr = castPoint(bestPlace.previous); // оставим так для отладки
     dataHeader* nextPtr = castPoint(bestPlace.next);
-    previousPtr->next = bestPlace.newPlace;  // у крайних элементов поменять указатели
+    if (previousPtr != NULL)
+        previousPtr->next = bestPlace.newPlace;  // у крайних элементов поменять указатели
+    else
+        root.next = bestPlace.newPlace;
     if (nextPtr != NULL)
         nextPtr->previous = bestPlace.newPlace;
 
     // debug
+    // std::cout << "## MY MALLOC " << static_cast<void*>(bestPlace.newPlace) << " ##" << std::endl;
     // printMemory(&root);
 
 
@@ -170,7 +182,8 @@ void myfree(void *p)
     freePlace(&root, placeForFree);
 
     // debug
-   // printMemory(&root);
+    // std::cout << "## MY FREE " << static_cast<void*>((void*)((uint64_t)p - sizeof(dataHeader))) << " ##" << std::endl;
+    // printMemory(&root);
 }
 
 
@@ -203,14 +216,14 @@ test -> 25770278768
         25770278774   разница в "ALLOC_SIZE" ?????
  */
 void ManyAllocTest() {
-    const int BUF_SIZE = 500;
-    const int ALLOC_SIZE = 6;
+    const int BUF_SIZE = 5000;
+    const int ALLOC_SIZE = 5;
     void *buf = malloc(BUF_SIZE);
 
     mysetup(buf, BUF_SIZE);
 
     void* test1;
-    for(int i = 0; i<50; i++) {
+    for(int i = 0; i<5; i++) {
         test1 = myalloc(ALLOC_SIZE);
         assert((uint64_t)test1 == ((uint64_t)buf + sizeof(dataHeader) + (ALLOC_SIZE + sizeof(dataHeader)) * i));
     }
@@ -223,13 +236,13 @@ void ManyAllocTest() {
  */
 void BigAllocTest() {
     const int BUF_SIZE = 5242880;
-    const int ALLOC_SIZE = 524280;
+    const int ALLOC_SIZE = 5242700;
     void *buf = malloc(BUF_SIZE);
 
     mysetup(buf, BUF_SIZE);
 
     void* test1 = myalloc(ALLOC_SIZE);
-    assert((uint64_t)test1 == ((uint64_t)buf + ALLOC_SIZE + sizeof(dataHeader)));
+    assert((uint64_t)test1 == ((uint64_t)buf + sizeof(dataHeader)));
 
     std::cout << "BigAllocTest: Ok" << std::endl;
 }
@@ -243,14 +256,56 @@ void OneFreeTest() {
 
     mysetup(buf, BUF_SIZE);
     void* test1;
-    test1 = myalloc(ALLOC_SIZE);
-    free(test1);
+    void* test2;
     test1 = myalloc(ALLOC_SIZE);
 
-    assert((uint64_t)test1 == ((uint64_t)buf + ALLOC_SIZE + sizeof(dataHeader)));
+    assert((uint64_t)test1 == ((uint64_t)buf + sizeof(dataHeader)));
+
+    myfree(test1);
+    test2 = myalloc(ALLOC_SIZE);
+
+    assert((uint64_t)test2 == ((uint64_t)buf + sizeof(dataHeader)));
 
     std::cout << "OneFreeTest: Ok" << std::endl;
 }
+
+/**
+ */
+void TwoReversFreeTest() {
+    const int BUF_SIZE = 500;
+    const int ALLOC_SIZE = 10;
+    void *buf = malloc(BUF_SIZE);
+
+    mysetup(buf, BUF_SIZE);
+    void *test1, *test2, *test3;
+
+    test1 = myalloc(ALLOC_SIZE);
+    test2 = myalloc(ALLOC_SIZE);
+    test3 = myalloc(ALLOC_SIZE);
+
+    myfree(test1);
+    myfree(test2);
+    myfree(test3);
+
+    test1 = myalloc(ALLOC_SIZE);
+
+    //assert((uint64_t)test1 == ((uint64_t)buf + sizeof(dataHeader)));
+
+    std::cout << "TwoReversFreeTest: Ok" << std::endl;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -258,10 +313,11 @@ void OneFreeTest() {
 
 int main() {
 
-    OneAllocTest();
-    ManyAllocTest();
-    BigAllocTest();
-    OneFreeTest();
+    //OneAllocTest();
+    //ManyAllocTest();
+    //BigAllocTest();
+    //OneFreeTest();
+    TwoReversFreeTest();
 
 
 /*    const int BUF_SIZE = 500;
