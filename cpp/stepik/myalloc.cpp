@@ -1,6 +1,6 @@
 #include <iostream>
 #include <assert.h>
-
+#include <set>
 
 struct rootMetaData {
     size_t size;
@@ -43,14 +43,11 @@ inline uint64_t getFreeSpace(rootMetaData* root, void *point, void *prevPoint) {
     void* localPrevPoint = (prevPoint == NULL) ? root->buf : prevPoint;
 
     if (prevPoint == NULL && point == NULL) // самый первый кусочек
-        return root->size - sizeof(dataHeader);
+        return root->size;
     else if (point == NULL)  // дошлли до конца списка
-        //if (root->endBuf < (void*)((uint64_t)localPrevPoint + ((dataHeader*)localPrevPoint)->size))
-         //   return -1;
-        //else
-            return (uint64_t)root->endBuf - ((uint64_t)localPrevPoint + ((dataHeader*)localPrevPoint)->size + sizeof(dataHeader));
-    if (prevPoint == NULL)
-        return (uint64_t)point - (uint64_t)root->buf ;
+        return (uint64_t)root->endBuf - ((uint64_t)localPrevPoint + ((dataHeader*)localPrevPoint)->size + sizeof(dataHeader));
+    if (prevPoint == NULL) // первый элемент в цепочке
+        return (uint64_t)point - (uint64_t)root->buf;
     else // где - то между элементами
         return (uint64_t)point - ((uint64_t)localPrevPoint + ((dataHeader*)localPrevPoint)->size + sizeof(dataHeader));
 }
@@ -83,6 +80,8 @@ inline void freePlace(rootMetaData* localRoot, dataHeader* ptr) {
     } else {
         dataHeader* previousPtr = castPoint(ptr->previous);
         previousPtr->next = nextPtr;
+        if (nextPtr != NULL)
+            nextPtr->previous = ptr->previous;
     }
 }
 
@@ -126,15 +125,15 @@ void mysetup(void *buf, std::size_t size)
 }
 
 inline void findBestChoice(rootMetaData* localRoot, int64_t size, bestChoice* bestPlace) {
-    void* point = localRoot->next;
-    void* prevPoint = NULL;
+    void *point = localRoot->next;
+    void *prevPoint = NULL;
     bestPlace->freeSpace = UINT64_MAX;
 
     int i = 1;
     while (i++) { // пробегаемся по списку и ищем лучшее место
         int64_t freeSpace = getFreeSpace(localRoot, point, prevPoint);
 
-        if (freeSpace >= size && freeSpace < bestPlace->freeSpace) { // обновляем лучший вариант
+        if (freeSpace >= (size + sizeof(dataHeader)) && freeSpace < bestPlace->freeSpace) { // обновляем лучший вариант
             bestPlace->freeSpace = freeSpace;
             bestPlace->next = point;
             bestPlace->previous = prevPoint;
@@ -153,10 +152,11 @@ inline void findBestChoice(rootMetaData* localRoot, int64_t size, bestChoice* be
     }
 }
 
-
 // Функция аллокации
 void *myalloc(std::size_t size)
 {
+    if (size < 1) return NULL;
+
     struct bestChoice bestPlace{};
     findBestChoice(&root, size, &bestPlace); // получить подходящее место для хранения
 
@@ -166,6 +166,7 @@ void *myalloc(std::size_t size)
     // создаем мета информацию на занимаемый кусочек
     void* dataPoint = createMetaData(bestPlace.newPlace, size, bestPlace.previous, bestPlace.next);
 
+    //TODO: можно вынести в отдельную ф-ию
     dataHeader* previousPtr = castPoint(bestPlace.previous); // оставим так для отладки
     dataHeader* nextPtr = castPoint(bestPlace.next);
     if (previousPtr != NULL)
@@ -176,8 +177,8 @@ void *myalloc(std::size_t size)
         nextPtr->previous = bestPlace.newPlace;
 
     // debug
-    //std::cout << "## MY MALLOC " << static_cast<void*>(bestPlace.newPlace) << " ##" << std::endl;
-    //printMemory(&root);
+    // std::cout << "## MY MALLOC " << static_cast<void*>(bestPlace.newPlace) << " ##" << std::endl;
+    // printMemory(&root);
 
     return dataPoint;
 }
@@ -201,31 +202,36 @@ void myfree(void *p)
 
 
 
+void checkRangeOfPointer(void *endBuf, void *point) {
+    if(point == NULL)
+        return;
+    assert(endBuf > point);
+}
+
 /**
-buf ->  0x600063ce0  ->  25770212576
-test -> 0x600063d10  ->  25770212624  почему разница > 24
  */
 void OneAllocTest() {
     const int BUF_SIZE = 500;
     const int ALLOC_SIZE = 400;
     void *buf = malloc(BUF_SIZE);
+    void *endBuf = (void*)((uint64_t)buf + BUF_SIZE);
 
     mysetup(buf, BUF_SIZE);
     void* test1 = myalloc(ALLOC_SIZE);
 
     assert((uint64_t)test1 == ((uint64_t)buf + sizeof(dataHeader)));
+    checkRangeOfPointer(endBuf, test1);
 
     std::cout << "OneAllocTest: Ok" << std::endl;
 }
 
 /**
-test -> 25770278768
-        25770278774   разница в "ALLOC_SIZE" ?????
  */
 void ManyAllocTest() {
     const int BUF_SIZE = 5000;
     const int ALLOC_SIZE = 5;
     void *buf = malloc(BUF_SIZE);
+    void *endBuf = (void*)((uint64_t)buf + BUF_SIZE);
 
     mysetup(buf, BUF_SIZE);
 
@@ -233,33 +239,71 @@ void ManyAllocTest() {
     for(int i = 0; i<5; i++) {
         test1 = myalloc(ALLOC_SIZE);
         assert((uint64_t)test1 == ((uint64_t)buf + sizeof(dataHeader) + (ALLOC_SIZE + sizeof(dataHeader)) * i));
+        checkRangeOfPointer(endBuf, test1);
     }
 
     std::cout << "ManyAllocTest: Ok" << std::endl;
 }
 
 /**
-
  */
 void BigAllocTest() {
     const int BUF_SIZE = 5242880;
     const int ALLOC_SIZE = 5242700;
     void *buf = malloc(BUF_SIZE);
+    void *endBuf = (void*)((uint64_t)buf + BUF_SIZE);
 
     mysetup(buf, BUF_SIZE);
 
     void* test1 = myalloc(ALLOC_SIZE);
     assert((uint64_t)test1 == ((uint64_t)buf + sizeof(dataHeader)));
+    checkRangeOfPointer(endBuf, test1);
 
     std::cout << "BigAllocTest: Ok" << std::endl;
 }
 
 /**
  */
-void OneFreeTest() {
+void outOfRangeTest() {
+    const int BUF_SIZE = 500;
+    const int ALLOC_SIZE = 500;
+    void *buf = malloc(BUF_SIZE);
+    void *endBuf = (void*)((uint64_t)buf + BUF_SIZE);
+
+    mysetup(buf, BUF_SIZE);
+
+    void *test1, *test2, *test3, *test4, *test5;
+
+    test1 = myalloc(ALLOC_SIZE);
+    assert(test1 == NULL);
+
+    test2 = myalloc((ALLOC_SIZE + 1) - sizeof(dataHeader));
+    assert(test2 == NULL);
+
+    test3 = myalloc(ALLOC_SIZE - sizeof(dataHeader));
+    assert(test3 != NULL);
+    checkRangeOfPointer(endBuf, test3);
+    myfree(test3);
+
+    test4 = myalloc((ALLOC_SIZE - 1) - sizeof(dataHeader));
+    assert(test4 != NULL);
+    checkRangeOfPointer(endBuf, test4);
+    myfree(test4);
+
+    test5 = myalloc(0);
+    assert(test5 == NULL);
+    checkRangeOfPointer(endBuf, test5);
+
+    std::cout << "outOfRangeTest: Ok" << std::endl;
+}
+
+/**
+ */
+void oneFreeTest() {
     const int BUF_SIZE = 500;
     const int ALLOC_SIZE = 100;
     void *buf = malloc(BUF_SIZE);
+    void *endBuf = (void*)((uint64_t)buf + BUF_SIZE);
 
     mysetup(buf, BUF_SIZE);
     void* test1;
@@ -267,21 +311,24 @@ void OneFreeTest() {
     test1 = myalloc(ALLOC_SIZE);
 
     assert((uint64_t)test1 == ((uint64_t)buf + sizeof(dataHeader)));
+    checkRangeOfPointer(endBuf, test1);
 
     myfree(test1);
     test2 = myalloc(ALLOC_SIZE);
 
     assert((uint64_t)test2 == ((uint64_t)buf + sizeof(dataHeader)));
+    checkRangeOfPointer(endBuf, test2);
 
-    std::cout << "OneFreeTest: Ok" << std::endl;
+    std::cout << "oneFreeTest: Ok" << std::endl;
 }
 
 /**
  */
-void TwoReversFreeTest() {
+void twoReversFreeTest() {
     const int BUF_SIZE = 500;
     const int ALLOC_SIZE = 10;
     void *buf = malloc(BUF_SIZE);
+    void *endBuf = (void*)((uint64_t)buf + BUF_SIZE);
 
     mysetup(buf, BUF_SIZE);
     void *test1, *test2, *test3;
@@ -289,6 +336,10 @@ void TwoReversFreeTest() {
     test1 = myalloc(ALLOC_SIZE);
     test2 = myalloc(ALLOC_SIZE);
     test3 = myalloc(ALLOC_SIZE);
+
+    checkRangeOfPointer(endBuf, test1);
+    checkRangeOfPointer(endBuf, test2);
+    checkRangeOfPointer(endBuf, test3);
 
     myfree(test1);
     myfree(test2);
@@ -297,16 +348,18 @@ void TwoReversFreeTest() {
     test1 = myalloc(ALLOC_SIZE);
 
     assert((uint64_t)test1 == ((uint64_t)buf + sizeof(dataHeader)));
+    checkRangeOfPointer(endBuf, test1);
 
-    std::cout << "TwoReversFreeTest: Ok" << std::endl;
+    std::cout << "twoReversFreeTest: Ok" << std::endl;
 }
 
 /**
  */
-void FragmentationTest() {
+void hzTest() {
     const int BUF_SIZE = 500;
     const int ALLOC_SIZE = 10;
     void *buf = malloc(BUF_SIZE);
+    void *endBuf = (void*)((uint64_t)buf + BUF_SIZE);
 
     mysetup(buf, BUF_SIZE);
     void *test1, *test2, *test3;
@@ -314,62 +367,93 @@ void FragmentationTest() {
     test1 = myalloc(ALLOC_SIZE);
     test2 = myalloc(ALLOC_SIZE);
     test3 = myalloc(ALLOC_SIZE);
+
+    checkRangeOfPointer(endBuf, test1);
+    checkRangeOfPointer(endBuf, test2);
+    checkRangeOfPointer(endBuf, test3);
 
     myfree(test1);
 
     test1 = myalloc(ALLOC_SIZE);
 
     assert((uint64_t)test1 == ((uint64_t)buf + sizeof(dataHeader)));
+    checkRangeOfPointer(endBuf, test1);
 
-    std::cout << "FragmentationTest: Ok" << std::endl;
+    std::cout << "hzTest: Ok" << std::endl;
 }
 
 
 /**
  */
 void nearEndTest() {
-    const int BUF_SIZE = 70;
-    const int ALLOC_SIZE = 10;
+    const int BUF_SIZE = 90;
+    const int ALLOC_SIZE = 6;
     void *buf = malloc(BUF_SIZE);
+    void *endBuf = (void*)((uint64_t)buf + BUF_SIZE);
 
     mysetup(buf, BUF_SIZE);
     void *test1, *test2, *test3;
 
     test1 = myalloc(ALLOC_SIZE);
     test2 = myalloc(ALLOC_SIZE);
-    test3 = myalloc(ALLOC_SIZE);
+    test3 = myalloc(ALLOC_SIZE );
 
-    assert(test3 == NULL);
+    assert(test3 != NULL);
 
-    std::cout << "FragmentationTest: Ok" << std::endl;
+    checkRangeOfPointer(endBuf, test1);
+    checkRangeOfPointer(endBuf, test2);
+    checkRangeOfPointer(endBuf, test3);
+
+    std::cout << "nearEndTest: Ok" << std::endl;
 }
 
 /**
  */
 void fragmentationTest() {
-    const int BUF_SIZE = 300;
-    const int ALLOC_SIZE = 50;
+    const int BUF_SIZE = 170;
+    const int ALLOC_SIZE = 10;
     void *buf = malloc(BUF_SIZE);
+    void *endBuf = (void*)((uint64_t)buf + BUF_SIZE);
 
     mysetup(buf, BUF_SIZE);
-    void *test1, *test2, *test3, *test4, *test5;
+    void *test1, *test2, *test3, *test4, *test5, *test6;
 
     test1 = myalloc(ALLOC_SIZE);
     test2 = myalloc(ALLOC_SIZE);
     test3 = myalloc(ALLOC_SIZE);
     test4 = myalloc(ALLOC_SIZE);
+    test5 = myalloc(ALLOC_SIZE);
 
-    assert(test4 != NULL);
-
-    myfree(test2);
-    myfree(test4);
-
-    test5 = myalloc(ALLOC_SIZE * 2);
+    checkRangeOfPointer(endBuf, test1);
+    checkRangeOfPointer(endBuf, test2);
+    checkRangeOfPointer(endBuf, test3);
+    checkRangeOfPointer(endBuf, test4);
+    checkRangeOfPointer(endBuf, test5);
 
     assert(test5 != NULL);
 
+    myfree(test4);
+    myfree(test2);
+    myfree(test1);
+    myfree(test5);
+    myfree(test3);
 
-    std::cout << "FragmentationTest: Ok" << std::endl;
+    test1 = myalloc(ALLOC_SIZE);
+    test2 = myalloc(ALLOC_SIZE);
+    test3 = myalloc(ALLOC_SIZE);
+    test4 = myalloc(ALLOC_SIZE);
+    test6 = myalloc(ALLOC_SIZE);
+
+    checkRangeOfPointer(endBuf, test1);
+    checkRangeOfPointer(endBuf, test2);
+    checkRangeOfPointer(endBuf, test3);
+    checkRangeOfPointer(endBuf, test4);
+    checkRangeOfPointer(endBuf, test6);
+
+    assert(test5 != NULL);
+    assert(test5 == test6);
+
+    std::cout << "fragmentationTest: Ok" << std::endl;
 }
 
 
@@ -386,29 +470,17 @@ void fragmentationTest() {
 
 int main() {
 
-    //OneAllocTest();
-    //ManyAllocTest();
-    //BigAllocTest();
-    //OneFreeTest();
-    //TwoReversFreeTest();
-    //FragmentationTest();
-    //nearEndTest();
+    OneAllocTest();
+    ManyAllocTest();
+    BigAllocTest();
+    outOfRangeTest();
+    oneFreeTest();
+    twoReversFreeTest();
+    hzTest();
+    nearEndTest();
     fragmentationTest();
 
-/*    const int BUF_SIZE = 500;
-    void *buf = malloc(BUF_SIZE);
 
-    mysetup(buf, BUF_SIZE);
-
-    void* test1 = myalloc(430);
-    myfree(test1);
-    void* test2 = myalloc(1);
-    // myfree(test2);
-     void* test3 = myalloc(1);
-   //  myfree(test3);
-
-    std::cout << "buf: " << static_cast<void*>(buf) << std::endl;
-    std::cout << "last pointer: " << static_cast<void*>(test3) << std::endl;*/
 
     return 0;
 }
