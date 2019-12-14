@@ -42,10 +42,16 @@ inline  void* newPointBySize(void *point, uint64_t size) {
 inline uint64_t getFreeSpace(rootMetaData* root, void *point, void *prevPoint) {
     void* localPrevPoint = (prevPoint == NULL) ? root->buf : prevPoint;
 
-    if (point == NULL)  // дошлли до конца списка
-        return (uint64_t)root->endBuf - ((uint64_t)localPrevPoint + ((dataHeader*)localPrevPoint)->size + sizeof(dataHeader));
+    if (prevPoint == NULL && point == NULL) // самый первый кусочек
+        return root->size - sizeof(dataHeader);
+    else if (point == NULL)  // дошлли до конца списка
+        //if (root->endBuf < (void*)((uint64_t)localPrevPoint + ((dataHeader*)localPrevPoint)->size))
+         //   return -1;
+        //else
+            return (uint64_t)root->endBuf - ((uint64_t)localPrevPoint + ((dataHeader*)localPrevPoint)->size + sizeof(dataHeader));
+    if (prevPoint == NULL)
+        return (uint64_t)point - (uint64_t)root->buf ;
     else // где - то между элементами
-        //return (uint64_t)point - (uint64_t)localPrevPoint;
         return (uint64_t)point - ((uint64_t)localPrevPoint + ((dataHeader*)localPrevPoint)->size + sizeof(dataHeader));
 }
 
@@ -68,6 +74,7 @@ inline dataHeader* findAllocatedPlace(rootMetaData* localRoot, void *point) {
 inline void freePlace(rootMetaData* localRoot, dataHeader* ptr) {
     if(ptr == NULL) return;
     dataHeader* nextPtr = castPoint(ptr->next);
+    ptr->size = 0; // костыль
 
     if(ptr->previous == NULL) {
         localRoot->next = nextPtr;
@@ -132,8 +139,8 @@ inline void findBestChoice(rootMetaData* localRoot, int64_t size, bestChoice* be
             bestPlace->next = point;
             bestPlace->previous = prevPoint;
             bestPlace->newPlace = (prevPoint == NULL)
-                    ? localRoot->buf
-                    : newPointBySize(prevPoint, castPoint(prevPoint)->size + sizeof(dataHeader));
+                                  ? localRoot->buf
+                                  : newPointBySize(prevPoint, castPoint(prevPoint)->size + sizeof(dataHeader));
         }
 
         if (point == NULL) { //дошли до конца
@@ -169,8 +176,8 @@ void *myalloc(std::size_t size)
         nextPtr->previous = bestPlace.newPlace;
 
     // debug
-    std::cout << "## MY MALLOC " << static_cast<void*>(bestPlace.newPlace) << " ##" << std::endl;
-    printMemory(&root);
+    //std::cout << "## MY MALLOC " << static_cast<void*>(bestPlace.newPlace) << " ##" << std::endl;
+    //printMemory(&root);
 
     return dataPoint;
 }
@@ -182,8 +189,8 @@ void myfree(void *p)
     freePlace(&root, placeForFree);
 
     // debug
-    std::cout << "## MY FREE " << static_cast<void*>((void*)((uint64_t)p - sizeof(dataHeader))) << " ##" << std::endl;
-    printMemory(&root);
+    // std::cout << "## MY FREE " << static_cast<void*>((void*)((uint64_t)p - sizeof(dataHeader))) << " ##" << std::endl;
+    // printMemory(&root);
 }
 
 
@@ -318,7 +325,52 @@ void FragmentationTest() {
 }
 
 
+/**
+ */
+void nearEndTest() {
+    const int BUF_SIZE = 70;
+    const int ALLOC_SIZE = 10;
+    void *buf = malloc(BUF_SIZE);
 
+    mysetup(buf, BUF_SIZE);
+    void *test1, *test2, *test3;
+
+    test1 = myalloc(ALLOC_SIZE);
+    test2 = myalloc(ALLOC_SIZE);
+    test3 = myalloc(ALLOC_SIZE);
+
+    assert(test3 == NULL);
+
+    std::cout << "FragmentationTest: Ok" << std::endl;
+}
+
+/**
+ */
+void fragmentationTest() {
+    const int BUF_SIZE = 300;
+    const int ALLOC_SIZE = 50;
+    void *buf = malloc(BUF_SIZE);
+
+    mysetup(buf, BUF_SIZE);
+    void *test1, *test2, *test3, *test4, *test5;
+
+    test1 = myalloc(ALLOC_SIZE);
+    test2 = myalloc(ALLOC_SIZE);
+    test3 = myalloc(ALLOC_SIZE);
+    test4 = myalloc(ALLOC_SIZE);
+
+    assert(test4 != NULL);
+
+    myfree(test2);
+    myfree(test4);
+
+    test5 = myalloc(ALLOC_SIZE * 2);
+
+    assert(test5 != NULL);
+
+
+    std::cout << "FragmentationTest: Ok" << std::endl;
+}
 
 
 
@@ -334,12 +386,14 @@ void FragmentationTest() {
 
 int main() {
 
-    // OneAllocTest();
-    // ManyAllocTest();
-    // BigAllocTest();
-    // OneFreeTest();
-    // TwoReversFreeTest();
-    FragmentationTest();
+    //OneAllocTest();
+    //ManyAllocTest();
+    //BigAllocTest();
+    //OneFreeTest();
+    //TwoReversFreeTest();
+    //FragmentationTest();
+    //nearEndTest();
+    fragmentationTest();
 
 /*    const int BUF_SIZE = 500;
     void *buf = malloc(BUF_SIZE);
