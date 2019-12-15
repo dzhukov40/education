@@ -24,6 +24,15 @@ void *alloc_slab(int order);
  **/
 void free_slab(void *slab);
 
+struct slabList {
+    void *point; // хз, указатель куда-то
+    size_t slabs_count; /* количество SLAB-ов */
+};
+
+struct slabHeader {
+    void *point; // хз, указатель куда-то
+    size_t busy_objects_count; /* количество занятых объектов в одном SLAB-е */
+};
 
 /**
  * Эта структура представляет аллокатор, вы можете менять
@@ -32,15 +41,14 @@ void free_slab(void *slab);
  * сохранить в этой структуре.
  **/
 struct cache {
-    /* список пустых SLAB-ов для поддержки cache_shrink */
-    /* список частично занятых SLAB-ов */
-    /* список заполненых SLAB-ов */
+    slabList freeBusySlabs; /* список пустых SLAB-ов для поддержки cache_shrink */
+    slabList halfBusySlabs; /* список частично занятых SLAB-ов */
+    slabList fullBusySlabs; /* список заполненых SLAB-ов */
 
-    size_t object_size; /* размер аллоцируемого объекта */
-    int slab_order; /* используемый размер SLAB-а */
-    size_t slab_objects; /* количество объектов в одном SLAB-е */
+    size_t slab_object_size; /* размер аллоцируемого объекта в SLAB-е */
+    size_t slab_objects_count_limit; /* максимальное количество объектов в одном SLAB-е */
+    size_t slab_size; /* используемый размер SLAB-а */
 };
-
 
 /**
  * Функция инициализации будет вызвана перед тем, как
@@ -52,7 +60,16 @@ struct cache {
  **/
 void cache_setup(struct cache *cache, size_t object_size)
 {
-    /* Реализуйте эту функцию. */
+    cache->freeBusySlabs = slabList{};
+    cache->freeBusySlabs.slabs_count = 0;
+    cache->halfBusySlabs = slabList{};
+    cache->halfBusySlabs.slabs_count = 0;
+    cache->fullBusySlabs = slabList{};
+    cache->fullBusySlabs.slabs_count = 0;
+
+    cache->slab_object_size = object_size;
+    cache->slab_objects_count_limit = 10;
+    cache->slab_size = object_size * cache->slab_objects_count_limit + sizeof(slabHeader);
 }
 
 
@@ -107,7 +124,31 @@ void cache_shrink(struct cache *cache)
 }
 
 
+
+
+
+
+
+/** */
+void testOneAlloc() {
+    const size_t OBJECT_SIZE = 10; // [0; 10] (4096 * 2^order)
+    struct cache cache{};
+    cache_setup(&cache, OBJECT_SIZE);
+    void  *test;
+
+    test = cache_alloc(&cache);
+
+    std::cout << "testOneAlloc: Ok" << std::endl;
+}
+
+
+// реализация этих функций от меня не нужна
+void *alloc_slab(int order){}
+void free_slab(void *slab){}
+
 int main() {
+
+    testOneAlloc();
 
 
 
