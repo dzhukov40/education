@@ -24,14 +24,19 @@ void *alloc_slab(int order);
  **/
 void free_slab(void *slab);
 
-struct slabList {
-    void *point; // хз, указатель куда-то
-    size_t slabs_count; /* количество SLAB-ов */
-};
+enum slabStatus { FREE, HALF_BUSY, BUSY };
 
 struct slabHeader {
     void *point; // хз, указатель куда-то
     size_t busy_objects_count; /* количество занятых объектов в одном SLAB-е */
+};
+
+struct slabListElement {
+    slabListElement *next;  // указатель на следующий элемент
+    slabListElement *prev;  // указатель на предыдущий элемент
+    slabHeader *slabHeader; // указатель на заголовок SLAB-а
+
+    slabStatus status;
 };
 
 /**
@@ -41,9 +46,9 @@ struct slabHeader {
  * сохранить в этой структуре.
  **/
 struct cache {
-    slabList freeBusySlabs; /* список пустых SLAB-ов для поддержки cache_shrink */
-    slabList halfBusySlabs; /* список частично занятых SLAB-ов */
-    slabList fullBusySlabs; /* список заполненых SLAB-ов */
+    slabListElement* freeSlabs; /* список пустых SLAB-ов для поддержки cache_shrink */
+    slabListElement* halfBusySlabs; /* список частично занятых SLAB-ов */
+    slabListElement* fullBusySlabs; /* список заполненых SLAB-ов */
 
     size_t slab_object_size; /* размер аллоцируемого объекта в SLAB-е */
     size_t slab_objects_count_limit; /* максимальное количество объектов в одном SLAB-е */
@@ -60,18 +65,10 @@ struct cache {
  **/
 void cache_setup(struct cache *cache, size_t object_size)
 {
-    cache->freeBusySlabs = slabList{};
-    cache->freeBusySlabs.slabs_count = 0;
-    cache->halfBusySlabs = slabList{};
-    cache->halfBusySlabs.slabs_count = 0;
-    cache->fullBusySlabs = slabList{};
-    cache->fullBusySlabs.slabs_count = 0;
-
     cache->slab_object_size = object_size;
     cache->slab_objects_count_limit = 10;
     cache->slab_size = object_size * cache->slab_objects_count_limit + sizeof(slabHeader);
 }
-
 
 /**
  * Функция освобождения будет вызвана когда работа с
@@ -82,9 +79,74 @@ void cache_setup(struct cache *cache, size_t object_size)
  **/
 void cache_release(struct cache *cache)
 {
-    /* Реализуйте эту функцию. */
+    //TODO: add realization
 }
 
+void addElementToSlabList(slabListElement* element, slabListElement* list) {
+    if (element == NULL || list == NULL) return;
+
+    // TODO: вставляем элемент
+}
+
+void moveElementInCorrectGroup(struct cache *cache, slabListElement* element) {
+    slabStatus oldStatus = element->status;
+    size_t limit = cache->slab_objects_count_limit;
+    size_t busyCount = element->slabHeader->busy_objects_count;
+
+    switch(oldStatus) {
+        case BUSY:
+            if (busyCount < limit) {
+                // TODO: переместить в список HALF_BUSY
+            }
+            break;
+        case HALF_BUSY:
+            if (busyCount == limit) {
+                // TODO: переместить в список BUSY
+            }
+            if (busyCount == 0) {
+                // TODO: переместить в список FREE
+            }
+            break;
+        case FREE:
+            if (element->slabHeader->busy_objects_count != 0) {
+                // TODO: переместить в список HALF_BUSY
+            }
+            break;
+    }
+}
+
+slabListElement* createNewFreePlace(struct cache *cache) {
+    // создаем новый слаб и указатель на него
+}
+
+slabListElement* getSlabWithFreePlace(struct cache *cache) {
+    if (cache->halfBusySlabs != NULL) {
+        return cache->halfBusySlabs;
+    } else if (cache->freeSlabs != NULL) {
+        return cache->freeSlabs;
+    } else {
+        //TODO: надо создать новый слаб, добавить в список пустых и вернуть его
+    }
+}
+
+slabListElement* findSlab(struct cache *cache, void* ptr) {
+    //TODO: поискать в занятых, есл там нет поискать в полузанятых
+
+    return NULL;
+}
+
+
+void* busyPlaceInSlab(slabListElement *slab) {
+    //TODO: add realization
+}
+
+void freePlaceInSlab(slabListElement *slab) {
+    //TODO: add realization
+}
+
+void freeSlab(slabListElement *slab) {
+    //TODO: add realization
+}
 
 /**
  * Функция аллокации памяти из кеширующего аллокатора.
@@ -95,10 +157,12 @@ void cache_release(struct cache *cache)
  **/
 void *cache_alloc(struct cache *cache)
 {
-    /* Реализуйте эту функцию. */
-    return NULL;
-}
+    slabListElement *slabWithFreePlace = getSlabWithFreePlace(cache);
+    void* result = busyPlaceInSlab(slabWithFreePlace);
+    moveElementInCorrectGroup(cache, slabWithFreePlace);
 
+    return result;
+}
 
 /**
  * Функция освобождения памяти назад в кеширующий аллокатор.
@@ -107,9 +171,10 @@ void *cache_alloc(struct cache *cache)
  **/
 void cache_free(struct cache *cache, void *ptr)
 {
-    /* Реализуйте эту функцию. */
+    slabListElement *slabWithPlaceForFree = findSlab(cache, ptr);
+    freePlaceInSlab(slabWithPlaceForFree);
+    moveElementInCorrectGroup(cache, slabWithPlaceForFree);
 }
-
 
 /**
  * Функция должна освободить все SLAB, которые не содержат
@@ -120,8 +185,17 @@ void cache_free(struct cache *cache, void *ptr)
  **/
 void cache_shrink(struct cache *cache)
 {
-    /* Реализуйте эту функцию. */
+    if(cache == NULL) return;
+    slabListElement *pointer = cache->freeSlabs->next;
+
+    while (pointer != NULL) {
+        freeSlab(pointer);
+        pointer = pointer->next;
+    }
 }
+
+
+
 
 
 
