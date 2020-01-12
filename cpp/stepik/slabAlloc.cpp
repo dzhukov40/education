@@ -25,14 +25,13 @@ void *alloc_slab(int order);
 void free_slab(void *slab);
 
 
-
+const size_t MAX_OBJECTS_IN_SLAB = 3;
 enum slabStatus { FREE, HALF_BUSY, BUSY };
+enum dataPlaceStatus { FREE_PLACE, BUSY_PLACE };
 
 struct slabHeader {
-    void* data;        // указатель на начало данных
-    int64_t busyMask;  // маска занятых/свободных кусочков памяти
-    slabHeader *next;  // указатель на следующий элемент
-    slabHeader *prev;  // указатель на предыдущий элемент
+    slabHeader *next;  // указатель на следующий слаб
+    slabHeader *prev;  // указатель на предыдущий слаб
 
     slabStatus status;
     size_t busy_objects_count; /* количество занятых объектов в одном SLAB-е */
@@ -55,27 +54,28 @@ struct cache {
     size_t slab_size;   /* 4096 * 2^order байт. */
 };
 
-bool getMaxCountObjectsInSlab(size_t object_size, size_t slabSize) {
-    return slabSize - sizeof(slabHeader) / object_size;
+size_t getMaxCountObjectsInSlab(size_t object_size, size_t slabSize) {
+    size_t allDataSize = slabSize - sizeof(slabHeader);
+    size_t oneDataSize = sizeof(dataPlaceStatus) + object_size;
+    return allDataSize / oneDataSize;
 }
 
-//TODO: как оптимально подобрать размер SLAB ?
 void fillCacheFields(size_t object_size, size_t *countLimit, size_t *order, size_t *slabSize) {
     *slabSize = 0;
-    *order = 0;
+    *order = -1;
     *countLimit = 0;
 
-    while (*countLimit < 16) {
-        //(*order)++;
+    while (*countLimit < MAX_OBJECTS_IN_SLAB) { //TODO: десятка выбрана случайно + что если не сможем уместить 10шт в самом большом слабе
         *order = *order + 1;
         *slabSize = 4096 * pow(2, *order);
         *countLimit = getMaxCountObjectsInSlab(object_size, *slabSize);
+        if (*order == 10) break;
     }
 }
 
 void freeSlabList(slabHeader *pointer) {
     while (pointer != NULL) {
-        free_slab(pointer->data);
+        free_slab((void*)pointer);
         pointer = pointer->next;
     }
 }
@@ -109,12 +109,33 @@ void cache_release(struct cache *cache)
     freeSlabList(cache->fullBusySlabs->next);
 }
 
-void movElementToSlabList(slabHeader* element, slabHeader** list) {
-    if (element == NULL || list == NULL) return;
+void moveElementToSlabList(slabHeader* element, slabHeader** from, slabHeader** to) {
+    if (element == NULL || to == NULL) return;
 
-    if (*list != NULL)
-        (*list)->prev = element;
-    *list = element;
+    if (from != NULL) {
+        slabHeader *oldElementNext = element->next;
+        slabHeader *oldElementPrev = element->prev;
+
+        if (oldElementPrev == NULL)
+            *from = oldElementNext;
+        if (oldElementNext != NULL)
+            oldElementNext->prev = oldElementPrev;
+        if (oldElementPrev != NULL)
+            oldElementPrev->next = oldElementNext;
+    }
+
+    if (*to != NULL) {
+        slabHeader *oldFirstElement = *to;
+        *to = element;
+
+        element->prev = NULL;
+        element->next = oldFirstElement;
+        oldFirstElement->prev = *to;
+    } else {
+        *to = element;
+        element->prev = NULL;
+        element->next = NULL;
+    }
 }
 
 void moveElementInCorrectGroup(struct cache *cache, slabHeader* element) {
@@ -124,18 +145,26 @@ void moveElementInCorrectGroup(struct cache *cache, slabHeader* element) {
 
     switch(oldStatus) {
         case BUSY:
-            if (busyCount < limit)
-                movElementToSlabList(element, &cache->halfBusySlabs);
+            if (busyCount < limit) {
+                moveElementToSlabList(element, &cache->fullBusySlabs, &cache->halfBusySlabs);
+                element->status = HALF_BUSY;
+            }
             break;
         case HALF_BUSY:
-            if (busyCount == limit)
-                movElementToSlabList(element, &cache->fullBusySlabs);
-            if (busyCount == 0)
-                movElementToSlabList(element, &cache->freeSlabs);
+            if (busyCount == limit) {
+                moveElementToSlabList(element, &cache->halfBusySlabs, &cache->fullBusySlabs);
+                element->status = BUSY;
+            }
+            if (busyCount == 0) {
+                moveElementToSlabList(element, &cache->halfBusySlabs, &cache->freeSlabs);
+                element->status = FREE;
+            }
             break;
         case FREE:
-            if (busyCount != 0)
-                movElementToSlabList(element, &cache->halfBusySlabs);
+            if (busyCount != 0) {
+                moveElementToSlabList(element, &cache->freeSlabs, &cache->halfBusySlabs);
+                element->status = HALF_BUSY;
+            }
             break;
     }
 }
@@ -143,12 +172,19 @@ void moveElementInCorrectGroup(struct cache *cache, slabHeader* element) {
 slabHeader* createNewSlab(struct cache *cache) {
     void *slab = alloc_slab(cache->slab_order);
 
-    slabHeader *header = (slabHeader*)(((uint64_t)slab + cache->slab_size) - sizeof(slabHeader));
+    slabHeader *header = (slabHeader*)slab;
     header->prev = NULL;
     header->next = NULL;
     header->busy_objects_count = 0;
     header->status = FREE;
-    header->data = slab;
+
+    void *point = header + sizeof(slabHeader);
+    for(int i = 0; i < cache->slab_objects_count_limit; i++) {
+        *(dataPlaceStatus*)point = FREE_PLACE;
+        point = (void*)((size_t)point + cache->slab_object_size);
+    }
+
+    return header;
 }
 
 slabHeader* getSlabWithFreePlace(struct cache *cache) {
@@ -158,13 +194,14 @@ slabHeader* getSlabWithFreePlace(struct cache *cache) {
         return cache->freeSlabs;
     } else {
         slabHeader* newSlab = createNewSlab(cache);
-        movElementToSlabList(newSlab, &cache->freeSlabs);
+        moveElementToSlabList(newSlab, NULL, &cache->freeSlabs);
+        return newSlab;
     }
 }
 
 bool isPointerInSlab(slabHeader* slab, void* ptr, size_t slabSize) {
     if(slab == NULL) return false;
-    return ptr > slab + slabSize && ptr < slab;
+    return ptr > slab && ptr < slab + slabSize;
 }
 
 bool isPointerNotInSlab(slabHeader* slab, void* ptr, size_t slabSize) {
@@ -175,7 +212,8 @@ slabHeader* findSlab(struct cache *cache, void* ptr) {
     slabHeader* pointer = cache->fullBusySlabs; // ищем в занятых
 
     while (isPointerNotInSlab(pointer, ptr, cache->slab_size)) {
-        slabHeader* pointer = pointer->next;
+        if (pointer == NULL) break;
+        pointer = pointer->next;
     }
 
     if (isPointerInSlab(pointer, ptr, cache->slab_size))
@@ -184,7 +222,8 @@ slabHeader* findSlab(struct cache *cache, void* ptr) {
     pointer = cache->halfBusySlabs; // ищем в полузанятых
 
     while (isPointerNotInSlab(pointer, ptr, cache->slab_size)) {
-        slabHeader* pointer = pointer->next;
+        if (pointer == NULL) break;
+        pointer = pointer->next;
     }
 
     if (isPointerInSlab(pointer, ptr, cache->slab_size))
@@ -193,26 +232,26 @@ slabHeader* findSlab(struct cache *cache, void* ptr) {
     return NULL;
 }
 
-void* busyPlaceInSlab(size_t objectsCountLimit, slabHeader *slab) {
-    int64_t busyMask = ~slab->busyMask;
+void* busyPlaceInSlab(size_t slabObjectSize, size_t objectsCountLimit, slabHeader *slab) {
+    void *point = slab + sizeof(slabHeader);
 
-    int64_t bit;
-    int i = 0;
-    for(; i < objectsCountLimit; i++) {
-        bit = 1 << i;
-        if(busyMask & bit) {
-            slab->busyMask & bit;
-            slab->busy_objects_count++;
-            break;
-        }
+    for (int i = 0; *(dataPlaceStatus*)point == BUSY_PLACE; i++) {
+        point = (void*)((size_t)point + slabObjectSize);
+        if (i > objectsCountLimit)
+            //TODO: убрать эту проверку, так как нам гарантируют что в блоке есть свободное местечко
+            return NULL; // это для отладки, мы не должны это проверять, убрать потом
     }
 
-    return (void*)((uint64_t)slab->data + (i * objectsCountLimit));
+    *(dataPlaceStatus*)point = BUSY_PLACE;
+    slab->busy_objects_count++;
+    return (void*)((size_t)point + sizeof(dataPlaceStatus));
 }
 
-void freePlaceInSlab(size_t objectsCountLimit, slabHeader *slab, void* ptr) {
-    uint64_t bitNumber = (uint64_t)((uint64_t)slab->data - (uint64_t)ptr) / objectsCountLimit;
-    slab->busyMask & ~(uint64_t)(1 << bitNumber);
+void freePlaceInSlab(slabHeader *slab, void* ptr) {
+    dataPlaceStatus *placeStatus = (dataPlaceStatus*)((size_t)ptr - sizeof(dataPlaceStatus));
+    *placeStatus = FREE_PLACE;
+
+    slab->busy_objects_count = slab->busy_objects_count - 1;
 }
 
 /**
@@ -225,7 +264,7 @@ void freePlaceInSlab(size_t objectsCountLimit, slabHeader *slab, void* ptr) {
 void *cache_alloc(struct cache *cache)
 {
     slabHeader *slabWithFreePlace = getSlabWithFreePlace(cache);
-    void* result = busyPlaceInSlab(cache->slab_objects_count_limit, slabWithFreePlace);
+    void* result = busyPlaceInSlab(cache->slab_object_size, cache->slab_objects_count_limit, slabWithFreePlace);
     moveElementInCorrectGroup(cache, slabWithFreePlace);
 
     return result;
@@ -239,8 +278,8 @@ void *cache_alloc(struct cache *cache)
 void cache_free(struct cache *cache, void *ptr)
 {
     slabHeader *slabWithPlaceForFree = findSlab(cache, ptr);
-    if(slabWithPlaceForFree == NULL) return;
-    freePlaceInSlab(cache->slab_objects_count_limit, slabWithPlaceForFree, ptr);
+    if (slabWithPlaceForFree == NULL) return;
+    freePlaceInSlab(slabWithPlaceForFree, ptr);
     moveElementInCorrectGroup(cache, slabWithPlaceForFree);
 }
 
@@ -268,7 +307,7 @@ void cache_shrink(struct cache *cache)
 
 /** */
 void testOneAlloc() {
-    const size_t OBJECT_SIZE = 10; // [0; 10] (4096 * 2^order)
+    const size_t OBJECT_SIZE = 100; // [0; 10] (4096 * 2^order)
     struct cache cache{};
     cache_setup(&cache, OBJECT_SIZE);
     void  *test;
@@ -278,15 +317,98 @@ void testOneAlloc() {
     std::cout << "testOneAlloc: Ok" << std::endl;
 }
 
+/** */
+void testOneBigAlloc() {
+    const size_t OBJECT_SIZE = 1000000; // [0; 10] (4096 * 2^order)
+    struct cache cache{};
+    cache_setup(&cache, OBJECT_SIZE);
+    void  *test;
 
-// реализация этих функций от меня не нужна
-void *alloc_slab(int order){}
-void free_slab(void *slab){}
+    test = cache_alloc(&cache);
+
+    std::cout << "testOneBigAlloc: Ok" << std::endl;
+}
+
+/** */
+void testOneFree() {
+    const size_t OBJECT_SIZE = 100; // [0; 10] (4096 * 2^order)
+    struct cache cache{};
+    cache_setup(&cache, OBJECT_SIZE);
+    void  *test;
+
+    test = cache_alloc(&cache);
+    cache_free(&cache, test);
+
+    std::cout << "testOneFree: Ok" << std::endl;
+}
+
+/** */
+void testReAlloc() {
+    const size_t OBJECT_SIZE = 100; // [0; 10] (4096 * 2^order)
+    struct cache cache{};
+    cache_setup(&cache, OBJECT_SIZE);
+    void  *test, *test1;
+
+    test = cache_alloc(&cache);
+    cache_free(&cache, test);
+    test1 = cache_alloc(&cache);
+
+    assert(test == test1);
+
+    std::cout << "testReAlloc: Ok" << std::endl;
+}
+
+/** */
+void testManyAlloc() {
+    const size_t OBJECT_SIZE = 1200; // [0; 10] (4096 * 2^order)
+    struct cache cache{};
+    cache_setup(&cache, OBJECT_SIZE);
+    void  *test[8];
+
+    for (int i = 0; i<8; i++) {
+        test[i] = cache_alloc(&cache);
+    }
+
+    for (int i = 0; i<8; i++) {
+        cache_free(&cache, test[i]);
+    }
+
+    assert(cache.freeSlabs != NULL);
+    assert(cache.freeSlabs->next != NULL);
+    assert(cache.freeSlabs->next->next != NULL);
+    assert(cache.halfBusySlabs == NULL);
+    assert(cache.fullBusySlabs == NULL);
+
+    std::cout << "testManyAlloc: Ok" << std::endl;
+}
+
+
+
+
+
+/**
+ * Аллоцирует участок размером 4096 * 2^order байт,
+ * выровненный на границу 4096 * 2^order байт. order
+ * должен быть в интервале [0; 10] (обе границы
+ * включительно), т. е. вы не можете аллоцировать больше
+ * 4Mb за раз.
+ **/
+void *alloc_slab(int order) {
+    int slabSize = 4096 * pow(2, order);
+    return new int[slabSize];
+}
+void free_slab(void *slab) {
+    delete[] (slabHeader*)slab;
+  //  delete[] slab;
+}
 
 int main() {
 
     testOneAlloc();
-
+    testOneBigAlloc();
+    testOneFree();
+    testReAlloc();
+    testManyAlloc();
 
 
 
