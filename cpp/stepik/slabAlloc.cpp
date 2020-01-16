@@ -25,7 +25,7 @@ void *alloc_slab(int order);
 void free_slab(void *slab);
 
 
-const size_t MAX_OBJECTS_IN_SLAB = 3;
+const size_t MAX_OBJECTS_IN_SLAB = 1000; // 1200 for stepik
 enum slabStatus { FREE, HALF_BUSY, BUSY };
 enum dataPlaceStatus { FREE_PLACE, BUSY_PLACE };
 
@@ -44,6 +44,15 @@ struct slabHeader {
  * сохранить в этой структуре.
  **/
 struct cache {
+   // cache() {}
+   cache() : freeSlabs(nullptr),
+   halfBusySlabs(nullptr),
+   fullBusySlabs(nullptr),
+   slab_object_size(0),
+   slab_objects_count_limit(0),
+   slab_order(0),
+   slab_size(0) {}
+
     slabHeader* freeSlabs; /* список пустых SLAB-ов для поддержки cache_shrink */
     slabHeader* halfBusySlabs; /* список частично занятых SLAB-ов */
     slabHeader* fullBusySlabs; /* список заполненых SLAB-ов */
@@ -54,7 +63,7 @@ struct cache {
     size_t slab_size;   /* 4096 * 2^order байт. */
 };
 
-size_t getMaxCountObjectsInSlab(size_t object_size, size_t slabSize) {
+inline size_t getMaxCountObjectsInSlab(size_t object_size, size_t slabSize) {
     size_t allDataSize = slabSize - sizeof(slabHeader);
     size_t oneDataSize = sizeof(dataPlaceStatus) + object_size;
     return allDataSize / oneDataSize;
@@ -73,43 +82,25 @@ void fillCacheFields(size_t object_size, size_t *countLimit, size_t *order, size
     }
 }
 
-void freeSlabList(slabHeader *pointer) {
-    while (pointer != NULL) {
-        free_slab((void*)pointer);
-        pointer = pointer->next;
+inline slabHeader* createNewSlab(struct cache *cache) {
+    void *slab = alloc_slab(cache->slab_order);
+
+    slabHeader *header = (slabHeader*)slab;
+    header->prev = NULL;
+    header->next = NULL;
+    header->busy_objects_count = 0;
+    header->status = FREE;
+
+    void *point = (void*)((size_t)header + sizeof(slabHeader));
+    for(int i = 0; i < cache->slab_objects_count_limit; i++) {
+        *(dataPlaceStatus*)point = FREE_PLACE;
+        point = (void*)((size_t)point + cache->slab_object_size);
     }
+
+    return header;
 }
 
-/**
- * Функция инициализации будет вызвана перед тем, как
- * использовать это кеширующий аллокатор для аллокации.
- * Параметры:
- *  - cache - структура, которую вы должны инициализировать
- *  - object_size - размер объектов, которые должен
- *    аллоцировать этот кеширующий аллокатор
- **/
-void cache_setup(struct cache *cache, size_t object_size)
-{
-    cache->slab_object_size = object_size;
-    fillCacheFields(object_size, &cache->slab_objects_count_limit, &cache->slab_order, &cache->slab_size);
-}
-
-/**
- * Функция освобождения будет вызвана когда работа с
- * аллокатором будет закончена. Она должна освободить
- * всю память занятую аллокатором. Проверяющая система
- * будет считать ошибкой, если не вся память будет
- * освбождена.
- **/
-void cache_release(struct cache *cache)
-{
-    if(cache == NULL) return;
-    freeSlabList(cache->freeSlabs->next);
-    freeSlabList(cache->halfBusySlabs->next);
-    freeSlabList(cache->fullBusySlabs->next);
-}
-
-void moveElementToSlabList(slabHeader* element, slabHeader** from, slabHeader** to) {
+inline void moveElementToSlabList(slabHeader* element, slabHeader** from, slabHeader** to) {
     if (element == NULL || to == NULL) return;
 
     if (from != NULL) {
@@ -136,6 +127,63 @@ void moveElementToSlabList(slabHeader* element, slabHeader** from, slabHeader** 
         element->prev = NULL;
         element->next = NULL;
     }
+}
+
+void addEmptySlabs(struct cache *cache, size_t count) {
+    slabHeader* newSlab;
+
+    for(int i = 0; i < count; i++) {
+        newSlab = createNewSlab(cache);
+        moveElementToSlabList(newSlab, NULL, &cache->freeSlabs);
+    }
+}
+
+inline void freeSlabList(slabHeader *pointer) {
+    if(pointer == NULL) return;
+    slabHeader *listPointer = pointer;
+
+    while (listPointer->next != NULL)
+        listPointer = listPointer->next;
+
+    slabHeader *prevPointer;
+    while (listPointer != NULL) {
+        prevPointer = listPointer->prev;
+        free_slab((void*)listPointer);
+        listPointer = prevPointer;
+    }
+}
+
+/**
+ * Функция инициализации будет вызвана перед тем, как
+ * использовать это кеширующий аллокатор для аллокации.
+ * Параметры:
+ *  - cache - структура, которую вы должны инициализировать
+ *  - object_size - размер объектов, которые должен
+ *    аллоцировать этот кеширующий аллокатор
+ **/
+void cache_setup(struct cache *cache, size_t object_size)
+{
+    cache->slab_object_size = object_size;
+    fillCacheFields(object_size, &cache->slab_objects_count_limit, &cache->slab_order, &cache->slab_size);
+    addEmptySlabs(cache, 20);
+}
+
+/**
+ * Функция освобождения будет вызвана когда работа с
+ * аллокатором будет закончена. Она должна освободить
+ * всю память занятую аллокатором. Проверяющая система
+ * будет считать ошибкой, если не вся память будет
+ * освбождена.
+ **/
+void cache_release(struct cache *cache)
+{
+    if(cache == NULL) return;
+    freeSlabList(cache->freeSlabs);
+    cache->freeSlabs = NULL;
+    freeSlabList(cache->halfBusySlabs);
+    cache->halfBusySlabs = NULL;
+    freeSlabList(cache->fullBusySlabs);
+    cache->fullBusySlabs = NULL;
 }
 
 void moveElementInCorrectGroup(struct cache *cache, slabHeader* element) {
@@ -169,23 +217,7 @@ void moveElementInCorrectGroup(struct cache *cache, slabHeader* element) {
     }
 }
 
-slabHeader* createNewSlab(struct cache *cache) {
-    void *slab = alloc_slab(cache->slab_order);
 
-    slabHeader *header = (slabHeader*)slab;
-    header->prev = NULL;
-    header->next = NULL;
-    header->busy_objects_count = 0;
-    header->status = FREE;
-
-    void *point = header + sizeof(slabHeader);
-    for(int i = 0; i < cache->slab_objects_count_limit; i++) {
-        *(dataPlaceStatus*)point = FREE_PLACE;
-        point = (void*)((size_t)point + cache->slab_object_size);
-    }
-
-    return header;
-}
 
 slabHeader* getSlabWithFreePlace(struct cache *cache) {
     if (cache->halfBusySlabs != NULL) {
@@ -199,16 +231,16 @@ slabHeader* getSlabWithFreePlace(struct cache *cache) {
     }
 }
 
-bool isPointerInSlab(slabHeader* slab, void* ptr, size_t slabSize) {
+inline bool isPointerInSlab(slabHeader* slab, void* ptr, size_t slabSize) {
     if(slab == NULL) return false;
-    return ptr > slab && ptr < slab + slabSize;
+    return ptr > slab && ptr < (void*)((size_t)slab + slabSize);
 }
 
-bool isPointerNotInSlab(slabHeader* slab, void* ptr, size_t slabSize) {
+inline bool isPointerNotInSlab(slabHeader* slab, void* ptr, size_t slabSize) {
     return !isPointerInSlab(slab, ptr, slabSize);
 }
 
-slabHeader* findSlab(struct cache *cache, void* ptr) {
+inline slabHeader* findSlab(struct cache *cache, void* ptr) {
     slabHeader* pointer = cache->fullBusySlabs; // ищем в занятых
 
     while (isPointerNotInSlab(pointer, ptr, cache->slab_size)) {
@@ -233,7 +265,7 @@ slabHeader* findSlab(struct cache *cache, void* ptr) {
 }
 
 void* busyPlaceInSlab(size_t slabObjectSize, size_t objectsCountLimit, slabHeader *slab) {
-    void *point = slab + sizeof(slabHeader);
+    void *point = (void*)((size_t)slab + sizeof(slabHeader));
 
     for (int i = 0; *(dataPlaceStatus*)point == BUSY_PLACE; i++) {
         point = (void*)((size_t)point + slabObjectSize);
@@ -293,7 +325,8 @@ void cache_free(struct cache *cache, void *ptr)
 void cache_shrink(struct cache *cache)
 {
     if(cache == NULL) return;
-    freeSlabList(cache->freeSlabs->next);
+    freeSlabList(cache->freeSlabs);
+    cache->freeSlabs = NULL;
 }
 
 
@@ -305,8 +338,37 @@ void cache_shrink(struct cache *cache)
 
 
 
+void slabPrint(slabHeader* slab) {
+    while (slab != NULL) {
+        std::cout << "slab address: " << static_cast<void*>(slab) << std::endl;
+        slab = slab->next;
+    }
+}
+
+void cachePrint(struct cache *cache) {
+    std::cout << std::endl << "CACHE STATUS:" << std::endl;
+
+    std::cout << "print freeSlabs:" << std::endl;
+    slabPrint(cache->freeSlabs);
+    std::cout << "print halfBusySlabs:" << std::endl;
+    slabPrint(cache->halfBusySlabs);
+    std::cout << "print fullBusySlabs:" << std::endl;
+    slabPrint(cache->fullBusySlabs);
+}
+
 /** */
 void testOneAlloc() {
+    const size_t OBJECT_SIZE = 100; // [0; 10] (4096 * 2^order)
+    struct cache cache{};
+    cache_setup(&cache, OBJECT_SIZE);
+
+    cache_alloc(&cache);
+
+    std::cout << "testOneAlloc: Ok" << std::endl;
+}
+
+/** */
+void testOneAllocWithPointerCheck() {
     const size_t OBJECT_SIZE = 100; // [0; 10] (4096 * 2^order)
     struct cache cache{};
     cache_setup(&cache, OBJECT_SIZE);
@@ -314,7 +376,9 @@ void testOneAlloc() {
 
     test = cache_alloc(&cache);
 
-    std::cout << "testOneAlloc: Ok" << std::endl;
+    assert((void*)((size_t)cache.halfBusySlabs + sizeof(slabHeader) + sizeof(dataPlaceStatus)) == test);
+
+    std::cout << "testOneAllocWithPointerCheck: Ok" << std::endl;
 }
 
 /** */
@@ -322,9 +386,8 @@ void testOneBigAlloc() {
     const size_t OBJECT_SIZE = 1000000; // [0; 10] (4096 * 2^order)
     struct cache cache{};
     cache_setup(&cache, OBJECT_SIZE);
-    void  *test;
 
-    test = cache_alloc(&cache);
+    cache_alloc(&cache);
 
     std::cout << "testOneBigAlloc: Ok" << std::endl;
 }
@@ -365,25 +428,217 @@ void testManyAlloc() {
     cache_setup(&cache, OBJECT_SIZE);
     void  *test[8];
 
-    for (int i = 0; i<8; i++) {
+    for (int i = 0; i<8; i++)
         test[i] = cache_alloc(&cache);
-    }
 
-    for (int i = 0; i<8; i++) {
+    for (int i = 0; i<8; i++)
         cache_free(&cache, test[i]);
-    }
 
     assert(cache.freeSlabs != NULL);
-    assert(cache.freeSlabs->next != NULL);
-    assert(cache.freeSlabs->next->next != NULL);
+//    assert(cache.freeSlabs->next != NULL);
+//    assert(cache.freeSlabs->next->next != NULL);
     assert(cache.halfBusySlabs == NULL);
     assert(cache.fullBusySlabs == NULL);
 
     std::cout << "testManyAlloc: Ok" << std::endl;
 }
 
+/** */
+void testCacheShrink() {
+    const size_t OBJECT_SIZE = 1200; // [0; 10] (4096 * 2^order)
+    struct cache cache{};
+    cache_setup(&cache, OBJECT_SIZE);
+    void  *test[8];
 
+    for (int i = 0; i<8; i++)
+        test[i] = cache_alloc(&cache);
 
+    for (int i = 0; i<8; i++)
+        cache_free(&cache, test[i]);
+
+    assert(cache.freeSlabs != NULL);
+    //assert(cache.freeSlabs->next != NULL);
+
+    cache_shrink(&cache);
+
+    assert(cache.freeSlabs == NULL);
+
+    std::cout << "testCacheShrink: Ok" << std::endl;
+}
+
+/** */
+void testCacheRelease() {
+    const size_t OBJECT_SIZE = 1;
+    const size_t SIZE = 5400;
+    struct cache cache{};
+    cache_setup(&cache, OBJECT_SIZE);
+    void  *test[SIZE];
+
+    for (int i = 0; i<SIZE; i++)
+        test[i] = cache_alloc(&cache);
+
+/*    for (int i = 0; i<SIZE; i++)
+        cache_free(&cache, test[i]);*/
+
+/*    assert(cache.freeSlabs != NULL);
+    assert(cache.halfBusySlabs != NULL);
+    assert(cache.fullBusySlabs != NULL);*/
+
+    cache_release(&cache);
+
+    assert(cache.freeSlabs == NULL);
+    assert(cache.halfBusySlabs == NULL);
+    assert(cache.fullBusySlabs == NULL);
+
+    std::cout << "testCacheRelease: Ok" << std::endl;
+}
+
+/** */
+void testAllocFreeAlloc() {
+    const size_t OBJECT_SIZE = 1200;
+    const size_t SIZE = 8;
+    struct cache cache{};
+    cache_setup(&cache, OBJECT_SIZE);
+    void  *test[SIZE], *test1[SIZE];
+
+    for (int i = 0; i<SIZE; i++)
+        test[i] = cache_alloc(&cache);
+    //cachePrint(&cache);
+
+    for (int i = 0; i<SIZE; i++)
+        cache_free(&cache, test[i]);
+    //cachePrint(&cache);
+
+    assert(cache.freeSlabs != NULL);
+    assert(cache.halfBusySlabs == NULL);
+    assert(cache.fullBusySlabs == NULL);
+
+    for (int i = 0; i<SIZE; i++)
+        test1[i] = test[i];
+
+   for (int i = 0; i<SIZE; i++)
+        test[i] = cache_alloc(&cache);
+    //cachePrint(&cache);
+
+   // assert(cache.freeSlabs == NULL);
+    assert(cache.halfBusySlabs != NULL);
+   // assert(cache.fullBusySlabs != NULL);
+
+    for (int i = 0; i<SIZE; i++)
+        cache_free(&cache, test[i]);
+    //cachePrint(&cache);
+
+    assert(cache.freeSlabs != NULL);
+    assert(cache.halfBusySlabs == NULL);
+    assert(cache.fullBusySlabs == NULL);
+
+    std::cout << "testAllocFreeAlloc: Ok" << std::endl;
+}
+
+/** */
+void testRandomFree() {
+    const size_t OBJECT_SIZE = 1200; // [0; 10] (4096 * 2^order)
+    struct cache cache{};
+    cache_setup(&cache, OBJECT_SIZE);
+    void  *test[8];
+
+    for (int i = 0; i<8; i++)
+        test[i] = cache_alloc(&cache);
+
+    cache_free(&cache, test[3]);
+    cache_free(&cache, test[7]);
+    cache_free(&cache, test[0]);
+    cache_free(&cache, test[1]);
+    cache_free(&cache, test[6]);
+    cache_free(&cache, test[4]);
+    cache_free(&cache, test[2]);
+    cache_free(&cache, test[5]);
+
+    assert(cache.freeSlabs != NULL);
+    assert(cache.halfBusySlabs == NULL);
+    assert(cache.fullBusySlabs == NULL);
+
+    std::cout << "testRandomFree: Ok" << std::endl;
+}
+
+/** */
+void testManySmallAllocFreeAlloc() {
+    const size_t OBJECT_SIZE = 1;
+    const size_t SIZE = 5400;
+    struct cache cache{};
+    cache_setup(&cache, OBJECT_SIZE);
+    void  *test[SIZE], *test1[SIZE];
+
+    for (int i = 0; i<SIZE; i++)
+        test[i] = cache_alloc(&cache);
+
+    for (int i = 0; i<SIZE; i++)
+        cache_free(&cache, test[i]);
+
+    assert(cache.freeSlabs != NULL);
+    assert(cache.halfBusySlabs == NULL);
+    assert(cache.fullBusySlabs == NULL);
+
+    for (int i = 0; i<SIZE; i++)
+        test1[i] = test[i];
+
+    for (int i = 0; i<SIZE; i++)
+        test[i] = cache_alloc(&cache);
+
+    //assert(cache.freeSlabs == NULL);
+    assert(cache.halfBusySlabs != NULL);
+    assert(cache.fullBusySlabs != NULL);
+
+    for (int i = 0; i<SIZE; i++)
+        cache_free(&cache, test[i]);
+
+    assert(cache.freeSlabs != NULL);
+    assert(cache.halfBusySlabs == NULL);
+    assert(cache.fullBusySlabs == NULL);
+
+    std::cout << "testManySmallAllocFreeAlloc: Ok" << std::endl;
+}
+
+/** */
+void testDynamicAlloc() {
+    const size_t OBJECT_SIZE = 10;
+    const size_t SIZE = 5400;
+    struct cache cache{};
+    cache_setup(&cache, OBJECT_SIZE);
+    void  *test[SIZE];
+
+    for (int i = 0; i<SIZE; i++)
+        test[i] = cache_alloc(&cache);
+
+    for (int i = 0; i<SIZE/4; i++)
+        cache_free(&cache, test[i]);
+
+    assert(cache.freeSlabs != NULL);
+
+    cache_release(&cache);
+
+    assert(cache.freeSlabs == NULL);
+    assert(cache.halfBusySlabs == NULL);
+    assert(cache.fullBusySlabs == NULL);
+
+    for (int i = 0; i<SIZE; i++)
+        test[i] = cache_alloc(&cache);
+
+    assert(cache.freeSlabs == NULL);
+    assert(cache.halfBusySlabs != NULL);
+    assert(cache.fullBusySlabs != NULL);
+
+    for (int i = 0; i<SIZE/4; i++)
+        cache_free(&cache, test[i]);
+
+    assert(cache.freeSlabs != NULL);
+
+    cache_shrink(&cache);
+
+    assert(cache.freeSlabs == NULL);
+
+    std::cout << "testDynamicAlloc: Ok" << std::endl;
+}
 
 
 /**
@@ -405,10 +660,17 @@ void free_slab(void *slab) {
 int main() {
 
     testOneAlloc();
+    testOneAllocWithPointerCheck();
     testOneBigAlloc();
     testOneFree();
     testReAlloc();
     testManyAlloc();
+    testCacheShrink();
+    testCacheRelease();
+    testAllocFreeAlloc();
+    testRandomFree();
+    testManySmallAllocFreeAlloc();
+    testDynamicAlloc();
 
 
 
