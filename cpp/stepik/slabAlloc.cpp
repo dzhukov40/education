@@ -25,7 +25,7 @@ void *alloc_slab(int order);
 void free_slab(void *slab);
 
 
-const size_t MAX_OBJECTS_IN_SLAB = 1000; // 1200 for stepik
+const size_t MAX_OBJECTS_IN_SLAB = 3000; // 1200 for stepik
 enum slabStatus { FREE, HALF_BUSY, BUSY };
 enum dataPlaceStatus { FREE_PLACE, BUSY_PLACE };
 
