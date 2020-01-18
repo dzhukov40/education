@@ -34,6 +34,7 @@ struct slabHeader {
     slabHeader *prev;  // указатель на предыдущий слаб
 
     slabStatus status;
+    dataPlaceStatus *freePlace;
     size_t busy_objects_count; /* количество занятых объектов в одном SLAB-е */
 };
 
@@ -44,7 +45,6 @@ struct slabHeader {
  * сохранить в этой структуре.
  **/
 struct cache {
-   // cache() {}
    cache() : freeSlabs(nullptr),
    halfBusySlabs(nullptr),
    fullBusySlabs(nullptr),
@@ -90,6 +90,7 @@ inline slabHeader* createNewSlab(struct cache *cache) {
     header->next = NULL;
     header->busy_objects_count = 0;
     header->status = FREE;
+    header->freePlace = (dataPlaceStatus*)((size_t)header + sizeof(slabHeader));
 
     void *point = (void*)((size_t)header + sizeof(slabHeader));
     for(int i = 0; i < cache->slab_objects_count_limit; i++) {
@@ -165,6 +166,7 @@ void cache_setup(struct cache *cache, size_t object_size)
 {
     cache->slab_object_size = object_size;
     fillCacheFields(object_size, &cache->slab_objects_count_limit, &cache->slab_order, &cache->slab_size);
+    if (cache->slab_objects_count_limit != 0)
     addEmptySlabs(cache, 20);
 }
 
@@ -261,20 +263,16 @@ inline slabHeader* findSlab(struct cache *cache, void* ptr) {
     if (isPointerInSlab(pointer, ptr, cache->slab_size))
         return pointer;
 
+    std::cerr << "can not find Slab";
     return NULL;
 }
 
-void* busyPlaceInSlab(size_t slabObjectSize, size_t objectsCountLimit, slabHeader *slab) {
-    void *point = (void*)((size_t)slab + sizeof(slabHeader));
+void* busyPlaceInSlab(size_t slabObjectSize, slabHeader *slab) {
+    dataPlaceStatus *point = slab->freePlace;
 
-    for (int i = 0; *(dataPlaceStatus*)point == BUSY_PLACE; i++) {
-        point = (void*)((size_t)point + slabObjectSize);
-        if (i > objectsCountLimit)
-            //TODO: убрать эту проверку, так как нам гарантируют что в блоке есть свободное местечко
-            return NULL; // это для отладки, мы не должны это проверять, убрать потом
-    }
+    slab->freePlace = (dataPlaceStatus*)((size_t)point + slabObjectSize);
 
-    *(dataPlaceStatus*)point = BUSY_PLACE;
+    *point = BUSY_PLACE;
     slab->busy_objects_count++;
     return (void*)((size_t)point + sizeof(dataPlaceStatus));
 }
@@ -282,6 +280,7 @@ void* busyPlaceInSlab(size_t slabObjectSize, size_t objectsCountLimit, slabHeade
 void freePlaceInSlab(slabHeader *slab, void* ptr) {
     dataPlaceStatus *placeStatus = (dataPlaceStatus*)((size_t)ptr - sizeof(dataPlaceStatus));
     *placeStatus = FREE_PLACE;
+    slab->freePlace = placeStatus;
 
     slab->busy_objects_count = slab->busy_objects_count - 1;
 }
@@ -295,8 +294,10 @@ void freePlaceInSlab(slabHeader *slab, void* ptr) {
  **/
 void *cache_alloc(struct cache *cache)
 {
+    if (cache->slab_objects_count_limit == 0)
+        return NULL;
     slabHeader *slabWithFreePlace = getSlabWithFreePlace(cache);
-    void* result = busyPlaceInSlab(cache->slab_object_size, cache->slab_objects_count_limit, slabWithFreePlace);
+    void* result = busyPlaceInSlab(cache->slab_object_size, slabWithFreePlace);
     moveElementInCorrectGroup(cache, slabWithFreePlace);
 
     return result;
@@ -383,11 +384,13 @@ void testOneAllocWithPointerCheck() {
 
 /** */
 void testOneBigAlloc() {
-    const size_t OBJECT_SIZE = 1000000; // [0; 10] (4096 * 2^order)
+    const size_t OBJECT_SIZE = 100000000; // [0; 10] (4096 * 2^order)
     struct cache cache{};
     cache_setup(&cache, OBJECT_SIZE);
+    void  *test;
 
-    cache_alloc(&cache);
+    test = cache_alloc(&cache);
+    assert(test == NULL);
 
     std::cout << "testOneBigAlloc: Ok" << std::endl;
 }
@@ -435,8 +438,6 @@ void testManyAlloc() {
         cache_free(&cache, test[i]);
 
     assert(cache.freeSlabs != NULL);
-//    assert(cache.freeSlabs->next != NULL);
-//    assert(cache.freeSlabs->next->next != NULL);
     assert(cache.halfBusySlabs == NULL);
     assert(cache.fullBusySlabs == NULL);
 
@@ -601,7 +602,7 @@ void testManySmallAllocFreeAlloc() {
 
 /** */
 void testDynamicAlloc() {
-    const size_t OBJECT_SIZE = 10;
+    const size_t OBJECT_SIZE = 1;
     const size_t SIZE = 5400;
     struct cache cache{};
     cache_setup(&cache, OBJECT_SIZE);
@@ -628,7 +629,7 @@ void testDynamicAlloc() {
     assert(cache.halfBusySlabs != NULL);
     assert(cache.fullBusySlabs != NULL);
 
-    for (int i = 0; i<SIZE/4; i++)
+    for (int i = 0; i<SIZE/2; i++)
         cache_free(&cache, test[i]);
 
     assert(cache.freeSlabs != NULL);
