@@ -1,5 +1,28 @@
 #include <iostream>
 #include <assert.h>
+#include <queue>
+#include <map>
+
+using namespace std;
+
+struct thread {
+    int id;
+    int timesliceCount;    // четчик времени выполнения потока
+    bool blocked;          // true - заблокирон
+    bool ended;            // true - поток закончен
+};
+
+
+struct sheduler {
+    map <int, thread*> threadMap;
+    queue<thread*> threadQueue;
+    size_t timeslice;
+
+    thread* currentThread;
+};
+
+
+static sheduler mySheduler;
 
 
 /**
@@ -15,7 +38,8 @@
  **/
 void scheduler_setup(int timeslice)
 {
-    /* Put your code here */
+    mySheduler.timeslice = timeslice;
+    mySheduler.currentThread = NULL;
 }
 
 /**
@@ -25,7 +49,20 @@ void scheduler_setup(int timeslice)
  **/
 void new_thread(int thread_id)
 {
-    /* Put your code here */
+    thread *newThread = new thread;
+
+    newThread->id = thread_id;
+    newThread->timesliceCount = mySheduler.timeslice;
+    newThread->blocked = false;
+    newThread->ended = false;
+
+    mySheduler.threadMap.insert(std::make_pair(thread_id, newThread));
+    mySheduler.threadQueue.push(newThread);
+
+    if(mySheduler.currentThread == NULL) {
+        mySheduler.currentThread = mySheduler.threadQueue.front();
+        mySheduler.threadQueue.pop();
+    }
 }
 
 /**
@@ -37,7 +74,9 @@ void new_thread(int thread_id)
  **/
 void exit_thread()
 {
-    /* Put your code here */
+    mySheduler.threadMap.erase(mySheduler.currentThread->id);
+    mySheduler.currentThread = mySheduler.threadQueue.front();
+    mySheduler.threadQueue.pop();
 }
 
 /**
@@ -49,7 +88,11 @@ void exit_thread()
  **/
 void block_thread()
 {
-    /* Put your code here */
+    mySheduler.currentThread->blocked = true;
+    mySheduler.threadQueue.push(mySheduler.currentThread);
+
+    mySheduler.currentThread = mySheduler.threadQueue.front();
+    mySheduler.threadQueue.pop();
 }
 
 /**
@@ -59,7 +102,7 @@ void block_thread()
  **/
 void wake_thread(int thread_id)
 {
-    /* Put your code here */
+    mySheduler.threadMap[thread_id]->blocked = false;
 }
 
 /**
@@ -68,7 +111,16 @@ void wake_thread(int thread_id)
  **/
 void timer_tick()
 {
-    /* Put your code here */
+   if(mySheduler.currentThread != NULL) {
+       mySheduler.currentThread->timesliceCount--;
+
+       if(mySheduler.currentThread->timesliceCount == 0) {
+           mySheduler.threadMap.erase(mySheduler.currentThread->id);
+           mySheduler.currentThread = mySheduler.threadQueue.front();
+           mySheduler.threadQueue.pop();
+       }
+   }
+
 }
 
 /**
@@ -80,19 +132,32 @@ void timer_tick()
  **/
 int current_thread()
 {
-    /* Put your code here */
+    return mySheduler.currentThread == NULL ? -1 : mySheduler.currentThread->id;
 }
 
 
 
-// TESTS
-void testVoid() {
+void testVoidTimerTick() {
+    const int TIME_SLICE = 2;
+    scheduler_setup(TIME_SLICE);
 
-    assert(NULL == NULL);
+    for(int i = 0; i < 3; i++)
+        timer_tick();
 
-    std::cout << "testVoid: Ok" << std::endl;
+    std::cout << "testVoidTimerTick: Ok" << std::endl;
 }
 
+void testTimerTick() {
+    const int TIME_SLICE = 2;
+    scheduler_setup(TIME_SLICE);
+
+    new_thread(1);
+
+    for(int i = 0; i < 3; i++)
+        timer_tick();
+
+    std::cout << "testTimerTick: Ok" << std::endl;
+}
 
 
 
@@ -101,7 +166,8 @@ void testVoid() {
 
 int main() {
 
-    testVoid();
+    // testTimerTick();
+    testTimerTick();
 
 
 
