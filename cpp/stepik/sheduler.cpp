@@ -25,6 +25,18 @@ struct sheduler {
 static sheduler mySheduler;
 
 
+
+thread* getNextThread() {
+    thread* nextThread = NULL;
+    if(!mySheduler.threadQueue.empty()) {
+        nextThread = mySheduler.threadQueue.front();
+        mySheduler.threadQueue.pop();
+    }
+
+    return nextThread;
+}
+
+
 /**
  * Функция будет вызвана перед каждым тестом, если вы
  * используете глобальные и/или статические переменные
@@ -38,8 +50,24 @@ static sheduler mySheduler;
  **/
 void scheduler_setup(int timeslice)
 {
+    map<int, thread*>::iterator it;
+    for ( it = mySheduler.threadMap.begin(); it != mySheduler.threadMap.end(); it++ ) {
+        delete it->second;
+    }
+    mySheduler.threadMap.clear();
+
+    int debugValueOfSize = mySheduler.threadQueue.size();
+    bool isEmpty = mySheduler.threadQueue.empty();
+    while(!mySheduler.threadQueue.empty()) {
+        getNextThread();
+    }
+
     mySheduler.timeslice = timeslice;
-    mySheduler.currentThread = NULL;
+
+    if(mySheduler.currentThread != NULL) {
+        delete mySheduler.currentThread;
+        mySheduler.currentThread = NULL;
+    }
 }
 
 /**
@@ -49,7 +77,11 @@ void scheduler_setup(int timeslice)
  **/
 void new_thread(int thread_id)
 {
-    thread *newThread = new thread;
+    thread *newThread = new thread();
+
+    //TODO: епонятный баг, если у нас одна аллокация, то возвращается обьект который есть в мапе уже, и меняем у него поля, ШОК
+    thread *newThread1 = new thread();
+    thread *newThread2= new thread();
 
     newThread->id = thread_id;
     newThread->timesliceCount = mySheduler.timeslice;
@@ -60,8 +92,7 @@ void new_thread(int thread_id)
     mySheduler.threadQueue.push(newThread);
 
     if(mySheduler.currentThread == NULL) {
-        mySheduler.currentThread = mySheduler.threadQueue.front();
-        mySheduler.threadQueue.pop();
+        mySheduler.currentThread = getNextThread();
     }
 }
 
@@ -74,9 +105,12 @@ void new_thread(int thread_id)
  **/
 void exit_thread()
 {
-    mySheduler.threadMap.erase(mySheduler.currentThread->id);
-    mySheduler.currentThread = mySheduler.threadQueue.front();
-    mySheduler.threadQueue.pop();
+    if(mySheduler.currentThread != NULL) {
+        mySheduler.threadMap.erase(mySheduler.currentThread->id);
+        delete mySheduler.currentThread;
+
+        mySheduler.currentThread = getNextThread();
+    }
 }
 
 /**
@@ -88,11 +122,9 @@ void exit_thread()
  **/
 void block_thread()
 {
+    // при блокировке потока больше нет в очереди но он есть в мапе
     mySheduler.currentThread->blocked = true;
-    mySheduler.threadQueue.push(mySheduler.currentThread);
-
-    mySheduler.currentThread = mySheduler.threadQueue.front();
-    mySheduler.threadQueue.pop();
+    mySheduler.currentThread = getNextThread();
 }
 
 /**
@@ -102,7 +134,13 @@ void block_thread()
  **/
 void wake_thread(int thread_id)
 {
-    mySheduler.threadMap[thread_id]->blocked = false;
+    // возвращаем обьект в очередь
+    thread* thread = mySheduler.threadMap[thread_id];
+    thread->blocked = false;
+    mySheduler.threadQueue.push(thread);
+
+    if(mySheduler.currentThread == NULL)
+        mySheduler.currentThread = getNextThread();
 }
 
 /**
@@ -111,13 +149,17 @@ void wake_thread(int thread_id)
  **/
 void timer_tick()
 {
+    if(mySheduler.currentThread == NULL)
+        mySheduler.currentThread = getNextThread();
+
    if(mySheduler.currentThread != NULL) {
        mySheduler.currentThread->timesliceCount--;
 
        if(mySheduler.currentThread->timesliceCount == 0) {
            mySheduler.threadMap.erase(mySheduler.currentThread->id);
-           mySheduler.currentThread = mySheduler.threadQueue.front();
-           mySheduler.threadQueue.pop();
+           delete mySheduler.currentThread;
+
+           mySheduler.currentThread = getNextThread();
        }
    }
 
@@ -137,6 +179,16 @@ int current_thread()
 
 
 
+
+
+
+
+
+void checkThreadId(int id) {
+    int threadId = current_thread();
+    assert(threadId == id);
+}
+
 void testVoidTimerTick() {
     const int TIME_SLICE = 2;
     scheduler_setup(TIME_SLICE);
@@ -151,25 +203,123 @@ void testTimerTick() {
     const int TIME_SLICE = 2;
     scheduler_setup(TIME_SLICE);
 
+    checkThreadId(-1);
     new_thread(1);
+    checkThreadId(1);
 
-    for(int i = 0; i < 3; i++)
+    for(int i = 0; i < 2; i++)
         timer_tick();
+
+    checkThreadId(-1);
 
     std::cout << "testTimerTick: Ok" << std::endl;
 }
 
+void testTimerTickWithTwoThread() {
+    const int TIME_SLICE = 2;
+    scheduler_setup(TIME_SLICE);
+
+    new_thread(1);
+    checkThreadId(1);
+    new_thread(2);
+    checkThreadId(1);
+
+    for(int i = 0; i < 3; i++)
+        timer_tick();
+
+    checkThreadId(2);
+
+    std::cout << "testTimerTickWithTwoThread: Ok" << std::endl;
+}
+
+void testTimerTickWithThreeThread() {
+    const int TIME_SLICE = 2;
+    scheduler_setup(TIME_SLICE);
+
+    new_thread(1);
+    checkThreadId(1);
+    new_thread(2);
+    checkThreadId(1);
+
+    for(int i = 0; i < 3; i++)
+        timer_tick();
+
+    checkThreadId(2);
+
+    new_thread(3);
+    timer_tick();
+    checkThreadId(3);
 
 
+
+
+    std::cout << "testTimerTickWithThreeThread: Ok" << std::endl;
+}
+
+void testTimerTickWithBlockThread() {
+    const int TIME_SLICE = 2;
+    scheduler_setup(TIME_SLICE);
+
+    new_thread(1);
+    timer_tick();
+    block_thread();
+    timer_tick();
+    timer_tick();
+    timer_tick();
+
+    checkThreadId(-1);
+    wake_thread(1);
+    checkThreadId(1);
+
+    timer_tick();
+
+    checkThreadId(-1);
+
+    std::cout << "testTimerTickWithBlockThread: Ok" << std::endl;
+}
+
+void testTimerTickWithExitThread() {
+    const int TIME_SLICE = 2;
+    scheduler_setup(TIME_SLICE);
+
+    new_thread(1);
+    timer_tick();
+
+    checkThreadId(1);
+    exit_thread();
+    checkThreadId(-1);
+
+    std::cout << "testTimerTickWithExitThread: Ok" << std::endl;
+}
+
+void testBlockExitThread() {
+    const int TIME_SLICE = 2;
+    scheduler_setup(TIME_SLICE);
+
+    new_thread(1);
+    timer_tick();
+
+    block_thread();
+    exit_thread();
+
+    checkThreadId(-1);
+    wake_thread(1);
+    checkThreadId(1);
+
+    std::cout << "testBlockExitThread: Ok" << std::endl;
+}
 
 
 
 int main() {
 
-    // testTimerTick();
+    testVoidTimerTick();
     testTimerTick();
-
-
+    testTimerTickWithTwoThread();
+    testTimerTickWithThreeThread();
+    testTimerTickWithBlockThread();
+    testTimerTickWithExitThread();
+    testBlockExitThread();
 
 
     return 0;
