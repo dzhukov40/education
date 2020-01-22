@@ -9,7 +9,6 @@ struct thread {
     int id;
     int timesliceCount;    // четчик времени выполнения потока
     bool blocked;          // true - заблокирон
-    bool ended;            // true - поток закончен
 };
 
 
@@ -53,11 +52,10 @@ void scheduler_setup(int timeslice)
     map<int, thread*>::iterator it;
     for ( it = mySheduler.threadMap.begin(); it != mySheduler.threadMap.end(); it++ ) {
         delete it->second;
+        it->second = NULL;
     }
     mySheduler.threadMap.clear();
 
-    int debugValueOfSize = mySheduler.threadQueue.size();
-    bool isEmpty = mySheduler.threadQueue.empty();
     while(!mySheduler.threadQueue.empty()) {
         getNextThread();
     }
@@ -65,7 +63,6 @@ void scheduler_setup(int timeslice)
     mySheduler.timeslice = timeslice;
 
     if(mySheduler.currentThread != NULL) {
-        delete mySheduler.currentThread;
         mySheduler.currentThread = NULL;
     }
 }
@@ -79,14 +76,9 @@ void new_thread(int thread_id)
 {
     thread *newThread = new thread();
 
-    //TODO: епонятный баг, если у нас одна аллокация, то возвращается обьект который есть в мапе уже, и меняем у него поля, ШОК
-    thread *newThread1 = new thread();
-    thread *newThread2= new thread();
-
     newThread->id = thread_id;
     newThread->timesliceCount = mySheduler.timeslice;
     newThread->blocked = false;
-    newThread->ended = false;
 
     mySheduler.threadMap.insert(std::make_pair(thread_id, newThread));
     mySheduler.threadQueue.push(newThread);
@@ -152,16 +144,16 @@ void timer_tick()
     if(mySheduler.currentThread == NULL)
         mySheduler.currentThread = getNextThread();
 
-   if(mySheduler.currentThread != NULL) {
-       mySheduler.currentThread->timesliceCount--;
+    if(mySheduler.currentThread != NULL) {
+        mySheduler.currentThread->timesliceCount--;
 
-       if(mySheduler.currentThread->timesliceCount == 0) {
-           mySheduler.threadMap.erase(mySheduler.currentThread->id);
-           delete mySheduler.currentThread;
+        if(mySheduler.currentThread->timesliceCount == 0) {
+            mySheduler.threadMap.erase(mySheduler.currentThread->id);
+            delete mySheduler.currentThread;
 
-           mySheduler.currentThread = getNextThread();
-       }
-   }
+            mySheduler.currentThread = getNextThread();
+        }
+    }
 
 }
 
@@ -250,9 +242,6 @@ void testTimerTickWithThreeThread() {
     timer_tick();
     checkThreadId(3);
 
-
-
-
     std::cout << "testTimerTickWithThreeThread: Ok" << std::endl;
 }
 
@@ -309,6 +298,50 @@ void testBlockExitThread() {
     std::cout << "testBlockExitThread: Ok" << std::endl;
 }
 
+void testWithManyThread() {
+    const int TIME_SLICE = 1;
+    scheduler_setup(TIME_SLICE);
+
+    new_thread(1);
+    new_thread(2);
+    new_thread(3);
+    new_thread(4);
+
+    block_thread();
+    block_thread();
+
+    checkThreadId(3);
+    wake_thread(1);
+    checkThreadId(3);
+
+    timer_tick();
+    checkThreadId(4);
+
+    new_thread(5);
+    new_thread(6);
+
+    checkThreadId(4);
+    exit_thread();
+    checkThreadId(1);
+
+    wake_thread(2);
+    timer_tick();
+    checkThreadId(5);
+    timer_tick();
+    checkThreadId(6);
+    timer_tick();
+    checkThreadId(2);
+    timer_tick();
+    checkThreadId(-1);
+
+    wake_thread(1);
+    checkThreadId(1);
+    exit_thread();
+    checkThreadId(-1);
+
+    std::cout << "testWithManyThread: Ok" << std::endl;
+}
+
 
 
 int main() {
@@ -320,6 +353,7 @@ int main() {
     testTimerTickWithBlockThread();
     testTimerTickWithExitThread();
     testBlockExitThread();
+    testWithManyThread();
 
 
     return 0;
