@@ -11,7 +11,6 @@ struct thread {
     bool blocked;          // true - заблокирон
 };
 
-
 struct sheduler {
     map <int, thread*> threadMap;
     queue<thread*> threadQueue;
@@ -19,10 +18,7 @@ struct sheduler {
 
     thread* currentThread;
 };
-
-
 static sheduler mySheduler;
-
 
 
 thread* getNextThread() {
@@ -74,17 +70,21 @@ void scheduler_setup(int timeslice)
  **/
 void new_thread(int thread_id)
 {
-    thread *newThread = new thread();
+    if (mySheduler.threadMap.find(thread_id) == mySheduler.threadMap.end()) {
+        thread *newThread = new thread();
 
-    newThread->id = thread_id;
-    newThread->timesliceCount = mySheduler.timeslice;
-    newThread->blocked = false;
+        newThread->id = thread_id;
+        newThread->timesliceCount = mySheduler.timeslice;
+        newThread->blocked = false;
 
-    mySheduler.threadMap.insert(std::make_pair(thread_id, newThread));
-    mySheduler.threadQueue.push(newThread);
+        mySheduler.threadMap.insert(std::make_pair(thread_id, newThread));
+        mySheduler.threadQueue.push(newThread);
 
-    if(mySheduler.currentThread == NULL) {
-        mySheduler.currentThread = getNextThread();
+        if(mySheduler.currentThread == NULL) {
+            mySheduler.currentThread = getNextThread();
+        }
+    } else {
+        std::cerr << "this thread_id already exists" << std::endl;
     }
 }
 
@@ -127,12 +127,16 @@ void block_thread()
 void wake_thread(int thread_id)
 {
     // возвращаем обьект в очередь
-    thread* thread = mySheduler.threadMap[thread_id];
-    thread->blocked = false;
-    mySheduler.threadQueue.push(thread);
+    if (mySheduler.threadMap.find(thread_id) != mySheduler.threadMap.end()) {
+        thread* thread = mySheduler.threadMap[thread_id];
+        thread->blocked = false;
+        mySheduler.threadQueue.push(thread);
 
-    if(mySheduler.currentThread == NULL)
-        mySheduler.currentThread = getNextThread();
+        if(mySheduler.currentThread == NULL)
+            mySheduler.currentThread = getNextThread();
+    } else {
+        std::cerr << "this thread_id not exists. Can not wake thread" << std::endl;
+    }
 }
 
 /**
@@ -148,7 +152,8 @@ void timer_tick()
         mySheduler.currentThread->timesliceCount--;
 
         if(mySheduler.currentThread->timesliceCount == 0) {
-            mySheduler.threadMap.erase(mySheduler.currentThread->id);
+            int id = mySheduler.currentThread->id;
+            mySheduler.threadMap.erase(id);
             delete mySheduler.currentThread;
 
             mySheduler.currentThread = getNextThread();
@@ -185,8 +190,9 @@ void testVoidTimerTick() {
     const int TIME_SLICE = 2;
     scheduler_setup(TIME_SLICE);
 
-    for(int i = 0; i < 3; i++)
-        timer_tick();
+    checkThreadId(-1);
+    timer_tick();
+    checkThreadId(-1);
 
     std::cout << "testVoidTimerTick: Ok" << std::endl;
 }
@@ -199,8 +205,9 @@ void testTimerTick() {
     new_thread(1);
     checkThreadId(1);
 
-    for(int i = 0; i < 2; i++)
-        timer_tick();
+    timer_tick();
+    checkThreadId(1);
+    timer_tick();
 
     checkThreadId(-1);
 
@@ -311,8 +318,6 @@ void testWithManyThread() {
     block_thread();
 
     checkThreadId(3);
-    wake_thread(1);
-    checkThreadId(3);
 
     timer_tick();
     checkThreadId(4);
@@ -322,11 +327,9 @@ void testWithManyThread() {
 
     checkThreadId(4);
     exit_thread();
-    checkThreadId(1);
+    checkThreadId(5);
 
     wake_thread(2);
-    timer_tick();
-    checkThreadId(5);
     timer_tick();
     checkThreadId(6);
     timer_tick();
@@ -342,6 +345,32 @@ void testWithManyThread() {
     std::cout << "testWithManyThread: Ok" << std::endl;
 }
 
+void testFromStepik() {
+    const int TIME_SLICE = 2;
+    scheduler_setup(TIME_SLICE);
+
+    new_thread(0);
+    block_thread();
+    timer_tick();
+    new_thread(1);
+    block_thread();
+    timer_tick();
+    wake_thread(0);
+    new_thread(2);
+    block_thread();
+    timer_tick();
+    wake_thread(1);
+    new_thread(3);
+    block_thread();
+    timer_tick();
+
+    checkThreadId(1);
+
+    std::cout << "testFromStepik: Ok" << std::endl;
+}
+
+
+
 
 
 int main() {
@@ -354,6 +383,7 @@ int main() {
     testTimerTickWithExitThread();
     testBlockExitThread();
     testWithManyThread();
+    testFromStepik();
 
 
     return 0;
