@@ -1,0 +1,49 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://valgrind.org/ ]
+- [ http://alexott.net/ru/linux/valgrind/Valgrind.html ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ valgrind ] 
+
+
+ 
+
+1) устанавливаем [ https://memcached.org/downloads ]
+  - [ sudo apt install valgrind ]
+  
+
+2) запуск
+  - [ valgrind --leak-check=full --leak-resolution=med ./cmake-build-debug/sheduler ]
+  - [ valgrind --leak-check=full --leak-resolution=med --show-leak-kinds=all ./cmake-build-debug/sheduler ]
+
+
+    - [ ./cmake-build-debug/sheduler ] это путь до исследуемого бинарника
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
