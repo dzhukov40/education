@@ -6,6 +6,9 @@
 
 using namespace std;
 
+typedef long atomic_ullong; // TODO: comment this
+int atomic_fetch_add(atomic_ullong *target, int data); // TODO: comment this
+
 
 /* Напоминание, как выглядят интерфейсы блокировки и переменной
    состояния.
@@ -15,12 +18,18 @@ using namespace std;
           переменные состояния нужно инциализировать.
 */
 
-struct lock;
+//TODO: convert to [ struct lock; ]
+struct lock {
+    bool flag;
+};
 void lock_init(struct lock *lock);
 void lock(struct lock *lock);
 void unlock(struct lock *lock);
 
-struct condition;
+//TODO: convert to [ struct condition; ]
+struct condition{
+    bool flag;
+};
 void condition_init(struct condition *cv);
 void wait(struct condition *cv, struct lock *lock);
 void notify_one(struct condition *cv);
@@ -48,26 +57,26 @@ struct wdlock {
     /* wdlock_ctx должен хранить информацию обо всех
        захваченных wdlock-ах, а это поле позволит связать
        wdlock-и в список. */
-	struct wdlock *next;
+    struct wdlock *next;
 
     /* Текущий владелец блокировки - из него мы извлекаем
        timestamp связанный с блокировкой, если блокировка
        свободна, то хранит NULL. */
-	const struct wdlock_ctx *owner;
+    const struct wdlock_ctx *owner;
 
     /* lock и cv могут быть использованы чтобы дождаться
        пока блокировка не освободится либо у нее не сменится
        владелец. */
-	struct lock lock;
-	struct condition cv;
+    struct lock lock;
+    struct condition cv;
 };
 
 
 /* Каждый контекст имеет свой уникальный timestamp и хранит
    список захваченных блокировок. */
 struct wdlock_ctx {
-	unsigned long long timestamp;
-	struct wdlock *locks;
+    unsigned long long timestamp;
+    struct wdlock *locks;
 };
 
 
@@ -78,10 +87,10 @@ struct wdlock_ctx {
 */
 void wdlock_ctx_init(struct wdlock_ctx *ctx)
 {
-	static atomic_ullong next;
+    static atomic_ullong next;
 
-	ctx->timestamp = atomic_fetch_add(&next, 1) + 1;
-	ctx->locks = NULL;
+    ctx->timestamp = atomic_fetch_add(&next, 1) + 1;
+    ctx->locks = NULL;
 }
 
 /* Всегда вызывается перед тем, как использовать блокировку.
@@ -91,9 +100,9 @@ void wdlock_ctx_init(struct wdlock_ctx *ctx)
 */
 void wdlock_init(struct wdlock *lock)
 {
-	lock_init(&lock->lock);
-	condition_init(&lock->cv);
-	lock->owner = NULL;
+    lock_init(&lock->lock);
+    condition_init(&lock->cv);
+    lock->owner = NULL;
 }
 
 /* Функция для захвата блокировки l контекстом ctx. Если
@@ -124,5 +133,46 @@ int wdlock_lock(struct wdlock *l, struct wdlock_ctx *ctx)
 
 void wdlock_unlock(struct wdlock_ctx *ctx)
 {
-	// Ваш код здесь
+    // Ваш код здесь
+}
+
+
+
+
+
+
+
+
+
+
+int atomic_fetch_add(atomic_ullong *target, int data) {
+    return *target += data;
+}
+void lock_init(struct lock *lock) {
+    return;
+}
+void lock(struct lock *lock) {
+    return;
+}
+void unlock(struct lock *lock) {
+    return;
+}
+
+void condition_init(struct condition *cv) {
+    return;
+}
+void wait(struct condition *cv, struct lock *lock) {
+    return;
+}
+void notify_one(struct condition *cv) {
+    return;
+}
+void notify_all(struct condition *cv) {
+    return;
+}
+
+int main() {
+
+
+    return 0;
 }
