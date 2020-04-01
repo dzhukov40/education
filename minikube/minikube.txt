@@ -40,6 +40,19 @@
         - [ https://brew.sh/ ] источник
         - установка:
           - [ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" ] 
+  - проверяем
+    - [ minikube start --driver=virtualbox ]
+      - [!] не стартует миникуб ( Error: [VBOX_HOST_ADAPTER]  )
+        - надо поменять настройки безопасности
+          - [https://matthewpalmer.net/blog/2017/12/10/install-virtualbox-mac-high-sierra/index.html]
+        - [ reboot ]
+        - [ minikube delete ] удаляем
+        - [ minikube start --driver=virtualbox --alsologtostderr -v=1 ] больше логов
+    - если удалось запустить:
+      - [ minicube status ] 
+      - [ minikube stop ]
+      - [ minikube start ]
+      - [ minikube dashboard ] дашборд кластера (откроется UI в браузере)
 
 
 2) Устанавливаем kubectl на mac
