@@ -36,12 +36,10 @@
     - установка описана в файле/папке [ VirtualBox ]
   - наконецто устанавливаем minikube
     - [ brew install minikube ] устанавливаем через стандартный пакетный менеджер
-    - второй вариант, можем скачать бинарник и переместить в [ /bin ]
-      - [ curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64 && chmod +x minikube ]
-      - [ ]sudo mv minikube /usr/local/bin 
-  - проверяем правильность установки
-    - ... дописать ...
-
+      - (*) для этого надо поствить этот пакетный менеджер
+        - [ https://brew.sh/ ] источник
+        - установка:
+          - [ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" ] 
 
 
 2) Устанавливаем kubectl на mac
