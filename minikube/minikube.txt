@@ -3,6 +3,7 @@
 
 // оф сайт
 - [ https://kubernetes.io/docs/setup/learning-environment/minikube/ ]
+- [ https://github.com/kubernetes/minikube ]
  
 
 
@@ -42,6 +43,7 @@
           - [ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" ] 
   - проверяем
     - [ minikube start --driver=virtualbox ]
+      - [ minikube config set driver virtualbox ] поставим драйвер в конфиге потом
       - [!] не стартует миникуб ( Error: [VBOX_HOST_ADAPTER]  )
         - надо поменять настройки безопасности
           - [https://matthewpalmer.net/blog/2017/12/10/install-virtualbox-mac-high-sierra/index.html]
@@ -73,8 +75,9 @@
 
 
 
-
-
+[?] как поставить драйвер по умолчанию
+  - [ https://minikube.sigs.k8s.io/docs/start/macos/ ] варианты драйверов
+  - [ minikube config set driver virtualbox ] ставим драйвер virtualbox 
 
 
 [?] nop
