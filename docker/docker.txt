@@ -134,6 +134,8 @@
     - [ FROM ] указываем базовый образ
     - [ USER ] указать пользователь от которого работаем
     - [ COPY ] копируем файл с основной системы в контейнер
+    - [ ARG ] переменные, доступны только при сборке образа, можно передать как параметры
+    - [ ENV ] переменная окружения, оступна при запуске контейнера, можно передать как параметры
     - [ WORKDIR ] указываем рабочую директорию
     - [ EXPOSE ] указываем какие порты нужно пробросить
     - [ VOLUME ] мапим папку/файл из гостевой машины в контейнер
@@ -305,22 +307,78 @@ networks:
     git
 
 
+20) Многоэтапные сборки (multi-stage builds)
+  - Каждая инструкция в докерфайле создает новый слой,
+    поэтому чтобы усеньшить число соев предлогалось 
+    использовать скрипты и другую логику, чтобы поддерживать 
+    минимально возможный размер слоя.
+  - (multi-module Maven project) чтобы собрать модуль мультимодульного 
+    проекта в докере надо выбрать корректно точку контекста докера, так как 
+    выйти из него в Dockerfile не получится
+    - команда сборки
+      - [ docker build  .. --tag myApp -f ./Dockerfile ]
+  - пример Dockerfile: 
+    [
+      #
+      # BUILD STAGE
+      #
+      FROM maven:3.6.3-jdk-11 AS BUILD_STAGE
+      COPY . /usr/proect/
+      RUN mvn -f /proect/pom.xml -pl htc-gateway -pl sub-project clean package -am
+
+
+      #
+      # RUN STAGE
+      #
+      FROM openjdk:11 AS RUN_STAGE
+      COPY --from=BUILD_STAGE /usr/proect/htc-gateway/target/*-spring-boot.jar /usr/app/app.jar
+      EXPOSE 8080
+
+      ENTRYPOINT ["java", "-jar", "/usr/app/app.jar"]
+    ]
 
 
 
 
 
 
+ 
 
 
+ 
 
+[?] мощный плагин для заворацивания в докер
+  - [ jib ] -> [ https://github.com/GoogleContainerTools/jib ]
+  - [ spring-boot-maven-plugin ] -> [ https://docs.spring.io/spring-boot/docs/current/maven-plugin/ ]
 
+[?] как при запуске приложения прокинуть профайл
+  - [ -e "SPRING_PROFILES_ACTIVE=prod" ] spring options
+  - [ -e "JAVA_TOOL_OPTIONS=-Ddebug" ] jvm options
 
+[?] как задать ARG в мультистейджевом докерфайле
+  - задаем самой первой строкой, потом в каждом стейдже повторяем определение, 
+    но значение не ставим
+  - [
+      ARG version_default=v1
 
+      FROM alpine:latest as base1
+      ARG version_default
+      ...
 
+      FROM alpine:latest as base2
+      ARG version_default
+      ...
+   ]
 
+[?] как ARG значение перекинуть в ENV чтобы использовать при запуске
+  - хорошей практикой является сохранение имени
+  - [
+      ARG MY_VAR=test
+      ENV MY_VAR=${MY_VAR}
+  ]
 
-
+[?] как срыть часть файлов от копирования в докер 
+  - [ .dockerignore ] надо создать файл с набором правил
 
 [?] как вытащить файл из докера контейнера или положить в докер контейнер
   - https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f
