@@ -27,6 +27,7 @@
   - (*) один из узлов кластера kubernetes является управляющим и управляет запуском
     и масштабированием контейнеров на всех остальных узлах
   - [ kubelet ] на каждом узле кластера установлен агент kubernetes -> kubelet
+  - [ Node ] нода это машина в кластере Kubernates
   - [ kube-Proxy ] на каждой ноде запускается простой proxy-балансировщик
   - [ etcd ] тут хранится состояние мастера
   - [ kubectl ] это консольный клиент kubernetes
@@ -36,19 +37,98 @@
   - [ replica Set ] это единица определяющая сколько одинаковых подов(pod) запустить
   - [ deployment ] это обертка над (replica Set) чтобы иметь возможность 
     обнавлять поды в (replica Set) постепенно
+    - Deployments являются рекоммендуемым способом организации создания и масштабирования подов.
   - [ Service ] это абстракция определяет набор подов(pod) и настройки балансировки
+    - чтобы сделать доступным deployment мы должны иметь сервис, 
+      который должны смапить через labels
   - [ Volumes ] это тома, этот функционал позволяет маунтить в контейнер директории
 
 
+2) Configuration Best Practices
+  - [ https://kubernetes.io/docs/concepts/configuration/overview/ ]
+  - конфигурационные файлы писать на .yaml
+  - пример конфигурации
+    - [ https://github.com/kubernetes/examples/blob/master/guestbook/all-in-one/guestbook-all-in-one.yaml ]
+  - не использовать голые поды (Pods), только в составе ReplicaSet или deployment
 
-2) надо поднять кластер в облаке
+
+3) надо поднять кластер в облаке
   - [ https://www.youtube.com/watch?v=q7HTKiRQ6cg ] вебинар с практикой
   - [ https://youtu.be/L3tgJXsMUTU ] тоже хороший видосик 
   - надо зарегестрироваться в [ consol cloud google com ]
 
 
-3) Ingress
+
+4) kubectl Консольный интерфейс
+  - мы можем подключится и управлять кластером кубрнейтса
+  - [ kubectl get nodes ] посмотреть все ноды
+  - [ kubectl get pods ] посмотреть все поды
+  - [ kubectl get deployments ] посмотреть все деплойменты
+  - [ kubectl get services ] посмотреть все сервисы
+  - [ kubectl get events ] посмотреть события кластера
+  - [ kubectl config view ] посмотреть конфигурацию кластера 
+  - [ kubectl get ingress ] посмотреть созданный ( kind: Ingress )
+    - [!] IP address не показывается
+      - подождать немного он появляется не сразу
+    - [ kubectl get ing ] альтернативная команда
+  - [ kubectl describe deployments ] смотрим информацию по деплойментам
+
+
+5) Ingress
   - это особые ресурсы, которые позволяют гибко настраивать балансировщики нагрузки. 
+  - С помощью этого API балансировщик нагрузки легко можно настроить на работу 
+    с несколькими бэкенд-сервисами.
+  - в Kubernetes существуют два типа сущностей: Ingress и IngressController.
+  - для миникуба его надо включать (аддон)
+    - [ minikube addons enable ingress ] 
+  - нужно разобраться как прикрутить TLS (чтобы работал https)
+  - Стандартно в Kubernetes использует Ingress контроллер на базе Nginx. 
+  - Документация:
+    - [ https://medium.com/southbridge/configure-ingress-on-kubernetes-using-azure-container-service-f72b5cee41f3 ]
+    - [ https://devopscube.com/kubernetes-deployment-tutorial/ ]
+    - [ https://habr.com/ru/post/434524/ ]
+    - [ https://github.com/nginxinc/kubernetes-ingress/tree/master/examples/complete-example ]
+    - [ https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/ ]
+    - [ https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/ ]
+
+
+6) deployment 
+  - [ apiVersion ] версия версия api kubernates
+    - [ apps/v1 ] - стабильная первая версия, есть рвзные виды API
+  - [ Kind ] тип создаваемого обьекта, много разных
+  - [ metadata ] можем определить [ labels, name, namespace, annotations ]
+  - [ spec ] определяем спецефические настройки для обьекта
+
+
+7) Cert-manager
+  - утилита в кластере Kubernetes, которая умеет автоматически получать 
+    и продлевать сертификаты от различных удостоверяющих центров
+
+
+8) Аддоны (Addons)
+  - [ https://minikube.sigs.k8s.io/docs/tasks/addons/ ]
+
+
+9) Sealf-Healing и health cheack
+  - шпаргалка
+    - [ https://www.baeldung.com/spring-boot-kubernetes-self-healing-apps ]
+  - [ readinessProbe ] определем что приложение готово работать после старта
+  - [ livenessProbe ] определяем что приложение еще живое
+    - общие параметры (задаются в секундах)
+      - [ initialDelaySeconds ] сколько подождать перед запросом
+      - [ timeoutSeconds ] сколько ждать ответа от сервиса
+      - [ periodSeconds ] как часто делать запрос
+      - [ failureThreshold ] сколько раз повторно попробовать, 
+        чтобы точно сказать (задается в разах)
+
+ 
+10) ConfigMap 
+  - это способ замаунтить конфигурацинные файлы в деплоймент
+  - полезные сайты
+    - [ https://stackoverflow.com/questions/26140784/spring-boot-is-it-possible-to-use-external-application-properties-files-in-arbi ]
+    - [ https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-external-config-application-property-files ]
+
+ 
 
 
 
@@ -57,6 +137,10 @@
 
 
 
+
+[?] ошибка при старте миникуба minikube
+  - [*] [ Unable to verify SSH connectivity: dial tcp 192.168.99.107:22: i/o timeout. Will retry... ]
+    - отключаем VPN и все работает
 
 
 
