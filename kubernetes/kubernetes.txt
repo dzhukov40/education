@@ -137,13 +137,6 @@
 
 
 
-
-[?] ошибка при старте миникуба minikube
-  - [*] [ Unable to verify SSH connectivity: dial tcp 192.168.99.107:22: i/o timeout. Will retry... ]
-    - отключаем VPN и все работает
-
-
-
 [?] nop
   - nop
 

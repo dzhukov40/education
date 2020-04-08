@@ -79,6 +79,12 @@
   - [ https://minikube.sigs.k8s.io/docs/start/macos/ ] варианты драйверов
   - [ minikube config set driver virtualbox ] ставим драйвер virtualbox 
 
+[?] ошибка при старте миникуба minikube
+  - [*] [ Unable to verify SSH connectivity: dial tcp 192.168.99.107:22: i/o timeout. Will retry... ]
+    - отключаем VPN и все работает
+    - [ minikube start --force ] если не помогло, то добавляем ключик
+    - похоже бывает, что что-то зависает, можно попробовать перехагрузить комп 
+      и не вклюя VPN стартануть миникуб
 
 [?] nop
   - nop
