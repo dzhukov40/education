@@ -22,7 +22,16 @@
 
 
 
-1) Форматы файлов
+1) lsof  утилита чтобы посмотреть порты
+- [ lsof ]
+  - ставим утилиту на mac
+  - [ brew install lsof ]
+  - [ vim ~/.zshrc ]
+  - [ 
+      #dzhukov - add lsof in PATH
+      export PATH="/usr/local/opt/lsof/bin:$PATH"
+    ]
+  - [ lsof -i :8080 ] посмотреть кто занимает порт 
  
 
 
