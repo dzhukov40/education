@@ -42,6 +42,10 @@
 
 [?] ретроспектива ретро
   - [ https://www.teamretro.com/plans/ ]
+  - [ https://reetro-io.herokuapp.com/ ]
+    - зарегался 
+      - [ dzhukov40.v@gmail.com ] логин
+      - [ D . . . . . . . ]
 
 [?] оценка по времени Planning Poker (Scrum Poker)
   - [ https://www.scrumpoker.online/member/279328/1063092 ]
