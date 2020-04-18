@@ -1,0 +1,69 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://micrometer.io/ ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ micrometer ]  используется для сбора метрик приложения JVM 
+и позволяет экспортировать данные в различные системы мониторинга.
+
+
+
+
+1) подключаем к spring-boot приложению
+  - в зависимости подключаем:
+    - [ compile("org.springframework.boot", "spring-boot-starter-web", springVer) ]
+    - [ compile("org.springframework.boot", "spring-boot-starter-actuator", springVer) ]
+    - [ compile("io.micrometer", "micrometer-registry-prometheus", micrometerVer) ]
+  - теперь добавлчем настройкм в [ application.yml ]
+    [ 
+      management:
+          endpoints:
+              enabled-by-default: false
+              web.exposure.include: health, prometheus
+          endpoint:
+              health.enabled: true
+              prometheus.enabled: true
+    ]
+  - посмотрим в актуаторе, что появился url для метрик промитеуса
+    - [ http://localhost:8089/sdelki/actuator/ ]
+    - [ http://localhost:8089/sdelki/actuator/prometheus ] тут метрики
+
+
+2) самый простой спосод добавить свою метрику
+  - [ @Timed ] вешаем над методом, метод должен вызываться через spring proxy
+
+
+
+
+
+
+
+  
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
