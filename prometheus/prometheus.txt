@@ -1,0 +1,64 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://prometheus.io/ ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ prometheus ]  используется для сбора метрик приложения JVM 
+и позволяет экспортировать данные в различные системы мониторинга.
+
+
+
+
+1) запускаем локально из докера
+  - [ docker run -p 9090:9090 prom/prometheus ] тестовый запуск
+    - [ docker run -p 9090:9090 prom/prometheus:v2.17.1 ] запуск конкретной версии
+    - [ http://localhost:9090/graph ] консоль промитеуса
+  - есть инструкция по запуску в docker
+    - [ https://prometheus.io/docs/prometheus/latest/installation/ ]
+    - [ https://hub.docker.com/r/prom/prometheus ] докер хаб
+  - создадим свой файл настроек [ prometheus.yml ]
+    [
+      global:
+        scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+        evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+
+      scrape_configs:
+        - job_name: 'myapp'
+          metrics_path: /application/prometheus
+          static_configs:
+            - targets: ['localhost:8080']
+    ]
+  - запускаем
+    - [ docker run -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus ]
+ 
+
+
+  
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
