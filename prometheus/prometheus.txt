@@ -31,6 +31,7 @@
     - [ https://prometheus.io/docs/prometheus/latest/installation/ ]
     - [ https://hub.docker.com/r/prom/prometheus ] докер хаб
   - создадим свой файл настроек [ prometheus.yml ]
+  - так как будем стучаться в приложение из докер контейнера используем DNS [ host.docker.internal ]
     [
       global:
         scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
@@ -40,7 +41,7 @@
         - job_name: 'myapp'
           metrics_path: /application/prometheus
           static_configs:
-            - targets: ['localhost:8080']
+            - targets: ['host.docker.internal:8080']
     ]
   - запускаем
     - [ docker run -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus ]
