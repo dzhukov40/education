@@ -51,6 +51,13 @@
   
 
 
+
+
+
+[?] как сделать проверку [ readinessProbe , livenessProbe , health check ]
+  - [ readinessProbe ] -> [ /-/ready ]
+  - [ livenessProbe ] -> [ /-/healthy ]
+
 [?] nop
   - nop
 

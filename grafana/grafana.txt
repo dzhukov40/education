@@ -40,7 +40,8 @@
 
 
 
-
+[?] как сделать проверку [ readinessProbe , livenessProbe , health check ]
+  - [ readinessProbe/livenessProbe ] -> [ /api/health ]
 
 [?] nop
   - nop
