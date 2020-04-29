@@ -44,6 +44,11 @@
   - проверяем
     - [ minikube start --driver=virtualbox ]
       - [ minikube config set driver virtualbox ] поставим драйвер в конфиге потом
+        - (*) разом еще добавим больше памяти и процессора
+          [
+            minikube config set memory 8192
+            minikube config set cpus 4
+          ]
       - [!] не стартует миникуб ( Error: [VBOX_HOST_ADAPTER]  )
         - надо поменять настройки безопасности
           - [https://matthewpalmer.net/blog/2017/12/10/install-virtualbox-mac-high-sierra/index.html]
