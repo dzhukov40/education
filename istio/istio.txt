@@ -27,10 +27,58 @@
 
 
 
-1) 
+1) установка
+  - [ https://istio.io/docs/setup/getting-started/ ]
+  - устанавливаем (скачиваем последний релиз)
+    - [ curl -L https://istio.io/downloadIstio | sh - ]
+    - получим папку с [ istio ]
+    - добавляем в PATH путь до [ istioctl ] -> [ export PATH=$PWD/bin:$PATH ]
+  - ...
+  - [ kubectl create namespace istio-system ] создадим неймспейс
+  - чтобы руками не добавлять [ inject Envoy sidecar  proxies ] 
+    перед деплоем наших микросервисов мы можем пометить неймспейс, 
+    чтобы [ istio ] автоматически добавлял сайдкары к подам
+    - [ kubectl label namespace default istio-injection=enabled ]
+  - ...
+  - тепперь надо поставить [ istio ] в кластер
+    - [ istioctl manifest apply --set profile=demo  ]
+      - есть способ кастомизировать свою установку
+        - [ istioctl manifest apply --set addonComponents.grafana.enabled=true ]
+    - как теперь удалить установленное
+      - [ istioctl manifest generate --set profile=demo | kubectl delete -f - ]
+  - ...
+  - теперь нужно настроить [ istio ingress ]
 
 
 
+
+
+
+
+
+
+
+
+[?] как сделать манифест и устанавливать через него и удалить [ istio ]
+  - генерим манифест
+    - [ istioctl manifest generate <your original installation options> > ./generated-manifest.yaml ]
+  - проверяем нагенеренный манифест
+    - [ istioctl verify-install -f ./generated-manifest.yaml ]
+  - устанавливаем [ istio ] из созданного манифеста
+    - [ kubectl apply -f ./generated-manifest.yaml ]
+  - удаляем по созданному манивесту [ istio ]
+    - [ cat ./generated-manifest.yaml | kubectl delete -f - ]
+
+
+[?] как в [ minikube ] разрешить работу [ LoadBalancer ]  
+  - [ https://minikube.sigs.k8s.io/docs/handbook/accessing/#loadbalancer-access ]
+  - [ minikube tunnel ] (*) потребует пароль
+    - [ minikube tunnel --cleanup ] иногда зависает, возможно надо иногдв вызывать 
+  - получаем ip от [ istio ingress ]
+    - [ kubectl get svc istio-ingressgateway -n istio-system ]
+  - быстро поправить файлик
+    - [ sudo vim /etc/hosts ]
+    - [ :%s/old/new/g ] -> [ :%s/10.103.37.80/10.100.35.27/g ]
 
 
 
