@@ -1,0 +1,233 @@
+
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: service-gw
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+    - port:
+        number: 80
+        name: http-system
+        protocol: HTTP
+      hosts:
+#        - "htc-istio-grafana.local"
+#        - "htc-istio-kiali.local"
+#        - "htc-istio-prometheus.local"
+#        - "htc-istio-tracing.local"
+        - "htc-istio-hunter-ticket.local"
+
+#---
+#
+#apiVersion: networking.istio.io/v1alpha3
+#kind: VirtualService
+#metadata:
+#  name: grafana
+#spec:
+#  hosts:
+#    - htc-istio-grafana.local
+#  gateways:
+#    - service-gw
+#  http:
+#    - match:
+#        - uri:
+#            prefix: /
+#      route:
+#        - destination:
+#            port:
+#              number: 3000
+#            host: grafana.istio-system.svc.cluster.local
+#
+#---
+#
+#apiVersion: networking.istio.io/v1alpha3
+#kind: VirtualService
+#metadata:
+#  name: kiali
+#spec:
+#  hosts:
+#    - htc-istio-kiali.local
+#  gateways:
+#    - service-gw
+#  http:
+#    - match:
+#        - uri:
+#            prefix: /
+#      route:
+#        - destination:
+#            port:
+#              number: 20001
+#            host: kiali.istio-system.svc.cluster.local
+#
+#---
+#
+#apiVersion: networking.istio.io/v1alpha3
+#kind: VirtualService
+#metadata:
+#  name: prometheus
+#spec:
+#  hosts:
+#    - htc-istio-prometheus.local
+#  gateways:
+#    - service-gw
+#  http:
+#    - match:
+#        - uri:
+#            prefix: /
+#      route:
+#        - destination:
+#            port:
+#              number: 9090
+#            host: prometheus.istio-system.svc.cluster.local
+#
+#---
+#
+#apiVersion: networking.istio.io/v1alpha3
+#kind: VirtualService
+#metadata:
+#  name: tracing
+#spec:
+#  hosts:
+#    - htc-istio-tracing.local
+#  gateways:
+#    - service-gw
+#  http:
+#    - match:
+#        - uri:
+#            prefix: /
+#      route:
+#        - destination:
+#            port:
+#              number: 80
+#            host: tracing.istio-system.svc.cluster.local
+
+---
+
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: hunter-ticket
+spec:
+  hosts:
+    - htc-istio-hunter-ticket.local
+  gateways:
+    - service-gw
+  http:
+    - match:
+        - uri:
+            prefix: /gateway
+      route:
+        - destination:
+            port:
+              number: 80
+            host: htc-gateway.default.svc.cluster.local
+    - route:
+      - destination:
+          port:
+            number: 80
+          host: htc-front.default.svc.cluster.local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#apiVersion: networking.istio.io/v1alpha3
+#kind: Gateway
+#metadata:
+#  name: httpbin-gateway
+#  namespace: istio-system
+#spec:
+#  selector:
+#    istio: ingressgateway # use Istio default gateway implementation
+#  servers:
+#    - port:
+#        number: 80
+#        name: http
+#        protocol: HTTP
+#      hosts:
+#        - "htc-istio-grafana.local"
+#
+#
+#---
+#
+#apiVersion: networking.istio.io/v1alpha3
+#kind: VirtualService
+#metadata:
+#  name: httpbin
+#  namespace: istio-system
+#spec:
+#  hosts:
+#    - "htc-istio-grafana.local"
+#  gateways:
+#    - httpbin-gateway
+#  http:
+#    - match:
+##        - uri:
+##            prefix: /status
+##        - uri:
+##            prefix: /kiali
+#        - uri:
+#            prefix: /
+#      route:
+#        - destination:
+#            port:
+#              number: 3000
+#            host: grafana.istio-system.svc.cluster.local
+
+---
+
+
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: htc-ingress-istio
+  namespace: monitoring
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/use-regex: "true"
+spec:
+  rules:
+
+    - host: htc-istio-grafana.local
+      http:
+        paths:
+          - path: /.*
+            backend:
+              serviceName: grafana
+              servicePort: 3000
+
+    - host: htc-istio-kiali.local
+      http:
+        paths:
+          - path: /.*
+            backend:
+              serviceName: kiali
+              servicePort: 20001
+
+    - host: htc-istio-prometheus.local
+      http:
+        paths:
+          - path: /.*
+            backend:
+              serviceName: prometheus
+              servicePort: 9090
+
+    - host: htc-istio-tracing.local
+      http:
+        paths:
+          - path: /.*
+            backend:
+              serviceName: tracing
+              servicePort: 80

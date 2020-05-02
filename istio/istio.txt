@@ -34,7 +34,6 @@
     - получим папку с [ istio ]
     - добавляем в PATH путь до [ istioctl ] -> [ export PATH=$PWD/bin:$PATH ]
   - ...
-  - [ kubectl create namespace istio-system ] создадим неймспейс
   - чтобы руками не добавлять [ inject Envoy sidecar  proxies ] 
     перед деплоем наших микросервисов мы можем пометить неймспейс, 
     чтобы [ istio ] автоматически добавлял сайдкары к подам
