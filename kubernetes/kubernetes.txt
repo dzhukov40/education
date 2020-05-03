@@ -72,6 +72,11 @@
       - подождать немного он появляется не сразу
     - [ kubectl get ing ] альтернативная команда
   - [ kubectl describe deployments ] смотрим информацию по деплойментам
+  - [ kubectl create -f pod.yaml ] создаем под из файла
+    - [ kubectl apply -f pod.yaml ] можем сделать изменения и не удаляя они применятся
+  - [ kubectl delete -f pod.yaml ] удалить из куба то, что мы создали ранее
+  - [ kubectl scale --replicas=2 replicaset my-replicaset ] команда для изменения числа реплик
+  - [ kubectl describe под/реплика_сет/или еще что то ] выдаст информацию
 
 
 5) Ingress
@@ -98,6 +103,8 @@
   - [ Kind ] тип создаваемого обьекта, много разных
   - [ metadata ] можем определить [ labels, name, namespace, annotations ]
   - [ spec ] определяем спецефические настройки для обьекта
+  - [ selector ] позволяет опрелить набор лейблов для обозначения,
+     какие поды входят в этот деплоймент, чтобы менеджерить именно их
 
 
 7) Cert-manager
