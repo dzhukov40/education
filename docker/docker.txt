@@ -350,6 +350,22 @@ networks:
  - [ multistage build ] если можно использовать, то надо юзать
 
 
+21a) дополнительные моменты оптимизации для [ spring boot ]
+  - [ https://spring.io/guides/topicals/spring-boot-docker/ ]
+  - [ FROM openjdk:8-jdk-alpine ] используем легковесный дистрибутив линукса [ alpine ]
+  - нужно распаковать [fat jar], что ускорит работу
+    - [ jar -xf htc-gateway-spring-boot.jar ]
+    - после распаковке в мультистейдже копируем распакованные папки
+      [
+        FROM openjdk:8-jdk-alpine
+        VOLUME /tmp
+        ARG DEPENDENCY=/workspace/app/target/dependency
+        COPY --from=build ${DEPENDENCY}/BOOT-INF/lib /app/lib
+        COPY --from=build ${DEPENDENCY}/META-INF /app/META-INF
+        COPY --from=build ${DEPENDENCY}/BOOT-INF/classes /app
+        ENTRYPOINT ["java", "-cp", "app:app/lib/*", "hello.Application"]
+      ]
+
 
 
 
