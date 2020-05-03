@@ -175,8 +175,16 @@
 
 
 
-[?] nop
-  - nop
+[?] как в консоль добавить автодополнение для [ kubectl ]
+  - [ kubectl completion -h ] посмотрим справку про автодополнение
+  - [ vim ~/.zshrc ] добавим в файл две строчки
+    - [ autoload -Uz compinit && compinit ]  
+    - [ source <(kubectl completion zsh) ]  
+  - [!] при запуске консоли видим сообщение
+    - [ "Ignore insecure directories and files and continue [y] or abort compinit [n]?" ] 
+    - (*) выполнить один раз в консоли
+      - [ compaudit | xargs chmod g-w ] меняем права у директорий
+
 
  
  
