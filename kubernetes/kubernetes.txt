@@ -194,6 +194,22 @@
   - [ cpu: 100m ] тут 10% cpu. Для указания ресурса прочессора используюся тысячные доли
 
 
+14) Configure Quality of Service for Pods
+  - так кубернейтис определяет какой из подов приоритетней,
+    если надо выбирать какой из подов поднять, то выйграет тот,
+    у которого указаны лимиты и резервирование.
+  - [ https://kubernetes.io/docs/tasks/configure-pod-container/quality-service-pod/ ]
+  - нужно создавать неймспейсы
+  - [ Guaranteed ]
+    - есть CPU и MEMORY [ Limits ] и [ request ] одинаковые значения
+  - [ Burstable ]
+    - есть CPU и MEMORY [ Limits ] и [ request ] лимиты больше резервируемых
+  - [ BestEffort ]
+    - нету лимитов и резервирования CPU и MEMORY [ Limits ] и [ request ]
+
+
+
+
 
 
 
