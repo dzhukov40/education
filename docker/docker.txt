@@ -346,7 +346,9 @@ networks:
  - [ alpine ] это дистрибутив линукса, который позиционируется как минимально достаточный
  - часто изменяемые части докера должны быть в конце, чтобы прошлые слои кешировались
  - [ RUN --mount=type=cache ] можно примаунтить директорию, ятобы использовать как кеш 
+   - (*) [ DOCKER_BUILDKIT=1 docker build . ] + добавить [ # syntax = docker/dockerfile:1.0-experimental ]
    - [ https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/experimental.md#run---mounttypecache ]
+   - [ https://wiki.enchtex.info/howto/docker/docker_buildkit ]
  - [ multistage build ] если можно использовать, то надо юзать
 
 
