@@ -80,12 +80,78 @@
   - [ Build Now ] смотрим тут сборки
 
 
+5) Credentials
+  - удобный способ хранения секретных данных (пароли/токены)
+  - указываем пароль в jenkins  и везде используеи id этого пароля
+
+
+6) Global Variable Reference (переменные)
+  - [ env ] переменные окружения 
+    - [ https://e.printstacktrace.blog/jenkins-pipeline-environment-variables-the-definitive-guide/ ] 
+    - [ https://www.jenkins.io/doc/pipeline/tour/environment/ ]
+    - [ sh "printenv" ] можем поспотреть на агенте все переменные
+
+
+7) webhook
+  - при событии в git отправляется запрос на указанный url
+  - в git указываем url для отправки сообщения
+    - (*) в отправляемом сообщении есть информация о событии
+    - [ https://confluence.atlassian.com/bitbucket/event-payloads-740262817.html#EventPayloads-Push ]
+    - [ https://github.com/jenkinsci/generic-webhook-trigger-plugin/blob/master/src/test/resources/org/jenkinsci/plugins/gwt/bdd/bitbucket-server/bitbucket-server-pull-request.feature ]
+
+
+8) отправка назад статус сборки
+  - нужно добавить плагин, чтобы показывать инфу по сборке (собрали/не собрали)
+  - [ Embeddable Build Status Icon ]
+  - [ https://www.youtube.com/watch?v=clQEdNdOBm0 ]
+  - (*) bitbucket build status plagin
+    - сможем выбрать [ bitbucket notify build status ]
+
+
+9) Multibranch Pipeline
+  - это плагин для построения пайплайна для работы с кучей веток
+  - мы создаем джобу в дженкинсе, а то что надо сделать будем хранить
+    в проекте который будем собирать, в файле "jenkins"
+  - (*) делается комит, вебхук дает понять что надо скачать проект,
+    дальше найти в проекте файл "jenkins" и выполнить то что там написано
+
+
+
+ 
 
 
 
 
 
 
+ 
+ 
+  
+ 
+  
+
+ 
+
+
+[?] как в логах выводить время
+  - [ timestamps() ] добавить в jenkins
+  - пример
+    [
+      pipeline {
+        agent any
+        options { timestamps () }
+        // stages and rest of pipeline.
+      }
+    ]
+
+[?] как использовать [ docker jenkins ]
+  - выбираем папку для сохранения данных между запусками
+    - [ /Users/a18464058/Documents/dzhukov/docker_v/jenkins ]
+  - [ 
+      docker run --name myJenkins -p 8080:8080  \
+      -v /Users/a18464058/Documents/dzhukov/docker_v/jenkins:/var/jenkins_home/ \ 
+      jenkins:2.60.3 
+    ]
 
 
 [?] nop
