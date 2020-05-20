@@ -318,6 +318,12 @@
 
 
 
+[?] удобный конвертор [ yaml ] <--> [ properties ]
+  - [ https://www.toyaml.com/index.html ] 
+
+[?] как поставить curl  и telnet
+  - [ apt-get update && apt-get install curl telnet -y ]
+
 [?] как выполнить команду на поде 
   - [ kubectl exec <имя пода> -it bash ]
 
