@@ -86,6 +86,7 @@
 
 [?] ошибка при старте миникуба minikube
   - [*] [ Unable to verify SSH connectivity: dial tcp 192.168.99.107:22: i/o timeout. Will retry... ]
+    - [ minikube config set host-only-cidr 172.27.0.1/24 ] похоже решает проблемку
     - отключаем VPN и все работает
     - [ minikube start --force ] если не помогло, то добавляем ключик
     - похоже бывает, что что-то зависает, можно попробовать перехагрузить комп 
