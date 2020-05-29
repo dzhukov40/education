@@ -22,13 +22,56 @@
 
 
 1) Устанавливаем на mac
- 
+  - [ https://docs.okd.io/3.11/minishift/index.html ] инструкция
+  - [ VirtualBox ] универсально, поэтому решаем использовать именно его
+  - [ brew cask install minishift ] устанавливаем через брю
+    - [ export PATH="/usr/local/bin/minishift:$PATH" ] добавляем в [ ~/.zshrc ]
+  - (*) для обновления можно выполнить [ brew cask install --force minishift ]  
+  - ...
+  - проставляем драйвер
+    - [ minishift ] проверяем
+    - [!] [ Приложение «minishift» нельзя открыть, так как не удалось проверить разработчика. ]
+      - (*) [ sudo spctl --master-disable ] отключения проверки разработчика
+  - запускаем
+    - [ minishift start ]
+    - [ minishift config set vm-driver virtualbox ]
+    - [ minishift config set cpus 4 ]
+    - [ minishift config set memory 8192 ]
+    - [ minishift config view ] проверка
+
+
+2) устанавливаем консольнуб утилиту [ OC ] (openshift cli)
+  - [ https://docs.okd.io/3.11/cli_reference/get_started_cli.html ]
+    - [ brew install openshift-cli ]
 
 
 
 
 
 
+
+
+
+- [?] упали при попытке стартануть [ minishift start ] 
+  - сообщение об ошибке:
+    - Starting Minishift VM ............................. FAIL E0529 02:10:21.275995   
+      53242 start.go:494] Error starting the VM: Error creating the VM. 
+      Error creating machine: Error checking the host: Error checking and/or regenerating the certs: 
+      There was an error validating certificates for host 
+      "192.168.99.138:2376": dial tcp 192.168.99.138:2376: i/o timeout
+  - (*) рестартанул докер демон
+
+[?] список настроек/параметров минишифта
+  - [ https://docs.huihoo.com/openshift/origin-latest/minishift/command-ref/minishift_config.html ]
+
+[?] после запуска получили ошибку [ minishift start ]
+  - Could not set oc CLI context for 'minishift' profile: 
+    Error during setting 'minishift' as active profile: 
+    The specified path to the kube config 
+    '/Users/a18464058/.minishift/machines/minishift_kubeconfig' does not exist
+  - (*) перезагрузил ПК и установил [ OC ] 
+    - [ minishift delete --force  ]
+    - [ rm -rf ~/.minishift/machines/minishift-state.json ]
 
 
 
