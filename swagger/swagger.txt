@@ -35,6 +35,22 @@
   - [ https://www.baeldung.com/spring-boot-rest-client-swagger-codegen ] описание  
 
 
+3) openapi-generator - может генерить клиент/сервер/документацию 
+  - [ https://openapi-generator.tech/#try ] 
+  - устанавливаем на мак
+    - [ brew install openapi-generator ]
+    - поставился в [ /usr/local/Cellar/openapi-generator/4.3.1: ]
+    - добавляем путь к бинарю в PATH
+  - запускаем
+    - openapi-generator generate -i API-servis-dlya-LK-Arendatora-Rosimushestva.v1.yaml -g spring -o ./
+      - так мы получим сервер на спринге исходя из описания 
+    - openapi-generator generate -i API-servis-dlya-LK-Arendatora-Rosimushestva.v1.yaml -g java -o ./
+      - так получим клиент на Java
+
+
+
+
+
 
 [?] nop
   - nop
