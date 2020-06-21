@@ -45,11 +45,54 @@
     - [ brew install openshift-cli ]
 
 
+3) раскатываем helm
+  - билдим образы в докер реджестри виртуалки
+    - [ eval $(minishift docker-env) ] выполняем перед билдом докер образов
+  - логинимся в консоли в минишифт
+    - [ minishift console ] логинимся в UI (admin/admin)
+    - правый верхний угол (myName@sberbank.ru) -> "Copy Login Command"
+    - [ oc login --token=<token> --server=<server> ] выполняем команду 
+  - деплоим приложение
+    - [ helm install project project/ ]
+    - (*) откатить [ helm uninstall project ]
+
+
+4) создаем секрет с логин/пароль для docker registry
+  - [ oc secrets new-dockercfg <secret-name>  
+        --docker-server=<server-registry-addres>
+        --docker-username=<username>  
+        --docker-password=<password> 
+        --docker-email=<email>
+    ]
+  - у имеджей добавляем использование этоо секрета
+    - [ 
+        imagePullSecrets:
+          - name: <secret-name>  
+    ]
 
 
 
 
 
+
+
+
+
+
+
+
+[?] дать дополнительные права
+  - [ oc adm policy add-scc-to-user anyuid -z default -n <namespace> ] 
+    - запуск от любого пользователя
+  - [ oc adm policy add-scc-to-user privileged -z <ServiceAccount> -n <namespace> ] 
+    - возможноть привилигированного запуска
+  - [ oc adm policy add-scc-to-user hostaccess -z <ServiceAccount> -n <namespace> ] 
+    - доступ к хостовой машине
+
+
+[?] полезные аддоны в minishift
+  - [ minishift addons apply admin-user ] теперь логинимся любым юзером и он автоматически супер юзер
+  - [ minishift addons apply registry-route ]
 
 
 - [?] упали при попытке стартануть [ minishift start ] 
