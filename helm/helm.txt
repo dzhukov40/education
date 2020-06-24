@@ -44,9 +44,22 @@
     - [ version ] это уже версия нашего чарта (повышаем при апдейтах)
 
 
+4) Тестирование (по сути это хук "test")
+  - можно создать в чарте в папке [ templates ] папку [ test ]
+    положить туда какой нибудь [ Job ] 
+    - (*) манифесты должны содежать аннотацию [ helm.sh/hook: test ]
+  - после того как накатили релиз можем запустить тесты [ helm test <release name> ]
 
 
-
+5) Хуки
+  - [ https://helm.sh/docs/topics/charts_hooks/ ]
+  - актуальный список хуков:
+    - [ pre-install,  pre-delete,  pre-upgrade,  pre-rollback ]
+    - [ post-install, post-delete, post-upgrade, post-rollback ]
+    - [ test ]
+  - у "хуков" можно задать вес, чтобы определить порядок выполнения
+  - (*) хуки не входят в релиз
+  - надо положить в папку [ crds ]
 
 
 
