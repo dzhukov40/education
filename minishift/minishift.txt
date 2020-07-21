@@ -122,6 +122,21 @@
 [?] nop
   - nop
 
+[?] как создать под из UI
+- (*) важно задать команду, чтобы контейнер сразу не убили
+[
+  kind: Pod
+  apiVersion: v1
+  metadata:
+    name: busybox-nfs-pod 
+    labels:
+      name: busybox-nfs-pod
+  spec:
+    containers:
+    - name: busybox-nfs-pod
+      image: busybox 
+      command: ["sleep", "60000"]
+]
  
  
 // #c 
