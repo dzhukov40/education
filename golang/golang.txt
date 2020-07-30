@@ -1,0 +1,88 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://golang.org/ ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ golang ] это язык программирования. Очень простой, компилируемый.
+
+
+
+
+1) Устанавливаем 
+
+
+2) первые приложения
+  - создадим файл [ main.go ] 
+    - [ go run main.go ] запуск
+    - [ go build main.go ] скомпилировать бинарный файл
+  - первый пример "hello"
+    [
+      package main
+
+      import "fmt"
+
+      func main() {
+      	fmt.Println("Hello")
+      }
+    ]
+  - второй пример  "web service"  
+    [
+      package main
+
+      import (
+	      "fmt"
+	      "log"
+	      "net/http"
+      )
+
+      func homePage(w http.ResponseWriter, r *http.Request){
+      	fmt.Fprintf(w, "Welcome to the HomePage!")
+	      fmt.Println("Endpoint Hit: homePage")
+      }
+
+      func handleRequests() {
+	      http.HandleFunc("/", homePage)
+      	log.Fatal(http.ListenAndServe(":10000", nil))
+      }
+
+      func main() {
+	      handleRequests()
+      }
+    ]
+
+
+
+
+
+
+
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
