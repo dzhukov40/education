@@ -1,0 +1,69 @@
+---
+Ресурсы:
+
+// документация
+- [ https://spring.io/projects/spring-security ]
+ 
+// старт "spring-security"
+- [ https://spring-projects.ru/guides/securing-web/ ]
+
+// ютуб курс
+- [ https://www.youtube.com/playlist?list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE ]
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [spring security] это фреймворк предоставляющий механизмы построения систем аутентификации
+  и авторизации, а также другие возможности обеспечения безопасности для корпоративных приложений
+
+
+1) Основные части (Core concepts)
+  - [ Authentication ] - определение что за пользователь к нам пришел
+    - [ knowledge based authentication ] это когда мы вводим логин и пароль/кодовое слово
+    - [ possession based authentication ] это когда мы вводим логин и код из sms
+    - [ multi factor authentication ] это комбиначия из двух подходов [ knowledge ] and [ possession ]
+  - [ Authorization ] - определение прав пользователя, что он может, а что нет
+  - [ Principal ]  - это текущий залогиненный пользователь. 
+    - Пользователь один раз авторизуется и вся необходимая информация хранится в [  Principal ]
+  - [ Granted Authority ] это соединение пользователя и прав
+  - [ Roles ] группа прав
+
+
+2) Подключаем к проекту
+  - подключаем стартер к проекту:
+    [
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-security</artifactId>
+      </dependency>
+    ]
+  - добавляем логин и пароль для пользователя в [ application.yaml ]
+    [
+      spring.security.user:
+            name: tort
+            password: tort
+    ]
+
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #
+#----------------------------------------------- 
+
+
+#----------------------------------------------- 
+ 
