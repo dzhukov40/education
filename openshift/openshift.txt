@@ -1,0 +1,80 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://www.openshift.com/ ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ openshift ] kubernetes платформа от RedHat
+
+
+
+1) Устанавливаем crc(CodeReady Containers) на линукс
+  - [ crc ] позволяет запустить кластер опеншифта наодной ноде
+  - [ https://code-ready.github.io/crc/#required-software-packages_gsg ]
+  - [ sudo apt install qemu-kvm libvirt-daemon libvirt-daemon-system network-manager ]
+  - залогиниться под соей учеткой и скачать 
+   - [ https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/auth?client_id=cloud-services&redirect_uri=https%3A%2F%2Fcloud.redhat.com%2Fopenshift%2Finstall%2Fcrc%2Finstaller-provisioned&state=38444dac-1558-459b-b172-5c451673f6ac&response_mode=fragment&response_type=code&scope=openid&nonce=d1c5e6d5-af3d-4d6a-af14-ef86a7abb689 ]
+    - [ Download Code-Ready Containers ]
+    - [ Download pull secret ] - понадобится при установке
+    - [ tar xf && mv crc /usr/local/bin/crc ] распаковать и переместить
+  - ...
+  - устанавливаем параметры запуска
+    - [ crc setup ]
+    - [ crc config set cpus 8 ] # минимум 4
+    - [ crc config set memory 24576 ] # Минимум - 9ГБ (9216).
+    - [ crc start ]
+  - ждем старта 
+    - [ crc console ] запустить web консоль
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+[?] nop
+  - nop
+
+[?] как создать под из UI
+- (*) важно задать команду, чтобы контейнер сразу не убили
+[
+  kind: Pod
+  apiVersion: v1
+  metadata:
+    name: busybox-nfs-pod 
+    labels:
+      name: busybox-nfs-pod
+  spec:
+    containers:
+    - name: busybox-nfs-pod
+      image: busybox 
+      command: ["sleep", "60000"]
+]
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
