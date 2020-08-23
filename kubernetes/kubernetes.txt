@@ -375,9 +375,31 @@
 
 
 25) Affinity / anti-Affinity
-- набор правил где лучше запустить под
+  - набор правил где лучше запустить под
 
 
+26) MutatingAdmissionWebhook (web hook)
+  - Мы можем клиниться в процесс изменения состояния кластера.
+    Когда кто - либо делает запрос к "Kubernetes API server" 
+    есть возможность перехватить его и модифицировать. 
+    Какие запросы перехватывать для модификации можно гибко настроить. 
+  - статьи в помощь:
+    - [ https://medium.com/ibm-cloud/diving-into-kubernetes-mutatingadmissionwebhook-6ef3c5695f74 ]
+    - [ https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#response ]
+    - [ http://jsonpatch.com/ ]
+  - [!] сохраним в папке мега скрипт 
+    - [ создать пару ключей ] необходимо, так как вебхук работает только по TLS
+    - [ подписать ключ ] используем "CertificateSigningRequest" 
+    - [ kubectl certificate approve ${csrName} ] кластер админ должекн апрувнуть сертификат
+    - [*] выкачиваем подписанный сертификат, чтобы его использовать
+    - [ kubectl create secret ] создаем "secret" с приватным и публичным ключем
+    - [ MutatingWebhookConfiguration ] создаем обьект обработки вебхуков
+      - (*) не забываем прикрепить сертификат: [ caBundle ]
+      - (*) у сервиса обработки маунтим пару ключей через созданный секрет
+  - ...
+  - приложение обработки вебхуков работает с [ AdmissionReview ]
+    - [ AdmissionRequest , AdmissionResponse ]
+    - вернуть надо патч в base64, который применится к манифесту
 
 
 
