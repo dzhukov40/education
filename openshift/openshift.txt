@@ -33,6 +33,7 @@
   - ...
   - устанавливаем параметры запуска
     - [ crc setup ]
+      - [!] [FATA Failed to create libvirt 'crc' network] перезагрузка должна помочь
     - [ crc config set cpus 8 ] # минимум 4
     - [ crc config set memory 24576 ] # Минимум - 9ГБ (9216).
     - [ crc start ]

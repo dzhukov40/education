@@ -47,6 +47,14 @@
     - [ docker run -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus ]
  
 
+2) Pushgateway
+  - Это приложение, в которое мы можем пушить метрики, 
+    чтобы промитеус потом пришел и забрал их
+  - [ docker run -d -p 9091:9091 prom/pushgateway ] попробуем локально
+  - [ https://github.com/prometheus/pushgateway ]
+  - [ https://habr.com/ru/company/southbridge/blog/455290/ ]
+  - helm chart
+    - [ https://github.com/helm/charts/tree/master/stable/prometheus-pushgateway ]
 
   
 
