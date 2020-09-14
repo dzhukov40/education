@@ -1,0 +1,83 @@
+---
+
+_meta:
+  type: "config"
+  config_version: 2
+
+config:
+  dynamic:
+    http:
+      anonymous_auth_enabled: false
+
+    authc:
+      jwt_auth_domain:
+        description: "Authenticate via Json Web Token"
+        http_enabled: true
+        transport_enabled: true
+        order: 0
+        http_authenticator:
+          type: jwt
+          challenge: false
+          config:
+            signing_key: "fyqouR0whwaQ/eBh/eGLa1SmoQ3+vpuFzYxav0khrog="
+            jwt_header: "Authorization"
+            jwt_url_parameter: "jwtToken"
+            roles_key: null
+            subject_key: "sub"
+        authentication_backend:
+          type: noop
+      basic_internal_auth_domain:
+        description: "Authenticate via HTTP Basic against internal users database"
+        http_enabled: true
+        transport_enabled: true
+        order: 1
+        http_authenticator:
+          type: basic
+          challenge: true
+        authentication_backend:
+          type: noop
+
+    authz:
+      roles_from_myldap:
+        description: "Authorize via LDAP or Active Directory"
+        http_enabled: true
+        transport_enabled: true
+        authorization_backend:
+          # LDAP authorization backend (gather roles from a LDAP or Active Directory, you have to configure the above LDAP authentication backend settings too)
+          type: ldap
+          config:
+            enable_ssl: false
+            enable_start_tls: false
+            enable_ssl_client_auth: false
+            verify_hostnames: true
+            hosts:
+              - openldap:389
+            bind_dn: cn=readonly,dc=example,dc=org
+            password: changethistoo
+            rolebase: ou=Groups,dc=example,dc=org
+            # Filter to search for roles (currently in the whole subtree beneath rolebase)
+            # {0} is substituted with the DN of the user
+            # {1} is substituted with the username
+            # {2} is substituted with an attribute value from user's directory entry, of the authenticated user. Use userroleattribute to specify the name of the attribute
+            rolesearch: (uniqueMember={0})
+            # Specify the name of the attribute which value should be substituted with {2} above
+            userroleattribute: null
+            # Roles as an attribute of the user entry
+            userrolename: disabled
+            #userrolename: memberOf
+            # The attribute in a role entry containing the name of that role, Default is "name".
+            # Can also be "dn" to use the full DN as rolename.
+            rolename: cn
+            resolve_nested_roles: false
+            userbase: ou=People,dc=example,dc=org
+            # Filter to search for users (currently in the whole subtree beneath userbase)
+            # {0} is substituted with the username
+            usersearch: (cn={0})
+            # Skip users matching a user name, a wildcard or a regex pattern
+            #skip_users:
+            #  - 'cn=Michael Jackson,ou*people,o=TEST'
+            #  - '/\S*/'
+            username_attribute: cn
+            skip_users:
+              - admin
+              - kibanaserver
