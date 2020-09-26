@@ -42,7 +42,10 @@
     - [ login -> dzhucov40.v@mail.ru ]
 
 
-
+3) как в ubuntu добавить в Favorites
+  - [ https://askubuntu.com/questions/991001/postman-desktop-not-showing-up-in-gnome-dash-in-ubuntu-17-10 ]
+  - [ sudo ln -s /home/dz/dzhukov/soft_exe/postman/Postman/app /usr/bin/postman ]
+  - теперь находим в приложениях, стартуем и добавляем в Favorites
 
 
 
