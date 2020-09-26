@@ -43,11 +43,9 @@
   - добавляем путь до распакованного мавена 
     - [ vim ~/.bashrc  ]
       - [ 
-          #dzhukov
-          MAVEN_HOME=/home/dzhukov/soft_install/maven/apache-maven-3.6.2/bin
-          export MAVEN_HOME
-          PATH=$PATH:$MAVEN_HOME
-          export PATH
+          #dzhukov add maven
+          export MAVEN_HOME=/home/dz/dzhukov/soft_exe/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3/bin
+          export PATH=${PATH}:${MAVEN_HOME}
        ]
 
 

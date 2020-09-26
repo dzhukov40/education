@@ -83,11 +83,9 @@
       - [!] для [root] и [dzhukov] сделали
     - добавляем в конец: 
       - [ 
-          #dzhukov
-          GRADLE_HOME=/home/dzhukov/soft_install/gradle/gradle-4.6/bin 
-          export GRADLE_HOME 
-          PATH=$PATH:$GRADLE_HOME   
-          export PATH
+          #dzhukov add gradle
+          export GRADLE_HOME=/home/dz/dzhukov/soft_exe/gradle/gradle-6.6.1-all/gradle-6.6.1/bin
+          export PATH=${PATH}:${GRADLE_HOME}
         ] 
 
 4) (3/4) собираем дома [hcs_trunk] 

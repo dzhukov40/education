@@ -30,8 +30,18 @@
     - [ echo 'export PATH="/usr/local/opt/openjdk@11/bin:$PATH"' >> ~/.zshrc ]
 
 
-
-
+1a) Устанавливаем на Ubuntu
+  - качаем JDK
+    - [ https://www.oracle.com/java/technologies/javase-jdk11-downloads.html ]
+    - (*) учетка есть
+  - ...
+  - добавляем переменные окружения
+  - [ vim ~/.bashrc ]
+    - [
+        #dzhukov add JDK
+        export JAVA_HOME=/usr/java/<your version of java>
+        export PATH=${PATH}:${JAVA_HOME}/bin     
+      ] 
  
 
 
