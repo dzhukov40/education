@@ -34,6 +34,9 @@
 
 
 
+[?] нет звука по HDMI
+  - помогла установка драйвера от nvidea для видеокарты
+  - [ https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/ ]
 
 [?] nop
   - nop
