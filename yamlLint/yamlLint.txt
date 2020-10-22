@@ -1,0 +1,47 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://yamllint.readthedocs.io/en/stable/index.html ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ yamllint ] это linter для YAML файлов
+
+
+
+1) устанавливаем
+  - [ https://yamllint.readthedocs.io/en/stable/quickstart.html#installing-yamllint ]
+    - (*) для MacOS бинарь похоже не получиться скачать
+    - [ brew install yamllint ] устанавливаем
+    - [ yamllint -v ] проверяем
+
+
+2) используем
+  - [ https://yamllint.readthedocs.io/en/stable/rules.html ] качаем файл и ставим нужные правила
+  - [ helm template logging-client | yamllint - -c linter/yamllint-config.yaml ]
+
+
+
+
+[?] nop
+  - nop
+
+ 
+// #
+#----------------------------------------------- 
+
+
+#----------------------------------------------- 
+ 
