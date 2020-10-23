@@ -417,6 +417,20 @@
     - 5. [ SIGKILL ] если под еще живой и сам не завершился, отправляется SIGKILL
 
 
+28) Kubernetes CRD (Custom Resource Definitions) 
+  - [ Kubernetes CRD (Custom Resource Definitions) ] это механизм позволяющий разширять API кубернетиса. 
+    - [ https://habr.com/ru/company/mailru/blog/515138/ ]
+    - [ CRD ] это просто таблица в базе данных, в которую мы можем засовывать строчки
+    - [ RD ] это запись в таблице
+    - так мы можем создавать свои таблицы и записи в Kubernetis, чтобы их потом читать.
+    - получается Istio использует это расширение, чтобы хранить свои настройки в Kubernetes
+    - посмотреть можно разными способами, также поддерживаются CRUD операции
+      - [ kubctl get crd ] 
+      - [ oc get serviceentries ] , [ oc get virtualservices ] , [ oc get destinationrules ] ...
+      - [ oc get serviceentries <name> ] , [ oc get virtualservices <name> ] ...
+      - [ oc get crd gateway.networking.istio.io ] [ oc get crd virtualservice.networking.istio.io ] ...
+
+
 
 
 
