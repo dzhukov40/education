@@ -41,6 +41,13 @@
     - [ crc console ] запустить web консоль
  
 
+2) устанавливаем консольнуб утилиту [ OC ] (openshift cli)
+  - [ https://docs.okd.io/3.11/cli_reference/get_started_cli.html ]
+    - [ brew install openshift-cli ]
+  - включаем автодополнение
+    - [ oc completion -h ]
+    - добавляем строчку [ sudo vim ~/.zshrc ]
+      [ source <(oc completion zsh) ]
 
 
 
