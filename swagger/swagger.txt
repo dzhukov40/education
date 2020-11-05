@@ -51,6 +51,9 @@
 
 
 
+[?] миграция с версии 2.x на 3.x
+  - [ https://springfox.github.io/springfox/docs/snapshot/#migrating-from-existing-2-x-version ]
+  - [ .../swagger-ui.html ] -> [ .../swagger-ui/index.html ]
 
 [?] nop
   - nop
