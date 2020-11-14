@@ -162,7 +162,7 @@
 
 
 [?] как посмотреть информацию о сертификате
-  - [ openssl x509 -noout -text -in ]
+  - [ openssl x509 -noout -text -in <файл сертификата> ]
  
 
 [?] nop
