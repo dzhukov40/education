@@ -377,9 +377,17 @@ networks:
 
 
 
+[?] как рестартануть контейнер?
+  - [ docker restart <имя контейнера> ]
 
- 
-
+[?] не стартует docker-compous. Нет свободного места. 
+  - (*) как удалить не используемые имеджи и волюмы докера.
+  - [ ERROR: mkdir /var/lib/docker/tmp/docker-builder296683584: no space left on device ]
+  - надо бы очистить:
+    - [  docker system prune --volumes ]
+    - [ https://docs.docker.com/engine/reference/commandline/system_prune/ ]
+    - для докера ниже "1.25" надо выполнить набор команда
+      - [ docker container prune -f && docker image prune -f && docker network prune -f && docker volume prune -f ]
 
 [?] как подключиться к запущенному Docker
   - [ docker ps ]
@@ -433,7 +441,7 @@ networks:
 [?] как срыть часть файлов от копирования в докер 
   - [ .dockerignore ] надо создать файл с набором правил
 
-[?] как вытащить файл из докера контейнера или положить в докер контейнер
+[?] как вытащить/скопированть файл из докера контейнера или положить в докер контейнер
   - https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f
   - пример как вытащить файл: 
     - [ docker cp <имя запущенного контейнера>:<прямой путь к файлу>  <путь на хосте> ]
