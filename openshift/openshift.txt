@@ -59,8 +59,11 @@
 
 
 
-[?] nop
-  - nop
+[?] как посмотреть юзеров и пароли для подключения к crc(openshift)
+  - [ crc console --credentials ]
+  - выведет:
+    - ... "oc login -u developer -p developer https://api.crc.testing:6443"
+    - ... "oc login -u kubeadmin -p duduw-yPT9Z-hsUpq-f3pre https://api.crc.testing:6443"
 
 [?] как создать под из UI
 - (*) важно задать команду, чтобы контейнер сразу не убили
