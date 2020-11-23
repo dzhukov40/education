@@ -128,7 +128,12 @@
 - перезапускаем терминал
 
 
-
+15) Сервисы
+  - [ https://bash.cyberciti.biz/guide/Service_command ]
+  - обфчно скрипты запуска находятся в [ /etc/init.d ]
+  - типичный набор команд [ status, start, stop, restart ]
+  - [ service <имя скрипта> <команда> ]
+  - (*) для Centos(Rhel) уже используется другая команда [ systemctl ]
 
 
 

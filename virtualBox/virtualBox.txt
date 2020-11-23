@@ -44,6 +44,8 @@
 
 
 1A) Установка на mac
+  - можно через брю [ brew cask install virtualbox ]
+    - [ https://developer.apple.com/library/archive/technotes/tn2459/_index.html ]
   - инструкция:
     - [ https://www.virtualbox.org/wiki/Downloads ]
   - качаем установочный файл [ OS X hosts ]

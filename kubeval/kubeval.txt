@@ -1,0 +1,63 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://www.kubeval.com ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ kubeval ] позволяет валедировать Kubernetes конфигурационные файлы.
+
+
+
+1) устанавливаем
+  - [ https://www.kubeval.com/installation/ ] 
+  - (*) для MacOS можно через "brew" или бинарник скачать
+  - [ vim ~/.bashrc ] или [ vim ~/.zshrc ]
+    - [
+        #dzhukov add kubeval
+        export KUBEVAL_HOME=/Users/dzhukov/Documents/dzhukov/soft_exe/kubeval
+        export PATH=${PATH}:${KUBEVAL_HOME}     
+      ] 
+  - [ kubeval --version ] проверка
+
+
+2) валидируем манифест
+  - [ helm template <helm_chart> | kubeval --kubernetes-version '1.18.1' ] (*) у нас "v1.18.3"
+
+
+3) валидация без интернета
+  - [ https://github.com/garethr/kubernetes-json-schema ] выбираем версию
+    - (*) [ vX.Y.Z-local - relative references, useful to avoid the network dependency ]
+    - вроде можно сходить в проект kubernetes и самому нагенерить эту схему
+    - в данный момент нам подходит [ v1.14.0-local ]
+  - [ helm template <helm_chart> | kubeval --schema-location file://v1.14.0-local ]
+    - (*) в папке "v1.14.0-local" должна быть папка "master-standalone"
+
+
+ 
+
+
+
+
+[?] nop
+  - nop
+
+ 
+// #
+#----------------------------------------------- 
+
+
+#----------------------------------------------- 
+ 

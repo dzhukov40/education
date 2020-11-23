@@ -123,7 +123,17 @@
 11) хуки hooks
   - [ https://git-scm.com/book/ru/v2/Настройка-Git-Хуки-в-Git ]
   - [ ll .git/hooks ]
-  
+
+
+12) подмерживаем master/develop ветку в фича ветку
+  - находясь на своей ветке запускаем
+    - [ git pull origin master ] (*) надо заметить, что именно с удаленного сервера качаем (origin)
+    - [ git commit ]
+    - [ git push origin HEAD ]
+   
+
+
+
 
 [?] nop
   - nop

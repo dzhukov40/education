@@ -402,6 +402,33 @@
     - вернуть надо патч в base64, который применится к манифесту
 
 
+27) gracefully shut down (graceful shutdown) 
+  - нам необходимо корректно завершать работу приложения при получении SIGTERM.
+  - [ preStop Hook ] если приложение не умеет корректно обрабатывать SIGTERM, можно воспользоваться хуком. 
+  - https://habr.com/ru/company/flant/blog/489994/
+  - https://cloud.google.com/blog/products/gcp/kubernetes-best-practices-terminating-with-grace
+  - алгоритм:
+    - 1. [ “Terminating” ] Под переводится в “Terminating” и удаляется из списка ендпоинтов сервиса. 
+    - 2. [ preStop Hook ] Это HTTP запрос который отправляется на под, чтобы можно было завершить работу
+      - вешается на конкретный контейнер в поде
+      - хук синхронный, стопит
+    - 3. [ SIGTERM ] сигнал отправляется в под, в каждый контейнер в главный процесс в любом порядке
+    - 4. [ grace period ] кубернетес ждкт по умолчанию 30 секунд, паралельно отравляется [ preStop hook ]
+    - 5. [ SIGKILL ] если под еще живой и сам не завершился, отправляется SIGKILL
+
+
+28) Kubernetes CRD (Custom Resource Definitions) 
+  - [ Kubernetes CRD (Custom Resource Definitions) ] это механизм позволяющий разширять API кубернетиса. 
+    - [ https://habr.com/ru/company/mailru/blog/515138/ ]
+    - [ CRD ] это просто таблица в базе данных, в которую мы можем засовывать строчки
+    - [ RD ] это запись в таблице
+    - так мы можем создавать свои таблицы и записи в Kubernetis, чтобы их потом читать.
+    - получается Istio использует это расширение, чтобы хранить свои настройки в Kubernetes
+    - посмотреть можно разными способами, также поддерживаются CRUD операции
+      - [ kubctl get crd ] 
+      - [ oc get serviceentries ] , [ oc get virtualservices ] , [ oc get destinationrules ] ...
+      - [ oc get serviceentries <name> ] , [ oc get virtualservices <name> ] ...
+      - [ oc get crd gateway.networking.istio.io ] [ oc get crd virtualservice.networking.istio.io ] ...
 
 
 
