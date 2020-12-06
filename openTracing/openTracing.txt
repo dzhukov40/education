@@ -1,0 +1,146 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://opentracing.io/ ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ opentracing ] Текущий стандарт де-факто для распределенной трассировки
+
+
+1) Вводная
+  - Что такое Span 
+    - Это элементарная сущность трейсинга
+    - компоненты спана:
+      - [ Tags ] пары ключ:значение
+      - [ Logs ] пары ключ:значение для дебага 
+      - [ SpanContext ] переносит данные между процессами
+        - остоит из spanId + traceID и Baggage Items
+  - потоки и спаны в opentracing 
+    - в одном потоке в один момент может быть активен только один "Span".
+      это контролируется "Scope" происходит менеджемент по активации/деактиваци спанов
+    - если Scope существует, когда разработчик создает новый спан,
+      он будет действовать как его родительский элемент, если только
+      программист не вызовет "ignoreActiveSpan()" вовремя "buildSpan()" 
+    - передачей активного спана от метода к методу занимается "Scope Manager".
+      Разработчик может получить доступ к любому активному Span через Scope.
+    - используя "Scope Manager" разработчик может переносить "Span" между разными потокам
+
+
+2) The OpenTracing Semantic Specification
+  - [ The OpenTracing Data Model ]
+    - [Trace] это набор спанов "Span"
+    - есть корневой спан "Span" в него как бы вложены все другие спаны
+  - [ References between Spans ] 
+    - Связи между спанами могут быть двух Типов
+      - [ ChildOf ] один спан вложен в другой спан
+      - [ FollowsFrom ] один спан идет за другим спаном.
+  - [ The OpenTracing API ]
+    - [Trace]
+      - [Start a new Span] создать новый спан "Span"
+      - [Inject a SpanContext into a carrier] засовываем SpanContext в запрос 
+        или сообщение для передачи в другой процесс
+      - [Extract a SpanContext from a carrier] высовываем SpanContext из запроса 
+        или сообщения полученного из другого запроса
+    - [Span]
+      - [Retrieve the Spans SpanContext] получить "SpanContext" этого спана
+      - [Overwrite the operation name] Перезаписать название операции
+      - [Finish the Span] закончить "Span"
+      - [Set a Span tag] записать тег (ключ:значение) в спан "spam"
+      - [Log structured data] записать лог (ключ:значение) в спан "span"
+      - [Set a baggage item] установить багажный элемент (ключ:значение) в спан "span"
+        Значение прикрепляется к "Span", к его контексту "SpanContext" ко всем "Span",
+        которые прямо или транзитвно ссылаются на этот спан.
+      - [Get a baggage item] получить багажное значение по ключу
+   - [SpanContext]
+     - Это больше концепт, определяющий некий слой.
+       Можем представить как набор ссылок, когда мы создаем новый "Span" или
+       достаем "Span" из запроса/сообщения или кладем туда.
+   - [NoopTracer]
+     - Обычно есть в языках имплементация этой сущности для флагов, настроек, отладки    
+
+
+3) Best Practices
+  - [ https://opentracing.io/docs/best-practices/ ]
+  - Как добавить трассировку в функцию
+  - 
+
+
+
+4) OpenTracing Java API
+  - [https://github.com/opentracing/opentracing-java]
+  - подключение для maven
+    [
+      <dependency>
+          <groupId>io.opentracing</groupId>
+          <artifactId>opentracing-api</artifactId>
+          <version>VERSION</version>
+      </dependency>
+    ]
+  - получить доступ до активного в данный момент спана "Span"
+    [
+      io.opentracing.Tracer tracer = ...;
+      ...
+      Span span = tracer.scopeManager().activeSpan();
+      if (span != null) {
+          span.log("...");
+      }
+    ]
+  - Стартануть новый спан "Span"
+    Мы должны создать "Span", а потом сделать его активным при помощи "ScopeManager"
+    [
+      io.opentracing.Tracer tracer = ...;
+      ...
+      Span span = tracer.buildSpan("someWork").start();
+      try (Scope scope = tracer.scopeManager().activate(span)) {
+          // Do things.
+      } catch(Exception ex) {
+          Tags.ERROR.set(span, true);
+          span.log(Map.of(Fields.EVENT, "error", Fields.ERROR_OBJECT, ex, Fields.MESSAGE, ex.getMessage()));
+      } finally {
+          span.finish();
+      }
+    ]
+  - Стартуем новый спан, когда уже есть активный "Span", 
+    тогда наш "Span" автоматически станет дочерним для активного "span", 
+    но можно избежать этого, добавив "ignoreActiveSpan()"
+    [
+      io.opentracing.Tracer tracer = ...;
+      ...
+      Span span = tracer.buildSpan("someWork").ignoreActiveSpan().start();
+    ]
+  
+
+
+
+
+
+
+
+
+ 
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
