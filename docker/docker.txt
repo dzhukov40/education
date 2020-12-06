@@ -79,8 +79,12 @@
   - протестируем, скачав и запустив контейнер  
     - [ sudo docker run -it ubuntu bash ] скачается образ и запустится
     - [ exit ] этой командой можем выйти из контейнера
+  -...
+  - чтобы не стартовать sudo docker, добавим своего пользователя в группу [ docker ]
+    - [ sudo usermod -aG docker $(whoami) ] 
+    
 
-4+) устанавливаем docker на windows
+4a) устанавливаем docker на windows
   - [ https://docs.docker.com/docker-for-windows/install/ ]
   - аккаунт на докерХабе -> [ dzhukov40 ]
   - [!] Роль Hyper-V невозможно установить в Windows 10 Домашняя.
