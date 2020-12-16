@@ -109,6 +109,11 @@
 
 
 
+[?] как отправить JSON сообщение в TCP сокет
+  - Запускаем "fluentbit" c "input: TCP" с портом "5175"
+  - [ echo '{/"text/":/"value/"}' | nc localhost  5175 ]
+
+
 [?] nop
   - nop
 
