@@ -381,6 +381,14 @@ networks:
 
 
 
+[?] как засунуть docker image в файл и потом выгрузить назад?
+  - загрузка в файл:
+    - [ docker save --output <имя выходного файла> <имя имеджа> ]
+      - пример: [ docker save --output busybox.tar busybox ]
+  - выгрузка из файла:
+    - [ docker load < <имя файла с имеджом> ]
+      - пример: [ docker load < busybox.tar.gz ]
+
 [?] как рестартануть контейнер?
   - [ docker restart <имя контейнера> ]
 
