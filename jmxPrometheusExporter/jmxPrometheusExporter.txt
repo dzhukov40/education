@@ -1,0 +1,51 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://prometheus.io/docs/instrumenting/exporters/ ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ jmx prometheus exporter ] для отдачи метрик в формате prometheus есть много утилит,
+  которые называются экспортерами. jmx prometheus exporter похволяет собирать метрика 
+  с java процесса и отдавать по http в формате prometheus.
+
+
+1) запускаем
+  - на docker hub есть image с экспортером
+    - [ https://hub.docker.com/r/sscaling/jmx-prometheus-exporter ]
+    - запуск:
+      - [ docker run --rm -p "5556:5556" sscaling/jmx-prometheus-exporter ]
+      - можно сходить на localhost:5556 , по умолчанию там будут метрики самого экспортера
+      - [ curl -XGET http://localhost:5556 ]
+
+
+2) подключение к Java процессу
+  - параметры запуска надо указать в файле "config.yaml"
+    - [ https://github.com/prometheus/jmx_exporter#configuration ] 
+  - [ docker run --rm -p "5556:5556" -v "$PWD/config-local.yml:/opt/jmx_exporter/config.yml" sscaling/jmx-prometheus-exporter ]
+
+
+
+
+[?] nop
+  - nop
+
+ 
+// #
+#----------------------------------------------- 
+
+
+#----------------------------------------------- 
+ 
