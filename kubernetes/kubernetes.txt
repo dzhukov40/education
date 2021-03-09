@@ -431,6 +431,14 @@
       - [ oc get crd gateway.networking.istio.io ] [ oc get crd virtualservice.networking.istio.io ] ...
 
 
+29) PodDisruptionBudget (PDB)
+  - квота количества неработающих pod
+  - [ https://kubernetes.io/docs/concepts/workloads/pods/disruptions/ ]
+  - указываем сколько минимум должно работать подов или максимум не работать
+  - [ minAvailable ] минимальное число работающих подов 
+  - [ maxUnavailable ] максимальное число не работающих подов 
+
+
 
 
 
