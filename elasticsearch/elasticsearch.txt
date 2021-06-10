@@ -29,10 +29,36 @@
   - есть опенсорс плагин от гугла, позволяющий делать авторизацию и аутентификацию и многое еще
   - есть приер аутентификации по jwt и авторизации из LDAP в "jwt_ldap_example"
 
+3) полезные запросы
+  - в kibana есть рабочая область для запросов [ Dev Tools ]
+  - [ GET /_cluster/health/ ] получить состояние кластера
+  - [ GET /_cluster/settings?include_defaults=true ] получить настройки кластера
 
 
+4) The nested type (вложенные типы)
+  - [https://www.elastic.co/guide/en/elasticsearch/reference/7.9/nested.html#_limits_on_nested_mappings_and_objects ]
+  - запросы к вложенным полям дорогие и 
+
  
- 
+5) Kibana Query Language (KQL)
+  - язык для поисковых запросов к elasticSearch
+  - [ https://www.elastic.co/guide/en/kibana/7.9/kuery-query.html ]
+  - простые запросы:
+    - [ fieldName:searchedData ] -> [ text:"error" ] 
+      - найти все документы у которых в поле "text" встречается строкаа "error"
+    - wildkard -> "*"
+      - [ text:* ] любые документы с полем "text"
+      - [ text:err* ] в поле есть строка начинающаяся на "err"
+  - поддержка булевых выражений:
+    - [ or ; and ; not ]
+    - примеры:
+      - [ text:"error" or id:"21" ] по разным полям
+      - [ text:("error" and "warning") ] разные значения для одного поля
+  - поддерка диапазонов для чисел и дат:
+    - [ > ; >= ; < ; <= ]
+  -...
+  - запросы к вложенным типам "The nested type"
+
 
 
 
