@@ -31,8 +31,17 @@
 
 3) полезные запросы
   - в kibana есть рабочая область для запросов [ Dev Tools ]
-  - [ GET /_cluster/health/ ] получить состояние кластера
-  - [ GET /_cluster/settings?include_defaults=true ] получить настройки кластера
+    - [ GET /_cluster/health/ ] получить состояние кластера
+    - [ GET /_cluster/settings?include_defaults=true ] получить настройки кластера
+  - через curl
+    - ключи
+      - [ -u 'admin:admin' ] добавить пользователя
+      - [ --insecure ] позволяет сделать запрос без проверки мертификата
+      - [ --key ] клиентский приватный ключи 
+      - [ --cert ] клиентский сертификат
+    - [ curl -XGET "http://localhost:55119/_cluster/health" ]
+    - [ curl -XGET "http://localhost:55119/tort/_search?pretty=true&q=*:*" ]
+    - [ curl -XGET "http://localhost:55119/_cat/templates" ]
 
 
 4) The nested type (вложенные типы)
