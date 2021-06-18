@@ -42,6 +42,7 @@
     - [ curl -XGET "http://localhost:55119/_cluster/health" ]
     - [ curl -XGET "http://localhost:55119/tort/_search?pretty=true&q=*:*" ]
     - [ curl -XGET "http://localhost:55119/_cat/templates" ]
+    - [ curl -XGET "http://localhost:55218/_cat/indices" ]
 
 
 4) The nested type (вложенные типы)
