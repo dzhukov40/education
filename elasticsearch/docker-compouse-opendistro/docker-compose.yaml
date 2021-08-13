@@ -1,0 +1,24 @@
+# TSLG Server version 0.1.8
+version: '3.6'
+
+services:
+  elasticsearch:
+    container_name: elasticsearch
+    image: amazon/opendistro-for-elasticsearch:1.13.2
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms512m -Xmx1024m
+    ports:
+      - "9200:9200"
+      - "9600:9600"
+
+  kibana:
+    depends_on:
+      - elasticsearch
+    container_name: kibana
+    image: amazon/opendistro-for-elasticsearch-kibana:1.13.2
+    environment:
+      - ELASTICSEARCH_HOSTS=https://elasticsearch:9200
+      - ELASTICSEARCH_URL=https://elasticsearch:9200
+    ports:
+      - "5601:5601"
