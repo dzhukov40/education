@@ -148,6 +148,18 @@
     - [ ll ] показывает [ ca.key, ca.crt, user.crt, user.csr, user.key, doneathome.ru.crt, doneathome.ru.csr, doneathome.ru.key ]
 
 
+8) как конвертнуть сертификаты в .jks
+  - ИНФО [ https://docs.oracle.com/cd/E35976_01/server.740/es_admin/src/tadm_ssl_convert_pem_to_jks.html ]
+  - обьединяем сертификат и приватный ключ
+    - [ cat client-certificate.pem client-key.pem > combined.pem ]
+  - создаем контейнер
+    - [ keytool -genkey -keyalg RSA -alias endeca -keystore truststore.ks ]
+  - удаляем какую-то хрень из контейнера
+    - [ keytool -delete -alias endeca -keystore truststore.ks ]
+  - засовываем
+    - [ keytool -v -importkeystore -srckeystore cert.p12 -srcstoretype PKCS12 -destkeystore keystore.ks -deststoretype JKS ]
+
+
 
 
 
