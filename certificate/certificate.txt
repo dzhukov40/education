@@ -160,6 +160,15 @@
     - [ keytool -v -importkeystore -srckeystore cert.p12 -srcstoretype PKCS12 -destkeystore keystore.ks -deststoretype JKS ]
 
 
+9) как вытащить сертификаты из .jks и положить в другой
+  - [ https://www.sslshopper.com/article-most-common-java-keytool-keystore-commands.html]
+  - смотрим что внутри jks файла
+    - [ keytool -list -v -keystore ./ecm-truststore.jks ]
+  - экспортируем сертификат из jks
+    - [ keytool -export -alias 1 -file ecm-dev.crt -keystore ./ecm-truststore.jks ]
+      [ keytool -export -alias 1 -keystore ecm-truststore.jks -rfc -file ecm-dev.cert ] (*) эксморт в формате X.509
+  - кладев в другой jks сертификат
+    - [ keytool  -import  -trustcacerts -alias ecm-dev  -file ecm-dev.cert  -keystore truststore.jks ]
 
 
 
