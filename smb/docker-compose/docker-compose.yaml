@@ -1,0 +1,30 @@
+version: '3.6'
+
+  # open in browse:
+  # smb://localhost:1139/dep-in
+  # smb://localhost:1139/svpc-out
+  samba:
+    container_name: samba
+    image: "dperson/samba"
+    environment:
+      TZ: 'EST5EDT'
+    ports:
+      - "1139:139/tcp"
+      - "1445:445/tcp"
+    command: >
+      -S
+      -w "WORKGROUP"
+      -p
+      -u "user_name;user_password"
+      -s "dep-in;/srv/dep/in;no;no;no;user_name"
+      -s "dep-out;/srv/dep/out;no;no;no;user_name"
+
+      -s "svpc-in;/srv/svpc/in;no;no;no;user_name"
+      -s "svpc-in/OK;/srv/svpc/in/OK;no;no;no;user_name"
+      -s "svpc-in/Error/Signature;/srv/svpc/in/Error/Signature;no;no;no;user_name"
+      -s "svpc-in/Error/Certificate;/srv/svpc/in/Error/Certificate;no;no;no;user_name"
+      -s "svpc-in/Error/Encoding;/srv/svpc/in/Error/Encoding;no;no;no;user_name"
+      -s "svpc-in/Ticket;/srv/svpc/in/Ticket;no;no;no;user_name"
+      -s "svpc-in/Unknown;/srv/svpc/in/Unknown;no;no;no;user_name"
+
+      -s "svpc-out;/srv/svpc/out;no;no;no;user_name"

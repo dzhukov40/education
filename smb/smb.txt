@@ -31,6 +31,13 @@
   - [ smb://localhost:<port> ] (*) есть несколько версий ( smb1/smb2/smb3 )  
 
 
+3) Подключиться из Java
+  - [ implementation 'org.codelibs:jcifs:2.1.19' ] 
+  - [
+      var auth = new NtlmPasswordAuthentication( null, "login", "password");
+      var baseDir = new SmbFile("smb2://localhost:1445", auth);
+    ]
+
 
 
 
