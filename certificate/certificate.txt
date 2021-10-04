@@ -150,15 +150,16 @@
 
 8) как конвертнуть сертификаты в .jks
   - ИНФО [ https://docs.oracle.com/cd/E35976_01/server.740/es_admin/src/tadm_ssl_convert_pem_to_jks.html ]
+  - создаем пустой кейстор
+    - [ keytool -genkey -keyalg RSA -alias endeca -keystore keystore.ks ] 
+  - удаляем созданный сертификат в хранилище
+    - [ keytool -delete -alias endeca -keystore keystore.ks ]
   - обьединяем сертификат и приватный ключ
     - [ cat client-certificate.pem client-key.pem > combined.pem ]
-  - создаем контейнер
-    - [ keytool -genkey -keyalg RSA -alias endeca -keystore truststore.ks ]
-  - удаляем какую-то хрень из контейнера
-    - [ keytool -delete -alias endeca -keystore truststore.ks ]
+  - конвертим
+    - [ openssl pkcs12 -export -in client-key.pem  -out combined.pkcs12 ]
   - засовываем
-    - [ keytool -v -importkeystore -srckeystore cert.p12 -srcstoretype PKCS12 -destkeystore keystore.ks -deststoretype JKS ]
-
+    - [ keytool -v -importkeystore -srckeystore combined.pkcs12  -srcstoretype PKCS12 -destkeystore keystore.ks -deststoretype JKS ]
 
 9) как вытащить сертификаты из .jks и положить в другой
   - [ https://www.sslshopper.com/article-most-common-java-keytool-keystore-commands.html]
@@ -189,7 +190,7 @@
 [?] nop
   - nop
 
- 
+  https://ts-ecm.ss1-genr01-tsec-omnitech-rb-ift.apps.ss1-genr01.test.vtb.ru/swagger-ui/
  
 // #c 
 #----------------------------------------------- 
@@ -198,3 +199,8 @@
 
 #----------------------------------------------- 
  
+
+
+
+15:04
+openssl s_client -showcerts -servername https://esign-ts.ss1-genr01-tses-omnitech-rb-ift.apps.ss1-genr01.test.vtb.ru -connect https://esign-ts.ss1-genr01-tses-omnitech-rb-ift.apps.ss1-genr01.test.vtb.ru:443
