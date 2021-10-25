@@ -44,6 +44,7 @@
 
 
 1A) Установка на mac
+  - установил через оф сайт виртуалбокс, работает, была одна проблема с запуском, нагуглилась и решилась
   - можно через брю [ brew cask install virtualbox ]
     - [ https://developer.apple.com/library/archive/technotes/tn2459/_index.html ]
   - инструкция:
