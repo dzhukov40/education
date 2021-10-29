@@ -155,7 +155,8 @@
   - удаляем созданный сертификат в хранилище
     - [ keytool -delete -alias endeca -keystore keystore.jks ]
   - обьединяем сертификат и приватный ключ
-    - [ cat client-certificate.pem client-key.pem > combined.pem ]
+    - [ cat client-certificate.pem client-key.pem > combined.pem ] (*) не должны слипаться!!!
+    - [ cat client-certificate.pem > combined.pem && echo -e "" >> combined.pem  && cat client-key.pem >> combined.pem ]
   - конвертим
     - [ openssl pkcs12 -export -in combined.pem  -out combined.pkcs12 ]
   - засовываем
@@ -176,6 +177,22 @@
     - [ keytool  -import  -trustcacerts -alias ecm-dev  -file ecm-dev.cert  -keystore truststore.jks ]
 
 
+10) вытаскиваем сертификат из keystore.jks и преобразуем к публичному сертификату и ключу
+  - [ keytool -list -v -keystore ./tses-keystore.jks ] смотрим алиас
+  - [ keytool -export -alias 1 -keystore tses-keystore.jks -rfc -file ecm-dev.cert ] вытаскиваем
+  - [ openssl x509 -pubkey -noout < ecm-dev.cert > pubkey.pem ] Достаем публичный ключ
+  - [ openssl x509 -CAkeyform -noout < ecm-dev.cert > key.pem ] Достаем приватный ключ
+
+
+
+
+
+
+
+
+
+
+
 
 
 [?] как сделать запрос на сервер https
@@ -191,10 +208,15 @@
   - [ openssl x509 -noout -text -in <файл сертификата> ]
  
 
+[?] как исправить ошибку 
+  - [ unable to find valid certification path to requested target ]
+  - [ PKIX path building failed ]
+    - похоже на ошибку трастстора, надо добавить сервер в список доверяемых
+
+
 [?] nop
   - nop
 
-  https://ts-ecm.ss1-genr01-tsec-omnitech-rb-ift.apps.ss1-genr01.test.vtb.ru/swagger-ui/
  
 // #c 
 #----------------------------------------------- 
@@ -203,8 +225,3 @@
 
 #----------------------------------------------- 
  
-
-
-
-15:04
-openssl s_client -showcerts -servername https://esign-ts.ss1-genr01-tses-omnitech-rb-ift.apps.ss1-genr01.test.vtb.ru -connect https://esign-ts.ss1-genr01-tses-omnitech-rb-ift.apps.ss1-genr01.test.vtb.ru:443
