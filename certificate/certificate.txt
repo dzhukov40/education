@@ -178,14 +178,16 @@
 
 
 10) вытаскиваем сертификат из keystore.jks и преобразуем к публичному сертификату и ключу
-  - [ keytool -list -v -keystore ./tses-keystore.jks ] смотрим алиас
-  - [ keytool -export -alias 1 -keystore tses-keystore.jks -rfc -file ecm-dev.cert ] вытаскиваем
-  - [ openssl x509 -pubkey -noout < ecm-dev.cert > pubkey.pem ] Достаем публичный ключ
-  - [ openssl x509 -CAkeyform -noout < ecm-dev.cert > key.pem ] Достаем приватный ключ
+  - [ keytool -importkeystore -srckeystore keystore.jks -destkeystore keystore.p12 -deststoretype PKCS12 ]
+  - [ openssl pkcs12 -in keystore.p12 -nokeys -out client-cert.crt ]
+  - [ openssl pkcs12 -in keystore.p12 -nocerts -nodes -out client-key.key ]
 
-
-
-
+11) вытаскиваем цепочку сертификатов из truststore.jks 
+  - смотрим что внутри jks файла (обращаем внимания на алиасы сертификатов)
+    - [ keytool -list -v -keystore ./truststore.jks ]
+  - вытаскиваем сертификаты по алиасам в формате PEM
+    - [ keytool -exportcert -rfc -alias ALIAS_NAME -file ALIAS_NAME.crt -keystore ./truststore.jks  ]
+  - обьединяем все сектификаты в один текстовый файл
 
 
 
