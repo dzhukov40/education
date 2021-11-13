@@ -27,7 +27,21 @@
 1) устанавливаем 
   - устанавливаем [ sudo apt install curl ]
 
+2) пара полезных ключей
+  - делаем запрос указывая значения параметров из файлов
+    - [ curl --header @./header.txt --form file=@./test.txt http://test.ru ]
+  - игнорируем сертификат сервера
+    - [ curl --insecure https://test.ru ]
+  - указываем серверный сертификат
+    - [ curl --cacert server_cert.crt https://test.ru ]
+  - указываем клиентский ключ и сертификат
+    - [ curl --key client_key.crt --cert client_cert.crt https://test.ru ]
  
+
+
+
+
+
 
 
 [?] nop
