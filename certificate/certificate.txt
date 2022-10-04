@@ -123,8 +123,8 @@
   
   
 7) mTLS
-  - [ openssl genrsa -out сa.key 2048 ] создаем приватный ключ
-  - [ openssl req -new -x509 -subj "/C=RU/ST=Moscow/O=DONEATHOME, Inc./" -key ca.key -out ca.crt -days 365 ] \
+  - [ openssl genrsa -out client.key 2048 ] создаем приватный ключ
+  - [ openssl req -new -x509 -subj "/C=RU/ST=Moscow/O=TEST, Inc./" -key client.key -out client.crt -days 365 ] \
     - [ -x509 ] позволяет сразу получит самоподписанный сертификат !!
     - делаем сразу сертификат из приватного ключа, тоесть вычислится публичный ключ и создастся сертификат
   - [ ll ] показывает что у нас теперь приватный ключ и сертификат [ ca.key, ca.crt ]

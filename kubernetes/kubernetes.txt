@@ -61,6 +61,8 @@
 
 4) kubectl Консольный интерфейс
   - мы можем подключится и управлять кластером кубрнейтса
+  - [ brew install kubectl ] Установка
+    - [ https://kubernetes.io/ru/docs/tasks/tools/install-kubectl/ ]
   - [ kubectl get nodes ] посмотреть все ноды
   - [ kubectl get pods ] посмотреть все поды
   - [ kubectl get deployments ] посмотреть все деплойменты
