@@ -1,0 +1,128 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://github.com/lukas-krecan/ShedLock ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ ShedLock ] Кайф, мы можем синхронизировать несколько инстансов через БД.
+  Удобно использовать когда несколько инстансов пытаются модифицировать какой-то общий ресурс.
+
+
+1) Добавляем в проект
+  - [
+      implementation "net.javacrumbs.shedlock:shedlock-spring:${version}"
+      implementation "net.javacrumbs.shedlock:shedlock-provider-jdbc-template:${version}"
+    ]
+
+2) Используем
+  - создаем конфигурационный бин
+    [
+      @Table("svpc_inbox")
+      @Data
+      @Builder
+      @FieldNameConstants
+      @RequiredArgsConstructor
+      public class Inbox {
+      
+          @Id
+          private final Long id;
+          private final UUID messageId;
+          private final InboxAggregateType aggregateType;
+          private final String headers;
+          private final String payload;
+          @CreatedDate
+          private final Instant createDate;
+          private final Instant processDate;
+      
+      }
+    ]
+  - Инжектим бин 
+    [
+      @Lazy
+      private final QuerydslJdbcFragment<Inbox> querydslJdbcFragment;
+    ]
+  - Делаем запрос
+    [
+      @Slf4j
+      @Configuration
+      @EnableScheduling
+      @EnableSchedulerLock(defaultLockAtMostFor = "10s")
+      public class SchedulingConfig {
+      
+          @Bean
+          @Primary
+          public LockProvider lockProvider(DataSource dataSource) {
+              return new JdbcTemplateLockProvider(dataSource, "svpc_shedlock");
+          }
+      
+      }
+    ]
+  - на метод теперь можем повесить аннотацию для лока
+    [
+      @Transactional
+      @Override
+      @Scheduled(cron = "${informal-exchange-facade.job.outbox-processing.cron: */5 * * * * *}")
+      @SchedulerLock(
+              name = "outbox_processing",
+              lockAtMostFor = "${informal-exchange-facade.job.outbox-processing.lock-at-most: PT5M}",
+              lockAtLeastFor = "${informal-exchange-facade.job.outbox-processing.lock-at-least: PT3S}"
+      )
+      public void process() {
+          var notProcessedMessages = outboxFacade.getOldestNotProcessedMessages(BATCH_SIZE);
+  
+          for (Outbox message : notProcessedMessages) {
+              var processor = outboxProcessorFactory.getProcessor(message);
+              processor.process(message);
+          }
+      }
+    ]
+  - создаем табличку в БД
+    [
+      <createTable tableName="${prefix}_shedlock">
+          <column name="name" type="varchar(64)">
+              <constraints nullable="false" primaryKey="true" primaryKeyName="${prefix}_shedlock_pk"/>
+          </column>
+          <column name="lock_until" type="timestamp(3)"/>
+          <column name="locked_at" type="timestamp(3)"/>
+          <column name="locked_by" type="varchar(255)"/>
+      </createTable>
+    ]
+
+
+
+
+
+
+
+[?] как собрать проект
+  - [ npm run build ]
+
+[?] как запустить проект, посмотреть в браузере
+  - [ npm run start ]    
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
