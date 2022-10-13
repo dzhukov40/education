@@ -1,0 +1,95 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ http://querydsl.com/ ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ querydsl ] позволяет удобно писать sql запросы к бд.
+
+
+1) Добавляем в проект
+  - [
+      implementation "com.infobip:infobip-spring-data-jdbc-querydsl-boot-starter:${version}"
+      implementation "com.querydsl:querydsl-core:${version}"
+      implementation "com.querydsl:querydsl-apt:${version}"
+    ]
+
+2) Используем
+  - создаем классы, которые мапятся на таблицы бд
+    [
+      @Table("svpc_inbox")
+      @Data
+      @Builder
+      @FieldNameConstants
+      @RequiredArgsConstructor
+      public class Inbox {
+      
+          @Id
+          private final Long id;
+          private final UUID messageId;
+          private final InboxAggregateType aggregateType;
+          private final String headers;
+          private final String payload;
+          @CreatedDate
+          private final Instant createDate;
+          private final Instant processDate;
+      
+      }
+    ]
+  - Инжектим бин 
+    [
+      @Lazy
+      private final QuerydslJdbcFragment<Inbox> querydslJdbcFragment;
+    ]
+  - Делаем запрос
+    [
+      @Override
+      public Optional<Inbox> findByMessageId(UUID messageId) {
+          var predicate = new BooleanBuilder()
+                  .and(QInbox.inbox.messageId.eq(messageId));
+  
+          return querydslJdbcFragment.query(query -> query
+                          .select(querydslJdbcFragment.entityProjection()))
+                  .from(QInbox.inbox)
+                  .where(predicate)
+                  .stream()
+                  .findAny();
+      }
+    ]
+
+
+
+
+
+[?] как собрать проект
+  - [ npm run build ]
+
+[?] как запустить проект, посмотреть в браузере
+  - [ npm run start ]    
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
