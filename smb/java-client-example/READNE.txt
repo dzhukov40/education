@@ -1,0 +1,4 @@
+есть разные smb клиенты, нами выбранный клиент поддерживает smb3 поэтому взяли его
+
+gradle:
+   implementation "com.hierynomus:smbj:${smbj_version}"

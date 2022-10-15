@@ -3,6 +3,7 @@ version: '3.6'
   # open in browse:
   # smb://localhost:1139/dep-in
   # smb://localhost:1139/svpc-out
+  # ! key [ -S ] need reseach, becouse i remove it for smb3
   samba:
     container_name: samba
     image: "dperson/samba"

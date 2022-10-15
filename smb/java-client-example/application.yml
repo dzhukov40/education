@@ -1,0 +1,23 @@
+...
+
+
+smb:
+  dep:
+    domain: ${SMB_DEP_DOMAIN:}
+    host: ${SMB_DEP_HOST}
+    username: ${SMB_DEP_USERNAME}
+    password: ${SMB_DEP_PASSWORD}
+    income_folder_path: ${SMB_DEP_INCOME_FOLDER_PATH}
+    outcome_folder_path: ${SMB_DEP_OUTCOME_FOLDER_PATH}
+    check_interval: ${SMB_DEP_CHECK_INTERVAL}
+  svpc:
+    domain: ${SMB_SVPC_DOMAIN:}
+    host: ${SMB_SVPC_HOST}
+    username: ${SMB_SVPC_USERNAME}
+    password: ${SMB_SVPC_PASSWORD}
+    income_folder_path: ${SMB_SVPC_INCOME_FOLDER_PATH}
+    outcome_folder_path: ${SMB_SVPC_OUTCOME_FOLDER_PATH}
+    check_interval: ${SMB_SVPC_CHECK_INTERVAL}
+
+
+...
