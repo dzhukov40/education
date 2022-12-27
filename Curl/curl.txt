@@ -37,7 +37,12 @@
   - указываем клиентский ключ и сертификат
     - [ curl --key client_key.crt --cert client_cert.crt https://test.ru ]
  
-
+3) полезный docker image
+  - [ peterevans/curl-jq ]
+  - тут обьедены "curl" + "jq"
+  - пример:
+    [ docker run --rm badouralix/curl-jq /bin/sh  -c "curl -s https://catfact.ninja/fact ]
+    [ docker run --rm badouralix/curl-jq /bin/sh  -c "curl -s https://catfact.ninja/fact | jq -r '.fact'" ]
 
 
 
