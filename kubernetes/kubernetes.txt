@@ -448,6 +448,12 @@
 
 
 
+[?] как прокинуть порт из kubernetes на свою машину
+  - проброс порта, туннель 
+  - (*) омжно наверно не только имя пода, 
+    а например деплоймента или сервиса
+  - [ kubectl -n <неймспейс> port-forward <имя пода> 8983:8983 ] 
+  - [ https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/ ]
 
 [?] удобный конвертор [ yaml ] <--> [ properties ]
   - [ https://www.toyaml.com/index.html ] 
