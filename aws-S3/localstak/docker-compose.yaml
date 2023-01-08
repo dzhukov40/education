@@ -1,0 +1,24 @@
+version: '3.6'
+
+# НЕ ДОДЕЛАНО, ПОЧИТАЙ ИНТЕРНЕТЫ И ЗАСТАВЬ ЭТО РАБОТАТЬ !
+
+services:
+    localstack:
+    container_name: localstack
+    image: localstack/localstack-full:1.4
+    ports:
+      - "4566:4566"            # LocalStack Gateway
+    environment:
+      - HOSTNAME_EXTERNAL=localstack
+      - AWS_DEFAULT_REGION=us-east-1
+      - KMS_PROVIDER=local-kms
+      - DOCKER_HOST=unix:///var/run/docker.sock
+#    volumes:
+#      - "./localstack/bootstrap:/docker-entrypoint-initaws.d/"
+#      - "./localstack/seed.yaml:/init/seed.yaml"
+    healthcheck:
+      #      todo: check the last item from localstack_init.sh was created
+      test: ["CMD", "curl", "-f", "http://localhost:4566"]
+      interval: 10s
+      timeout: 1s
+      retries: 5

@@ -29,8 +29,11 @@
 
 2) Язык запросов (Query)
   - документация [ https://solr.apache.org/guide/solr/latest/query-guide/query-syntax-and-parsers.html ]
+  - в консоли можно выбрать коллекцию и там будет визард запросов
+  - [http://localhost:8983/solr/<имя коллекции>/select?q=id:13&wt=json]
 
 
+3)
 
 
 
