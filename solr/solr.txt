@@ -44,8 +44,26 @@
 
 
 
-[?] nop
-  - nop
+[?] как имея .xml схему коллекции перенести ее в [ solr ]
+  - Стартуем новый контейнер с [ solr ]
+    - [ docker run --name book_solr -d --rm -p 8983:8983 -t solr ]
+  - Создаем дефолтную коллекцию с нужным именем, например "books"
+    - [ docker exec -it --user=solr book_solr bin/solr create_core -c books ]
+  - ...
+  - Заменяем дефолтную схему на нашу для коллекции "books"
+    - [ docker cp dzhukov-books/solr/books/conf/managed-schema \
+          book_solr:/var/solr/data/books/conf/managed-schema
+      ]
+  - ...
+  - Идем в консоль [ solr ] и ребутаем коллекцию 
+    - [ http://localhost:8983/solr/#/~cores/books ]
+    - жмакаем: [Core Admin] -> [Reload]
+  - ...
+  - команды для очистки, чтобы быстро повторить процесс
+    - убиваем запущенный контейнер 
+      - [ docker kill book_solr ]
+    - удаляем имедж
+      - [ docker rm book_solr 2> /dev/null || true ]
 
  
 // #
