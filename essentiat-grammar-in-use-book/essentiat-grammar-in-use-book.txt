@@ -23,15 +23,70 @@
 
 
 1) [ Unit 1 ] am/is/are
-  - ...
+  - [A]
+    - examples:
+      - I'm 22
+      - My name is Lisa
+      - I'm American. I'm from Chicago
+      - I'm a student
+      - My father is a doctor and my mother is a journalist
+      - My favourite color is blue
+      - My favorite sports are football and swimming
+      - I'm interested in art
+      - I'm not interested in politics
+  - [B]
+    - positive:
+         |       |
+    -----|-------|---------
+       I |  am   | (I'm)
+    -----|-------|---------  
+      he |       | (he's)
+     she |  is   | (she's)
+      it |       | (it's)
+    -----|-------|--------
+      we |       | (we're)
+     you |  are  | (you're)
+    they |       | (they're)
+    ---------------------- 
 
+    - negative:
+         |          |
+    -----|----------|----------------------------
+       I |  am not  | (I'm not)
+    -----|----------|-----------------------------  
+      he |          | (he's not   or  he isn't)
+     she |  is not  | (she's not  or  she isn't)
+      it |          | (it's not   or  it isn't)
+    -----|----------|------------------------------
+      we |          | (we're not    or  we aren't)
+     you |  are not | (you'r not    or  you aren't)
+    they |          | (they're not  or  they aren't)
+    ------------------------------------------------
+  
+   - examples:
+     - I'm cold. Can you close the window, please?
+     - I'm 32 years old. My sister is 29.
+     - Steve is ill. He's in bed.
+     - My brother is scared of dogs.
+     - It's ten o'clock. You're late again.
+     - Ann and I are good friends.
+     - You keys are on the table.
+     - I'm tierd, but I'm not hungry.
+     - Lisa isn't interested in politics. She's interested in art.
+     - James isn't a teacher. He's a student.
+     - Those people aren't English. They're Australian.
+     - It's sunny today, but it isn't warm.
 
-
-
-
-
-
-
+  - [C]
+    - that's = that is 
+    - there's = there is 
+    - here's = here is
+  
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 1.1 Write the short form (she's / we aren't etc.).
+      1 she is - she's
+      2 
 
 
 
