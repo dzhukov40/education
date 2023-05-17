@@ -166,11 +166,147 @@
 
 2) [ Unit 2 ] am/is/are (questions)
   - [A]
-    .... 
-
-
-
+    - positive:
+         |       |            || question
+    -----|-------|------------||-----------
+       I |  am   | (I'm)      || am I ?
+    -----|-------|------------||------------  
+      he |       | (he's)     || is he ?
+     she |  is   | (she's)    || is she ?
+      it |       | (it's)     || is it ?
+    -----|-------|------------||------------
+      we |       | (we're)    || are we ?
+     you |  are  | (you're)   || are you ?
+    they |       | (they're)  || are they ?
+    --------------------------||------------- 
     - examples:
+      - Am I late? No, you are on time.
+      - Is your mother at home? No she is out.
+      - Are your parents at home? No they are out. 
+      - Is it cold in your room? Yes, a little.
+      - Your shoes are nice. Are they new?
+  - [B]
+    - Where ... ? / W h a t ... ? / Who ... ? / How ... ? / Why ... ?
+      - Where is your mother? Is she at home?
+      - Where are you from? Canada
+      - What colour is your car? It's red
+      - How old is Joe? He is 24.
+      - How are your parents? Are they well?
+      - These shoes are nice. How much are they?
+      - This hotel is not very good. Why is it so expensive?
+      - /
+    - short form:
+      - description:
+        - what's = what is 
+        - who's = who is 
+        - how's = how is 
+        - where's = where is 
+      examples:
+        - What's the time?
+        - Where's Lucy?
+        - Who's that man?
+        - How's your father?
+  - [C]
+    - Short answers (Positive)
+         |       |       
+    -----|-------|-------
+         |  I    |  am   
+         |-------|-------
+         |  he   |      
+     Yes |  she  |  is  
+         |  it   |     
+         |-------|------
+         |  we   |       
+         |  you  |  are 
+         |  they |      
+    --------------------
+    
+    - Short answers (Negative)
+         |       |       |
+    -----|-------|-------|-----------------------
+         |  I    |  am   |
+         |-------|-------|         (*) short forms
+         |  he   |       |         - No, he isn't
+     No  |  she  |  is   |  not    - No, ahe isn't
+         |  it   |       |         - No, it isn't
+         |-------|-------|         
+         |  we   |       |         - No, we aren't
+         |  you  |  are  |         - No, you aren't  
+         |  they |       |         - No, they aren't
+    ---------------------------------------------
+   
+   examples:
+     - Are you tired? Yes, I am.
+     - Are you hungry? No, I'am not, but I'am thirsty.
+     - Is your friend English? Yes, he is.
+     - Are these your keys? Yes, they are.
+     - That's my seat. No, it isn't.
+     - /
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 1.1 Find the right answers for the questions.
+      1 [G] Where's the camera? In your bag.
+      2 [F] Is your car blue? No, it's black. 
+      3 [H] Is Kate from London? No, She is American.
+      4 [C] Am I late? Yes, you are.
+      5 [A] Where's Amy from? London
+      6 [E] What colour is your bag? black.
+      7 [B] Are you hungry? No, I am not.
+      8 [I] How is George? Very well.
+      9 [D] Who's that woman? My sister.
+      - /
+    - 2.2 Make questions with these words.
+      1 (is / at home / your mother)
+        - is your mother at home?
+      2 (your parents / are / well)
+        - are your parents well?
+      3 (interesting / is / your job)
+        - is your job interesting
+      4 (the shops / are / open today)
+        - are the shope open today?
+      5 (from / where / you / are)
+        - where are you from?
+      6 (interested in sport / you / are)
+        - are you interested in sport?
+      7 (is / near here / the station)
+        - is the station near here?
+      8 (at school / are / your children)
+        - are your children at school?
+      9 (you / are / late / why)
+        - why are you late?
+      - /
+    - 2.3 Complete the questions. Use What... / Who ... / Where ... / How ...
+      1 How are your parents? The'are very well.
+      2 Where is the bus stop? At the end of the street.
+      3 How old are your children?  Five, six and ten.
+      4 How much are these oranges? 1.50 a kilo.
+      5 What is your favorite sport? Skiing.
+      6 Who is the man in this photo? That's my father.
+      7 What colour is your new shoes? Black.
+      - /
+    - 2.4 Write the questions.
+      1 (name?)           What’s your name?       Paul.
+      2 (American?)       Are you American?       No, I'm Australian.
+      3 (how old?)        How old are you?        I'm 30.
+      4 (a teacher?)      Are you a ticher?       No, I'm a lawyer.
+      5 (married?)        Are you married?        Yes, 1 am.
+      6 (wife a lawyer?)  Is your wife a lawyer?  No, she's a designer.
+      7 (from?)           Where is she from?      She's Italian.
+      8 (her name?)       What is her name?       Anna.
+      9 (how old?)        How old is she?         She's 27.
+    - 2.5 Write short answers (Yes, I am. / No, he isn't, etc.).
+      1 Are you married? No, I'm not.
+      2 Are you thirsty? Yes, I am.
+      3 Is it cold today? Yes, it is.
+      4 Are your hands cold? No, they are not.
+      5 Is it dark now? Yes, it is.
+      6 Are you a teacher? No, I am not.
+
+3) [ Unit 3 ] I am doing (present contininuos)
+  - [A]
+
+
+
 
 
 
@@ -179,7 +315,7 @@
 essentiat-grammar-in-use-book add summery
 
 
-  стр 12 в chrome
+  стр 15 в chrome
 
 
 
