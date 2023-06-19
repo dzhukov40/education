@@ -507,7 +507,7 @@
       6 Are you feeling well? No, I am not.
 
 
-4) [ Unit 5 ] I do/work/like etc. (present simple)
+5) [ Unit 5 ] I do/work/like etc. (present simple)
   - [A]
     - examples:
       - they have a lot of books.
@@ -593,9 +593,105 @@
       5 I often drink coffee in the morning
     
 
+6) [ Unit 6 ] I don't (present simple Negative)
+  - [A] The present simple negative is don't/doesn't + verb
+    - examples:
+      - She doesn't drink coffe.
+      - He doesn't like his job.
+    - tables:
+        |    positive      ||     negative
+        |-------|----------||--------|-------------|-------
+        |  I    | work     ||  I     |             |
+        |  we   | like     ||  we    | don't       |
+        |  you  | do       ||  you   | (do not)    | work
+        |  they | have     ||  they  |             | like
+        |-------|----------||--------|-------------| do
+        |  he   | works    ||  he    |             | have
+        |  she  | likes    ||  she   | doesn't     |
+        |  it   | does     ||  it    | (does not)  | 
+        |       | has      ||        |             |
+        --------------------------------------------------
+    - examples:
+      - I drink coffe, but I don't drink tea.
+      - Sue drinks tea, but she doesn't drink coffee.
+      - You don't work very hard.
+      - We don't watch TV very often.
+      - The weather is usually nise. It doesn't rain very often.
+      - Sam and Chris don't know many people.
+  - [B] Remember
+    - rule:
+      - I/we/you/they  -->> don't
+      - he/she/it      -->> doesn't
+    - examples:
+      - I don't like football
+      - He doesn't like football
+      - I don't like Fred and Fred doesn't like me.
+      - My car doesn't use much petrol.
+      - Sometimes he is late, but it doesn't happen very often.
+  - [C] We use don't/doesn't + infinitive
+      (don't like / doesn't speak / doesn't do etc.)
+    - examples
+      - I don't like washing the car. I don't do it very often.
+      - Sarah speaks Spanish, but she doesn't speak italian.
+      - David doesn't do his job very well.
+      - Paula doesn't usually have breakfast. 
 
 
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 6.1 Write the negative
+      1 I don't play the piano very well.
+      2 Anna doesn't play the piano very well.
+      3 They don't now my phone number
+      4 We don't work very hard
+      5 He doesn't have a bath every day
+      6 You didn't do the same thing every day
+    - 6.2 Study the information and write sentences with like.
+      1 Ben and Sophie like classical music
+      2 Kate doesn't like classical music
+      3 I don't like classical music
+      4 Ben and Sophie don't like boxing
+      5 Kate likes boxing
+      6 I like boxing
+      7 Ben and Sophie like horror movies
+      8 Kate doesn't like horror movies
+      9 I don't like horror movies
+    - 6.3 Write about yourself
+      - (watch TV)
+        - I don't watch TV very often
+        - I never watch TV
+        - I often watch TV
+      - (go to the theature)
+        - I don't go to the theature very often
+        - I never go to the theature
+        - I often go to the theature
+      - (ride a bike)
+        - I don't ride a bike
+        - ...
+      - ...
+    - 6.4 Complete the sentences. All of them are negative.
+        Use don't/doesn
+      - The weather here is usually nice. It doesn't rain much.
+      - Paul has a car, but he doesn't use it very often.
+      - Paul and his friends like films, 
+        but they don't go to the cinima very often.
+      - Amanda is married, but she doesn't wear a ring.
+      - I don't know much about politics. I'm not interested in it.
+      - The Regent Hotel isn't expensive. It costs much to stay there.
+      - Ed lives very near us, but we don't see him very often.
+    - 6.5 Put the verb into the correct form, poritive or negative.
+      - Margaret speaks four languages..
+      - I don't like my job. It's very boring.
+      - Where's Steve? I'm sorry. I don't know.
+      - Sue is a very quiet person. She doesn't talk very much.
+      - Andy drinks  alot of tea. It's his favourite drink.
+      - It's not true! I don't believe it!
+      - That's very beautiful picture. I like it very much.
+      - Mark is a vegetarian. He doesn't eat meat.
 
+
+7) [ Unit 7 ] Do you ... ? (present simple questions)
+  - [A] We use do/does in present simple questions
 
 
 
