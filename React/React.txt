@@ -1,0 +1,117 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://react.dev ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ React ] The library for web and native user interfaces
+
+
+1) Установка (старт проекта)
+  - лучше всего стартовать вместе с фреймворком, например [ NextJS ]
+    - [ https://nextjs.org/docs/getting-started/installation ]
+  - тут пока разберемся с синтаксисом без фреймворка
+
+
+2) Quick Start (азы без фреймворка)
+  - заходим на сайт и смотрим основы
+    - [ https://react.dev/learn ]
+  - [ Creating-and-nesting-components ]
+    - React приложенние это собранные вместе отдельные компоненты
+      - компонент это, например, кнопка, список, картинка, меню
+    - [*] все react компоненты (ф-ии) должны называться с большой буквы 
+    - вот пример компонента кнопки:
+      [
+        function MyButton() {
+          return (
+            <button>I'm a button</button>
+          );
+        }
+      ]
+    - вот пример использования компонента:
+      [
+        export default function MyApp() {
+          return (
+            <div>
+              <h1>Welcome to my app</h1>
+              <MyButton />
+            </div>
+          );
+        }
+      ]
+
+
+3) Стиль организации кода называется JSX 
+  - JSX строже чем HTML
+    1 You have to close tags like <br />. 
+    2 Your component also can’t return multiple JSX tags.
+    3 You have to wrap them into a shared parent, 
+      like a <div>...</div> or an empty <>...</> wrapper:
+     - [
+          function AboutPage() {
+            return (
+              <>
+                <h1>About</h1>
+                <p>Hello there.<br />How do you do?</p>
+              </>
+            );
+          }
+       ]
+
+
+4) Как определять стиль компонентов
+  - для прикрепления стилей CSS используем "className"
+  - пример:
+    - [
+        <img className="avatar" />
+
+
+        /* In your CSS */
+        .avatar {
+          border-radius: 50%;
+        } 
+      ]
+
+
+5) Как вернуть компонент, чтобы он отображал данные
+  - похоже мы возвращаем темплейт, в который подставятся данные
+
+
+
+
+30) Утилиты для разработки на React
+  - [ https://react.dev/learn/react-developer-tools ]
+  - надо поставить расширение для браузера
+    - [ React Developer Tools ]
+  - есть Online convertor HTML to JSX
+    - [ https://transform.tools/html-to-jsx ]
+
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
