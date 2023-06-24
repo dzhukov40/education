@@ -57,7 +57,14 @@
     - редактируем проект и мгновенно видим результат
 
 
-
+4) Какой выбрать стек
+  - смотрел разные дизайны
+    - много кто использует bootstrap, но оно уже не выглядет вкусно
+      - [ https://getbootstrap.com/ ]
+    - круче выглядит материал дизайн от гугла
+      - [ https://mui.com/ ]
+  - Для эксперементов выбрал шаблон 
+    - [ https://demos.adminmart.com/free/nextjs/modernize-nextjs-free/landingpage/index.html ]
 
 
 

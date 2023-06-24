@@ -88,7 +88,104 @@
 
 5) Как вернуть компонент, чтобы он отображал данные
   - похоже мы возвращаем темплейт, в который подставятся данные
+  - пример
+    - [
+        return (
+          <img
+            className="avatar"
+            src={user.imageUrl}
+          />
+        );
+      ]
+  - есть подход когда для каждого компонента как параметр передается
+    интерфейс с именем Props, который мы описываем в компоненте и
+    перечисляем в нем все необходимые поля параметры
 
+
+6) В компоненте мы можем определить реакцию на действия пользователя
+  - тут мы реагируем на нажатие
+  - [
+      function MyButton() {
+        function handleClick() {
+          alert('You clicked me!');
+        }
+
+        return (
+          <button onClick={handleClick}>
+            Click me
+          </button>
+        );
+      } 
+    ]
+
+
+7) Наши компоненты могут хранить состояние
+  - для этого есть отдельный пакет
+  - мы должны его импортировать в файле компонента
+  - [ import { useState } from 'react'; ]
+  - вот пример с двумя кнопками
+    кнопки хранят колличество нажатий
+    - [
+        import { useState } from 'react';
+
+        export default function MyApp() {
+          return (
+            <div>
+              <h1>Counters that update separately</h1>
+              <MyButton />
+              <MyButton />
+            </div>
+          );
+        }
+        
+        function MyButton() {
+          const [count, setCount] = useState(0);
+        
+          function handleClick() {
+            setCount(count + 1);
+          }
+      ]
+
+
+8) Использование хуков Hooks
+  - Functions starting with use are called Hooks. 
+  - useState is a built-in Hook provided by React. 
+  - You can find other built-in Hooks in the API reference. 
+  - You can also write your own Hooks by combining the existing ones.
+
+
+9) Шаринг данных между компонентами
+  - как например сделать общий счетчик для двух кнопок
+  - как и ожижалось надо состояние [ useState ] перенести
+    в компонент который обьединяет наши компоненты (кнопки)
+  - пример
+    - [
+        import { useState } from 'react';
+        
+        export default function MyApp() {
+          const [count, setCount] = useState(0);
+        
+          function handleClick() {
+            setCount(count + 1);
+          }
+        
+          return (
+            <div>
+              <h1>Counters that update together</h1>
+              <MyButton count={count} onClick={handleClick} />
+              <MyButton count={count} onClick={handleClick} />
+            </div>
+          );
+        }
+        
+        function MyButton({ count, onClick }) {
+          return (
+            <button onClick={onClick}>
+              Clicked {count} times
+            </button>
+          );
+        }
+      ]
 
 
 
