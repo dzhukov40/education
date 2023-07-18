@@ -1,0 +1,168 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://www.jooq.org/ ]
+- [ https://github.com/etiennestuder/gradle-jooq-plugin ] 
+- [ https://www.jooq.org/doc/latest/manual/code-generation/codegen-liquibase/ ] 
+- [ https://github.com/jOOQ/jOOQ ]
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ jooq ] Это очень популярная библиотека для общения с BD.
+
+
+
+1) добавляем в проект
+  - правим "build.gradle" в под модуле "-db" 
+```groovy
+plugins {
+    id 'nu.studer.jooq' version '8.2'
+}
+
+dependencies {
+
+    // jakarta
+    implementation 'jakarta.persistence:jakarta.persistence-api:3.1.0'
+    implementation 'jakarta.validation:jakarta.validation-api:3.0.2'
+
+    // jooq
+    implementation "org.springframework.boot:spring-boot-starter-jdbc"
+    implementation "org.jooq:jooq:3.18.5"
+    implementation "org.jooq:jooq-meta-extensions-liquibase:3.18.5"
+
+    // This is for the jooq generation only
+    jooqGenerator "org.jooq:jooq-codegen:${project.property('jooq.version')}"
+    jooqGenerator "org.jooq:jooq-meta-extensions:${project.property('jooq.version')}"
+    jooqGenerator "org.jooq:jooq-meta-extensions-liquibase:${project.property('jooq.version')}"
+    jooqGenerator 'org.yaml:snakeyaml:2.0'
+    jooqGenerator 'org.postgresql:postgresql:42.5.1'
+
+}
+
+jooq {
+    // version = "${project.property('jooq.version')}"
+    version = "${project.property('jooq.version')}"
+    configurations {
+        main {  // name of the jOOQ configuration
+            generationTool {
+                logging = org.jooq.meta.jaxb.Logging.WARN
+                generator {
+                    database {
+                        name = 'org.jooq.meta.extensions.liquibase.LiquibaseDatabase'
+                        properties {
+                            //TODO: jooq error: https://github.com/jOOQ/jOOQ/issues/13031
+                            //WORK_ROUND: use only public schema
+                            // https://www.jooq.org/doc/latest/manual/code-generation/codegen-ddl/
+                            property {
+                                key = 'unqualifiedSchema'
+                                value = 'public'
+                            }
+                            property {
+                                key = 'rootPath'
+                                value = "$projectDir/src/main/resources/db/changelog"
+                            }
+                            property {
+                                key = 'scripts'
+                                value = "database_changelog.xml"
+                            }
+                        }
+                    }
+                    generate {
+//						implicitJoinPathsToOne = true
+//						embeddables = true
+                        pojos = true
+                        keys = false
+//						serializableInterfaces = true
+                        validationAnnotations = true
+//						javaBeansGettersAndSetters = true
+                        constructorPropertiesAnnotation = true
+//						pojosAsJavaRecordClasses = true
+
+                        records = false
+                        springAnnotations = true
+                        daos = true
+                        jpaAnnotations = true
+//						relations = true
+                        immutablePojos = true
+                        fluentSetters = true
+                    }
+                    target {
+                        packageName = 'com.engpie.eptrunkdb.jooq'
+                        directory = 'build/generated/jooq/main'
+                    }
+                    strategy.name = 'org.jooq.codegen.DefaultGeneratorStrategy'
+                }
+            }
+        }
+    }
+}
+```
+  - создаем бины конфигурации
+```Java
+@EnableTransactionManagement
+@Configuration
+@RequiredArgsConstructor
+public class JooqConfiguration {
+
+  private final DataSource dataSource;
+
+  @Bean
+  public DataSourceConnectionProvider connectionProvider() {
+    return new DataSourceConnectionProvider
+            (new TransactionAwareDataSourceProxy(dataSource));
+  }
+
+  @Bean
+  public org.jooq.Configuration configuration() {
+    var jooqConfiguration = new DefaultConfiguration();
+    jooqConfiguration.set(connectionProvider());
+    jooqConfiguration.set(new DefaultExecuteListenerProvider(new JooqExceptionTranslator()));
+    //TODO: property from "application.yml" not work
+    jooqConfiguration.setSQLDialect(SQLDialect.POSTGRES);
+
+    Settings settings = new Settings();
+    settings.setRenderQuotedNames(RenderQuotedNames.NEVER);
+    jooqConfiguration.set(settings);
+
+    return jooqConfiguration;
+  }
+
+  @Bean
+  public DefaultDSLContext dsl(org.jooq.Configuration configuration) {
+    return new DefaultDSLContext(configuration);
+  }
+
+}
+```
+
+
+
+
+ 
+
+
+[?] смотри в папку "example"
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
