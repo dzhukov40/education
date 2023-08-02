@@ -802,6 +802,64 @@
       5 Do you play the piano? => No, I don't.
 
 
+8) [ Unit 8 ] I am doing (present continuous) and I do (present simple)
+  - [A] examples
+    - Jack is watching teelvision.
+    - He is not playing the guitar.
+    - But jack has a guitar.
+    - He often plays it and he plays very well.
+    - Jack plays the guitar, but he is not playing the guitar now.
+    - Is he playing the guitar? No, he isn't.
+    - Does he play the guitar? Yes, he does.
+  - [B] Present continuous (I am doing) = now, at the time of speaking.
+    - time point:
+
+                               I'm working
+                               I'm doing
+                           She's wearing a hat
+                         They're playing football
+                           I'm not watching TV
+                                   ||
+                                   \/
+      --------------------------------------------------------------
+      [ PAST ]                  [ NOW ]                   [ FUTURE ]
+    - examples:
+      - Please be quiet. I'm working.
+      - Tom is having a shower at the moment.
+      - Take an umbrella with you. It's raining.
+      - You can turn off the television. I'm not watching it.
+      - Why are you under the table? What are you doing?
+  - [C] Present simple (I do) = in general, all the time or sometimes
+    - time point:
+        ______________________________________________________
+       /                                                      \
+      <                            I do                        >
+       \______________________________________________________/
+                                   ||
+                                   \/
+      --------------------------------------------------------------
+      [ PAST ]                  [ NOW ]                   [ FUTURE ]
+    - examples:
+      - I work every day from 9 o'clock to 5.30
+      - Tom has a shower every morning
+      - It rains a lot in winter
+      - I don't watch TV very often
+      - What do you usually do at weekends?
+  - [D] We do not use these verbs in the present continuous (I am -ing)
+    - words:
+      - like, want, know, understand, remember
+      - prefer, need, mean, belive, forget
+    - Use only present simple with these verbs (I want / do you like? etc)
+      - I'm tired. I want to go home.
+      - Do you know that girl? Yes, but I don't remember her name.
+      - I don't understand. What do you mean? 
+
+
+
+
+
+
+
 
 
 
