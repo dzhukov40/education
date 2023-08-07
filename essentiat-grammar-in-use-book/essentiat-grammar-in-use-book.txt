@@ -1016,7 +1016,7 @@
       6 I'm unemployed. I have got much time.
 
 
-9) [ Unit 10 ] was/were
+10) [ Unit 10 ] was/were
   - [A] 
     - examples
       - Now Robert is at work
@@ -1116,6 +1116,113 @@
       4 How much was your new camera? A hundred pounds.
       5 Why were you angry yesterday? Because you were late.
       6 Was the weather nice last week? Yes, it was beautiful.
+
+
+11) [ Unit 11 ] worked/got/went etc. (past simple)
+  - [A] 
+    - description:
+      They  [ watch ] TV every evening. (present simple)
+                |
+      They  [ watched ] TV yestarday evening. (past simple)
+    - rule:
+      I/we/you/they |
+      --------------| watched
+      he/she/it     |
+  - [B] The past simple often "-ed" (regualar verbs).
+    - example:
+      - words:
+        - work -> worked   ;   dance -> danced 
+        - clean -> cleand  ;   stay -> stayed
+        - start -> started ;   need -> needed
+      - sentences
+        - I clean my teeth every morning. This morning I cleaned my teeth.
+        - Terry worked in a bank from 2005 to 2011.
+        - Yesterday it rained all morning. It stopped at lunchtime.
+        - We enjoyed the party last night. We danced a lot and talked to a lot of people.
+          The party finished at midnight.
+      - Spelling (-> Appendix 5):
+        - try -> tried    ;  study -> studied  ; copy -> copied
+        - stop -> stopped ;  plan -> planned
+  - [C] Some verbs are irregular (= not regular). The past simple is not "-ed".
+    Here are some important irregular verbs (see Appendix 2-3):
+    - some irregular verbs:
+      - begin -> began   | fall   -> fell   | leave -> left | sell  -> sold
+      - break -> broke   | find   -> found  | lose  -> lost | sit   -> sat
+      - bring -> brought | fly    -> flew   | make  -> made | sleep -> slept
+      - build -> built   | forget -> forgot | meet  -> met  | speak -> spoke
+      - buy   -> bought  | get    -> got    | pay   -> paid | stand -> stood
+      - catch -> caught  | give   -> gave   | put   -> put  | take  -> took
+      - come  -> came    | go     -> went   | read  -> read | tell  -> told
+      - do    -> did     | have   -> had    | ring  -> rang | think -> thought
+      - drink -> drank   | hear   -> heard  | say   -> said | win   -> won
+      - eat   -> ate     | know   -> knew   | see   -> saw  | write -> wrote
+    - examples:
+      - I usually get up early, but this morning I got up 9 o'clock.
+      - We did a lot of work yesterday.
+      - Caroline went to the cinema three times last week.
+      - James came into the room, took off his coat and sat down.
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 11.1 Complete the sentences. Use a verb from the box.
+      1 I cleaned my teeth three times yesterday.
+      2 It was hot in the room, so I openned the window.
+      3 The film was very long. It started at 7.15 and finished at 10 o'clock.
+      4 When I was a child, I wanted to be a docktor.
+      5 The accident happened last Sunday afternoon.
+      6 The weather is nice today, but yesterday it rainned all day.
+      7 We enjoied our holiday last year. We staied at very nice place.
+      8 Anna's grandfather died when he was 90 years old.
+    - 11.2 Write the past simple of these verbs.
+      1 get  - got
+      2 see  - saw
+      3 play - plaied
+      4 visit - visited
+      5 buy   - bought
+      6 go - went
+      7 think - thought
+      8 copy - copied 
+      9 know - knew
+      10 put - put
+      11 speak - spoke
+    - 11.3 Read about Lisa's journey to Madrid. Put verbs in the correct form.
+      Last Tusday Lisa (1) flew from London to Madrid. She (2) got up
+      at 6 o'clock in the morning and (3) had a cup of coffe. At 6.30 she
+      (4) left home and (5) drove to the airport. When she
+      (6) got there, she (7) parked the cat, (8) walked to the airport
+      building, and (9) checked in. Then she had breakfast at a cafe
+      and (11) waited for the flight. The plane (12) departed on time and
+      (13) arrived in Madrid two hours later. Finally she (14) took a taxi
+      from the airport to her hotel in the center of madrid.
+    - 11.4 Write sentences about the past (yesterday/last week etc.)
+      1 James always goes to work by cat. Yesterday he went to work by car.
+      2 Rachel often loses her keys. She lost her keys at last week.
+      3 Kate meets her friends every evening. She met her friends yesterday evening.
+      4 I buy a newspaper every day. Yesterday I bought a newspaper.
+      5 We often go to the cinema at weekends. Last Sunday we went cinema.
+      6 I eat an orange every day. Yesterday I ate an orange.
+      7 Tom always has a shower in the morning. This morning he had a shower.
+      8 Our friends often come to see us. They came to see us last Friday.
+    - 11.5 Write sentences about what you did yesterday.
+      1 I went to the theatere.
+      2 Yesterday I ate potetos.
+      3 I bought a work table.
+      4 I plaied skyrim
+      5 I went cinema.
+      6 I tried relax after stresfull week. 
+
+
+12) [ Unit 12 ] I didn't ...   Did you ...? (past simple negative and questions)
+  - [A] We use did in past simple negatives and questions:
+    
+
+
+
+
+
+
+
 
 
 
