@@ -1024,7 +1024,99 @@
       - He was in bed.
       - He was asleep.
     - rule:
-      
+      - am/is (present) -> was (past):
+        - I am tired. (now)  ->  I was tired last night.
+        - Where is Kate (now) -> Where was Kate yesterday?
+        - The wether is good today. -> The wether was good last week.
+      - are (present) -> were (past):
+        - You are late. (now) -> You were late yesterday.
+        - They aren't here. (now) -> There weren't here last Sunday.
+  - [B]
+    - table: 
+        [ positie ]          [ negative ]           [ question ]
+      ------|-------||     ------|---------||     ------|-------||
+       I    |       ||      I    |         ||           | I?    ||
+       he   |       ||      he   | was not ||           | he?   ||
+       she  |  was  ||      she  | wasn't  ||      was  | she?  ||  
+       it   |       ||      it   |         ||           | it?   ||
+      ------|------ ||     ------|---------||     ----- |-------||
+       we   |       ||      we   |         ||           | we?   || 
+       you  |  were ||      you  | were    ||      were | you?  || 
+       they |       ||      they |         ||           | they? || 
+      ------------- ||     ----------------||     ----- |--------|  
+    - examples:
+      - Last year Rachel was 22, so she is 23 now.
+      - When I was a child, I was scared of dogs.
+      - We were hungry after the journy, but we weren't tired.
+      - The hotel was comfortable, but it wasn't expensice.
+      - Was the wether nice when you were on holiday?
+      - You shoes are nice. Were they expensice?
+      - Why were you late this morning?
+  - [C] Short answers
+         |       |       
+    -----|-------|-------
+         |  I    |    
+         |  he   |
+         |  she  |  was    
+     Yes,|  it   |      
+         |-------|------
+         |  we   |       
+         |  you  |  were 
+         |  they |      
+    --------------------
+    
+    - Short answers (Negative)
+         |       |       
+    -----|-------|-------
+         |  I    |    
+         |  he   |
+         |  she  |  wasn't 
+     No, |  it   |       
+         |-------|------
+         |  we   |       
+         |  you  |  weren't
+         |  they |      
+    --------------------
+    - examples:
+      - Were you late? No, I wasn't.
+      - Was Tom at work yesterday? Yes, he was.
+      - Were Sue and Steve at the party? No, they weren't.
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 10.1 Where were these people at 3 o'clock yesterday afternoon?
+      1 Joe was in the bed.
+      2 Jack and Kate were in the cinema.
+      3 Sue was on the train staition.
+      4 Mr and Mrs Hall were in the restaurant.
+      5 Ben was on the beach.
+      6 And you? I was at home.
+    - 10.2 Write "am/is/are" (present) or "was/were" (past).
+      1 Last year she was 22, so she is 23 now.
+      2 Today the weather is nice, but yesterday it was very cold.
+      3 I am hungry. Can I have something to eat?
+      4 I feel fine this morning, but I was very tired last night.
+      5 Where were you at 11 o'clock last Friday morning?
+      6 Don't buy those shoes. They were very expensive.
+      7 I like your new jacket. Was it expensive?
+      8 This time last year I was in Paris.
+      9 Where were Sam and Joe? I don't know. They were here a few minutes ago.
+    - 10.3 Write "was/were" or "wasn't/weren't"
+      1 We weren't happy with the hotel. Our room was very small and it wasn't clean.
+      2 Mark wasn't at work last week becouse he was ill. He's better now.
+      3 Yesterday was a public holiday, so the banks were closed. They'are open today.
+      4 Were Kate and Ben at the party? Kate was there, but Ben wasn't.
+      5 Where are my keys? They were on the table, but they're not there now.
+      6 You wasn't at home last night. Where was you?
+    - 10.4 Write questions from these words + "was/were". Put the words in the right order.
+      1 Why were you late this morning? The traffic was bad.
+      2 Was your exam difficult? No, it was easy.
+      3 Where were Sue and Cris last week? They were on holiday.
+      4 How much was your new camera? A hundred pounds.
+      5 Why were you angry yesterday? Because you were late.
+      6 Was the weather nice last week? Yes, it was beautiful.
+
 
 
 
@@ -1038,7 +1130,7 @@
 essentiat-grammar-in-use-book add summery
 
 
-  стр 29 в chrome
+  стр 31 в chrome
 
 
 
