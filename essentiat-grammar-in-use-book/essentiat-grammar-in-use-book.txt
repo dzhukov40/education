@@ -1215,16 +1215,130 @@
 
 12) [ Unit 12 ] I didn't ...   Did you ...? (past simple negative and questions)
   - [A] We use did in past simple negatives and questions:
-    
+[infinitive]  [posible]        [negative]                    [question]
+      play    I    | played    I    |          | play        | I    | play?  
+      start   we   | started   we   |          | start       | we   | start? 
+      watch   you  | watched   you  | did not  | watch   did | you  | watch?
+      have    they | had       they | (didn't) | have        | they | have?
+      see     he   | saw       he   |          | see         | he   | see?
+      do      she  | did       she  |          | do          | she  | do?
+      go      it   | went      it   |          | go          | it   | go?      
+  - [B] do/does(present) -> did(past):
+    - examples:
+      - I don't watch TV very often.
+      - I didn't watch TV yesterday.
+      - Does she often go away?
+      - Did she go away last week?
+  - [C] We use did/didn't + infinitive (watch/play/go etc.):
+    - examples:
+      - I watched    ;   I didn't watch 
+      - they went    ;   did they go?
+      - he had       ;   he didn't have
+      - you did      ;   did you do?
+    - examples:
+      - I played tennis yesterday, but I didn't win.
+      - Did you do the shopping? No, I didn't have time.
+      - We went to the cinema, but we didn't enjoy the film.
+  - [D] Study the word order in questions:
+    - rule:
+      [ did ] + subject + infinitive
+    - examples:
+            | Did | your sister  | call      | you?
+       What | did | you          | do        | last night?
+        How | did | the accident | happend ? | 
+      Where | did | your parents | go        | for their holiday?
+  - [E] Short answers
+    - positive:
+           | I/we/you/they |  
+      Yes, |   he/she/it   | did
+    - negative:
+           | I/we/you/they |
+       No, |   he/she/it   | didn't
+    - examples:
+      - Did you see Joe yesterday? No, I didn't
+      - Did it rain on Sunday? Yes, it did.
+      - Did Helen come to the party? No she didn't.
+      - Did your parents have a good holiday? Yes, they did.
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 12.1 Complete these sentences with the verb in the negative.
+      1 I saw Barbara, but I didn't see Jane.
+      2 They worked on Monday, but they didn't work on Tuesday.
+      3 We went to the post office, but we didn't go to the bank.
+      4 She had a pan, but she didn't have any paper.
+      5 Jack did French at school, but he didn't do German.
+    - 12.2 Write questions with Did..?
+      1 I watched TV last night. How about you? Did you watch TV last night?
+      2 I enjoyed the party. How about you? Did you enjoy the party?
+      3 I had a good holiday. How about you? Did you have a good holiday?
+      4 I finished work early. How about you? Did you finish work early?
+      5 I slept well last night. How about you? Did you sleep well last night?
+    - 12.3 What did you do yesterday? Write positive or negative sentences.
+      1 (watch TV) I watched TV. I didn't watch TV.
+      2 (get up befor 7 o'clock) I got up befor 7 o'clock. I didn't get up befor 7.
+      3 (have a shower) I had a shower. I didn't have a shower.
+      4 (buy a magazine) I bought a magazine. I didn't buy magazine.
+      5 (go to bed befor 10.30) I went to bed befor 10.30. I didn't go to bed ...
+    - 12.4 Write B's questions.
+      - 1
+        A We went to New York last month.
+        B Where did you stay?
+        C With some friends.
+      - 2
+        A I was late for the meeting.
+        B What time did you arrive.
+        C Half past nine.
+      - 3
+        A I played tennis this afternoon.
+        B Did you win?
+        C No, I lost.
+      - 4
+        A I had a nice holiday.
+        B Good. Where did you go?
+        C to the mountains.
+      - 5
+        A We came home by taxy.
+        B How much did cost taxy. 
+        C Ten pounds.
+      - 6 
+        A I'm tired this morning.
+        B Did you go to the bed late.
+        C No, but I didn't sleep very well.
+      - 7
+        A We went to the beach yesterday.
+        B Did you have a nice time?
+        C Yes, it was greate.
+      - 8
+        A The window is broken.
+        B How did it happen?
+        C I don't know.
+    - 12.5 Put the verb in the correct form - positive, negative or question.
+      1 We went to the cinemar, but the film wasn't very good. We didn't enjoy it.
+      2 Tom bought some new clothes yesterday - two shirts, a jacket and a pullover.
+      3 Did rain yesterday? No, it was a nice day.
+      4 We were tired, so we didn't stay long at the party.
+      5 It was very warm in the room, so I opened a window.
+      6 Did you phone Chris this morning? No, I didn't have time.
+      7 I cut my hand this morning. How did you do that?
+      8 Why weren't you at the meeting yesterday? I didn't know about it.
 
 
-
-
-
-
-
-
-
+13) [ Unit 13 ] I was doing (past continuous)
+  - [A]
+    - example:
+      It is 6 o'clock now.
+      Paul is at home
+      He is watching TV
+          ----
+      At 4 o'clock he wasn't at home.
+      He was at the sports club.
+          ----
+      He was swimming in the pool.
+      He wasn't watching TV.
+    - time picture example:
+      3.30        ---->       4.00              ----->    4.15
+      he started swimming.    he was swimming             he finished swimming.
 
 
 
@@ -1237,7 +1351,7 @@
 essentiat-grammar-in-use-book add summery
 
 
-  стр 31 в chrome
+  стр 35 в chrome
 
 
 
