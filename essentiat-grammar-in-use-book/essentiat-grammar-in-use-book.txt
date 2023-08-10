@@ -1339,6 +1339,103 @@
     - time picture example:
       3.30        ---->       4.00              ----->    4.15
       he started swimming.    he was swimming             he finished swimming.
+  - [B] was/were + -ing is the past continuous:
+    - rule (positive)
+      ------|-------|-----------
+       I    |       | 
+       he   |       | 
+       she  |  was  | doing 
+       it   |       | watching
+      ------|------ | playing 
+       we   |       | swimming
+       you  |  were | living
+       they |       | 
+      ------|------ | ----------
+    - rule (negative)
+      ------|-----------|-----------
+       I    |           | 
+       he   |           | 
+       she  | was not   | doing 
+       it   | (wasn't)  | watching
+      ------|-----------| playing 
+       we   |           | swimming
+       you  | were not  | living
+       they | (weren't) | 
+      ------|-----------| ----------
+    - rule (question)
+      -----|------|-----------
+           | I    | 
+      was  | he   | 
+           | she  | doing ?
+           | it   | watching ?
+      -----|------| playing ?
+           | we   | swimming ?
+      were | you  | living ?
+           | they | 
+      -----|------|-----------
+    - examples:
+      - What were you doing at 11.30 yesterday? Were you workind?
+      - What did he say? I don't know. I wasn't listening.
+      - It was raining, so we didn't go out.
+      - In 2009 we were living in Canada.
+      - Today she's wearing a skirt, but yesterday she was wearing trousers.
+      - I woke up early yesterday. It was a beautiful morning. 
+        The sun was shining and the birds were singing. 
+    - spelling:
+      - live -> living
+      - run -> running
+      - lie -> lying
+  - [C] am/is/are + -ing(present) -> was/were + -ing(past)
+    - examples:
+        [ present ]            [ past ]
+      - I'm working.           I was working at 10.30 last night. 
+      - It isn't raining.      It wasn't raining when we went out.
+      - What are you doing?    What were you doing at 3 o'clock?
+ 
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 13.1 Look at the pictures. 
+      Where were these people at 3 o'clock yesterday afternoon?
+      And what were they doing?
+      Write two sentences for each picture.
+      1 Rachel was at home. She was watching TV.
+      2 Jack and Kate were at the cinema. They were watching a film.
+      3 Tom was in his car. He was driving.
+      4 Tracey was at the station. She waiting for a train.
+      5 Mr and Mrs hall were in the park. They was walking.
+      6 And you? I was at home. I was learning English.
+    - 13.2 Sarah did a lot of things yesterday morning.
+      Look at the pictures and complete the sentences.
+      - At 8.45 she was washing her car.
+      - At 10.45 she was playing tennis.
+      - At 8 o'clock she was reading newspaper.
+      - At 12.10 she was cooking food.
+      - At 7.15 she was eatting breakfast.
+      - At 9.30 she was cleanning a kitchen.
+    - 13.3 Complete the questions. Use "was/were -ing".
+      Use "what/where/why" if necessary.
+      1 Where were you living in 2012? In London.
+      2 What was you doing at 2 o'clock? I was asleep.
+      3 Was it raining when you got up? No it was sunny.
+      4 Why was Sue driving so fast? Becouse she was late.
+      5 was Tom  wearing a suit yesterday? No, T-shirt and jeans.
+    - 13.4 Look at the picture. You saw Joe in the street yesterday afternoon.
+      What was he doing? Write positive or negative sentences.
+      1 He wasn't wearing a jacket.
+      2 He was carrying a bag.
+      3 He wasn't going to dentist.
+      4 He was eating an ice cream.
+      5 He wasn't carrying an umbrella.
+      6 He wasn't going to home.
+      7 He was wering a hat.
+      8 He wasn't riding a bicycle.
+
+
+14) [ Unit 14 ] I was doing (past continuous) and I did (past simple)
+  - [A]
+
+
 
 
 
