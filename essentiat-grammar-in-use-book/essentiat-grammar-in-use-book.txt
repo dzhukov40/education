@@ -1433,9 +1433,106 @@
 
 
 14) [ Unit 14 ] I was doing (past continuous) and I did (past simple)
-  - [A]
+  - [A] theory
+    - time line:
+      [ 1 ] -----------> [ 2 ] -----------> [ 3 ] ---------------> [ 4 ]
+      | Jac was reading  | His phone rang.  | He stopped reading.  | He answered his
+      | a book.          |                  |                      | phone.
+    - flat structure:
+      - What happened? His phone rang. (past simple)
+      - What was Jac doing when his phone rang?  \
+        He was reading a book.                   /  (past continuous)
+      -...
+      - What did he do when his phone rang?        \
+        He stopped reading and answered his phone  /  (past simple)
+      -...
+      - Jack bagan reading befor his phone rang.  \
+        So when his phone rang, he was reading.   / (past continuous)
+      -...
+  - [B] rule
+    - table:                             
+           [ past simple ]          ||       [ past continuous ]
+                                    ||      
+      A. What did you do yesterday  ||  A. What were you doing at 10.30?
+         morning?                   ||  B. We were playing tennis.
+      B. We played tennis.          ||
+         (from 10 to 11.30)         ||
+                                    ||
+            - timeline -            ||       - timeline - 
+                                    ||
+      start                  finish ||  start
+      10 o'clock             11.30  ||  10 o'clock
+      --------------------------->  ||  ------------------------------>
+              we played             ||         we were playing
+              (complete action)     ||         (unfinished action)
+                                    ||
+      - Jack read a book yesterday. ||  - Jac was reading a book when his
+        (= from beginning to end)   ||    phone rang.
+      - Did you watch the game      ||  - Were you watching TV when I phoned
+        on TV last night?           ||    you?
+      - It didn't rain while we     ||  - It wasn't raining when I got up.
+        were on holiday.            ||
+                                    ||
+                                    ||
+    - examples:
+      - I started work at 9 o'clock and finished at 4:30. 
+        At 2:30 I was working.
+      - It was raining when we went out. (= it started raining befor we went out)
+      - I saw Lucy and Steve this morning. They were watching at the bus stop.
+      - Kelly fell asleep while she was reading.
 
 
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 14.1 Look at the pictures. 
+      Put the verbs in the correct form, past continuous or past simple.
+      - 1
+        Lucy broke her arm last week.
+        It happened when she are painting her room.
+        She fell off the ladder.
+      - 2 
+        The train arrived at the station and Paula got off.
+        Two friends of hers, Jon and Rachel were waiting to meet her.
+      - 3
+        Yesterday Sue was walking along the road when she met James.
+        He was going to the station to catch a train and he was carrying a bag.
+        They stopped to talk for a few minutes.
+    - 14.2 Put the verb into the past continuous or past simple.
+      1 
+        A: What was the weather like then you got up this morning?
+        B: It was raining.
+      2 
+        A: Was Jane busy when you went to see her?
+        B: Yes, she was studuing.
+      3 
+        A: Does Paul call you this morning?
+        B: Yes, he called while I were having breakfast.
+      4
+        A: Was Tracey at work today?
+        B: No, she didn't go to work. SHe was ill.
+      5 
+        A: How fast you were driving when the police ptopped you?
+        B: I'm not shue, but I weren't driving very fast.
+      6 
+        A: Did your team win the footbal match yesterday?
+        B: The weather was very bad, so we didn't play.
+      7
+        A: How did you break the window?
+        B: We were playing footbal. I kicked the ball and it hitted the window.
+      8
+        A: Did you see jessica last night?
+        B: Yes, she was wearing a very nice jacket.
+      9 
+        A: What did you do at 2 o'cloack this morning?
+        B: I was asleep. 
+      10
+        A: I lost my key last night.
+        B: How did you get into your room?
+        A: I were climbing in through a window.
+
+
+15) [ Unit 15 ] I have done (present perfect 1)
+  - [A] examples
 
 
 
@@ -1448,7 +1545,7 @@
 essentiat-grammar-in-use-book add summery
 
 
-  стр 35 в chrome
+  стр 39 в chrome
 
 
 
