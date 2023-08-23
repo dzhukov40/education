@@ -1633,7 +1633,84 @@
 16) [ Unit 16 ] I've just ... ; I've already ... ; I haven't ... yet 
                 (present perfect 2)
   - [A] I've just ...
-    - info: 
+    - info: just = a short time ago
+      - A: Are Laura and Paul here?
+        B: Yes, they've just arrived.
+      - ...
+      - A: Are you hungry?
+        B: No, I've just had dinner.
+      - ...
+      - A: is Tom here?
+        B: No, I'm afraid he's just gone. (=he has just gone)
+  - [B] I've already ...
+    - info: already = befor you expected / befor I expected
+      - A: What time are Laura and Paul coning?
+        B: They've already arrived. (= befor you expected)
+      - ...
+      - It's only 9 o'clock and Anna has already gone to bed.
+        (= befor I expected)
+      - ...
+      - A: Jon, this is Emma.
+        B: Yes, I know. We've already met.
+  - [C] I haven't ... yet / Have you ... yet?
+    - info: yet = until now
+        - We use yet in negative sentences and questions.
+          Yet is usually at the end.
+        - ...
+        - [ Yet ] in negative sentences (I haven't ... yet)
+          - A: Are Laura and Paul here?
+            B: No, they haven't arrived yet.
+            (but B expects Laura and Paul to arrive soon)
+          - ...   
+          - A: Does james know that you're going away?
+            B: No, Ihaven't told him yet.
+            (but B is going to tell him soon)
+          - ...
+          - Silvia has bought a new dress, but she hasn't worn it yet.  
+        - ...
+        - [ Yet ] in questions (Have you ... yet?)
+          - A: Have Laura and Paul arrived yet?
+            B: No not yet. We are still waiting for them.
+          - ...
+          - A: Has Nicola started her new job yet?
+            B: No, she starts next week.
+          - ...
+          - A: THis is my new dress.
+            B: Oh, it's nice, Have you worn it yet?  
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 16.1 Whrite a sentence with just for each picture.
+      1 They've just arrived.
+      2 He has just woken up. 
+      3 They have just bought a new car.
+      4 The race has just started.
+    - 16.2 Complete the sentences. Use already + present perfect.
+      1 What time is Paul arriving? He's already arrived.
+      2 Do your friends want to see the film? No, they have already seen the film.
+      3 Don't forget to phone Tom. I have already phoned him.
+      4 When is Mark going away? He has already goen.
+      5 Do you want to read the newspaper? I have already read the newspaper. 
+      6 When does Sarah start her new job? She has already started her new job.
+    - 16.3 Write a sentence with just (They've just ... / SHe's just ... etc.)
+      or a negative sentence with [ yet ] 
+      (They haven't ... yet / SHe hasn't ... yet etc.)
+      1 She hasn't gone out yet.
+      2 The bus has just gone.
+      3 The train hasn't left yet.
+      4 He hasn't opened the present yet.
+      5 They have just finnished their dinner.
+      6 It has just stopped raining.
+    - 16.4 Write questions with [ yet ]
+      1 Your friend has a new job. Perhaps she has started it. You ask her:
+        - Have you started your new job yet?
+      2 Your friend has some new neighbours. Perhaps he has met them. You ask him:
+        - Have you met the new neighbours yet?
+      3 Your friend has to play her electricity bill. Perhaps she has paid it. You ask her:
+        - Have you paid the electricity bill yet?
+      4 Tom was trying to sell his car. Perhaps he has sold it. You ask a friend about Tom:
+        - Has Tom sold his car yet?
 
 
 
@@ -1644,10 +1721,10 @@
 
 
 
-essentiat-grammar-in-use-book add summery
+essentiat-grammar-in-use-book 
 
 
-  стр 39 в chrome
+  стр 43 в chrome
 
 
 
