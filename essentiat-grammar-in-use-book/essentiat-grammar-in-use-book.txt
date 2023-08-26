@@ -1713,8 +1713,94 @@
         - Has Tom sold his car yet?
 
 
+17) [ Unit 17 ] Have you ever ... ? (present perfect 3)
+  - [A]
+    - examples:
+      - Have you been to Rome?
+        Yes, I have. Many times.
+      - Have you ever been to Japan?
+        No I've never been to Japan.
+    - description:
+      - We use [ present perfect ] when we talk about a time from
+        the past until now - for example, a person's life
+        [ have been / have had / have played etc. ]
+
+    - timeline:
+                      Have you ever been to Japan?    |
+                                                      |       
+             ------- time from the past until now --- |
+      ----------------------------------------------------------->
+          past                                       now
+    -...
+    - example:
+      - Have you been to France? No, I haven't.
+      - I've been to Canada, but I haven't been to the United States.
+      - Mary is an interesting person. 
+        She has had many different jobs and has lived in many places.
+      - How many times has Brazil won the World Cup?
+      - Have you read this book? Yes, I've read it twice.
+
+  - [B] present perfect + [ ever ](in questions) and [ never ].
+    - Has Ann ever been to Australia? Yes, once.
+    - Have you ever played golf? Yes, I play a lot.
+    - My sister has never travelled by plane.
+    - I've never ridden a horse.
+    - Who is that man? I don't know. I've never seen him befor.
+  - [C] [ gone ] and [ been ]
+    - Where's Ben?
+      He's on holiday. He's gone to Spain.
+      - Ben has gone to Spain.(= he is in Spain now)
+    - ...
+    - Hello, Ben.
+      Hi, I've been on holiday. I've have been to Spain.
+        - Ben has been to Spain.
+          (= he went to Spain, but how he is back) 
+    - ...
+    - examples:
+      - I can't find Susan. Where has she gone? (= where is she now?)
+      - Oh, hello Susan! I was looking for you. Where have you been?
 
 
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 17.1 You are asking Helen questions beginning [ Have you ever ... ? ]
+      1 Heve you ever been to London?
+      2 Have you ever played golf?
+      3 Have you ever been to Australia?
+      4 Have you ever lost yuor passport?
+      5 Have you ever flown in a helicopter?  
+      6 Have you ever won a race?
+      7 Have you ever been to New York?
+      8 Have you ever driven a bus?
+      9 Have you ever broken your leg?
+    - 17.2 Whrite sentences about Helen.
+      1 She has been to New York twice.
+      2 She has been to Australia once.
+      3 She has never won a race.
+      4 She has flown in a helicopter a few times.
+      -...
+      - Now write about yourself. How often have you done these things?
+        5 I have never been to New York.
+        6 I have played tennis many times.
+        7 I have never driven a lorry.
+        8 I have been late for work or school many times.
+    - 17.3 Mary is 65 years old. SHe has had an interesting life. 
+      What has she done?
+      1 She has had many different jobs.
+      2 She has been married three times.
+      3 She has done a lot of interesting things
+      4 She has written ten books.
+      5 She has traveled all over the world.
+      6 She has met a lot of interesting people.  
+    - 17.4 Write [gone] or [been]
+      1 Ben is on holiday at the moment. He has gone to Spain.
+      2 Have you ever been to Mexico? No, never.
+      3 My parents aren't at home at the moment. They have gone out.
+      4 There's a new restaurant in town. Have you been to it?
+      5 Rebecca loves Paris. She's been there many times.
+      6 Helen was here earlier, but I think she's gone now.
+      7 Where's Jessica? She's not in the office. I think she's gone home.
+      8 Hello, Sue. I was looking for you. Where have you been?
 
 
 
@@ -1724,7 +1810,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 43 в chrome
+  стр 45 в chrome
 
 
 
