@@ -1904,9 +1904,127 @@
       9 Tom is in Spain at the moment. He has been there fo the last three days.      
 
 
-18) [ Unit 19 ] for   since   ago
+19) [ Unit 19 ] for   since   ago
   - [A] "for" and "since"
+    - info: We use "for" and "since" to say "how long".
+    - example:
+                                                 for three days.  
+                                               /
+      Helen is in Ireland. She has been there |
+                                               \
+                                                 since Monday.
 
+    - timeline:
+      [ for ]                        [ since ]
+                                    |
+   We use "for" + a period of time  | We use "since" + the start of the period
+   (three days / two years etc.)    | (Monday / 9 o'clock etc.)
+                                    |
+                                    |
+     <--- for three days ---->      |    <---- since Monday ----->        
+     |                       |      |    |                       |        
+     | Monday                |      |    | start of the          |      
+     |     Tusday            |      |    | period                |      
+     |          Wednesday    |      |    | (Monday)              |      
+   <---------------------------->   |  <---------------------------->   
+    past                    now     |   past                    now     
+                                    |                                   
+                                    |
+                                    |
+  |--------------------------|      |  |----------------------------------|     
+  |          for             |      |  |         since                    |     
+  |--------------------------|      |  |----------------------------------|     
+  | three days   ten minutes |      |  | Monday       Wednesday           |     
+  | an hour      two hours   |      |  | 9 o'clock    12.30               |     
+  | a week       four weeks  |      |  | 24 july      Chistmas            |     
+  | a month      six months  |      |  | January      I was ten years old |     
+  | five years   a long time |      |  | 1985         we arrived          |     
+  |                          |      |  |                                  |     
+  |--------------------------|      |  |----------------------------------|     
+                                    |
+  - Richard has been in Canada      |  - Richard has been in Canada 
+    for six month.                  |    since January.
+    (NOT! since six month)          |    (= from january to now)
+                                    |
+  - We've been waiting              |  - We've been waiting 
+    for two hours.                  |    since 9 0'clock.
+    (NOT! since two hours)          |    (= from 9 o'clock to now)
+                                    |
+  - I've lived in London            |  - I've lived in London
+    for a long time.                |    since I was ten years old.
+                                    |
+
+  - [B] "ago"
+    - info: "ago" = befor now
+    - examples:
+      - Susan started her new job three weeks ago.
+        (= three weeks befor now)
+      - When did Tom go out? Ten minutes ago.
+        (= ten minutes befor now)
+      - I had dinner ah hour ago.
+      - Life was very different a hundred years ago.
+    - !!! 
+    - We use "ago" with the past (started/did/had/was etc.)
+    - !!!  
+    - Compare "ago" and "for":
+      - ** Past simple
+      - When did Helen arrive in Ireland?
+        - She arrived in Ireland three days ago.
+      -...
+      - ** Present perfect
+      - How long has she been in Ireland?
+        - She has been in Ireland for thee days.
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 19.1 Write "for" or "since".
+      1 Helen has been in Ireland since Monday.
+      2 Helen has been in Ireland for three days.
+      3 My aunt has lived in Australia for 15 years.
+      4 Tina is in her office. She has been there since 7 o'clock.
+      5 India has been an independent country since 1947.
+      6 The bus is late. We've been waiting for 20 minutes.
+      7 Nobody lives in those houses. They have been enpty for many years.
+      8 Michael has been ill for a long time. 
+        He has been in hospital since October.
+    - 19.2 Answer these questions. Use "ago".
+      1 When was your last meal?                       Three hours ago.
+      2 When was the last time you were ill?           Two months ago.
+      3 When did you last go to the cinema?            One week ago.
+      4 When was the last time you were in a car?      Six months ago.
+      5 When was the last time you went on holiday?    One year ago.
+    - 19.3 Complete the sentences. Use "for" or "ago".
+      1 Helen arrived in Ireland three days ago.
+      2 Helen has been in Ireland for three days.
+      3 Lynn and Mark have been married for 20 years.
+      4 Lynn and Mark got married 20 years ago.
+      5 Dan arrived an hour ago.
+      6 I bought these shoes a few days ago.
+      7 Silvia has been learning English for six months.
+      8 Have you know Lisa for a long time?
+    - 19.4 Complete the sentences with "for" or "since".
+      1 Helen has been in Ireland for three days.
+      2 Jack has been here since Tusday.
+      3 It's been raining for an hour.
+      4 I've known Sue since 2008.
+      5 Claire and Matt have married for three years.
+      6 Laura has been studying medicine at university for three years. 
+      7 David has played the piano since he was seven years old.
+    - 19.5 Write sentences about yourself.
+      1 I have lived in this town for three years.
+      2 I have been in Germany since May.
+      3 I have been learning English since I was eight years old.
+      4 I've know java for six years.
+      5 I've had wife since previous year.
+
+
+
+20) [ Unit 20 ] I have done (present perfect) and I did (past)
+  - [A] With a finished time (yesterday/last week etc.),
+    we use the past (arrived/saw/was  etc)
+    - info:
+      
 
 
 
@@ -1920,7 +2038,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 47 в chrome
+  стр 49 в chrome
 
 
 
