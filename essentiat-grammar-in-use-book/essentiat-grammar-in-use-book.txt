@@ -2024,7 +2024,137 @@
   - [A] With a finished time (yesterday/last week etc.),
     we use the past (arrived/saw/was  etc)
     - info:
+      With a finished time (yesterday / last week etc.),
+      we use the past (arrived/saw/was etc.)
+    - description:
+      [ past ]  +  [ finished time ]
+                   yesterday.
+                   last week.
+      We arrived   at 3 o'clock.
+                   in 2002.
+                   six months ago.
+    -...
+    - timeline
+
+              yesterday               |
+              last week               |
+       ------ six months ago ---------|
+              finished time           |
+                                      |
+     ------------------------------------>
+        past                         now 
+
+    - NOTE: Do not use the present perfect with a finished time !!!
+      - I saw Paula yesterday.
+        (NOT! I have seen)
+      - Where were you on Sunday afternoon?
+        (NOT! Where have you been)
+      - We didn't have a holiday last year.
+        (NOT! We haven't had)
+      - What did you do last night? I stayed at home.
+      - William Shakspere lived from 1564 to 1616. He was a writer. 
+        He wrote many plays and poems.
+    -...
+    - Use the past to ask When ... ? or What time ... ?
+      - Whendid you buy your computer?
+        (NOT! When have you bought)
+      - What time did Andy go out?
+        (NOT! What time has Andy gone out)
+  - [B] COmpare:
+
+  [ present oerfect ]                 [ past ]
+
+    - I have lost my key.             - I lost my key last week
+      (= I can't find it now) 
+
+    - Ben has gone home.              - Ben went home ten minutes ago.
+      (= he isn't here now)
+
+    - Have you seen Kate?             - Did you see Kate on Saturday?
+      (= where is she now?)
+
       
+
+             time until now                 | finished time |----       
+                          |                                     |       
+      ------------------------>          ----------------------------->     
+      past               now              past                 now           
+
+    - examples:
+      - Have you ever been to Spain?     - Did you go to Spainlast year?
+        (= in your life, until now)
+
+      - My friend is a writer.           - Shakespeare wrote many plays and poems.
+        He has written many books.
+
+      - Sam hasn't phoned me yet.        - Sam didn't phone me yesterday.
+
+      - We've lived in Singapore         - We lived in Glasgow for six years,
+        for six years.                     but now live in Singapore.
+        (= we live there now)
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 20.1 Complete the answers to the questions.
+      1 Have you seen Kate? 
+        - Yes, I saw her five minutes ago.
+      2 Have you started your new job?
+        - Yes, I have started since last week.
+      3 Have your friends arrived?
+        - Yes, they arrived at 5 o'clock.
+      4 Has Sarah gone away?
+        - Yes, Sarah gone away on Friday.
+      5 Have you worn your new suit?
+        - Yes, I wore a suit yesterday.
+    - 20.2 Are these sentences OK? Correct the verbs that are wrong.
+      1 I've lost my key. I can't find it.
+      2 Did you see Kate yesterday?
+      3 I finished my work at 2 o'clock.
+      4 I'm ready now. I've finished my work.
+      5 What time did you finish your work?
+      6 Sue isn't here. She's gone out.
+      7 Steve's grandmother died two years ago. 
+      8 Where did you are last night? 
+    - 20.3 Put the verb in the present perfect or past
+      1 My friend is a writer. He has writen many books.
+      2 We didn't have a holiday last year.
+      3 I played tennis yesterday afternoon.
+      4 What time did you go to bed last night?
+      5 Have you ever met a famous person?
+      6 The weather wasn't very good yesterday.
+      7 Kathy travels a lot. She has visited many countries.
+      8 I switched off the light befor going out this morning.
+      9 What's Canada like? Is it beautiful? 
+        I don't now. I haven't been there.
+    - 20.4 Put the verb in the present perfect or past.
+      1 
+        A: Have you ever been to Florida?
+        B: Yes, we went there on holiday two years ago.
+        A: Did you have a good time?
+        B: Yes, it was great.
+      2 
+        A: Where's Alan? Have you seen him?
+        B: Yes, he went out a few minutes ago.
+        A: And Rachel?
+        B: I don't know. I haven't seen her.
+      3 
+        Rose works in a factory.
+        She has worked there for six months.
+        Befor that she was a waitress in a restaurant.
+        She worked there for two years, 
+        but she didn't enjoy it very much.  
+      4 
+        A: Do you know Mark's sister?
+        B: I have seen her a few times, but I never spoken to her.
+           Have you ever spoken to her?
+        A: Yes. I met her at a party last week. She's very nice.
+
+
+21) [ Unit 21 ] is done  was done (passive 1)
+  - [A] 
+
+
 
 
 
@@ -2038,7 +2168,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 49 в chrome
+  стр 51 в chrome
 
 
 
