@@ -2153,6 +2153,120 @@
 
 21) [ Unit 21 ] is done  was done (passive 1)
   - [A] 
+    - examples:
+      - The office is clean every day.
+      - The office was cleaned yesterday.
+    - build passive:
+      - Somebody cleans [ the office ] every day.      "active" 
+                 ******       |
+                              |
+          --------------------|
+          |
+        The office is cleaded every day.               "passive"   
+                   **********
+      
+      - Somebody cleaned [ the office ] yesterday.     "active"
+                 *******       |   
+                               |
+          ---------------------|
+          |
+        The office was cleaned yesterday.              "passive"
+                   ***********
+  -...
+  - [B] The passive is:
+    - template:
+                                                      [ past participle (V3) ]
+
+      present simple  | am / is / are |         |     | cleaned   ; done      |
+                      |               | ( not ) |  +  | invented  ; built     |
+         past simple  |  was / were   |         |     | injured   ; taken etc |
+    - ...
+    - examples:
+      - Butter is made from milk.
+      - Oranges are imported into Britan.
+      - How often are these rooms cleaned?
+      - I am never invited to parties.
+      -...
+      - This house was built 100 years ago.
+      - These houses were built 100 years ago.
+      - When was the telephone inventted?
+      - We weren't invited to the party last week.
+      - Was anybody injured in the accident?
+        Yes, two people were taken to hospital.
+  -...
+  - [C] was/were born
+    - I was born in Berlin in 1993.  (NOT! I am born)
+    - Where were you born?   In Cariro.
+  - [D] passice + "by" ...
+    - The telephone was invented by Alexander Bell in 1876.
+      (= Alexander Bell invented it)      
+    - I was bitten by a dog a few days ago.
+    - Do you like these paintings?
+      They were painted by a friend of mine.
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 21.1 Write sentences from these words. Some of the sentences are questions.
+      - [ are present ]
+      1 The office is cleaded every day.
+      2 How often are these rooms cleaned?
+      3 Glass is made from sand.
+      4 The windows are cleaned every two weeks.
+      5 This room is not used very much.
+      6 Are we allowed to park here?
+      7 How is this word pronounced?
+      -...
+      - [ are past ]
+      8 The office was cleaned yesterday.
+      9 The house was painted last month.
+      10 My phone was stolen a few days ago.
+      11 Three people were injured in the accident
+      12 When was this bridge built?
+      13 I wasn't woken up by the noise.
+      14 How were these windous broken?
+      15 Where you invited to Jon's party last week?
+    - 21.2 THese sentences are not correct. Correct them.
+      1 This house was built 100 years ago.
+      2 Football is played in most countries of the world.
+      3 Why was the lette sent to the wrong address?
+      4 A film studio is a place where films are made.
+      5 Where were you born?
+      6 How many languages are spoken in Switzerland?
+      7 Somebody broke into our house, but nothig was stolen.
+      8 When was the bicycle invented?
+    - 21.3 Complete the sentences.
+      1 The room is cleaned every day.
+      2 I saw an accident yesterday. Two people were taken to hospital.
+      3 Paper is made from wood.
+      4 There was a fire at the hotel last week.
+        Two of the rooms were damaged.
+      5 Where did you get this picture?
+        It was given to me by a friend of mine.
+      6 Many American programmes are shown on British TV.
+      7 Did james and Sue go to the wedding?
+        No. They were invited, but they didn't go. 
+      8 How old is this film?
+        It was made in 1985.
+      9 My car was stolen last week, but the next day 
+        it was found by the police.
+    - 21.4 Where were they born?
+      1 Ian was born in Edinburg.
+      2 Sarah was born in Manchester
+      3 Her parents were born in Ireland
+      4 I was born in Russia.
+      5 My mother was born in Orel.
+
+
+
+22) [ Unit 22 ] is being done    has been done (passive 2)
+  - [A] is/are being ...  (present continuous passive)
+  
+   
+
+
+
+
 
 
 
@@ -2168,7 +2282,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 51 в chrome
+  стр 53 в chrome
 
 
 
