@@ -2354,6 +2354,137 @@
 
 23) [ Unit 23 ] be/have/do  in present and past tenses
   - [A] be (= am/is/are/was/were) + "-ing"(cleaning/working etc.)
+    - [ present continuous ]
+      - info: "am/is/are" + "-ing"
+      - examples
+        - Please be quiet. I'm working
+        - It isn't raining at the moment.
+        - What are you doing this evening?
+    -...
+    - [ past continuous ] 
+      - info: "was/were" + "-ing"
+      - examples
+        - I was working when she arrived.
+        - It wasn't raining, so we didn't need an umbrella.
+        - What were you doing at 3 o'clock?
+  -...
+  - [B] be + past participle (cleaned/made/eaten etc.)
+    - [ passive present simple ]
+      - info: "am/is/are" + past participle(V3)  
+      - examples
+        - I'm never invited to parties.
+        - Butter is made from milk.
+        - These offices aren't cleaned every day.
+    -...
+    - [ passive past simple ]
+      - info: "was/were" + past participle(V3)
+      - examples
+        - The office was cleaned yesterday.
+        - These houses were built 100 years ago.
+        - How was the window broken?
+        - Where were you born?
+  -...
+  - [C] have/has + past participle (cleaned/lost/eaten/been etc.)
+    - [ present perfect ]
+      - info: "have/has" + past participle(V3)
+      - examples
+        - I've cleand my room.
+        - Tom has lost his passport.
+        - Kate hasn't been to Canada.
+        - Where have Paul and Emma gone?
+  -...
+  - [D] do/does/did _ infinitive (clean/like/eat/go etc.)
+    - [ present simple negative and questions ]
+      - info: "do/does" + infinitive
+      - examples
+        - I like coffe, but I don't like tea.
+        - Chis doesn't go out very often.
+        - What do you usually do at weekends?
+        - Does Sam live alone?
+    -...
+    - [ past simple negative and questions ]
+      - info: "did" + infinitive
+      - examples
+        - I didn't watch TV yesterday.
+        - It didn't rain last week.
+        - What time did Paul and Emma go out?
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 23.1 Write "is/are" or "do/does"
+      1 Do you work in the evenings?
+      2 Where are they going?
+      3 Why are you looking at me?
+      4 Does Ben live near you?
+      5 Do you like cooking?
+      6 Are the sun shining?
+      7 What time does the shop close?
+      8 Is Maria working today?
+      9 What does this word mean?
+      10 Are you feeling all right?
+    - 23.2 Write "am not/isn't/aren't" or "don't/doesn't".
+           All these sentences are negative.
+      0...
+      1 Tom doesn't work at weekends.
+      2 I'm very tired. I don't want to go out this evening.
+      3 I'm very tired. I am not going out this evening.
+      4 Gary isn't working this week. he's on holiday.
+      5 My parents are usually at home.
+        They don't go out very often.
+      6 Nicola has travelled a lot, but she doesn't speak any foreing languages.
+      7 You can turn off the television.
+        I am not watching it.
+      8 Lisa has invited us to her party next week,
+        but we aren't going.
+    - 23.3 Write "was/were/did/have/has"
+      1 Where were your shoes made?
+      2 Did you go out last night?
+      3 What were you doing at 10.30? 
+      4 This town is always clean.
+        The streets have cleaned every day.
+      5 WHere were you born?
+      6 What time did she go?
+      7 When were these houses built?
+      8 Has Steve arrived yet?
+      9 Why did you go home early?
+      10 How long have they been married?
+    - 23.4 Write "is/are/was/where/have/has"
+      1 Joe has lost his pasport.
+      2 This bridge was built ten years ago.
+      3 Have you finished your work yet?
+      4 This town is always clean. 
+        The streets are cleaned every day.
+      5 Where were you born?
+      6 I have just made some coffee. Would you like some?
+      7 Glass is made from sand.
+      8 This is a very old photograph.
+        It was taken a long time ago.
+      9 David has bought a new car.
+    - 23.5 Complete the sentences.
+      1 I'm going to take an umbrella with me.
+        It is raining.
+      2 Why are you so tired?
+        Did you go to bed late last night?
+      3 Where are the chocolates?
+        Have you eaten them all?
+      4 How is your new job?
+        Are you enjoing it?
+      5 My car was badly dameged in the accident, but I was OK.
+      6 Kate has got a car, but she doesn't use it very often.
+      7 Lisa isn't at home.
+        She has gone away for a few days.
+      8 I don't understand the problem. Can you explain it again?
+      9 Mark is in his room. 
+        He's listening to music.
+      10 I don't know how to say this word.
+         How is it pronouncing?
+      11 How do you open this window? Can you show me?
+
+      
+
+24) [ Unit 24 ] Regular and irregular verbs
+  - [A] Regular verbs
 
 
 
@@ -2369,7 +2500,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 55 в chrome
+  стр 57 в chrome
 
 
 
