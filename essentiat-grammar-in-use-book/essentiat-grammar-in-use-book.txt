@@ -2261,12 +2261,99 @@
 
 22) [ Unit 22 ] is being done    has been done (passive 2)
   - [A] is/are being ...  (present continuous passive)
-  
-   
+    - main example:
+      
+      Somebody is painting the door.  (active)
+                           ********
+                              |
+         |--------------------|
+         |    
+      The door is being painted.      (passive)
+    -...
+    - examples
+      - My car is at the garage.
+        It is being repaired. 
+        - (= somebody is repairing it)
+      - Some new houses are being built opposite the park.
+        (= somebody is building them)
+      -...
+      - [ Compare the present continuous and present simple ]
+        - The office is being cleaned at the moment. (continuous)
+          THe office is cleaned every day. (simple)
+        - Football matches are often played at the weekend,
+          but no matches are being played next weekend.   
+  - [B] has/have been ... (present perfect passive) 
+    - main example:
+
+      Somebodu has painted the door. (active)
+                           *******
+                              |
+       |----------------------|
+       |
+      The door has been painted.     (passive)
+    -...
+    - examples
+      - My key has been stolen. 
+        (= somebody has stolen it)
+      - My keys have been stolen.
+        (= somebody has stolen them)
+      - I'm not going to the party.
+        I haven't been invited.
+        (= nobody has invited me)
+      - Has this shirt been washed?
+        (= has somebody washed it?)
+      -...
+      - [ Compare the present perfect and past simple ]
+      - The room isn't dirty any more.
+        It has been cleaned. --------------- (present perfect)
+        The room was cleaned yesterday. ---- (past simple)
+      - I can't find my keys.
+        I think they have been stolen. ------(present perfect)
+        My keys were stolen last week. ------(past simple)
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 22.1 What's happening?
+      1 The car is being repaired.
+      2 A bridge is being built. 
+      3 The windows are being cleaned.
+      4 The grass is being cut. 
+    - 22.2 Look at the pictures.
+           What is happening or what has happened?
+           Use the present continuous (is/are being...) 
+           or the present perfect (has/have been ...).
+      1 The office is being cleaned.
+      2 The shirts have been ironed.
+      3 The window has been broken.
+      4 The roof is being repaired.
+      5 The car has been damaged.
+      6 The houses are being knocked down. 
+      7 The trees have been cut down.
+      8 They have been invited to a party.
+    - 22.3 Complete the sentences
+      1 I can't use my office at the moment. 
+        It is being painted.
+      2 We didn't go to the party.
+        We weren't invited.
+      3 The washing machine was broken, but it's OK now.
+        It has been repaired.
+      4 The washing machine was repaired yesterday afternoon.
+      5 A factory is a place where things are being made.
+      6 How old are these houses?
+        When they were built?
+      7 A: Is the photocopier being used at the moment?
+        B: No, you can go ahead and use it.
+      8 I've never seen these flowers before.
+        What have they been called?
+      9 My sunglasses were stolen at the beach yesterday.
+      10 The bridge is closed at the moment.
+         It was damaged last week and it hasn't been repaired yet.
 
 
 
-
+23) [ Unit 23 ] be/have/do  in present and past tenses
+  - [A] be (= am/is/are/was/were) + "-ing"(cleaning/working etc.)
 
 
 
@@ -2282,7 +2369,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 53 в chrome
+  стр 55 в chrome
 
 
 
