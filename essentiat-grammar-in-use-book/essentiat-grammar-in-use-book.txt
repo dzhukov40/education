@@ -2619,9 +2619,100 @@
 25) [ Unit 25 ] What are you doing tomorrow?
   - [A]
     - main example
+      - They are playing tennis. (now)
+      - He is playing tennis tomorrow.  (He will do it tomorrow)
+    - examples
+      - [ for something happening now ]
+        - info
+          - We use "am/is/are" + "-ing" 
+        - examples
+          - Where are Tina and Helen? 
+            They're playing tennis in the park.
+          - Please be quiet.
+            I'm working.
+      - [ for the future ]
+        - info
+          - We also use "am/is/are" + "-ing"
+        - examples
+          - Andrew is playing tennis tomorrow.
+          - I'm not working next week.
+  -...
+  - [B] "I am doing something tomorrow" 
+        (= I have arranged to do it, I have a plan to do it)
+    - Sophie is going to the dentist on Friday.
+      (= she has an appointment with the dentist)
+    - We're having a party next weekend.
+    - Are you meeting your friends tonight?
+    - What are you doing tomorrow evening?
+    - I'm not going out tonight.
+      I'm staying at home.
+  -...
+  - [C] 
+    - We use the present continuous ("I'm staying/ are you coming")
+      to say what somebody has arranged to do.
+      - examples
+        - I'm sraying at home this evening. (NOT! I stay)
+        - Are you going out tonight? (NOT! DO you go)
+        - Lisa isn't coming to the party next week. (NOT! Lisa doesn't come)
+    -...
+    - ! But we use the present simple ("start,arrives" etc) 
+      for timetables, programmes, trains, buses etc.
+      - examples  
+        - The train arrives at 7.30.
+        - What time does the film finish?
+    -...
+    - Compare
+      [ present continuous ]               [ present simple ]  
+      (usually for people)                 (for timetables, programmes etc.)
       
+      I'm going to a concert tomorrow.     The concert starts at 7.30.
+      What time are you leaving?           What time does your train leave? 
 
 
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 25.1 Look at the pictures.
+           What are these people doing next Friday?
+      1 Andrew is playing tennis on Friday.
+      2 Richard is going to the cinema.
+      3 Rachel is meeting  Dave on Friday.
+      4 Karen is going to a lunch with Will.
+      5 Sue and Tom are going to the party.
+    - 25.2
+      1 Are you going out tonight?
+      2 Are you working next week?
+      3 What are you doing tomorrow evening?
+      4 What time are your friends come?
+      5 When is Lisa going on holiday?
+    - 25.3
+      1 I'm staying ah home tonight.
+      2 I'm going to the theatre on Monday.
+      3 I'm riding a bicycle next weekend.
+      4 I'm cooking breakfast tomorrow morning.
+      5 I'm studying English on Friday.
+      6 I'm goint to the cinema on Thusday.
+    - 25.4
+      1 Are you going out tonight?
+        No, I;m too tired.
+      2 We're going to a concert tonight.
+        It starts at 7.30.
+      3 Do you know about Sarah?
+        She is getting married next month!
+      4 A: My parents are going on holiday next week. 
+        B: Oh, that's nice. Where are they going? 
+      5 Silvia is doing an English course at the moment.
+        The course finishs on Friday.
+      6 There's a party tomorrow night, but i am not going.
+      7 I am going out with some friends tonight.
+        Why don't you come too?
+        We are meeting at the Royal Hotel at 8 o'clock.
+      8 A: How are you getting home after the party tommorow? By taxi?
+        B: No, I can go by bus.
+           The last bus leaves at midnight.
+      9 A: Are you coming with us to the cinema tonight?
+        B: Yes, what time the film begins?
+      10 A: What are you doing tomorrow afternoon?
+         B: I am working.  
 
 
 
@@ -2638,7 +2729,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 59 в chrome
+  стр 61 в chrome
 
 
 
