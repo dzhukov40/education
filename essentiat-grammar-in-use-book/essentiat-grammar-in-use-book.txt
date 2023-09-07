@@ -2715,7 +2715,113 @@
          B: I am working.  
 
 
+      
+26) [ Unit 26 ] I'm going to ...
+  - [A] "I'm going to do" something
+    - main example
+      - [ morning ]                           
+        - I'm going to watch TV this evening.
+        - She is going to watch TV this evening.
+      - [ this evening ]
+        - She is watching TV.
+    -...
+      - info: We use "am/is/are goint to ..." for the future
+      - table
+    -------------|-------|-----------------|------  
+               I |  am   |                 | do ...
+       he/she/it |  is   | (not) going to  | drink ...
+     we/you/they |  are  |                 | watch ...
+    -------------|-------|-----------------|-------
+      - question
+    -------|-------------|-----------------|------  
+      am   | I           |                 | buy ... ?
+      is   | he/she/it   | going to        | eat ... ?
+      are  | we/you/they |                 | wear ... ?
+    -------|-------------|-----------------|-------
+  -...
+  - [B] "I am going to do something"
+        (= I have decided to do it, my intention is to do it)
+    - timeline
+                                     ______________________
+                                    |                      \
+      I decided to do it ---------> | I'm going to do it   /
+         |                          |_____________________/ 
+         |
+      ----------------------------------------------------------------->
+        past                           now                      future
+    
+    - examples
+      - I'm going to buy some books tomorrow.
+      - Sarah is going to sell her car.
+      - I'm not going to have breakfast this morning. I'm not hungry.
+      - What are you going to wear to the wedding next week?
+      - Your hands are dirty. Yes, I know. I'm going to wash them.
+      - Are you going to invite Mark to your party?
+      -...
+      - [ We also use the present continuous (I am doing)   ]
+        [ for the future, usually for arrangements          ] 
+        - I am playing tennis with Julia tomorrow.
+  -...
+  - [C] Something "is going to happen"
+    - Something is going to happen
+      (= we can see now that it is sure to happen)
+    -...
+    - examples
+      - Look at the sky! It's going to rain.
+        (black clouds now -> rain)
+      - Oh dear! It's 9 o'clock and I'm not ready.
+        I'm going to be late.
+        (9 o'clock now and not ready -> late)  
 
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 26.1 What are these people saying?
+      1 I'm going to watch TV.
+      2 I'm going to take bathroom.
+      3 I'm going to buy a new car.
+      4 We are going to play footbal.
+    - 26.2 Complete the sentences. Use "going to" + verb.
+      1 My hands are dirty. I'm going to wash them.
+      2 What are you going to wear to the party tonight?
+      3 It's a nice day. I don't want to take the bus.
+        I am going to walk to my home.
+      4 Steve is going to London next week. 
+        He is goint to stay with some friends.
+      5 I'm hungry.
+        I'm going to eat this sandwich.
+      6 It's Sarah's birhday next week.
+        We going to give her a present.
+      7 Sue says she's feeling very tired,
+        She goint to lie down for an hour.
+      8 Your favorite programme is on TV tonight.
+        Are you going to watch it?
+      9 What is Rachel going to do when she leaves school?
+    - 26.3 
+      1 It's going to rain
+      2 The shelf is going to fall.
+      3 The car is going to turn left.
+      4 He is going to kik the ball.
+    - 26.4 What are you going to do today or tomorrow?
+      1 I'm going to learn english tomorrow. 
+      2 I'm going to buy food today.
+      3 I'm going to take a shower.
+     
+
+
+      
+27) [ Unit 27 ] will/shall 1
+  - [A] 
+    - example
+      - Sarah goes to work every day.
+        She is always there from 8.30 until 4.30
+        - It is 11 o'clock now. Sarah is at work.
+        - At 11 o'clock yesterday, she was at work.
+        - At 11 o'clock tomorrow, she will be at work.
+    -...
+    - template: "will" + infinitive (will be/ will win/ will come)
+
+         
 
 
 
@@ -2729,7 +2835,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 61 в chrome
+  стр 63 в chrome
 
 
 
