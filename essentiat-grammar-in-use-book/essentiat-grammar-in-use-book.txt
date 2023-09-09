@@ -2820,8 +2820,137 @@
         - At 11 o'clock tomorrow, she will be at work.
     -...
     - template: "will" + infinitive (will be/ will win/ will come)
+      - table
+    --------------|--------------------|------  
+                  |                    | be
+    I/we/you/they | will ('ll)         | win
+    he/she/it     | will not (won't)   | eat
+                  |                    | come  etc.         
+    --------------|--------------------|-------
+      -...
+      - question
+    --------|---------------|------  
+            |               | be ?
+     will   | I/we/you/they | win ?
+            | he/she/it     | eat ?
+            |               | come ?  etc.         
+    --------|---------------|-------
+      -...
+      - contractions
+        - " 'll = will:  I'll (= I will) "/ "you'll"/"she'll etc."
+        - "won't = will not:  I won't (= I will not) " 
+           ... / "you won't" / "she won't etc"
+  -...
+  - [B] We use "will" for the future (tomorrow / newt week etc.)
+    - examples
+      - Sue travels a lot. Today she is in Madrid.
+        Tomorrow she'll be in Rome.
+        Next week she'll be in Tokyo.
+      - You can call me this evening.
+        I'll be at home.
+      - Leave the old bread in the garden.
+        The birds will eat it.
+      - We'll probably go out this evening.
+      - Will you be at home this evening?
+      - I won't be here tomorrow 
+        (= I will not be here)
+      - Don't drink coffe befor you go to bed.
+        You won't sleep.
+      -...
+      - We often say I think... will...
+        - I think Kelly will pass the exam.
+        - I don't think it will rain this afternoon.
+        - Do you think the exam will be difficult?  
+  -...
+  - [C] We do not use "will" 
+        for things we have already arranged or decided to do 
+    - examples
+      - We're going to the cinema on Saturday.
+        Do you want to come with us?
+        (NOT! We will go)
+      - I'm not working tomorrow.
+        (NOT! I won't work)
+      - Are you going to do the exam?
+        (NOT! Will you do)
+  -...
+  - [D] "shall"
+    - You can say "I shall (= I will)" and "we shall (= we will)"
+      - I shall be late tomorrow.
+        OR
+        I will(I'll) be late tomorrow.
+      - I think we shall win.
+        OR   
+        I think we will(we'll) win.
+    - But do not use shall with you/they/he/she/it
+      - Tom will be late.
+        (NOT! Tom shall be) 
 
-         
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 27.1 Helen is trevelling in Europe.
+      Complete the sentences with "she was, she's or she'll be"
+      1 Yesterday she was in Paris.
+      2 Tomorrow she will be in Amsterdam.
+      3 Last week she was in Barcelona.
+      4 Next week she will be in London.
+      5 At the moment she is in Brussels.
+      6 Three days ago she was in Munich.
+      7 At the end of her trip she will be very tired.
+    - 27.2 Where will you be?
+           Write sentences about yourself.
+      1 I'll probably be on the beach.
+      2 I'll be in the kitchen. 
+      3 I'll be in the bed.
+      4 I don't know where I'll be.
+      5 I'll probably be in Germany.
+    - 27.3 Put in "will('ll)" or "won't".
+      1 Don't drink coffe befor you go to bed.
+        You won't sleep.
+      2 Are you ready yet?
+        Not yet.
+        I'll be ready in five minutes.
+      3 I'm going away for a few days.
+        I'm leaving tonight, so I won't be at home tomorrow.
+      4 It won't rain, so you don't need to take an umbrella.
+      5  A: I don't feel very well this evening.
+         B: Well, go to bed early and you'll feel better in the morning.
+      6 It's Ben's birhday next Monday.
+        He will be 25.
+      7 I'm sorry I was late this morning.
+        It won't happen again.
+    - 27.4 Write sentences with "I think ..." or "I don't think ..."
+      1 I think Kelly will pass the exam.
+      2 I don't think Kelly will pass the exam.
+      3 I think we'll win the game.
+      4 I think I won't be here tomorrow.
+      5 Idon't think Sue will like her present.
+      6 I think they won't get married.
+      7 I think you won't enjoy the film.
+    - 27.5 Which is right?
+      1 We're going to the theatre tonight.
+        We've got tickets.
+      2 What are you doing tomorrow evening?
+        Nothing. I'm free.
+      3 They're going away tommorrow morning.
+        Their train is at 8.40.
+      4 I'm sure your aunt will lend us some mony.
+        She's very rich.
+      5 Why are you putting on your coat?
+        I'm going out.
+      6 Do you think Clare will phone us tonight?
+      7 Steve can't meet us on Saturday.
+        He is working.
+      8 Will you be at home tomorrow evening?
+      9 A: What are your plans for the weekend?
+        B: Some friends are coming to stay with us.
+
+
+
+
+
+
+
 
 
 
@@ -2835,7 +2964,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 63 в chrome
+  стр 65 в chrome
 
 
 
