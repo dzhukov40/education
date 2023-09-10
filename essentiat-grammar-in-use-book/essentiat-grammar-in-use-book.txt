@@ -2807,8 +2807,6 @@
       2 I'm going to buy food today.
       3 I'm going to take a shower.
      
-
-
       
 27) [ Unit 27 ] will/shall 1
   - [A] 
@@ -2945,12 +2943,117 @@
       9 A: What are your plans for the weekend?
         B: Some friends are coming to stay with us.
 
+      
+28) [ Unit 28 ] will/shall 2
+  - [A] 
+    - You can use "I'll ... (I will)"
+      when you offer something or decide to do something:
+      - My bag is very heavy. I'll carry it for you.
+      - I'll phone you tomorrow, OK? OK, bye.
+    - We often say "I think I'll ..." / "I don't think I'll ..."
+      when we decide to do something:
+      - I'm tired.
+        I think I'll go to bed early tonight.
+      - It's nice day.
+        I think I'll sit outside.
+      - It's raining.
+        I don't think I'll go out.
+    - Do not use the present simple "I go/ I phone etc"
+      in sentences like this:
+      - I'll phone you tomorrow, OK?
+        (NOT! I phone you)
+      - I think I'll go to bed early.
+        (NOT! I go to bed)
+  -...  
+  - [B] Do not use "I'll ..."
+        for something you decided befor.
+    - I'm working tomorrow. 
+      (NOT! I'll work)
+    - I don't want my car any more. 
+      I'm going to sell it.
+      (NOT! I'll sell)
+    - What are you doing at the weekend?
+      (NOT! What will you do)
+  -...  
+  - [C] Shall I ... ? Shall we ... ?
+    - "Shall I / Shall we ... ?"
+      (= Do you think this is good thing to do?)
+      (= Do you think this is a good idea?)
+      - examples
+        - It's very warm in this room.
+          Shall I open the window?
+        - Shall I phone you this evening?
+          Yes, please.
+        - It's a nice day.
+          Shall we go for a walk?
+        - Where shall we go for our holidays this year?
+        - Let's go out this evening.
+          OK, what time shall we meet?
 
 
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 28.1 Complete the sentences. Use "I'll (I will)" + verbs.
+      1 I'll carry it for you.
+      2 I'll eat it.
+      3 I'll sit on the floor.
+      4 I'll do it now.
+      5 I'll stay here.
+      6 I'll show you.
+    - 28.2 Complete the sentences.
+           Use "I think I'll ..." or "I don't think I'll ..." + verbs.
+      1 I don't think I'll go out.
+      2 I think I'll buy something to eat.
+      3 I don't think I'll play tennis.
+      4 I think I'll have it.
+      5 I don't think I'll buy it.
+    - 28.3 Which is right?
+      1 I'll phone you tomorrow, OK?
+      2 I haven't done the shopping yet.
+        I'll do it later.
+      3 I like sport.
+        I watch a lot of sport on TV.
+      4 I need some exercise.
+        I think I'll go for a walk.
+      5 Carl is going to buy a new cat.
+        He told me last week.
+      6 This book belong to Tina.
+        OK, I'll give it to her.
+      7 A: Are you doing anything this evening?
+        B: Yes, I'm going out with some friend.
+      8 I can't go out with you tommorow night.
+        I'm working.
+    - 28.4 Write sentences with "Shall I ... ?"
+      1 Shall I open the window? 
+      2 Shall I turn off the TV?
+      3 Shall I make some sandwiches?
+      4 Shall I turn on the light?
+    - 28.5 Write sentences with "Shall we ... ?"
+      1 OK, what time shall we meet?
+      2 OK, where shall we go?
+      3 OK, what shall we buy?
+      4 OK, who shall we invite? 
 
 
-
-
+29) [ Unit 29 ] might
+  - [A] 
+    - examples
+      - Where are you going for your holidays?
+        I'm not sure.
+        I might go to New York.
+        (= it is possible that he will go to New York)
+      - It might rain.
+        (= it is possible that it will rain) 
+   -...
+   - template: "might" + infinitive("might go"/"might be"/"might rain" etc)
+    --------------|--------------------|------  
+                  |                    | be
+    I/we/you/they |  might (not)       | go
+    he/she/it     |                    | play
+                  |                    | come  etc.         
+    --------------|--------------------|-------
+  -...
+  - [B] 
 
 
 
@@ -2964,7 +3067,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 65 в chrome
+  стр 67 в chrome
 
 
 
