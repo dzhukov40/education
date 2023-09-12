@@ -3053,8 +3053,125 @@
                   |                    | come  etc.         
     --------------|--------------------|-------
   -...
-  - [B] 
+  - [B] "I might" 
+        (= it possible that I will)
+    - examples
+      - I might go to the cinema this evening, but I'm not sure.
+        (= it is possible that I will go)
+      - A: When is Rebeca going to phone you?
+        B: I don't know. She might phone this afternoon.
+      - Take an umbrella with you. It might rain.
+      - Buy a lottery ticket.
+        You might be lucky.
+        (= perhaps you will be lucky)
+      - A: Are you going out tonight?
+        B: I might.
+        (= I might go out)
+      -...
+      - [ Study the difference ]
+        - I'm playing tennis tomorrow. (sure)
+          I might play tennis tomorrow. (possible)
+        - Rebecca is going to phone later. (sure)
+          Rebecca might phone later. (possible)
+  -...
+  - [C] "I might not"
+        (= it is possible that I will not)
+      - I might not go to work tomorrow.
+        (= it is possible that I will not go)
+      - Sue might not come to the party.
+        (= it is possible that she will not come)   
+  -...
+  - [D] "may"
+    - You can use "may" in the same way. "I may = I might"
+      - I may go to the cinema this evening.
+        (= I might go)
+      - Sue may not come to the party.
+        (=Sue might not come)
+    - "May I ..? "
+      (= Is it Ok to ...? / Can I ...?)    
+      - May I ask a question?
+        (= is it OK to ask / can I ask?)
+      - May I sit here?
+        Yes, of course.
 
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 29.1 Write sentences with "might".
+      1 I might go to the cinema.
+      2 I might see you tomorrow.
+      3 Sahah might forget to phone.
+      4 It might snow today.
+      5 I might late tonight.
+      -...
+      6 Mark might not be here next week.
+      7 I might not have time to go out.
+    - 29.2 Somebody is asking you about plans.
+           You have some ideas, but you are not sure.
+      -...
+      1 I might go to Italy.
+      2 I might go away.
+      3 I might see Kate again on Monday.
+      4 I might have a fish.
+      5 I might get taxi.
+      6 I might buy a new car.
+    - 29.3 You ask Ben questions about his plans for tomorrow.
+           Sometimes he is sure, but usually he is not sure.
+      -...
+      1 He's playing tennis tomorrow afternoon.
+      2 He might go out tomorrow evening.
+      3 He might get up early.
+      4 He isn't working tomorrow.
+      5 He might be at home tomorrow morning.
+      6 He might go to watch TV.
+      7 He is going out in the afternoon.
+      8 He might go shopping.
+    - 29.4 Write three things that you might do tomorrow.
+      1 I am going make twenty pull ups.
+      2 I might read a next chapter of my current english book.
+      3 I might not brink bear.
+
+
+
+
+30) [ Unit 30 ] can and could
+  - [A] 
+    - examples:
+      - I can play the piano.
+        He can play the piano.
+      - Could you open the door, please?
+    - table:
+      - table
+    --------------|--------------------|------  
+                  |                    | do
+    I/we/you/they | can                | play
+    he/she/it     | can't (cannot)     | see
+                  |                    | come  etc.         
+    --------------|--------------------|-------
+      -...
+      - question
+    ----------|---------------|------  
+              |               | do ?
+     can      | I/we/you/they | play ?
+              | he/she/it     | see ?
+              |               | come ? etc.         
+    ----------|---------------|-------
+  -... 
+  - [B] I can do something
+        (= I know how to do it, or it is possible for me to do it)
+    - examples
+      - I can play the piano.
+        My brother can play the piano too.
+      - Sarah can speak Italian, but she can't speak Spanish.
+      - A: Can you swim?
+        B: Yes, but I'm not a very good swimmer.
+      - A: Can you change twenty pounds?
+        B: I'm sorry, I can't.
+      - I'm having a party next week, but Paul and Rachel can't come.
+  -... 
+  - [C]
+    - 
 
 
 
@@ -3067,7 +3184,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 67 в chrome
+  стр 69 в chrome
 
 
 
