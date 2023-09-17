@@ -3095,7 +3095,6 @@
         Yes, of course.
 
 
-
   - [Exercises]
     - (****) need check answers !!!!
     - 29.1 Write sentences with "might".
@@ -3131,8 +3130,6 @@
       1 I am going make twenty pull ups.
       2 I might read a next chapter of my current english book.
       3 I might not brink bear.
-
-
 
 
 30) [ Unit 30 ] can and could
@@ -3171,7 +3168,126 @@
       - I'm having a party next week, but Paul and Rachel can't come.
   -... 
   - [C]
-    - 
+    - For the past (yesterday/last week etc.), we use "could/couldn't"
+      - When I was young, I could rin very fast.
+      - Befor Maria came to Britian,
+        she couldn't understand much English.
+        Now she can understand everything.
+      - I was tired last night, but I couldn't sleep.
+      - I had a party last week, but Paul and Rachel couldn't come.
+  -...
+  - [D] Can you ...? Could you ...? Can I ...? Could I ...? 
+    - We use "Can you ... ?" or "Could you ...?" when we ask people to do things:
+      - Can you open the door, please?
+        or
+        Could you open the door, please?
+      - Can you wait a moment, please?
+        or
+        Could you wait ...?
+    - We use Can I have ...? or Can I get ...? to ask for something:
+      - Can I have a glass of water, please?
+        or
+        Can I get ...?
+    - Can I ...? or Could I ...?
+      (= is it OK to do something?)
+      - Can I sit here?
+      - Tom, could I borrow your umbrella?
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 30.1 Ask Steve if he can do these things
+      1 Can you swim?
+      2 Can you ski?
+      3 Can you play chess?
+      4 Can you run ten likkometers?
+      5 Can you drive a car?
+      6 Can you ride a horse?
+      -...
+      - Can you do these things? 
+        Write sentences about yourself. 
+        Use "I can" or "I can't"
+      7 I can create computer programs.
+      8 I ca't sing.
+      9 I can swim.
+      10 I can't speak german.
+      11 I can play chess.
+      12 I can't play tennis.
+    - 30.2 Complete these sentences. 
+      Use can or can't + verb.
+      1 I'm sorry, but we can't come to your party Saturday.
+      2 I like this hotel room.
+        You can see the mpuntains from the window.
+      3 You are speaking very quietly.
+        I can't hear you.
+      4 Have you seen my gag?
+        I can't see it.
+      5 Catherine got the job because she can speak five languages.
+    - 30.3 Complete these sentences.
+      Use "can't" or "couldn't" + verb.
+      1 I was tried, but I couldn't sleep.
+      2 I wasn't hungry yesterday.
+        I couldn't eat my dinner.
+      3 Kate doesn't know what to do.
+        She can't decide.
+      4 I wanted to speak to Mark yesterday,
+        but I couldn't find him.
+      5 James can't go to the concert next Saturday.
+        He has to work.
+      6 Paula couldn't go to the meeteng last week. She was ill.
+    - 30.4 What do you say in these situation? 
+      Use "can" or "could".
+      1 Could you open the door, please?
+      2 Could you pass me the salt?
+      3 Can you have postcards.
+      4 Could you tern off the radio?
+      5 Can I borrow newspaper?
+      6 Can I use the pen?
+
+
+
+31) [ Unit 31 ] must  mustn't  don't need to
+  - [A] 
+    - template: "must" + infinitive (must do / must work etc.)
+    - table:
+    --------------|----------|------  
+                  |          | do
+    I/we/you/they | must     | go
+    he/she/it     |          | see
+                  |          | eat   etc.         
+    --------------|----------|-------
+  - [B]
+    - I must (do something)
+      (= I need to do it)
+      - I'm very hungry. I must eat something.
+      - It's fantastic film. You must see it.
+      - The windows are very dirty. We must clean them.
+    - For the past (yesterday / last week etc.), 
+      we use "had to ..." (NOT! must)
+      - I was very hungry. I had to eat something.
+        (NOT! must)
+      - We had to walk home last night.
+        There were no buses.
+        (NOT! We must walk)
+  -...
+  - [C] "mustn't" (= must not)
+    - "I mustn't (do something)"
+      (= it is necessary not to do it, it is the wrong thing to do)
+      - I must go. I mustn't be late.
+      - I musn't forget to phone Chris.
+        (= I must remember to phone her)
+      - Be happy! You mustn't be sad.
+        (= don't be sad)
+      - You mustn't touch the pictures.
+        (=don't touch the pictures)
+  -...
+  - [D]
+
+
+
+
+
+
 
 
 
@@ -3184,7 +3300,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 69 в chrome
+  стр 71 в chrome
 
 
 
