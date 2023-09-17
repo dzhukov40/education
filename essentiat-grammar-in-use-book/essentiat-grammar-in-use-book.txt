@@ -3281,10 +3281,79 @@
       - You mustn't touch the pictures.
         (=don't touch the pictures)
   -...
-  - [D]
+  - [D] "don't need to"
+    - "I don't need" (to do something)
+      (= it is not necessary)
+      - I don't need to go yet. I can stay a little longer.
+      - You don't need to shout. I can hear you OK.
+    - You can also say don't have to ...
+      - I don't have to go yet. I can stay a little longer.
+    - Compare don't need to and mustn't
+      - You don't need to go. You can stay here if you want.
+      - You mustn't go. You must stay here.
 
 
 
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 31.1 Complete the sentences. Use must + these verbs.
+      1 I'm very hungry. I must eat something.
+      2 Marilyn is a very interesting person.
+        You must meet her.
+      3 My hands are dirty. I must wash them.
+      4 You must learn to drive. It will be very useful.
+      5 I must go shopping. I need to buy some food.
+      6 The game tomorrow is very important for us.
+        We must win.
+      7 You can't always have things immediately.
+        You must be pacient.
+    - 31.2 Write I must or I had to.
+      1 I had to walk home last night. There were no buses.
+      2 It's late. I must go now.
+      3 I don't usually work on Saturdays, but last Saturday I had to work.
+      4 I must get up early tomorrow. I have a lot to do.
+      5 I came here by train. The train was full and I had to stand all the way.
+      6 I was nearly late for my appointment this morning.
+        I had to run to get there on time.
+      7 I forgot to phone David yesterday. I must phone him later today. 
+    - 31.3 Complete the sentences. 
+      Use mustn't or don't need to + verb 
+      1 I don't need to go home yet. I can stay a little longer.
+      2 We have a lot of time. We don't need to rush.
+      3 Keep these papers in a safe place. You mustn't lose them.
+      4 I'm not ready yet, but you don't need to wait me.
+        You can go now and I'll come later.
+      5 We musn't forget to turn off the lights befor we leace.
+      6 I must contact David, but I musn't phone him - I can send him an email.
+    - 31.4 Find the sentances with the same meaning.
+      1 We can leave the meeting early.
+        - [E] We don't need to stay until the end.
+      2 We must leave the meeting early.
+        - [C] We can't stay until the end. 
+      3 We mustn't leave the meeting early.
+        - [A] We must stay until the end.
+      4 We had to leave the meeting early.
+        - [B] We couldn't stay until the end.
+      5 We don't need to leave the meeting early.
+        - [D] We can stay until the end. 
+    - 31.5 Write "must/mustn't/had to/don't need to"
+      1 You don't need to go. You can stay here if you want.
+      2 It's a fantastic film. You must see it.
+      3 The restaurant won't be busy tonight. 
+        We don't need to reserve a table.
+      4 I was very busy last week. I had to work every evening.
+      5 I want to know what happend. You must tell me.
+      6 I don't want Sue to know what happend. You mustn't tell me.
+      7 I must go now or I'll be late my appointment.
+      8 Why were you so late? I had to wait half an hour for a bus.
+      9 We don't need to decide now. We can decide later.
+      10 It's Lisa's birthday next week. I musn't forget to buy her a present.
+
+
+
+
+32) [ Unit 32 ] should
+  - [A]
 
 
 
@@ -3300,7 +3369,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 71 в chrome
+  стр 73 в chrome
 
 
 
