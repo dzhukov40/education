@@ -3450,7 +3450,7 @@
       8 The hotel is too expensive for us.
         - I don't think we should stay there.
     -...
-    - 23.5 What do you think? Write sentences with "should"
+    - 32.5 What do you think? Write sentences with "should"
       1 I think everybody should learn another language.
       2 I think everybody should have apportunity to eat halthy food.
       3 I think I should spend more time for relax.
@@ -3459,7 +3459,7 @@
 
 
 
-32) [ Unit 33 ] I have to ...
+33) [ Unit 33 ] I have to ...
   - [A]
     - template: "I have to " do something
                 (= it is necessary fo me to do it, I am obliged to do it)
@@ -3549,16 +3549,77 @@
   - [Exercises]
     - (****) need check answers !!!!
     - 33.1 Complete the sentenses. Use "have to" or "has to"
-      1
-      2
-      3
-      4
+      1 My eyes are not very good. I have to wear glasses.
+      2 At the end of the course all the students have to do a test.
+      3 Sarah is studying literature. SHe has to read a lot of books.
+      4 Albert doesn't understand much English. 
+        You have to speak very slowly to him.
+      5 Kate is often away from home.
+        She has to travel a lot in her job.
+      6 In tennis you have to hit the ball over the net.
+    - 33.2 Complete the sentences. Use "have to" or "had to" + verb
+      1 We had to walk home last night.
+        There were no buses.
+      2 It's late.
+        I have to go now. I'll see you tomorrow. 
+      3 I went to the supermarket after work yesterday.
+        I had to buy some food.
+      4 We did an exam yesterday.
+        We had to answer six questions out of ten.
+    - 33.3 Complete the questions. Some are present and some are past.
+      1 I have to get up early tomorrow.
+        - What time do you have to get up?
+      2 George had to wait a long time.
+        - How long did you have wait?
+      3 Lisa has to go somewhere.
+        - Where do Lisa has to go?
+      4 We had to pay a lot of money.
+        - How much money did they have to pay?
+      5 I have to do some work.
+        - What exactly do you have to do?
+    - 33.4 Write sentences with "don't/doesn't/didn't have to ..." 
+      1 Why are you going out?
+        - You don't have to go out.
+      2 Why is Sue waiting?
+        - She doesn't have to waiting.
+      3 Why did you get up early?
+        - You didn't have to get up early.
+      4 Why is Paul working so hard?
+        - He doesn't have to work so hard.
+      5 Why do you want to leave now?
+        - We don't have to leave now.
+    - 33.5 Which is correct? 
+           Sometimes "must" and "have to" are both correct.
+           Sometimes only one is correct.
+      -...
+      1 It's fantastic film.
+        You must see it.
+      2 Jessica won't be at work this afternoon.
+        She has to go to the doctor.
+      3 You can't park your car here for nothing.
+        You have to pay.
+      4 I didn't have any money with me last night,
+        so I had to borrow some.
+      5 I eat too much chocolate.
+        I really must stop.
+      6 Paul is in a hurry.
+        He has to meet somebody in five minutes.
+      7 What's wrong?
+        You have to tell me.
+        I wnt to help you.
+    - 33.6 Write some things that you (or your friends or family)
+           have to do or had to do.
+      -...
+      1 I have to travel ten miles every day
+      2 My friend had to run every day.
+      3 I have to do a English home work yesterday.
+      4 My wife have to go work tomorrow.
 
 
 
-
-
-
+34) [ Unit 34 ] Would you like ... ? I'd like ...
+  - [A]
+    - 
 
 
 
@@ -3580,8 +3641,9 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 76 в chrome
+  стр 77 в chrome
 
+  (*) END: 115 Units, 240 стр.
 
 
 
