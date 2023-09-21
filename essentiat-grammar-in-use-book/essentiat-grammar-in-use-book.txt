@@ -3351,9 +3351,220 @@
 
 
 
-
 32) [ Unit 32 ] should
   - [A]
+    - template: "should" + infinitive (should do / should watch etc.)
+    - table:
+    --------------|------------|------  
+                  |            | do
+    I/we/you/they | should     | stop
+    he/she/it     | shouldn't  | go
+                  |            | watch   etc.         
+    --------------|------------|-------
+  -...
+  - [B] You should do something 
+        (= it is a good thing to do, it is the right thing to do)
+    - examples
+      - Tom doesn't study enough. He should study harder.
+      - It's good film. You should go and see it.
+      - When you play tennis, you should always watch the ball.
+  -...
+  - [C] You shouldn't do something
+        (= it is not a good thing to do)
+    - examples
+      - Tom shouldn't go to bed so late.
+      - You watch TV all the time. You shouldn't watch TV so much.
+  -...
+  - [D] We often say:
+    - "I think ... should ..."
+      - I think Lisa should buy some new clothes.
+        (= I think it is a good idea) 
+      - It's late. I think I should go home now.
+      - A: Shall I buy this coat?
+        B: Yes, I think you should.
+    - "I don't think ... should ..."
+      - I don't think you should work so hard.
+        (= I don't think it is a good idea)
+      - I don't think we should go yet. It's too early.
+    - "Do you think ... should ...?"
+      - Do you think I should buy this hat?
+      - What time do you think we should go home?
+  -...
+  - [E] "Must" is stronger than "should"
+    - It's good film. You should go and see it.
+    - It's fantastic film. You must go and see it.
+  -...
+  - [F] Another way to say "should" is "ought to"  
+    - It's a good film. You ought to go and see it.
+      (= you should go)
+    - I think Lisa ought to buy some new clothes
+      (= Lisa should buy)
+
+    
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 32.1 Complete the sentences. Use "you should" + verb.
+      1 When you play tennis, you should watch the ball.
+      2 It's late and you're very tired. You should go to bed.
+      3 You should eat plenty of fruit and vegetables.
+      4 If you have time, you should visit the Science Museum.
+        It's very interesting.
+      5 When you're driving, you should wear a seat belt.
+      6 It's too far to walk from here to the station.
+        We should take a taxi. 
+    - 32.2 Write about the people in the pictures.
+      1 She shouldn't watch TV so much.
+      2 He shouldn't eat so much.
+      3 She shouldn't work so hard.
+      4 He shouldn't drive so fast.
+    - 32.3 You are not sure what to do, so you ask a friend.
+      1 You are in shop. You are trying on a jacket.
+        You ask you friend: Do you think I should should buy this jacket?
+
+      2 You can;t drive.
+        You ask you friend: Do you think I should learn how to drive?
+
+      3 You don't like your job.
+        You ask your friend: Do you think I should get another job?
+      
+      4 You are going to have a party.
+        You ask you friend: Do you think I should invite Gary?
+    -...
+    - 32.4 Write sentences with 
+      "I think ... should ..." and "I don't think ... should ..."     
+      1 We have to get up early tomorrow.
+        - I think we should go home now.
+      2 That coat is too big for you.
+        - I don't think you should buy it.
+      3 You don't need your cat.
+        - I think you should sell it.
+      4 Karen need a rest.
+        - I think she should have a holiday.
+      5 Sarah and Dan are too young.
+        - I don't think they should get married.
+      6 You're not well this morning.
+        - I don't think you should go to work.
+      7 James isn't well today.
+        - I think he should go to the doctor.
+      8 The hotel is too expensive for us.
+        - I don't think we should stay there.
+    -...
+    - 23.5 What do you think? Write sentences with "should"
+      1 I think everybody should learn another language.
+      2 I think everybody should have apportunity to eat halthy food.
+      3 I think I should spend more time for relax.
+      4 I don't think we should build skyscrapers.
+      5 I think I should find a job.
+
+
+
+32) [ Unit 33 ] I have to ...
+  - [A]
+    - template: "I have to " do something
+                (= it is necessary fo me to do it, I am obliged to do it)
+    - table:
+    --------------|------------|------  
+                  |            | to do
+    I/we/you/they | have       | to stop
+    --------------|------------| to wear
+    he/she/it     | has        | to go
+                  |            | to watch   etc.         
+    --------------|------------|-------
+    - examples
+      - I'll be late for work tomorrow.
+        I have to go to the dentist.
+      - Jane starts work at 7 o'clock, so she has to get up at 6.
+      - You have to pass a test before you can get a driving licence.
+  -...
+  - [B] The past (yesterday / last week etc.) is "hard to ..."
+    - I was late for work yesterday. I had to go to the dentist.
+    - We had to walk home last night. There were no buses.
+  -...
+  - [C] In questions and negatives 
+        we use "do/does" (present) and "did(past)
+    - "present"
+      - "question"
+      ------|---------------|-----------------
+            |               |   
+      do    | I/we/you/they |
+      ------|---------------|  have to ... ?
+      does  | he/she/it     |
+            |               |        
+      ------|---------------|-----------------
+      - "negatives"
+      ----------------|----------|-----------------
+                      |          |   
+        I/we/you/they | don't    |
+      ----------------|----------|  have to ...
+        he/she/it     | doesn't  |
+                      |          |        
+      ----------------|----------|-----------------
+    - "past"
+      - "question"
+      ------|---------------|-----------------
+            |               |   
+            | I/we/you/they |
+      did   |               |  have to ... ?
+            | he/she/it     |
+            |               |        
+      ------|---------------|-----------------
+      - "negatives"
+      ----------------|----------|-----------------
+                      |          |   
+        I/we/you/they |          |
+                      | didn't   |  have to ...
+        he/she/it     |          |
+                      |          |        
+      ----------------|----------|-----------------
+    -...
+    - examples
+      - What time do you have to go to the dentist tomorrow?
+      - Does Jane have to work on Sundays?
+      - Why did they have to leave the party early?
+      -...
+      - "I don't have to" (do something)
+        (= it is not necessary to do it)
+        - I'm not working tomorrow, so I don't heve to get up early.
+        - Lan doesn't have to work very hard. He's got an easy job.
+        - We didn't have to wait very long for the bus - it came
+          in a few minutes.
+  -...
+  - [D] "Must" and "have to"
+    - You can use "must" or "have to" when you say what you
+      think is necessary, when you give you opinion.
+      - It's a fantastic film.
+        You must see it. "or" You have to see it.
+    -...
+    - When you are not giving you personal opinion,
+      use "have to" (NOT! "must").
+      - Jane won't be at work this afternoon. She has to go to the doctor.
+        (this is not my personal opinion - it is a fact) 
+      - Jane isn't well. She doesn't want to go to the doctor,
+        but I told her she must go.
+        (this is my personal opinion)
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 33.1 Complete the sentenses. Use "have to" or "has to"
+      1
+      2
+      3
+      4
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3369,7 +3580,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 73 в chrome
+  стр 76 в chrome
 
 
 
