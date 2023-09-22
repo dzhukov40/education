@@ -3705,7 +3705,87 @@
 
 
 35) [ Unit 35 ] Do this! Don't do that! Let's do this!
-  - [A]      
+  - [A] 
+    - We use "come/look/go/wait/be" etc.
+      When we tell somebody to do something.
+      - Come here and look at this! What is it?
+      - I don't want to talk to you. Go away!
+      - I'm not ready yet. Please wait for me.
+      - Please be quiet. I'm working.
+    - also
+      - Bye! 
+        - Have a good holiday!
+        - Have a nice time!
+        - Have a good flight!
+        - Have fun!
+        (= I hope you have a good holiday etc.)
+      - Have a chocolate. Oh, thanks
+        (= would you like a chocolate?)       
+  -...
+  - [B] We use "don't ..." when we tell somebody not to do something
+    - Be careful! Don't fall.
+    - Please don't go. Stay here with me.
+    - Be here on time. Don't be late.
+  -...
+  - [C]
+    - You can say "Let's ..." When you want people to do things with you.
+      "Let's" = Let us
+      - It's a nice day. Let's go out.
+        (= you and I can go out)   
+      - Come on! Let's dance.
+        (= you and I can dance)
+      - Are you ready? Let's go.
+      - Let's have fish for dinner tonight?
+      - A: Shall we go out tonight?
+        B: No, I'm tired. Let's stay at home.
+    - The negative is "Let's not ..."
+      - It's cold. Let's not go out. Let's stay at home.
+      - Let's not have fish for dinner tonight. Let's have chicken.    
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 35.1 Look at the pictures.
+           What are the people saying?
+           Some sentences are positive ("buy/come" etc.)
+           and some are negative ("don't buy/don't come" etc.)
+      -...
+      1 Come in!
+      2 Don't drink the water!
+      3 It's too expensive don't buy it.
+      4 OK, are you ready? Smile!
+      5 DOn't sit on the cat!
+      6 Bye! Have a nice time!
+      7 Don't forget to phone me.
+      8 OK. Sleep well.
+      9 Be careful with that vase. Don't drop it!
+    - 35.2 Complete the sentences. Use "let's" with
+      1 No, let's go for a swim.
+      2 No, let's take a taxi.
+      3 No, let's watch TV.
+      4 No, let's go to the restaurant.
+      5 No, let's let's wait a little.
+    - 35.3 Answer with "No, don't ... " or "No, let's not ..."
+      1 No, don't wait for me.
+      2 No, let's not go home yet.
+      3 No, let's not go out.
+      4 No, don't close the window.
+      5 No, don't phone me tonight.
+      6 No, let's not wait for Andy.
+      7 No, don't turn on the light.
+      8 No, let's not go by bus.
+
+
+
+36) [ Unit 36 ] I used to ...
+  - [A] 
+
+
+
+
+
+
+
 
 
 
@@ -3715,7 +3795,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 79 в chrome
+  стр 81 в chrome
 
   (*) END: 115 Units, 240 стр.
 
