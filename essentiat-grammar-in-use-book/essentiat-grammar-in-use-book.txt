@@ -3618,20 +3618,94 @@
 
 
 34) [ Unit 34 ] Would you like ... ? I'd like ...
-  - [A]
-    - 
+  - [A] "Would you like ...?"
+        (= Do you want ...?)
+    - We use "Would you like ... ?" to offer things
+      - A: Would you like some coffee?
+        B: No, thank you.
+      - A: WOuld you like a chocolate?
+        B: Yes, please.
+      - A: What would you like, tea or coffee?
+        B: Tea, please.
+    -...
+    - We use Would you like to ... ? to invite somebody.
+      - Would you like to go for a walk?
+      - A: Would you like to eat with us on Sunday?
+        B: Yes, I'd love to.
+           (=I would love to eat with you)
+      - What would you like to do this evening?
+  -...
+  - [B] "I'd like ..." is polite way to say 'I want'.
+    - I'm thirsty. I'd like a drink.
+    - (ina tourist office) I'd like some information about hotels, please.
+    - I'm feeling tried. I'd like to stay at home this evening.
+  -...
+  - [C] Would you like ...? and Do you like ...?
+
+  [ Would you like ...? / I'd like ...]     [ DO you like ...? / I like ...]      
+                                      
+  Would you like some tea?                  Do you like?
+  (= Do you want some tea?)                 (= Do you think tea is nice?)
+
+    - A: Would you like to go to the        - A: Do you like going to
+         cinema tonight?                         the cinema? (in general)
+         (= do you want to go tonight?)       B: Yes, I go to the 
+      B: Yes, I'd love to.                       cinema a lot.  
+    
+    - I'd like an orange, please.           - I like oranges. (in general)
+      (= can I have an orange?)
+
+    - What would you like to do next        - What do you like to do 
+      weekend?                                at weekend?
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 34.1 What are the people in the pictures saying?
+           Use "Would you like ...?"
+      -...
+      1 Would you like a chocolate?
+      2 Would you like apples?
+      3 Would you like coffe?
+      4 Would you like cheese?
+      5 Would you like a sandwich?
+      6 Would you like a cake?
+    - 34.2 What do you say Sue in these situations?
+           Use "Would you like to ...?"
+      -...
+      1 You want to go to the cinema tonight. 
+        Perhaps Sue will go with you.
+        You say: Would you like to go to the cinema tonight?
+      2 You want to play tennis tomorrow.
+        Perhaps Sue will play too.
+        You say: Would you like to play tennis tomorrow?
+      3 You have an extra ticket for a concert next week.
+        Perhaps Sue will come.
+        You say: Would you like to go a concert next week.
+      4 It's raining and Sue is going out.
+        She doesn't have an umbrella, but you have one.
+        You say: Would you like get my umbrella?
+    -...
+    - 34.3 Which is right?
+      1 Would you like a chocolate?  Yes, please.
+      2 Do you like bananas?  Yes, I love them.
+      3 Would you like an ice cream?  No, thank you.
+      4 What would you like to drink? A glass of water, please.
+      5 Would you like to go out for a walk?  Not now. Perhaps later.       
+      6 I like tomatos, but I don't eat them very often.
+      7 What time would you like to have dinner this evening?
+      8 Would you like something to eat? No, thanks. I'm not hungry.
+      9 Do you like your new job?  Yes, I'm enjoying it.
+      10 I'm tired. I'd like to go to sleep now.
+      11 I'd like a sandwich, pleas. Sue. What kind of sandwich?
+      12 What kind of music do you like? All kinds.
 
 
 
 
-
-
-
-
-
-
-
-
+35) [ Unit 35 ] Do this! Don't do that! Let's do this!
+  - [A]      
 
 
 
@@ -3641,7 +3715,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 77 в chrome
+  стр 79 в chrome
 
   (*) END: 115 Units, 240 стр.
 
