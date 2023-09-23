@@ -21,6 +21,39 @@
   чтобы иметь возможность переключаться между ними
 
 
+1) Устанавливаем на Linux
+  - [ https://sdkman.io/install ] инструкция на сайте
+    -...
+    - качаем скрипт и запускаем
+      - [ curl -s "https://get.sdkman.io" | bash ] 
+    - Меняем enviroment переменные
+      - [ source "$HOME/.sdkman/bin/sdkman-init.sh" ]
+
+
+2) Устанавливаем Java
+  - смотрим справку
+    - [ sdk ]
+  - выбираем Java
+    - [ sdk list java ]
+  - Устанавливаем
+    - [ sdk install java 17.0.8-zulu ]
+  - Устанавливаем как дефолтную версию
+    - [ sdk default java 17.0.8-zulu ]
+  - Перезапускаем [ Bash ]  и проверяем
+    - [ java -version ]
+ 
+
+3) устанавливаем Gradle
+  - выбираем Java
+    - [ sdk list gradle ]
+  - Устанавливаем
+    - [ sdk install gradle 8.3 ]
+  - Устанавливаем как дефолтную версию
+    - [ sdk default gradle 8.3 ]
+  - Перезапускаем [ Bash ]  и проверяем
+    - [ gradle -version ]
+
+
 
 
 
