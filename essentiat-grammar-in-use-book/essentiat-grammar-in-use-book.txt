@@ -3779,6 +3779,95 @@
 
 36) [ Unit 36 ] I used to ...
   - [A] 
+    - main example:
+      - Dave used to work in a factory.
+        (= he worket in a factory befor, but he doesn't work there now) 
+      - time line:
+
+      [ Dave used to work in factory.    Now he works in a supermarket. ]
+        __________________________   ||   __________________________      
+       /                          \  ||  /                          \        
+      <      he used to work       > || <          he works          >      
+       \__________________________/  ||  \__________________________/          
+                                     ||
+                                     \/
+      -------------------------------------------------------------->
+          [ PAST ]                                     [ NOW ]
+
+
+  -...
+  - [B] You can say: 
+        I used to work ... 
+        she used to have ...
+        they used to be ...
+    - table
+    --------------|------------|------  
+                  |            | do
+    I/we/you/they | used to    | stop
+    he/she/it     |            | go
+                  |            | watch   etc.         
+    --------------|------------|-------
+    - examples:
+      - When I was a child, I used to like chocolate.
+      - I used to read a lot of books, but I don't read much these days.
+      - Lisa has got short hair now, but it used to be very long
+      - They used to live in the same street as us,
+        so we used to see them a lot.
+        But we don't see them much these days.
+      - Helen used to have a piano, but she sold it a few years ago.
+      -...
+      - The negative is "I didn't use to ..."
+        - When I was a child, I didn't use to like tomatoes.
+      - The question is "did you use to ... ?"
+        - Where did you use to live before you came here?
+  -...
+  - [C] We use "used to ..." only for the past.
+        You cannot say "I use to ..." for the present.
+    - examples
+      - I use to play tennis. These days I play golf.
+        (NOT! I use to play golf)
+      - We usually get up early.
+        (NOT! We use to get up early)
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 36.1 Look at the pictures. Complete the sentences with "used to ..."
+      1 She used to have long hair.
+      2 He used to play footbal.
+      3 She used to be a taxi driver.
+      4 They used to live in the country.
+      5 He used to wear glasses.
+      6 This building used to build long time ago.
+    - 36.2 Karen works very hard and has very little free time.
+           A few years ago, things were different.
+      1 She used to swim every day.
+      2 She used to play volleyball.
+      3 She used to go out much.
+      4 She used to play guitar.
+      5 She used to read a lot.
+      6 She used to travel much.
+    - 36.3 Complete these sentences.
+           Use "used to" or the present simple ("I play/ he lives etc")
+      1 I used to play tennis. I stopped playing a few years ago.
+      2 Do you do any sport? Yes, I play basketball.
+      3 Do you have a car? No, I used to have one, but I sold it.
+      4 George used to be a waiter. Now he's the manager of a hotel.
+      5 Do you go to work by car? Sometimes, but most days I go by train.
+      6 When I was a child, I neverused to eat meat, but I eat it now.
+      7 Mary loves watching TV. She watch TV every evening.
+      8 We used to live near the airport, 
+        but we moved to the city center a few years ago.
+      9 Normally I start work at 7 o'clock, so I wake up very early.
+      10 What games did you use to play when you were a child?
+
+
+
+
+37) [ Unit 37 ] there is   there are
+  - [A] 
+    - main 
 
 
 
@@ -3795,7 +3884,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 81 в chrome
+  стр 83 в chrome
 
   (*) END: 115 Units, 240 стр.
 
