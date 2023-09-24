@@ -29,19 +29,23 @@
    - [ https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/auth?client_id=cloud-services&redirect_uri=https%3A%2F%2Fcloud.redhat.com%2Fopenshift%2Finstall%2Fcrc%2Finstaller-provisioned&state=38444dac-1558-459b-b172-5c451673f6ac&response_mode=fragment&response_type=code&scope=openid&nonce=d1c5e6d5-af3d-4d6a-af14-ef86a7abb689 ]
     - [ Download Code-Ready Containers ]
     - [ Download pull secret ] - понадобится при установке
-    - [ tar xf && mv crc /usr/local/bin/crc ] распаковать и переместить
+    - [ tar -xf ./crc-linux-amd64.tar.xz ] распаковать
+    - [ sudo mv ./crc-linux-2.26.0-amd64/crc /usr/local/bin/crc ] переместить
   - ...
   - устанавливаем параметры запуска
     - [ crc setup ]
       - [!] [FATA Failed to create libvirt 'crc' network] перезагрузка должна помочь
     - [ crc config set cpus 8 ] # минимум 4
-    - [ crc config set memory 24576 ] # Минимум - 9ГБ (9216).
+    - [ crc config set memory 13824 ] # Минимум - 9ГБ (9216).
     - [ crc start ]
+    - (*) coppy past "pull secret"
   - ждем старта 
     - [ crc console ] запустить web консоль
+  - останавливаем
+    - [ crc status && crc stop ]
  
 
-2) устанавливаем консольнуб утилиту [ OC ] (openshift cli)
+2) (MacOS) Устанавливаем консольнуб утилиту [ OC ] (openshift cli)
   - [ https://docs.okd.io/3.11/cli_reference/get_started_cli.html ]
     - [ brew install openshift-cli ]
   - включаем автодополнение
@@ -49,7 +53,16 @@
     - добавляем строчку [ sudo vim ~/.zshrc ]
       [ source <(oc completion zsh) ]
 
-
+3) (Linux) Устанавливаем консольнуб утилиту [ OC ] (openshift cli)
+  - [ https://console.redhat.com/openshift/downloads ]
+  - ищем где скачать
+    - "Downloads" -> "OpenShift command-line interface (oc)" -> "Download"
+  - [ tar -xf ./openshift-client-linux.tar.gz ] распаковать
+  - перемещаем в "bin"
+    - [ sudo mv ./kubectl /usr/local/bin/kubectl ] переместить
+    - [ sudo mv ./oc /usr/local/bin/oc ] переместить
+  - запускаем новую ссесию "bash"
+    - [ kubectl version --short && echo "===========" && oc version ]
 
 
 
