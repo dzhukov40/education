@@ -3864,14 +3864,136 @@
 
 
 
-
 37) [ Unit 37 ] there is   there are
   - [A] 
-    - main 
+    - main example:
+      - Ther's man on the roof.
+      - There's a train at 10.30.
+      - There are seven days in a week.
+    -...
+    - "singular"
+      ------------------------------------------------------                                               
+      | there is ...      (there's)                        |   
+      | is there ... ?                                     |   
+      | there is not ...  ("there isn't" or "there's not") |
+      ------------------------------------------------------
+      - examples
+        - There's a big tree in the garden.
+        - There's nothing on TV tonight.
+        - A: Do you have any money?
+          B: Yes, there's some in my bag.
+        - A: Excuse me, is there a hotel near here?
+          B: Yes, there is / No, there isn't.
+        - We can't go sking. There isn't any snow.  
+    -...
+    - "plural"
+      ------------------------------------------------------                                               
+      | there are ...                                      |   
+      | are there ... ?                                    |   
+      | there are not ...  ("there aren't")                |
+      ------------------------------------------------------
+    - exampoles
+      - There are some big trees in the garden.
+      - There are a lot of accidents on this road.
+      - A: Are there any restaurants near here?
+        B: Yes, there are. / No, there aren't.
+      - This restaurant is very quiet. 
+        There aren't many people here.
+      - How many players are there in a football team?
+      - There are 11 players in a football team.
+  -... 
+  - [B] "there is" and "it is"
+    - "there is"
+      - There is a book on the table.
+        (NOT! It is a book on the table.)
+    -...
+    - "it is"
+                     __________      
+                    |         ||
+                ____|___     _\/_          
+               |        |   |    |        
+      - I like this book.   It is interesting. 
+        (It = this book)
+    -...
+    - Compare:
+      - What's that noise? It's a train.
+        (It = that noise)
+      - Rhere's a train at 10.30. It's a fast train.
+        (It = the 10.30 train)
+
+      - I don't like this soup. It's too salty.
+        (It = this soup)    
+ 
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 37.1 Kentham is a small town.
+           Look at the information in the box 
+           and write sentences about Kentham
+           with "There is/are" or "There isn't/aren't"
+      0...
+      1 There isn't a castle.
+      2 There are a lot of restaurants.
+      3 There is a hospital.
+      4 There isn't a swimming pool.
+      5 There are two cinemas.
+      6 There isn't a university.
+      7 There aren't big hotels.
+    - 37.2 Write sentences about your town (or a town that you know).
+           Use "There is/are" or "There isn't/aren't".
+      1 There are a few restaurans.
+      2 There's a big park.
+      3 There are two big swimming pools.
+      4 There isn't a zoo.
+      5 There aren't sport car tracks.
+      6 There are two hotels.
+    - 37.3 Write "there is / there isn't / is there" 
+           or "there are / there aren't / are there"
+      0...
+      1 Kentham isn't an old town.
+        There aren't any old buildings.
+      2 Look! There is a picture of your brother in the nespaper!
+      3 Excuse me, is there a bank near here?
+        Yes, at the end of the street.
+      4 There are five people in my family: 
+        my parents, my two sisters and me.
+      5 How many students are there in the class?
+        Twenty.
+      6 The road is usually very quiet.
+        There isn't much trafic.
+      7 Is there a bus from the city center to the airport?
+        Yes, every 20 minutes.
+      8 Are there any problems?
+        No, everything is OK.
+      9 There is nowhere to sit down. There aren't any chairs.
+    - 37.4 Write sentences with "There are ..." 
+      1 There are seven days in a week.
+      2 There are twenty-six letters in the English alphabet.
+      3 There are eight planets in the solar system.
+      4 There are thirty days in September.
+      5 There are fiften players in a rugby team.
+      6 There are fifty states in the USA.
+    - 37.5 Write "there's/is there" or "it's/is it"
+      1 There's a train at 10.30. Is it a fast train?
+      2 I'm not going to buy this shirt. It's too expensive.
+      3 What's wrong? There's something in my eye.
+      4 There is a red car outside your house. Is it yours?
+      5 Is there anything good on TV tonight? 
+        Yes, there is a programme I want to see at 8.15.
+      6 What's that building?
+        It's a school.
+      7 Is there a restaurant in this hotel?
+        No. I'm afraid not. 
 
 
 
+38) [ Unit 38 ] there was/were ; there has/have been ; there will be 
+  - [A] 
 
+
+
+           
 
 
 
@@ -3884,7 +4006,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 83 в chrome
+  стр 85 в chrome
 
   (*) END: 115 Units, 240 стр.
 
