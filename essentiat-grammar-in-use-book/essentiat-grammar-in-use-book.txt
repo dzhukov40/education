@@ -3989,15 +3989,174 @@
 
 
 38) [ Unit 38 ] there was/were ; there has/have been ; there will be 
-  - [A] 
+  - [A] "there was / there were (past)"
+    - examples:
+      - There is a train every hour.  (present)
 
+      - The time now is 11.15.
+      - There was a train at 11 o'clock. (past)
+    
+    - Compare:
 
-
+  "there is/are"(present)               "There was/were"(past)"
+                                                   
+  - There is nothing on TV tonight.     - There was nothing on TV 
+                                          last night.
+  - We are staying at a very big hotel. - We stayed at a very big hotel. 
+    There are 550 rooms.                  There were 550 rooms.
+                                                    
+  - Is everything OK?                   - Was everything OK yesterday?
+    Are there any problems?               Were there any problems?
+                                                      
+  - I'm hungry,                         - I was hungry when I got home,
+    but there isn't anything to eat.      but there wasn't anything to eat.
            
+  -...
+  - [B] "there has been / there have been" (present perfect)
+    - Look! THere's been an accident.
+      (there's been = there has been)
+    - This road is very dangerous.
+      There have been many accidents.
+    -...
+    - Compare there was (past):
+      - There was an accident last night.
+        (NOT! There has been anaccident last night.)
+
+  -...
+  - [C] "there will be"
+    - Do you think there will be a lot of people 
+      at the party on Saturday?
+    - The manager of the company is leaving, 
+      so there will be a new manager soon.
+    - I'm going away tomorrow.
+      I'll do my packing today 
+      because there won't be time tomorrow.
+      (there won't be = there will not be)
 
 
 
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 38.1 Look at the two pictures.
+           Now the room is empty, but what was in the room last week?
+           Choose from the box and write sentences with
+           "There was ..." or "There were ..."
+      0...
+      1 There was a clock.
+      2 There was a carpet on the floor.
+      3 There were three pictures on the wall near the door.
+      4 There was a small table in the middle of the room.
+      5 There were some flowers on the table.
+      6 There were some books on the shelves.
+      7 There was an armchair in the corner near the door.
+      8 There was a sofa opposite the arnchair.
+    - 38.2 Write "there was / there wasn't / was there"
+         or "there were / there weren't / were there"
+      0...
+      1 I was hungry, but there wasn't anything to eat.
+      2 Was everything OK yesterday? Were there any problems?
+      3 I opened the envelope, but it was empty.
+        Where is nothing in it.
+      4 We stayed at a very nice hotel.
+        Really? Was there a swimming pool?
+      5 Did you buy any bananas?
+        No, there weren't any in the shop.
+      6 The wallet was empty.
+        There weren't any money in it.
+      7 Were there many people at the meeting? No, very few.
+      8 We didn't visit the museum. There wasn't enough time.
+      9 I'm sorry I'm late.
+        There were a lot of traffic.
+      10 Twenty years ago there weren't many tourists here.
+         Now there are a lot.
+    - 38.3 Write "there + 
+           is / are / was / were / has been / have been / will be"
+      0...
+      1 There was a good film on TV last night.
+      2 There are 24 hours in a day.
+      3 There was a party at the club last Friday, 
+        but I didn't go.
+      4 Where I can get something to eat?
+        There is a cafe at the end of the streat.
+      5 Why are the police outside the bank?
+        There has been a robbery.
+      6 When we arrived at the theatre,
+        there was a long queue outside.
+      7 When you arrive tomorrow,
+        there will be somebody at the station to meet you.
+      8 Ten years ago there were 500 children at the school.
+        Now there are more than a thousand.
+      9 Last week I went back to the town where I was born.
+        It's very different now.
+        There were a lot of changes.
+      10 I think everything will be OK.
+         I don't think there will be any problems.
+ 
 
+
+
+39) [ Unit 39 ] It ... 
+  - [A] We use "it" for [ time / day / distance / weather ]  
+    - "time"
+      - What time is it?
+      - It's half past ten.
+      - It's late.
+      - It's time to go home.
+    -...
+    - "day" 
+      - What day is it?
+      - It's Thusday.
+      - It's 16 March.
+      - It was my birthday yesterday.
+    -...
+    - "distance"
+      - It's three kilometres from our hous to the city center.
+      - How far is it from New York to Los Angeles?
+      - It's a long way from here to the station.
+      - We can walk home. It isn't far.
+      -...
+      - We use "far" in question (is it far?)
+        and negatives (it isn't far)
+        in positive sentences, we use a long way (it's a long way)
+    -...
+    - weather
+      - It's raining.
+        It isn't raining.
+        Is it raining?
+      - It rains a lot here.
+        It didn't rain yesterday.
+        Does it snow very often?
+      - It's warm / hot / cold / fine / cloudy / 
+        windy / sunny / foggy / dark etc.
+      - It's a nice day today.
+  -...
+  - [B] "It's nice to ..." etc.
+    - table:
+    ------|--------------------------------------------|------  
+          | easy / difficult / impossible / dangerous  |  
+     It's | safe / expensive / interesting             | to ...
+          | nice / wonderful / terrible etc.           |                                         | 
+    ------|--------------------------------------------|--------
+    - examples:
+      - It's nice to see you again.
+      - It's impossible to understand her.
+      - It wasn't easy to finf your house.
+  -...
+  - [C] Don't forget "it"
+    - It's rainig again.
+      (NOT! is raining again)
+    - Is it true that you're going away?
+      (NOT! is true that ...) 
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 39.1 Write about the weather in the pictures. Use "It's ..."
+      1
+      2
+      3
+      4
+      
 
 
 
@@ -4006,7 +4165,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 85 в chrome
+  стр 87 в chrome
 
   (*) END: 115 Units, 240 стр.
 
