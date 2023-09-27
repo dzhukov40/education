@@ -4152,11 +4152,63 @@
   - [Exercises]
     - (****) need check answers !!!!
     - 39.1 Write about the weather in the pictures. Use "It's ..."
-      1
-      2
-      3
-      4
-      
+      1 It's raining.
+      2 It's cold.
+      3 It's windy.
+      4 It's sunny.
+      5 It's snowing.
+      6 It's cloudy.
+    - 39.2 Write "it is"("it's") or "is it".
+      1 What time is it?
+      2 We have to go now. It's very late.
+      3 Is it true that Ben can fly a helicopter?
+      4 What day is it today? Tusday?
+        No, it's Wensday.
+      5 It is ten kilometers from the airport to the city center.
+      6 Is it OK to call you at your office?
+      7 Do you want to walk to the hotel?
+        I don't know.
+        How far is it?
+      8 It's Lisa's birthday today. She's 27.
+      9 I don't believe it!
+        It's impossible.
+    - 39.3 Write questions with "How far ... ?"
+      1 How far is it from here to the station?
+      2 How far is it from the hotel to the beach?
+      3 How far is it from Ney York to Washington?
+      4 How far is it from your house to the airport?
+    - 39.4 Write "it" or "there"
+      1 The weather isn't so nice today. It's cloudy.
+      2 There was a strong wind yesterday.
+      3 It's hot in this room. Open a window.
+      4 There was a nice day yesterday.
+        It was warm and sunny.
+      5 There was a storm last night. Did you hear it?
+      6 I was afraid because it was very dark.
+      7 It's often cold here, but it isn't much rain.
+      8 It's a long way from here to the nerest shop.
+    - 39.5 Complete the sentences.
+      1 If you go to bed late, 
+        it's difficult to get up early in the morning.
+      2 Hello jane.
+        It's nice to see you again.
+        How are you? 
+      3 It's impossible to work here.
+        There is too much noise.
+      4 Everybody is very easy at work.
+        It's nice to work here.
+      5 I like travelling.
+        It's interesting to visit different places.
+      6 Some cities are not safe.
+        It's dangerous to go out alone.
+
+
+
+40) [ Unit 40 ] I am, I don't etc.
+  - [A] 
+    
+
+
 
 
 
@@ -4165,7 +4217,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 87 в chrome
+  стр 89 в chrome
 
   (*) END: 115 Units, 240 стр.
 
