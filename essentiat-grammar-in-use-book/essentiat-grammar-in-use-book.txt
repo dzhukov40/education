@@ -4367,21 +4367,174 @@
         Oh, am I? I'm sorry.
       - I was ill last week.
         Were you? I didn't know that.
+      - It's raining again.
+        Is it? It was sunny ten minutes ago.
+      - THere's a problem with the car.
+        Is there? What's wrong with it?
+      -...
+      - Bill can't drive.
+        Can't he? I didn't know that.
+      - I'm not hungry.
+        Aren't you? I am.
+      - Sue isn't at work today.
+        Isn't she? Is she ill?
+      -...
+      - Use "do/does" for the "present simple" 
+        and "did" for "past simple".
+        - I speak four languages.
+          Do you? Which ones?
+        - Ben doesn't eat meat.
+          Doesn't he? Does he eat fish?
+        - Nicola got married last week.
+          Did she? Really?
+  -... 
+  - [B] Question tags.
+    - info:
+      You can use "have you? / is it? / can't she? etc"
+      at the end of a sentence.
+      These "mini-questions" are question tags.
+    -...
+    - "positive sentense" -> "negative question tag"
+      - It's a beautiful day, isn't it?
+        Yes, it's perfect.
+      - Kate lives in London, doesn't she?
+        Yes, that's right.
+      - You closed the window, didn't you?
+        Yes, I think so.
+      - Those shoes are nice, aren't they?
+        Yes, very nice.
+      - Tom will be here soon, won't he?
+        Yes, probably.
+    -...
+    - "negative sentence" -> "positive question tag"
+      - That isn't your car, is it?
+        No, it's my mother's.
+      - You haven't met my mother, have you?
+        No, I haven't.
+      - Helen doesn't go out much, does she?
+        No, she doesn't.
+      - You won't be late, will you?
+        No, I'm never late.
       
 
 
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 41.1 Answer with "Do you? / Doesn't she? / Did they? etc."
+      1 I speak four languages.
+        Do you? Which ones?
+      2 I wark in a bank.
+        Do you? I work in the bank too.
+      3 I didn't go to work yesterday.
+        Didn't you? were you ill?
+      4 Jane doesn't like me.
+        Doesn't she? Wgy not?
+      5 You look tired.
+        Do I? I feel fine.
+      6 Kate phoned me last night.
+        Did she? What did she say?
+    - 41.2 Answer with:
+           "Have you? / Haven't you? / Did she? / DIdn't she? etc."
+      0...
+      1 I've bought a new car.
+        Have you? What make is it?
+      2 Tim doesn't eat meat.
+        Doesn't he? Does he eat fish?
+      3 I've lost my key.
+        Have you? When did you last have it?
+      4 Sue can't drive.
+        Doesn't she? She should learn.
+      5 I was born in Italy.
+        Did you? I didn't know that.
+      6 I didn't sleep well last night.
+        Didn't you? Was the bed uncomfortable?
+      7 THere's film on TV tonight.
+        Is it? Are you going to watch it?
+      8 I'n not happy.
+        Are you? Why not?
+      9 I saw Paula last week.
+        Did you? How is she?
+      10 Maria works in a factory.
+         Does she? What kind of factory?
+      11 I won't be here next week.
+        Won't you? Where will you be?
+      12 The clock isn't working.
+         Isn't it? It was working yesterday.
+    -...
+    - 41.3 Complete these sentences with a question tag 
+           ( isn't it? / haven't you? etc.)
+      0...
+      1 It's a beautiful day, isn't it?
+        Yes, it's perfect.
+      2 These flowers are nice, aren't they?
+        Yes, what are they?
+      3 Jane was at the party, didn't she?
+        Yes, but I didn't speak to her.
+      4 You've been to Paris, haven't you?
+        Yes, meany times.
+      5 You speak German, don't you?
+        Yes, bun not very well.
+      6 Martin looks tired, doesn't he?
+        Yes, he works very hard.
+      7 You'll help me, won't you?
+        Yes, of course I will.
+    - 41.4 Complete these sentences with a question tag,
+           positive (is it? / do you? etc.)
+           or negative (isn't it / don't you? etc.).
+      0...
+      1 You haven't got a car, have you?
+        No, I can't drive.
+      2 You aren't tired, are you?
+        No, I feel fine.
+      3 Lisa is a very nice person, isn't she?
+        Yes, everybody like her.
+      4 You can play the piano, doesn't you?
+        Yes, but I am not very good.
+      5 You don't know Mike's sister, do you?
+        No, I've never met her.
+      6 Sarah went to university, didn't she?
+        Yes, she studied psychology.
+      7 The film wasn't very good, did it?
+        No, it was terrible.
+      8 Anna lives near you, does she?
+        That's right. In the same street.
+      9 You won't tell anybody what I said, will you?
+        No, of course not.
 
 
 
+41) [ Unit 42 ] too / either ; so am I / neither do I ; etc.
+  - [A] "too" and "either"
+    - We use "too" and "either" at the end of a sentence.
+      
 
+      We use "too" after                 We use "either" after
+      a possitive verb:                  a negative verb: 
+                                                                
+      - A: I'm happy.                    - A: I'm not happy.
+        B: I'm happy too.                  B: I'mnot happy either.
 
+      - A: I enjoyed the film.           - A: I can't cook.
+        B: I enjoyed it too.               B: I can't either.
 
-
-
-
-
-
-
+      - Jane is a doctor.                - Ben doesn't watch TV.
+        Her husband is a doctor too.       He doesn't read newspapers either.                              
+  -...
+  - [B] "so am I / neither do I" etc.
+                                                               
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
 
 
 
@@ -4391,7 +4544,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 91 в chrome
+  стр 93 в chrome
 
   (*) END: 115 Units, 240 стр.
 
