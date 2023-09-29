@@ -4521,20 +4521,160 @@
         Her husband is a doctor too.       He doesn't read newspapers either.                              
   -...
   - [B] "so am I / neither do I" etc.
-                                                               
+    - table
+    -------------------------------------
+    |             |   am / is / are ...               
+    |             |   was / were ...           
+    |             |   do / does ...         
+    |   so        |   did ...             
+    |   neither   |   have / has ...
+    |             |   can ...
+    |             |   will ...          
+    |             |   would ...  
+    -------------------------------------
+    -...
+
+    "so am I" = I am too                       "neither am I" = I'm not either
+    "so have I" = I have too (etc.)            "neither can I" = I can't either (etc.)
+                                                  
+    - A: I'm working.                          - A: I haven't got a key.        
+      B: So am I.                                B: Neither have I.            
+         (= I'm working too)                        (= I haven't either)     
                                                                 
-                                                                
-                                                                
-                                                                
-                                                                
-                                                                
-                                                                
-                                                                
-                                                                
-                                                                
-                                                                
-                                                                
-                                                                
+    - A: I was late for work today.            - A: Kate can't cook.              
+      B: So was Sam.                             B: Neither can Tom.              
+                                                              
+    - A: I work in a bank.                     - A: I won't be here tomorrow.                  
+      B: So do I.                                B: Neither will I.                     
+                                                                       
+    - A: We went to the cinema last night.     - A: I never go to the cinema.                    
+      B: Did you? So did we.                     B: Neither do I.             
+                                                                      
+    - A: I'd like to go to Australia.          - (**) We can use "Nor" (= Neither)                           
+      B: SO would I.                             A: I'm not married.                
+                                                 B: Nor am I. "or" Neither am I.                          
+                                                                                                                                           
+  - (*) Remember
+    - So am I.
+      (NOT! SO I am)
+    - Neither have I.
+      (NOT! Neither I have)                                                                                                                                       
+                                                                                                                                                 
+                                                                                                                                                 
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 42.1 Write "too" or "either".
+      1 I'm happy.
+        I'm happy too.
+      2 I'm not hungry.
+        I'm not hungry either.
+      3 I'm going out.
+        I'm goin out too.
+      4 It rained on Saturday.
+        It rained on Sunday too.
+      5 Rachel can't drive a car.
+        She can't drive a bike either.
+      6 I don't like shoping.
+        I don't like shoping either.
+      7 Emma's mother is a teacher.
+        Her father is a teacher too.
+    - 42.2 Answer with "So ... I" ("So am I / So do I / So can I" etc.).
+      1 I went to bed last night.
+        So did I.
+      2 I'm thirsty.
+        So am I. 
+      3 I've just eaten.
+        So have I.
+      4 I need a holiday.
+        So do I.
+      5 I'll be late tomorrow.
+        So will I.
+      6 I was very tired this morning.
+        So did I.
+      *...
+      7 I can't go to the party.
+        Neither can I.
+      8 I didn't phone Alex last night.
+        Neither did I.
+      9 I haven't got any money.
+        Neither have I.
+      10 I'm not going out tomorrow.
+         Neither am I.
+    - 42.3 You are talking to Maria.
+           Write sentences about yourself.
+           Where possible, use "SO ... I" or "Neither ... I".
+           Look at these examples carefully.
+      0...
+      1 I'm learning English.
+        So am I.
+      2 I can ride a bike.
+        So can I.
+      3 I'm not American.
+        Neither am I.
+      4 I like cooking.
+        I don't.
+      5 I don't like cold weather.
+        Neither do I.
+      6 I slept well last night.
+        I didn't.
+      7 I've never run a marathon.
+        I have.
+      8 I don't use my phone much.
+        I do.
+      9 I'm going out tomorrow evening.
+        So am I.
+      10 I haven't been to Scotland.
+         Neither have I.
+      11 I didn't watch TV last night.
+         Neithe did I.
+      12 I go to the cinema a lot.
+         I don't.
+
+
+
+
+43) [ Unit 43 ] isn't ; haven't ; don't ; etc. (negatives)
+  - [A] We use "not"("n't") in negative senteces:
+    - "positive" -> "negative"
+
+      am         -> am not       ('m not)                                                   
+      is         -> is not       (isn't or 's not)                                                      
+      are        -> are not      (aren't or 're not')                                                   
+      was        -> was not      (wasn't)                                                      
+      were       -> were not     (weren't)                                                   
+      have       -> have not     (haven't)                                                      
+      has        -> has not      (hasn't)                                                   
+      will       -> will not     (won't)                                                      
+      can        -> cannot       (can't)                                                   
+      could      -> could not    (couldn't)                                                      
+      must       -> must not     (mustn't)                                                   
+      should     -> should not   (shouldn't)                                                      
+      would      -> would not    (wouldn't)  
+    -...
+    - examples
+      - I'm not tired.
+      - It isn't (or It's not) raining.
+      - They aren't (or They're not) here.
+      - Julian wasn't hungry.
+      - The shops weren't open.
+      - I haven't finished my work.
+      - Sue hasn't got a car.
+      - We won't be here tomorrow.
+      - George can't drive.
+      - I couldn't sleep last night.
+      - I mustn't forget to phone Jane.
+      - You shouldn't work so hard.
+      - I wouldn't like to be an actor.                                                   
+  -...
+  - [B]
+    - "don't / doesn't / didn't"
+      -
+                                                
+                                                                                                                                     
+                                                                                 
+
+
 
 
 
@@ -4544,7 +4684,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 93 в chrome
+  стр 95 в chrome
 
   (*) END: 115 Units, 240 стр.
 
