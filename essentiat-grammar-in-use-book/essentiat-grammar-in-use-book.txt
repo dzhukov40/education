@@ -4669,10 +4669,216 @@
   -...
   - [B]
     - "don't / doesn't / didn't"
-      -
-                                                
-                                                                                                                                     
+      - table:
+                  ----------------|---------------------|-----------------
+                    I/we/you/they | do not (don't)      |
+"present simle                    |---------------------|   
+ negative"              he/she/it | does not (doesn't)  |
+                  ----------------|---------------------| work / live / go etc.
+                    I/we/you/they |                     |
+"past simple                      | did not (didn't)    | 
+ negative"              he/she/it |                     |        
+                  ----------------|---------------------|-----------------     
+      -...
+
+      "positive" --------------------> "negative"
+
+      I want to go out.                I don't want to go out.
+      They work hard.                  They don't work hard.
+      Lisa plays the guitar.           Lisa doesn't play the guitar.
+      My father likes his job.         My father doesn't like his job.
+
+      I got up early this morning.     I didn't get up early this morning.
+      They worked hard yesterday.      They didn't work hard yesterday.
+      We played tennis.                We didn't play tennis.
+      Emily had dinner with us.        Emily didn't have dinner with us.
+    -...
+    - "Don't ...'
+      - Look!            Don't look!
+      - Wait for me.     Don't wait for me.   
+    -...
+    - Sometimes "do" is the main verb
+      (don't do / doesn't do / didn't do)
+      - Do something!                        Don't do anything!
+      - Sue does a lot at weekends.          Sue doesn't do much at weekends.
+      - I did what you said.                 I didn't do what you said.                                                                                                                              
                                                                                  
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 43.1 Make these sentences negative.
+      1 He's gone away.
+        He hasn't gone away.
+      2 They're married.
+        They aren't married.
+      3 I've had dinner.
+        I haven't had dinner.
+      4 It's cold today.
+        It isn't cold today.
+      5 We'll be late.
+        We won't be late.
+      6 You shold go.
+        You shouldn't go.
+    - 43.2 Make these sentences negative.
+           Use "don't / doesn't / didn't"
+      0 ...   
+      1 She saw me.
+        She didn't see me.
+      2 I like cheese.
+        I don't like cheese.
+      3 They understood.
+        They didn't understand.
+      4 He lives here.
+        He doesn't live here.
+      5 Go away!
+        Don't go away.
+      6 I did the shopping.
+        I didn't the shopping.
+    - 43.3 Make these sentences negative.
+      1 She can swim.
+        She can't swim.
+      2 They've arrived.
+        They haven't arrived.
+      3 I went to the bank.
+        I didn't go to the bank.
+      4 He speaks German.
+        He doesn't speak German.
+      5 We were angry.
+        We weren't angry.
+      6 He'll pleased.
+        He won't pleased.
+      7 Call me tonight.
+        Don't call me tonight.
+      8 It rained yesterday.
+        It didn't rain yesterday.
+      9 I could hear them.
+        I couldn't hear them.
+      10 I believe you.
+         I don't believe you.
+    - 43.4 Complete these sentences with a negative verb
+           (isn't / haven't / don't / etc.)
+      0...
+      1 They aren't rich.
+        They haven't got much money.
+      2 Would you like something to eat?
+        No, thank you. 
+        I am not hungry.
+      3 I can't find my glasses.
+        Have you seen them?
+      4 Steve don't go to the cinema much.
+        He prefers to watch DVDs ah home.
+      5 We can walk to the station from here.
+        It isn't very far.
+      6 Where's Jane?
+        I don't know.
+        I haven't seen her today.
+      7 Be careful!
+        Don't fall!
+      8 We went to a restaurant last night.
+        I didn't like the food very much.
+      9 I've been to Japan many times, but I haven't been to Korea.
+      10 Julia won't be here tomorrow.
+         She's going away.
+      11 Who broke that window?
+         Not me. I didn't do it.
+      12 We didn't see what happend.
+         We aren't looking at the time.
+      13 Lisa bought a new coat a few days ago,
+         but she hasn't worn it yet.
+      14 You can't drive so fast.
+         It's dangerous.
+    - 43.5 You ask Gary some questions.
+           He answers "Yes" or "No".
+           Write sentences about Gary, positive or negative.
+      0...
+      1 Are you married? (No)
+        - He isn't married.
+      2 Do you live in London? (Yes)
+        - He lives in London.
+      3 Were you born in London? (No)
+        - He wasn't born in London.
+      4 Do you like London? (No)
+        - He don't like London.
+      5 Would you like to live in the country? (Yes)
+        - He would like to live in the country.
+      6 Can you drive? (Yes)
+        - He can drive.
+      7 Have you got a car? (No)
+        - He haven't got a car.
+      8 Do you read newspapers? (No)
+        - He didn't read newspapers.
+      9 Are you interested in politics? (No)
+        - He isn't intersested in politics.
+      10 Do you watch TV most evenings? (Yes)
+        - He watch TV most evenings.
+      11 Did you watch TV last night? (No)
+        - He didn't watch TV last night.
+      12 Did you go out last night? (Yes)
+        - He went out last night.      
+
+
+
+44) [ Unit 44 ] is it ... ? ; have you ... ? ; 
+                do they ... ? etc. (question 1)
+  - [A]
+    - main example:
+      - "positive":     You   are   eating.
+                        ---   ---
+                         |     |
+                      ---|------ 
+                      |  |_____
+                      |        | 
+                     ---      --- 
+      - "question":  Are      you  eating ?        
+    -...
+    - info:
+      - In questions, the first verb
+        (is / are / have / etc. ) is before the subject:
+    -...
+    - table:
+    |                                  |
+    | "positive"                       |       "question"
+    | "subject + verb"                 |       "verb + subject"
+    |----------------------------------|-------------------------------
+    |         I    am late.           -->        Am   I late? 
+    | That seat    is free.           -->        Is   that seat free?     
+    |       She    was angry.         -->   Why was   she angry?
+    |     David    has gone.          --> Where has   David gone?           
+    |       You    have got a car.    -->      Have   you got a car?
+    |      They    will be here soon. --> When will   they be here?
+    |     Paula    can swim.          -->       Can   Paula swim?       
+    -------------------------------------------------------------------  
+    -...
+    - (*) Remember: the subject is after the first verb.
+      - Where has David gone? 
+        (NOT! Where has gone David?)
+      - Are those people waiting for something?
+        (NOT! Are waiting ... ?)
+      - When was the telephone invented?
+        (NOT! When was invented ... ?)
+  -...
+  - [B] "do ... ? / does ... ? / did ... ?"
+    - table:
+          -------------------|-----------------|-----------------
+    "present simple      do  |                 |   
+     questin"          does  |  he/she/it      |
+          -------------------|-----------------|  work / live go / etc. ... ?
+    "past simple             | I/we/you/they   | 
+     question"         did   | he/she/it       |
+          -------------------|-----------------|-----------------
+    -...
+    - examples:
+    
+
+
+
+
+
+
+
+
 
 
 
@@ -4684,7 +4890,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 95 в chrome
+  стр 97 в chrome
 
   (*) END: 115 Units, 240 стр.
 
