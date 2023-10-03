@@ -4870,9 +4870,117 @@
           -------------------|-----------------|-----------------
     -...
     - examples:
-    
+    |                              |
+    | "positive"                   |       "question"
+    |                              |        
+    |------------------------------|-------------------------------
+    | They    work hard.          -->            Do they   work hard? 
+    |  You    watch television.   -->   How often do you   watch television?    
+    | Cris    warks hard.         -->         Does Chris   work hard?
+    |  She    gets up early.      --> What time does she   get up?         
+    |                                        
+    | They    worked hard.        -->           Did they   work hard?
+    |  You    had dinner.         -->       What did you   have for dinner?
+    |  She    got up early.       -->  What time did she   get up?
+    ---------------------------------------------------------------  
+    -...
+    - (*) Sometimes "do" is the main verb 
+          ( do you do / did he do / etc. )
+      -...
+      - What do you usually do at weekends?
+      - A: What does your brother do?
+        B: He works in a bank.
+      - A: I broke my finger last week.
+        B: How did you do that?
+           (NOT! How did you that?)
+  -...
+  - [C] "Why isn't ... ? / Why don't ... ? / etc."
+        (Why + "negative")
+    -...
+    - Where's John?
+      Why isn't he here?
+      (NOT! Why he isn't here?)
+    - Why can't Paula come to the meeting tomorrow?
+      (NOT! Why Paula can't ...?)
+    - Why didn't you phone me last night?
 
 
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 44.1 Write questions.
+      1 I can swim. (and you?)
+        Can you swim?
+      2 I work hard. (and Jack?)
+        Does Jack work hard?
+      3 I was late this morning. (and you?)
+        Did you late this morning.
+      4 I've got a key. (and Kate?)
+        Has Kate got a key?
+      5 I'll be here tomorrow. (and you?)
+        Will you be here tomorrow?
+      6 I'm going out this evening. (and Paul?)
+        Is Paul going out this evening?
+      7 I like my job. (and you?)
+        Do you like your job?
+      8 I live near here. (and Nicola?)
+        Does she live near here?
+      9 I enjoyed the film. (and you?)
+        Did you enjoy the film?
+      10 I had a good holiday. (and you?)
+        Did you have a good holiday?
+    - 44.2 You are talking to a friend about driving.
+           Write the full questions.
+      0...
+      1 Have you got a car?
+      2 Do you use it a lot?
+      3 Did you use it yesterday?
+      4 Do you enjoy driving?
+      5 Are you a good driver?
+      6 Have you ever had an accident? 
+    - 44.3 Make questions with these words.
+           Put the words in the right order.
+      0...
+      1 Where has David gone?
+      2 Is Rachel working today?
+      3 What are the children doing?
+      4 How is cheese made?
+      5 Is your sister coming to the party?
+      6 Why don't you tell the truth?
+      7 Have your gusts arrived yet?
+      8 What time does your train lave?
+      9 Why didn't Emily go to work?
+      10 Was your car damaged in the accident?
+    - 44.4 Complete the questions.
+      1 I want to go out.
+        Where do you want to go?
+      2 Kate and Paul aren't going to the party.
+        Why aren't they going?
+      3 I'm reading.
+        What are you reading?
+      4 Sue went to bed early.
+        What time did she go to bed?
+      5 My parents are going on holiday.
+        When are your parents going?
+      6 I saw Tom a few days ago.
+        Where did you see Tom a few days ago?
+      7 I can't come to the party.
+        Why can't you come to the party?
+      8 Tina has gone away.
+        Where has Tina gone?
+      9 I need some money.
+        How much do you need?
+      10 Angela doesn't like me.
+        Why doesn't Angela like me?
+      11 It rains sometimes.
+        How often does it rain?
+      12 I did the shopping.
+        When did you the shopping?
+
+
+
+45) [ Unit 45 ] Who saw you? ; Who did you see? (question 2)
+  - [A]
 
 
 
@@ -4890,7 +4998,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 97 в chrome
+  стр 99 в chrome
 
   (*) END: 115 Units, 240 стр.
 
