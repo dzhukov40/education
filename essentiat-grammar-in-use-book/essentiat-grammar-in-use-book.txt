@@ -4981,6 +4981,161 @@
 
 45) [ Unit 45 ] Who saw you? ; Who did you see? (question 2)
   - [A]
+    - main example:
+      "Silvia saw Paul."
+        1. Who saw Paul?
+           Silvia. (Silvia saw him.)
+
+        2. Who did Silvia see?
+           Paul. (She saw Paul.)
+    -...
+    - description:
+
+                    "Silvia" saw Paul."
+                             ||
+        ---------------------  -----------------------            
+        |                                            |
+    [subject]                                     [object]
+        |                                            |
+   "Somebody" sa Paul.                       Silvia saw "somebody"
+        |                                            |
+   "Who" saw Paul?                           "Who" did Silvia see?
+   
+   Silvia. (Silvia saw him.)                 Paul. (She saw Paul.)
+
+   "who" is the [subject]                    "who" is the [object]
+   "Paul" is the [object]                    "Silvia" is the [subject]
+  -...
+  - [B] 
+    - in these questions, "who/what" is the subject.
+      - Who lives in this house?
+        (= somebody lives in it - who?)
+        (NOT! Who does live?)
+      - What happend?
+        (= something happened - what?)
+        (NOT! What did happen?)
+      - What's happening?
+        (What's = What is)
+      - Who's got my key?
+        (Who's = Who has)
+    - in these questions, "who/what" is the object.
+      - Who did you meet yesterday?
+        (= you meet somebody - who?)
+      - What did Paul say? 
+        (= Paul said something - what?)
+      - Who are you phoning?
+      - What was Silvia weiring?
+    -...
+    - Compare
+      - George like oranges.
+        - Who likes oranges? - George.
+        - What does George like? - Oranges.
+      - Jane won a new car.
+        - Who won a new car? - Jane
+        - What did Jane win? - A new car.
+  -...
+  - [C]
+    - Use "who" for people (somebody).
+      Use "what" for things, ideas etc. (something)
+      - Who is your favorite singer?
+      - What is your favourite song? 
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 45.1 Make questions with "who" or "what".
+           In these questions, "who/what" is the subject.
+      0...
+      1 Somebody broke the window.
+        - Who broke the window?
+      2 Something fell off the shelf.
+        - What fell off the shelf?
+      3 Somebody wants to see you.
+        - Who wants to see me?
+      4 Somebody took my umbrella.
+        - Who took my your umbrella?
+      5 Something made me ill?
+        - What made you ill?
+      6 Somebody is comming.
+        - Who is comming?
+  -...
+  - 45.2 Make questions with "who" or "what" (subject or object)
+    0...
+    1 I bought something.
+      - What did you buy?
+    2 Somebody lives in this house.
+      - Who lives in this house?
+    3 I phoned somebody.
+      - Who did you phone?
+    4 Something happend last night.
+      - What happend last night?
+    5 Somebody knows the answer.
+      - Who knows the answer?
+    6 Somebody did the washing-up.
+      - Who did the washing-up?
+    7 Jane did something.
+      - What did Jane do?
+    8 Something woke me up.
+      - What woke me up?
+    9 Somebody saw the accident.
+      - Who saw the accident?
+    10 I saw somebody.
+      - Who did I see?
+    11 Somebody has got my pen.
+      - Who has got my pan?
+  -...
+  - 45.3 You want the missing information (XXXXX).
+         Write questions with "who" or "what".
+    0...
+    1 I lost XXXXX yesterday, but fortunately
+      XXXXX found it and gave it back to me.
+      - What did you lose?
+        Who found it?
+    2 XXXXX phoned me last night.
+      She wanted XXXXX.
+      - Who phoned me last night?
+        What did she want?
+    3 I needed some advice, so I asked XXXXX.
+      He said XXXXX.
+      - Who did you ask?
+        What did he say?
+    4 I hear that XXXXX got married last week.
+      XXXXX told me.
+      - Who got married last week?
+        Who told you?
+    5 I met XXXXX on my way home this evening.
+      She told me XXXXX.
+      - Who did you meet on your way home this evening?
+        What did she tell you?
+    6 Steve and I played tennis yesterday.
+      XXXXX won. After the game we XXXXX.
+      - Who won?
+      - What did you do after the game?
+    7 It was my birthday last week and I had some presents.
+      XXXXX gave me a book and Catherine gave me XXXXX.
+      - Who gave you a book?
+        What did Catherine give you?
+
+
+
+
+46) [ Unit 46 ] Who is she talking to?
+                What is it like? (question 3)
+  - [A]
+    - main example:
+      - Jessica is talking to somebody.
+        Who is she talking to?
+    -...
+    - In questions beginning: 
+      "Who ...? / What ...? / Where ...? / WHich ...?",
+      prepositions ("to/from/with/ etc.") usually go to the end.
+      - Where are you from?
+        I'm from Thailand.
+      - Jack was afraid.
+        What was he afraid of?
+
+
 
 
 
@@ -4998,7 +5153,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 99 в chrome
+  стр 101 в chrome
 
   (*) END: 115 Units, 240 стр.
 
