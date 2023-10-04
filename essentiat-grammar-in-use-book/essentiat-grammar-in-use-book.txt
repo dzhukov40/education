@@ -5134,15 +5134,113 @@
         I'm from Thailand.
       - Jack was afraid.
         What was he afraid of?
+      - Who do these books belong to?
+        They're mine.
+      - Tom's father is in hospital.
+        Which hospital is he in?
+      - Kate is going on holiday.
+        Who with? / Who is she going with?
+      - Can we talk?
+        Sure. What do you want to talk about?
+  -...
+  - [B] What's it like? / What are they like? etc.
+    - main example:
+      - What's it like? 
+        (= What is it like?)
+      - What's it like? => tell me something 
+        about it - is it good or bad, big or small,
+        old or new (etc.)?
+    -...
+    - When we say "What is it like?", "like" is a preposition.
+      It is not the verb "Like" 
+      (Do you like your new house? etc.)
+      - A: There's a new restaurant in our street.
+        B: What's it like? Is it good?
+        A: I don't know. I haven't eaten there yet.
+
+      - A: What's your new teacher like?
+        B: She's very good. We learn a lot.
+
+      - A: I met Nicola's parents yesterday. 
+        B: Did you? What are they like?
+        A: They're very nice.
+
+      - A: Did you have a good holiday?
+           What was the weather like?  
+        B: It was lovely. It was sunny every day.
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 46.1 You want the missing information (XXXXX).
+           Write questions with "who" or "what".
+      0...
+      1 The letter is from XXXXX.
+        - Who is the letter from?
+      2 I'm looking for a XXXXX.
+        - What are you looking for?
+      3 I went to the cinema with XXXXX.
+        - Who did you go to the cinema with?
+      4 The film was about XXXXX.
+        - What was the film about?
+      5 I gave the money to XXXXX.
+        - Who did you give the money to?
+      6 The book was written by XXXXX.
+        - Who was the book written by?
+    - 46.2 Write questions about the people in the pictures.
+           Use these verbs + a preposition.
+      0...
+      1 Who is she talking to?
+      2 What are they looking to?
+      3 Which restaurant is he going to?
+      4 What are they talking about?
+      5 What is she listening to?
+      6 Which bus are they waiting for?
+    - 46.3 Write questions beginning "Which ...?"
+      0...
+      1 Tom's father is in hospital.
+        - Which hospital is he in?
+      2 We stayed at a hotel.
+        - Which hotel did you stay at?
+      3 Jack plays for a football team.
+        - Which football team does Jack play for?
+      4 I went to school in this tow.
+        - Which school did you go to?
+    - 46.4 You want some informationabout another country.
+           You ask somebody who has been there.
+           Ask questions with "What is / are ... like?"
+      0...
+      1 What are the roads like?
+      2 What is the food like?
+      3 What are the people like?
+      4 What is the weather like?
+    - 46.5 Ask questions with "What was/were ... like ?"
+      1 Your friend has just come back from holiday.
+        Ask about the weather.
+        - What was the weather like?
+      2 Your friend has just come back from the cinema.
+        Ask about the film.
+        - What was the film like?
+      3 Your friend has just finished an English course.
+        Ask about the lessons.
+        - What were lessons like?
+      4 Your friend has just come back from holiday.
+        Ask about the hotel.
+        - What was the hotel like?
 
 
 
 
-
-
-
-
-
+47) [ Unit 47 ] What ...? / Which ...? / How ...? (question 4)
+  - [A]
+    - "What" + noun (What colour ...?/What kind ...? etc)
+      -
+      -
+      -
+    - "What" without a noun
+      -
+      -
 
 
 
@@ -5153,7 +5251,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 101 в chrome
+  стр 103 в chrome
 
   (*) END: 115 Units, 240 стр.
 
