@@ -5234,13 +5234,197 @@
 
 47) [ Unit 47 ] What ...? / Which ...? / How ...? (question 4)
   - [A]
-    - "What" + noun (What colour ...?/What kind ...? etc)
-      -
-      -
-      -
+    - "What" + noun (What colour ...? / What kind ...? etc)
+      - What colour is your car?
+      - What size is this shirt?
+      - What time is it?
+      - What kind of job do you want?
+        (or What type of job ...? / What sort of job ...?)
+      - What colour are your eyes?
+      - What make is your TV?
+      - What day is it today?
     - "What" without a noun
-      -
-      -
+      - What's your favourite colour?
+      - What do you want to do tonight?
+  -...
+  - [B]
+    - "Which" + noun (things or people)
+      - "WHich train" did you catch - the 9.50 or the 10.30?
+      - "Which doctor" did you see - Doctor Elis,
+        Doctor Gray or Doctor Hill?
+    - We use "which" without a noun for things, not people.
+      - Which is bigger - Canada or Australia?
+    - We use "who" for people (without a noun)
+      - Who is taller - Joe or Gary?
+        (NOT! Which is taller?)
+  -...
+  - [C] "What" or "which"?
+    - We use "which" when we are thinking 
+      about a small number of possibilities (perhaps 2,3 or 4)
+      - We can go this way or this way.
+        Which way shall we go?
+      - There are four umbrellas here.
+        Which is yours?
+    -...
+    - "What" is more general
+      - What's the capital of Argentina?
+        (of all the cities in Argentina)
+      - What sort of music do you like?
+        (of all kinds of music)
+    -...
+    - Compare
+      - What colour are his eyes?
+        (NOT! Which colour?)
+        Whic coulor do you prefer, pink or yellow?
+      - What is the longest river in the world?
+        Which is the longest river - the
+        Mississippi, the Amazon or the Nile?
+  -...
+  - [D] "How ... ?"
+    - How was the party last night?
+      It was great.
+    - How do you usually go to work? 
+      By bus.
+    -...
+    - You can use "how" + adjective/adverb 
+      (how tall / how old / how often / etc.)  
+      - table
+    ---------------------------------------------------
+    |      | tall are you?                         I'm 1 metre 70.
+    |      | big is the house?                     Not very big. 
+    |      | old is your mother?                   She's 45.
+    | How  | far is it from here to the airport?   Five kilometres.          
+    |      | often do you use your car?            Every day.
+    |      | long have they been married?          Ten yeas.
+    |      | much was the meal?                    Thirty pounds.
+    ---------------------------------------------------
+     
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 47.1 Write questions with "what".
+      0...
+      1 I've got a new TV. (make?)
+        - What make is it?
+      2 I want a job. (kind?)
+        - What kind of job do you want?
+      3 I bought a new sweater. (colour?)
+        - What color is it? 
+      4 I got up early this morning. (time?)
+        - What time did you get up?
+      5 I like music. (type?)
+        - What type of music do you like? 
+      6 I want to buy a car. (kind?)
+        - What kind of car do you want?
+    -...
+    - 47.2 Complete the questions. Use "Which ...?" 
+      1 Which way shall we go?
+      2 Which film do you want to see?
+      3 Which coat is yours?
+      4 Which bus goes to the center?
+    -...
+    - 47.3 Write "what / which / who"
+      1 What is that man's name?
+      2 Which way shall we go? Lift or right?
+      3 You can have tea or coffee.
+        Which do you prefer?
+      4 What day is it today? Friday.
+      5 This is a nice office.
+        What desk is yours?
+      6 What is your favourite sport?
+      7 Which is more expensive, meat of fish?
+      8 Who is older, Liz or Steve?
+      9 What kind of camera have you got?
+      10 A: I have three cameras.
+         B: Which camera do you use most?
+      11 What nationality are you?
+    -...
+    - 47.4 Complete the questions with 
+           "How" + adjective or adverb (high / long / etc.)
+      0...
+      1 How high is Mount Everest?
+        Nearly 9000 meters.
+      2 How long is to the station?
+        It's about two kilometres from here.
+      3 How old is Helen?
+        She's 26.
+      4 How often do the busses run?
+        Every ten minutes.
+      5 How deep is the water in the pool?
+        Two metres.
+      6 How long have you lived here?
+        Nearly three years.
+    -...
+    - 47.5 Write questions with "How ...?"   
+      1 Are you 1 metre 70? 1.75? 1.80?
+        - How tall are you?
+      2 Is this box one kilogram? Two? Three?
+        - How much is this box ?
+      3 Are you 20 years old? 22? 25?
+        - How old is you?
+      4 Did you spend 20? 30? 50?
+        - How nuch did you spend?
+      5 Do you watch TV every day? Once a week? Never?
+        - How often do you watch TV?
+      6 Is it 1000 miles from Paris to Moscow? 1500? 2000?
+        - How far is it from Paris to Moscow? 
+
+
+
+48) [ Unit 48 ] How long does it take ...?
+  - [A] "How long does it take" from ... to ... ?
+    - main examle:
+      - How long does it take 
+        by plane from New York to Washington?
+        It takes an hour.
+    - examples:
+      - How long does it take by train from London to Manchester?
+      - It takes two hours by train from London to Manchester.
+      - How long does it take by car from house to the station?
+      - It takes ten minutes by car from my house to the station.
+  -...
+  - [B] "How long does it take to" do something?
+    - question
+    |-----------|--------|----------------------  
+    |           |        |                        
+    |           |        |                          
+    |           |  does  |                         
+    | How long  |  did   |  it take to ... ?                                 
+    |           |  will  |                             
+    |           |        |                          
+    |           |        |                         
+    |-----------|--------|----------------------   
+    -...
+    - answer
+    |-----|--------------------|---------------|-------  
+    |     |  takes             |  a week       |                 
+    |     |  took              |  a long time  |                      
+    |     |  will take         |  three hours  |                     
+    | It  |-----------|--------|---------------|  to ...                               
+    |     |  doesn't  |        |               |         
+    |     |  didn't   |  take  |  long         |      
+    |     |  won't    |        |               |     
+    |-----|-----------|--------|---------------|-------   
+    -...
+    - examples:
+      - How long does it take to cross the Atlantic by ship?
+      - I came by train Did you? 
+        How long did it take (to get here)?
+      - How long will it take to get from here to the hotel?
+      -...
+      - It takes a long time to learn a language.
+      - It doesn't take long to cook an omeletette.
+      - It won't take long to fox the computer.
+  -...
+  - [C] "How long does it take you to" do something?
+    - question
+
+
+
+
+
+
 
 
 
@@ -5251,7 +5435,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 103 в chrome
+  стр 105 в chrome
 
   (*) END: 115 Units, 240 стр.
 
