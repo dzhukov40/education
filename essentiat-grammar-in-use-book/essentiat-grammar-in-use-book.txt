@@ -5500,7 +5500,209 @@
 49) [ Unit 49 ] Do you know where ...? 
                 I don't know what ... etc.
   - [A]
-    - 
+    - main example
+
+      We say:             Where  is  Paula?
+                                 |
+                                 ---------- 
+                                           |
+      but:         Do you know where Paula is ?
+                   (NOT! DO you know where is Paula?)
+
+    - table
+      -----------------|-----------------------
+               I know  |
+         I don't know  |  where Paula is
+      Can you tell me  |
+      -----------------|-----------------------
+    -...
+    - Compare
+      
+                           * "BUT" *
+                                 ------------------|-------------------------|----
+      Who are those people?                        | who those people are    |   
+      How old is Nicola?              Do you know  | how old Nicola is       | 
+      What time is it?            Can you tell me  | what time it is         | ?   
+      Where can I go?                              | where I can go          |      
+      Gow much is this camera?    ---------------- | how much this camera is |----                   
+      When are you going away?             I know  | when you're going away  |                 
+      Where have they gone?          I don't know  | where they have gone    | .                
+      What was Kate wearing?     I don't remember  | what Kate was wearing   |          
+                                 ------------------|-------------------------|----                            
+  -...
+  - [B]
+    - Questions with "do/does/did" (present simple and past simple)
+
+                    Where does he live?
+                               |
+      but:   Do you know where he lives?
+             (NOT! Do you jnow where does he live?)
+    -...
+    - Compare
+
+                           * "BUT" *
+                                 ------------------|-------------------------|----
+      How do aerplanes fly?           Do you know  | how old Nicola is       | ?
+      What does Jane want?       ------------------| what Jane wants         |----
+      Why did she go home?                 I know  | when she went home      |   
+      Where did I put the key?       I don't know  | where I put the key     | . 
+                                 I don't remember  |                         |  
+                                 ------------------|-------------------------|----         
+  -...
+  - [C]
+    - Questons beginning "Is ...? / DO ...? / Can ...? / etc." (yes/no questions)
+    -...
+    - Compare
+
+                           * "BUT" *
+                                ---------------|---------|----------------------|----
+      Is Jack ah home ?           Do you know  |         | Jack is at home      | ?
+      Have they got a car ?                    |   if    | they've got a car    |
+      Can Ben swim ?            ---------------|   or    | Ben can swim         |---   
+      Do they live near here ?   I don't know  | whether | they live near here  | . 
+      DId anybody see you ?                    |         | anybody saw you      |  
+                                ---------------|---------|----------------------|----  
+
+    -...
+    - You can use "if" or "whether" in these sentences:
+      - 
+        Do you know if they've got a car?
+        (*) OR
+        Do you know whether the've got a car?
+      - 
+        I don't know if anybody saw me.
+        (*) OR
+        I don't know whether anybody saw me. 
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 49.1 Answer these questions with
+           "I don't know where / when / why / etc."
+      0...
+      1 Have your friends gone home?
+        - I don't know where they've gone.
+      2 Is Kate in her office?
+        - I don't know where Kate is.
+      3 Is the castle very old?
+        - I don't know how old castle is.
+      4 Will Paul be here soon?
+        - I don't know when Paule will be here.
+      5 Was he angry because I was late?
+        - I don't know why he was angry because I was late.   
+      6 Has Emily lived here a long time?
+        - I don't know how long Emily lived here.
+    -...
+    - 49.2 Complete the sentences.
+      0...
+      1 How do airplanes fly?
+        - Do you know how airplanes fly?
+      2 Where does Susan work?
+        - I don't know where Susan works.
+      3 What did Peter say?
+        - Do you remember what Peter says?
+      4 Why did he go home early?
+        - I don't know why he went home early.
+      5 What time does the meeting begin?
+        - DO you know what time the meeting begins?
+      6 How did the accident happen?
+        - I don't remember how the accident happened.
+    -...
+    - 49.3 Which is right?
+      0...
+      1 Do you know what time it is?
+      2 Why are you going away?
+      3 I don't know where they are going.
+      4 Can you tell me where the museum is?
+      5 Where do you want to go for your holidays?
+      6 Do you know what elephans eat?
+      7 I don;t know how far it is from the hotel to the station.
+    -...
+    - 49.4 Write questions with "Do you know if ...?"
+      0...
+      1 Have they got a car?
+        - Do you know if they've got a car?
+      2 Are they married?
+        - Do you know if they married?
+      3 Does Sue know Bill?
+        - Do you know if Sue knows Bill?
+      4 Will Gary be here tomorrow?
+        - Do you know if Gary will be here tomorrow?
+      5 Did he pass his exam?
+        - Do you know if he passed his exam?
+    -...
+    - 49.5 Write questions with "DO you know if ...?"
+      0...
+      1 (What does Laura want?)
+        - Do you know what Laura wants?
+      2 Where is Paula?
+        - Do you know where Paula is?
+      3 Is she working today?
+        - Do you know she is working today? 
+      4 What time does she start work?
+        - Do you know what time she start work?
+      5 Are the shops open tomorrow?
+        - Do you know the shops are open tommorow?
+      6 Where do Sarah and Jack live?
+        - Do you know where Sarah and Jack live?
+      7 Did they go to Jane's party?
+        - Do you know they went to Jane's party?
+    -...
+    - 49.6 Use your own ideas to complete these sentences.
+      0...
+      1 Do you know why the bus was late?
+      2 Do you know what time we went home?
+      3 Excuse me, can you tell me where the bus station is?
+      4 I don't know what Kate think about a food.
+      5 Do you know if Tom passed his exam?
+      6 Do you know how much time I spent learning English?
+
+
+
+
+
+50) [ Unit 50 ] She said that ... / He told me that ...
+  - [A]
+    - huge example
+
+
+    Last week you                         |          Today you meet Paul.                            
+    went to a party.                      |          You tell him about the party.                                                                           
+    A lot of your friends                 |          You tell Paul what                                     
+    were there.                           |          your friends said:                                       
+    Here are some things                  |                                             
+    they said to you:                     |                                                  
+   -----------------------------------------------------------------------------  
+
+   - [ CLARE ]                       
+     - I'm enjoying my new job.        am |     
+     - My father isn't well.              |-> was
+                                       is |  
+                                                                                                                  
+                                          |                                                                                                                                           
+                                          |               
+                                          |               
+                                          |               
+                                          |               
+
+                                          |                                                                                                                                           
+                                          |               
+                                          |               
+                                          |               
+                                          |    
+                                                                                                                  
+                                          |                                                                                                                                           
+                                          |               
+                                          |               
+                                          |               
+                                          |               
+
+                                          |                                                                                                                                           
+                                          |               
+                                          |               
+                                          |               
+                                          |  
 
 
 
@@ -5515,7 +5717,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 107 в chrome
+  стр 109 в chrome
 
   (*) END: 115 Units, 240 стр.
 
