@@ -5667,42 +5667,134 @@
     - huge example
 
 
-    Last week you                         |          Today you meet Paul.                            
-    went to a party.                      |          You tell him about the party.                                                                           
-    A lot of your friends                 |          You tell Paul what                                     
-    were there.                           |          your friends said:                                       
-    Here are some things                  |                                             
-    they said to you:                     |                                                  
+    Last week you                     |             Today you meet Paul.                            
+    went to a party.                  |             You tell him about the party.                                                                           
+    A lot of your friends             |             You tell Paul what                                     
+    were there.                       |             your friends said:                                       
+    Here are some things              |                                              
+    they said to you:                 |                                                   
    -----------------------------------------------------------------------------  
 
-   - [ CLARE ]                       
-     - I'm enjoying my new job.        am |     
-     - My father isn't well.              |-> was
-                                       is |  
-                                                                                                                  
-                                          |                                                                                                                                           
-                                          |               
-                                          |               
-                                          |               
-                                          |               
+  - [ CLARE ]                       
+    - I'm enjoying my new job.     am |           - Clare said that she was enjoying
+    - My father isn't well.           |-> was       her new job.
+                                   is |           - She said that her father wasn't
+                                                    well.                                                            
+  - [ SARAH ]                                         
+    - We're going                 are |-> were    - Sarah and Ben said that they         
+      to buy a house.                 |             were going to buy a house.
+                                                           
+  - [ PETER ]                                          
+    - I have to leave early.     have |           - Peter said that he had to leave early.      
+    - My sister has                   |-> had     - He said that his sister had gone               
+      gone to Australia.          has |             to Australia.
+                                                      
+  - [ KATE ]                                             
+    - I can't find a job.         can |-> could   - Kate said that she couldn't find  
+                                                    a job.                                                                                                                               
+                                      
+  - [ STEVE ]                
+    - I'll phone you.            will |-> would   - Steve said that he would phone me. 
 
-                                          |                                                                                                                                           
-                                          |               
-                                          |               
-                                          |               
-                                          |    
-                                                                                                                  
-                                          |                                                                                                                                           
-                                          |               
-                                          |               
-                                          |               
-                                          |               
+  
+  - [ RACHEL ]
+    - I don't like my job.         do |           - Rachel said that she didn't like
+    - My son doesn't                  |-> did       her job.
+      like school.               does |           - She said that her son didn't like
+                                                    school.
+  
+  - [ MIKE ]
+    - You look tried.            look |-> looked  - Mike said that I looked tired.
+    - (I) I feel fine.           feel |-> felt    - I said that I felt fine.
+                                  etc | etc
+                            (present) | (past)
+ 
+  -...
+  - [B] "say" and "tell"
 
-                                          |                                                                                                                                           
-                                          |               
-                                          |               
-                                          |               
-                                          |  
+                                             
+    "say"(->"said")                   | "tell"(->"told")
+      - He said that he was tired.    |  - He told me that he was tired. 
+        (NOT! He said me)             |    (!NOT He told that)
+      - What did she say to you?      |  - What did she tell you?
+        (NOT! say you)                |    (!NOT tell to you)
+                                      |
+    We say he said to me,             |  We say he told me. I told Ann etc.
+    I said to Ann etc.                |  (NOT! 'he told to me, I told to Ann)
+    (NOT! he said me, I said Ann)     |
+
+  -...
+  - [C] You can say:
+    - He said that he was tired.
+      OR
+      He said he was tired.
+      (without that)
+    - Kate told me that she couldn't find a job.
+      OR
+      Kate told me she couldn't find a job.
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 50.1 Read what these people say
+           and write sentences with "He/She/They said (that) ..."
+      0...
+      1 I've lost my watch.
+        - He said he had lost his watch.
+      2 I'm very busy.
+        - She said she was very busy.
+      3 I can't go to the party.
+        - She said she couldn't go to the party.
+      4 I have to go out.
+        - He said he had to go out.
+      5 I'm lerning Russian.
+        - He said he were lerning Russian.
+      6 I don't feel very well.
+        - She didn't 
+      7 We'll be home late.
+        -
+      8 I've just come back from holiday.
+        -
+      9 I'm going to buy a guitar.
+        -
+      10 We haven't got a key.
+        -
+    -...
+    - 50.2 Use the pictures to complete the sentences.
+      0...
+      1 I met Clare last week.
+        She said she was enjoying her new job.
+      2 Emma didn't want anything to eat.
+        She said 
+      3 I wanted to borrow Mike's ladder, 
+        but he said    
+      4 Hannah was invited to the party, 
+        but she said 
+      5 Susan told me she didn't want the picture.
+        She said
+      6 Martin has just gone away on holiday.
+        He said 
+      7 I was looking for Robert.
+        Nicola said
+      8 Why did David stay at home?
+        He said
+      9 Has Mary gone out?
+        I think so. She said
+    -...
+    - 50.3 Write "say/said" or "tell/told".
+      0...
+      1 He said he was tired.
+      2 What did she tell you?
+      3 Anna
+
+
+
+
+
+
+
+
 
 
 
