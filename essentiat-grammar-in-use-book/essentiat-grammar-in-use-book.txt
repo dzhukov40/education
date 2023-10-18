@@ -5751,49 +5751,86 @@
       5 I'm lerning Russian.
         - He said he were lerning Russian.
       6 I don't feel very well.
-        - She didn't 
+        - She said she didn't feel very well. 
       7 We'll be home late.
-        -
+        - They said they would be home later.
       8 I've just come back from holiday.
-        -
+        - She said she had just come back from holiday.
       9 I'm going to buy a guitar.
-        -
+        - She said she was going to buy a guitar.
       10 We haven't got a key.
-        -
+        - They said they hadn't got a key.
     -...
     - 50.2 Use the pictures to complete the sentences.
       0...
       1 I met Clare last week.
         She said she was enjoying her new job.
       2 Emma didn't want anything to eat.
-        She said 
+        She said she wasn't hungry.
       3 I wanted to borrow Mike's ladder, 
-        but he said    
+        but he said he needed it.   
       4 Hannah was invited to the party, 
-        but she said 
+        but she said she didn't want to go.
       5 Susan told me she didn't want the picture.
-        She said
+        She said I could have it.
       6 Martin has just gone away on holiday.
-        He said 
+        He said he would send me a postcard.
       7 I was looking for Robert.
-        Nicola said
+        Nicola said he had gone home.
       8 Why did David stay at home?
-        He said
+        He said he wanted to watch TV.
       9 Has Mary gone out?
-        I think so. She said
+        I think so. She said she was going to the cinema.
     -...
     - 50.3 Write "say/said" or "tell/told".
       0...
       1 He said he was tired.
       2 What did she tell you?
-      3 Anna
+      3 Anna said she didn't like Peter.
+      4 Jack told me that you were ill.
+      5 Please don't tell Dan what happend.
+      6 Did Lucy said she would be late?
+      7 The women said she was a reporter.
+      8 The woman told us she was a reporter.
+      9 They asked me a lot of questions, 
+        but I didn't told them anything.
+      10 They asked me a lot of questions,
+        but I didn't said anything.
 
 
 
 
+51) [ Unit 51 ] work/working  go/going  do/doing
+  - [A] work/go/be/etc. (infinitive)
 
-
-
+    - will/can/must/etc. + infinitive
+      -________________________________
+      - will
+        - Anna will be here soon
+      - shall
+        - Shall I open the window?
+      -________________________________
+      - might
+        - I might phone you later.
+      - may
+        - May I sit here?
+      -________________________________
+      - can
+        - I can't meet you tomorrow.
+      - could
+        - Could you pass the salt, please?
+      -________________________________
+      - must
+        - It's late. I must go now.
+      -________________________________
+      - should
+        - You shouldn't work so hard.
+      -________________________________
+      - would
+        - Would you like some coffe?           
+      -________________________________
+    -...
+    - do/does/did + infinitive
 
 
 
@@ -5809,7 +5846,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 109 в chrome
+  стр 111 в chrome
 
   (*) END: 115 Units, 240 стр.
 
