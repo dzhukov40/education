@@ -6015,8 +6015,136 @@
     - (****) need check answers !!!!
     - 52.1 Put the verb in the right form, "to ..." or "-ing".
       0...
-      1
-      2
+      1 I enjoy dancing.
+      2 What do you want to do tonight?
+      3 Bye! I hope to see you again soon.
+      4 I learnt to swim when I was five years old.
+      5 Have you finished cleaning the kitchen?
+      6 Where's Anna? I need to ask her something.
+      7 Do you enjoy visiting other countries?
+      8 The weather was nice, so I suggested going for a walk.
+      9 Where's Ben?
+        He promised to be here on time.
+      10 I'm not in hurry.
+         I don't mind waiting.
+      11 What have you decided to do?
+      12 Dan was angry and refused to speak to me.
+      13 I'm tired. I want to go to bed.
+      14 I was very upset and started crying.
+      15 I'm trying to work.
+         Please stop talking.
+    -...
+    - 52.2 Complete the sentences using "to ..." or "-ing"
+      0...
+      1 Have you ever been to Australia?
+        No, but I'd love to go.
+      2 Amy had a lot to do,
+        so I offered to help her.
+      3 I'm surprised that you're here.
+        I didn't expect to see you.
+      4 Kate has a lot of books.
+        She enjoys reading.
+      5 This ring was my grandmother's.
+        I'd hate to lose it.
+      6 Don't forget to send us a postcard when you're on holiday.
+      7 I'm not going out until it stops raining.
+      8 What shall we do this afternoon?
+        Wood you like to go to the beach?
+      9 When I'm tried in the evenings, 
+        I like watching TV.
+      10 Shell we go now?
+         No, I'd prefer to wait a few minutes.
+    -...
+    - 52.3 Complete the answers to the questions.
+      0...
+      1 Do you usually get up early?
+        Yes, I like to get up early.
+      2 Do you ever go to musems?
+        Yes, I enjoy going to museums.
+      3 Would you like to go to museum now?
+        No, I'm hungry.
+        I'd prefer to go to a restaurant.
+      4 Do you drive a lot?
+        No, I don't like driving.
+      5 Have you ever been to New York?
+        No, but I'd love to go one day.
+      6 Do you often travel by train?
+        Yes, I enjoy traveling by train.
+      7 Shall we walk home or take a taxi?
+        I don't mind to walk, but a taxi would be quicker.
+    -...
+    - 52.4 Complete these senten 
+      0...
+      1 I enjoy working as a programmer.
+      2 I don't like to be unemployed.
+      3 If it's nice day tomorrow, I'd like to go out.
+      4 When I'm on holiday, I like walking.
+      5 I don't mind invest money, but not by russian broker.
+      6 I wouldn't like to meet Mike Tison.
+
+
+
+
+53) [ Unit 53 ] I want you to ...  I told you to ...
+  - [A] "I want you to ..."
+    - main example
+      The woman wants to go.
+       
+      The man doesn't want the woman to go. 
+      He wants her to stay.
+    -...
+    - table
+    --------|-------------|----------------
+            |  you        |
+    I want  |  somebody   | to do something
+            |  Sarah      |
+    --------|-------------|----------------
+    - examples
+      - I want you to be happy.
+        (NOT! I want that you are happy)
+      - They didn't want to know their secret.
+      - Do you want me to lend you some money?
+    -...
+    - We use "would like" in the same way.
+      - Would you like me to lend you some money?   
+  -...
+  - [B] We also use this structure with 
+        
+                    verb     +             somebody   +  to ...          
+
+    ask       |         Sue   asked          a friend    to lend    her some money.
+    tell      |           I   told           you         to be      careful.
+    advise    | What do you   advise         me          to do?
+    expect    |    I didn't   expect         them        to be      here. 
+    persuade  |          We   parsuaded      Gary        to come    with us.
+    teach     |           I   am teaching    my brother  to swim. 
+  -...
+  - [C] "I told" you "to ..." / "I told" you "not to..."
+    - Jane told me to wait for her.
+    - Paul told Sue not to wait for him.
+  -...
+  - [D] "make" and "let"
+    - After "make" and "let", we do not use "to"
+      - He's very funny.
+        He makes me laught.
+        (NOT! males me to laugh)
+      - At school our teacher made us work very hard.
+      - I didn't have my phone with me, so Sue let me use hers.
+        (NOT! let me to use)
+    - You can say "Let's ..."(= Let us) 
+      when you want people to do things with you
+      - Come on! Let's dance.
+      - Do you want to go out tonight?
+        No, I'm tired.
+        Let's stay at home.
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 53.1 Pu
+
+
 
 
 
@@ -6032,7 +6160,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 113 в chrome
+  стр 115 в chrome
 
   (*) END: 115 Units, 240 стр.
 
