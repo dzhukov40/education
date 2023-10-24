@@ -6194,8 +6194,6 @@
 
 
 
-
-
 54) [ Unit 54 ] I went to the shop to ... 
   - [A]
     - main example
@@ -6249,11 +6247,71 @@
 
   - [Exercises]
     - (****) need check answers !!!!
-    - 54.1 Write
-    
+    - 54.1 Write ыутеутсуы иупшттштп "I went to ..."
+      0...
+      1 I went to the station to get a train tiket.
+      2 I went to a coffe shop to meet a friend.
+      3 I went to the chemist to get some medicine.
+      4 I went to the market to buy some vegetables.
+    - 54.2 Complete the sentences. Choose from the box.
+      0...
+      1 I turned on the TV to watch the news.
+      2 Alice sat down in an armchair to read the newspaper.
+      3 Do I need a key to open this door?
+      4 I went for a walk by the river to get some fresh air.
+      5 I knocked on the door of David's room to wake him up.
+      6 The doorbell rang, 
+        so I looked out of the window to see who it was.
+    - 54.3 Use your own ideas to finish these sentences. Use "to ..."
+      0...
+      1 I went to the shop to get a newspaper.
+      2 I'm very busy. 
+        I don't have time to speak with you.
+      3 I called Amy to give me a water.
+      4 I'm going out to get some fresh air.
+      5 I borrowed some money to buy a gift.
+    - 54.4 Write "to" or "for".
+      0...
+      1 I went out to get some bread.
+      2 We went to a restaurant to have dinner.
+      3 Robert wants to go to university to study economics.
+      4 I'm going to London for an interview next week.
+      5 I'm going to London to visit some friends of mine.
+      6 Do you have time for a cup of coffee?
+      7 I got up late this morning.
+        I didn't have time to wash.
+      8 Everybody needs mony to live.
+      9 We didn't have any money for a taxi, so we walked home.
+      10 The office is very small.
+         There's space only for a desk and chair.
+      11 A: Excuse me, are you waiting to be served?
+         B: No, I'm already being served, thanks.
+    - 54.5 Comlete these sentences.
+      0...
+      1 We stopped at the lights and waited for them to change.
+      2 I sat down in the cinema and waited for film to begin.
+      3 We called an ambulance and waited for it to arrive.
+      4 Do you know what to do?
+        No, I'm waiting for you to tell me.
 
 
 
+
+55) [ Unit 55 ] go to ... / go on ... / go for ... / go -ing
+  - [A]
+    - "go to ..." (go to work / go to London / etc.)
+      - What time do you usually go to work?
+      - I'm going to China next week.
+      - Sophie didn't want to go to the concert.
+      - Where's Tom? He's gone to bed.
+      - I went to the dentist yesterday.
+    - "go to sleep" = start to sleep 
+      - I was very tired and went to sleep quickly.
+    - "go home" (without "to")
+      - I'm going home now.
+        (NOT! going to home)
+  -...
+  - [B]
 
 
 
@@ -6273,7 +6331,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 117 в chrome
+  стр 119 в chrome
 
   (*) END: 115 Units, 240 стр.
 
