@@ -6311,13 +6311,217 @@
       - I'm going home now.
         (NOT! going to home)
   -...
-  - [B]
+  - [B] "go on ..."
+    -------|------
+           |  holiday
+           |  a trip
+    go on  |  a tour
+           |  a cruise
+           |  strike
+    -------|------
+    - examples
+      - We'ew going on holiday next week.
+      - Children often go on school trips.
+      - Workers at the airport have gone on strike.
+        (= they are refusing to work)
+  -...
+  - [C] "go for ..."
+    --------------------|------
+                        |  a walk
+                        |  a run
+    go (somewhere) for  |  a swim
+                        |  a drink
+                        |  a meal
+    --------------------|------
+    - examples
+      - Where's Emma? She's gone for a walk.
+      - Do you go for a run every morning?
+      - The water looks nice. I'm going for a swim.
+      - I met Chris in town, so we went for coffee.
+      - Shall we go out for a meal?
+        I know a good restaurant.
+  -...
+  - [D] "go  +  -ing"
+    - info: We use "go  +  -ing" for many sports
+            (swimming / skiing / etc.) and also "shopping"
+    - table
+    --------------------|------
+                  I go  |  shopping
+           he is going  |  swimming
+               we went  |  fishing
+        they have gone  |  sailing
+       she wants to go  |  skiing
+                        |  jogging  etc.
+    --------------------|------
+    - examples
+      - Are you going shopping this afternoon?
+      - It's a nice day. Let's go swimming.
+        (OR  Let's go for a swim)
+      - Richard has a small boat and he often goes sailing.
+      - I went jogging before breakfast this morning.
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 55.1 Write "to/on/for" where necessary.
+      0...
+      1 I'm going to China next week.
+      2 Richard often goes sailing.
+      3 Sue went to Mexico last year.
+      4 Jack goes jogging every morning.
+      5 I'm going out for a walk. Do you want to come?
+      6 I'm tired becouse I went bed very late last night.
+      7 Mark is going on holiday to Italy next week.
+      8 The weather was warm and the river was clean, so we went for a swim.
+      9 The taxi drivers went on strike when I was in New York.
+      10 Let's go to the cinega this evening.
+      11 It's late. I have to go home now.
+      12 Would you like to go on a tour of the city?
+      13 Shall we go out for dinner this evening?
+      14 My parents are going on a cruise this summer. 
+    - 55.2 Use the pictures to complete the sentences.
+           Use "go / goes / going / went" + "-ing"
+      0...
+      1 Richard has a boat.
+        He often goes sailing.
+      2 Last Saturday Enil went fishing. 
+      3 Dan goes swimming every day.
+      4 Jessica is going on holiday next month.
+        She is going skiing.
+      5 Peter is going out later.
+        He has to go for products.
+      6 Sarah went jogging after work yesterday. 
+    - 55.3 Complete the sentences. Use the words in the box.
+           Use "to / on / for" if necessary.
+      0...
+      1 The water looks nice.
+        Let's go for a swim.
+      2 After leaving school, Tina went to university 
+        where she studied psychology.
+      3 I'm going shopping now. I have to buy a few things.
+      4 I was very tired last night.
+        I sat down in an armchair and went to sleep.
+      5 I wasn't enjoying the party, so I went home warly.
+      6 We live near the mountains.
+        In winter we go skiing most weekends.
+      7 Robert has got a horse.
+        He goes riding a lot.
+      8 The weather is nice.
+        Shall we go for a walk along the river?
+      9  A: Are you going to Portugal?
+         B: Yes, next month.
+            We're going shopping.
+            We've never been there before.
 
 
 
 
+56) [ Unit 56 ] get
+  - [A] "get" + noun 
+        (= receive, buy, find, etc.)
+    - main example:
+      1 you don't have something.
+      |
+     \ / 
+      2 you get it.
+      |
+     \ /
+      3 you have it.
+    - examples
+      - I got an email from Sam this morning.
+        (= receive)
+      - I like your sweater.
+        Where did you get it?
+        (= buy)
+      - It's hard to get a job at the momrnt.
+        (= find)
+      - Is Lisa here?
+        Yes, I'll get her for you.
+    -...
+    - also "get a bus / a train / a taxi"
+      (= take a bus / train / etc.)
+      - Did you walk here?
+        No, I got the bus.
+  -...
+  - [B] "get hungry / get cold / get tired / etc."
+        (get + adjective)
+        (= become)
+    -...
+    - main example:
+      1 you are not hingry.
+      |
+     \ / 
+      2 you get hungry.
+      |
+     \ /
+      3 you are hungry.
+    - examples
+      - If you don't eat, you get hungry.
+      - Drink your coffee. It's getting cold.
+      - I'm sorry your mother is ill.
+        I hope she gets better soon.
+      - It was raining very hard.
+        We didn't have an umbrella, so we got very wet.
+    -...
+      - [ get married ]
+        - Nicola and Frank are getting married soon.
+      - [ get dressed ] (= put your clothes on)
+        - I got up and got dressed quickly.
+      - [ get lost ] (= lose your way)
+        - We didn't have a map, so we got lost.     
+  -...
+  - [C] 
+    - "get to" a place 
+      (= arrive)
+      - examples
+        - I usually get to work befor 8.30.
+          (= arrive at work)
+        - We left London at 10 o'clock 
+          and got to Manchester at 12.45.
+    -...
+    - "get here/there"
+      (without to)
+      - examples
+        - How did you get here? By bus?
+    -...
+    - "get home"
+      (without to)
+      - examples
+        - What time did you get home last night?
+  -...
+  - [D] "get   in / out / on / off"
+    
+    ----|                                       ----|                                                       
+    |   |                                       |   |                                                       
+   ---> |                                      <--- |                                                               
+    |   |                                       |   |                                                       
+    ----|                                       ----|                                                       
+
+   
+    - get in (car)                           - get out (of a car)
+
+    - get on                                 - get off   
+      (a bus / a train / a plain)              (a bus / a train / a plain)                                         
+
+    -...
+    - examples
+      - Kate got in the car and drove away.
+        (You can say: Kate got into the car and ...)
+      - A car stopped and a man got out.
+        (BUT!  A man got out of the car)
+      - We got on the bus outside the hotel and got off in Church Street. 
 
 
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 56.1 Complete these sentences.
+           Use "get/gets" and choose from the box.
+      0...
+      1
+      2
+      3
 
 
 
@@ -6331,7 +6535,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 119 в chrome
+  стр 121 в chrome
 
   (*) END: 115 Units, 240 стр.
 
