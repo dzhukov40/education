@@ -7079,10 +7079,141 @@ I've got | a cold / a cough / a sore throat / a temperature / flu / etc.
     - (****) need check answers !!!!
     - 60.1 Complete the sentences in the same way.
       0...
-      1 
+      1 I'm going to wash my hands.
+      2 She's going to wash her hands.
+      3 We're going to wash our hands.
+      4 He's going to wash his hands.
+      5 They're going to wash their hands.
+      6 Are you going to wash your hands.
+    - 60.2 Complete the sentences in the same way.
+      0...
+      1 He lives with his parents.
+      2 They live with their parents.
+      3 We live with our parents.
+      4 Martina lives with her parents.
+      5 I live with my parents.
+      6 John lives with his parents.
+      7 Do you live with your parents.
+    - 60.3 Look at the family tree, 
+           and complete the sentences with "his/her/their"
+      0...
+      1 I saw Sarah with her husband, Philip.
+      2 I saw Laura and Steve with their children.
+      3 I saw Steve with his wife, Laura.
+      4 I saw Ben with his brother, Will.
+      5 I saw Laura with her brother, Will.
+      6 I saw Sarah and Philip with their son, Will.
+      7 I saw Laura with her parents.
+      8 I aw Beth and Robert with their parents.
+    -...
+    - 60.4 Write "my/our/your/his/her/their/its"
+      0...
+      1 Do you like your job?
+      2 I know Mr Watson, but I don't know his wife.
+      3 Alice and Tom live in London.
+        Their son lives in Australia.
+      4 We're going to have a patty.
+        We're going to invite all our friends.
+      5 Anna is going out with her friends this evening.
+      6 I like tennis.
+        It's my favourite sport.
+      7 Is that your car?
+        No, I don't have a car.
+      8 I want to contact Maria.
+        Do you know her number?
+      9 Do you think most people are happy in their jobs?
+      10 I'm going to wash my hair befor I go  out.
+      11 This is a beautiful tree.
+         Its leaves are a beutiful color.
+      12 John has a brother and a sister.
+         His brother is 25, and his sister is 21.
+    -...
+    - 60.5 Complete the sentences.
+           Use "my / his / their  etc." with these words.
+      0...
+      1 James doesn't enjoy his job.
+        It's not very interesting.
+      2 I can't get in.
+        I don't have my key.
+      3 Sally is married.
+        Her husband works in a bank.
+      4 Please take off your coat and sit down.
+      5 What are the children doing?
+        They're doing their homework.
+      6 Do you know that man?
+        Yes, but I don't know his name.
+      7 We live in Barton Street.
+        Our house is at the end on the left.
+    
+
+61) [ Unit 61 ] Whose is this?   It's mine / yours / heres   etc.
+  - [A] 
+    -...
+    I     -> my     -> mine     | It's my money     -> It's mine. 
+    we    -> our    -> ours     | It's our money    -> It's ours.  
+    you   -> your   -> yours    | It's your money   -> It's yours.   
+    he    -> his    -> his      | It's his money    -> It's his.
+    she   -> her    -> hers     | It's her money    -> It's hers. 
+    they  -> their  -> theirs   | It's their money  -> It's theirs.
+  -...
+  - [B]
+    - We use "my/your" etc + noun (my hands / your book  etc.) 
+      - My hands are cold.
+      - Is this your book?
+      - Helen gave me her umbrella.
+      - It's their problem, not our problem.
+    -...
+    - We use "mine / yours  etc." without a noun. 
+      - Is this book mine or yours?
+        (= my book or your book)
+      - I didn't have an umbrella, so Sarah gave me hers.
+        (= her umbrella)
+      - It's their problem, not ours.
+        (= not our problem)
+      - We went in our car, and they went in theirs.
+        (= their car)
+    -...
+    - You can use his with or without a noun
+      - Is this his camera or hers?  It's his.
+  -...
+  - [C] a friend of mine / a friend of his / some friends of yours  etc.
+    - I went out to meet a friend of mine.
+      (NOT! a friend of me)
+    - Tom was in the restaurant with a friend of his.
+      (NOT! a friend of him)
+    - Are those people friends of yours?
+      (NOT! friends of you)
+  -...
+  - [D] Whose ... ?
+    - Whose phone is this?
+      (= is it your phone? his phone? my phone?  etc.)    
+    - You can us whose with or without a noun:
+      - Whose money is this? \
+        Whose is this?       /   it's mine.
+      -...
+      - Whoese shoes are these?  \
+        Whose are these?         /  They're john's.
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 61.1 Complete the sentences with "mine/yours"  etc.
+      0...
+      1
       2
       3
-      4
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7098,7 +7229,7 @@ I've got | a cold / a cough / a sore throat / a temperature / flu / etc.
 essentiat-grammar-in-use-book 
 
 
-  стр 129 в chrome
+  стр 131 в chrome
 
   (*) END: 115 Units, 240 стр.
 
