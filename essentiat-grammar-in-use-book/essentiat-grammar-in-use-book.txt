@@ -6951,8 +6951,139 @@ I've got | a cold / a cough / a sore throat / a temperature / flu / etc.
       0...
       1 I don't know those girls.
         Do you know them?
+      2 I don't know that man.
+        Do you know him?
+      3 I don't know those people.
+        Do you know them?
+      4 I don't know David's wife.
+        Do you know her?
+      5 I don't know mister Stevens.
+        Do you know him?
+      6 I don't know Sarah's parents.
+        Do you know them?
+      7 I don't know the woman in the black coat.
+        Do you know her?
+    -...
+    - 59.2 Complete the sentences. Use "I/me/you/she/her"  etc.
+      0...
+      1 I want to see her, but she doesn't want to see me.
+      2 They want to see me, but I don't want to see them. 
+      3 She wants to see him, but he doesn't want to see her.
+      4 We want to see them, but they don't want to se us.
+      5 He wants to see us, but we don't want to see him.
+      6 They want to see her, but she doesn't want to see them.
+      7 I want to see them, but they don't want to see me.
+      8 You want to see her, but she doesn't want to see you.
+    -...
+    - 59.3 Write sentences beginning 
+           "I like ...", "I don't like" or "Do you like ... ?"
+      0...
+      1 I don't eat tomatoes.
+        I don't like them.
+      2 George is a very nice man.
+        I like him.
+      3 This jacket isn't very nice.
+        I don't like it.
+      4 This is my new car.
+        Do you like it?
+      5 Mrs Clark is not very friendly.
+        I don't like him.
+      6 These are my new shoes.
+        I like them.
+    -...
+    - 59.4 Complete the sentences.
+           Use "I/me/he/him"  etc.
+      0...
+      1 Who is that woman?
+        Why are you looking at her?
+      2 Do you know that man?
+        Yes, I work with him.
+      3 Where are the tickets?
+        I can't find them.
+      4 I can't find my keys.
+        Where are they.
+      5 We're going out.
+        You can come with us.
+      6 I've got a new motorbike.
+        Do you want to see it?
+      7 Maria likes music.
+        She plays the piano.
+      8 I don't like dogs.
+        I'm afraid of them.
+      9 I'm talking to you.
+        Please listen to me.
+      10 Where is Anna?
+         I want to talk to her.
+      11 You can have these CDs.
+         I don't want to them.
+      12 My brother has a new job,
+         but he doesn't like it very much.
+    -...
+    - 59.5 Complete the sentences.
+      0...
+      1 I need that book.
+        Can you give it to me?
+      2 He wants the key.
+        Can you give it to him?
+      3 She wants the keys.
+        Can you give them to her?
+      4 I need my bag.
+        Can you give it to me?
+      5 They want the money.
+        Can you give it to them?
+      6 We want the pictures.
+        Can you five them to us?
+
+
+
+
+60) [ Unit 60 ] my / his / their  etc. 
+  - [A] 
+    I      -> my     |  I like my house.  
+    we     -> our    |  We like our house.   
+    you    -> your   |  You like your house.     
+    he     -> his    |  He likes his house.   
+    she    -> her    |  She likes her house.    
+    they   -> their  |  They like their house.     
+    -...
+    it     -> its    |  Oxford is famous for its university.
+    -...
+    - We use "my / your / his  etc." + noun.
+      - my hands
+      - his new car
+      - her parents
+      - our clothes
+      - your best friend
+      - their room
+  -...
+  - [B] his / her / their
+    -...
+    "AMY"                 "ANDY"          "MR AND MRS LEE"
+    her car               his bike        their son
+    (= Amy's car)                
+                                   
+    her husbend           his sister      their daughter
+    (= Amy's husband)       
+                                 
+    her children          his parents     their children 
+    (= Amy's children)    
+  -...
+  - [C] "its" and "it's"
+    - "its"             -> Oxford is famous for its university.
+    - "it's" (= it is)  -> I like Oxford. It's a nice place. 
+                           (= it is a nice place.)
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 60.1 Complete the sentences in the same way.
+      0...
+      1 
       2
       3
+      4
+
 
 
 
@@ -6967,7 +7098,7 @@ I've got | a cold / a cough / a sore throat / a temperature / flu / etc.
 essentiat-grammar-in-use-book 
 
 
-  стр 127 в chrome
+  стр 129 в chrome
 
   (*) END: 115 Units, 240 стр.
 
