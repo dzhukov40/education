@@ -6666,11 +6666,150 @@
     - 57.1 Write "make / making / made"
            or "do / did / done"
       0...
+      1 Shall I open the window? No, it's OK. I'll do it.
+      2 What did you do at the weekend? Did you go away?
+      3 Do you know how to make a bread?
+      4 Paper is making from wood.
+      5 Richard didn't help me.
+        He sat in an armchair and did nothing.
+      6 What do you do? 
+        I'm a doctor.
+      7 I asked you to clean the bathroom.
+        Have you done it?
+      8 What do they make in the factory?
+        Shoes.
+      9 I'm making some coffee.
+        Would you like some?
+      10 Why are you angry with me?
+         I didn't do anything wrong.
+      11 What are you doing tomorrow afternoon?
+         I'm working.
+    -...
+    - 57.2 What are this people doing?
+      1 He is makind a cake.
+      2 They are doing a homework.
+      3 He is doing the shoping.
+      4 She is making a dress.
+      5 They are doind an exam.
+      6 He is making a bed.
+      7 She is doing the washing.
+      8 He is making a list.
+      9 They are making a film.
+      10 He is taking a photo.
+    -...
+    - 57.3 Write "make" or "do" in correct form.
+      0...
+      1 I hate doing housework, especially cleaning.
+      2 Why do you always make the same mistake?
+      3 Can you do me a favour?
+        It depends what it is.
+      4 Have you done your homework?
+        Not, yet.
+      5 I need to see the dentist, but I haven't made an appointment.
+      6 I'm doing a course in photography at the moment.
+        It's very good.
+      7 The last time I did an exam was ten years ago.
+      8 How many phone calls did you make yesterday?
+      9 When you've finished Exercise 1, you can did Exercise 2.
+      10 There's something wrong with the car.
+         The engine is making a strange noise.
+      11 It was a bad mistake.
+         It was the worst mistake I've ever made.
+      12 Let's make a list of all the things we have to do today.
+
+
+
+
+
+58) [ Unit 58 ] have
+  - [A] 
+    - "have" and "have got"
+      - info:
+        - "I have"(something) OR "I've got"(something)
+          (= it is mine)
+      - examples
+        - I have a new car.           OR  I've got a new car.
+        - Sue has long hair.          OR  Sue has got long hair.
+        - Do they have any children?  OR  Have they got any children?
+        - Tom doesn't have a job.     OR  Tom hasn't got a job.
+        - How much time do you have?  OR  How much time have you got?
+    -...
+    - also
+---------|----------------------------------------------------
+I have   | a headache / (a) toothache / a pain (in my leg etc.)
+I've got | a cold / a cough / a sore throat / a temperature / flu / etc.
+---------|----------------------------------------------------
+    -...
+    - examples
+      - I have a headache.   OR  I've got a headache.
+      - Do you have a cold?  OR  Have you got a cold?
+    -...
+    - The past is "I had"(without got) /
+      "I didn't have" /
+      "Did you have?" / etc.
+      - examples:
+        - When I first met Sue, she had short hair.
+        - He didn't have any money becouse he didn't have a job.
+        - Did you have enough time to do everything you wanted?
+  -... 
+  - [B] "have breakfast" / "have a shower" etc. 
+    -...
+    - In these expressions have (= eat/drink/take etc.)
+      you can't use 'have got'.
+    ---------|----------------------------
+             | breakfast / lunch / dinner
+     have    | a meal / a sandwich / a pizza  etc. 
+             | a cup of coffee / a glass of milk  etc.
+             | something to eat / drink
+    ---------|----------------------------
+    -...
+    - examples:
+      - Where's Lisa?
+        She's having lunch.
+      - I don't usually have breakfast.
+      - I had three cups of coffee this morning.
+      - Have a biscuit! Oh, thank you.
+    -...
+    - We also use "have"(NOT! have got) in these expressions.
+    ---------|----------------------------
+             | a bath / a shower
+             | a rest / a holiday / a party
+             | a nice time / a good trip / fun  etc. 
+    have     | a walk / a swim / a game (of tennis  etc.)
+             | a dream / an accident  
+             | a baby
+             | a look (at something)
+    ---------|----------------------------
+    -...
+    - examples:
+      - I had a shower this morning.
+      - We're having a party next week. You must come.
+      - Enjoy your holiday. Have a nice time!
+      - Did you have a good time in Tokyo?
+      - Sandra has just had a baby.
+      - Can I have a look at your magazine?
+  -... 
+  - [C] Compare
+    -...
+    - "Have" OR "have got"
+      - I have / I've got a new showe. It's very good.
+    -...
+    - "Have"
+      (NOT! have got)
+      - I have a shower every morning.
+        (NOT! I've got a shower every morning)
+      - A: Where's Paul?
+        B: He's having a shower.
+           (= he's washing now)    
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 58.1 Write the correct form of "have" or "have got"
+      0...
       1
       2
-      3
-
-
 
 
 
@@ -6685,7 +6824,7 @@
 essentiat-grammar-in-use-book 
 
 
-  стр 123 в chrome
+  стр 125 в chrome
 
   (*) END: 115 Units, 240 стр.
 
