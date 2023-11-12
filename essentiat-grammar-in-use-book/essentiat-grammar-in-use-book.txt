@@ -7551,10 +7551,110 @@ I've got | a cold / a cough / a sore throat / a temperature / flu / etc.
     - 64.1 Look at the family tree.
            Complete the sentences about the people in the family.
       0...
+      1 Brain is Helen's husband.
+      2 Sarah is Daniels mother.
+      3 Helen is Brain's wife.
+      4 James is Sarah's brother.
+      5 James is Daniel's uncle.
+      6 Sarah is Paul's wife.
+      7 Helen is Daniel's grandmother.
+      8 Sarah is James's wife.
+      9 Paul is Sarah's husband.
+      10 Paul is Daniel's futher.
+      11 Daniel is James's nephew.
+    -...
+    - 64.2 Look at the pictures and answe the questions.
+           Use one word only.
+      0...
+      1 Whose is this?
+        Alice's
+      2 Whose is this?
+        Andy's
+      3 And this?
+        Dave's
+      4 And these?
+        Jane's 
+      5 And this?
+        Rachel's
+      6 And these?
+        Alice's
+    -...
+    - 64.3 Are these sentences OK?
+           Change them where necessary.
+      0...
+      1  (not) I stayed at my sister's house.
+      2  (ok)  What is the name of this village?
+      3  (ok)  Do you like the color of this coat?
+      4  (not) Do you have Simon's phone number.
+      5  (not) My brother's job is very interesting.
+      6  (ok)  Write your name at the top of the page.
+      7  (ok)  Fo me, the morning is the best part of the day.
+      8  (not) Paula's favourite colour is blue.
+      9  (not) When is your mother's birthday?
+      10 (not) My parent's house isn't very big.
+      11 (ok)  The walls of this house are very thin.
+      12 (ok)  The car stopped at the end of the street.
+      13 (not) Are you going to Silvia's party next week?
+      14 (ok)  The manager of the hotel is not here at the moment.  
+
+
+
+
+65) [ Unit 65 ] a / an ...
+  - [A] 
+    - "a ..."
+      (= one thing or person)
+      - Rachel works in a bank.
+        (NOT! in bank)
+      - Can I ask a question?
+        (NOT! ask question)
+      - I don't have a job at the moment.
+      - There's a woman at the bus stop.
+  -... 
+  - [B]
+    - "an" (NOT! a) befor "a/e/i/o/u"
+      - Do you want an apple or a banana?
+      - I'm going to buy a hat and an umbrella.
+      - There was an interesting programme on TV last night.
+    -...
+    - exceptions
+      - an hour ("h" is not pronounced)
+      - a university (pronounced   yuniversity) 
+      - a European country (pronounced  yuropean) 
+    -...
+    - "another"
+      (=an + other) is one word 
+      - Can I have another cup of coffee?
+  -... 
+  - [C]
+    - We use "a/an ..." when we say what a thing or a person is.
+      - The sun is a star.
+      - Footbal is a game.
+      - Dallas is a city in Texas.
+      - A mouse is an animal. It's small animal.
+      - Joe is a very nice person.
+    -...
+    - We use "a/an ..." for jobs  etc.
+      - A: What's your job?
+        B: I'm a dentist. 
+           (NOT! I'm dentist)
+      - What does Mark do?
+        He's an engineer.
+      - Would you like to be a teacher?
+      - Beethoven was a composer.
+      - Picasso was a famous painter.
+      - Are you a student?  
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 65.1 Write "a" or "an".
+      0...
       1
       2
       3
-      
+      4
+
 
 
 
@@ -7571,7 +7671,7 @@ I've got | a cold / a cough / a sore throat / a temperature / flu / etc.
 essentiat-grammar-in-use-book 
 
 
-  стр 137 в chrome
+  стр 139 в chrome
 
   (*) END: 115 Units, 240 стр.
 
