@@ -7358,7 +7358,6 @@ I've got | a cold / a cough / a sore throat / a temperature / flu / etc.
 
 
 
-    
 
 63) [ Unit 63 ] myself / yourself / themselves  etc.
   - [A] 
@@ -7429,11 +7428,133 @@ I've got | a cold / a cough / a sore throat / a temperature / flu / etc.
     - (****) need check answers !!!!
     - 63.1 Complete the sentences with "myself/yourself  etc."
       0...
-      1 
+      1 He looked at himself in the mirror.
+      2 I'm not angry with you.
+        I'm angry with myself.
+      3 Karen had a good time in Australia.
+        She enjoyed herself.
+      4 My friens had a good time in Australia.
+        They enjoyed themselves.
+      5 I picked up a very hot plate and burnt myself.
+      6 He never thinks about other peole.
+        He obly thinks about himself.
+      7 I wan to know more about you.
+          Tell me about yourself.
+      8 Goodbye! 
+        Have a good trip and take care of yourselves.
+    - 63.2 Write sentences with "by myself / by yourself  etc."
+      0...
+      1 I went on holiday alone.
+        I went on holiday by myself.
+      2 When I saw him, he was alone.
+        When I saw him, he was by himself.
+      3 Don't go out alone.
+        Don't go by yourself.
+      4 I went to the cinema alone.
+        I went to the cinema by myself.
+      5 My sister lives alone.
+        My sister lives by herself.
+      6 Many people live alone.
+        Many people live by themselves.
+    - 63.3 Write sentences with "each other".
+      0...
+      1 I like her. I like him.
+        They like each other.
+      2 I can't see her. I can't see him.
+        They can't see each other.
+      3 I call her a lot. I call him a lot.
+        They call each other a lot.
+      4 I don't know him. I don't know him.
+        They don't know each other.
+      5 I'm sitting next to him. I'm sitting next to her.
+        They are sitting next to each other.
+    - 63.4 Complete the sentences.
+      0...
+      1 Paul and I live near each other.
+      2 Who are those people?
+        Do you know them?
+      3 You can help Tom, and Tom can help you.
+        So you and Tom can help each other.
+      4 There's food in the kitchen.
+        If you and Chris are hungry, you can help yourselves.
+      5 We didn't go to Emily's party.
+        She didn't invite us.
+      6 When we go on holiday, we always enjoy ourselves.
+      7 Halen and Jane were at school together,
+        but they never see each other now.
+      8 Karen and I are very good friends.
+        We've know each oter for a long time.
+      9 Did you see Sam and Laura at the party?
+        Yes, but I didn't speak to them.
+      10 Many people talk to themselves when the're alone.
+
+
+    
+
+64) [ Unit 64 ] -'s (Kate's camera / my brother's car  etc.)
+  - [A] 
+    - examples
+      - Kate's camera.
+        (her camera)
+      - my brother's car.
+        (his car)
+      - the manager's office.
+        (his or her office)
+    -...
+    - We normally use "-'s" for people.
+      - I stayed at my sister's house.
+        (NOT! the house of my sister)
+      - Have you met Mr Black's wife?
+        (NOT! the wife of Mr Black)
+      - Are you going to James's party?
+      - Paul is a man's name.
+        Paula is a woman's name.
+    -...
+    - You can use "-'s" without a noun after it
+      - Sophie's hair is longer than Kate's.
+        (= Kate's hair)
+      - Whose umbrella is this? It's my mother's.
+        (= my mother's umbrella)
+      - Where were you last night? I was at Paul's.
+        (= Paul's house)
+  -...
+  - [B] 
+    - " friend's "              and   " friends' "
+
+    my friend's house                 my friends' house
+    = one friend                      = two or more friends
+    (= his house or her house)        (= their house)
+  
+    We write " 's " after             We write " ' " after
+    friend/student/mother  etc.       friends/students/parents  etc.
+    (singular)                        (plural) 
+      - my mother's car                 - my parents' car  
+        (one mother)                      (two parents)
+      - my father's car 
+        (one father)
+  -...
+  - [C]
+    - We use "of ..." for things, places  etc.
+      - Look at the roof of that building.
+        (NOT! that building's roof)
+      - We didn't see the beginning of the film.
+        (NOT! the film's beginning)
+      - What's the name of this village?
+      - Do you know the cause of the problem?
+      - You can sit in the back of the car.
+      - Madrir is the captial of Spain.
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 64.1 Look at the family tree.
+           Complete the sentences about the people in the family.
+      0...
+      1
       2
       3
-      4
-
+      
 
 
 
@@ -7450,7 +7571,7 @@ I've got | a cold / a cough / a sore throat / a temperature / flu / etc.
 essentiat-grammar-in-use-book 
 
 
-  стр 135 в chrome
+  стр 137 в chrome
 
   (*) END: 115 Units, 240 стр.
 
