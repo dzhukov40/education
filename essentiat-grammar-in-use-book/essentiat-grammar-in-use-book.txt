@@ -7650,10 +7650,144 @@ I've got | a cold / a cough / a sore throat / a temperature / flu / etc.
     - (****) need check answers !!!!
     - 65.1 Write "a" or "an".
       0...
+      1 an old book
+      2 a window
+      3 a horse
+      4 an airport
+      5 a new airport
+      6 an organisation
+      7 a university
+      8 an hour
+      9 an economic problem
+    - 65.2 What are these things? Choose from the box.
+      0...
+      1 A duck is a bird.
+      2 A carrot is a vegetable.
+      3 Tennis is a game.
+      4 A hammer is a tool.
+      5 Everest is a mountain.
+      6 Saturn is a planet.
+      7 A banana is a fruit.
+      8 The Amazon is a river.
+      9 A rose is a flower.
+      10 A trumpet is a musical instrument.
+    - 65.3 What are their jobs? 
+           Choose from the list and complete the sentences.
+      0...
+      1 She's a dentist.
+      2 He's a cashier.
+      3 She is a engineer.
+      4 He is a taxi driver.
+      5 He is a electrician.
+      6 She is a photographer.
+      7 She is a doctor.
+      8 And you? I'm a java developer.
+    - 65.4 Write sentences.
+           Choose from the two boxes.
+           Use "a / an" where necessary.
+      0...
+      1 I want to ask you a question.
+      2 Tom newer wears a hat.
+      3 I can't ride a bike.
+      4 My brother is an artist.
+      5 Rebecca works in a bookshop.
+      6 Jane wants to learn a foreign language.
+      7 Mike lives in a old house.
+      8 This evening I'm going to party.
+
+
+
+66) [ Unit 66 ] train(s)  bus(es)  (singular and plural)
+  - [A] 
+    - The plural of a noun is usually "-s"
+
+      "singular"(= one)   ->   plural(= two or more)
+      a flower            ->   some flowers
+      a train             ->   two trains
+      one week            ->   a few weeks       
+      a nice place        ->   some nice places
+      this student        ->   these students
+
+    - "Spelling" (-> Appendix 5)
+      - table
+---------------------------------------------------------
+-s/-sh/-ch/-x    ->   "-es"   bus -> buses       ; dish -> dishes
+                              church -> churches ; box -> boxes                                                                                                                                            
+                      "also"  potato -> potatoes ; tomato -> tomatoes 
+---------------------------------------------------------
+           -y    ->   "-ies"  baby -> babies ; dictionary -> dictionaries 
+                              party -> parties
+
+but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
+                              boy -> boys 
+---------------------------------------------------------
+       -f / -fe  ->   "-ves"  shelf -> shelves ; knife -> knives ;
+                              wife -> wives
+---------------------------------------------------------
+  -...
+  - [B] 
+    - These things are plural
+      - scissors
+      - glasses
+      - trousers
+      - jeans
+      - shorts
+      - tights
+      - pyjamas
+      -...
+      - examples
+        - Do you wear glasses?
+        - Where are the scissors? I need them.
+    - You can also say 
+                - a pair of scissors
+                - a pair of trousers
+                - a pair of pyjamas
+                - etc.
+  -...
+  - [C] 
+    - Some plurals do not end in "-s"
+      - this man    -> these men
+      - a woman     -> some women
+      - a child     -> many children
+      - one foot    -> two feet
+      - a tooth     -> all my teeth
+      - a mouse     -> some Michael
+      - that sheep  -> those sheep
+      - a fish      -> a lot of fish
+    -...
+    - also
+      - a person    -> two people
+      -...
+      - examples
+        - She's a nice person.
+        - They are nice people.
+          (NOT! nice persons)
+  -...
+  - [D]
+    - People is plural(= they),
+      so we say "people are / people have  etc." 
+      - A lot of people speak English.
+        (NOT! speaks)
+      - I like the people here.
+        They are very friendly.
+    - Police is plural:
+      - The police want to talk to anybody
+        who saw the accident.
+        (NOT! the police wants)
+  
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 66.1 Write the plural.
+      0...
       1
       2
       3
-      4
+
+
+
+
 
 
 
@@ -7671,7 +7805,7 @@ I've got | a cold / a cough / a sore throat / a temperature / flu / etc.
 essentiat-grammar-in-use-book 
 
 
-  стр 139 в chrome
+  стр 141 в chrome
 
   (*) END: 115 Units, 240 стр.
 
