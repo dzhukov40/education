@@ -7976,7 +7976,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
 
 
-67) [ Unit 68 ] a cake / some cake / some cakes (countable / uncountable 2)
+68) [ Unit 68 ] a cake / some cake / some cakes (countable / uncountable 2)
   - [A] "a/an" and "some"
     - "a/an" + singular countable nouns (car/apple/shoe  etc.) 
       - I need a new car.
@@ -8050,6 +8050,123 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - 68.1 What can you see in these pictures?
            Use "a" or "some".
       0...
+      1 Some perfume, a hat and some shoes.
+      2 A newspaper, some flowers and a pan.
+      3 Some egs, some bread and bananas.
+      4 A brush, some toothpaste and a soap.
+    - 68.2 Write sentences with
+           "Would you like a ... ?" or "Would you like some ... ?"
+      0...
+      1 Would you like some cheese?
+      2 Would you like some coffee?
+      3 Would you like a biscut? 
+      4 Would you like some bread?
+      5 Would you like some chocolate?
+      6 Would you like a piece of cake?
+    -...
+    - 68.3 Write "a/an" or "some".
+      0...
+      1 I read a book and listened to some music.
+      2 I need some money. I want to buy some food.
+      3 We met some interesting people at the party.
+      4 I'm going to open a window to get some fresh air.
+      5 Rechel didn't eat much for lunch - only an apple and some bread.
+      6 We live in a big house. There's a nice garden with some beautiful trees.
+      7 I'm going to make a table. First I need some wood.
+      8 Listen to me carefully. I'm going to give you some advice.
+      9 I want to make a list of things to do. I need some paper and a pen.
+    -...
+    - 68.4 Which is right?
+      0...
+      1 I'm going to buy some new shoes.
+      2 Mark has brown eyes.
+      3 Paula has short black hair.
+      4 The tour guide gave us some information about the city.
+      5 We're going to buy some new chairs.
+      6 We're going to buy some new furniture.
+      7 It's hard to find a job at the moment.
+      8 We had wondeful weather when we were on holiday.
+
+
+
+
+69) [ Unit 69 ] a / an  and the
+  - [A] "a / an"
+
+    1    2    3                    
+   ---  ---  ---                                 ---
+   | |  | |  | |                                 | |
+   | |  | |  | |                                 | |
+   ---  ---  ---                                 ---
+   
+  Can you open a window?                     Can you open the window? 
+                                    
+  There are three windows here.              There is only one window here 
+  a window = window 1 or 2 or 3              - the window.
+  
+
+
+  - I'v got a car.                           - I'm going to clean the cat tomorrow.
+    (there are many cars and                   (= my car)
+    I've got one)
+  
+  - Can I ask a question?                    - Can you repeat the question, please?
+    (there are many questions -                (=the question that you asked)
+    can I ask one?)
+  
+  - Is there a hotel near here?              - We enjoed our holiday. 
+    (there are many hotels -                   The hotel was very nice.
+    is there one near here?)                   (=our hotel)
+ 
+  - Paris is an interesting city.            - Paris is the capital of France.
+    (there are many interesting cities         (there is only one capital of France)
+    and Paris is one)
+
+  - Lisa is a student.                       - Lisa is the youngest student 
+    (there are many students                   in her class.
+    and Lisa is one)                           (there is only one youngest student 
+                                               in her class)
+    -...
+      - Compare "a" and "the"
+
+                           -------------------------------------
+              -------------|-----------                        |
+              |            |          |                        |
+           --------     -------  ----------                ---------
+  I bought a jacket and a shirt. The jacket was cheap, but the shirt was expensive. 
+                                 (= the jacket and the shirt that I bought)
+
+  -...
+  - [B]
+    - We say "the ..." when it is clear which thing or person we mean.
+      - examples
+        - "of a room"
+          - the door / the ceiling / the floor / the carpet / the light  etc.
+        - "of a house"
+          - the roof / the garden / the kitchen / the bathroom  etc.
+        - "of a town"
+          - the center / the station / the airport / the town hall  etc.
+      -...
+      - examples
+        - Where's Tom In the kitchen.
+          (= the kitchen of this house or flat)
+
+        - Turn off the light and close the door.
+          (= the light and the door of the room)
+
+        - Do you live far from the center?
+          (= the center o your town)
+
+        - I'd like to speak to the manager, please.
+          (= the manager of this shop  etc.)      
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 69.1 Write "a/an" or "the"
+      0...
       1
       2
       3
@@ -8074,10 +8191,12 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
 
 
+
+
 essentiat-grammar-in-use-book 
 
 
-  стр 146 в chrome
+  стр 147 в chrome
 
   (*) END: 115 Units, 240 стр.
 
