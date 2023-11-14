@@ -7781,6 +7781,151 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - (****) need check answers !!!!
     - 66.1 Write the plural.
       0...
+      1 flower - flowers
+      2 boat - boats
+      3 woman - women
+      4 city  - cities
+      5 umbralla - ubrallas
+      6 address - addresses
+      7 knife - knives
+      8 sandwich - andwiches
+      9 family - familys
+      10 foot - foots
+      11 holiday - holidays
+      12 potato - potatoes
+    -...
+    - 66.2 Look at the pictures and complete the sentences.
+      0...
+      1 There are a lot of sheep in the field.
+      2 Gary is cleaning his teeth.
+      3 There are three people at the bus station.
+      4 Lusy has two children.
+      5 There are a lot of fish in the river.
+      6 The leaves are falling from the tree.
+    -...
+    - 66.3 Are this sentences OK? 
+           Change the sentences where necessary.
+      0...
+      1  (OK)    I'm going to buy some flowers.
+      2  (NOT!)  I need a new pair of jeans.
+      3  (NOT!)  I's a lovely park with a lot of beautiful trees.
+      4  (NOT!)  There was a woman in the xar with two men.
+      5  (OK)    Sheep eat grass.
+      6  (NOT!)  David is married and has three childrens.
+      7  (NOT!)  Most of mu friends are students.
+      8  (OK)    He put on his pyjama and went to bed.
+      9  (OK)    We went fishing, but we didn't catch many fish.
+      10 (NOT!)  Do you know many prople in this town?
+      11 (NOT!)  I like your trousers. Where did you get it?
+      12 (NOT!)  The town center is usually full of tourists.
+      13 (OK)    I don't like mice. I'm afraid of them.
+      14 (NOT!)  This scissors isn't very sharp.
+    -...
+    - 66.4 Which is right? 
+           Complete the sentences.
+      0...
+      1  It's nice place.
+         Many people go there on holiday. 
+      2  Some people are always late.
+      3  The new city hall is not a beautiful building.
+         Most people don't like it.
+      4  A lot of people watch TV every day.
+      5  Three people were injured in the accident.
+      6  How many people live in that house?
+      7  Does the police know the cause of the explosion?
+      8  The police is looking for the stolen car.
+      9  I need my glasses, but I can't find them.
+      10 I'm going to buy a new jeans today.
+
+
+
+
+667) [ Unit 67 ] a bottle / some water  (countable / uncountable 1)
+  - [A] 
+    - A noun can be "countable" or "uncountable"
+    -...
+    - "Countable" nouns
+      - example
+        - (a) car
+        - (a) man
+        - (a) bottle
+        - (a) house
+        - (a) key
+        - (a) idea
+        - (a) accident
+      -...
+      - You can use "one/two/three  etc." + countable nouns
+        - example
+          - one bottle
+          - two bottles
+          - three men
+          - four houses
+      -...
+      - Countable nouns can be "singular" or "plural"
+        - table
+
+     "singular" -> a car, the car, my car  etc.               
+     "plural"   -> cars, two cars, the cars, some cars, many cars  etc.                 
+        -...
+        - examples
+          - I've got a car.
+          - New cars are very expensive.
+          - There aren't many cars in the car park.
+    -...
+    - You can't use the singular (car/bottle/key  etc.) alone.
+      You need "a/an"
+      -...
+      - examples
+        - We can't get into the house without a key.
+          (NOT! without key)
+  -... 
+  - [B] Uncountable nouns
+    - examples
+      - water
+      - air
+      - rice
+      - salt
+      - plastic
+      - money
+      - music
+      - tennis
+    -...
+    - You can't say "one/two/three  etc." 
+         + these thinds -->> one water, two music
+    -...
+    - Uncountable nouns have only one form
+      - money
+      - the money
+      - my money
+      - some money
+      - much money
+    - examples
+      - I've got some money.
+      - There isn't much money in the box.
+      - Money isn't everything.
+    -...
+    - You can't use "a/an" 
+         + uncountable nouns: a money, a music, a water   
+    -...
+    - But you can say 
+      "a piece of ... / a bottle of ...  etc." + uncountable noun
+    -...
+    - examples
+      - a bottle of water         a carton of milk
+      - a piece of cheese         a bottle of perfume
+      - a bowl of rice            a cup of coffee
+      - a bar of chocolate        a piece of music
+      - a game of tennis
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 67.1 What are these things?
+           Some are countable and some are uncountable.
+           Write "a/an" if necessary.
+      0...
       1
       2
       3
@@ -7801,11 +7946,10 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
 
 
-
 essentiat-grammar-in-use-book 
 
 
-  стр 141 в chrome
+  стр 144 в chrome
 
   (*) END: 115 Units, 240 стр.
 
