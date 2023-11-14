@@ -7840,7 +7840,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
 
 
-667) [ Unit 67 ] a bottle / some water  (countable / uncountable 1)
+67) [ Unit 67 ] a bottle / some water  (countable / uncountable 1)
   - [A] 
     - A noun can be "countable" or "uncountable"
     -...
@@ -7926,9 +7926,137 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
            Some are countable and some are uncountable.
            Write "a/an" if necessary.
       0...
+      1 It's salt.
+      2 It's a spoon.
+      3 It's a jug.
+      4 It's watter.
+      5 It's toothpaste.
+      6 It's a toothbrush.
+      7 It's an egg.
+      8 It's money.
+      9 It's a wallet.
+      10 It's a sand.
+      11 It's a bucket.
+      12 It's an envelope.
+    -...
+    - 67.2 Some of these sentences are OK, but some need "a/an".
+           Write "a/an" where necessary.
+      0...
+      1 I dont have a watch.
+      2 Do you like cheese?
+      3 I never wear a hat.
+      4 Are you looking for a job?
+      5 Kate doesn't eat meat.
+      6 Kate eats an apple every day.
+      7 I'm going to a party tonight.
+      8 Music is a wonderful thing.
+      9 Jamaica is an island.
+      10 I don't need a key.
+      11 Everybody needs food.
+      12 I've got a good idea.
+      13 Can you drive a car?
+      14 Do you want a cup of coffee?
+      15 I don't like coffe without milk.
+      16 Don't go out without an umbrella.
+    -...
+    - 67.3 What are these things?
+           Write "a ... of ..." for each picture.
+           Use the words in the boxes.
+      0...
+      1 A carton of milk.
+      2 A piece of wood.
+      3 A glass of water.
+      4 A bar of chocolate.
+      5 A cup of tea.
+      6 A piece of paper.
+      7 A bowl of soup.
+      8 A loaf of bread.
+      9 a jar of honey
+
+
+
+
+67) [ Unit 68 ] a cake / some cake / some cakes (countable / uncountable 2)
+  - [A] "a/an" and "some"
+    - "a/an" + singular countable nouns (car/apple/shoe  etc.) 
+      - I need a new car.
+      - Would you like an apple?
+    -...
+    - "some" + plural countable nouns (cars/apples/shoes  etc.)
+      - I need some new shoes.
+      - Would you like some apples?
+    -...
+    - "some" + uncountable nouns (water/money/music  etc.)
+      - I need some water.
+      - Would you like some cheese?
+        (OR Would you like a piece of cheese?)
+    -...
+    - Compare "a" and "some"
+      - Micola bought a hat, some shoes and some perfume.
+      - I read a newspaper, made some phone calls, 
+        and listened to some music.
+  -...
+  - [B]
+    - Many nouns are sometimes countable and sometimes uncountable.
+      - example
+        - a cake
+          - some cakes 
+          - some cake   
+          - a pice of cake
+        - chicken
+          - a chicken  
+          - some chickens  
+          - a pice of chicken
+    - Compare "a paper" (= a newspaper) and "some paper"
+      - I want something to read. I'm going to buy a paper.
+      - I want to make a shopping list.
+        I need some paper / a piece of paper.
+        (NOT! a paper)
+  -...
+  - [C] 
+    - Be careful with:
+      - advice          furniture
+      - bread           hair
+      - information     news
+      - weather         work
+      -...
+      - These nouns are usually uncountable.
+        So you can't say "a/an ..." and they can be plural.
+        -...
+        - Can I talk to you?
+          I need some advice.
+          (NOT! an advice)
+        - I'm going to buy some bread.
+          (NOT! a bread)
+        - They've got some nice furniture in their house.
+          (NOT! furnitures)
+        - Silvia has very long hair.
+          (NOT! hairs)
+        - Where can I get some good news.
+          (NOT! a good news)
+        - It's nice weather today.
+          (NOT! a nice weather)
+        - Do you like your job? Yes, but it's hard work.
+          (NOT! a hard work)
+    -...
+    - We say a job (but NOT! a work)
+      - I've got a new job.
+        (NOT! a new work)
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 68.1 What can you see in these pictures?
+           Use "a" or "some".
+      0...
       1
       2
       3
+      4
+
+
+
 
 
 
@@ -7949,7 +8077,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 144 в chrome
+  стр 146 в chrome
 
   (*) END: 115 Units, 240 стр.
 
