@@ -8167,18 +8167,133 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - (****) need check answers !!!!
     - 69.1 Write "a/an" or "the"
       0...
-      1
-      2
-      3
-      4
+      1 We enjoyed our trip.
+        The hotel was very nice.
+      2 Can I ask a question? Sure.
+        What do you want to know?
+      3 You look very tired.
+        You need a holiday.
+      4 Where's Tom?
+        He's in the garden.
+      5 Eve is a interesting person.
+        Tou should meet her.
+      6 A: Excuse me, can you tell me how to get to the city center?
+        B: Yes, go straight on and then take a next turning the left.
+      7 A: Shall we go out for a meal this evening?
+        B: Yes, that's a good idea.
+      8 It's a nice morning.
+        Le't go for a walk.
+      9 Amanda is a student.
+        When she finishes her stufies, she wants to be a journalist.
+        She lives with two friends in an apartment near the college
+        where she is studying.
+        The apartment is small, but she likes it.
+      10 Peter and Mary have two children, a boy and a girl.
+         The boy is seven years old, and the girl is three.
+         Peter works in a factory.
+         Mary doesn't have a job at the moment.
+    -...
+    - 69.2 Complete the sentances. Use "a/an" or "the"
+      0...
+      1 Can you open the dor, please?
+      2 How far is to the city center?
+      3 Can I have a cup of coffee, please?
+      4 That's the nice picture - I like it.
+      5 Can you pass me the book, please?
+      6 Why are you sitting on the floor?
+    -...
+    - 69.3 These sentences are not correct.
+           Put in "a/an" or "the" where necessary.
+      0...
+      1 Don't forget to turn off the light when you go out. 
+      2 Enjoy your trip, and fon't forget to send me a postcard.
+      3 What is the name of this village?
+      4 Canada is a very big country.
+      5 What is the largest city in Canade?
+      6 I like this room, but I don't like the colour of carpet.
+      7 Are you OK?
+        No, I've got a headache.
+      8 We live in the old house near station.
+      9 What is the name of director of the film we saw last night?
 
 
 
 
+70) [ Unit 70 ] the ...
+  - [A] 
+    - We use "the" when it is clear which thing or person we mean:
+      - What is the name of this street?
+        (there is only one name)
+      - Who is the best player in your team?
+        (there is only one best player)
+      - Can you tell me the time, please?
+        (= the time now)
+      - My office is on the first floor.
+        (= the first floor of the building)
+    -...
+    - Don't forget "the"
+      - Do you live near the city center?
+        (NOT! near city center)
+      - Excuse me, where is the nearest bank?
+        (NOT! where is nerest ...)
+  - [B]
+    - "the same ..."
+      - We live in the same street.
+        (NOT! in same street)
+      - Are these two books different?
+        No, they're the same.
+        (NOT! they're same)
+  -...
+  - [C]
+    - We say:
+      - "the sun / the moon / the world / the sky / the sea / the country"
+        - The sky is blue and the sun is shining.
+        - Do you live in a town or in the country?
+      - "the police / the fire brigade / the army" (of a city,country  etc.)   
+        - My brother is a solder.
+          He's in the army.
+        - What do you think of the police?
+          Do they do a good job?
+      - "the top / the end / the middle / the left  etc."
+        - Write your name at the top of the page.
+        - My house is at the end of the street.
+        - The table is in the middle of the room.
+        - Do you drive on the right or on the left in your country?
+      - (play) "the piano / the guitar / the trumpet  etc."
+        (musical instruments)
+        - Paula is learning to play the piano.
+      -...
+      - "the radio"
+        - I listen to the radio a lot.
+      - "the internet"
+        - What do you use the internet for?  
+  -...
+  - [D]
+    - We do not use "the" with:
+      - "television / TV"
+        - I watch TV a lot.
+        - What's on television tonight?
+          (BUT! Can you turtn off the TV?)
+      -...
+      - "breakfast / lunch / dinner"
+        - What did you have for breakfast?
+          (NOT! the breakfast)
+        - Dinner is ready!
+      -...
+      - "next/last + week/month/year/summer/Monday  etc."
+        - I'm not working next week.
+          (NOT! the next week)
+        - Did you have a holiday last summer?
+          (NOT! the last summer)
 
 
 
 
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 70.1 Put in "the" where necessary.
+      0...
+      1 
 
 
 
@@ -8196,7 +8311,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 147 в chrome
+  стр 149 в chrome
 
   (*) END: 115 Units, 240 стр.
 
