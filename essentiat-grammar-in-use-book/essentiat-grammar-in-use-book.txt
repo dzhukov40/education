@@ -8293,7 +8293,129 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - (****) need check answers !!!!
     - 70.1 Put in "the" where necessary.
       0...
-      1 
+      1 What is the name of this street?
+      2 What's on TV tonight?
+      3 Our apartment is on second floor.
+      4 Would you like to go to the moon?
+      5 Which is the best hotel in the town?
+      6 What the time is lunch?
+      7 How far is it to the city centre?
+      8 We're going away at the end of May.
+      9 What are you doing the next weekend?
+      10 I didn't like her the first time I met her.
+      11 I'm going out after dinner.
+      12 It's esay to get information from the internet.
+      13 My sister got married the last month.
+      14 My dictionary is on the top shelf on the right.
+      15 We live in the country about ten miles from nearest town.
+    -...
+    - 70.2 Complete the sentences. Use "the same" + these words
+      0...
+      1 I live in North Street and you live in North Street.
+        We live in the same street. 
+      2 I arrived at 8.30 and you arrived at 8.30.
+        We arrived at the same time.
+      3 James is 25 and Sue is 25.
+        James and Sue are the same age.
+      4 My shirt is dark blue and so is my jacket.
+        My shirt and jacket are the same colour.
+      5 I have no money and you have no money.
+        We have the same problem.
+    -...
+    - 70.3 Look at the pictures and complete the sentences.
+           Use "the" if necessary.
+      0...
+      1 The sun is shining.
+      2 She's playing the song.
+      3 They're having breakfast.
+      4 He's watching TV.
+      5 They're swimming in the sea.
+      6 Tom's name is at the bottom of the list.
+    -...
+    - 70.4 Complete these sentences.
+           Choose from the list.
+      0...
+      1 We had dinner at a restaurant last night.
+      2 We stayed at a very nice hotel, but I don't remember the name.
+      3 The sky is very cleartonight.
+        You can see all the stars.
+      4 Sometimes there are some good films on TV late at night.
+      5 Somebody was trying to break into the shop,
+        so I called the police.
+      6 Tokyo is the capital of Japan.
+      7 What did you have for lunch? A salad.
+      8 I woke up in the middle of the night.
+    
+
+
+
+
+71) [ Unit 71 ] go to work / go home / go to the cinema
+  - [A] NOT USE "the"
+    - (go)"to work", (be)"at home", start "work", finish "work"
+      - Bye! I'm going to work now.
+        (NOT! to the work)
+      - I finish work at 5 o'clock day.
+              
+    - (go)"to school", (be)"at school", start "school"  etc.  
+      - What did you learn at school today?
+        (NOT! at the school)
+      - Some children don't like school.
+                  
+    - (go)"to university/college", (be)"at university/college"  
+      - Helen wants to go to university when she leaves school.
+      - What did you study at college?
+                     
+    - (go)"to hospital", (be)"in hospital"
+      - Jack had an accident. He had to go to hospital.
+                 
+    - (go)"to prison", (be)"in prison" 
+      - Why is he in prison? What did he do?
+                
+    - (go)"to church", (be)"in/at church",   
+      - David usually goes to church on Sundays.
+                
+    - (go)"to bed", (be)"in bed"
+      - I'm tried.
+        I'm going to bed.
+        (NOT! to the bed)
+      - Where's Alice?
+        She's in bed.
+                      
+    - (go)"home", (be)"at home"  etc.   
+      - I'm tried. I'm going home.
+        (NOT! to home)
+      - Are you going out tonight, or are you staying at home?
+  -...
+  - [B] USE "the"
+    - (go to)"the cinema" / "the theatre" / "the bank"
+      "the post office" / "the station" / "the airport"
+      "the city center"
+      - I never go to the eheater, but I go to the cinema a lot.
+      - Are you going to the bank?
+        No, to the post office.
+      - The number 5 bus goes to the airport;
+        the number 8 goes to the city center.
+
+    - (go to) "the doctor", "the dentist"
+      - You're not well.
+        Why don't you go to the doctor?
+      - I have to go to the dentist tomorrow.    
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 71.1 Where are these people?
+           Complete the sentences.
+           Sometimes you need "the".
+      0...
+      1
+      2
+      3
+
+
 
 
 
@@ -8311,7 +8433,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 149 в chrome
+  стр 151 в chrome
 
   (*) END: 115 Units, 240 стр.
 
