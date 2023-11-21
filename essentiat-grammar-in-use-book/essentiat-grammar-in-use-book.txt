@@ -8521,11 +8521,136 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - (****) need check answers !!!!
     - 72.1 What do you think about these things?
       0...
-      1
-      2
-      3
+      1 I hate exams. or I like exams. or Eams are allright.
+      2 I don't like dogs. 
+      3 I hate housework.
+      4 I have exams.
+      5 I love chocolate.
+      6 Musems are all right.
+      7 I like computer gages.
+      8 I hate parties.
+    -...
+    - 72.2 Are you interested in these things?
+           Write sentences with.
+      0...
+      1 I'm very interested in history.
+      2 I know a little about politics.
+      3 I know a littele bit about sport.
+      4 I'm not interested in art.
+      5 I don't know much about astronomy.
+      6 I'm interested in economics.
+    -...
+    - 72.3 Which is right?
+      0...
+      1 My favourite sport is football.
+      2 I like this hotel.
+        The rooms are very nice.
+      3 Everybody needs friends.
+      4 Jane doesn't go to parties very often.
+      5 I went shopping this morning.
+        The shops weve very busy.
+      6 Where's the milk?
+        It's in the fridge.
+      7 I don't like milk.
+        I never drink it.
+      8 Do you do any sports?
+        Yes, I play basketball.
+      9 An arcitect is a person who designs buildings.
+      10 We went for a swimming in the river.
+         The water was very cold.
+      11 I don't like swimming in cold water.
+      12 Wxcuse me, can you pass the salt, plese?
+      13 I like this town. I like the people here.
+      14 Vegetables are good for you.
+      15 The houses in this street are all the same.
+      16 I can't sing this song.
+         I don't know the words.
+      17 I enjoy taking pictures.
+         It's my hobby.
+      18 Do you want to see the pictures 
+         that I took when I was onholiday?
+      19 English is used a lot in international business.
+      20 Money doesn't always bring happiness.
 
 
+
+
+
+73) [ Unit 73 ] the ... (names of places)
+  - [A]  
+    - Places (continents, countries, states, islands, towns  etc.)
+      - In general we don't use "the" with names of places
+        - examples
+          - France is a very large country.
+          - Cairo is the capital of Egypt.
+          - Cosrica is an island in the Mediterranean.
+          - Peru is in South America.
+      -...
+      - But we use "the" in names with "republic/states/kindom"
+        - examples
+          - the Czech republic
+          - the United States of America (the USA)
+          - the United Kindom (the UK)
+  -... 
+  - [B]
+    - "the -s" (plural names)
+      - We use "the" with plural names of countries/ilands/mountains
+        - the Netherlands
+        - the Canary islands
+        - the Philippines  
+        - the Alps
+  -... 
+  - [C]
+    - Seas, rivers  etc.
+      - We use "the" with names of "oceans/seas/rivers/canals"
+        - the Atlantic (Ocean)
+        - the (River) Nile
+        - the Mediterranean (Sea)
+        - the Suez Canal
+        - the Amazon
+        - the Black Sea
+  -... 
+  - [D]
+    - Places in towns (streets, buildings  etc.)
+      - In general we do not use "the" 
+        with names of streets, squares,  etc.
+        - Kevin lives in Newton Street.
+        - Where is Highfield Road, please?
+        - Times Square is in New Yourk.
+      -...
+      - We do not use "the" with names of airports,
+        stations and many other important buildings
+        - Kennedy Airport
+        - Westminster Abbey
+        - London Zoo
+        - Victoria Station
+        - Edinburg Castle
+      - also
+        - Cambridge University, Harvard University  etc.
+      - But we use "the" with names of most hotels,
+        museums, theaters and cinemas
+        - the Regent Hotel
+        - the National Teatre  
+        - the Science Museum
+        - the Odeon (cinema)
+  -... 
+  - [E]
+    - "the ... of ..."
+      - We use "the" + names with ... "of" ...
+        - the Museum of Modern Art
+        - the University of California
+        - the Great Wall of China
+        - the Tower of London
+      -...
+      - We say "the north / the south / the east / the west (of ...)"
+        - I've been to the north of Italy, but not to the south.
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 73.1
 
 
 
@@ -8546,7 +8671,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 153 в chrome
+  стр 155 в chrome
 
   (*) END: 115 Units, 240 стр.
 
