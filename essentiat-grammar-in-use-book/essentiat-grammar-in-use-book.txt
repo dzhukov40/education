@@ -8650,7 +8650,138 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
   - [Exercises]
     - (****) need check answers !!!!
-    - 73.1
+    - 73.1 Answer these geography questions.
+      0...
+      1 Cairo is the capital of Egypt.
+      2 The Atlantic is between Africa and America.
+      3 Sweden is a country in northern Europe.
+      4 The Amazon is a river in South America.
+      5 Asia is the largest continent in the world.
+      6 The Pacific is the largest ocean.
+      7 The Rhine is a river in Europe.
+      8 Kenia is a country in East Africa.
+      9 The United States is between Canada and Mexico.
+      10 The Ands are mountains in South America. 
+      11 Bankok is the capital of Thailand.
+      12 The Alps are mountains in central Europe.
+      13 The Red Sea is between Saudi Arabia and Africa.
+      14 Jamaica is an iland in the Carribbean.
+      15 Bahamas are a group of islands near Florida.
+    - 73.2 Write "the" where necessary.
+      0...
+      1 Kevin lives in Newton Street.
+      2 We went to see a play at the National Theatre.
+      3 Have you ever been to Chaina?
+      4 Have you ever been to Philippines?
+      5 Have you ever been to the south of France?
+      6 Can you tell me where the Regal Cinema is?
+      7 Can you tell me where Merrion Street is?
+      8 Can you tell me where the Museun af Art is?
+      9 Europe is bigger than Australia.
+      10 Belgium is smaller than the Netherlands.
+      11 Which river is longer - the Mississippi or the Nile?
+      12 Did you go to the National Gallery
+         when you were in London?
+      13 We stayed at the Park Hotel in Hudson Road.
+      14 How far is it from 
+         Trafalgar Square to Victoria Station (in London)?
+      15 Rocky Mountains are in North America.
+      16 Texas is famous for oil and cowboys.
+      17 I hope to go to the United States next year.
+      18 Mary comes from the west of Ireland.
+      19 Alan is a student at the Manchester University.
+      20 The Panama Canal joins the Atlantic Ocean and the Pacific Ocean.
+
+
+
+
+
+74) [ Unit 74 ] this / that / these / those
+  - [A]  
+    
+    "this"             "these"             "that"          "those"
+    (singular)         (plural)            (singular)      (plural)
+  
+
+    - Do you like this picture?            - Do you like that picture?
+    - These flowers are for you.           - Who are those people? 
+    
+    this picture                           that picture
+    (= this picture here)                  (= that picture there)
+    these flowers                          those people
+    (= these flowers here)                 (= those people there) 
+  -...
+  - [B]
+    - We use "this/that/these/those" with a noun
+      (this pictures / those girls etc.) or without a noun.
+      -...                                        
+      -...                                        ---|
+      - This hotel is expensive, but it's vary nice. |
+      - Who's that girl? I don't know.               | 
+      - Do you like these shoes?                     -> with a noun 
+        I bought them last week.                     | 
+      - Those apples look nice. Can I have one?      |
+                                                 ----|
+      -...
+                                                 ------|
+      - This is a nice hotel, but it's very expensive. |
+      - Excuse me, is this your bag?                   |
+        Oh yes, thank you.                             |
+      - Who's that?                                    -> without a noun
+        (= Who is that person?)                        |
+      - Which shoes do you prefer - these or those?    |
+                                                -------|
+  -...
+  - [C]
+    - "that" = something that has happened
+      - I'm sorry I forgot to phone you.
+        That's all right.
+      - That was a really nice meal.
+        Thank you very much.
+    -...
+    - "that" = what somebody has just said
+      - You're a teacher, aren't you?
+        Yes, that's right.
+      - Martin has a new job.
+        Really?
+        I didn't know that.
+      - I'm going on holiday next week.
+        Oh, that's nice.      
+  -...
+  - [D]
+    - We use "this is ..." and "is that ... ?" on the phone.
+      - Hi Sarah, this is David.
+        (this = the speaker)  
+      - Is that Sarah?
+        (that = the other person)
+    -...
+    - We use "this is ..." to introduce people
+      - A: Ben, this is Chris.
+        B: Hello, Chris - nice to meet you.
+        C: Hi     
+
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 74.1 Complete the sentences.
+           Use "this/that/these/those" + these words.
+      0...
+      1
+      2
+      3
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8671,7 +8802,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 155 в chrome
+  стр 157 в chrome
 
   (*) END: 115 Units, 240 стр.
 
