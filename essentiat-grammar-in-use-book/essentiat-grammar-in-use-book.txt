@@ -8763,28 +8763,128 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
 
 
-
   - [Exercises]
     - (****) need check answers !!!!
     - 74.1 Complete the sentences.
            Use "this/that/these/those" + these words.
       0...
-      1
-      2
+      1 Do you like these shoes?
+      2 Who lives in that house.
+      3 How much are these postcards.
+      4 Look at those birds.
+      5 Excuse me, is this seat free?
+      6 These plates are dirty.
+    - 74.2 Write questions:
+           "Is this/that your ...?" or "Are these/those your ...?"
+      0...
+      1 Is this your bad?
+      2 Is that your umbrella?
+      3 Is this your book?
+      4 Are those your books your?
+      5 Is that bike your?
+      6 Is this key your?
+      7 Is that key your?
+      8 Is this watch your?
+      9 Are those glass your?
+      10 Are these gloves your?
+    - 74.3 Complete the sentences with "this is" or "that's" or "that"
+      0...
+      1 A: I'm sorry I'm late.
+        B: That's all right.
+      2 A: I can't come to the party tomorrow.
+        B: Oh, this is a pity. Why not? 
+      3 on the phone
+        SUE: Hello, jane. This is Sue.
+        JANE: Oh, hi Sue. How are you?
+      4 A: You're lazy.
+        B: That is not true.      
+      5 A: Beth plays the piano very well.
+        B: Does she? I didn't know that.
+      6 Mark meets Paul's sister, Helen.
+        PAUL: Mark, this is my sister, Helen.
+        MARK: Hi, Helen. 
+      7 A: I'm sorry I was angry yesterday.
+        B: That is OK. Forget it!
+      8 A: You're a friend of Tom's, aren't you?
+        B: Yes, that is right.
+
+
+
+
+
+75) [ Unit 75 ] one / ones
+  - [A] "one" (= a ...)
+    
+    - These chocolates are good.
+      
+      Would you like one?
+                     --- 
+                     ||
+                     \/
+                   -----------  
+  = Would you like a chocolate?
+  
+    - examples
+      - I need a pen.
+        Do you have one?
+        (one = a pen)
+      - A: Is these a bank near here?
+        B: Yes, there's one at the end of this street.
+           (one = a bank)
+  -...
+  - [B] "one" and "ones"
+
+    "one" (singular)                          "ones" (plural)
+
+    Which one do you want?                    Which ones do you wants?   
+    This one.                                 The white ones.     
+
+    Which one?                                Which ones?
+    (= Which hat?)                            (= Which flowers?)
+    [one = hat/car/gitl  etc.]                [ones = flowers/cars/girls 
+                                                 etc. ]
+
+    "this one / that one"                     "these/those" or
+      - Which car is yours?                   "these ones / those ones"
+        This one or that one?                   - Which flowers do you want?
+        (= this car or that car)                  These or those?
+                                                  or
+                                                  These ones or those ones?   
+    
+    "the one ..."                             "the ones ..."
+      - A: Which hotel did you stay at?       - A: Which books are yours?
+        B: The one opposite the station.        B: The ones on the table.
+      - I found this key.                     - I found these keys.
+        Is it the one you lost?                 Are they the ones you lost?
+
+    "the ... one"                             "the ... ones"
+      - I don't likre the black coat,           - I don't like the red shoes,
+        but I like the brown one.                 but I like the green ones.
+      - Don't buy that camera.                  - Don't buy those apples. 
+        Buy the other one.                        Buy the other ones.
+
+    "a/an ... one"                            "some ... ones" 
+      - This cup is dirty.                      - These cups are dirty.
+        Can I have a clean one?                   Can we have some clean ones? 
+      - That discuit was nice.                  - My shoes are very old. 
+        I'm going to have another one.            I'm going to buy some new ones.
+    
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 75.1 A asks B questions.
+           Use the information in the box to write B's answer.
+           Use "one"(not "a/an ...") in the answers.
+      0...
+      1 A: Can you lend me a pen?
+        B: I'm sorry, I don't have one.
+      2 A: Would you like to have a car?
+        B:
       3
-
-
-
-
-
-
-
-
-
-
-
-
-
+      4
 
 
 
@@ -8802,7 +8902,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 157 в chrome
+  стр 159 в chrome
 
   (*) END: 115 Units, 240 стр.
 
