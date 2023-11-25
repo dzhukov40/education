@@ -8810,8 +8810,6 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
 
 
-
-
 75) [ Unit 75 ] one / ones
   - [A] "one" (= a ...)
     
@@ -8882,9 +8880,164 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
       1 A: Can you lend me a pen?
         B: I'm sorry, I don't have one.
       2 A: Would you like to have a car?
-        B:
+        B: No, I don't need one.
+      3 A: Do you have a bike?
+        B: No, but I'm going to get one.
+      4 A: Can you lend me an umbrells?
+        B: I'm sorry, but I don't have one.
+      5 A: Would you like a cup of coffee?
+        B: No, thank you. I have just have one.
+      6 A: Is there a chemist near here?
+        B: Yes, there's one in Mill Road.
+    -...
+    - 75.2 Complete the sentences.
+           Use "a/an ... one". Use the words in the list.
+      0...
+      1 This cup is dirty.
+        Can I have a clean one? 
+      2 I'm going to sell my car and buy a new one.
+      3 That's not a very good photo, but this is a better one.
+      4 I want today's newspaper.
+        This is a old one.
+      5 This box is too small.
+        I need a big one.
+      6 Why do we always go to the same restaurant?
+        Let's go to a different one.
+    -...
+    - 75.3 A is talking to B.
+           Use the information to complete the conversations.
+           Use "one/ones".
+      0...
+      1 A - stayed at a hotek.
+        It was opposite the station.
+        A: We stayed at a hotel.
+        B: Which one?
+        A: The one opposite the station.
+      ...
+      2 A - sees some shoes in a shop window.
+        They're green.
+        A: I like those shoes.
+        B: Which ones? 
+        A: The green ones.
+      ...
+      3 A - is looking at a house.
+        It has a red boor.
+        A: That's a nice house.
+        B: Which one? 
+        A:That one with a red door.
+      ...
+      4 A - is looking at some CDs.
+        They're on the top shelf.
+        A: Are those your CDs?
+        B: Which ones?
+        A: Those ones on the top shelf.
+      ...
+      5 A - is looking at a jacket in a shop.
+        It's black.
+        A: Do you like that hacket?
+        B: Which one?
+        A: The black one.
+      ...
+      6 A - is looking at a picture.
+        It's on the wall.
+        A: That's an interesting picture.
+        B: Which one?
+        A: The one on the wall.
+      ...
+      7 A - sees a girl in a group of people.
+        She's tall with long hair.
+        A: That's an interesting picture.
+        B: Which one?
+        A: The tall one with long hair.
+      ...
+      8 A - is looking at some flowers in the garden.
+        They're yellow.
+        A: Thouse flowers are beautiful.
+        B: Which ones?
+        A: The yellow ones.
+      ...
+      9 A - is looking at a man in a restaurant.
+        He has a moustache and glasses.
+        A: Who's that man?
+        B: Which one?
+        A: The one with a mounstache and glasses.
+      ...
+      10 A - took some photos at the party last week.
+        A: Did I show you my photos?
+        B: Which ones?
+        A: The ones from the last week party.
+
+
+
+
+76) [ Unit 76 ] "some" and "any"
+  - [A]
+
+    "some"                                  "any"
+ 
+    I have some money.                      I don't have any money. 
+
+    Use "some" in positive sentences:       Use "any" in negative sentences:
+    - I'm going to buy some clothes.        - I'm not going to buy any clothes.
+    - There's some milk in the fridge.      - There isn't any milk in the fridge.
+    - We made some mistakes.                - We didn't make any mistakes.
+  -...
+  - [B] "any" and "some" in questions
+    -...
+    - In most questions (but not all) we use "any"(not "some")
+      - Is there any milk in fridge?
+      - Does he have any friends?
+      - Do you need any help?
+    -...
+    - We normally use "some"(not "any") when we offer things
+      ("Would you like ... ?")
+      - A: Would you like some coffee?
+        B: Yes, please.
+    -...
+    - or when we ask for things ("Can I have ...?"  etc.)
+      - A: Can I have some soup, please?
+        B: Yes, Help yourself.
+      - A: Can you lend me some money?
+        B: Sure. How much do you need?
+  -...
+  - [C] "some" and "any" without a noun
+    - I didn't take any pictures, but Jessica took some.
+      (= some pictures)
+    - You can have some coffee, but I don't want any.
+      (= any coffee)
+    - I've just made some coffee. Would you like some?
+      (= some coffee)
+    - Where's your luggage? I don't have any.
+      (= any luggage)
+    - Are there any biscuits? Yes, there are some in the kitchen.
+      (= some biscuits)
+  -...
+  - [D] 
+
+    "something / somebody"                 "anything / anybody"
+    (or someone)                           (or anyone) 
+    
+    - She said something.                  - She didn't say anything.
+    - I saw somebody (or someone).         - I didn't see anybody (or anyone).
+    - Would you like something to eat?     - Are you doing anything tonight?
+    - Somebody's at the door.              - Where's Sue? Has anybody seen her?
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 76.1 Write "some" or "any".
+      0...
+      1
+      2
       3
       4
+
+
+
+
+
 
 
 
@@ -8902,7 +9055,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 159 в chrome
+  стр 161 в chrome
 
   (*) END: 115 Units, 240 стр.
 
