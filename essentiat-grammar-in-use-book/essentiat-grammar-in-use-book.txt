@@ -9029,12 +9029,152 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - (****) need check answers !!!!
     - 76.1 Write "some" or "any".
       0...
+      1 I bought some cheese, but I didn't buy any bread.
+      2 In the middle og the room there was a table and some chairs.
+      3 There aren't any shops in this part of town.
+      4 Gary and Alice don't have any children.
+      5 Do you have any brothers or sisters?
+      6 THere are some beautiful flowers in the garden.
+      7 Do you know any good hotels in London?
+      8 Would you like some tea?, please.
+      9 When we were on holiday, we visited some interesting places.
+      10 Don't buy any rice.
+         We don't need any.
+      11 I went out to buy some bananas, 
+         but they didn't have any in the shop.
+      12 I'm thirsty.
+         Can I have some water, please?
+    -...
+    - 76.2 Complete the sentences.
+           Use "some" or "any" + the words in the box.
+      0...
+      1 I want to wash my hair.
+        Is there any shampoo?
+      2 The police want to talk to you.
+        They want to ask to some questions.
+      3 I had my camera, but I didn't take any pictures.
+      4 Do you speak any forein languages?
+      5 Yesterday evening I went to a restaurant with some friends of mine.
+      6 Can I have some milk in my coffee, please?
+      7 The radio isn't working.
+        There aren't any batteries in it.
+      8 It's hot in this office.
+        I'm going out for some fresh air.
+      9 A: Would you like some cheese?
+        B: No, thanl you.
+           I've had enough to eat.
+      10 I can do this job alone.
+         I don't need any help.
+    -...
+    - 76.3 Complete the sentences. Use "some" or "any".
+      0...
+      1 Kate didn't take any pictures, but I took some.
+      2 Where's your luggage? I don't have any.
+      3 Do you need any money?
+        No thank you.
+        I have some.
+      4 Can you lend me some money?
+        I'm sorry, but I don't have any.
+      5 The tomatoes in the shop didn't look very good,
+        so I don't buy any.
+      6 There were some nice oranges in the shop,
+        so I buy some.
+      7 How much coffee did you drink yesterday?
+        I didn't drink any.
+    -...
+    - 76.4 Write "something/somebody" or "anything/anybody"
+      0...
+      1 A woman stopped me and said something, but I didn't understand.
+      2 What's wrong?
+        There's something in my eye.
+      3 Do you know something about politics?
+      4 I went to the shop, but I didn't buy anything.
+      5 Somebody has broken the window. I don't know who.
+      6 There isn't anything in the bag. It's empty.
+      7 I'm looking for my keys.
+        Has somebody seen them?
+      8 Would you like something to drink?
+      9 I didn't eat anything because I wasn't hungry.
+      10 This is a secret.
+         Please don't tell anybody.    
+
+
+
+
+77) [ Unit 77 ] not + any  no  none
+  - [A]
+    - main examples
+      
+      - The car park is empty.
+      
+        There aren't any cars.  \   in the car park.   
+        There are no cars       /
+      
+      How many cars are there in the car park?
+      "None".
+    -...
+    - "not (-n't) + any"
+      - There aren't any cars in the car park.
+      - Tracey and Jack don't have any children.
+      - You can have some coffee, but I don't want any.
+    -...
+    - "no" + noun ("no cars / no garden"  etc.)
+
+    - "no ..." = "not any" or "not a"
+      - There are no cars in the car park.
+        (= there aren't any cars)
+      - We have no coffee.
+        (= we don't have any coffee)
+      - It's nice house, but there's no garden.
+        (= there isn't a garden)
+    - We use "no" ... especially after "have" and "there is/are"
+
+    - negative verb + "any" = positive verb + no
+      - They don't have any children. 
+        == They have no children.
+        (NOT! They don't have no children)
+      - There isn't any sugar in your coffee. 
+        == There's no sugar in your coffee.
+  -...
+  - [B] "no" and "none"
+    - Use "no" + noun ("no money / no children"  etc.)
+      - We have no money.
+      - Everything was OK. There were no problems.
+    -...
+    - Use "none" alone (without a noun)
+      - How much money do you have?
+        None.
+        (= no money)
+      - Were there any problems?
+        No, none.
+        (= no problems)
+  -...
+  - [C] "none" and "no-one"
+    [ "none"   = 0 (zero) ]
+    [ "no-one" = nobody   ]
+    -...
+    - "None" is an answer for "How much? / How many?"(things or people)
+      - A: How much money do you have?
+        B: None. 
+           (= no money)
+      - A: How many people did you meet?
+        B: None.
+           (= no people)
+    -...
+    - "No-one" is an answer for "Who"?
+      - A: Who did you meet?
+        B: No-one. (or Nobody)   
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 77.1 Write these sentences again with "no".
+      0...
       1
       2
       3
-      4
-
-
 
 
 
@@ -9055,7 +9195,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 161 в chrome
+  стр 163 в chrome
 
   (*) END: 115 Units, 240 стр.
 
