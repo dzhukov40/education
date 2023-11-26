@@ -9172,10 +9172,153 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - (****) need check answers !!!!
     - 77.1 Write these sentences again with "no".
       0...
-      1
+      1 We don't have any money.
+        We have no money.
+      2 There aren't any shops near here.
+        There are no shops near here.
+      3 Carla doesn't have any free time.
+        Carla have no free time.
+      4 There isn't a light in this room.
+        There is no light in this room.
+      ...
+      5 We have no money.
+        We don't have any money.
+      6 There's no milk in the fridge.
+        There isn't any milk in the fridge. 
+      7 There are no buses today.
+        There aren't any buses today.
+      8 Tom has no brothers or sisters.
+        Tom hasn't any brothers or sisters.
+    -...
+    - 77.2 Write "no" or "any".
+      0...
+      1 There's no sugar in your coffee.
+      2 My brother is married, but he doesn't have any children.
+      3 Sue doesn't speak any foreing languages.
+      4 I'm afraid there's no coffee. Would you like some tea?
+      5 Look at those birds! Birds? Where? I can't see any birds.
+      6 Do you know where Jessica is? No, I have no idea.
+      ...
+      7 There aren't any pictures on the wall.
+      8 The weather was cold, but there was no wind.
+      9 I wanted to buy some oranges,
+        but they didn't have any in the shop.
+      10 Everything was correct.
+         There were no mistakes.
+      11 How much luggage do you have? None.
+      12 Now much luggage do you have?
+         I don't have any.
+    -...
+    - 77.3 Complete the sentences.
+           Use "any" or "no" + the words in the box.
+      0...
+      1 Everything was OK. There were no problems.
+      2 Jack and Emily would like to go on holiday, 
+        but they have no money. 
+      3 I'm not going to answer any questions.
+      4 He's always alone.
+        He has no friends.
+      5 There is no difference between these two machines.
+        The're exactly the same.
+      6 There wasn't any in the room.
+        It was completely empty.
+      7 Do you know how the accident happened?
+        No, I have no idea.
+      8 The house is cold becouse there isn't any heating.
+      9 We didn't have to wait to get our train tickets.
+        There was no queue.
+    -...
+    - 77.4 Write short answers (one or two words) to these questions.
+           Use "none" where necessary.
+      0...
+      1 How many letters did you write yesterday?
+        Two.
+      2 How many sisters do you have?
+        None.
+      3 How much coffee did you drink yesterday?
+        Two.
+      4 How many photos have you taken today?
+        None.
+      5 How many legs does a snake have?
+        None.   
+          
+
+
+
+78) [ Unit 78 ] not + anybody/anyone/anything
+                nobody/no-one/nothing
+  - [A]
+
+  "not" + "anybody/anyone"                       "not" + "anything"
+  "nobody/no-one"                                "nothing"
+  (for people)                                   (for things)
+
+
+  - There isn't / anybody \ in the room.         - There isn't anything in the bag.
+                \ anyone  / 
+
+  
+  - There is / nobody \ in the room.             - There is nothing in the bag.
+             \ no-one /
+ 
+  
+  - A: Who is in the room?                       - A: What's in the bag?
+    B: Nobody. / No-one.                           B: Nothing.
+
+  [ "-body" and "-one" are the same     ]
+  [ anybody = anyone    nobody = no-one ]
+
+  -...
+  - [B]
+
+
+  "not" + "anybody/anyone"                       "not" + "anything"
+    - I don't know anybody (or anyone)             - I can't remember anything.
+      here.
+
+  "nobody" = "not" + "anybody"                   
+  "no-one" = "not" + "anyone"                     "nothing" = "not" + "anything"
+    - I'm lonely.                                   - She said nothing.
+      I have nobody to talk to.                       (= She didn't say anything)
+      (= I don't have anybody)                      - There's nothing to eat.
+    - The house is empty.                             (= There isn't anything to eat.)
+      There is no-one in it.
+      (= There isn't anyone in it.)     
+   
+  -...
+  - [C] You can use "nobody/no-one/nothing" at the begginning
+        of a sentence or alone (to answer a question)
+
+    - The house is empty.             - Nothing happened.
+      Nobody lives there.
+    - Who did you speak to?           - What did you say? 
+      No-one.                           Nothing.
+   
+  -...
+  - [D]
+    - REMEMBER:
+      - negative verb + anybody/anyone/anything
+      - positive verb + nobody/no-one/nothing
+    -...
+    - examples
+      - He doesn't know anything.
+        (NOT! He doesn't know nothing)
+      - Don't tell anybody.
+        (NOT! Don't tell nobody)
+      - There is nothing to do in this town.
+        (NOT! There isn't nothing)
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 78.1 Write these sentences again with "nobody/no-one" or "nothing".
+      0...
+      1 There isn't anything in the bag.
+        - There's nothing in the bag.
       2
       3
-
 
 
 
@@ -9195,7 +9338,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 163 в chrome
+  стр 165 в chrome
 
   (*) END: 115 Units, 240 стр.
 
