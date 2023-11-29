@@ -9317,13 +9317,180 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
       0...
       1 There isn't anything in the bag.
         - There's nothing in the bag.
+      2 There isn't anybody in the office.
+        - There's no-one in the office.
+      3 I don't have anything to do.
+        - I have nothing to do.
+      4 There isn't anything on TV.
+        - There nothing on TV.
+      5 There wasn't anyone at home.
+        - There was nobody at home.
+      6 We didn't find anything.
+        - We found nothing.
+    -...
+    - 78.2 Write these sentences again with 
+           "anybody/anyone" or "anything"
+      0...
+      1 There's nothing in the bag.
+        - There isn't anything in the bag.
+      2 There was nobody on the bus.
+        - There wasn't anybody on the bus.
+      3 I have nothing to read.
+        - I haven't anything to read.
+      4 I have no-one to help me.
+        - I haven't anyone to help me.
+      5 She heard nothing.
+        - She didn't hear anything.
+      6 We have nothing for dinner.
+        - We haven't anything for dinner.
+    -...
+    - 78.3 Answer these questions with
+           "nobody/no-one" or "nothing".
+      0...
+      1a What did you say?
+        - Nothing. 
+      2a Who saw you?
+        - Nobody.
+      3a What do you want?
+        - Nothing.
+      4a Who did you meet?
+        - No-one.
+      5a Who knows the answer?
+        - Nobody.
+      6a What did you buy?
+        - Nothing.
+      7a What happend?
+        - Nothing.
+      8a Who was late?
+        - Nobody.
+      ...
+      - Now answer the same question with full sentences.
+        Use "nobody/no-one/nothing" or "anybody/anyone/anything"
+      0...
+      1b I didn't say anything.
+      2b Nobody saw me. 
+      3b I don't want anything.
+      4b I met no-one.
+      5b Nobody knows answer.
+      6b I bought nothing.
+      7b Nothing happend.
+      8b Anyone wasn't late. 
+    -...
+    - 78.4 Complete the sentences.
+           "nobody/no-one/nothing" or "anything/anyone/anything"
+      0...
+      1 That house is empty.
+        Nobody lives there.
+      2 Jack has a bad memory.
+        He can't remember anything.
+      3 Be quiete!
+        Don't say anything.
+      4 I didn't know about the meeting.
+        Nobody told me.
+      5 What did you have to eat?
+        Nothing.
+        I wasn't hungry.
+      6 I didn't eat anything.
+        I wasn't hungry.
+      7 Helen was sitting alone.
+        She wasn't with anyone.
+      8 I'm afraid I can't help you.
+        There's nothing I can do.
+      9 I don't know anything about car engines.
+      10 The museum is free.
+         It doesn't cost anything to go in.
+      11 I heard a knock on the door, 
+         but when I opened it, there was no-one there.
+      12 The hotel receptionist spoke very fast.
+         I didn't understand anything.
+      13 What are you doing tonight?
+         Nothing.
+         Why?
+      14 Sophie has gone away.
+         No-one knows where she is.
+         She didn't tell anyone where she was going.
+
+
+
+
+
+79) [ Unit 79 ] somebody / anything / nowhere  etc.
+  - [A]
+    - "Somebody" or (Someone)
+      - (= a person, but don't know who)
+    -...
+    - "Something"
+      - (= a thing, but we don't know what)
+    -...
+    - "somewhere"
+      - (= in/to a place, but we don't know where)
+  -...
+  - [B]
+    - people ("-body" or "-one")
+      - "somebody" or "someone"
+        - There is somebody (or someone) at the door.
+      - "anybody" or "anyone"
+        - Is there anybody (or anyone) at the door?
+        - There isn't anybody (or anyone) at the door.
+      - "nobody" or "no-one"
+        - There is nobody (or no-one) at the door.
+      -...
+      - "-body" and "-one" are the same:
+        - "somebody" = "someone"
+        - "nobody" = "no-one"
+    -...
+    - things ("-thing")
+      - "something"
+        - Lucy said something but I didn't understand what she said.
+      - "anything"
+        - Are you doing anything at the weekend?
+        - I was angry, but I didn't say anything.
+      - "nothing"
+        - What did you say?
+          - Nothing.
+    -...
+    - places ("-where")
+      - "somethere"
+        - Ruth's parents live somethere in the south of England.
+      - "anywhere"
+        - Did you go anywhere interesting for your holidays?
+        - I'm staying here.
+          I'm not going anywhere.
+      - "nowhere"
+        - I don't like this town.
+          There is nowhere to go.
+  -...
+  - [C]
+    - "something/anybody"  etc. 
+      + adjective ("big/cheap/interesting  etc.")
+      -...
+      - Did you meet anybody interesting at the party?
+      - We always go to the same place.
+        Let's go somewhere different.
+      - What's that letter?
+        It's nothing important.
+  -...
+  - [D]
+    - "something"/"anything"  etc. + "to ..."
+      - I'm hungry.
+        I want something to eat.
+        (= something that I can eat)
+      - Tony doesn't have anybody to talk to.
+        (= anybody that he can talk to)
+      - There is nowhere to go in this town.
+        (= nowhere where people can go)
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 79.1 Write "somebody" (or "someone")/"something"/"somethere"
+      0...
+      1
       2
       3
-
-
-
-
-
+      4
 
 
 
@@ -9338,7 +9505,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 165 в chrome
+  стр 167 в chrome
 
   (*) END: 115 Units, 240 стр.
 
