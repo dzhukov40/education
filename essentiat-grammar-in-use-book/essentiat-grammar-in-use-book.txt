@@ -9487,6 +9487,144 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - (****) need check answers !!!!
     - 79.1 Write "somebody" (or "someone")/"something"/"somethere"
       0...
+      1 Lucy said something.
+        What did she say?
+      2 I've lost something.
+        What have you lost?
+      3 Sue and Tom went somewhere.
+        Where did they go?
+      4 I'm going to phone someone.
+        Who are you going to phone?
+    -...
+    - 79.2 Write "nobody" (or "no-one")/"nothing"/"nowhere"    
+      1a What did you say?
+         Nothing.
+      2a Where are you going?
+         Nowhere.
+      3a What do you want?
+         Nothing.
+      4a Who are you looking for?
+         Nobody.   
+      -...
+      - Now answer the same questions with full sentences.
+        Use "not" + "anybody"/"anything"/"anywhere"
+        -...
+        1b I didn't say anything.
+        2b I'm not going anywhere.
+        3b I don't want anything.
+        4b I'm not looking anybody.
+    -...
+    - 79.3 Write "somebody"/"anything"/"nowhere"  etc.
+      0...
+      1 It's dark.
+        I can't see anything.
+      2 Tom lives somewhere near London.
+      3 Do you know anything about computers?
+      4 Listen!
+        What? I can't hear anything.
+      5 What are you doing here?
+        I'm waiting for somebody.
+      6 We need to talk.
+        There's something I want to tell you.
+      7 Did anyone see the accident?
+        No, nobody.
+      8 We weren't hungry, so we didn't eat anything.
+      9 What's going to happen?
+        I don't know.
+        Somebody knows.
+      10 Do you know somebody in Paris?
+         Yes, a few people.
+      11 What's in that cuboard?
+         Nothing.
+         It's empty.
+      12 I'm looking for my glasses.
+         I can't find them anywhere.
+      13 I don't like cold weather.
+         I want to live somewhere warm.
+      14 Is there anything interesting on TV tonight?
+      15 Have you ever met anybody famous?
+    -...
+      0...
+      1 We don't go out very much because there's nowhere to go.
+      2 There isn't any food in the house.
+        We don't have anything to eat.
+      3 I'm bored.
+        I've got nothing to do.
+      4 Why are you standing?
+        Because there isn't anywhere to sit.
+      5 Would you like something to drink?
+        Yes, please - a glass of water.
+      6 If you're going to the city center, take the bus.
+        Don't drive because there's nowhere to park.
+      7 I want something.
+        I'm going to buy a magazine.
+      8 I need to stay somewhere in London.
+        Can you recommend a hotel?
+
+
+
+80) [ Unit 80 ] "every" an "all"
+  - [A] "every"
+    - main examples
+      - Every house in the street is the same.
+        (every house = all houses) 
+    -...
+    - We use "every" + singular noun("every house"/"every country"  etc.)
+      - Sarah has been to every country in Europe.
+      - Every summer we have a holiday by the sea.
+      - She looks different every time I see her.
+    -...
+    - Use a singular verb after "every..."
+      - Every house in the street is the same.
+        (NOT! are the same)
+      - Every country has a national flag.
+        (NOT! have)
+    -...
+    - Compare "every" and "all":
+      
+      - "Every student" in the class   | - All the students in the class
+        passed the exam.               |   passed the exam.
+                                       |
+      - "Every country has" a          | - All countries have a national
+        national flag.                 |   flag.
+  -...
+  - [B] "every day" and "all day"
+    -...                               
+    - "every day" = on all days        | - "all day" = the complete day       
+                                       |
+            how often?                 |         how often?
+            EVERY DAY                  |          ALL  DAY 
+                                       |
+    - It rained every day last week.   | - It rained all day yesterday. 
+    - Ben watches TV for about two     | - On Monday, 
+      hours every evening.             |   I eatched TV all evening.
+      (= on all evenings)              |   (= the complete evening)
+                                       |
+    - also                             | - also
+      - "every morning/night/summer"   |   - "all morning/night/summer"
+  -...
+  - [C] "everybody" (or "everyone")/"everything"/"everywhere"
+    - "everybody" or "everyone" - (people)
+      - Everybody (or Everyone) needs friends.
+        (= all people needs friends)
+    - "everything" - (things)
+      - Do you have everything you need?
+        (= all the things you need)
+    - "everywhere" - (places)
+      - I lost my watch.
+        I've looked everywhere for it.
+        (= I've looked in all places)
+    -...
+    - Use singular verb after "everybody"/"everyone"/"everything"
+      - Everybody has problems.
+        (NOT! Everybody have)   
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 80.1 Complete the sentences. Use "every" + these words:
+      0...
       1
       2
       3
@@ -9502,10 +9640,11 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
 
 
+
 essentiat-grammar-in-use-book 
 
 
-  стр 167 в chrome
+  стр 169 в chrome
 
   (*) END: 115 Units, 240 стр.
 
