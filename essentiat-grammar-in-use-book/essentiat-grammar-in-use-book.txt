@@ -9786,12 +9786,153 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
       Use the word in brackets ("some/most"  etc.)
       Sometimes you need "of (some of/most of  etc.)"
       0...
-      1
-      2
-      3
-      4
+      1 Most children like playing.
+      2 Some of this money is yours.
+      3 Some people never spot talking.
+      4 Most of the shops in the city centre close at 6-30.
+      5 Most people have mobile phones these days.
+      6 I don't like any of the pictures in the living room.
+      7 He's lost all of his money.
+      8 None of my friends are married.
+      9 Do you know any of people in this picture?
+      10 Most birds can fly.
+      11 I enjoyed most of the film, but I didn't like the ending.
+      12 Some sports are very dangerous.
+      13 We can't find anywhere to stay.
+         All of the hotels are full.
+      14 You must have some of this cheese. It's delicious.
+      15 The weather was bad when we were on holiday.
+         It rained most of the time.
+    -...
+    - 81.2 Look at the pictures and answer the questions.
+      Use: "all/most/some/none" + "of them / of it"
+      0...
+      1 How many of the people are women?
+        - Most of them.
+      2 How many of the boxes are on the table?
+        - All of them.
+      3 How many of the men are wearing hats?
+        - Some of them.
+      4 How many of the windows are open?
+        - None of them.
+      5 How many of the people are standing?
+        - Some of them.
+      6 How much of the money is Ben's?
+        - None of them.
+    -...
+    - 81.3 Are these sentences OK?
+      Correct the sentences that are wrong.
+      0...
+      1 Most children like playing.
+      2 All of the students failed the exam.
+      3 Some of people work too hard.
+      4 Some of questions in the exam were very easy.
+      5 I haven't seen any of those people befor.
+      6 All insects have six legs.
+      7 Have you read all of these books?
+      8 Most of students in our class are very nice.
+      9 Most of my friends are going to play party.
+      10 I'm very tired this morning - I was awake most of night.
 
 
+
+82) [ Unit 82 ] "both", "either", "neither".
+  - [A]
+    - We use "both/either/neither" to talk about two things or people.
+      
+
+      [] and []    [?] or [?]        not [] not [] 
+        both       either           neither (not + either)
+
+    - examples:
+      - Rebecca has two children.
+        Both are married.
+        (both = the two children)
+      - Would you like tea or coffee?
+        You can have either.
+        (either = tea or coffee)
+      - A: Do you want to go the cinema or the theatre?
+        B: Neither.
+           I want to stay at home.
+           (neither = not the cinema or the theatre)    
+    -...
+    - Compare "either" and "neither"
+                           / Either. I don't mind (= tea or coffee)
+      Would you like  ----|  I don't want either. (NOT! I dont want neither)
+      tea or coffee?       \ Neither. (= not tea or coffee)
+    
+  -...
+  - [B] "both/either/neither" + noun
+    
+    "both"       + plural 
+                        
+    "either"  \  + singular
+    "neither" /
+  
+    - table
+      
+      ---------|-----------
+      both     | windows / books / children  etc. 
+      ---------|-------------
+      either   | windows / books / child  etc.
+      neither  |
+      ---------|----------
+    
+    -...
+    - examples
+      - Last year I went to Paris and Rome.
+        I liked both cities very much.
+      - First I worked in an office, and later in a shop.
+        Neither job was very interesting.
+      - There are two ways from here to the station.
+        You can go either way.
+  -...
+  - [C] "both of ... / either of ... / neither of ..."
+    - table 
+
+      ---------|------|-----------
+      both     | (of) | the ...
+      ---------|------|-------------
+      either   |  of  | these / those ...
+      neither  |      | my / your / Paul's ...  etc.
+      ---------|------|----------  
+     
+    - examples
+      - Neither of my parents is British.
+      - I have read either of these books.
+
+    - You can say "both of the/those/my ..."
+      or "both the/those/my ..." (eith or without "of")
+      - I like both of those pictures.
+        OR
+        I like both those pictures.
+      - Both of Paul's sisters are married.
+        OR
+        Both Paul's sisters are married.
+      
+      - "BUT"
+        - Neither of Paul's sisters is married.
+          (NOT! Neither Paul's sisters)  
+
+  -...
+  - [D] "both of them / neither of us"
+    - table 
+
+      ---------|------|-------------
+      both     |      | them
+      either   |  of  | us
+      neither  |      | you
+      ---------|------|---------- 
+
+    - examples:
+      - Paul has two sisters.
+        Both of them are married.
+      - Sue and I didn't eat anything.
+        Neither of us was hungry.
+      - Who are those two people?
+        I don't know either of them.
+
+    
 
 
 
@@ -9805,7 +9946,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 171 в chrome
+  стр 173 в chrome
 
   (*) END: 115 Units, 240 стр.
 
