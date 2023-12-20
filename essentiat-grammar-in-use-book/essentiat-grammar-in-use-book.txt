@@ -9934,6 +9934,169 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
     
 
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 82.1 Write "both/either/neither". Use "of" where necessary.
+      0...
+      1 Last year I went to Paris and Rome.
+        I liked cities very much.
+      2 There were two pictures on the wall.
+        I didn't like either of them.
+      3 It was a good football match.
+        Both teams played well.
+      4 It wasn't a good football match.
+        Neither team played well.
+      5 Is your friend English or American?
+        Neither.
+        She's Australian.
+      6 We went away for two days, but the weather wasn't good.
+        It rained both days.
+      7 A: I bought two newspspers. 
+           Which one do you want?
+        B: Either.
+           It doesn't matter which one.
+      8 I invited Sam and Chris to the party, but neither of them came.  
+      9 Do you go to work by car or by bus?
+        Neither.
+        I always walk.
+      10 Which jacket do you prefer, this one or that one?
+         I don't like both of them.
+      11 Do you work or are you a student?
+         Either.
+         I work and I'm a student too.
+      12 My friend and I went to the cinema, 
+         but Nither of us liked the film.
+         It was really bad.
+      13 Helen has two sisters and a brother.
+         Both sisters are married.    
+    -...
+    - 82.2 Complete the sentences for the pictures.
+           Use "Both ..." and "Neither ... ".
+      0...
+      1 Both cups are empty.
+      2 Both windows are open.
+      3 Neither man is wearing a hat.
+      4 Both men have beards.
+      5 Both buses go to the airport.
+      6 Neither answer is correct.
+    -...
+    - 82.3 A man and a woman answered some questions.
+           Their answers were the same.
+           Write sentences with "Both/Neither of them ...".
+      0...
+      1 Are you married?  
+        - No   
+        - No
+        - Neither of them is married.
+      2 How old are you?  
+        - 21   
+        - 21
+        - Both of them are 21.
+      3 Are you student?  
+        - Yes  
+        - Yes
+        - Both of them are students.
+      4 Do you have a car?
+        - No
+        - No
+        - Neithe of them have a car.
+      5 Where do you live?
+        - London
+        - London
+        - Both of them live in London.
+      6 Do you like cooking?
+        - Yes
+        - Yes
+        - Both of them like cooking.
+      7 Can you play the piano?
+        - No
+        - No
+        - Neither of them can play piano.
+      8 Do you eat seafood?
+        - Yes
+        - Yes
+        - Both of them eat seafood.
+      9 Are you interested in sport?
+        - No
+        - No
+        - Neither of them interested in sport.
+
+
+
+83) [ Unit 83 ] "a lot", "much", "many".
+  - [A]
+    - main examples
+      - a lot of money
+      - not much money
+      - a lot of books
+      - not many books
+    -...
+
+    We use "much" + uncountable           We use "many" + plural noun    
+    (much food / much money  etc.)        (many books / many people etc.)
+    
+    - Did you buy much food?              - Did you buy many books?  
+    - We don't have much luggage.         - We don't know many people.      
+    - How much money do you want?         - How many photos did you take?         
+    - A: Do you have any money?           - A: Did you take any photos?         
+      B: I have some, but not much.         B: I took some, but not many.         
+    
+    -...
+
+    - We use "a lot of" + both types of noun:
+
+      - We bought a lot of food.           - We bought a lot of books. 
+      - Paula doesn't have                 - Did they ask a lot of questions?
+        a lot of free time.
+   
+    - We say:
+
+      - There is a lot                      - There are 
+        of "food/money/water ..."             a lot "trees/shops/people ..."
+        (singular verb)                       (plural verb)
+                                            - A lot of people speak English.
+                                              (NOT! speaks)
+
+  -...
+  - [B]
+    - We use "much" in questions and negative sentences:
+      - Do you drink much coffee?
+      - I don't drink much coffee.
+
+    - But we do not often use "much" in positive sentences:
+      - I drink a lot of coffee.
+        (NOT! drink much coffee)
+      - Do you drink much coffee?
+        Yes, a lot.
+        (NOT! Yes, much)
+
+    - We use "many" and "a lot of" in all types of sentences
+      (positive / negative / question)
+      -...
+      - We have many friends / a lot of friends.
+      - We don't have many friends / a lot of friends.
+      - Do you have man friends / a lot of friends?  
+
+  -...
+  - [C]
+    - You can use "much" and "a lot" without a noun:
+      - Amy spoke to me, but she didn't say much.
+      - Do you watch TV much?
+        No, not much.
+        (= not often)
+      - We like films, so we go to the cinema a lot.
+        (NOT! go to the cinema much)
+      - I don't like him very much.
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 83.1 Write "much" or "many".
+      0...
+
+
+
 
 
 
@@ -9946,7 +10109,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 173 в chrome
+  стр 175 в chrome
 
   (*) END: 115 Units, 240 стр.
 
