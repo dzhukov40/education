@@ -10092,9 +10092,158 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
   - [Exercises]
     - (****) need check answers !!!!
-    - 83.1 Write "much" or "many".
+    - 83.1 
+      - Write "much" or "many".
+        0...
+        1 Did you buy much food?
+        2 There aren't many hotels in this town.
+        3 We don't have much petrol.
+          We need to stop and and get some.
+        4 Were there many people on the train?
+        5 Did many students fail the exam? 
+        6 Paula doesn't have much money.
+        7 I wasn't hungry, so I didn't eat much.
+        8 I don't know where Gary lives these days.
+          I haven't seen him for many years.
+      -...
+      - Write "How much" or "How many"
+        0..
+        9  How many people are coming to the party?
+        10 How much milk do you want in your coffee?
+        11 How much bread did you buy?
+        12 How many players are there in a football team?
+    -...
+    - 83.2 Complete the sentences.
+           Use "much" or "many" with these words:
       0...
+      1 I don't read very much.
+        I don't have many books.
+      2 Hurry up!
+        We don't have much time.
+      3 Do you travel a lot?
+        Have you been to many countries.
+      4 Tina hasn't lived here very long, 
+        so she doen't know many people.
+      5 Do you have much luggage?
+        No, only this bag.
+      6 I know Tokyo well.
+        I've been there many times.
+    -...
+    - 83.3 Complete the sentences.
+           Use "a lot of" + these words.
+      0...
+      1 I like reading.
+        I have a lot of books.
+      2 We enjoyed our visit to the museum.
+        We saw a lot of interesting things.
+      3 This road is very dangerous.
+        There are a lot of accidents.
+      4 We enjoyed our holiday.
+        We had a lot of fun.
+      5 It took me a long time to drive here.
+        There was a lot of traffic.  
+    -...
+    - 83.4 In some of these sentences "much" is not natural.
+           Change the sentences or write OK.
+      0...
+      1 Do you drink much coffee?
+      2 I drink a lot of tea.
+      3 It was a cold winter.
+        We had a lot of snow.
+      4 There wasn't much snow last winter.
+      5 It costs a lot of money to travel around the world.
+      6 We had a cheap holiday.
+        It didn't cost much.
+      7 Do you know much about computers?
+      8 Do you have any luggage?
+        Yes, a lot.
+    -...
+    - 83.5 Write sentences about these people.
+           Use "much" and "a lot".
+      0...
+      1 James loves films.
+        He goes to the cinema a lot.
+      2 Nicola thinks TV is boring.
+        She doesn't watch TV much.
+      3 Tina is a good tennis player.
+        She playes temmis a lot.
+      4 Mark doesn't like driving.
+        He doesn't use his car much.
+      5 Paul spends most of the time at home.
+        He doesn't go out much.
+      6 Sue has been all over the world.
+        She travels a lot.
 
+
+
+
+84) [ Unit 84 ] (a) little   (a) few
+  - [A]
+
+    "(a) little" + uncountable noun   | "(a) few" + plural noun 
+                                      |   
+                                      |                           
+    (a) little water                  | (a) few books                             
+    (a) little time                   | (a) few questions                             
+    (a) little money                  | (a) few people                            
+    (a) little soup                   | (a) few days                           
+                                      |                              
+                                      |                              
+  -...
+  - [B]                  
+    
+    "a little" = some but not much    | "a few" = some but not many                                                                                                               
+                                      |                                        
+    - She didn't eat anything,        | - Excuse me, I have to make a few
+      but she drank a little water.   |   phone calls.                                     
+                                      |                                        
+    - I speak a little Spanish.       | - We're going away for a few days.                                       
+      (= some Spanish but not much)   |                                        
+                                      |                                        
+    - A: Can you speak Spanish?       | - I speak a few words of Spanish.                                      
+      B: A little.                    |                                        
+                                      | - A: Are there any shops near here?                                       
+                                      |   B: Yes, a few.                                    
+                                      |
+  -...
+  - [C] 
+
+    "little" = nearly no or           | "few" = nearly no                                                                                                              
+    nearly nothing                    | (without "a") 
+    (without "a")                     |
+                                      |                                        
+    - There was little food in fridge.| - There were few people in the
+      It was nearly empty.            |   theatre.
+                                      |   It was nearly empty.                                   
+                                      |                                        
+    You can say "very little"         | You can say "very few"                                       
+    - Dan is very thin because he     | - Your English is very good.                                       
+      eats very little.               |   You make very few mistakes.                                       
+      (= nearly nothing)              |
+                                      |
+  -...
+  - [D]
+
+    Compare "little" and "a little"   | Compare "few" and "a few"                                                                                                            
+                                      | 
+                                      |
+    - They have a little money,       | - I have a few friends,                       
+      so they're not poor.            |   so I'm not lonely.    
+      (= they have some money)        |   (= I have some friends)
+                                      |                                 
+    - They have little mpney.         | - I'm sad and I'm lonely.                                       
+      They are very poor.             |   I have few friends.                                     
+      (= nearly no money)             |   (= nearly no friends)
+                                      | 
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 84.1 Answer the questions with "a little" or "a few".
+      0...
+      1
+      2
+      3
 
 
 
@@ -10109,7 +10258,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 175 в chrome
+  стр 177 в chrome
 
   (*) END: 115 Units, 240 стр.
 
