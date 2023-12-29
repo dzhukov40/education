@@ -10241,9 +10241,159 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - (****) need check answers !!!!
     - 84.1 Answer the questions with "a little" or "a few".
       0...
+      1 Do you have any money?
+        Yes, a little.
+      2 Do you have any envelopes?
+        Yes, a few.
+      3 Do you want sugar in your coffee?
+        Yes, a little.
+      4 Did you take any photos when you were on holiday?
+        Yes, a few.
+      5 Does your friend speak English?
+        Yes, a little.
+      6 Are there any good restaurants in this town?
+        Yes, a few. 
+    -...
+    - 84.2 Write "a little" or "a few" + these words
+      0...
+      1 Mark speaks Italian well.
+        He lived in Italy for a few years.
+      2 Can I have a little milk in my coffee, please?
+      3 When did Amy go away?
+        A few days ago.
+      4 Do you speak any foreign languages?
+        I can speak a littel Russian.
+      5 Are you going out alone?
+        No, I'm going with a few friends.
+      6 Have you ever been to Mexico?
+        Yes, a few times.
+      7 There wasn't much furniture in the room 
+        - just a table and a few chairs.
+      8 I'm going out for a walk.
+        I need a littel fresh air.
+    -...
+    - 84.3 Complete the sentences. 
+           Use "very little" or "very few" + these words.
+      0...
+      1 Your English is very good.
+        You make very few mistakes.
+      2 I drink very little coffee.
+        I prefer tea.
+      3 The weather here is very dry in summer.
+        There is very littel rain.
+      4 It's difficult to find a place to stay in this town.
+        There are a very few hotels.
+      5 Hurry up.
+        We have a very littel time.
+      6 The town is very quiet at night.
+        A very few people go out.
+      7 Some people in the office are very lazy.
+        They do a very little work.
+    -...
+    - 84.4 Write "little / a littel" or "few / a few"
+      0...
+      1 There was little food in the fridge.
+        It was nearly empty. 
+      2 When did Sarah go out?
+        A few minutes ago.
+      3 I can't decide now.
+        I need a littel time to think about it.
+      4 There was little traffic, 
+        so we arrived earlier than we expectrd.
+      5 The bus service isn't very good at night 
+        - there are few buses after 9 o'clock.
+      6 Would you like some soup?
+        Yes, a little please.
+      7 I'd like to practise my English more,
+        but I have little opportunity.
+    -...
+    - 84.5 Right or wrong?
+           Change the sentences where necessary.
+           Write OK if the sentence is correct.
+      0...
+      1 We're going away for a few days next week.
+      2 Everybody needs a little luck.
+      3 I can't talk to you now - I have a few things to do.
+      4 I eat very little meat - I don't like it very much.
+      5 Excuse me, can I ask you a few questions?
+      6 There were few people on the bus - it was nearly empty.
+      7 Mark is a very private person.
+        Very few people know him well.
+
+
+
+
+85) [ Unit 85 ] old / nice / interesting  etc. (adjectives)
+  - [A] adjective + noun ("nice day" / "blue eyes"  etc.)
+
+ 
+                          adjective  +  noun
+            ------------------------------------------------------              
+                        It's a nice     day today.
+                    Laura has brown     eyes.
+                 There's a very old     bridge in this village.
+                Do you like Italian     food?
+          I don't speak any foreign     languages.      
+    There are some beautiful yellow     flowers in the garden.
+
+
+    - The adjective is befor the noun:
+      - They live in a modern hourse.
+        (NOT! a house modern)
+      - Have you met any famous people?
+        (NOT! people famous)
+    -...
+    - The ending of an adjective is always the same:
+      - a different place  
+        different places
+        (NOT! differents)
+  -...
+  - [B] "be" ("am / is / was"  etc.) + adjective
+    -...
+    - The weather is nice today.
+    - These flowers are very beautiful.
+    - Are you cold?
+      Shall I close the window?
+    - I'm hungry.
+      Can I have something to eat?
+    - The film wasn't very good.
+      It was boring.
+    - Please be quiet.
+      I'm reading.
+  -...
+  - [C] "look / feel / smell / taste / sound" + adjective
+    -...
+    - A: You look tired.
+      B: Yes, I feel tired.
+    - Joe told me about his new job.
+      It sounds very interesting.
+    - I'm not going to eat this fish.
+      It doesn't smell good.
+
+    - Compare:
+
+        | is     |
+    He  | feels  | tired.
+        | looks  | 
+                     
+          | are    |
+    They  | look   | happy.
+          | sound  | 
+
+        | is      |
+    It  | smells  | good.
+        | tastes  | 
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 85.1 Put the words in the right order.
+      0...
       1
       2
       3
+      4
+
 
 
 
@@ -10258,7 +10408,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 177 в chrome
+  стр 179 в chrome
 
   (*) END: 115 Units, 240 стр.
 
