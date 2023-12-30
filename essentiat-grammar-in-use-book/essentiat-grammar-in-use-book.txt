@@ -10389,16 +10389,142 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - (****) need check answers !!!!
     - 85.1 Put the words in the right order.
       0...
+      1 They live in a new house.
+      2 I like that green jacket.
+      3 Do you like classical music?
+      4 I had a wonderful holiday.
+      5 We went to a japanese restaurant.
+    -...
+    - 85.2 The words in the box 
+           are adjectives ("black / foreing"  etc.)
+           or noun ("air / job"  etc.).
+           Use an adjective and a noun to complete each sentence.
+      0...
+      1 Do you speak any foreign languages?
+      2 Look at thoseblack clouds.
+        It's going to rain.
+      3 Sue works very hard, and she's very tired.
+        She needs a long holiday.
+      4 I would like to have a shower, 
+        but there's no hot water.
+      5 Can you open the window?
+        We need some fresh air.
+      6 Fire-fighting is a sharp dangerous.  
+    -...
+    - 85.3 Write sentences for the pictures.
+           Choose from the boxes.
+      0...
+      1 You sound happy.
+      2 It looks new.
+      3 I feel ill.
+      4 You looks surprised.
+      5 They smell nice
+      6 It tastes horrible.
+    -...
+    - 85.4 A and B don't agree. Complete B's sentences.
+           Use "feel / look"  etc.
+      0...
+      1 You look tired.
+        Do I?
+        I don't feel tired.
+      2 This is a new coat.
+        Is it?
+        It doesn't look new.
+      3 I'm American.
+        Are you?
+        You don't sound American.
+      4 You look cold.
+        Do I?
+        I don't feel cold.
+      5 These bags are heavy.
+        Are they?
+        They don't look heavy. 
+      6 That soup looks good.
+        Maybe, but it doen't taste good.
+
+
+
+
+86) [ Unit 86 ] quicly / badly / suddenly  etc. (adverbs)
+  - [A]  
+    - main examples
+      - He ate his dinner very quickly.
+      - Suddenly the shelf fell down.
+       
+   - "Quickly" and "suddenly" are adverbs.
+
+   - template:
+     - adjective + "-ly" -> adverb
+
+   - table:
+
+   adjective ---------->   quick   ; bad   ; sudden   ; heavy
+         || (+ "-ly")
+         \/                  
+      adverb ---------->   quickly ; badly ; suddenly ; heavily 
+
+   -...
+   - Spelling
+     - easy -> easily
+     - heavy -> heavily
+  -...
+  - [B] Adverbs tell you how something happiness
+        or how somebody does something:
+    -...
+    - The train stopped suddenly.
+    - I opened the door slowly.
+    - Please listen carefull.
+    - I understand you perfectly.
+    -...
+
+    - Compare:
+
+      "adjective"                "adverb"
+      - Sue is very quiet.       - Sue speaks very quietly.
+                                   (NOT! speaks very quiet) 
+      - Be careful!              - Listen carefull!
+                                   (NOT! listen careful)   
+      - It was a bad game.       - Our team played badly.
+                                   (NOT! played bad) 
+      - I felt nervous           - I waited nervously.
+        (= I was nervous)
+
+  -...
+  - [C] "hard" "fast" "late" "early"
+    - These words are adjectives and adverbs:
+
+      - Sue's job is very hard.      - Sue works very hard.
+                                       (NOT! hardly)
+      - Ben is a fast runner.        - Ben can run fast.
+      - The bus was late/early.      - I went to bed late/early.        
+
+  -...
+  - [D] "good"(adjective) -> "well"(adverb)
+
+      - Tour English is very good.   - You speak English very well.
+                                       (NOT! very good)
+      - It was a good game.          - Our team played well.
+
+      - (*) But "well" is also an adjective
+            (= not ill, in good health)
+        -...
+        - How are you?
+          I'm very well, thank you. And you?
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 86.1 Look at the pictures 
+           and complete the sentences with these adverbs.
+      0...
       1
       2
       3
-      4
 
 
 
-
-
-
+      
 
 
 
@@ -10408,7 +10534,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 179 в chrome
+  стр 181 в chrome
 
   (*) END: 115 Units, 240 стр.
 
