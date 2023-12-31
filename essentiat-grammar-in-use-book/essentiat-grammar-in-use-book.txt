@@ -10518,13 +10518,151 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - 86.1 Look at the pictures 
            and complete the sentences with these adverbs.
       0...
-      1
-      2
-      3
+      1 It's raining heavily.
+      2 He sings very badly.
+      3 They came in quietly.
+      4 She shouted at me angrily.
+      5 She can run very fast.
+      6 He was driving dangerously.
+    -...
+    - 86.2 Complete the sentences. Chose from the boxes.
+      0...
+      1 I'm going to tell you something very important,
+        so please listen carefully.
+      2 They work hard. At the end of the day they're always tired.
+      3 I'm tired this morning.
+        I didn't sleep well last night.
+      4 You play tennis much better than me.
+        When we play, you always win easily.
+      5 Think carefully befor you answer the question.
+      6 I've met Alice a few times, 
+        but I don't know her very well.
+      7 Our teacher doesn't explain this very clearly.
+        We never understand him.
+      8 Helen! I need your help.
+        Come quickly.
+    -...
+    - 86.3 Which is right?
+      0...
+      1 Don't eat so quickly.
+        It's not good for you.
+      2 Why are you angry?
+        I haven't done anything.
+      3 Can you speak slowly please?
+      4 Come on Dave!
+        Why are you always so slow?
+      5 Sam is a very careful driver.
+      6 Amy is studying hard for her examinations.
+      7 Where's Anna?
+        She was here, but she left suddenly.
+      8 Please be quiet.
+        I'm studing.
+      9 Some companies pay their workers very badly.
+      10 Those oranges look nice.
+         Can I have one?
+      11 I don't remember much about the accident.
+         Everything happened quickly.
+    -...
+    - 86.4 Write "good" or "well".
+      0...  
+      1 Your English is very good.
+        You speak it very well.
+      2 Jackie did very well in her exams.
+      3 The party was very good.
+        I enjoyed it very much.
+      4 Mark has a difficult job, but he does it well.
+      5 How are your parents?
+        Are they well?
+      6 Did you have a good holiday?
+        Was the weather good?
 
 
 
-      
+87) [ Unit 86 ] old / older   expensive / more expensive
+  - [A]  
+    - "Older"/"heavier"/"more expensive" are comparative forms.
+      - The comparative is "er"("older") or "more ..."("more expensive")
+  -... 
+  - [B] 
+    - "older / heavier  etc."
+
+      - Short words (1 syllable) -> "-er":
+        - [ old -> older ]
+        - [ slow -> slower ]
+        - [ cheap -> cheaper ]
+        - [ nice -> nicer ]  
+        - [ late -> later ]
+        - [ big -> bigger ]
+      -...
+      - Spelling:
+        - [ big -> bigger ]
+        - [ hot -> hotter ]
+        - [ thin -> thinner ]
+      -...
+      - Words ending in "-y" -> "-ier":
+        - [ easy -> easier ]
+        - [ heavy -> heavier ]
+        - [ early -> earlier ]
+      -...
+      - examples
+        - Rome is old, but Athens is older.
+          (NOT! more old)
+        - Is it cheaper to go by car or by train?
+          (NOT! more cheap)
+        - Helen wants a bigger car.
+        - This coat is OK, but I think the other one is nicer.
+        - Don't take the bus.
+          It's easier to take a taxi.
+          (NOT! more easy)
+      -...
+      -...
+      - "far" -> "further":
+        - A: How far is it to the station?
+             A mile?
+          B: No, it's further.
+             About two miles.
+  -... 
+  - [C] "more ..."
+    - Long words(2/3/4 syllables) -> "more ...":
+      - [ careful -> more careful ]
+      - [ polite -> more polite ]
+      - [ expensive -> more expensive ]
+      - [ interesting -> more interesting ]  
+    -...
+    - examples:
+      - You must be more careful.
+      - I don't like my job.
+        I eant to do something more interesting.
+      - Is it more expensive to go by car or by train?
+  -... 
+  - [D] "good/well" -> "better"   "bad" -> "worse"
+    -...
+    - The weather wasn't very good yesterday, but it's better today.
+    - Do you feel better today?
+      No, I feel worse.
+    - Which is worse - a headache or a toothache?
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 87.1 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10534,7 +10672,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 181 в chrome
+  стр 183 в chrome
 
   (*) END: 115 Units, 240 стр.
 
