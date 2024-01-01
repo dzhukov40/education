@@ -10647,13 +10647,140 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
   - [Exercises]
     - (****) need check answers !!!!
-    - 87.1 
+    - 87.1 Look at the pictures and write the comparative
+           ("older" / "more interesting"  etc.)
+      0...
+      1 heavy -> heavier
+      2 big -> giggier
+      3 slow tortoise -> slower snail
+      4 expensive -> more expensive
+      5 high -> higher
+      6 dangerous -> more dangerouse
+    -...
+    - 87.2 Write the comparative.
+      0...
+      1 old -> older
+      2 strong -> stronger
+      3 happy -> happier
+      4 modern -> more modern
+      5 important -> more important
+      6 good -> better
+      7 large -> more large
+      8 serious -> more serious
+      9 pretty -> more pretty
+      10 crowded -> more crowded
+    -...
+    - 87.3 Write the opposite.
+      0...
+      1 younger -> older
+      2 colder -> hotter
+      3 cheaper -> more expensive
+      4 better -> worse
+      5 nearer -> farther
+      6 easier -> more difficult
+    -...
+    - 87.4 Complete the sentences. Use a comparative.
+      0...
+      1 Helen's car isn't very big. 
+        She wants a bigger one.
+      2 My job isn't very interesting.
+        I want to do something more interesting.
+      3 You're not very tall.
+        Your brother is taller.
+      4 David doesn't work very hard.
+        I work harder then David.
+      5 My chair isn't very comfortable.
+        Yours is more comfortable.
+      6 Your idea isn't very good.
+        My idea is better.
+      7 These flowers aren't very nice.
+        The blue ones are nicer.
+      8 My bag isn't very heavy. 
+        Your bag is heavier.
+      9 I'm not very interested in art.
+        I'm more interested in history.
+      10 It isn't very warm today.
+         It was warmer yesterday.
+      11 These tomatoes don't taste very good.
+         The other ones tasted better.
+      12 Britian isn't very big.
+         France is bigger.
+      13 London isn't very beatutiful.
+         Paris is move beautiful.
+      14 This knife isn't very sharp.
+         Have you got a sharper one?
+      15 People today aren't very polite.
+         In the past they were more polite.
+      16 The weather isn't too bad today.
+         Often it is much worse.
+        
+        
+
+
+88) [ Unit 88 ] "older than ..."   "more expensive than ..."
+  - [A]  
+    - We use "than" after comparatives ("older than ..." / "more expensive than ..."  etc.)
+      - Athens is older than Rome.
+      - Are oranges more expensive than bananas?
+      - It's easier to take a taxi than to take the bus.
+      - How are you today? 
+        Not bad.
+        Better than yesterday.
+      - The restaurant is more crowded than usual.
+  -...
+  - [B]
+    - We usually say:
+      than me / than him / than her / than us / than them
+      - examples:
+        - I can run faster than him.
+          OR
+          I can run faster than he can.
+        - You are a better signer than me.
+          OR
+          You are a better singer than I am.
+        - I got up earlier than her.
+          OR
+          I got up earlier than she did.
+  -...
+  - [C] "more / less than ..."
+    - A: How much did your shoes cost? 60$?
+      B: No, more than that.
+         (= more than 60$)
+    - The film was very short - less than an hour.
+    - They have more money than they need.
+    - You go out more than me.
+  -...
+  - [D] "a bit older / much older  etc."
+    - main exampoles
+      - Box A is a bit bigger than Box B.
+      - Box C is much bigger than Box D.
+    -...
+    - tables:
+
+    -------|-----------------|-----  
+           | bigger          |      
+    a bit  | older           |
+    much   | better          | than ...
+           | more difficult  |
+           | more expensive  |
+    -------|-----------------|----
+    -...
+    - examples
+      - Canada is much bigger than France.
+      - Sue is a bit older than Joe - she's 25 and he's 24.
+      - The hotel was much more expensive than I expected.
+      - You go out much more than me.
 
 
 
-
-
-
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 88.1 Write sentences about Kate and Ben. Use "than".
+      0...
+      1
+      2
+      3
+      4
 
 
 
@@ -10672,7 +10799,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 183 в chrome
+  стр 185 в chrome
 
   (*) END: 115 Units, 240 стр.
 
