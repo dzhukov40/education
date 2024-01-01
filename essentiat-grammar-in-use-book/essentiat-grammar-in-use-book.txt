@@ -10777,12 +10777,124 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - (****) need check answers !!!!
     - 88.1 Write sentences about Kate and Ben. Use "than".
       0...
+      1 Kate is older than Ben.
+      2 Ben is a better swimmer than Kate.
+      3 Kate is taller than Ben.
+      4 Kate starts work earlier than Ben.
+      5 Ben work harder than Kate.
+      6 Ben has more money than Kate.
+      7 Kate is a better driver than Ben.
+      8 Ben is more patient than Kate.
+      9 Ben is better dancer than Kate.
+      10 Kate is more intelegent than Ben.
+      11 Kate speak Franch better than Ben.
+      12 Ben go to the cinema more often than Kate.  
+    -...
+    - 88.2 Complete the sentences. Use "than".
+      0...
+      1 He isn't very tall.
+        You're taller than him (OR taller than he is)
+      2 She isn't very old.
+        You're older than her (OR older than she is)
+      3 I don't work very hard.
+        You work hardder than me (OR harder than I am)
+      4 He doesn't watch TV very much.
+        You watch TV more than him (OR he does)
+      5 I'm not a very good cook.
+        You are better cook than me (OR I am)
+      6 We don't know many people.
+        You know more people than me (OR I am)
+      7 They don't have much money.
+        You have more money than them (OR they are)
+      8 I can't run very fast.
+        You can run faster than me (OR I am)
+      9 She hasn't been here very long.
+        You have been longer than her (OR she has been)
+      10 They didn't get up very early.
+         You get up earlier than them (OR they do)
+      11 He wasn't very surprised.
+         You was more surprised than him (OR he was)
+    -...
+    - 88.3 Complete the sentences with "a bit" or "much"
+           + comparative ("older/better"  etc.)
+      0...
+      1 Emma is 25. Joe is 24 1/2.
+        Emma is a bit older than Joe.
+      2 Jack's mother is 52. His father is 69.
+        Jack's mother much younger than his father.
+      3 My camera cost 120$. Yours cost 112$.
+        My camera cost a bit more than yours. 
+      4 Yesterday I felt terrible.
+        Today I feel OK.
+        I feel much better than yestarday.
+      5 Today the temperature is 12 degrees.
+        Yesterday it was 10 degrees.
+        It's a bit warmer today than yesterday.
+      6 Sarah is an excellent tennis player.
+        I'm not very good player.
+        Sarah is much better tennis player than me.
+
+
+
+89) [ Unit 89 ] "not as ... as"
+  - [A] "not as ... as"
+    - main examples:
+      - She's old, but she's not as old as he is.
+      - Box A isn't as big as Box B.
+    - examples:
+      - Rome is not as old as Athens.
+        (= Athens is older) 
+      - The Grand Hotel isn't as expensive as the Europa.
+        (= the Europa is more expensive)
+      - I don't play tennis as othen as you.
+        (= you play more often)
+      - The weather is better than it was yesterday.
+        It isn't as cold.
+        (= as cold as it was yesterday)
+  -... 
+  - [B] "not as much as ..." / "not as many as ..."
+    - I don't have as much money as you.
+      (= you've got more money)
+    - I don't know as many people as you.
+      (= you know more people)
+    - I don't go out as much as you.
+      (= you go out more)
+  -... 
+  - [C] Compare "not as ... as" and "than"
+    - Rome is not as old as Athens.
+      Athens is older than Rome.
+      (NOT! older as Rome)
+    - Tennis isn't as popular as football.
+      Football is more popular than tennis.
+    - I don't go out as much as you.
+      You go out more than me. 
+  -... 
+  - [D] 
+    - We usually say: as "me" / as "him" / as "her"  etc.
+    - You can say:
+      - She's not as old as him.
+        OR
+        She's not as old as he is.
+      - You don't work as hard as me.
+        OR
+        You don't work as hard as I do.
+  -... 
+  - [E] We say "the same as ..."
+    - The weather today is the same as yesterday.
+    - My hair is the same colour as yours.
+    - I arrived at the same time as Tom. 
+
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 89.1 Look at the pictures and write sentences about A, B and C.
+      0...
       1
       2
       3
-      4
-
-
 
 
 
@@ -10799,7 +10911,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 185 в chrome
+  стр 187 в chrome
 
   (*) END: 115 Units, 240 стр.
 
