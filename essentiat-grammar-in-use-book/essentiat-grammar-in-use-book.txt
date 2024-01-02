@@ -10936,7 +10936,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
 
 
-89) [ Unit 90 ] "the oldest"  "the most expensive"
+90) [ Unit 90 ] "the oldest"  "the most expensive"
   - [A]
     - main examples:
       - Box A is bigger than Box B.
@@ -11003,9 +11003,129 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - 90.1 Write sentences with comparatives ("older" etc.)
            and superlatives ("the oldest"  etc.)
       0...
+      1 A is bigger than D.
+        A is the biggest.
+        B is the smallest.
+      2 C is longger than A.
+        D is the longest.
+        B is the shortest.
+      3 D is younger than C.
+        B is the youngest.
+        C is the oldest.
+      4 D is more expensive than A.
+        C is the most expensive.
+        A is the cheapest.
+      5 A is better than C.
+        A is the best.
+        D is the worst.
+    -...
+    - 90.2 Complete the sentences.
+           Use a superlative ("the oldest"  etc.)
+      0...
+      1 This building is very old.
+        It's the oldest building in the town.
+      2 It was a very happy day.
+        It was the happiest day of my life.
+      3 It's a very good film.
+        It's the best I've ever made.
+      4 She's a very popular singer.
+        She's the most popular singer in the country.
+      5 It was a very bad mistake.
+        It was the worsest mistake I've ever made.
+      6 It's a very pretty village.
+        It's the prettiest village I've ever seen.
+      7 It was a very cold day.
+        It was the coldest day of the year.
+      8 He's a very boring persons.
+        He's the most boring persom I've ever met.
+    -...
+    - 90.3 Write sentences with a superlative ("the longest"  etc.)
+           Choose from the boxes.
+      0...
+      1 Sydney is the largest city in Australia.
+      2 Everest is the highest mountain in the world.
+      3 Brazil is the largest country in the South America.
+      4 Alaska is the largest state in the USA.
+      5 The Nile is the longest river in the Africa.
+      6 Jupiter is the largest planet in the solar system.
+
+
+
+
+91) [ Unit 90 ] "enough"
+  - [A]
+    - main examples:
+      - She isn't going to take taxi.
+        - She hasn't got enought money.
+      - He can't reach the shelf.
+        - He isn't tall enough.
+  -...
+  - [B]
+    - "enough" + noun ("enough money / enough people  etc.")
+      - A: Is there enough milk in your coffee?
+        B: Yes, thank you.
+      - We wanted to play football, but we didn't have enough players.
+      - Why don't you buy a car?
+        You've got enough money.
+        (NOT! money enough)
+    -...
+    - "enough" without a noun
+      - I've got some money, but not enough to buy a car.
+        (= I need more money to buy a car)
+      - A: Would you like some more to eat?
+        B: No, thanks. I've had enough.
+      - You're always at home.
+        You don't go out enought.
+  -...
+  - [C]
+    - adjective + "enough (good enough / tall enough  etc.)"
+      - A: Shall we sit outside?
+        B: No, it isn't warm enough.
+           (NOT! enough warm)
+      - Can you hear the radio?
+        Is it loud enough for you?
+      - Don't buy that coat.
+        It's nice, but it isn't long enough.
+        (= it's too short)
+    -...
+    - REMEMBER:
+      
+      "enough" + noun          but          adjective + "enough"
+      
+      - enough money                        - tall enough
+      - enough time                         - good enough
+      - enough people                       - old enough
+  -...
+  - [D]
+    - We say:
+      - "enough for" somebody/something
+        - This pullover isn't big enough for me.
+        - I haven't got enough money for a new car.
+      -...
+      - "enough to do" something 
+        - I haven't got enough money to buy a new car.
+          (NOT! for buy)
+        - Is your English good enough to have a conversation?
+          (NOT! for have)
+        - "enough for" somebody/something "to do" something
+          - There aren't enough chairs for everybody to sit down.
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 91.1 Look at the pictures and complete the sentences.
+           Use "enough" + these words:
+      0...
       1
       2
       3
+      3
+
+
+
+
 
 
 
@@ -11027,7 +11147,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 189 в chrome
+  стр 191 в chrome
 
   (*) END: 115 Units, 240 стр.
 
