@@ -10892,6 +10892,117 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - (****) need check answers !!!!
     - 89.1 Look at the pictures and write sentences about A, B and C.
       0...
+      1 A is bigger than C, but not as big as B.
+      2 A is bigger than B, but not as big as C.
+      3 C is bigger than A, but not as big as B.
+      4 A is older than C, but not as old as B.
+      5 B has got more money than C, but not as much as A. 
+      6 C works harder than A, but not as hard as A.
+    -...
+    - 89.2 Write sentences with "as ... as ...".
+      0...
+      1 Athens is older than Rome.
+        Rome isn't as old as Athens.
+      2 My room is bigger than yours.
+        Your room isn't as big as mine.
+      3 You got up earlier than me.
+        I didn't get up as early as you.
+      4 We played better than them.
+        They didn't play as well as us.
+      5 I've been here longer than you.
+        You haven't been here as long as me.
+      6 She's more nervous than him.
+        He isn't  as nervous as her.
+    -...
+    - 89.3 Write "as" or "than".
+      0...
+      1 Athens is plder than Rome.
+      2 I don't watch TV as much as you.
+      3 You eat more than me.
+      4 I'm more tired today than I was yesterday.
+      5 Joe isn't as inteligent as he thinks.
+      6 Belgium is smaller than Switzerland.
+      7 Brazil isn't as big as Canada.
+      8 I can't wait longer than an hour.
+    -...
+    - 89.4 Complete the sentences about Julia, Andy and Laura.
+           Use "the same age" / "the same street"  etc. 
+      0...
+      1 Andy is the same age as Laura.
+      2 Julia lives on the same street as Laura. 
+      3 Julia got up at the same time as Andy.
+      4 Andy's car has the same colour as Laura.
+
+
+
+
+89) [ Unit 90 ] "the oldest"  "the most expensive"
+  - [A]
+    - main examples:
+      - Box A is bigger than Box B.
+      - Box A is bigger than all the other boxes.
+      - Box A is the biggest box.
+      -...
+      - The Europa Hotel is more expensive than the Grnd.
+      - The Europa Hotel is more expensive than all the other hotels in the city.
+      - The Europa Hotel is the most expensive hotel in the city.
+      -...
+      - "are comparative forms"
+        - Bigger and more expensive etc.
+      - "are superlative forms"
+        - Biggest and most expensive etc.
+  -...
+  - [B]
+    - The superlative 
+      forms is "-est"(oldest) or "most ..." (most expensive).
+    -...
+    - Short words ("old/cheap/nice"  etc.) -> "the -est":
+      - old -> the oldest
+      - cheap -> the cheapest
+      - nice -> the nicest
+      - BUT
+        - good -> the best
+        - bad -> the worst
+      - Spelling:
+        - big -> the biggest
+        - hot -> the hottest
+    - Words ending in "-y"("easy/heavy"  etc.) -> "the -iest":
+      - easy -> the easiest
+      - heavy -> the heaviest
+      - pretty -> the prettiest
+    - Long words ("careful/expensive/interesting"  etc.) -> "the most ..."
+      - careful -> the most careful
+      - interesting -> the most interesting
+  -...
+  - [C]
+    - We say "the" oldest ... / "the" most expensive ...  etc. (with "the")
+      - The church is very old.
+        It's the oldest building in the town. 
+        (= it is older than all the other buildings)
+      - What is the longest river in the world?
+      - Money is important, but it isn't the most important thing in life.
+      - Excuse me, where is the nearest bank?
+  -...
+  - [D]
+    - You can use "the oldest/the biggest/the most expensive  etc." 
+      without at noun:
+      - Luke is a good player, but he isn't the best in the team.
+        ("the best" = the best player)
+  -...
+  - [E]
+    - You can use superlative + "I've ever ... / you've ever ...  etc."
+      - The film was very bad.
+        I think it's the worst film I've ever seen.
+      - What is the most unusual thing you've ever done?      
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 90.1 Write sentences with comparatives ("older" etc.)
+           and superlatives ("the oldest"  etc.)
+      0...
       1
       2
       3
@@ -10908,10 +11019,15 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
 
 
+
+
+
+
+
 essentiat-grammar-in-use-book 
 
 
-  стр 187 в chrome
+  стр 189 в chrome
 
   (*) END: 115 Units, 240 стр.
 
