@@ -11234,17 +11234,156 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - 92.1 Look at the pictures and complete the sentences.
            Use "too" + these words:
       0...
+      1 The music is too loud.  
+      2 The box is too heavy.
+      3 The net is too low.
+      4 She's driving too fast.
+      5 His jacket is too big.
+      6 The museum is too crowded.
+    -...
+    - 92.2 Write "too / too much / too many" or "enough"
+      0...
+      1 You're always at at home.
+        You don't go out enough.
+      2 I don't like the weather here.
+        There's too much rain.
+      3 I can't wait for them.
+        I don't have enough time.
+      4 There was nowhere to sit on the beach.
+        There were too many people.
+      5 You're always tired.
+        I think you work is too hard.
+      6 Did you have enough to eat?
+        Yes, thank you.
+      7 You drink to much coffee.
+        It's mot good for you.
+      8 You don't eat enough vegetables.
+        You should eat more.
+      9 I don't like the weather here.
+        It's too cold.
+      10 Would you like some milk in your tea?
+         Yes, but not too much.
+    -...
+    - 92.3 Complete the sentences.
+           Use "too" or "enough" with these words:
+      0...
+      1 I couldn't work.
+        I was too tired.
+      2 Can you turn the radio up, please?
+        It isn't loud enough.
+      3 I don't want to walk home.
+        It's too far.
+      4 Don't buy anything in that shop.
+        It is too expensive.
+      5 You can't put all your things in this bag.
+        It is not big enough.
+      6 I couldn't do the exercise.
+        It is too difficult.
+      7 Your work needs to be better.
+        It is not good enough.
+      8 I can't talk to you now.
+        I am too busy.
+      9 I thought the film was boring.
+        It is too long.
+    -...
+    - 92.4 Complete the sentences.
+           Use "too" (+ adjective) + "to ..."
+      0...
+      1 It's too cold to go out.
+      2 It's too early to go bed.
+      3 They're too young to get married.
+      4 It's too dangerous to go out at night.
+      5 It's too late to phone Sue.
+      6 I was too surprised to say anything.
+
+
+
+
+
+93) [ Unit 93 ] He "speaks English" very well (word order 1)
+  - [A] "verb + object"
+    - main example:
+
+     Sue        [ bought ]  [ some new shoes ]  yesterday.
+      ||           ||              ||
+      \/           \/              \/
+     subject      verb            object
+
+    - details:
+      - The verb("bought") and the object ("some new shoes")
+        are usually togever.
+      - We say:
+        - Sue bought some new shoes yesterday.
+          (NOT! Sue bought yesterday some new shoes)
+
+    - examples:
+                               
+                   "verb"  +  "object" 
+               He speaks      English very well.
+               (NOT! He speaks very well English)
+                                    
+                  I like      Italian food very much.
+                  (NOT! I like very much ...)
+                                    
+           Did you watch      TV all evening?
+           (NOT! ... watch all evening TV)
+                                    
+        Paul often wears      a black hat.
+        (NOT! Paul wears often ...)
+                                    
+              We invited      a lot of people to the party.
+                                    
+                I opened      the door slowly.
+                                         
+  Why do you always make      the same mistake?
+
+     I'm going to borrow      some money from a friend.
+
+  -...
+  - [B] "where and when"
+    - main example
+
+       We went   [ to a party ]    [ last night ]
+                       ||               ||
+                       \/               \/
+                      where?           when?
+
+    - details:
+      - Place (where?) is usually befor time (when?).
+    - We say:
+      - We went to a party last night.
+        (NOT! We went last night to a party)
+
+    - examples:
+
+                                  place  +  time
+                               (where?)     (when? how long? how often?)
+                                
+                   Lisa walks   to work     every day.
+                   (NOT! ... every day to work)
+             
+                   Will you be  at home     this evening?
+                   (NOT! ... this evening at home)
+                                
+                   I usually go  to bed     early.
+                   (NOT! ... early to bed)
+                                           
+             We arrived  at the airport     for 20 years.
+
+     Joe's father has been  in hospital     since June.
+  
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 93.1 Right or wrong?
+           Correct the sentences that are wrong.
+      0...
       1
       2
       3
-
-
-
-
-
-
-
-
+      4
 
 
 
@@ -11262,7 +11401,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 193 в chrome
+  стр 195 в chrome
 
   (*) END: 115 Units, 240 стр.
 
