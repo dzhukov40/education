@@ -11052,7 +11052,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
 
 
-91) [ Unit 90 ] "enough"
+91) [ Unit 91 ] "enough"
   - [A]
     - main examples:
       - She isn't going to take taxi.
@@ -11118,9 +11118,124 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - 91.1 Look at the pictures and complete the sentences.
            Use "enough" + these words:
       0...
+      1 She hasn't got enough money.
+      2 There aren't enough chairs.
+      3 She hasn't got enough paint.  
+      4 There isn't enough wind.
+    -...
+    - 91.2 Look at the pictures and complete the sentences.
+           Use these adjectives + "enough":
+      0...
+      1 He isn't tall enough.
+      2 The car isn't big enough.
+      3 His legs arent't long enough.
+      4 He isn't strong enough.
+    -...
+    - 91.3 Complete the sentences.
+           Use "enough" with these words:
+      0...
+      1 Is there enough milk in your coffee?
+        Yes, thank you.
+      2 Can you hear the radio?
+        Is it loud enough for you?
+      3 He can leave school if he wants - he's not old enough.
+      4 When I visited New York last year, 
+        I didn't have enough time to see the things I wanted to see.
+      5 This house isn't big enough for a large family.
+      6 Tina is very thin.
+        She doesn't eat enough.
+      7 My office is very small.
+        There isn't enough space.
+      8 It's late, but I don't want to go to bed now.
+        I'm not tired enough.
+      9 Lisa isn't a very good tennis player 
+        because she doesn't practise enough.
+    -...
+    - 91.4 Complete the sentences.
+           Use "enough" with these words:
+      0...
+      1 We haven't got enough money to buy a new car.
+      2 This knife isn't sharp enough to cut tomatoes.
+      3 The water wasn't warm enough to go swimming.
+      4 Have we got enough bread for sandwiches?
+      5 We played well, but not well enough to win the game.
+      6 I don't have enough time for reading newspapers.
+
+
+
+
+92) [ Unit 92 ] "too"
+  - [A]
+    - main examples:
+      - His shoes are too big for him.
+      - There is too much sugar in it.
+  -...
+  - [B]
+    - "too" + adjective / adverb ("too big/too hard  etc.")
+      - Can you turn the radio down?
+        It's too loud.
+        (= louder than I want)
+      - I can't work.
+        I'm too tired.
+      - I think you work too hard.
+  -...
+  - [C]
+    - "too much / too many"
+      (= more than you want, more than is good):
+      - I don't like the weather here.
+        There is too much rain.
+        (= more rain than is good)
+      - Let's go to anouther restaurant.
+        There are too many people here.
+      - Emily studies all the time.
+        I think she studies too much.
+      - Traffic is a problem in this town.
+        There are too many cars.
+  -...
+  - [D]
+    - Compare "too" and "not enough":
+      - "too big"
+        - The hat is too big for him.
+        - The music is too loud.
+          Can you turn it down, please?
+        - There's too much sugar in my coffee.
+          (= more sugar than I want)
+        - I don't feel very well.
+          I ate too much.
+      -...
+      - "not big enough"  
+        - The hat isn't big enough for him.
+          (= it's too small)
+        - The music isn't loud enough.
+          Can you turn it up, please?
+        - There's not enough sugar in my coffee.
+          (= I need more sugar)
+        - You're very thin.
+          You don't eat enough.
+  -...
+  - [E] We say:
+    -...
+    - "too ... for" somebody/something
+      - These shoes are too big for me. 
+      - It's a small house - too small a large family.
+    -...
+    - "too ... to do" something
+      - I'm too tired to go oit.
+        (NOT! for go out)
+      - It's too cold to sit outside.
+    -...
+    - "too ... for" somebody "to do" something
+      - She speaks too fast for me to understand.
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 92.1 Look at the pictures and complete the sentences.
+           Use "too" + these words:
+      0...
       1
       2
-      3
       3
 
 
@@ -11147,7 +11262,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 191 в chrome
+  стр 193 в chrome
 
   (*) END: 115 Units, 240 стр.
 
