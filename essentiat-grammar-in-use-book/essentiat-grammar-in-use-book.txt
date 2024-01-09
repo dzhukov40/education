@@ -11380,10 +11380,165 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - 93.1 Right or wrong?
            Correct the sentences that are wrong.
       0...
+      1 Did you watch TV all evening?
+      2 Sue bought some new shoes yesterday.
+      3 I like this picture very much.
+      4 Tom started his new job last week.
+      5 I want to speak English fluently.
+      6 Jessica bought a present for her friend.
+      7 I drink three cups of coffee every day.
+      8 Don't eat your dinner too quickly!
+      9 I borrowed fifty pounds from my brother.
+    -...
+    - 93.2 Put the words in order.
+      0...
+      1 I opened the door slowly. 
+      2 I got a new phone last week.
+      3 Paul finished his work quickly.
+      4 Emily doesn't speak French very well.
+      5 I did a lot of shopping yesterday.
+      6 Do you know London well?
+      7 We enjoyed the party very much.
+      8 I explained the problem carefully.
+      9 We met some friends at the airport.
+      10 Did you buy that jacket in England?
+      11 We do the same thing every day.
+      12 I don't like football very much.
+    -...
+    - 93.3 Put the words in order.
+      0...
+      1 Lisa walks to work every day.
+      2 I arrived at the hotel early.
+      3 Julia goes to Italy every year.
+      4 We have lived here since 1998.
+      5 Sue was born in London in 1990.
+      6 Paul didn't go to work yesterday.
+      7 Helen went to a wedding last weekend.
+      8 I had my breakfast in bed this morning.
+      9 Amy is going to university in September.
+      10 I saw a beautiful bird in the garden this morning.
+      11 My parents have been to the United States many times.
+      12 I left my umbrella in the restaurant last night.
+      13 Are you going to the cinema tomorrow evening?
+      14 I took the children to school this morning.
+
+
+
+
+94) [ Unit 94 ] always/usually/often  etc. (word order 2)
+  - [A]
+    - These words go with the verb in the middle of a sentence
+      - "always"         "often"            "ever"
+      - "rarely"         "also"             "already"
+      - "all"            "usually"          "sometimes"
+      - "never"          "seldom"           "just"
+      - "still"          "both"
+      -...
+      - examples:
+        - My brother never speaks to me.
+        - She is always late.
+        - Do you often go to restaurants?
+        - I sometimes eat too much.
+          (OR Sometimes I eat too much)
+        - A: Don't forget to phone Laura.
+          B: I've already phoned her.
+        - I've got three sisters.
+          They're all married.
+  -...
+  - [B] 
+    - "Always/never"  etc. go befor the verb:
+      - table:
+
+        --------|------
+        always  | go
+         often  | play
+         never  | have
+          etc.  | etc.
+        --------|------
+      -...
+      - examples:
+        - I always drink coffee in the morning.
+          (NOT! drink always coffee)
+        - Helen often goes to London.
+          (NOT! Helen goes often)
+        - You sometimes look unhappy.
+        - They usually have dinner at 7 o'clock.
+        - We rarely watch TV.
+          OR
+          We seldom watch TV.
+        - Richard is good footballer.
+          He also plays tennis and volleyball.
+          (NOT! He plays also tennis)
+        - I've got three sisters.
+          They all live in London.
+    -...
+    - But "always/newer"  etc. go after "am/is/are/was/were":
+      - table:
+
+        --------|------
+            am  | always
+            is  | often
+           are  | newer
+           was  | etc.
+          were  |
+        --------|------
+      -...
+      - examples:
+        - I am always tired.
+          (NOT! I always am tired)
+        - They are never at home during the day.
+        - It is usually very cold here in winter.
+        - When I was a child, I was often late for school.
+        - A: Where's Laura?
+          B: She's still in bed.
+        - I've got two brothers.
+          They're both doctors.
+  -...
+  - [C]
+    - "Always/never"  etc. go between two verbs
+      ("have ... been / can ... find"  etc.)
+      -...
+      - table:
+
+         verb 1
+        --------|-----------|-------------
+           will |           | go
+           can  |           | find
+            do  |           | remember
+          etc.  |           | etc.
+                |  always   |
+        --------|  often    |-------------
+          have  |  never    | gone
+           has  |           | been
+                |           | etc.
+        --------|-----------|-----------
+      -...
+      - examples:
+        - I will always remember you.
+        - It doesn't often rain here.
+        - Do you usually go to work by car?
+        - I can never find my keys.
+        - Have you ever been to Egypt?
+        - A: Where's Laura?
+          B: She's just gone out.
+             (She's = She has)
+        - My friends have all gone to the cinema.
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 94.1 Read Paul's answer to the questions.
+           Write sentences about Paul with "often/never"  etc.
+      0...
       1
       2
       3
-      4
+
+
+
+
 
 
 
@@ -11401,7 +11556,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 195 в chrome
+  стр 197 в chrome
 
   (*) END: 115 Units, 240 стр.
 
