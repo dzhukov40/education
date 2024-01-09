@@ -11532,6 +11532,152 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
     - 94.1 Read Paul's answer to the questions.
            Write sentences about Paul with "often/never"  etc.
       0...
+      1 Do you ever play tennis?
+        Yes, often.
+        Paul often plays tennis.
+      2 Do you get up early?
+        Yes, always.
+        He always get up early.
+      3 Are you ever late for work?
+        No, never.
+        He never late for work.
+      4 Do you ever get angry?
+        Sometimes.
+        Paul sometimes get angry.
+      5 Are you at home in the evenings?
+        Yes, usually.
+        He is usually at home in the evenings. 
+    -...
+    - 94.2 Write these sentences with "never/always/usually"  etc.
+      0...
+      1 My brother never speaks to me.
+      2 Susan is always polite.
+      3 I usually finish work at 5 o'clock.
+      4 Sarah just has started a new job.
+      5 I rearly go to bed befor midnight.
+      6 The bus isn't usually late.
+      7 I don't often eat fish.
+      8 I will never forget what you said.
+      9 Have you ever lost your passport?
+      10 Do you still work in the same place?
+      11 They always stay in the same hotel.
+      12 Jane usually doesn't work on Saturdays.
+      13 Is Tina already here?
+      14 What do you usually have for breakfast?
+      15 I never can remember his name.
+    -...
+    - 94.3 Write sentences with "also".
+      0...
+      1 Do you play football?
+        Yes, and I also play tennis.
+      2 Do you speak Italian?
+        Yes, and I also speak French.
+      3 Are you tired?
+        Yes, and I also am hungry.
+      4 Have you been to England?
+        Yes, and I also have been to Ireland.
+      5 Did you buy any clothes?
+        Yes, and I also bought some books. 
+    -...
+    - 94.4 Write sentences with "both" and "all".
+      0...
+      1 I live in London. | I live in London. 
+        I play football.  | I play football.
+        I'm a sudent.     | I'm a sudent.  
+        I've got a car.   | I've got a car.
+        -...
+        - They both live in London
+          They both play football.
+          They both are students.
+          They both have cars.
+      ... 
+      2 I'm married.           | I'm married.           | I'm married. 
+        I was born in England. | I was born in England. | I was born in England.
+        I live in New York.    | I live in New York.    | I live in New York.
+        -...
+        - They all are married.
+          They all were born in England.
+          They all live in New Yourk.
+
+
+
+
+95) [ Unit 95 ] still   yet   already
+  - [A] "still"
+    - main example:
+      
+      - [ an hour ago ]                                [ now ]
+                                       The rain
+                             --->>>    hasn't   --->>>
+                                       stopped. 
+      - [ Anhour ago it was raining ]                  [ It is still raining now ] 
+    -...
+    - "still" = something is the same as befor:
+      - I had a lot to eat, but I'm still hungry.
+        (= I was hunbgry befor, and I'm hungry now)
+      - Did you sell your car?
+        No, I've still got it.
+      - Do you still live in Barcelona?
+        No, I live in madrid now.       
+  -...
+  - [B] "yet"
+    - main example:
+      
+      - [ 20 minutes ago ]                    [ now ]
+                                       
+                             --->>>       --->>>
+                                      
+      - [ Twenty minutes ago ]                [ They are still waiting for Ben ]
+        [ they were waiting for Ben ]         [ Ben hasn't come yet. ] 
+    -...
+    - "yet" = until now
+      - We use "yet" in negative sentences (He hasn't come yet.)
+        and in questions (Has he come yet?).
+        Yet is usually at the end of a sentence:
+      -...
+      - examples:
+        - A: Where's Emma?  
+          B: She isn't here yet.
+             (= she will be here, but until now she hasn't come)
+        - A: What are you doing this evening?
+          B: I don't know yet.
+             (= I will know later, but I don't know at the moment)
+        - A: What are you doing this evening?
+          B: I don't know yet.
+             (= I will know later, but I don't know at the moment)
+        - A: Are you ready to go yet?
+          B: Not yet.
+             In a minute.
+             (= I will be ready, but I'm not ready at the moment)
+        - A: Have you finished with the newspaper yet?
+          B: No, I'm still reading it.
+      -...
+      - Compare "yet" and "still":
+        - She hasn't gone yet. 
+          (= She's still here.)
+          (NOT! she is yet here)
+        - I haven't finished eating yet.
+          (= I'm still eating)    
+  -...
+  - [C] "already" = earlier than expected
+    - What time is Joe coming?
+      He's already here.
+      (= earlier than we expected)
+    - I'm going to tell you what happened.
+      That's not necessary.
+      I already know.
+    - Sarah isn't coming to the cinema with us.
+      She has already seen the film. 
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 95.1 You meet Tina.
+           The last time you saw her was two years ago.
+           You ask her some questionswith "still".
+      0...
       1
       2
       3
@@ -11551,12 +11697,10 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
 
 
-
-
 essentiat-grammar-in-use-book 
 
 
-  стр 197 в chrome
+  стр 199 в chrome
 
   (*) END: 115 Units, 240 стр.
 
