@@ -11678,6 +11678,156 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
            The last time you saw her was two years ago.
            You ask her some questionswith "still".
       0...
+      1 Do you still play the piano?
+      2 Do you still live in Clare street?
+      3 Are you still student?
+      4 Do you still have a motobike?
+      5 Are you still go to the cinema a lot?
+      6 Do you still want to be a teacher?
+    -...
+    - 95.2 Write three sentences for each situation.
+           Look at the example carefully.
+      0...
+      1 --- 
+        (befor) They were waiting for the bus.
+        (still) They are still waiting.
+        (yet)   The bus hasn't come yet. 
+      2 ---
+        (befor) He was looking for a job.
+        (still) He is still lokking for a job.
+        (yet)   He hasn't found a job yet.
+      3 ---
+        (befor) She fell asleap.
+        (still) She still sleep.
+        (yet)   She hasn't stopped sleeping yet.
+      4 ---
+        (befor) They were eating.
+        (still) They are still eating. 
+        (yet)   They haven't stopped eating yet. 
+    -...
+    - 95.3 Write questions with "yet".
+      0...
+      1 ---
+        You and Sue are going out together.
+        You are waiting for her to get ready.
+        Perhaps she is ready now.
+        You ask her: Are you ready yet?
+      2 ---
+        You are waiting for Helen to arrive.
+        She wasn't here ten minutes ago.
+        Perhaps she is here now.
+        You ask somebody: Has Helen arrived yet?
+      3 ---
+        Anna did an exam and is waiting for the results.
+        Perhaps she has her results now.
+        You ask her: Have you got your exam results yet?
+      4 ---
+        A few days ago you spoke to Tom.
+        He wasn't sure where to go on holiday.
+        Perhaps he has decided now.
+        You ask him: Have you decided where to go on holiday yet?   
+    -...
+    - 95.4 Complete the sentences.
+           Use already.
+      0...
+      1 What time is Joe coming?
+        - He's already here.
+      2 Do they want to see the film?
+        No, they've already seen it.
+      3 I have to see Julia befor she goes.
+        It's too late.
+        She has already gone. 
+      4 Do you need a pen?
+        No, thanks.
+        I already have one.
+      5 Shall I pay the bill?
+        No, it's OK.
+        I have already paid the bill.
+      6 Shall I tell Paul about the meeting?
+        No, he already knows about the meeting.
+        I told him. 
+
+
+
+
+
+96) [ Unit 96 ] Give me that book!    Give it to me!
+  - [A] "give", "lend", "pass", "send", "show"
+    -...
+    - After these verbs ("give"/"lend"  etc.)
+      there are two possible structures:
+      -...
+      - "give something to somebody"
+        - I gave the keys to Sarah.
+      - "give somebody something"
+        - I gave Sarah the Keys.
+  -...
+  - [B] give "something to somebody"
+    -...
+    - table:
+                                                 something     "to" something
+    -----------------------------------------|---------------|----------------
+          That's my book.          "Give"    | it            | "to" me
+    These are Sue's keys. Can you  "give"    | them          | "to" her?
+                          Can you  "give"    | these flowers | "to" your mother?
+                                I  "lent"I   | my car        | "to" a friend of mine.
+                          Did you  "send"    | the money     | "to" Kate?
+    We've seen these photos. You   "showed"  | them          | "to" us.
+    -----------------------------------------|---------------|----------------
+  -...
+  -...
+  - [C] give "somebody something"
+    -...
+    - table:
+                               somebody      something
+    -------------------------|------------|----------------
+                             | me         | that book. It's mine.
+                       Tom   | his mother | some flowers.
+                         I   | Joe        | some money.
+    How much money did you   | him?       |
+                         I   | you        | an email. Did you get it?
+                    Nicola   | us         | her holiday photos.
+                   Can you   | me         | they salt, please?
+    -------------------------|------------|----------------
+    -...
+    - You can also say "buy"/"get" somebody something:
+      - I bought my mother some flowers.
+        (= I bought some flowers for my mother.)
+      - I'm going to the shop.
+        Can I get you anything?
+        (= get anything for you)
+  -...
+  -...
+  - [D]
+    - You can say
+      - I gave the keys to Sarah.
+        AND
+        I gave Sarah the keys.
+        (BUT NOT! I gave to Sarah the keys)
+      -...
+      - That's my book.
+        Can you give it to me?
+        AND
+        Can you give me that book?
+        (BUT NOT! Can you give to me that book?)
+    -...
+    - We prefer the first structure 
+      (give something to somebody) with it or them:
+      - I gave it to her.
+        (NOT! I gave her it)
+      - Here are the keys.
+        Give them to your father.
+        (NOT! Give your father them)
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 96.1 Mark had some things that he didn't want.
+           He gave them to different people.
+           Write sentences beginning "He gave ..."
+      0...
       1
       2
       3
@@ -11692,15 +11842,10 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 
 
 
-
-
-
-
-
 essentiat-grammar-in-use-book 
 
 
-  стр 199 в chrome
+  стр 201 в chrome
 
   (*) END: 115 Units, 240 стр.
 
