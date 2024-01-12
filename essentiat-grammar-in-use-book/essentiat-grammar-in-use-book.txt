@@ -11828,9 +11828,130 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
            He gave them to different people.
            Write sentences beginning "He gave ..."
       0...
-      1
-      2
-      3
+      1 What did Mark do with the armchair?
+        He gave it to his brother.
+      2 What did he do with the tennis racket?
+        He gave it to Gary.
+      3 What happened to the books?
+        He gave them to Sarah.
+      4 What about the lamp?
+        He gave it to his sister.
+      5 What did he do with the pictures?
+        He gave them to Robert.
+      6 And the ladder?
+        He gave it to his neighbor.
+    -...
+    - 96.2 You gave presents to your friends.
+           You decided to give them the things in things in the pictures.
+           Write a sentence for each person.
+      0...
+      1 I gave Paul a book.
+      2 I gave Joanna a home-plan.
+      3 I gave Richard a tiy.
+      4 I gave Emma a box with chocolate.
+      5 I gave Rachel a flowers.
+      6 I gave Kevin a wallet.
+    -...
+    - 96.3 Write questions beginning 
+           "Can you give me ... ? / Can you pass me ... ?"  etc.
+      0...
+      1 Can you pass me the salt?
+      2 Can you lend me an umbrella?
+      3 Can you give me your address?
+      4 Can you lend me twenty pounds?
+      5 Can you show me the letter?
+    -...
+    - 96.4 Which is right?
+      0...
+      1 I gave Sarah the keys.
+      2 I'll lend you some money if you want.
+      3 Did you send the bill to me?
+      4 I want buy you a present.
+      5 Can you pass me the sugar, please?
+      6 This is Lisa's bag.
+        Can you give it to her?
+      7 I showered the policeman my identity card.
+
+
+
+
+97) [ Unit 97 ] and   but   or   so   because
+  - [A] "and", "but", "or", "so", "because"
+    -...
+    - We use these words(conjunctions) to join two sentences.
+      They make one longer sentence from two shorter sentences:
+
+
+      sentence A [ The car stopped. ] --- [ The driver got out.] Sentence B
+                                       |
+                                       |
+                                       |
+                   [ The car stopped "and" the driver got out.]
+
+  -...
+  - [B] "and/but/or"
+
+              sentence A            sentence B
+     --------------------------------------------------------  
+        We stayed at home   "and"   (we)* watched television.
+     My sister is married   "and"   (she)* lives in London.
+      He doesn't like her,  "and"   she doesn't like him.
+      I bought a sandwich,  "but"   I didn't eat it.
+        It's a nice house,  "but"   it doesn't have a garden.
+    Do you want to go out,  "or"    are you too tired?
+     -------------------------------------------------------
+     (*) It is not necessary to repeat 'we' and 'she'.
+
+     - In lists, we use commas (,).
+       We use "and" befor the last thing:
+       - I got home, had something to eat, 
+         sat down in an armchair and fell asleep.
+       - Karen is at work, Sue has gone shopping 
+         and Cris is playing football. 
+  -...
+  -...
+  - [C] "so" (the result of something)
+    -...
+
+                 sentence A            sentence B
+        --------------------------------------------------------  
+            It was very hot,   "so"   I opened the window.
+    Joe does a lot of sport,   "so"   he's very fit.
+They don't like travellingr,   "so"   then haven't been to many places.
+        ------------------------------------------------------- 
+  -...
+  -...
+  - [D] "because" (the reasin for something)
+    -...
+
+                 sentence A            sentence B
+        --------------------------------------------------------  
+          opened the window,   "because"   it was very hot.
+ Joe doesn't a lot of sport,   "because"   he's going away.
+              Lisa is hungry   "because"   she didn't have breakfast.
+        ------------------------------------------------------- 
+        -...
+        - "Because" is also possible at the beginning:
+          - Because it was very hot, I opened the window.
+  -...
+  -...
+  - [E] In these examples there is more than one conjunction:
+    - It was late and I was tired, so I went to bed.
+    - I always enjoy visiting London,
+      but I wouldn't like to live there because it's too big.
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 97.1 Write sentences.
+           Choose from the boxes and use "and/but/or".
+      0...
+
+
+
+
+
 
 
 
@@ -11845,7 +11966,7 @@ but  -ay/-ey/-oy      "-ys"   day -> days ; monkey -> monkeys ;
 essentiat-grammar-in-use-book 
 
 
-  стр 201 в chrome
+  стр 203 в chrome
 
   (*) END: 115 Units, 240 стр.
 
