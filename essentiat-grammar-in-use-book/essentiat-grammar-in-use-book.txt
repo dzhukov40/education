@@ -12043,6 +12043,117 @@ They don't like travellingr,   "so"   then haven't been to many places.
     - 98.1 Write sentences beginning with "when".
            Choose from the boxes.
       0...
+      1 When I went out, it was raining.
+      2 When I'm tired, I like to watch TV.
+      3 When I knocked on the door, there was no answer. 
+      4 When I go on holiday, I always go to the same place.
+      5 When I the programme ended, I turned off the TV.
+      6 When I got the hotel there were no rooms.
+    -...
+    - 98.2 Complete the sentences. Choose from the box.
+      0...
+      1 They looked both ways before they crossed the road.
+      2 They were very surprised when they heard the news.
+      3 After they got married, they went to live in New Zeland.
+      4 Their house was damaged in a storm, while they were away.
+      5 Where did they live before they came here?
+      6 While we were asleep, somebody broke into the house.
+      7 When I told them what happend, they didn't belive me.
+    -...
+    - 98.3 Which is right?
+      0...
+      1 I'll stay here untill you come back.
+      2 I'm going to bed when I finish my work.
+      3 We must do something before it's be too late.
+      4 Helen is going away soon.
+        I'll be very sad when she leavs.
+      5 Don't go out yet.
+        Wait until the rain stops.
+      6 We'll come and visit you 
+        when we're in England again.
+      7 When I come to see you tomorrow,
+        I'll bring our holiday photos.
+      8 I'm going to Paris next week.
+        I hope to see some friends of mine while I'm there.
+      9 Let's go out for a walk befor it gets dark.
+      10 I'm not ready yet.
+         I'll tell you when I'm ready.
+    -...
+    - 98.4 Use your own ideas to complete these sentences.
+      0...
+      1 Can you close the window befor you go out?
+      2 What are you going to do when you are at home?
+      3 When I have enough money, I'll buy an apartment.
+      4 I'll wait for you while you are working.
+      5 When I start my new job, I'll be heppy.
+      6 Will you be here when I return to work.
+
+
+
+99) [ Unit 99 ] If we go ...    If you see ...    etc.
+  - [A] 
+    -...
+    - main example:
+      - Shall we go by bus or taxi?
+        If we go by bus, it will be cheaper.
+        We'll get there more quickly if we go by taxi.
+    -...
+    - "If" can be at begginning of a sentence or in the middle:
+      
+      [ "If" at the beginning ]
+             "If" we go by bus,   it will be cheaper.
+          "If" you don't hurry,   you'll miss the train.
+            "If" you're hungry,   have something to eat.    
+          "If" the phone rings,   can youanswer it, please? 
+
+
+                                  [ "If" in the middle ]       
+             It will be cheaper   "if" we go by bus.
+          You'll miss the train   "if" you don't hurry.
+       I'm going to the concert   "if" I can get a ticket.
+                       Is it OK   "if" I use your phone?
+    -...
+    - In conversation, we often use the "if"-part of the sentence alone:
+      - Are you going to the concert?
+        Yes, if I can get a ticket.
+  -...
+  - [B] "If you see Ann tomorrow ..."  etc.
+    -...
+    - After "if", we use the present (NOT! will)
+      We say "if" you "see ..." (NOT! if you will see)
+      - examples:
+        - If you see Ann tomorrow, can you ask her to call me?
+        - If I'm late this evening, don't wait for me. 
+          (NOT! if I will be)
+        - What shall we do if it rains?
+          (NOT! if it will rain)
+        - If I don't feel well tomorrow, I'll stay at home.
+  -...
+  - [C] "If" and "when"
+    -...
+    - "If" I go out = it is possible that I will go out, but I'm not sure:
+      - A: Are you going out later?
+      - B: Maybe. If I go out, I'll close the windows.
+    -...
+    - "When" I go out = I'm going out (for sure):
+      - A: Are you going out later?
+      - B: Yes, I am.
+           When I go out, I'll close the windows.
+    -...
+    - Compare "when" and "if":
+      - When I get home this evening, I'm going to have a shower.
+      - If I'm late this evening, don't wait for me.
+        (NOT! When I'm late)
+      - We're going to play tennis if it doesn't rain.
+        (NOT! when it doesn't rain)
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 99.1 Write sentences beginning with "if".
+           Choose from the boxes.
+      0...
       1
       2
       3
@@ -12050,16 +12161,7 @@ They don't like travellingr,   "so"   then haven't been to many places.
 
 
 
-
-
-
-
-
-
-
-
-
-
+      
 
 
 
@@ -12072,7 +12174,7 @@ They don't like travellingr,   "so"   then haven't been to many places.
 essentiat-grammar-in-use-book 
 
 
-  стр 205 в chrome
+  стр 207 в chrome
 
   (*) END: 115 Units, 240 стр.
 
