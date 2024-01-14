@@ -12154,6 +12154,143 @@ They don't like travellingr,   "so"   then haven't been to many places.
     - 99.1 Write sentences beginning with "if".
            Choose from the boxes.
       0...
+      1 If you don't hurry, you'll be late.
+      2 If you pass the exam, you'll get a certificate.
+      3 If you fail the exam, you can do it again.
+      4 If you don't want this magazine, I'll throw it away.
+      5 If you want those pictures, you can have them.
+      6 If you're busy now, we can talk later.
+      7 If you're hungry, we can have lunch now.
+      8 If you need money, I can lend you some.
+    -...
+    - 99.2 Which is right?
+      0...
+      1 If I'm late this evening, don't wait for me.
+      2 Will you call me if I give you my phone number?
+      3 If there is a fire, the alarm will ring.
+      4 If I don't see you tomorrow morning, 
+        I'll call you in the evening.
+      5 I'll be surprised if Michael and Jane get married.
+      6 Will you go to the party if they invite you?
+    -...
+    - 99.3 Use your own ideas to complete these sentences.
+      0...
+      1 I'm going to the concert if I can get a ticket.
+      2 If you don't hurry, you'll miss the train.
+      3 I don't want to disturb you if you are busy.
+      4 If you go to bed early tonight, 
+        you'll be in good mood in morning.
+      5 Turn the TV off if you need to go out.
+      6 Tina won't pass her exams if spend so little time for studing. 
+      7 If I have time tomorrow, I'll read this article.
+      8 We can go to the beach tomorrow if the weather is great.
+      9 I'll be surprised if you pass this exam.
+    -...
+    - 99.4 Write "if" or "when".
+      0...
+      1 If I'm late this evening, don't wait for me.
+      2 I'm going to do some shopping now.
+        When I come back, we can have lunch.
+      3 I'm thinking of going to see Tom.
+        If I go, will you go with me?
+      4 If you don't want to go out tonight,
+        we can stay at home.
+      5 Is it OK, if I close the window?
+      6 John is still at school.
+        When he leaves school, he wants to go collage.
+      7 Shall we have a picnic tomorrow if the weather is good?
+      8 We're going to Madrid next week.
+        We don't have anywhere to stay 
+        - we hope to find a hotel when we get there.
+        I don't know what we'll do if we don't find a room. 
+      
+
+
+100) [ Unit 100 ] If I had ...    If we went ...    etc.
+  - [A] 
+    -...
+    - Dan likes fast cars, but he doesn't have one.
+      He doesn't have enough money.
+
+      "If" he "had" the money, he "would buy" a fast car.
+
+      Usually "had" is past, but in this sentence "had" is not past.
+      "If" he "had" the money = if he had the money now.
+      (but he doesn't have it).
+
+
+  ----|-------|---------------------------------------|-------|-------------
+      | I     |  had / knew / lived (etc.) ...,       | I     | would ...
+   if | you   |  didn't have / didn't know (etc) ..., | you   | wouldn't ...
+      | it    |  were ...,                            | it    | could ...
+      | they  |  could ...,                           | they  | couldn't ...
+  ----|-------|---------------------------------------|-------|-------------
+    -...
+    - You can say:
+      - If he had the money, he would buy a car.
+        OR
+        He would buy a car if he had the money.
+    -...
+    -  "I'd       / she'd       / they'd"       etc. 
+      = I "would" / she "would" / they "would"  etc.
+      -...
+      - I don't know the answer.
+        If I knew the answer, I'd tell you. 
+      - It's raining, so we're not going out.
+        We'd get wet if we went out.
+      - Jane lives in a city.
+        She likes cities.
+        She wouldn't be happy if she lived in the country.
+      - If you didn't have a job, what would you do?
+        (BUT you have job)
+      - I'm sorry I can't help you.
+        I'd help you if I could.
+        (BUT I can't)
+      - If we had a car, we could travel more.
+        (BUT we don't have a car, so we can't travel much) 
+  -...
+  - [B] "If (I) was/were ..." 
+    -...
+    - You can say:
+      - "if" I/he/she/it "was"
+        OR
+        "if" I/he/she/it "were"
+    -...
+    - examples:
+      - It's not a very nice place.
+        I wouldn't go there if I were you.
+        (OR ... if I was you)
+      - It would be nice if the weather was better.
+        (OR ... if the weather were better)
+      - What would Tom do if he were here?
+        (OR ... if he was here)     
+  -...
+  - [C] Compare
+    -...
+      
+      "if I have" / "if it is"  etc.        "if I had" / "if it was"  etc.
+                                         |     
+      - I must go and see Helen.         |  - I must go and see Helen.
+        If I have time, I will go today. |    If I had time, I would go today.
+        (= maby I'll have time,          |    (= I don't have time today, 
+           so maybe I'll go )            |       so I will)
+                                         |
+      - I like that jacket.              |  - I like this jacket, but it's very expensive.
+        I'll buy it if it isn't          |    I'd buy it if it wasn't so expensive.
+        too expensive.                   |    (= it is expensive, so I'm
+        (= maybe it will not be too      |       not going to buy it) 
+           expensive )                   |
+                                         |
+      - I'll help you if I can.          |  - I'd help you if I could, but I can't.
+        (= maybe I can)                  |
+                                         |
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 100.1 Complete the sentences.
+      0...
       1
       2
       3
@@ -12161,7 +12298,12 @@ They don't like travellingr,   "so"   then haven't been to many places.
 
 
 
-      
+
+
+
+
+
+
 
 
 
@@ -12174,7 +12316,7 @@ They don't like travellingr,   "so"   then haven't been to many places.
 essentiat-grammar-in-use-book 
 
 
-  стр 207 в chrome
+  стр 209 в chrome
 
   (*) END: 115 Units, 240 стр.
 
