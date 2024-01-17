@@ -12291,12 +12291,149 @@ They don't like travellingr,   "so"   then haven't been to many places.
     - (****) need check answers !!!!
     - 100.1 Complete the sentences.
       0...
+      1 I don't know the answer.
+        If I lnew the answer, I'd tell you.
+      2 I have a car.
+        I couldn't travel very much if I didn't have a car.
+      3 I don't want to go out.
+        If I wanted to go out, I'd go.
+      4 We don't have a key.
+        If we had a key, we could get into the house.
+      5 I'm not hungry.
+        I would have something to eat if I were hungry.
+      6 Sue enjoys her work.
+        She wouldn't do it if she didn't enjoy it.
+      7 He can't speak any foreign languages.
+        If he could spek a foreign languagege,
+        perhaps he would get a better job. 
+      8 You don't try hard enough.
+        If you tried harder, you would have more success.
+      9 I have a lot to do today.
+        If I didn't have so much to do, we could go out.
+    -...
+    - 100.2 Put the verb in the correct form.
+      0...
+      1 If he had the money, hwould buy a fast car.
+      2 Jane likes living in a city.
+        She wouldn't be happy if she lived in the country.
+      3 If I wanted to learn Italian, I would go to Italy.
+      4 I haven't told Helen what happened.
+        She'd be angry if she knew.
+      5 If we had a map, I could show you where I live.
+      6 What would you do if you won a lot o money?
+      7 It's not a very good hotel.
+        I woldn't stay there if I were you.
+      8 If we lived neare London, we would go there more often.
+      9 It's a shame you have to go now.
+        It could be nice if you had more time.
+      10 I'm not going to take the job.
+         I'd take it if the salary was better.
+      11 I don't know anything about cars.
+         If the car broke down,
+         I woudn't know what to do.
+      12 If you could change one thing in the world,
+         what would you change?
+    -...
+    - 100.3 Complete the sentences. 
+            Choose from the box and put the verb in correct form. 
+      0...
+      1 I'd buy that jacket if it was a bit cheaper.
+      2 If there was a good film on TV tonight, 
+        I'd watch it.
+      3 This room would be nicer 
+        if we had some pictures on the wall.
+      4 If there wasn't so much traffic,
+        the air would be clear.
+      5 Life would be boring if every day were the same.
+      6 If I had nothing to do, I would be bored.
+      7 We could invite all our friends to stay 
+        if we had a bigger house.
+      8 If we had more money, 
+        we could buy a bigger house. 
+    -...
+    - 100.4 Complete the sentences. 
+            Use your own ideas.
+      0...
+      1 I'd be happier if I could get a better jon. 
+      2 If I could go anywhere in the world,
+        I went to the USA.
+      3 I wouldn't be very happy 
+        if I didn't have my wife. 
+      4 I'd buy more bitcoins 
+        if I had more knowledge about this technology.
+      5 If I saw an accident in the street,
+        I would call the police.
+
+
+
+
+101) [ Unit 101 ] a person "who" ...    
+                  a thing "that/which" ... 
+                  (relativeclauses 1) 
+  - [A] 
+    -...
+    - main examples:
+
+      - I met a woman. She can speak six languages. 
+        (2 sentences)
+            ||
+            || "she" -> "who" 
+            || 
+            \/
+      - I met a woman who can speak six languages.
+        (1 sentence)
+
+
+      - Jack was wearing a hat. It was too big for him.
+        (2 sentences)
+           ||
+           || "it" -> "that" or "which" 
+           || 
+           \/
+      - Jack was wearing a hat that was too big for him.
+        OR
+        Jack was wearing a hat which was too big for him.
+  -...
+  - [B] "who" is for people (not things):
+    -...
+    ------------------------|----------------------------|------------
+     A thief is "a person"  | "who" steals things.       |
+     Do you know "anybody"  | "who" can play the piano?  |
+                 "The man"  | "who" phoned               | didn't give his name.
+              "The people"  | "who" work in the office   | are very friendly.    
+    ------------------------|----------------------------|------------
+  -...
+  - [C] "that" is for things or people:
+    -...
+    ------------------------|----------------------------|------------
+An airplane is "a machine"  | "that" flies.               |
+   Emma lives in "a house"  | "that" is 400 years old.   |
+              "The people"  | "that" work in the office  | are very friendly.    
+    ------------------------|----------------------------|------------
+    -(*) You can use "that" for people, but "who" is more usual.
+  -...
+  - [D] "which" is for things (not people):
+    -...
+    ------------------------|----------------------------------------
+An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
+   Emma lives in "a house"  | "which" is 400 years old.    
+    ------------------------|----------------------------------------
+    -(*) Do not use "which" for people:
+      - Do you remember the woman
+        who was playing the piano at the party?
+        (NOT! the woman which ...)
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 101.1 Choose from the boxes and write sentences:
+            "A ... is a person who ...".
+            Use a dictionary if necessary.
+      0...
       1
       2
-      3
-
-
-
 
 
 
@@ -12316,7 +12453,7 @@ They don't like travellingr,   "so"   then haven't been to many places.
 essentiat-grammar-in-use-book 
 
 
-  стр 209 в chrome
+  стр 211 в chrome
 
   (*) END: 115 Units, 240 стр.
 
