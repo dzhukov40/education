@@ -12432,13 +12432,148 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
             "A ... is a person who ...".
             Use a dictionary if necessary.
       0...
+      1 A thief is a person who steals things.
+      2 A butcher is a person who sells meat.
+      3 A musician is a person who plays a musical instrument.
+      4 A patient is a person who is ill in hospital.
+      5 A dentist is a person who takes care of your teeth. 
+      6 A fool is a person who does stupid things.
+      7 A genius is a person who is very intelligent.
+      8 A liar is a person who doesn't tell the truth.
+    -...
+    - 101.2 Make one sentence from two.
+      0...
+      1 The man who phoned didn't give his name.
+      2 A woman who opened the door was wearing a yellow dress.
+      3 Most of the students who took the exam passed.
+      4 The policeman who stopped our car wasn't very friendly.
+    -...
+    - 101.3 Write "who" or "which".
+      0...
+      1 I met a woman who can speak six languages.
+      2 What's the name of the man who has just started work in your office?
+      3 What's the name of the river which flows throug the town?
+      4 Where is the picture which was hanging on the wall?
+      5 Do you know anybody who wants to buy a car?
+      6 You always ask questions which are difficult to answer.
+      7 I have a friend who is very good at repairing cars.
+      8 I think everybody who went to the party enjoyed it very much.
+      9 Why does he always wear clothes which are too small for him?
+    -...
+    - 101.4 Right or wrong? Correct the mistakes.
+      0...
+      1 A thief is a person who steals things.
+      2 An airplane is a machine that flies.
+      3 A coffee maker is a machine which makes coffee.
+      4 What's happened to the money that was on the table?
+      5 I don't like people who never stop talking.
+      6 I know somebody that can help you.
+      7 I know somebody who works in that shop.
+      8 Correct the sentences which are wrong.
+      9 My neighbour bought a car which cost E40,000.
+
+
+
+
+102) [ Unit 102 ] the people "we met" ...    
+                  the hotel "you stayed at" ... 
+                  (relative clauses 2) 
+  - [A] 
+    -...
+    - main examples:
+
+      - The man is carrying a bag. It's very heavy.
+        (2 sentences)
+            ||
+            || "that" 
+            || 
+            \/
+      - The bag (that) he is carrying is very heavy.
+        (1 sentence)
+ 
+      - Kate won some money.
+        What is she going to do thith it?
+        (2 sentences)
+            ||
+            || "that" 
+            || 
+            \/
+      - What is Kate going to do with the money (that) she won?
+        (1 sentence)
+    
+    -...
+    - You can say:
+      - The bag "that" he is carrying ...
+        OR
+        The bag he is carrying ...
+        (with or without "that")
+      -...
+      - ... the money "that" Kate won?
+        OR
+        ... the money Kate won?
+    -...
+    - You do not neet "that/who/which" when it is object:
+      - table:
+
+
+    ----------|---------------|---------------|------------
+     The man  | was carrying  |  a bag        | -> "the bag" (that) "the man was carrying"
+        Kate  | won           |  some money   | -> "the money" (that) "Kate won"
+         You  | wanted        |  some books   | -> "the books" (that) "you wanted"
+          We  | met           |  some people  | -> "the people" (who) "we met"
+    ----------|---------------|---------------|------------
+    -...
+    - examples:
+      - Did you find the books you wanted?
+        (OR ... the books that you wanted?)
+      -...
+      - The people we met were very friendly.
+        (OR The people who we met ...)
+      -...
+      - Everything I said was true.
+        (OR Everything that I said ...)
+    -...
+    -...
+    - We say:
+      - The film we saw was very good.
+        (NOT! The film we saw it was ...)         
+  -...
+  - [B] 
+    -...
+    - Sometimes there is a preposition ("to/in/at" etc.) after the verb:
+
+    ------------------------------|--------------------------
+       Eve "is talking to" a man. | -> Do you know "the man Eve is talking to?"
+          We "stayed at" a hotel. | -> "The hotel we stayed at" was near the station.
+     I told you about some books. | -> These are "the books I told you about."
+    ------------------------------|--------------------------
+    -...
+    - We say:
+      - ... the books "I told you about"
+        (NOT! the books I told you about them)
+    -...
+    - You can say '(a place) "where" ...':
+      - "The hotel where" we stayed was near the station.
+        (= The hotel we stayed at ...)
+  -...
+  - [C] 
+    -...
+    - You must use "who/that/which" when it is the "subject" (-> Unit 101)
+      - I met a woman "who can speak" six languages.
+        ("who" is the subject)
+      - Jack was wearing a hat "that was" too big for him.
+        ("that" is the subject) 
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 102.1 Make one sentence from two.
+      0...
       1
       2
-
-
-
-
-
+      3
 
 
 
@@ -12453,7 +12588,7 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
 essentiat-grammar-in-use-book 
 
 
-  стр 211 в chrome
+  стр 213 в chrome
 
   (*) END: 115 Units, 240 стр.
 
