@@ -12571,9 +12571,166 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
     - (****) need check answers !!!!
     - 102.1 Make one sentence from two.
       0...
+      1 Have you seen the pictures Helen took?
+      2 I've lost the pen that you gave me.
+      3 I like the jacket that Sue wearing.
+      4 Where are the flowers that I gave you.
+      5 I believe the story that he told us.
+      6 How much were the oranges that you bought?
+    -...
+    - 102.2 Make one sentence from two.
+      0...
+      1 The bag I was carrying was very heavy.
+      2 The meal I cooked was excellent.
+      3 The shoes I'm wearing aren't very comfortable.
+      4 The people we invited didn't come.
+    -...
+    - 102.3 You ask your friend some questions. Complete the sentences.
+      0...
+      1 Your friend stayed at a hotel. You ask:
+        - What's the name of the hotel you stayed at?
+      2 Your friend was talking to some people. You ask:
+        - Who are the people that you were talking to?
+      3 Your friend was looking for some keys. You ask:
+        - Did you find the keus that you was looking for?
+      4 Your friend is going to a party. You ask:
+        - Where is the party you are going to?
+      5 Your friend was talking about a film. You ask:
+        - What's the name of the film you were talking about?
+      6 Your friend is listening to some music. You ask:
+        - What's that music you are listening to.
+      7 Your friend applied for a job. You ask:
+        - Did you get the job that you applied for.
+    -...
+    - 102.4 Complete the questions. Use "where".
+      0...
+      1 John stayed at a hotel. You ask him:
+        - Did you like the hotel where you stayed?
+      2 Sue had dinner in a restaurant. You ask her:
+        - What's the name of the restaurant where you had dinner.
+      3 Sarah lives in a village. You ask her:
+        - How big is the vill
+      4 Richard works in a factory. You ask him:
+        - Where exactly is factory where you works? 
+
+
+
+
+103) [ Unit 103 ] at 8 o'clock  
+                  on Monday
+                  in April
+  - [A] 
+    -...
+    - "at"
+      ----|--------
+          |  8 o'clock
+      at  |  10.30
+          |  midnight  wtc. 
+      ----|--------
+      -...
+      - examples:
+        - I start work at 8 o'clock.
+        - The shops close at 5.30.
+    -...
+    - "on"
+      ----|--------
+          |  Sunday(s) / Monday(s)  etc.
+      on  |  25 April / 6 June  etc.
+          |  New Year's Day  etc.
+      ----|--------
+      -...
+      - examples:
+        - Bye! I'll see you on Frinday.
+        - What do you usually do on Sundays?
+        - The concert is on 22 November.
+    -...
+    - "in"
+      ----|--------
+          |  April / June  etc.
+      in  |  2013 / 1998  etc.
+          |  summer / spring  etc.
+      ----|--------
+      -...
+      - examples:
+        - I'm going on holiday in October.
+        - Emma was born in 1995.
+        - The park is beautiful in spring.
+  -...
+  - [B] 
+    -...
+    - We say:
+      [
+        "at the weekend"
+        "at night"
+        "at Cristmas"
+        "at the end of ..."
+        "at the moment"
+      ]
+      - examples:
+        - Are you going away at the weekend?
+        - I can't sleep at night.
+        - Where will you be at Cristmas? 
+          (BUT! on Christmas Day)
+        - I'm going on holiday at the end of October.
+        - Are you busy at the moment?
+  -...
+  - [C] 
+    -...
+    - "in the morning" / "in the afternoon" / "in the evening"
+      - examples:
+        - I always feel good in the morning.
+        - Do you often go out in the evening?
+    -...
+    - BUT
+    - "on Monday morning" / "on Tuesday afternoon" / 
+      "on Friday evening" / "on Saturday night"  etc.
+      - I'm meeting Jackie on Monday morning.
+      - Are you doing anything on Saturday night?
+  -...
+  - [D] 
+    -...
+    - We do NOT use "at"/"on"/"in" befor:
+      [
+        "this" ... ("this morning" / "this week"  etc.)
+        "last" ... ("last August" / "last week"  etc.)
+        "next" ... ("next Monday" / "next week"  etc.)
+        "every" ... ("every day" / "every week"  etc.)
+      ]
+      - examples:
+        - Are you going out this evening?
+        - We go on holiday every summer.
+          Last summer we went to Canada.
+        - I'm leaving next Monday.
+          (NOT! on next Monday)
+  -...
+  - [E] 
+    -...
+    - "in five minutes" / "in a few days" / 
+      "in six weeks" / "in two years"  etc.
+      -...
+      - examples:
+        - Hurry! The train leaves in five minutes.
+          (= it leaves five minutes from now)
+        - Bye! I'll see you in a few days.
+          (= a few days from now)
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 103.1 Write "at" / "on" / "in"
+      0...
       1
       2
       3
+
+
+
+
+      
+
+
 
 
 
@@ -12588,7 +12745,7 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
 essentiat-grammar-in-use-book 
 
 
-  стр 213 в chrome
+  стр 215 в chrome
 
   (*) END: 115 Units, 240 стр.
 
