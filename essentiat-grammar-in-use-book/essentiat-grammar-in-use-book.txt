@@ -12719,17 +12719,224 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
 
   - [Exercises]
     - (****) need check answers !!!!
-    - 103.1 Write "at" / "on" / "in"
+    - 103.1 Write "at" / "on" / "in".
+      0...
+      1 on 6 June
+      2 in the evening
+      3 in half past two
+      4 on Wensday
+      5 in 2007
+      6 in September
+      7 on 24 September
+      8 on Thursday
+      9 at 11:45
+      ...
+      10 on Christmas Day
+      11 at Christmas
+      12 at the morning
+      13 on Friday morning
+      14 on Saturday night
+      15 at night
+      16 at the end of the day
+      17 at the weekend
+      18 in winter
+    -...
+    - 103.2 Write "at" / "on" / "in".
+      0...
+      1 Bye! See you on Friday.
+      2 Where were you at 28 February?
+      3 I got up at 8 o'clock this morning.
+      4 I like getting up early at the morning.
+      5 My sister got married in May.
+      6 Jwssica and I first met in 2006.
+      7 Did you go out on Tuesday?
+      8 Did you go out on Tueday evening?
+      9 Do you often go out at the evening?
+      ...
+      10 Let's meet at 7.30 tomorrow evening.
+      11 I often go away at the weekend.
+      12 I'm starting my new job in 3 july.
+      13 We often go to the beach in summer.
+      14 George isn't here at the moment.
+      15 Jane's birthday is in December.
+      16 Do you work on Saturdays?
+      17 The company started in 1999.
+      18 I like to look at the stars at night.
+      19 I'll send you the money at the end of the month.
+    -...
+    - 103.3 Look at Lisa's diary for next week and complete the sentences.
+      0...
+      1 Lisa is going to the cinema on Wednesday evening.
+      2 She has to phone Chris on friday.
+      3 She isn't doing anything special on monday.
+      4 She's got a driving lesson at 4 p.m on thusday.
+      5 She's going to a party on Saturday evening.
+      6 She's meeting Sam at 2.30 on Tusday.
+    -...
+    - 103.4 Write sentences with "in ...".
+      0...
+      1 It's 8.25 now.
+        The train leaves at 8.30.
+        The train leaves in five minutes.
+        ...
+      2 It's Monday today. 
+        I'll call you on Thursday.
+        I'll call you in a few days.
+      3 Today is 14 June.
+        My exam is on 28 June.
+        My exam is in 14 days.
+        ...
+      4 It's 3 o'clock now.
+        Tom will be here at 3.30.
+        Tom will be here in 30 minutes. 
+    -...
+    - 103.5 Write "at" / "on" / "in" if necessary.
+            Sometimes the sentence is already complete, and no word is necessary.
+      0...
+      1 I'm going on Friday.
+      2 I'm going next Friday.
+      3 I always feel tired in the evening.
+      4 Will you be at home this evening?
+      5 We went to France last summer.
+      6 Laura was born in 1997.
+      ...
+      7 What are you doing at the weekend?
+      8 I phone Robert every Sunday.
+      9 Shall we play tennis next Sunday?
+      10 I can't go to the party on Sunday.
+      11 I'm going out. I'll be back in an hour.
+      12 I don't often go out at night.
+
+
+
+104) [ Unit 104 ] from ... to   until   since   for
+  - [A] 
+    -...
+    - "from" ... "to" ...
+      
+        |                       | 
+        | from Monday to Friday |
+        |                       | 
+      --|-----------------------|-->
+      Monday                Friday
+    -...
+      - example:
+        - We lived in Japan from 2003 to 2010.
+        - I work from Monday to Friday.
+    -...
+    - You can also say from ... until ... :
+      - example:
+        - We lived in Japan from 2003 until 2010.
+  -...
+  - [B] 
+    -...
+    - "until" ...
+
+                            | 
+              until Friday  |
+                            | 
+      ----------------------|-->
+                          Friday
+    -...
+      - table:
+        -------|-------------
+               | Friday
+        until  | December
+               | 3 o'clock
+               | I come back
+        -------|-------------
+      -...
+        - examples:
+          - They're going away tomorrow.
+            They'll be away until Friday. 
+          - I went to bed early, but I wasn't tired.
+            I read a book until 3 o'clock.
+          - Wait here until I come back.
+    -...
+    - You can also say "till" (= "until"):
+      - Wait here till I come back.
+    -...
+    - Compare:
+      - How long will you be away?
+        Until Monday.
+      - When are you coming back?
+        On Monday.  
+  -...
+  - [C] 
+    -...
+    - "since" + a time in the past (to now)
+      We use "since" after the present perfect 
+      ("have been" / "have done"  etc.)
+
+        |                       | 
+        |      since Monday     |
+        |                       | 
+      --|-----------------------|-->
+      Monday                   Now
+    -...
+      - table:
+        -------|-------------
+               | Monday
+        since  | 1998
+               | 2.30
+               | I arrived
+        -------|-------------
+      -...
+        - examples:
+          - Joe is in hospital.
+            He has been in hospital since Monday.
+            (= from Monday to now)
+          - Sue and Dave have been married sinse 1998.
+            (= from 1998 to now)
+          - it has been raining since I arrived.
+    -...
+    - Compare:
+      - We lived in Japan from 2003 to 2010.
+        We lived in Japan until 2010.
+      - Now we live in Canada.
+        We came to Canada in 2010.
+        We have lived in Canada since 2010.
+        (= from 2010 until now)
+    -...
+    - We use for (NOT! since) + a period of time ("three days" / "ten years"  etc.)
+      - Joe has been in hospital for three days.
+        (NOT! since three days)
+  -...
+  - [D] 
+    -...
+    - "for" + a period of time
+
+        |                            | 
+        |       for three days       |
+        |                            | 
+      --|-------------|--------------|-->
+      Sunday        Monday        Tuesday
+    -...
+      - table:
+        -------|-------------
+               | three days
+          for  | ten years
+               | five minutes
+               | a long time
+        -------|-------------
+      -...
+        - examples:
+          - Gary stayed with us for three days.
+          - I'm going away for a few weeks.
+          - I'm going away for the weekend.
+          - They've been married for ten years.
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 104.1 Read the information and complete the sentences.
+            Use "from" ... "to" / "until" / "since".
       0...
       1
       2
       3
-
-
-
-
-      
-
 
 
 
@@ -12745,7 +12952,7 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
 essentiat-grammar-in-use-book 
 
 
-  стр 215 в chrome
+  стр 217 в chrome
 
   (*) END: 115 Units, 240 стр.
 
