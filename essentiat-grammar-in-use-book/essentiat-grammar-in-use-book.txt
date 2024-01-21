@@ -12934,6 +12934,118 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
     - 104.1 Read the information and complete the sentences.
             Use "from" ... "to" / "until" / "since".
       0...
+      1 Alex lived in Canada from 2001 to 2009.
+      2 Alex lived in Canada untill he came to England in 2009.
+      3 Alex has lived in England since 2009.
+      ...
+      4 Karen lived in France untill 2011.
+      5 Karen has lived in Switzerland since 2011.
+      ...
+      6 Clare worked in a restaurant from 2010 to 2012.
+      7 Clare has worked in the hotel since 2012.
+      ...
+      8 Adam was a teacher from 2002 to 2008.
+      9 Adam has been a journalist since 2008.
+      ...
+      - Now write sentences with "for".
+        10 Alex lived in Canada for eight years.
+        11 Alex has lived in England for several years.
+        ...
+        12 Karen has lived in Switzelend for more than 10 years.
+        ...
+        13 Clare workered in a restaurant for 2 years.
+        14 Clare has worked in the hotel for 5 years.
+        ...
+        15 Adam was a teacher for 2 years.
+        16 Adam has been a jurnalist for 12 years. 
+    -...
+    - 104.2 Write "until" / "since" / "for".
+      0...
+      1 Sue and Dave have been married since 1998.
+      2 I was tired this morning.
+        I stayed in bed untill 10 o'clock.
+      3 We waited for Sue for half an hour, but she didn't come.
+      4 Have you just arrived?
+        No, I've been here for half past seven.
+      5 How long did you stay at the party last night?
+        untill midnight.
+      ...
+      6 Dan and I are good friends.
+        We have known each other for ten years.
+      7 I'm tired.
+        I'm going to lie down for a few minutes.
+      8 Don't open the door of the train till the train stops.
+      9 This is my house.
+        I've lived here since I was seven years old.
+      10 Jack has gone away.
+         He'll be away since Wednesday.
+      ...
+      11 Next week I'm going to Paris for three days.
+      12 I usually finish work at 5.30, 
+         but sometimes I work untill six.
+      13 'How long have you know Anna?'
+         Since we were at school together.
+      14 Where have you been?
+         I've been waiting for you for twenty minutes.
+
+
+
+
+105) [ Unit 105 ] befor   after   during   while
+  - [A] 
+    -...
+    - "befor", "during" and "after"
+      - examples:
+        - Everybody feels nervous befor exams.
+        - I fell asleep during the film.
+        - We were tired after our visit to the museum.
+  -...
+  - [B]
+    - "befor", "while" and "after"
+      - examples:
+        - Don't forget to close the window befor you go out.
+        - I often fall asleep while I'm reading.
+        - They went home after they did the shopping.
+  -...
+  - [C] "during", "while" and "for"
+    -...
+    - We use "during" + noun (during "the film").
+      We use "while" + verb (while "I'm reading"):
+      - We didn't speak during the meal.
+        BUT!
+        We didn't speak while we were eating.
+        (NOT! during we were eating)
+    -...
+    - Use "for"(NOT! during) + a period of time ("three days" / "two hours"  etc.)     
+      -example:
+        - We played tennis for two hours.
+          (NOT! during two hours)
+        - I lived in London for a year.
+          (NOT! during a year)
+  -...
+  - [D]
+    - You can use "befor" / "after" + "-ing" ("befor going" / "after eating"  etc.)
+      - examples:
+        - I always have breakfast befor going to work.
+          (= befor I go to work)
+        - After doing the shopping, they went home.
+          (= after they did)
+    -...
+    - We say befor going (NOT! befor to go),
+      after doing (NOT! after to do)
+      - examples:
+        - Befor eating the apple, I washed it carefully.
+          (NOT! befor to eat)
+        - I started work after reading the newspaper.
+          (NOT! after to read)    
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 105.1 Complete the sentences.
+            Choose from the boxes.
+      0...
       1
       2
       3
@@ -12949,10 +13061,11 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
 
 
 
+
 essentiat-grammar-in-use-book 
 
 
-  стр 217 в chrome
+  стр 219 в chrome
 
   (*) END: 115 Units, 240 стр.
 
