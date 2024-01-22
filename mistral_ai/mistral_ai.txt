@@ -26,7 +26,7 @@
 1) Запускаем из Docker
   - [ https://docs.mistral.ai/self-deployment/vllm/ ]
   - устанавливаем значение для доступа к API 
-    - [ HF_TOKEN=123 ] 
+    - [ export HF_TOKEN=123 ] 
   - выполняем команду из описания
     - [
         docker run --gpus all \
@@ -35,15 +35,31 @@
           --host 0.0.0.0 \
           --model mistralai/Mixtral-8x7B-Instruct-v0.1 \
           --tensor-parallel-size 2 # adapt to your GPUs \
-          --load-format pt # needed since both `pt` and `safetensors` are available
       ]
   -...
-  - идем на API
-    - [ ]
-
-
-
-
+  - ERROR!
+    - [ 
+        docker: 
+        Error response from daemon: 
+        could not select device driver "" with capabilities: [[gpu]].
+      ]
+    - похоже надо установить [ NVIDIA Container Toolkit ]
+      - [https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html]
+      - делаем шаги из инструкции [ Installing with Apt ]
+      - ВАЖНО: [ sudo service docker restart ] !!!
+  
+    
+  - The 2070 super shares the same CUDA compute capability (7.5)
+    - FAILE: 
+      [
+        If your GPU has CUDA capabilities below 8.0, 
+        you will see the error ValueError: 
+          Bfloat16 is only supported on GPUs 
+          with compute capability of at least 8.0. 
+          Your XXX GPU has compute capability 7.0. 
+          You need to pass the parameter --dtype half to the Docker command line.
+      ]
+    -...
 
 
 
