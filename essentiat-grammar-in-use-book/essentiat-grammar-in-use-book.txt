@@ -13125,8 +13125,10 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
         - "in" the water
     -...
       - 
-             X
-         ---------   
+             
+           /--------/
+          /   X    /
+         /--------/   
       - examples:
         - "in" a garden
         - "in" a town
@@ -13148,6 +13150,11 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
   -...
   - [B] "at"
     -...
+      - 
+        |--|
+        |  |  
+        |--|   X
+    
     - main examples:
       - "at" the bus stop
       - "at" the door
@@ -13203,9 +13210,136 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
     - 106.1 Look at the pictures and answer the questions.
             Use "in" / "at" / "on".
       0...
-      1
-      2
-      3
+      1 Where is he?
+        - In the kitchen.
+      2 Where are the shoes?
+        - in the box.
+      3 Where is the pen?
+        - On the box.
+      4 Where is the clock?
+        - On the wall.
+      5 Where is the bus?
+        - At the bus stop.
+      6 Where are the horses?
+        - In the garden.
+      ...
+      7 Where are they standing?
+        - On the balcony.
+      8 Where is she swimming?
+        - in the swimming pool.
+      9 Where is he standing?
+        - At the window.
+      10 Where is he sitting?
+        - On the table.
+      11 Where is she sitting?
+        - At the table.
+    -...
+    - 106.2 Write "in" / "at" / "on"
+      0...
+      1 Don't sit on the grass. It's wet.
+      2 What do you have in your bag?
+      3 Look! There's a man on the roof. What's he doing?
+      4 There are a lot of fish in the river.
+      5 Our house is number 45 - the number is on the door.
+      6 Is the hospital near here?
+        Yes, tirn left at the traffic lights.
+      7 It's difficult to park in the center of town.
+        It's better to take the bus.
+      8 My sister lives i Brussels.
+      ...
+      9 There's small park on the top of the hill.
+      10 I think I heard the doorbell.
+         There's somebody at the door.
+      11 Munich is a large city in the south of Germany.
+      12 There are few shops at the end of the street.
+      13 It's difficult to carry a lot of things on a bike.
+      14 I looked at the list of names.
+         My name was at the bottom.
+      15 There is a mirror on the wall in the living room.
+
+
+
+
+
+
+107) [ Unit 107 ] in   at   on  (place 2)
+  - [A] "in"
+    -...
+      - remember:
+        - "in" bed
+        - "in" hospital
+        - "in" the sky
+        - "in" the world
+        - "in" a newspaper / "in" a book"
+        - "in" a photo (graph) / "in" a pictuare
+        - "in" a car / "in" a taxi
+        - "in" the middle (of ...)
+      - examples:
+        - Where's Kate?
+          She's in bed.
+        - David's father is ill.
+          He's in hospital.
+        - I like to look at the stars in the sky at night.
+        - What's the largest city in the world?
+        - I read about the accident in the newspaper.
+        - You look sad in this picture.
+        - Did you come here in your car?
+        - There's big tree in the middle of the garden.
+  -...
+  - [B] "at"
+    -...
+      - remember:
+        - "at" home
+        - "at" work / "at" school
+        - "at" university / "at" college
+        - "at" the station / "at" the airport
+        - "at" Lisa's (house) / "at" my sister's (house) /
+          "at" the doctor's   / "at" the hairdresser's  etc.
+        - "at" a concert / "at" a party / at a football match  etc.
+    -...
+    - examples:
+      - Will you be at home this evening?
+      - Where's Kate?
+        She's at work.
+      - Helen is studying law at university.
+      - I'll meet you at the station, OK?
+      - A: Where were you yesterday?
+        B: At my sister's.
+      - I saw Tom at the doctor's.
+      - There weren't many people at the party.
+    -...
+    - (*) Often it is possible to use "in" or "at" 
+          for buildings (hotels, restaurants  etc.)
+      - example:
+        - We stayed at a nice hotel.
+          OR
+          We stayed in a nice hotel.
+  -...
+  - [C] "on"
+    -...
+      - remember:
+        - "on" a bus / "on" a train / "on" a plane / "on" a ship
+        - "on" the ground floor / "on" the first floor  etc.
+        - "on" the way (to ...) / "on" the way home
+      -...
+      - examples:
+        - Did you come here on the bus?
+        - The office is on the first floor.
+        - I met Anna on the way to work / on the wat home.
+
+
+
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 107.1 Look at the pictures and answer the questions.
+            Use "in" / "at" / "on".
+      0...
+
+
 
 
 
@@ -13219,7 +13353,7 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
 essentiat-grammar-in-use-book 
 
 
-  стр 221 в chrome
+  стр 223 в chrome
 
   (*) END: 115 Units, 240 стр.
 
