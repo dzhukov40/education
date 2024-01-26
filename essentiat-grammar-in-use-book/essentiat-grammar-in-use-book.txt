@@ -13350,7 +13350,7 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
       11 in a taxi
       12 at a wedding
     -...
-    - 107.2Write "in" / "at" / "on"
+    - 107.2 Write "in" / "at" / "on"
       0...
       1 Helen is studying law at university.
       2 There was a big table in the middle of the room.
@@ -13443,9 +13443,148 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
     - (****) need check answers !!!!
     - 108.1 Write "to" or "in".
       0...
+      1 I like reading in bed.
+      2 We're going to Italy next month.
+      3 Sue is on holiday in Italy at the moment.
+      4 I have to go to the hospital tomorrow.
+      5 I was tired, so I stayed at bed late.
+      6 What time do you usually go to bed?
+      7 Does this bud go to the centre?
+      8 Would you like to live in another country?
+    -...
+    - 108.2 Write "to" or "at" if necessary.
+            One sentence is already complete, and no word is necessary.
+      0...
+      1 Paula didn't go to work yesterday.
+      2 I'm tired. I'm going home. (already complete)
+      3 Tina is not very well. She has gone at doctor.
+      4 Would you like to come at a party on Saturday?
+      5 Is Lisa at home? No, she's gone to work.
+      ...
+      6 There were 20,000 people at the football match.
+      7 Why did you go at home early last night?
+      8 A boy jumped into the river and swam to other side.
+      9 There were a lot of people waiting at the bus stop.
+      10 We had a good meal at a restaurant,
+         and then we went back to the hotel. 
+    -...
+    - 108.3 Write "to", "at" or "in" if necessary.
+            One sentence is already complete, and no word is necessary.
+      0...
+      1 I'm not going out this afternoon.
+        I'm staying at home.
+      2 We're going to a concert tomorrow evening.
+      3 I went to New York last year.
+      4 How long did you stay in New York?
+      5 Next year we hope to go to the cinema this evening?
+      6 Do you want to go to the cinema this evening?
+      7 Did you park your car at the station?
+      8 After the accident three people were taken in hospital.
+      9 How often do you go at the dentist?
+      10 Is Sarah here? No, she's at Helen's.
+      11 My house is at the end of the street on the left.
+      12 I went to Maria's house, but she wasn't at home.
+      13 There were no taxis, so we had to walk to home. 
+      14 Who did you meet at the party? I didn't go at the party.
+    -...
+    - 108.4 Write "to", "at" or "in" if necessary.
+      0...
+      1 What time do you usually get at work?
+      2 What time do you usually get home?
+      3 What time did you arrive at the party?
+      ...
+      4 When did you arrive in London?
+      5 What time does the train get to Paris?
+      6 We arrived at home very late.
+    -...
+    - 108.5 Complete these sentences about yourself.
+            Use "to" / "in" / "at".
+      0...
+      1 At 3 o'clock this morning I was in bed.
+      2 Yesterday I went to magazine for products.
+      3 At 11 o'clock yesterday morning I was at a work desk.
+      4 One day I'd like to go to the USA.
+      5 I don't like going at partyes.
+      6 At 9 o'clock yesterday evening I was in Berlin.
+
+
+
+
+
+
+109) [ Unit 109 ] under,  behind,  opposite  etc.
+  -...
+  - [A] "next to / beside / between / in front of / behind" 
+    -...
+
+           [ E ]
+     [ A ] [ B ] [ C ]      
+           [ D ]
+
+    -...
+      - A is next to B. 
+        OR
+        A is beside B. 
+      - B is between A and C.
+      - D is in front of B.
+      - E is behind B.
+      -...
+      - A is on the left.
+      - C is on the right.
+      - B in the middle (of the group)
+  -...
+  - [B] "opposite / in front of" 
+    -...
+
+     [ B ] [ A ] [ C ]      
+    
+    -...
+      - A is sitting in front of B.
+      - A is sitting opposite C.
+      - C is sitting opposite A.
+  -...
+  - [B] "by" (= next to / beside) 
+    -...
+      - Our house is by the sea.
+        (= beside the sea)
+      - Who is that man standing by the window?
+      - If you feel cold, why don't you sit by the fire?
+  -...
+  - [C] "under"
+    -...
+      - The cat is under the table.
+      - The girl is standing under a tree.
+      - I'm wearing a jacket under my coat.
+  -...
+  - [E] "above" and "below"
+    -...
+
+      [ A ]
+    ---------
+      [ B ]  
+    
+    -...
+      - A is aboce the line.
+        (= higher than the line)
+      - B is below the line.
+        (= lower than the line)
+      ...
+      - The pictures are above the shelves.
+      - The shelves are below the pictures.
+
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 109.1 Where are the people in the picture?
+            Complete the sentences.
+      0...
       1
       2
       3
+
 
 
 
