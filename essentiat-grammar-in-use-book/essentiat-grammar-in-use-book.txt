@@ -13332,12 +13332,127 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
 
 
 
-
   - [Exercises]
     - (****) need check answers !!!!
     - 107.1 Look at the pictures and answer the questions.
             Use "in" / "at" / "on".
       0...
+      1 in hospital
+      2 at the airport
+      3 at bed
+      4 on a ship
+      5 in the sky
+      6 at a party
+      7 at the doctor's
+      8 on the second floor
+      9 at work
+      10 on a plane
+      11 in a taxi
+      12 at a wedding
+    -...
+    - 107.2Write "in" / "at" / "on"
+      0...
+      1 Helen is studying law at university.
+      2 There was a big table in the middle of the room.
+      3 What is the longest river in the world?
+      4 Were there many people at the comcert last night?
+      5 Will you be at home tomorrow afternoon?
+      6 Who is the man in this photo? Do you know him?
+      7 Where are your children? Are they at school?
+      ...
+      8 Gary is coming by train. I'm going to meet him at the station.
+      9 Charlie is in hospital. He had an operation yesterday.
+      10 How many pages are there in the book?
+      11 Are you hungry after your journey?
+         No, I had something to eat on the train.
+      12 I'm sorry I'm late. My car broke down on the way here.
+      13 Is Tom here? No, he's at his friend's house.
+      14 Don't believe everything you see in the newspaper!
+      15 I walked to work, but I came home on the bus.
+
+
+
+
+
+
+108) [ Unit 108 ] to   in   at  (place 3)
+  - [A] 
+    -...
+                                           |   
+    - "to"                                 | - "in/at"
+    - "go/come/return/walk (etc.) to ..."  | - "be/stay/do something  (etc.) in ..."
+                                           |
+                                           |
+    --  TO   --->  LONDON                  |          IN
+      LONDON                               |        LONDON
+                                           |
+    - We're going to London on Sunday.     | - Piccadilly Circus is in London.
+    - I want to go to Italy next year.     | - My brother lives in Italy.
+    - We walked from my house              | - The main shops are in the centre of town.
+      to the centre of town.               | - I like reading in bed.
+    - What time do you go to bed?          |
+                                           | 
+                                           |
+                                           | "be/stay/do something (etc.) at ..."
+                                           | 
+    - The bus is going to the airport.     | - The bus is at the airport.   
+    - Karen didn't go to work yesterday.   | - Sarah wasn't at work yesterday.
+    - I went to a party last night.        | - I met a lot of people at the party.
+    - You must come to our house.          | - Helen stayed at her brother's house.
+                                           |
+                                           |
+  -...
+  - [B] "home"
+    -...
+                                           |
+    - "go/come/walk (etc.)                 | - "be/stay/do something (etc.)
+       home (without to)"                  |    at home"
+                                           |
+    - I'm tried. I'm going home.           | - I'm staying at home tonight.   
+      (NOT! to home)                       | - Dan doesn't work in an office.
+    - Did you walk home?                   |   He works at home.
+                                           |
+                                           |
+  -...
+  - [C] "arrive" and "get"
+    -...
+    - "arrive in" a country or town
+      ("arrive in Italy" / "arrive in Paris"  etc.)
+      - They arrived in this country last week.
+        (NOT! arrived to this country) 
+    -...
+    - "arrived at" other places
+      ("arrive at the station" / "arrive at work"  etc.)
+      - What time did you arrive at the hotel?
+        (NOT! arrive to the hottel)
+    -...
+    - "get to (a place)"
+      - What time did you get to the hotel?
+      - What time did you get to Paris?
+    -...
+    - "get home / arrive home" (no preposition)
+      - I was tired when I got home.
+        OR
+        I was tired when I arrived home.  
+
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 108.1 Write "to" or "in".
+      0...
+      1
+      2
+      3
+
+
+
+
+
+
+
 
 
 
@@ -13353,7 +13468,7 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
 essentiat-grammar-in-use-book 
 
 
-  стр 223 в chrome
+  стр 225 в chrome
 
   (*) END: 115 Units, 240 стр.
 
