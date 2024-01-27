@@ -13581,6 +13581,209 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
     - 109.1 Where are the people in the picture?
             Complete the sentences.
       0...
+      1 Carl is standing behind Frank.
+      2 Frank is sitting beside Emma.
+      3 Emma is sitting in front of Becky.
+      4 Emma is sitting between Daniela and Frank.
+      5 Daniela is sitting next to Emma.
+      6 Frank is sitting in front of Carl.
+      7 Alan is standing behind Daniela.
+      8 Alan is standing on the left.
+      9 Becky is standing in the middle.
+    -...
+    - 109.2 Look at the pictures and complete the sentences.
+      0...
+      1 The cat is under the table.
+      2 There is a big tree behind the house.
+      3 The plane is frying under the clouds.
+      4 She is standing by the piano.
+      5 The cinema is on the right.
+      6 She's standing by the fridge.
+      ...
+      7 The switch is below the window.
+      8 The cupboard is above the sink.
+      9 There are some shoes under the bed.
+      10 The plant is besides the piano.
+      11 Paul is sitting opposit to Fiona.
+      12 In Britain people drive on the left.
+    -...
+    - 109.3 Write sentences about the picture.
+      0...
+      1 The bank is next to the bookshop.
+      2 The fountane in front of the theatre.
+      3 Paul's office opposite theatre.
+      4 The bookship next to the bank.
+      5 Paul's office above the bookshop.
+      6 The bookshop is beetwen the bank and the supermarket.
+
+
+
+110) [ Unit 110 ] up,  over,  through  etc.
+  -...
+  - [A] "to" and "from" 
+    -...
+
+      to                   from   
+    ----->[]             []----->
+    
+    - examples:
+      - Jane is going to France next week.
+      - We walked from the hotel to the station.
+      - A lot of English words come from Latin.
+  -...
+  - [B] "into (in)" and "out of" 
+    -...                                 . 
+                                        / \                   
+        |          |-----|               |          |-----|                             
+    ----|----      |     |           ----|----      |     |                             
+    |  \ /  |  ------>   |           |   |   |      |   ------>                             
+    |   .   |      |     |           |   |   |      |     |                             
+    |_______|      |-----|           |_______|      |-----|                                                                   
+                                                                         
+           into (in)                          out of              
+    
+    - examples:
+      - We jumped into the water.
+      - A man came out of the house and got into a car.
+      - Why are you looking out of the window?
+      - I took the old batteries out of radio.
+      -...
+      - We say "put" something "in"
+        (MOT! usually into)
+        - I put new batteries in the radio.
+
+  -...
+  - [C] "on" and "off" 
+    -...  
+
+_________                                    _________                                             
+|       |                                    |       |                                   
+|      \ /                                   |      \ /                                      
+|       .                                    |       .                                                        
+|   ---------      --------               ---------      --------                                                                
+    |       |      |      |               |       |      |      |                                                        
+    |       |      |      | <---|         |       |      |      | ---|                                                  
+    |_______|      |______|     |         |_______|      |______|    |                                                                                            
+   -------------------------    |        -------------------------   |          
+                                                                    \ /
+            on                                       off             .
+
+
+    - examples:
+      - Don't put your feet on the table.
+      - Please take your feet off the table.
+      - I'm going to hang some pictures on the wall.
+      - Be careful! Don't fall off your bike.
+      - We got on the bus in Princes Street.
+
+  -...
+  - [D] "up" and "down" 
+    -...  
+
+
+    |\    /\           .                  |\    \             |                                                              
+    | \  / \\         / \                 | \    \            |                                                                                    
+    |  \    \          |                  |  \    \           |                                                                                 
+    |   \    \         |                  |   \   \\ /       \ /                                                                                 
+    |____\    \        |                  |____\    \         .                                                                                                                      
+   -------------------------             -------------------------                                           
+            up                                       down
+
+
+
+    - examples:
+      - We walked up the hill to the house.
+      - Be careful! Don't fall down the stairs.
+
+  -...
+  - [E] "over" and "under" 
+    -...  
+
+
+    ----->   --------                                                      
+      []     |  []  |             []                                                      
+                   \ /           ---->                                              
+                    .                                                    
+         over                    under                                 
+
+
+    - examples:
+      - The plane flew over the mountains.
+      - I jumped over the wall into the garden.
+      - Some people say it is unlucky to walk under a ladder.
+
+  -...
+  - [F] "through" and "round" 
+    -...
+
+                                   
+       |----|                     |-------     |------|    
+       |    |                     |       .    |      |
+    ----------->                  |  []  / \   |  []  |-->            
+       |    |                     |       |    |       
+       |----|                     |-------|                    
+                                            
+           /---/                  |-----------------|          
+      ----/  -/-->                |   |---  <---|   |
+         /---/                    |   |         |   |
+                                  |   |---------|   |
+                                  |-----------------|         
+
+       through                       round the town
+
+
+    - examples:
+      - A bird flew into the room through a window.
+      - The old road goes through the village.
+      - The new road goes round the village.
+      - The bus stop is just round the corner.
+      - I walked round the town and took some photographs.
+      -...
+      - You can also use "around" (= round)
+        - We walked around the town. 
+
+
+  -...
+  - [G] "along" and "across" 
+    -...
+                                                          
+       ------->                                            
+      |--------|                  |----| |----| |----|
+      |        |                  |    | -----> |    |                  
+      |--------|                  |----| |----| |----|                          
+                                                          
+        along                            across                           
+
+
+    - examples:
+      - I was walking along the road with my dog.
+      - Let's go for a walk along the river.
+      - The dog swam across the river.                                                 
+
+  -...
+  - [H] "past" 
+    -...
+           /\                            hospital []  /\
+          // \             cinema []                 // \
+       [] /                  ------------------------/
+         /                    
+
+
+    - examples:
+      - They walked past me without speaking.
+      - A: Excuse me, how do I get to the hospital?
+        B: Go along this road, past the cinema,
+           under the bridge and the hospital is on the left. 
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 110.1 Somebody asks you how to get to a place.
+            You say which way to go. 
+            Look at the pictures and write sentences beginning "Go ..."
+      0...
       1
       2
       3
@@ -13604,10 +13807,11 @@ An airplane is "a machine"  | "which" flies.  (NOT! a machine who ...)
 
 
 
+
 essentiat-grammar-in-use-book 
 
 
-  стр 225 в chrome
+  стр 229 в chrome
 
   (*) END: 115 Units, 240 стр.
 
