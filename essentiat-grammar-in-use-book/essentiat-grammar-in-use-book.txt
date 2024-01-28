@@ -13784,9 +13784,137 @@ _________                                    _________
             You say which way to go. 
             Look at the pictures and write sentences beginning "Go ..."
       0...
+      1 Go past the church.
+      2 Go under the bridge.
+      3 Go up the hill.
+      4 Go down the steps.
+      5 Go along this street.
+      6 Go into the hotel.
+      7 Go past the hotel.
+      8 Go out of the hotel.
+      9 Go over the bridg.
+      10 Go through the parck.
+    -...
+    - 110.2 Look at the pictures and complete the sentences.
+      0...
+      1 The dog swam across the river.
+      2 A book fell off the shelf.
+      3 A plane flew over the village.
+      4 A woman got out the car.
+      5 A girl ran across the road.
+      ...
+      6 Suddenly a car came round the corner.
+      7 They drove past the village.
+      8 They got into the train.
+      9 The moon travels around the earth.
+      10 They got into the house throug a window.
+    -...
+    - 110.3 Complete the sentences.
+            Use "over" / "from" / "into"  etc.
+      0...
+      1 I looked out of the window and watched the people in the street.
+      2 My house is very near here.
+        It's just round the corner.
+      3 Where's my phone?
+        You put it into your bag.
+      4 How far is it from here to the airport?
+      5 We walked to the museum for an hour 
+        and saw a lot of interesting things.
+      6 You can put your coat on the back of the chair.
+      7 In tennis, you have to hit the ball over the net.
+      8 Silvia took a key out of her bag and opened the door.
+
+
+
+
+
+111) [ Unit 111 ] on,  at,  by,  with,  about  etc.
+  -...
+  - [A] "on" 
+    -...
+    - remember:
+      - "on holiday"
+      - "on television"
+      - "on the radio"
+      - "on the phone"
+      - "on fire"
+      - "on time" (= not late)
+    - examples:
+      - Jane isn't at work this week.
+        She's on holiday.
+      - We watched the news on TV.
+      - We listened to the news on the radio.
+      - I spoke to Rachel on the phone last night.
+      - The house is on fire! 
+        Call the fire brigade.
+      - Was the train late? 
+        No, it was on time.
+  -...
+  - [B] "at" 
+    -...
+    - "at (the age of) 21" /
+      "at 50 kilometers an hour" /
+      "at 100 degress"  etc.
+      - Lisa got married at 21.
+        (OR ... at the age of 21)
+      - A car uses more petrol at 120 kilometres an hour than at 90.
+      - Water boils at 100 degrees Celsius.
+  -...
+  - [C] "by" 
+    -...
+    - "by car" / "by bus" / "by plane" / "by bike"  etc.
+      - Do you like travelling by train?
+      - Jane usually goes to work by bike.
+    - BUT! "on foot"
+      - you can't get there by car.
+        You have to go on foot.
+        (= you have to walk)
+    -...
+    - a book "by" ... / a painting "by" ... / 
+      a piece of music "by" ...  etc. :
+      - Have you read any books by Charles Dickens?
+      - Who is that painting by? Picasso?
+    -...
+    - "by" after the passive (-> Unit 21)
+      - I was bitten by a dog.
+  -...
+  - [C] "with" / "without" 
+    -...
+    - examples:
+      - Did you stay at hotel or with friends?
+      - Wait for me.
+        Please don't go without me.
+      - Do you like your coffee with or without milk?
+      - I cut the paper with a pair of scissors.
+      -...
+      - a man "with" a bead / a woman "with" glasses  etc. :
+        - Do you know that man with the bead?
+        - I'd like to have a house with a big garden.
+  -...
+  - [E] "about" 
+    -...
+    - "talk" / "speak" / "think" / "hear" / "know about" ... :
+      - Some people talk about their work all the time.
+      - I don't know much about cars.
+    -...
+    - "a book" / "a question" / 
+      "a programme" / "information" (etc.) "about" ... :
+      - There was a programme about volcanoes on TV last night.
+        Did you see it?
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 111.1 Complete the sentences.
+            Use "on" + these words.
+      0...
       1
       2
       3
+      4
+
 
 
 
@@ -13811,7 +13939,7 @@ _________                                    _________
 essentiat-grammar-in-use-book 
 
 
-  стр 229 в chrome
+  стр 231 в chrome
 
   (*) END: 115 Units, 240 стр.
 
