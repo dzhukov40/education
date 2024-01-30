@@ -13961,7 +13961,7 @@ _________                                    _________
 
 
 
-112) [ Unit 111 ] afraid of ...,  good at ...   etc.
+112) [ Unit 112 ] afraid of ...,  good at ...   etc.
                   of / at / for   etc. 
                   (prepositions) + "-ing"
   -...
@@ -14051,15 +14051,138 @@ I'm not very good at  | telling     |  stories.
     - 112.1 Look at the pictures 
             and complete the sentences with "of/with/in"  etc.
       0...
+      1 He's afraid of dogs.
+      2 She's nterested in science.
+      3 She's married to a footballer.
+      ...
+      4 She's very good at languages.
+      5 He's fed up with the weather.
+      6 A: Can I help you?
+        B: Thanks, that's very kind of you.
+    -...
+    - 112.2 Complete the sentences with "in/of/with"  etc.
+      0...
+      1 I'm not interested in sport.
+      2 I'm not very good at sport.
+      3 I like Sarah. She's always very lind to me.
+      4 I'm sorry for your broken window. It was an accident.
+      5 He's very brave. He isn't scared of anything.
+      6 It was very nive from Jane to let us stay in her apartment.
+      ...
+      7 Life today is very different from life 50 years ago.
+      8 Are you interested in politics?
+      9 I feel sorry for her, but I can't help her.
+      10 Chris was angry about what happened.
+      11 These boxes are very heavy. They are full of books.
+      12 I'm sorry for getting angry to you yesterday.
+    -...
+    - 112.3 Complete the sentences.
+      0...
+      1 I'm not very good at telling stories.
+      2 I wanted to go to the cinema, but Paula wasn't interesting in going.
+      3 Sue isn't very good at getting up in the morning.
+      4 Let's go! I'm fed up with waiting.
+      5 I'm soory for waking you up in the middle of the night.
+      6 Sorry I'm late! Thank you for waiting.
+    -...
+    - 112.4 Complete the sentences. Use "without -ing".
+      0...
+      1 Tom left without saing goodbye.
+      2 Sue walked past me without speaking.
+      3 Don't do anything without asking me first.
+      4 I went out without locking the door.
+    -...
+    - 112.5 Write sentences about yourself.
+      0...
+      1 I'm interested in sport.
+      2 I'm scared of being without money.
+      3 I'm not very good at learning English.
+      4 I'm not interested in sport.
+      5 I'm fed up with the lack of money.
+
+
+
+
+
+113) [ Unit 113 ] listen to ..., look at ...  etc.
+                  (verb + preposition)
+  -...
+  - [A] 
+    -remember:
+      - "ask" (someboy) "for ..."
+      - "belong to ..."
+      - "happen to ..."
+      - "listen to ..."
+      - "talk to" somebody ("about ...")
+      - "speak to" somebody ("about ...")
+      - "thnk" somebody "for ..."
+      - "think about ..." 
+        OR
+        "think of ..."
+      -...
+      - "wait for ..."
+    -...
+    - examples:
+      - Don't ask me for money. I don't have any.
+      - This house doesn't belong to me.
+        (= it's not mine)
+      - I can't find my phone. What's happened to it?
+      - Listen to this music. It's great.
+      - Did you talk to Paul about the problem?
+      - I'd like to speak to the manager, please.
+      - Thank you very much for your help.
+      - He never thinks about (OR of) other people.
+      - Mark is thinking of (OR about) buing a car.
+      - Wait for me. I'm nearly ready.
+    -...
+    - Note that we say "call/phone/text/email" somebody (no preposition):
+      - I have to phone my parents today.
+        (NOT! phone to my parents)
+      - Shall I text you or email you?  
+  -...
+  - [B] "look at" / "look for" / "look after"
+    -...
+    - "look at ..."
+      - He's looking at his watch.
+      - Look at these flowers! They're beautiful.
+      - Why are you looking at me like that?
+    -...
+    - "look for ..."
+      (= try to find)
+      - She's lost her key. She's looking for it.
+      - I'm looking for Sarah. Have you seen her?
+    -...
+    - "look after ..."
+      (= take care of, keep safe)
+      - When Emily is at work, a friend of hers looks after her chikdren.
+      - Don't lose this book. Look after it.
+        (= Keep it safe)
+  -...
+  - [C] "depend"
+    -...
+    - We say "depend on ...":
+      - A: Do you like eating in restaurants?
+        B: Sometimes. It depends on the restaurant.
+           (NOT! depends of)
+    -...
+    - You can say "it depends what/where/how" (etc.) with or without "on":
+      - A: Do you want to come out with us?
+        B: It depends where you're going.
+           OR
+           It depends on where you're going.    
+
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 113.1 Look at the pictures 
+            and complete the sentences with "to/for/at"  etc.
+      0...
       1
       2
       3
-      4
-
-
-
-
-
 
 
 
@@ -14074,7 +14197,7 @@ I'm not very good at  | telling     |  stories.
 essentiat-grammar-in-use-book 
 
 
-  стр 233 в chrome
+  стр 235 в chrome
 
   (*) END: 115 Units, 240 стр.
 
