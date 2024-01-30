@@ -14180,10 +14180,193 @@ I'm not very good at  | telling     |  stories.
     - 113.1 Look at the pictures 
             and complete the sentences with "to/for/at"  etc.
       0...
+      1 She's looking at her watch.
+      2 He's listening to the radio.
+      3 They're waiting for a taxi.
+      ...
+      4 Paul is talking about Jane.
+      5 They're looking at a picture.
+      6 Sue is looking for Tom.
+    -...
+    - 113.2 Complete the sentences with "to/for/about"  etc.
+            Two sentences are already complete,
+            and no word is necessary.
+      0...
+      1 Thank you very much for your help.
+      2 This isn't my umbrella. it belongs to a friend of mine.
+      3 I saw Steve, but I didn't speak to him.
+      4 Don't forget to phone your mother tonight.
+      5 Thank you for the present. It was lovely.
+      ...
+      6 What happend with Ella last night? 
+        Why didn't she come to the party?
+      7 We're thinking about going to Australia next year.
+      8 We asked the waiter for coffee, but he brought us tea.
+      9 Do you like reading books?
+        It depends on the book.
+      10 John was talking, but nobody was listening to what he was saying.
+      ...
+      11 We waited for Karen until 2 o'clock, but she didn't come.
+      12 I texted Lisa to tell her I would be late.
+      13 He's alone all day.
+         He never talks to anybody.
+      14 How much does it cost to stay at this hotel?
+         It depends on the type of room.
+      15 Catherine is thiking for changing her job.
+    -...
+    - 113.3 Complete the sentences with "to/for/about"  etc.
+      0...
+      1 I looked at the letter, but I didn't read it carefully.
+      2 When you are ill, you need somebody to look after you.
+      3 Excuse me, I'm looking for Hil Street. Is it near here?
+      ...
+      4 Bye! Have a grate holiday and look after yourself.
+      5 I want to take a picture of you. Olease look at the camera and smile.
+      6 Ben is looking for a job. He wants to work in a hotel.
+    -...
+    - 113.4 Answer these questions with "It depends ...".
+      0...
+      1 Do you want to go out with us?
+        - It depens where you're going.
+      2 Do you like eating in restaurants?
+        - It depends on the restaurants.
+      3 Do you enjoy watching TV?
+        - It depends on the film or programm.
+      4 Can you do something for me?
+        - It depens what you want from me.
+      5 Are you going away this weekend?
+        - It depends on the weather.
+      6 Can you land me some money?
+        - It depends how much money you need.
+
+
+
+
+
+114) [ Unit 114 ] go in,   fall off,   run away    etc.
+                  (phrasal verbs 1)
+  -...
+  - [A] "in" and "out"
+    -...
+         
+        |-----|                      |-----|                               
+        |     |                      |     |                               
+    ------>   |                      |  ------>                            
+        |     |                      |     |                               
+        |-----|                      |-----|   
+  
+           in                          out          
+
+
+    - examples:
+      - I waited outside the shop. I didn't go in.
+      - Sarah opened the door of the car and go in.
+        (= into the car)
+      -...
+      - I went to the window and looked out.
+      - The car stopped and a woman got out.
+        (= out of the car)
+  -...
+  - [B] "on" and "off"
+    -...
+
+_________                                    _________                                             
+|       |                                    |       |                                   
+|      \ /                                   |      \ /                                      
+|       .                                    |       .                                                        
+|   ---------      --------               ---------      --------                                                                
+    |       |      |      |               |       |      |      |                                                        
+    |       |      |      | <---|         |       |      |      | ---|                                                  
+    |_______|      |______|     |         |_______|      |______|    |                                                                                            
+   -------------------------    |        -------------------------   |          
+                                                                    \ /
+            on                                       off             .  
+
+    - examples:
+      - The bus came, and I got on.
+      ...
+      - Be careful! Don't fall off.
+
+  -...
+  - [C] "up" and "down"
+    -...
+
+        .               |
+       /|\              |
+        |              \|/
+        |               .
+ 
+       up               down
+
+    - examples:
+      - He stood up and left the room.
+      - I usually get up early.
+        (= get out of bed)
+      - We looked up at the stars in the sky.
+      ...
+      - The picture fell down.
+      - Would you like to sit down?
+      - Lie down on the floor.
+
+  -...
+  - [D] "away/off" and "back"
+    -...
+
+                                 [] ---------->
+    [] ------------>             [] <----------
+    
+      away/off                       back
+
+    - examples:
+      - The thief ran away.
+        (OR ... run off)
+      - Emma got into the car and drove away.
+        (OR ... drove off)
+      -...
+      - "be"/"go away"
+        (= in/to another place)
+        - Tom gone away for a few days.
+      -...
+      -...
+      - Go away and don't come back!
+      - We went out for dinner and then went back toour hotel.
+      -...
+      - "be back"
+        - Tom is away.
+          He'll be back on Monday.  
+
+  -...
+  - [E] "over" and "round (OR around)"
+    -...
+
+
+    ----->   --------           <----|                                     
+      []     |  []  |            |[] |                                                    
+                   \ /           ----|                                             
+                    .                                                    
+         over                      round/around   
+
+    - examples:
+      - The wall wasn't very high, so we climbed over.
+      - Turn over and look at the next page.
+      -...
+      - Somebody shouted my name, so I looked round (or around).
+      - We went for a long walk.
+        After an hour we turned round (or around)
+        and went back.
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 114.1 Look at the pictures 
+            and complete the sentences. 
+            Use these verbs + "in/out/up"  etc.
+      0...   
       1
       2
       3
-
+        
 
 
 
@@ -14197,7 +14380,7 @@ I'm not very good at  | telling     |  stories.
 essentiat-grammar-in-use-book 
 
 
-  стр 235 в chrome
+  стр 237 в chrome
 
   (*) END: 115 Units, 240 стр.
 
