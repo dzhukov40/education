@@ -14437,12 +14437,210 @@ _________                                    _________
         ("put on" / "take off"  etc.) has an object.
     -...
 
+      verb       object                     verb        object 
+    "put on"   uour coat                  "take off"    uour shoes  
+  
+    - You can say:                        - You can say:
+      - put on your coat                    - take off your shoes   
+        OR                                    OR
+        put your coat on                      take your shoes off
+
+
+    - But "it/them" (pronouns) always go befor "on/off"  etc.:
+    - put it on                           - take them off 
+      (NOT! put on it)                      (NOT! take them off)
+    
+    - It was cold, so I put on my coat.   - I'm going to take off my shoes.
+      OR ... I put my coat on.              OR ... take my shoes off.
+    - Here's your coat. Put it on.        - Your shoes are dirty. Take them off.
+
+  -...
+  - [B] Some more phrasal verbs + object:
+    -...
+    - "turn on" / "turn off" (lights, machines, taps  etc.)
+      - examples:
+        - It was dark, so I turned on the light.
+          OR
+          ... I turned the light on.
+        - I don't want to watch this programme.
+          You can turn it off.
+      -...
+      - also "switch on" / "switch off" (lights, machines  etc.):
+        - I switched on the light and switched off the television.
+    -...
+    -...
+    - "pick up" / "put down"
+      - examples:
+        - Those are my keys on the floor.
+          Can you pick them up for me?
+        - I stopped reading and put my book down.
+          OR
+          ... put down my book.
+    -...
+    -...
+    - "bring back" / "take back" / "give back" / "put back"
+      - examples:
+        - You can take my umbrella, but please bring it back.
+        - I took my new sweater back to the shop.
+          It was too small for me.
+        - I've got Rachel's  keys.
+          I have to give them back to her.
+        - I read the letter and then put it back in the envelope. 
 
 
 
 
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 115.1 Look at the pictures.
+            What did these people do?
+      0...   
+      1 He turned on the light.
+      2 She took off the hat.
+      3 He puted douwn the bag.
+      4 She peeked up the magazine.
+      5 He putted on the glass.
+      6 She switched off the tap.
+    -...
+    - 115.2 You can write these sentences in three different ways.
+            Complete the table.
+      0...
+      1 I turned on the radio.
+        I turned the radio on.
+        I tirned it on.
+      2 He put on his jacket.
+        He put his jacket on.
+        He put it on.
+      3 She took off her glasses.
+        She took her glasses off.
+        She took it off.
+      ...
+      4 I picked up the phone.
+        I picked the phone up.
+        I picked it up.
+      5 They gave back the key.
+        They gave the key back.
+        They gave it back.
+      6 We turned off the lights.
+        We turned the lights off.
+        We turned it off.
+    -...
+    - 115.3 Complete the sentences.
+            Use these verbs with "it" or "them".
+      0...
+      1 I wanted to watch something on TV, so I turned it on.
+      2 My new lamp doesn't work.
+        I'm going to bring it back to the shop.
+      3 There were some gloves on the floor, 
+        so I picked them up and put them on the table.
+      4 The heating was on but it was too warm, 
+        so I switched it off.
+      5 Thank you for lending me these books.
+        I won't forget to take them back. 
+    -...
+    - 115.4 Complete the sentences.
+            Use a verb from box. 
+            Sometimes you will also need to use "it / them / me".
+      0...
+      1 They knocked a lot of houses down when they built the new road.
+      2 That music is very loud.
+        Can you turn it down?
+      3 I knocked over a glass and broke it.
+      4 What does this word mean?
+        Why don't you look it up.
+      5 I want to keep these magazines.
+        Please don't throw them away.
+      ...
+      6 I tried on a pair of shoes in the shop, 
+        but I didn't buy them.
+      7 I visited a school last week.
+        One of the teachers showed me round.
+      8 Do you play the piano?
+        No, I started to learn, but I gave it up after a month. 
+      9 Somebody gave me a form and told me to fill in.
+      10 Smoking isn't allowed here.
+         Please put your cigaretee out.
 
 
+
+
+----------------
+Appendix 1-7
+----------------
+
+
+
+Additional exercises
+
+
+
+1) [ Units 1-2 ] am / is / are 
+  -...
+  - [1] Write sentences for the pictures.
+    Use the words in the boxes + "is / isn't / are / aren't"
+    0...
+    1
+    2
+    3
+  -...
+  - [2] Complete the sentences.
+    0...
+    1
+    2
+    3  
+
+
+2) [ Units 3-4 ] present continuous (I'm working / are you working?  etc.)
+  -...
+  - [3] Use the words in brackets to write sentences.
+    0...
+    1
+    2
+    3
+
+
+3) [ Units 5-7 ] present simple (I work / she doesn't work/ do you work?  etc.)
+  -...
+  - [4] Complete the sentences. Use the present simple.
+    0...
+    1
+    2
+    3
+
+
+4) [ Units 1-2, 5-7, 9 ] present simple, am / is / are  and have (got)
+  -...
+  - [5] Read the questions and Clare's answers.
+        Then write sentences about Clare.
+    0...
+    1
+    2
+    3
+
+  -...
+  - [6] Complete the questions.
+    0...
+    1
+    2
+    3
+
+  -...
+  - [7] Write sentences from these words.
+        All the sentences are present.
+    0...
+    1
+    2
+    3
+
+
+5) [ Units 3-8 ] present continuous (I'm working) 
+                 and present simple (I work)
+  -...
+  - [8] Complete the sentences.
+    0...
+    1
+    2
+    3
 
 
 
@@ -14461,9 +14659,10 @@ _________                                    _________
 
 
 essentiat-grammar-in-use-book 
+Additional exercises
 
 
-  стр 239 в chrome
+  стр 251 в chrome
 
   (*) END: 115 Units, 240 стр.
 
