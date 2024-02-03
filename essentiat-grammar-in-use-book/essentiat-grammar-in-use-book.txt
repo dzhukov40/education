@@ -14662,24 +14662,66 @@ Additional exercises
   - [5] Read the questions and Clare's answers.
         Then write sentences about Clare.
     0...
-    1
-    2
-    3
+    1 She isn't married.
+    2 She lives in London.
+    3 She is a student.
+    4 She hasn't a car.
+    5 She is goes out a lot.
+    6 She has a lot of friends.
+    7 She doesn't like London.
+    8 She likes dancing.
+    9 She isn't interested in sport.
+
 
   -...
   - [6] Complete the questions.
     0...
-    1
-    2
-    3
+    1 What's your name?
+        - Ben.
+      Are you married?
+        - Yes, I am.
+      Where are you live?
+        - In Barton Road.
+      Do you have any children?
+        - Yes, a daughter.
+      How old is she?
+        - She's three.
+    ...
+    2 How old are you?
+        - I'm 29.
+      Where are you work?
+        - I work in a supermarket.
+      Do you like your job?
+        - No, I hate it.
+      Do you have a car?
+        - Yes, I have.
+      Are you go to work by car?
+        - No, I usually go by bus.   
+    ...
+    3 Who is this man?
+        - That's my brother.
+      What is his name?
+        - Mivhael.
+      Where does he work?
+        - He's travel agent.
+      Does he live in London?
+        - No, in Manchester.
+
 
   -...
   - [7] Write sentences from these words.
         All the sentences are present.
     0...
-    1
-    2
-    3
+    1 Sarah often plays tennis.
+    2 My parents have got a new car.
+    3 My shoes are dirty.
+    4 Sonia is 32 years old.
+    5 I have two sisters.
+    6 We often watch TV in the evening.
+    7 Amy never has a hat.
+    8 A bicycle has two wheels.
+    9 These flowers are beutiful.
+    10 Emma speaks German very well.
 
 
 5) [ Units 3-8 ] present continuous (I'm working) 
