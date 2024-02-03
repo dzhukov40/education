@@ -14613,15 +14613,27 @@ Additional exercises
     11 These shoes are nice.
        Now expensive are they?
        Sixty pounds.
-       
+
 
 2) [ Units 3-4 ] present continuous (I'm working / are you working?  etc.)
   -...
   - [3] Use the words in brackets to write sentences.
     0...
-    1
-    2
-    3
+    1 A: Where are your parents?
+      B: They're watchint TV.
+    2 A: Paula is going out.
+      B: Where's she going?
+    3 A: Where's David?
+      B: He is having a showe.
+    ...
+    4 A: Are the children playing?
+      B: No, they're asleep.
+    5 A: Is it raining?
+      B: No, not at the moment.
+    6 A: Where are Sue and Steve?
+      B: They are coming now.
+    7 A: Why are you standing here?
+      B: I am waiting for somebody.
 
 
 3) [ Units 5-7 ] present simple (I work / she doesn't work/ do you work?  etc.)
