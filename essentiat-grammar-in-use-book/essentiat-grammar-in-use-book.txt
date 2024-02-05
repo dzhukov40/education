@@ -15101,15 +15101,53 @@ Additional exercises
   -...
   - [23] Which is right?
     0...
-    1 - c
+    1 - C
       - Is Sue working? No, she's on holiday.
+    2 - B
+      - Where does your uncle live? In a hillage near London.
+    3 - D
+      - I speak Italian, but I don't speak French.
+    ...
+    4 - A
+      - Where's Tom? He's havong a shower at the moment.
+    5 - A
+      - Why were you angry with me yesterday?
+    6 - D
+      - My favourite film is Cleo's Dream. I've seen it four times.
+    ...
+    7 - C
+      - I didn't go out last night. I was too tired.
+    8 - C
+      - Tina is from Chicago. She lives there all her life. 
+    9 - C
+      - My friend was waiting for me when I arrived.
+    ...
+    10 - D
+       - How long have you been learning English? Six months.
+    11 - A
+       - Paul is Canadian, but he lives in France.
+         He has been there for three years.
+    12 - C
+       - What time did Lisa phone? About at hour ago.
+    ...
+    13 - B
+       - What was Sue wearing when you saw her?
+    14 - C
+       - Can you drive? No, I've never driven a car, but I want to learn.
+    15 - A
+       - I saw Helen at the station when I was going to work this morning,
+         but she didn't see me.
+
+
+
+12) [ Units 21-22 ] passive
+  -...
+  - [24] Complete the sentences.
+    0...
+    1
     2
     3
     4
-    5
-    ...
-    6
-    7
 
 
 
