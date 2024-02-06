@@ -15109,7 +15109,7 @@ Additional exercises
       - I speak Italian, but I don't speak French.
     ...
     4 - A
-      - Where's Tom? He's havong a shower at the moment.
+      - Where's Tom? He's having a shower at the moment.
     5 - A
       - Why were you angry with me yesterday?
     6 - D
@@ -15144,16 +15144,98 @@ Additional exercises
   -...
   - [24] Complete the sentences.
     0...
+    1 These houses were built 20 years ago.
+      Befor that there was a cinema here,
+      but the building was dameged in a fire
+      and had to be knocked down
+    ...
+    2 This bridge was built in 1995.
+      It was used by hundreds of people every day.
+      At the moment the bridge is being painted.
+    ...
+    3 This street was called Wilton Street. 
+      It used to be called James Street,
+      but the name was changed a few years ago.
+    ...
+    4 This is bicycle factory.
+      Bicycles have been made here since 1971.
+      It's the largest bicycle factory in the country.
+      Thousands of bicycles are produced here every year.
+
+
+  -...
+  - [25] Complete the sentences.
+    0...
+    1 We were invited to the party, but we didn't go.
+    2 The museum is very popular.
+      Every year it is visited by thousands of people.
+    3 Many buildings were damaged in the storm last week.
+    4 A new road is going to be built next year.
+    5 Where's your jacket?
+      It is being cleaned.
+      It will be ready tomorrow.
+    ...
+    6 She's famous now, but in a few years her name will be forgotten.
+    7 Shall I do the washing-up?
+      No, it has already been doen.
+    8 Milk should be kept in a fridge.
+    9 Have you ever been bitten by snake?
+    10 My bag was stealed from my car yesterday afternoon.
+
+
+  -...
+  - [26] Write a new sentence with the same meaning.
+    0...
+    1 Somebody has stolen my keys.
+        - My keys have been stolen.
+    2 Somebody stole my car last week.
+        - My car was stolen last week.
+    3 Somebody has eaten all the bananas.
+        - All the bananas have been eaten.
+    ...
+    4 Somebody will repair the machine.
+        - The machine will be repaired.
+    5 Somebody is watching us.
+        - We were being watched.
+    6 Somebody has to do the housework.
+        - The housework has been doen.
+
+
+  -...
+  - [27] Active or passive? Complete the sentences.
+    0...
+    1 They are building a new airport at the moment.
+    2 These shirts are clean now.
+      They have been washed.
+    3 How did you fall?
+      Somebody pushed me.
+    ...
+    4 How did you fall?
+      I was pushed.
+    5 I can't find my bag.
+      Somebody has taken it!
+    6 My watch is broken.
+      It is being repaired at the moment.
+    ...
+    7 Who invented the camera?
+    8 When the camera was invented?
+    9 These shirts are clean now.
+      They were washed.
+    ...
+    10 These shirts are clean now.
+       I washed them.
+    11 The letter was for me, so why they sent it to you?
+    12 The information will be sent to you as soon as possible.
+
+
+
+13) [ Units 25-28 ] future
+  -...
+  - [28] Which is the best alternative?
+    0...
     1
     2
     3
-    4
-
-
-
-
-
-
 
 
 
@@ -15168,7 +15250,7 @@ essentiat-grammar-in-use-book
 Additional exercises
 
 
-  стр 259 в chrome
+  стр 263 в chrome
 
   (*) END: 115 Units, 240 стр.
 
