@@ -15397,29 +15397,98 @@ Additional exercises
   -...
   - [32] Which is correct?
   0...
+  1 - B
+    - Don't forget to switch off the light befor you go out.
+  2 - A
+    - It's late. I must go now.
+  3 - A
+    - I'm sorry, but I don't have time for talking to you now.
+  4 - C
+    - Gary is always in the kitchen. He enjoys cooking.
+  ...
+  5 - B
+    - We've decided to go away for a few dats.
+  6 - C
+    - You're making too much noise. Can you please stop shouting. 
+  7 - B
+    - Would you like to come and eat with us on Sunday?
+  8 - A
+    - That bag is too heavy for you. Let me help you.
+  ...
+  9  - C
+     - There's a swimming pool near my house.
+       I go swimming every day.   
+  10 - A
+     - I need to go shopping to buy some food.
+  11 - A
+     - I'd love have a car like yours. 
+  12 - A
+     - Could you help me with this bag, please?
+  ...
+  13 - B
+     - I don't mindto sit here, but I prefer to sit by the window.
+  14 - B
+     - Do you want me to help you?
+  15 - C
+     - You shold think carefully befor making an important decision.
+  16 - A
+     - I wasn't feeling very well, 
+       but the medicine made me feel better. 
+  ...
+  17 - B
+     - Shall I phone the restaurant for reserving a table?
+  18 - B
+     - Tom looked at me without saying anything.
+
+
+
+17) [ Units 65, 69-73 ] "a" and "the"
+  -...
+  - [33] Complete the sentences.
+  0...
   1
   2
   3
   4
-  ...
   5
+  ...
   6
   7
   8
-  ...
   9
   10
+
+
+  -...
+  - [34] Write "a/an" or "the" if necessary.
+         If "a/an/the" are not necessary, leave an empty space (-).
+  0...
+  1
+  2
+  3
+  4
+  5
+  ...
+  6
+  7
+  8
+  9
+  10
+  ...
   11
   12
-  ...
   13
   14
   15
-  16
   ...
+  16
   17
   18
-
+  19
+  20
+  ...
+  21
+  22
 
 
 
