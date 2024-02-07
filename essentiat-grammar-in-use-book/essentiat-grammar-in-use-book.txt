@@ -15233,9 +15233,60 @@ Additional exercises
   -...
   - [28] Which is the best alternative?
     0...
+    1 - B 
+      - We're having a party next Sunday. I hope you can come.
+    2 - B
+      - Do you know about Karen?
+        She's going to leave her job.
+        She told me last week.
+    3 - C
+      - There's a programme on TV that I want to watch.
+        It will start in five minutes.
+    ...
+    4 - C
+      - The weather is nice now, but I think it will rain later.
+    5 - B
+      - What are you doing next weekend?
+        Nothing.
+        I've got no plans.
+    6 - C
+      - When you see Tina, can you ask her to phone me?
+        OK, I'll ask her.
+    ...
+    7 - C
+      - What would you like to drink, tea or coffe?
+        I'll have tea, please.
+    8 - B
+      - Don't take that magazine away.
+        I'm going to read it.
+    9 - C 
+      - Rachel is ill, so she won't come to the party tomorrow night.
+    ...
+    10 - A
+       - I want to meet Sarah at the station.
+         What time does her train arrive?
+    11 - B
+       - Will you be at home tomorrow evening?
+         No.
+         I'm going out.
+    12 - C
+       - Shall I phone you tomorrow?
+         Yes, OK.
+
+
+
+14) [ Units 3-20, 25-28 ] past, present and future
+  -...
+  - [29] Complete the sentences.
+    0...
     1
     2
     3
+
+
+
+
+
 
 
 
@@ -15250,7 +15301,7 @@ essentiat-grammar-in-use-book
 Additional exercises
 
 
-  стр 263 в chrome
+  стр 264 в chrome
 
   (*) END: 115 Units, 240 стр.
 
