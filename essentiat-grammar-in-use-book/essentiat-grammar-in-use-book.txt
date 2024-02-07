@@ -15567,27 +15567,56 @@ Study guide
 1) Present
   -...
   0...
-  1
-  2
-  3
-  4
-  5
+  1 - B
+    - I'm cold. 
+      Can you close the window, please?
+  2 - A
+    - Lisa isn't interested in politics.
+  3 - C
+    - Is your mother at home?
+      No, she's out. 
+  4 - A
+    - These shoes are nice.
+      How much are they?
+  5 - C
+    - Look, there's Sarah.
+      She is wearing a brown coat.
   ...
-  6
-  7
-  8
-  9
-  10
+  6  - B
+     - You can turn off the television.
+       I'n not watching it. 
+  7  - D
+     - Is Ben working today?
+       No, he's at home.
+  8  - C
+     - Look, there's Emily!
+       Where's she going?
+  9  - C
+     - The earth goes round the sun.
+  10 - A
+     - We often go away at weekends.
   ...
-  11
-  12
-  13
-  14
-  15
+  11 - C
+     - We don't watch TV very often.
+  12 - A
+     - Do you play the guitar?
+       Yes, but I'm not very good.
+  13 - C
+     - I don't understand this sentence.
+       What does mean this word?
+  14 - C
+     - Please be quiet.
+       I'm working. 
+  15 - A
+     - Tom has a shower every morning.
   ...
-  16
-  17
-  18
+  16 - D
+     - What do you usually do at weekends?
+  17 - C
+     - Sarah isn't feeling well.
+       She has a headache.
+  18 - A
+     - They don't have any children.
 
 
 
@@ -15657,7 +15686,7 @@ essentiat-grammar-in-use-book
 Additional exercises
 Study guide
 
-  стр 270 в chrome
+  стр 271 в chrome
 
   (*) END: 115 Units, 240 стр.
 
