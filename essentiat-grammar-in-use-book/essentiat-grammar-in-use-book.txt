@@ -15279,10 +15279,53 @@ Additional exercises
   -...
   - [29] Complete the sentences.
     0...
-    1
-    2
-    3
+    1 A: Did you go out last night?
+      B: No, I stayed at home.
+      A: What do you do?
+      B: I were watching TV.
+      A: Are you going out tomorrow night?
+      B: Yes, I am going to go to the cinema.
+      A: Which film are you going to see?
+      B: I don't know. I haven't decided yet.
+    ...  
+    2 A: Are you on holiday here?
+      B: Yes, we are.
+      A: How long have you been here?
+      B: We arrived yesterday.
+      A: And how long are you going to stay?
+      B: Until the end of next week.
+      A: And do you like it here?
+      B: Yes, we are having a wonderful timw.
+    ... 
+    3 A: I going out with Chris and Steve this evening.
+         Do you want to come with us?
+      B: Yes, where are you going?
+      A: To the Italian restaurant in North Street.
+         Have you ever eaten there?
+      B: Yes, I have been there two or three times.
+         In fact I went there last night, 
+         but I'd love to go again!
+    ... 
+    4 A: I lost my glasses again.
+         Have you seen them?
+      B: Did you wear them  
+        when I came in.
+      A: Well, I am not wearing them now,
+         so where are they?
+      B: Have you looked in the kitchen?
+      A: No, I will go and look now.
+    ... 
 
+
+
+15) [ Units 3-22, 25-28, 52, 54, 98, 105 ] past, present and future
+  -...
+  - [30] Rachel is talking about her best friend, Carolyn.
+         Put the verbs in the correct from.
+  0...
+  -
+  -
+  -
 
 
 
@@ -15301,7 +15344,7 @@ essentiat-grammar-in-use-book
 Additional exercises
 
 
-  стр 264 в chrome
+  стр 265 в chrome
 
   (*) END: 115 Units, 240 стр.
 
