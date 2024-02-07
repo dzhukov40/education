@@ -15512,7 +15512,60 @@ Additional exercises
 
 18) [ Units 103-108, 111] "prepositions"
   -...
-  - [35] Complete the sentences.
+  - [35] Write a preposition ("in/for/by"  etc.)
+  0...
+  1 Helen is studying law at university.
+  2 What is the longest river in Europe?
+  3 Is there anything on TV this evening?
+  4 We arrived at the hotel after midnight.
+  5 Where's Mark?
+    He's on holiday.
+  ...
+  6 Tom hasn't got up yet.
+    He's still in bed.
+  7 Lisa is away.
+    She's been away on Monday.
+  8 The next meeting is at 15 April. 
+  9 I usually go to work by car.
+  10 There's too much sugar in my coffee.
+  ...
+  11 Joe lived in London for six months.
+     He didn't like it very much.
+  12 Were there a lot of people at the party?
+  13 What are you doing at the moment?
+     Are you working?
+  14 I don't know any of the people on this photo.
+  15 The train was very slow.
+     It stopped at every station.
+  ...
+  16 I like this room.
+     I like the pictures on the walls.
+  17 Did you buy that picture?
+     No, it was given to me by a friend of mine.
+  18 I'm going away for a few days.
+     I'll be back on Thusday.
+  19 Silvia has gone to Italy.
+     She's in Milan at the moment.
+  20 Emma left school at sexteen and got a job at a shop.
+  ...
+
+
+
+
+
+
+
+
+Study guide
+
+
+
+
+
+
+
+1) Present
+  -...
   0...
   1
   2
@@ -15535,9 +15588,58 @@ Additional exercises
   16
   17
   18
-  19
-  20
+
+
+
+2) Past
+  -...
+  0...
+  1
+  2
+  3
+  4
+  5
   ...
+  6
+  7
+  8
+  9
+
+
+
+3) Present perfect
+  -...
+  0...
+  1
+  2
+  3
+  4
+  5
+  ...
+  6
+  7
+  8
+  9
+  10
+
+
+
+4) Passive
+  -...
+  0...
+  1
+  2
+  3
+  4
+  5
+
+
+
+5) Verb forms
+  -...
+  0...
+  1
+  2
 
 
 
@@ -15553,9 +15655,9 @@ Additional exercises
 
 essentiat-grammar-in-use-book 
 Additional exercises
+Study guide
 
-
-  стр 267 в chrome
+  стр 270 в chrome
 
   (*) END: 115 Units, 240 стр.
 
