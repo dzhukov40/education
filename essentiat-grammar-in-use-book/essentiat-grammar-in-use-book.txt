@@ -15892,19 +15892,24 @@ Study guide
 13) "Go", "get", "do", "make" and "have"
   -...
   0...
-  1 -
-    -
-  2 -
-    -
-  3 -
-    -
-  4 -
-    -
-  5 -
-    -
+  1 - D
+    - It's a nice day.
+      Let's go swimming.
+  2 - C
+    - I'm sorry your mother is ill.
+      I hope she gets better soon.
+  3 - C
+    - Kate got in the car and drove away.
+  4 - A
+    - Shall I open the window?
+      No, it's OK.
+      I'll do it.
+  5 - B
+    - I'm soory I made a mistake.
   ...
-  6 -
-    -
+  6 - D
+    - Did you have a good time in Tokyo?
+      Yes, it was great/
 
 
 
@@ -16138,7 +16143,7 @@ essentiat-grammar-in-use-book
 Additional exercises
 Study guide
 
-  стр 274 в chrome
+  стр 276 в chrome
 
   (*) END: 115 Units, 240 стр.
 
