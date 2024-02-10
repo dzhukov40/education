@@ -15705,25 +15705,28 @@ Study guide
 6) Future
   -...
   0...
-  1 -
-    -
-  2 -
-    -
-  3 -
-    -
-  4 -
-    -
-  5 -
-    -
+  1 - A
+    - Andrew is playing tennis tomorrow.
+  2 - A
+    - Are you going out tonight?
+  3 - D
+    - What time is the concert tonight? 
+      It starts at 7.30.
+  4 - B
+    - What are you going to wear to the wedding next week?
+  5 - B
+    - I think Kelly will pass the exam.
   ...
-  6 -
-    -
-  7 -
-    -
-  8 -
-    -
-  9 -
-    -
+  6 - C
+    - We are going to the cinema on Saturday.
+      Do you want to come with us?
+  7 - D
+    - I will phone you tomorrow, OK? OK, bye.
+  8 - C
+    - I'm working tomorrow, so I can't meet you.
+  9 - B
+    - It's a nice day.
+      Shall we go for a walk?
 
 
 
