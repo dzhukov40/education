@@ -15772,16 +15772,19 @@ Study guide
 8) "There" and "it"
   -...
   0...
-  1 -
-    -
-  2 -
-    -
-  3 -
-    -
-  4 -
-    -
-  5 -
-    -
+  1 - B
+    - Excuse me, Is there a hotel near here?
+  2 - E
+    - There are a lot of accidents on this road.
+      It's very dangerous.
+  3 - A
+    - I was hungry when I got home, 
+      but there wasn't anything to eat. 
+  4 - A
+    - It's three killometers from our house 
+      to the city centre.
+  5 - B
+    - Is it true that you're going away?
 
 
 
