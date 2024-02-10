@@ -15916,23 +15916,28 @@ Study guide
 14) Pronouns and possessives
   -...
   0...
-  1 -
-    -
-  2 -
-    -
-  3 -
-    -
-  4 -
-    -
-  5 -
-    -
+  1 - A
+    - I don't want this book.
+      You can have it.
+  2 - C
+    - Sue and Kevin are going to the cinema.
+      Do you want to go with them?
+  3 - D
+    - I know Amy, but I don't know her husband.
+  4 - B
+    - Oxford is famous for its university.
+  5 - B
+    - I didn't have an umbrella,
+      so Sarah gave me hers.
   ...
-  6 -
-    -
-  7 -
-    -
-  8 -
-    -
+  6 - A
+    - I went out to meet a friend of mine.
+  7 - E
+    - We had a good holiday.
+      We enjoyed ourselves.
+  8 - A
+    - Kate and Helen are good friends.
+      They know each other well.
 
 
 
