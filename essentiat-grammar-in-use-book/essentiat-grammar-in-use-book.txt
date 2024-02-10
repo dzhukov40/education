@@ -16065,23 +16065,26 @@ Study guide
 19) Conjunctions and clauses
   -...
   0...
-  1 -
-    -
-  2 -
-    -
-  3 -
-    -
-  4 -
-    -
-  5 -
-    -
+  1 - C
+    - I can't talk to you now.
+      I'll talk to you later when I have more time.
+  2 - A
+    - If I'm late this evening, don't wait for me.
+  3 - B
+    - I don't know the answer.
+      If I would know the answer it if wasn't so expensive.
+  4 - D
+    - I like this jacket.
+      I'd bought it if it wasn't so expensive.
+  5 - D
+    - Emma lives in a house which is 400 years old.
   ...
-  6 -
-    -
-  7 -
-    -
-  8 -
-    -
+  6 - A
+    - The people who work in the office are very friendly.
+  7 - B
+    - Did you find the books that you wanted?
+  8 - A
+    - I met a woman who can speak six languages.
 
 
 
