@@ -15951,47 +15951,57 @@ Study guide
 16) Determiners and pronouns
   -...
   0...
-  1 -
-    -
-  2 -
-    -
-  3 -
-    -
-  4 -
-    -
-  5 -
-    -
+  1 - C
+    - I'm going on holiday next week.
+      Oh, that's nice.
+  2 - D
+    - Is there a bank near here?
+      Yes, there's a one at the end of this street.
+  3 - B
+    - This cup is dirty.
+      Can I have a clean one.
+  4 - B
+    - I'm going shopping.
+      I'm going to buy some clothes.
+  5 - C
+    - Where's your luggage?
+      I don't have any.
   ...
-  6 -
-    -
-  7 -
-    -
-  8 -
-    -
-  9 -
-    -
-  10 -
-     -
+  6 - C
+    - Tracey and Jack don't have any children.
+  7 - D
+    - How much money do you have?
+      None.
+  8 - B
+    - There is nobody in the room.
+      It's empty.
+  9 - A
+    - What did you say?
+      Nothing.
+  10 - B
+     - I'm hungry.
+       I want something to eat.
   ...
-  11 -
-     -
-  12 -
-     -
-  13 -
-     -
-  14 -
-     -
-  15 -
-     -
+  11 - E
+     - Ben watches TV for about two hoursevery evening.
+  12 - B
+     - Everybody needs friends.
+  13 - B
+     - The most children like playing.
+  14 - B
+     - I like both of those pictures.
+  15 - B
+     - I haven't read neither of these books.
   ...
-  16 -
-     -
-  17 -
-     -
-  18 -
-     -
-  19 -
-     -
+  16 - A
+     - Do you have a lot of friends?
+  17 - D
+     - We like films, so we go to the cinema a lot.
+  18 - B
+     - There were few people in the theatre.
+       It was nearly empty.
+  19 -D
+     - They have little money, so they're not poor.
 
 
 
@@ -16148,7 +16158,7 @@ essentiat-grammar-in-use-book
 Additional exercises
 Study guide
 
-  стр 276 в chrome
+  стр 278 в chrome
 
   (*) END: 115 Units, 240 стр.
 
