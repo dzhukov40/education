@@ -15867,23 +15867,25 @@ Study guide
 12) "-ing" and "to"
   -...
   0...
-  1 -
-    -
-  2 -
-    -
-  3 -
-    -
-  4 -
-    -
-  5 -
-    -
+  1 - B
+    - You shouldn't work so hard.
+  2 - D
+    - It's late.
+      I have to go now.
+  3 - B
+    - Tina has decided to sell her car.
+  4 - B
+    - I don't mind to get up early.
+  5 - C
+    - Do you like getting up early?
   ...
-  6 -
-    -
-  7 -
-    -
-  8 -
-    -
+  6 - C
+    - Do you want me to lend you some money?
+  7 - A
+    - He's very funny.
+      He makes me laugh.
+  8 - D
+    - Paula went to the shop to get a newspaper.
 
 
 
