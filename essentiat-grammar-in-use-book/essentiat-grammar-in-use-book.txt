@@ -15623,16 +15623,26 @@ Study guide
 2) Past
   -...
   0...
-  1
-  2
-  3
-  4
-  5
+  1 - B
+    - The weather was good last week.
+  2 - E
+    - Why were you late this morning?
+  3 - D
+    - Terry worked in a bank from 2005 to 2011.
+  4 - B
+    - Caroline went to the cinema three times last week.
+  5 - A
+    - I didn't watch TV yesterday.
   ...
-  6
-  7
-  8
-  9
+  6 - D
+    - How did the accident happen? I don't know. I didn't see it.
+  7 - A
+    - What were you doing at 11.30 yesterday?
+  8 - C
+    - Jack was reading a book when his phone rang.
+  9 -
+    - I saw Lucy and Steve this morning.
+      They were waiting at the bus stop.
 
 
 
