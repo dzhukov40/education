@@ -15855,10 +15855,12 @@ Study guide
 11) Reported speech
   -...
   0...
-  1 -
-    -
-  2 -
-    -
+  1 - E
+    - I was Steve a week ago.
+      He said that he would phone me, but he didn't.
+  2 - B
+    - Why did Tim go to bed so early?
+      He said that he was tired.
 
 
 
