@@ -15733,31 +15733,39 @@ Study guide
 7) Modals, imperative  etc.
   -...
   0...
-  1 -
-    -
-  2 -
-    -
-  3 -
-    -
-  4 -
-    -
-  5 -
-    -
+  1 - C
+    - I may go to the cinema this evening, but I'm not sure.
+  2 - C
+    - May I sit here? Yes, of course.
+  3 - A
+    - I'm having a party next week, 
+      but Paul and Rachel can't come.
+  4 - D
+    - Before Maria came to Britain,
+      she couldn't understand much English.
+  5 - B
+    - We had to walk home last night.
+      There were no buses.
   ...
-  6 -
-    -
-  7 -
-    -
-  8 -
-    -
-  9 -
-    -
-  10 -
-     -
-  11 -
-     -
-  12 -
-     -
+  6 - E
+    - I don't need to go yet.
+      I can stay a little longer.
+  7 - C
+    - It's a good film.
+      You ought to go and see it.
+  8 - C
+    - What time have you to go 
+      to the dentist tomorrow?
+  9 - C
+    - We didn't have to wait long for the bus
+      - it came in a few minutes.
+  10 - C
+     - Would you like somecoffee? No, thank you.
+  11 - A
+     - Please don't go. Stay here with me.
+  12 - D
+     - Dave use to work in a factory.
+       Now he works in a supermarket.
 
 
 
@@ -16111,7 +16119,7 @@ essentiat-grammar-in-use-book
 Additional exercises
 Study guide
 
-  стр 273 в chrome
+  стр 274 в chrome
 
   (*) END: 115 Units, 240 стр.
 
