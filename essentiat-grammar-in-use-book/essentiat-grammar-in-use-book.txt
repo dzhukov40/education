@@ -16047,16 +16047,18 @@ Study guide
 18) Word order
   -...
   0...
-  1 -
-    -
-  2 -
-    -
-  3 -
-    -
-  4 -
-    -
-  5 -
-    -
+  1 - B
+    - Sue bought some new shoes yesterday.
+      They're vert nice.
+  2 - C
+    - I always drink coffe in the morning.
+  3 - B
+    - They are never at home during the day.
+  4 - A
+    - Where's Emma?
+      She isn't here yet.
+  5 - D
+    - I looked the door and I gave the keys to Sarah.
 
 
 
