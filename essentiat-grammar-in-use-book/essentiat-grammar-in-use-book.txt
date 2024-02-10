@@ -15695,10 +15695,10 @@ Study guide
 5) Verb forms
   -...
   0...
-  1 -
-    -
-  2 -
-    -
+  1 - D
+    - It wasn't raining, so we didn't need an umbrella.
+  2 - B
+    - Somebody has broken this window.
 
 
 
@@ -16108,7 +16108,7 @@ essentiat-grammar-in-use-book
 Additional exercises
 Study guide
 
-  стр 272 в chrome
+  стр 273 в chrome
 
   (*) END: 115 Units, 240 стр.
 
