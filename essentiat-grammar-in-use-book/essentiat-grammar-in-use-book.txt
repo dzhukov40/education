@@ -373,7 +373,9 @@
       - swim -> swimming
       - lie -> lying
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 3.1 What are these people doing? 
         Use these verbs to complete the sentences:
       1 She is eating an apple
@@ -384,10 +386,13 @@
       6 She is sitting on the table
     - 3.2 Complete the sentences. Use these verbs:
       1 Please be quiet. I'm working.
-      2 Where's John? He's in the kitchen. He cooking.
+      2 [! ERROR !]
+        Where's John? He's in the kitchen. He [ -> is] cooking.
       3 You are stnding on my foot. Oh, I'm sorry.
-      4 Look! Somebody swimming in the river.
-      5 We'are here on holiday. We are staying at the Central Hotel.
+      4 [! ERROR !]
+        Look! Somebody [ -> is] swimming in the river.
+      5 We'are here on holiday. 
+        We are staying at the Central Hotel.
       6 Where's Sue? She is having a shower
       7 They are buiding a new hotel in the city center at the moment.
       8 I am going now, Goodbye
@@ -16181,7 +16186,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 1)
+CHECKED-(unit 3)
 
   стр 281 в chrome
 
