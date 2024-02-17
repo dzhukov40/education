@@ -1379,25 +1379,53 @@
       - Did your parents have a good holiday? Yes, they did.
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 12.1 Complete these sentences with the verb in the negative.
+      0...
       1 I saw Barbara, but I didn't see Jane.
       2 They worked on Monday, but they didn't work on Tuesday.
       3 We went to the post office, but we didn't go to the bank.
       4 She had a pan, but she didn't have any paper.
       5 Jack did French at school, but he didn't do German.
     - 12.2 Write questions with Did..?
-      1 I watched TV last night. How about you? Did you watch TV last night?
-      2 I enjoyed the party. How about you? Did you enjoy the party?
-      3 I had a good holiday. How about you? Did you have a good holiday?
-      4 I finished work early. How about you? Did you finish work early?
-      5 I slept well last night. How about you? Did you sleep well last night?
+      0...
+      1 I watched TV last night. 
+        How about you? 
+        Did you watch TV last night?
+      2 I enjoyed the party. 
+        How about you? 
+        Did you enjoy the party?
+      3 I had a good holiday.
+        How about you? 
+        Did you have a good holiday?
+      4 I finished work early. 
+        How about you? 
+        Did you finish work early?
+      5 I slept well last night. 
+        How about you? 
+        Did you sleep well last night?
     - 12.3 What did you do yesterday? Write positive or negative sentences.
-      1 (watch TV) I watched TV. I didn't watch TV.
-      2 (get up befor 7 o'clock) I got up befor 7 o'clock. I didn't get up befor 7.
-      3 (have a shower) I had a shower. I didn't have a shower.
-      4 (buy a magazine) I bought a magazine. I didn't buy magazine.
-      5 (go to bed befor 10.30) I went to bed befor 10.30. I didn't go to bed ...
+      1 (watch TV) 
+        I watched TV. 
+        I didn't watch TV.
+      2 (get up befor 7 o'clock) 
+        I got up befor 7 o'clock. 
+        I didn't get up befor 7.
+      3 (have a shower) 
+        I had a shower. 
+        I didn't have a shower.
+      4 [! ERROR !]
+        (buy a magazine) 
+        I bought a magazine. 
+        I didn't buy [ -> a] magazine.
+      5 (eat meat)
+        I ate meat.
+        I didn't eat meat.
+      6 (go to bed befor 10.30) 
+        I went to bed befor 10.30. 
+        I didn't go to bed ...
     - 12.4 Write B's questions.
       - 1
         A We went to New York last month.
@@ -1415,13 +1443,13 @@
         A I had a nice holiday.
         B Good. Where did you go?
         C to the mountains.
-      - 5
+      - 5 [! ERROR !]
         A We came home by taxy.
-        B How much did cost taxy. 
+        B How much [did cost taxy -> did it cost]. 
         C Ten pounds.
-      - 6 
+      - 6 [! ERROR !]
         A I'm tired this morning.
-        B Did you go to the bed late.
+        B Did you go to [the -> ] bed late.
         C No, but I didn't sleep very well.
       - 7
         A We went to the beach yesterday.
@@ -1432,14 +1460,22 @@
         B How did it happen?
         C I don't know.
     - 12.5 Put the verb in the correct form - positive, negative or question.
-      1 We went to the cinemar, but the film wasn't very good. We didn't enjoy it.
-      2 Tom bought some new clothes yesterday - two shirts, a jacket and a pullover.
-      3 Did rain yesterday? No, it was a nice day.
+      0...
+      1 We went to the cinemar, but the film wasn't very good.
+        We didn't enjoy it.
+      2 Tom bought some new clothes yesterday 
+        - two shirts, a jacket and a pullover.
+      3 [! ERROR !]
+        Did [ -> it] rain yesterday? 
+        No, it was a nice day.
       4 We were tired, so we didn't stay long at the party.
       5 It was very warm in the room, so I opened a window.
-      6 Did you phone Chris this morning? No, I didn't have time.
-      7 I cut my hand this morning. How did you do that?
-      8 Why weren't you at the meeting yesterday? I didn't know about it.
+      6 Did you phone Chris this morning? 
+        No, I didn't have time.
+      7 I cut my hand this morning. 
+        How did you do that?
+      8 Why weren't you at the meeting yesterday? 
+        I didn't know about it.
 
 
 13) [ Unit 13 ] I was doing (past continuous)
@@ -16290,7 +16326,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 11)
+CHECKED-(unit 12)
 
   стр 281 в chrome
 
