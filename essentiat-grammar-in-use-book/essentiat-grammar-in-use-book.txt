@@ -1261,22 +1261,31 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 11.1 Complete the sentences. Use a verb from the box.
+      0...
       1 I cleaned my teeth three times yesterday.
       2 It was hot in the room, so I openned the window.
       3 The film was very long. It started at 7.15 and finished at 10 o'clock.
       4 When I was a child, I wanted to be a docktor.
       5 The accident happened last Sunday afternoon.
-      6 The weather is nice today, but yesterday it rainned all day.
-      7 We enjoied our holiday last year. We staied at very nice place.
+      6 [! ERROR !] 
+        The weather is nice today, but yesterday it [rainned -> rained] all day.
+      7 [! ERROR !]
+        We enjoied our holiday last year. 
+        We [staied -> stayed] at very nice place.
       8 Anna's grandfather died when he was 90 years old.
     - 11.2 Write the past simple of these verbs.
+      0...
       1 get  - got
       2 see  - saw
-      3 play - plaied
+      3 [! ERROR !]
+        play - [plaied -> played]
       4 visit - visited
       5 buy   - bought
+      ...
       6 go - went
       7 think - thought
       8 copy - copied 
@@ -1284,24 +1293,36 @@
       10 put - put
       11 speak - spoke
     - 11.3 Read about Lisa's journey to Madrid. Put verbs in the correct form.
+      ...
       Last Tusday Lisa (1) flew from London to Madrid. She (2) got up
       at 6 o'clock in the morning and (3) had a cup of coffe. At 6.30 she
       (4) left home and (5) drove to the airport. When she
       (6) got there, she (7) parked the cat, (8) walked to the airport
-      building, and (9) checked in. Then she had breakfast at a cafe
+      building, and (9) checked in. Then she (10) had breakfast at a cafe
       and (11) waited for the flight. The plane (12) departed on time and
       (13) arrived in Madrid two hours later. Finally she (14) took a taxi
       from the airport to her hotel in the center of madrid.
     - 11.4 Write sentences about the past (yesterday/last week etc.)
-      1 James always goes to work by cat. Yesterday he went to work by car.
-      2 Rachel often loses her keys. She lost her keys at last week.
-      3 Kate meets her friends every evening. She met her friends yesterday evening.
-      4 I buy a newspaper every day. Yesterday I bought a newspaper.
-      5 We often go to the cinema at weekends. Last Sunday we went cinema.
-      6 I eat an orange every day. Yesterday I ate an orange.
-      7 Tom always has a shower in the morning. This morning he had a shower.
-      8 Our friends often come to see us. They came to see us last Friday.
+      0...
+      1 James always goes to work by cat. 
+        Yesterday he went to work by car.
+      2 Rachel often loses her keys. 
+        She lost her keys at last week.
+      3 Kate meets her friends every evening. 
+        She met her friends yesterday evening.
+      4 I buy a newspaper every day. 
+        Yesterday I bought a newspaper.
+      5 [! ERROR !]
+        We often go to the cinema at weekends. 
+        Last Sunday we went [ -> to the] cinema.
+      6 I eat an orange every day. 
+        Yesterday I ate an orange.
+      7 Tom always has a shower in the morning. 
+        This morning he had a shower.
+      8 Our friends often come to see us. 
+        They came to see us last Friday.
     - 11.5 Write sentences about what you did yesterday.
+      0...
       1 I went to the theatere.
       2 Yesterday I ate potetos.
       3 I bought a work table.
@@ -16269,7 +16290,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 10)
+CHECKED-(unit 11)
 
   стр 281 в chrome
 
