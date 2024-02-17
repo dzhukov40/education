@@ -906,48 +906,59 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 8.1 Answer the questions about the picture
+      0...
       1:
         - Does he take photographs? Yes, he does.
         - Is he taking a photograph? No, he isn't.
         - What is he doing? He's having a bath.
-      2: 
+      2: [! ERROR !]
         - Is she driving a bus? No, she isn't.
         - Does she drive a bus? Yes she does.
-        - What is she doing? Hse is playing a piano.
-      3:
+        - What is she doing? She is playing [a -> the] piano.
+      3: 
         - Does he clean windows? Yes, he does.
         - Is he cleaning a window? Yes, he is.
         - What is he doing? He is cleaning a window.
-      4:
-        - Are they teaching? Yes, they are.
+      4: [! ERROR !]
+        - Are they teaching? No, they aren't.
         - Do they teach? Yes, they do.
         - What do they do? They teach.
     - 8.2 Complete the sentences with [ am/is/are ] or [ do/don't/does/doesn't ]
+      0...
       1 Excuse me, do you speak English?
       2 Where's Kate? I don't know.
       3 What's funny? Why are you laughing?
       4 What does your sister do? She's a dentist.
       5 It is raining. I don't want to go out in the rain.
+      ...
       6 Where do you come from? Canada.
       7 How much does it cost to stay at this hotel? Is it expensive?
       8 Steve is a good tennis player, but he doesn't play very often.
     - 8.3 Put the verb in the present contininuos (I am doing) or the present simple (I do)
+      0...
       1 Excuse me, do you speak English?
       2 Where's Tom? He is having a shower.
       3 I don't watch TV very often.
-      4 Listen! Somebody are singing.
+      4 [! ERROR !] 
+        Listen! Somebody [are -> is] singing.
       5 Sarah is tired. She wants to go home now.
+      ...
       6 How often do you use your car? Every day?
       7 Excuse me, but you are sitting in my seat. Oh, I'm sorry.
       8 I'm sorry. I don't understand. Can you speak more slowly?
       9 It's late. I am going home now. Do you come with me?
-      10 What time your father finish work every day?
+      10 [! ERROR !] 
+        What time [ -> does] your father finish work every day?
+      ...
       11 You can turn off the radio. I am not listenning to it.
       12 Where's Paul? In the kitchen. He is cooking something.
       13 Mark doesn't usually drive to work. He usually walks.
-      14 Sue doesn't like coffe. She prefer tea.
+      14 [! ERROR !] 
+        Sue doesn't like coffe. She [prefer -> ] tea.
 
 
 9) [ Unit 9 ] I have ... and I've got ...
@@ -16222,7 +16233,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 7)
+CHECKED-(unit 8)
 
   стр 281 в chrome
 
