@@ -83,7 +83,9 @@
     - here's = here is
   
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 1.1 Write the short form (she's / we aren't etc.).
       1 she is       - she's
       2 they are     - they're 
@@ -99,7 +101,8 @@
       4 These bags are heavy.
       5 Look! There is Helen.
       6 My brother and I are good tennis players. 
-      7 Emily is at home. Her children is at school.
+      7 [! ERROR !]
+        Emily is at home. Her children [is -> are] at school.
       8 I am a taxi driver. My sister is a nurse.
       - /
     - 1.3 Complete the sentences.
@@ -108,9 +111,12 @@
       3 Mr Thomas is a very old man. He is 98.
       4 These chairs aren't beautiful, but they are comfortable.
       5 The weather is nice today. It is warm and sunny.
-      6 I am late. No, I'm not. I'm early!
+      6 [! ERROR !]
+        [I am -> You are] late. 
+        No, I'm not. I'm early!
       7 Catherine isn't at home. She is at work.
-      8 This is your coat. Oh, thank you very much.
+      8 [! ERROR !]
+        [This is -> Here is] your coat. Oh, thank you very much.
       - /
     - 1.4 Look at Lisa's sentences in 1 A. 
         Now write sentences about yourself.
@@ -16172,8 +16178,9 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
+CHECKED-(unit 1)
 
-  стр 278 в chrome
+  стр 281 в chrome
 
   (*) END: 115 Units, 240 стр.
 
