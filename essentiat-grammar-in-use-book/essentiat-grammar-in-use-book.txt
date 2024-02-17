@@ -1653,12 +1653,14 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 14.1 Look at the pictures. 
       Put the verbs in the correct form, past continuous or past simple.
-      - 1
+      - 1 [! ERROR !]
         Lucy broke her arm last week.
-        It happened when she are painting her room.
+        It happened when she [are -> was] painting her room.
         She fell off the ladder.
       - 2 
         The train arrived at the station and Paula got off.
@@ -1673,32 +1675,33 @@
         B: It was raining.
       2 
         A: Was Jane busy when you went to see her?
-        B: Yes, she was studuing.
-      3 
-        A: Does Paul call you this morning?
-        B: Yes, he called while I were having breakfast.
+        B: Yes, she was studying.
+      3 [! ERROR !]
+        A: [Does -> Did] Paul call you this morning?
+        B: Yes, he called while I [were - was] having breakfast.
       4
         A: Was Tracey at work today?
         B: No, she didn't go to work. SHe was ill.
-      5 
-        A: How fast you were driving when the police ptopped you?
-        B: I'm not shue, but I weren't driving very fast.
+      5 [! ERROR !]
+        A: How fast [you were -> were you] driving when the police stopped you?
+        B: I'm not shue, but I [weren't -> wasn't] driving very fast.
       6 
         A: Did your team win the footbal match yesterday?
         B: The weather was very bad, so we didn't play.
-      7
+      7 [! ERROR !]
         A: How did you break the window?
-        B: We were playing footbal. I kicked the ball and it hitted the window.
+        B: We were playing footbal. 
+           I kicked the ball and it [hitted -> hit] the window.
       8
         A: Did you see jessica last night?
         B: Yes, she was wearing a very nice jacket.
-      9 
-        A: What did you do at 2 o'cloack this morning?
+      9 [! ERROR !]
+        A: What [did you do -> were you doing] at 2 o'cloack this morning?
         B: I was asleep. 
-      10
+      10 [! ERROR !]
         A: I lost my key last night.
         B: How did you get into your room?
-        A: I were climbing in through a window.
+        A: I [were climbing -> climbed] in through a window.
 
 
 15) [ Unit 15 ] I have done (present perfect 1)
@@ -16342,7 +16345,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 13)
+CHECKED-(unit 14)
 
   стр 281 в chrome
 
