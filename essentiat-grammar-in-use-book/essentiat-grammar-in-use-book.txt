@@ -488,7 +488,9 @@
      - Is it raining? Not, it isn't.
      - Are your friends staying at a hotel? No, they aren't.
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 4.1 Look at the pictures and write the questions. 
       1 Are you watching it?
       2 Are you going now?
@@ -510,8 +512,8 @@
       4 Where are your friends going?
       5 Are your parents watching TV?
       6 What is Jessica cooking?
-      7 Why are you looking at me
-      8 is the bus coming?
+      7 Why are you looking at me?
+      8 Is the bus coming?
     - 4.4 Write short answers (Yes, I am./ No, he isn't)
       1 Are you watching TV? No, I'm not.
       2 Are you wearing a watch? Yes, I am.
@@ -16186,7 +16188,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 3)
+CHECKED-(unit 4)
 
   стр 281 в chrome
 
