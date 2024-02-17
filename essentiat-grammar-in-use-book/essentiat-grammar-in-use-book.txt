@@ -1776,30 +1776,49 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
-    - 15.1 Look at the pictures. What has happened? Choose from the box.
+    -...
+    - [ CHECKED ]
+    -...
+    - 15.1 Look at the pictures. 
+           What has happened? Choose from the box.
+      0...
       1 He hs cleaned his shoes.
       2 She has closed the dor.
-      3 They have goen to bed.
+      3 They have gone to bed.
       4 It has stopped raining.
       5 He has had a shower.
       6 The picture has fallen down.
     - 15.2 Complete the sentences with a verb from the box.
-      1 I've lost my keys. I don't know where they are.
-      2 I've bought some new shoes. Do you want to see them?
-      3 Where is Helen? She's not here. She has gone out.
-      4 I'm looking for Paula. Have you seen her?
+      0...
+      1 I've lost my keys. 
+        I don't know where they are.
+      2 I've bought some new shoes. 
+        Do you want to see them?
+      3 Where is Helen? She's not here. 
+        She has gone out.
+      4 I'm looking for Paula. 
+        Have you seen her?
       5 Look! Somebody has broken that window.
-      6 Does Lisa know that you're going away? Yes, I have told her.
-      7 I can't find my umbrella. Somebody has taken it.
-      8 I can't find my glasses? I don't know. I have not seen them.
-      9 I'm looking for Sarah. Where has she gone?
+      ...
+      6 Does Lisa know that you're going away? 
+        Yes, I have told her.
+      7 I can't find my umbrella. 
+        Somebody has taken it.
+      8 I can't find my glasses? I don't know. 
+        I have not seen them.
+      9 I'm looking for Sarah.
+        Where has she gone?
       10 I know that woman, but I have forgotten her name.
-      11 Sue is having a party tonight. She has invited a lot of people.
-      12 What are you going to do? Have you decided?
+      ...
+      11 Sue is having a party tonight. 
+         She has invited a lot of people.
+      12 What are you going to do? 
+         Have you decided?
       13 Does Ben know about the meeting tomorrow?
-         I don't think so. I haven't seen him.
-      14 I have finished with this magazine. Do you want it?
+         I don't think so. 
+         I haven't told him.
+      14 I have finished with this magazine. 
+         Do you want it?
      
 
 
@@ -16345,7 +16364,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 14)
+CHECKED-(unit 15)
 
   стр 281 в chrome
 
