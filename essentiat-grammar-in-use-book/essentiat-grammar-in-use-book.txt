@@ -249,7 +249,9 @@
      - That's my seat. No, it isn't.
      - /
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 1.1 Find the right answers for the questions.
       1 [G] Where's the camera? In your bag.
       2 [F] Is your car blue? No, it's black. 
@@ -267,7 +269,7 @@
       2 (your parents / are / well)
         - are your parents well?
       3 (interesting / is / your job)
-        - is your job interesting
+        - is your job interesting?
       4 (the shops / are / open today)
         - are the shope open today?
       5 (from / where / you / are)
@@ -288,7 +290,8 @@
       4 How much are these oranges? 1.50 a kilo.
       5 What is your favorite sport? Skiing.
       6 Who is the man in this photo? That's my father.
-      7 What colour is your new shoes? Black.
+      7 [! ERROR !]
+        What colour [is -> are] your new shoes? Black.
       - /
     - 2.4 Write the questions.
       1 (name?)           What’s your name?       Paul.
