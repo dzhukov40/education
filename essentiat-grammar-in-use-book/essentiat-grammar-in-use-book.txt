@@ -2229,24 +2229,30 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 19.1 Write "for" or "since".
+      0...
       1 Helen has been in Ireland since Monday.
       2 Helen has been in Ireland for three days.
       3 My aunt has lived in Australia for 15 years.
-      4 Tina is in her office. She has been there since 7 o'clock.
+      4 Tina is in her office. 
+        She has been there since 7 o'clock.
       5 India has been an independent country since 1947.
       6 The bus is late. We've been waiting for 20 minutes.
       7 Nobody lives in those houses. They have been enpty for many years.
       8 Michael has been ill for a long time. 
         He has been in hospital since October.
     - 19.2 Answer these questions. Use "ago".
+      0...
       1 When was your last meal?                       Three hours ago.
       2 When was the last time you were ill?           Two months ago.
       3 When did you last go to the cinema?            One week ago.
       4 When was the last time you were in a car?      Six months ago.
       5 When was the last time you went on holiday?    One year ago.
     - 19.3 Complete the sentences. Use "for" or "ago".
+      0...
       1 Helen arrived in Ireland three days ago.
       2 Helen has been in Ireland for three days.
       3 Lynn and Mark have been married for 20 years.
@@ -2256,14 +2262,17 @@
       7 Silvia has been learning English for six months.
       8 Have you know Lisa for a long time?
     - 19.4 Complete the sentences with "for" or "since".
+      0...
       1 Helen has been in Ireland for three days.
       2 Jack has been here since Tusday.
       3 It's been raining for an hour.
       4 I've known Sue since 2008.
-      5 Claire and Matt have married for three years.
+      5 [! ERROR !]
+        Claire and Matt have [ -> been] married for three years.
       6 Laura has been studying medicine at university for three years. 
       7 David has played the piano since he was seven years old.
     - 19.5 Write sentences about yourself.
+      0...
       1 I have lived in this town for three years.
       2 I have been in Germany since May.
       3 I have been learning English since I was eight years old.
@@ -16424,7 +16433,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 18)
+CHECKED-(unit 19)
 
   стр 281 в chrome
 
