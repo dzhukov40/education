@@ -1872,22 +1872,33 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 16.1 Whrite a sentence with just for each picture.
+      0...
       1 They've just arrived.
       2 He has just woken up. 
       3 They have just bought a new car.
       4 The race has just started.
     - 16.2 Complete the sentences. Use already + present perfect.
-      1 What time is Paul arriving? He's already arrived.
-      2 Do your friends want to see the film? No, they have already seen the film.
-      3 Don't forget to phone Tom. I have already phoned him.
-      4 When is Mark going away? He has already goen.
-      5 Do you want to read the newspaper? I have already read the newspaper. 
-      6 When does Sarah start her new job? She has already started her new job.
+      0...
+      1 What time is Paul arriving? 
+        He's already arrived.
+      2 Do your friends want to see the film? 
+        No, they have already seen the film.
+      3 Don't forget to phone Tom. 
+        I have already phoned him.
+      4 When is Mark going away? 
+        He has already gone.
+      5 Do you want to read the newspaper? 
+        I have already read the newspaper. 
+      6 When does Sarah start her new job? 
+        She has already started her new job.
     - 16.3 Write a sentence with just (They've just ... / SHe's just ... etc.)
       or a negative sentence with [ yet ] 
       (They haven't ... yet / SHe hasn't ... yet etc.)
+      0...
       1 She hasn't gone out yet.
       2 The bus has just gone.
       3 The train hasn't left yet.
@@ -1895,13 +1906,24 @@
       5 They have just finnished their dinner.
       6 It has just stopped raining.
     - 16.4 Write questions with [ yet ]
-      1 Your friend has a new job. Perhaps she has started it. You ask her:
+      0...
+      1 Your friend has a new job. 
+        Perhaps she has started it. 
+        You ask her:
         - Have you started your new job yet?
-      2 Your friend has some new neighbours. Perhaps he has met them. You ask him:
-        - Have you met the new neighbours yet?
-      3 Your friend has to play her electricity bill. Perhaps she has paid it. You ask her:
-        - Have you paid the electricity bill yet?
-      4 Tom was trying to sell his car. Perhaps he has sold it. You ask a friend about Tom:
+      2 [! ERROR !]
+        Your friend has some new neighbours. 
+        Perhaps he has met them. 
+        You ask him:
+        - Have you met [the -> your] new neighbours yet?
+      3 [! ERROR !]
+        Your friend has to play her electricity bill. 
+        Perhaps she has paid it. 
+        You ask her:
+        - Have you paid [the -> your] electricity bill yet?
+      4 Tom was trying to sell his car. 
+        Perhaps he has sold it. 
+        You ask a friend about Tom:
         - Has Tom sold his car yet?
 
 
@@ -16364,7 +16386,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 15)
+CHECKED-(unit 16)
 
   стр 281 в chrome
 
