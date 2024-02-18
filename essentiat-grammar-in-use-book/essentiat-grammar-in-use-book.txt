@@ -2356,39 +2356,53 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 20.1 Complete the answers to the questions.
+      0...
       1 Have you seen Kate? 
         - Yes, I saw her five minutes ago.
-      2 Have you started your new job?
-        - Yes, I have started since last week.
+      2 [! ERROR !]
+        Have you started your new job?
+        - Yes, I [have started -> started] since last week.
       3 Have your friends arrived?
         - Yes, they arrived at 5 o'clock.
-      4 Has Sarah gone away?
-        - Yes, Sarah gone away on Friday.
+      4 [! ERROR !]
+        Has Sarah gone away?
+        - Yes, Sarah [gone -> went] away on Friday.
       5 Have you worn your new suit?
         - Yes, I wore a suit yesterday.
     - 20.2 Are these sentences OK? Correct the verbs that are wrong.
+      0...
       1 I've lost my key. I can't find it.
       2 Did you see Kate yesterday?
       3 I finished my work at 2 o'clock.
-      4 I'm ready now. I've finished my work.
+      4 I'm ready now. 
+        I've finished my work.
       5 What time did you finish your work?
       6 Sue isn't here. She's gone out.
       7 Steve's grandmother died two years ago. 
-      8 Where did you are last night? 
+      8 [! ERROR !]
+        Where did you [are -> go] last night? 
     - 20.3 Put the verb in the present perfect or past
-      1 My friend is a writer. He has writen many books.
+      0...
+      1 My friend is a writer. 
+        He has writen many books.
       2 We didn't have a holiday last year.
       3 I played tennis yesterday afternoon.
       4 What time did you go to bed last night?
       5 Have you ever met a famous person?
       6 The weather wasn't very good yesterday.
-      7 Kathy travels a lot. She has visited many countries.
+      7 Kathy travels a lot. 
+        She has visited many countries.
       8 I switched off the light befor going out this morning.
-      9 What's Canada like? Is it beautiful? 
-        I don't now. I haven't been there.
+      9 I live in New York now, 
+        but I lived in Mexico for many years.
+      10 What's Canada like? Is it beautiful? 
+         I don't now. I haven't been there.
     - 20.4 Put the verb in the present perfect or past.
+      0...
       1 
         A: Have you ever been to Florida?
         B: Yes, we went there on holiday two years ago.
@@ -16433,7 +16447,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 19)
+CHECKED-(unit 20)
 
   стр 281 в chrome
 
