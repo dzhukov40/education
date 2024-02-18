@@ -1976,8 +1976,11 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 17.1 You are asking Helen questions beginning [ Have you ever ... ? ]
+      0...
       1 Heve you ever been to London?
       2 Have you ever played golf?
       3 Have you ever been to Australia?
@@ -1988,6 +1991,7 @@
       8 Have you ever driven a bus?
       9 Have you ever broken your leg?
     - 17.2 Whrite sentences about Helen.
+      0...
       1 She has been to New York twice.
       2 She has been to Australia once.
       3 She has never won a race.
@@ -2000,6 +2004,7 @@
         8 I have been late for work or school many times.
     - 17.3 Mary is 65 years old. SHe has had an interesting life. 
       What has she done?
+      0...
       1 She has had many different jobs.
       2 She has been married three times.
       3 She has done a lot of interesting things
@@ -2007,14 +2012,22 @@
       5 She has traveled all over the world.
       6 She has met a lot of interesting people.  
     - 17.4 Write [gone] or [been]
-      1 Ben is on holiday at the moment. He has gone to Spain.
-      2 Have you ever been to Mexico? No, never.
-      3 My parents aren't at home at the moment. They have gone out.
-      4 There's a new restaurant in town. Have you been to it?
-      5 Rebecca loves Paris. She's been there many times.
+      0...
+      1 Ben is on holiday at the moment. 
+        He has gone to Spain.
+      2 Have you ever been to Mexico? 
+        No, never.
+      3 My parents aren't at home at the moment. 
+        They have gone out.
+      4 There's a new restaurant in town. 
+        Have you been to it?
+      5 Rebecca loves Paris. 
+        She's been there many times.
       6 Helen was here earlier, but I think she's gone now.
-      7 Where's Jessica? She's not in the office. I think she's gone home.
-      8 Hello, Sue. I was looking for you. Where have you been?
+      7 Where's Jessica? She's not in the office. 
+        I think she's gone home.
+      8 Hello, Sue. I was looking for you. 
+        Where have you been?
 
 
 18) [ Unit 18 ] How long have you ... ? (present perfect 4)
@@ -16386,7 +16399,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 16)
+CHECKED-(unit 17)
 
   стр 281 в chrome
 
