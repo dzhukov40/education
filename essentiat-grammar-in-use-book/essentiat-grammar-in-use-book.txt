@@ -2991,21 +2991,29 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 25.1 Look at the pictures.
            What are these people doing next Friday?
+      0...
       1 Andrew is playing tennis on Friday.
       2 Richard is going to the cinema.
-      3 Rachel is meeting  Dave on Friday.
-      4 Karen is going to a lunch with Will.
-      5 Sue and Tom are going to the party.
+      3 Rachel is meeting Dave on Friday.
+      4 [! ERROR !]
+        Karen [is going to a lunch -> is having lunch] with Will.
+      5 [! ERROR !]
+        Sue and Tom are going to [the -> a] party.
     - 25.2
+      0...
       1 Are you going out tonight?
       2 Are you working next week?
       3 What are you doing tomorrow evening?
-      4 What time are your friends come?
+      4 [! ERROR !]
+        What time are your friends [come -> coming]?
       5 When is Lisa going on holiday?
     - 25.3
+      0...
       1 I'm staying ah home tonight.
       2 I'm going to the theatre on Monday.
       3 I'm riding a bicycle next weekend.
@@ -3013,6 +3021,7 @@
       5 I'm studying English on Friday.
       6 I'm goint to the cinema on Thusday.
     - 25.4
+      0...
       1 Are you going out tonight?
         No, I;m too tired.
       2 We're going to a concert tonight.
@@ -3022,7 +3031,8 @@
       4 A: My parents are going on holiday next week. 
         B: Oh, that's nice. Where are they going? 
       5 Silvia is doing an English course at the moment.
-        The course finishs on Friday.
+        The course finishes on Friday.
+      ...
       6 There's a party tomorrow night, but i am not going.
       7 I am going out with some friends tonight.
         Why don't you come too?
@@ -3030,8 +3040,9 @@
       8 A: How are you getting home after the party tommorow? By taxi?
         B: No, I can go by bus.
            The last bus leaves at midnight.
-      9 A: Are you coming with us to the cinema tonight?
-        B: Yes, what time the film begins?
+      9 [! ERROR !]
+        A: Are you coming with us to the cinema tonight?
+        B: Yes, what time [the film begins -> does the film begin]?
       10 A: What are you doing tomorrow afternoon?
          B: I am working.  
 
@@ -16493,7 +16504,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 24)
+CHECKED-(unit 25)
 
   стр 281 в chrome
 
