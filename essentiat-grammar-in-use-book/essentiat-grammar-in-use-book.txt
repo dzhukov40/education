@@ -2853,49 +2853,61 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 24.1 Write the past simple / past participle of these verbs.
+      0...
       1 make          - made
       2 cut           - cut
       3 get           - got (goten)
       4 bring         - brought
       5 pay           - paid
+      ...
       6 enjoy         - enjoyed
       7 buy           - bought
       8 sit           - sat
       9 leave         - left
       10 happen       - happened
+      ...
       11 hear         - heard
       12 put          - put
       13 catch        - caught
       14 watch        - watched
       15 understand   - understood
     - 24.2 Write the past simple and past participle.
+      0...
       1 break         - broke        - broken    
       2 begin         - began        - begun
       3 eat           - ate          - eaten
       4 drink         - drank        - drunk
       5 drive         - drove        - driven
-      6 speak         - spok         - spoken
+      ...
+      6 [! ERROR !]
+        speak         - spoke        - spoken
       7 write         - wrote        - writtean
       8 come          - came         - come 
       9 know          - knew         - known
       10 take         - took         - taken
+      ...
       11 go           - went         - gone
       12 give         - gave         - given
       13 throw        - threw        - thrown
       14 forget       - forgot       - forgotten
     - 24.3 Put the verb in the right form.
+      0...
       1 I washed my hands becouse they were dirty.
       2 Somebody has broken this window.
-      3 I feel good. I spok very well last night.
+      3 I feel good. I slept very well last night.
       4 We saw a really good film yesterday.
       5 It rained a lot while we were on holiday.
+      ...
       6 I've lost my bag. Have you seen it?
       7 Rosa's bicycle was stolen last week.
       8 I went to bed early because I was tired.
       9 Have you finished your work yet?
       10 The shopping center was built about 20 years ago.
+      ...
       11 Anna learned to drive when she was 18.
       12 I've never ridden a horse.
       13 Jessica is a good friend of mine.
@@ -2904,12 +2916,14 @@
       15 My brother ran in the London Marathon last year.
          Have you ever run in a marathon?
     - 24.4 Complete these sentences.
+      0...
       1 I have made some coffe. Would you like some?
       2 Have you told John about your new job?
       3 We played basketball on Sunday.
         We didn't play very well, but we won the game.
-      4 I know Gary, but I've never seen his wife.
+      4 I know Gary, but I've never met his wife.
       5 We were woken up by loud music in the middle of the night.
+      ...
       6 Stephanie jumped into the river and swam to the other side.
       7 Did you like the film?
         Yes, I thought it was very good.
@@ -16479,7 +16493,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 23)
+CHECKED-(unit 24)
 
   стр 281 в chrome
 
