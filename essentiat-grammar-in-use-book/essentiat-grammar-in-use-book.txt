@@ -2481,9 +2481,13 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
-    - 21.1 Write sentences from these words. Some of the sentences are questions.
+    -...
+    - [ CHECKED ]
+    -...
+    - 21.1 Write sentences from these words. 
+           Some of the sentences are questions.
       - [ are present ]
+      0...
       1 The office is cleaded every day.
       2 How often are these rooms cleaned?
       3 Glass is made from sand.
@@ -2493,6 +2497,7 @@
       7 How is this word pronounced?
       -...
       - [ are past ]
+      ...
       8 The office was cleaned yesterday.
       9 The house was painted last month.
       10 My phone was stolen a few days ago.
@@ -2502,15 +2507,17 @@
       14 How were these windous broken?
       15 Where you invited to Jon's party last week?
     - 21.2 THese sentences are not correct. Correct them.
+      0...
       1 This house was built 100 years ago.
       2 Football is played in most countries of the world.
-      3 Why was the lette sent to the wrong address?
+      3 Why was the letter sent to the wrong address?
       4 A film studio is a place where films are made.
       5 Where were you born?
       6 How many languages are spoken in Switzerland?
       7 Somebody broke into our house, but nothig was stolen.
       8 When was the bicycle invented?
     - 21.3 Complete the sentences.
+      0...
       1 The room is cleaned every day.
       2 I saw an accident yesterday. Two people were taken to hospital.
       3 Paper is made from wood.
@@ -2526,6 +2533,7 @@
       9 My car was stolen last week, but the next day 
         it was found by the police.
     - 21.4 Where were they born?
+      0...
       1 Ian was born in Edinburg.
       2 Sarah was born in Manchester
       3 Her parents were born in Ireland
@@ -16447,7 +16455,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 20)
+CHECKED-(unit 21)
 
   стр 281 в chrome
 
