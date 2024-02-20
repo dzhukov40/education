@@ -2596,8 +2596,11 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 22.1 What's happening?
+      0...
       1 The car is being repaired.
       2 A bridge is being built. 
       3 The windows are being cleaned.
@@ -2606,6 +2609,7 @@
            What is happening or what has happened?
            Use the present continuous (is/are being...) 
            or the present perfect (has/have been ...).
+      0...
       1 The office is being cleaned.
       2 The shirts have been ironed.
       3 The window has been broken.
@@ -2615,6 +2619,7 @@
       7 The trees have been cut down.
       8 They have been invited to a party.
     - 22.3 Complete the sentences
+      0...
       1 I can't use my office at the moment. 
         It is being painted.
       2 We didn't go to the party.
@@ -2622,13 +2627,17 @@
       3 The washing machine was broken, but it's OK now.
         It has been repaired.
       4 The washing machine was repaired yesterday afternoon.
-      5 A factory is a place where things are being made.
-      6 How old are these houses?
-        When they were built?
+      5 [! ERROR !] 
+        A factory is a place where things [are being made -> are made].
+      ...
+      6 [! ERROR !]
+        How old are these houses?
+        When [they were -> were they] built?
       7 A: Is the photocopier being used at the moment?
         B: No, you can go ahead and use it.
-      8 I've never seen these flowers before.
-        What have they been called?
+      8 [! ERROR !]
+        I've never seen these flowers before.
+        What [have they been called -> are they called]?
       9 My sunglasses were stolen at the beach yesterday.
       10 The bridge is closed at the moment.
          It was damaged last week and it hasn't been repaired yet.
@@ -16455,7 +16464,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 21)
+CHECKED-(unit 22)
 
   стр 281 в chrome
 
