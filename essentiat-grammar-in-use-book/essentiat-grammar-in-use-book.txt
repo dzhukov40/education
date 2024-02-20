@@ -3459,37 +3459,45 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 29.1 Write sentences with "might".
+      0...
       1 I might go to the cinema.
       2 I might see you tomorrow.
-      3 Sahah might forget to phone.
+      3 Sarah might forget to phone.
       4 It might snow today.
-      5 I might late tonight.
+      5 [! ERROR !]
+        I might [ -> be] late tonight.
       -...
       6 Mark might not be here next week.
       7 I might not have time to go out.
     - 29.2 Somebody is asking you about plans.
            You have some ideas, but you are not sure.
-      -...
+      0...
       1 I might go to Italy.
       2 I might go away.
       3 I might see Kate again on Monday.
-      4 I might have a fish.
-      5 I might get taxi.
+      4 [! ERROR !]
+        I might have [a -> ] fish.
+      5 [! ERROR !]
+        I might get [ -> a] taxi.
       6 I might buy a new car.
     - 29.3 You ask Ben questions about his plans for tomorrow.
            Sometimes he is sure, but usually he is not sure.
-      -...
+      0...
       1 He's playing tennis tomorrow afternoon.
       2 He might go out tomorrow evening.
       3 He might get up early.
       4 He isn't working tomorrow.
       5 He might be at home tomorrow morning.
-      6 He might go to watch TV.
+      6 [! ERROR !]
+        He might [go to -> ] watch TV.
       7 He is going out in the afternoon.
       8 He might go shopping.
     - 29.4 Write three things that you might do tomorrow.
+      0...
       1 I am going make twenty pull ups.
       2 I might read a next chapter of my current english book.
       3 I might not brink bear.
@@ -16535,7 +16543,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 28)
+CHECKED-(unit 29)
 
   стр 281 в chrome
 
