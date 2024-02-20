@@ -3107,33 +3107,43 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 26.1 What are these people saying?
+      0...
       1 I'm going to watch TV.
-      2 I'm going to take bathroom.
+      2 [! ERROR !]
+        I'm going to [take -> have] a bath.
       3 I'm going to buy a new car.
       4 We are going to play footbal.
     - 26.2 Complete the sentences. Use "going to" + verb.
+      0...
       1 My hands are dirty. I'm going to wash them.
       2 What are you going to wear to the party tonight?
-      3 It's a nice day. I don't want to take the bus.
+      3 It's a nice day. 
+        I don't want to take the bus.
         I am going to walk to my home.
       4 Steve is going to London next week. 
-        He is goint to stay with some friends.
+        He is going to stay with some friends.
       5 I'm hungry.
         I'm going to eat this sandwich.
-      6 It's Sarah's birhday next week.
-        We going to give her a present.
-      7 Sue says she's feeling very tired,
-        She goint to lie down for an hour.
+      ...
+      6 [! ERROR !]
+        It's Sarah's birhday next week.
+        We [ -> are] going to give her a present.
+      7 [! ERROR !]
+        Sue says she's feeling very tired,
+        She [ -> is] going to lie down for an hour.
       8 Your favorite programme is on TV tonight.
         Are you going to watch it?
       9 What is Rachel going to do when she leaves school?
     - 26.3 
+      0...
       1 It's going to rain
       2 The shelf is going to fall.
       3 The car is going to turn left.
-      4 He is going to kik the ball.
+      4 He is going to kick the ball.
     - 26.4 What are you going to do today or tomorrow?
       1 I'm going to learn english tomorrow. 
       2 I'm going to buy food today.
@@ -16504,7 +16514,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 25)
+CHECKED-(unit 26)
 
   стр 281 в chrome
 
