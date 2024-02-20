@@ -3346,8 +3346,11 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 28.1 Complete the sentences. Use "I'll (I will)" + verbs.
+      0...
       1 I'll carry it for you.
       2 I'll eat it.
       3 I'll sit on the floor.
@@ -3356,12 +3359,16 @@
       6 I'll show you.
     - 28.2 Complete the sentences.
            Use "I think I'll ..." or "I don't think I'll ..." + verbs.
+      0...
       1 I don't think I'll go out.
-      2 I think I'll buy something to eat.
+      2 [! ERROR !]
+        I think I'll [buy -> have] something to eat.
       3 I don't think I'll play tennis.
-      4 I think I'll have it.
+      4 [! ERROR !]
+        I think I'll [have -> buy] it.
       5 I don't think I'll buy it.
     - 28.3 Which is right?
+      0...
       1 I'll phone you tomorrow, OK?
       2 I haven't done the shopping yet.
         I'll do it later.
@@ -3378,11 +3385,13 @@
       8 I can't go out with you tommorow night.
         I'm working.
     - 28.4 Write sentences with "Shall I ... ?"
+      0...
       1 Shall I open the window? 
       2 Shall I turn off the TV?
       3 Shall I make some sandwiches?
       4 Shall I turn on the light?
     - 28.5 Write sentences with "Shall we ... ?"
+      0...
       1 OK, what time shall we meet?
       2 OK, where shall we go?
       3 OK, what shall we buy?
@@ -16526,7 +16535,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 27)
+CHECKED-(unit 28)
 
   стр 281 в chrome
 
