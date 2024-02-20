@@ -3227,9 +3227,12 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 27.1 Helen is trevelling in Europe.
       Complete the sentences with "she was, she's or she'll be"
+      0...
       1 Yesterday she was in Paris.
       2 Tomorrow she will be in Amsterdam.
       3 Last week she was in Barcelona.
@@ -3239,12 +3242,14 @@
       7 At the end of her trip she will be very tired.
     - 27.2 Where will you be?
            Write sentences about yourself.
+      0...
       1 I'll probably be on the beach.
       2 I'll be in the kitchen. 
       3 I'll be in the bed.
       4 I don't know where I'll be.
       5 I'll probably be in Germany.
     - 27.3 Put in "will('ll)" or "won't".
+      0...
       1 Don't drink coffe befor you go to bed.
         You won't sleep.
       2 Are you ready yet?
@@ -3260,14 +3265,20 @@
       7 I'm sorry I was late this morning.
         It won't happen again.
     - 27.4 Write sentences with "I think ..." or "I don't think ..."
+      0...
       1 I think Kelly will pass the exam.
       2 I don't think Kelly will pass the exam.
       3 I think we'll win the game.
-      4 I think I won't be here tomorrow.
-      5 Idon't think Sue will like her present.
-      6 I think they won't get married.
-      7 I think you won't enjoy the film.
+      4 [! ERROR !]
+        I [ -> don't] think I [won't -> will] be here tomorrow.
+      5 [! ERROR !]
+        I [don't -> ] think Sue will like her present.
+      6 [! ERROR !]
+        I [ -> don't] think they [won't -> will] get married.
+      7 [! ERROR !]
+        I [ -> don't] think you [won't -> will] enjoy the film.
     - 27.5 Which is right?
+      0...
       1 We're going to the theatre tonight.
         We've got tickets.
       2 What are you doing tomorrow evening?
@@ -3278,6 +3289,7 @@
         She's very rich.
       5 Why are you putting on your coat?
         I'm going out.
+      ...
       6 Do you think Clare will phone us tonight?
       7 Steve can't meet us on Saturday.
         He is working.
@@ -16514,7 +16526,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 26)
+CHECKED-(unit 27)
 
   стр 281 в chrome
 
