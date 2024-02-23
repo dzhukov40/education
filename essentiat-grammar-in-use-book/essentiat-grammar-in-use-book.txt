@@ -3566,12 +3566,15 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 30.1 Ask Steve if he can do these things
+      0...
       1 Can you swim?
       2 Can you ski?
       3 Can you play chess?
-      4 Can you run ten likkometers?
+      4 Can you run ten kilometers?
       5 Can you drive a car?
       6 Can you ride a horse?
       -...
@@ -3586,16 +3589,19 @@
       12 I can't play tennis.
     - 30.2 Complete these sentences. 
       Use can or can't + verb.
+      0...
       1 I'm sorry, but we can't come to your party Saturday.
       2 I like this hotel room.
         You can see the mpuntains from the window.
       3 You are speaking very quietly.
         I can't hear you.
-      4 Have you seen my gag?
-        I can't see it.
+      4 [! ERROR !]
+        Have you seen my gag?
+        I can't [see -> find] it.
       5 Catherine got the job because she can speak five languages.
     - 30.3 Complete these sentences.
       Use "can't" or "couldn't" + verb.
+      0...
       1 I was tried, but I couldn't sleep.
       2 I wasn't hungry yesterday.
         I couldn't eat my dinner.
@@ -3608,10 +3614,12 @@
       6 Paula couldn't go to the meeteng last week. She was ill.
     - 30.4 What do you say in these situation? 
       Use "can" or "could".
+      0...
       1 Could you open the door, please?
       2 Could you pass me the salt?
-      3 Can you have postcards.
-      4 Could you tern off the radio?
+      3 [! ERROR !]
+        Can I have these postcards.
+      4 Could you turn off the radio?
       5 Can I borrow newspaper?
       6 Can I use the pen?
 
@@ -16543,9 +16551,9 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 29)
+CHECKED-(unit 30)
 
-  стр 281 в chrome
+  стр 288 в chrome
 
   (*) END: 115 Units, 240 стр.
 
