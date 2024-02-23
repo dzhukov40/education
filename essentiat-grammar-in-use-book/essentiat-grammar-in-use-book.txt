@@ -4398,7 +4398,9 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 37.1 Kentham is a small town.
            Look at the information in the box 
            and write sentences about Kentham
@@ -4413,6 +4415,7 @@
       7 There aren't big hotels.
     - 37.2 Write sentences about your town (or a town that you know).
            Use "There is/are" or "There isn't/aren't".
+      0...
       1 There are a few restaurans.
       2 There's a big park.
       3 There are two big swimming pools.
@@ -4424,21 +4427,25 @@
       0...
       1 Kentham isn't an old town.
         There aren't any old buildings.
-      2 Look! There is a picture of your brother in the nespaper!
+      2 Look! 
+        There is a picture of your brother in the nespaper!
       3 Excuse me, is there a bank near here?
         Yes, at the end of the street.
       4 There are five people in my family: 
         my parents, my two sisters and me.
       5 How many students are there in the class?
         Twenty.
+      ...
       6 The road is usually very quiet.
         There isn't much trafic.
       7 Is there a bus from the city center to the airport?
         Yes, every 20 minutes.
       8 Are there any problems?
         No, everything is OK.
-      9 There is nowhere to sit down. There aren't any chairs.
+      9 There is nowhere to sit down. 
+        There aren't any chairs.
     - 37.4 Write sentences with "There are ..." 
+      0...
       1 There are seven days in a week.
       2 There are twenty-six letters in the English alphabet.
       3 There are eight planets in the solar system.
@@ -4446,10 +4453,15 @@
       5 There are fiften players in a rugby team.
       6 There are fifty states in the USA.
     - 37.5 Write "there's/is there" or "it's/is it"
-      1 There's a train at 10.30. Is it a fast train?
-      2 I'm not going to buy this shirt. It's too expensive.
-      3 What's wrong? There's something in my eye.
-      4 There is a red car outside your house. Is it yours?
+      0...
+      1 There's a train at 10.30. 
+        Is it a fast train?
+      2 I'm not going to buy this shirt. 
+        It's too expensive.
+      3 What's wrong? 
+        There's something in my eye.
+      4 There is a red car outside your house. 
+        Is it yours?
       5 Is there anything good on TV tonight? 
         Yes, there is a programme I want to see at 8.15.
       6 What's that building?
@@ -16643,7 +16655,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 36)
+CHECKED-(unit 37)
 
   стр 289 в chrome
 
