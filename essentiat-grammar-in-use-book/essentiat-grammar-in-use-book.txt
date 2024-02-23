@@ -3964,41 +3964,53 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 33.1 Complete the sentenses. Use "have to" or "has to"
-      1 My eyes are not very good. I have to wear glasses.
+      0...
+      1 My eyes are not very good. 
+        I have to wear glasses.
       2 At the end of the course all the students have to do a test.
-      3 Sarah is studying literature. SHe has to read a lot of books.
+      3 Sarah is studying literature. 
+        She has to read a lot of books.
       4 Albert doesn't understand much English. 
         You have to speak very slowly to him.
       5 Kate is often away from home.
         She has to travel a lot in her job.
       6 In tennis you have to hit the ball over the net.
     - 33.2 Complete the sentences. Use "have to" or "had to" + verb
+      0...
       1 We had to walk home last night.
         There were no buses.
       2 It's late.
-        I have to go now. I'll see you tomorrow. 
+        I have to go now. 
+        I'll see you tomorrow. 
       3 I went to the supermarket after work yesterday.
         I had to buy some food.
       4 We did an exam yesterday.
         We had to answer six questions out of ten.
     - 33.3 Complete the questions. Some are present and some are past.
+      0...
       1 I have to get up early tomorrow.
         - What time do you have to get up?
-      2 George had to wait a long time.
-        - How long did you have wait?
-      3 Lisa has to go somewhere.
-        - Where do Lisa has to go?
+      2 [! ERROR !]
+        George had to wait a long time.
+        - How long [did you have -> did he have to] wait?
+      3 [! ERROR !]
+        Lisa has to go somewhere.
+        - Where [do Lisa has to go -> does she have to go]?
       4 We had to pay a lot of money.
-        - How much money did they have to pay?
+        - How much money [did they have -> did you have] to pay?
       5 I have to do some work.
         - What exactly do you have to do?
-    - 33.4 Write sentences with "don't/doesn't/didn't have to ..." 
+    - 33.4 Write sentences with "don't/doesn't/didn't have to ..."
+      0... 
       1 Why are you going out?
         - You don't have to go out.
-      2 Why is Sue waiting?
-        - She doesn't have to waiting.
+      2 [! ERROR !]
+        Why is Sue waiting?
+        - She doesn't have to [waiting -> wait].
       3 Why did you get up early?
         - You didn't have to get up early.
       4 Why is Paul working so hard?
@@ -16589,7 +16601,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 32)
+CHECKED-(unit 33)
 
   стр 288 в chrome
 
