@@ -3812,10 +3812,14 @@
     
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 32.1 Complete the sentences. Use "you should" + verb.
+      0...
       1 When you play tennis, you should watch the ball.
-      2 It's late and you're very tired. You should go to bed.
+      2 It's late and you're very tired. 
+        You should go to bed.
       3 You should eat plenty of fruit and vegetables.
       4 If you have time, you should visit the Science Museum.
         It's very interesting.
@@ -3823,11 +3827,13 @@
       6 It's too far to walk from here to the station.
         We should take a taxi. 
     - 32.2 Write about the people in the pictures.
+      0...
       1 She shouldn't watch TV so much.
       2 He shouldn't eat so much.
       3 She shouldn't work so hard.
       4 He shouldn't drive so fast.
     - 32.3 You are not sure what to do, so you ask a friend.
+      0...
       1 You are in shop. You are trying on a jacket.
         You ask you friend: Do you think I should should buy this jacket?
 
@@ -3841,7 +3847,8 @@
         You ask you friend: Do you think I should invite Gary?
     -...
     - 32.4 Write sentences with 
-      "I think ... should ..." and "I don't think ... should ..."     
+      "I think ... should ..." and "I don't think ... should ..."    
+      0... 
       1 We have to get up early tomorrow.
         - I think we should go home now.
       2 That coat is too big for you.
@@ -3860,6 +3867,7 @@
         - I don't think we should stay there.
     -...
     - 32.5 What do you think? Write sentences with "should"
+      0...
       1 I think everybody should learn another language.
       2 I think everybody should have apportunity to eat halthy food.
       3 I think I should spend more time for relax.
@@ -16581,7 +16589,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 31)
+CHECKED-(unit 32)
 
   стр 288 в chrome
 
