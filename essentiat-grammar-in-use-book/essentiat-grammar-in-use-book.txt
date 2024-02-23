@@ -4788,7 +4788,9 @@
     
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 40.1 Complete these sentences.
            Use only verb (is/have/can etc.) each time.
       0...
@@ -4797,13 +4799,16 @@
       3 Ben can't help you, but I can.
       4 I haven't seen the film, but Tom has.
       5 Karen won't be here, but Cris will.
-      6 You weren't late, but I were.
+      6 [! ERROR !]
+        You weren't late, but I [were -> was].
     - 40.2 Complete the sentences with a negative verb 
            (isn't/haven't/can't etc.)
       0...
       1 My sister can play the piano, but I can't.
-      2 Sam is working today, but I isn't.
-      3 I was working, but my friends didn't.
+      2 [! ERROR !]
+        Sam is working today, but [I isn't -> I'm not].
+      3 [! ERROR !]
+        I was working, but my friends [didn't -> weren't].
       4 Mark has been to China, but I haven't.
       5 I'm ready to go, but Tom isn't.
       6 I've got a key, but Sarah hasn't.
@@ -4817,31 +4822,40 @@
       5 I didn't enjoy the party, but friends did.
       6 I don't watch TV much, but Peter does.
       7 Kate lives in London, but her parents don't.
-      8 You had breakfast this morning, but I haven't.
-    - 40.4 Complete the sentences. Write about yourself and other people.
+      8 [! ERROR !]
+        You had breakfast this morning, but I [haven't -> didn't].
+    - 40.4 Complete the sentences. 
+           Write about yourself and other people.
+      0...
       1 I didn't go out last night, but my friends did.
       2 I like candies, but my father doesn't.
       3 I don't know english, but people around do.
       4 I'm plaing PC games, but my brother isn't.
       5 I haven't been in the Amsterdam, but my brother has.
     - 40.5 Put in a verb, positive or negative.
+      0...
       1 Are you tired? 
         I was earlier, but I'm not now.
       2 Steve is happy today, but he wasn't yesterday.
       3 The bank isn't open yet, but the shops are.
       4 I haven't got a telescope, but I know somebody who has.
-      5 I would like to help you, but I'm afraid I won't.
+      5 [! ERROR !]
+        I would like to help you, but I'm afraid I [won't -> can't].
+      ...
       6 I don't usually go to work by car,
         but I did yesterday.
-      7 A: Have you ever been to the United States?
-        B: No, but Sandra was.
+      7 [! ERROR !]
+        A: Have you ever been to the United States?
+        B: No, but Sandra [was -> has].
            She went there on holiday last year.
       8 Do you and Chris watch TV a lot?
         I do, but Chris doesn't.
       9 I've been invited to Sam's wedding, but Kate hasn't.
       10 Do you think Sarah will pass her driving test?
          Yes, I'm sure she will.
-      11 Are you going  out tonight?  I am but, I don't know for sure.
+      11 Are you going  out tonight?  
+         I [am but -> might]. 
+         I don't know for sure.
     - 40.6 Answer these questions about yourself.
            Use "Yes, I have. / No, I'm not" etc.
       0...
@@ -4855,16 +4869,19 @@
         No, it is not.
       5 Are you hangry?
         No, I am.
+      ...
       6 Do you like classical music?
         No, I don't.
       7 Will you be in Paris tomorrow?
         No, I won't.
-      8 Have you ever broken your arm?
-        No, I hasn't.
+      8 [! ERROR !]
+        Have you ever broken your arm?
+        No, I [hasn't -> haven't].
       9 Did you buy anything yesterday?
         Yes, I did.
-      10 Were you asleep at 3 a.m?
-         Yes, I were.
+      10 [! ERROR !]
+         Were you asleep at 3 a.m?
+         Yes, I [were -> was].
 
 
 
@@ -16681,7 +16698,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 39)
+CHECKED-(unit 40)
 
   стр 290 в chrome
 
