@@ -1,0 +1,183 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ !!!! ]
+ 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ English grammar in use ] это одна из лучших книг 
+  по самостоятельному изучению английского языка (B1-B2)
+
+
+
+1) [ Unit 1 ] Present continuous (I am doing)
+  - [A] Study this example situation:
+    - examples:
+      - Sarah in her car.
+        She is in her way to work.
+        She's driving to work.
+        (= She is driving ...)
+      -...
+      - This means: she is driving now, at the time of speaking.
+        The action is not finished.
+      -...
+      - "am / is / are + -ing" is the present continuous:
+      - table
+    -------------|-------|-----------------|------  
+               I |  am   | (= I'm)         | driving
+       he/she/it |  is   | (= he's  etc.)  | working
+     we/you/they |  are  | (= we're  etc.) | doing  etc.
+    -------------|-------|-----------------|-------
+  -...
+  -...
+  - [B] "I am going" something
+        = I started doing it and I haven't finished;
+        I'm in the middle of doing it.
+    -...
+    - examples:
+      - Please don't make so much noise.
+        I'm trying to work.
+        (NOT! try)
+      - Where's Mark?
+        He's having a shower.
+        (NOT! He has a shower) 
+      - Let's go out now.
+        It isn't raining a shower.
+        (NOT! It doesn't rain)
+      - How's your new job?
+        Are you enjoying it?
+      - What's all that noise?
+        What's going on?
+        OR
+        What's happening?
+    -...
+    - Sometimes the action is not happening at the time of speaking.
+      For example:
+      - Steve is talking to a friend on the phone. He says:
+        I'm reading a really good book at the moment.
+        It's about a man who ...
+        ...
+      - (!)
+        Steve saya "I'm reading ..." but he is not reading book
+        at the time of speaking.
+        He means that he has started reading the book,
+        but has not finished it yet.
+        He is in the middle of reading it.
+      -...
+    - Some more examples:
+      - Kate wants to work in Italy, so she's learning Italian.
+        (BUT! perhaps she isn't learning Italian at the time of speaking)
+      - Some friends of mine are building their own house.
+        They hope finish it next summer.
+  -...
+  -...
+  - [C] You can use the present continuous with
+        "today / this week / this year  etc" 
+        (periods around now)
+    - examples:
+      - A: You're working hard today.
+           (NOT! You work hard today)
+        B: Yes, I have a lot to do.
+      - The company I work for isn't doing so well this year.  
+  -... 
+  - [D] We use the present continuos when we talk about change 
+        that has started to happend.
+        We often use these verbs in this way:
+    -...
+    - "verbs"
+      - getting  
+      - becomiing
+      - changing
+      - improving
+      - starting
+      - beginning
+      - increasing
+      - rising
+      - falling
+      - growing
+    -...
+    - examples:
+      - Is your English getting better?
+        (NOT! Does your English get better)
+      - The population of the world is increasing very fast.
+        (NOT! increases)
+      - At first I didn't like my job, but I'm starting to enjoy it now.
+        (NOT! start)
+
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 1.1 What's happening in the pictures?
+          Choose from these verbs: 
+      0...
+      1 She's taking a picture. 
+      2 
+      3
+      4
+      5
+      6
+      -...
+    - 1.2 The sentences on the right follow those on the left.
+          Which sentence goes with which?
+      0...
+      1 [F] 
+        Please don't make so much noise.
+        I'm trying to work.
+      2 []
+      3
+      4
+      ...
+      5
+      6
+      7
+      8 
+      -...
+    - 1.3 
+
+
+
+
+
+
+
+
+
+
+
+grammar-in-use-book(unit-1)
+
+
+  стр 14 в chrome
+
+  (*) END: 145 Units, 302 стр.
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
