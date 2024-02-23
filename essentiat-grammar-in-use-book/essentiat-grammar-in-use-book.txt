@@ -4519,7 +4519,9 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 38.1 Look at the two pictures.
            Now the room is empty, but what was in the room last week?
            Choose from the box and write sentences with
@@ -4537,19 +4539,27 @@
          or "there were / there weren't / were there"
       0...
       1 I was hungry, but there wasn't anything to eat.
-      2 Was everything OK yesterday? Were there any problems?
-      3 I opened the envelope, but it was empty.
-        Where is nothing in it.
+      2 Was everything OK yesterday? 
+        Were there any problems?
+      3 [! ERROR !]
+        I opened the envelope, but it was empty.
+        There [is -> was] nothing in it.
       4 We stayed at a very nice hotel.
-        Really? Was there a swimming pool?
+        Really? 
+        Was there a swimming pool?
       5 Did you buy any bananas?
         No, there weren't any in the shop.
-      6 The wallet was empty.
-        There weren't any money in it.
-      7 Were there many people at the meeting? No, very few.
-      8 We didn't visit the museum. There wasn't enough time.
-      9 I'm sorry I'm late.
-        There were a lot of traffic.
+      ...
+      6 [! ERROR !]
+        The wallet was empty.
+        There [weren't -> wasn't] any money in it.
+      7 Were there many people at the meeting? 
+        No, very few.
+      8 We didn't visit the museum. 
+        There wasn't enough time.
+      9 [! ERROR !]
+        I'm sorry I'm late.
+        There [were -> was] a lot of traffic.
       10 Twenty years ago there weren't many tourists here.
          Now there are a lot.
     - 38.3 Write "there + 
@@ -4569,9 +4579,10 @@
         there will be somebody at the station to meet you.
       8 Ten years ago there were 500 children at the school.
         Now there are more than a thousand.
-      9 Last week I went back to the town where I was born.
+      9 [! ERROR !]
+        Last week I went back to the town where I was born.
         It's very different now.
-        There were a lot of changes.
+        There [were -> have been] a lot of changes.
       10 I think everything will be OK.
          I don't think there will be any problems.
  
@@ -16655,7 +16666,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 37)
+CHECKED-(unit 38)
 
   стр 289 в chrome
 
