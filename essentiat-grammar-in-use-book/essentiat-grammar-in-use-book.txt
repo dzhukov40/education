@@ -4189,28 +4189,34 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
+    -...
+    - [ CHECKED ]
+    -...
     - 35.1 Look at the pictures.
            What are the people saying?
            Some sentences are positive ("buy/come" etc.)
            and some are negative ("don't buy/don't come" etc.)
       -...
+      0...
       1 Come in!
       2 Don't drink the water!
       3 It's too expensive don't buy it.
       4 OK, are you ready? Smile!
-      5 DOn't sit on the cat!
+      5 Don't sit on the cat!
       6 Bye! Have a nice time!
       7 Don't forget to phone me.
       8 OK. Sleep well.
       9 Be careful with that vase. Don't drop it!
     - 35.2 Complete the sentences. Use "let's" with
+      0...
       1 No, let's go for a swim.
       2 No, let's take a taxi.
       3 No, let's watch TV.
-      4 No, let's go to the restaurant.
-      5 No, let's let's wait a little.
+      4 [! ERROR !]
+        No, let's go to [the -> a] restaurant.
+      5 No, let's wait a little.
     - 35.3 Answer with "No, don't ... " or "No, let's not ..."
+      0...
       1 No, don't wait for me.
       2 No, let's not go home yet.
       3 No, let's not go out.
@@ -16617,7 +16623,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 34)
+CHECKED-(unit 35)
 
   стр 289 в chrome
 
