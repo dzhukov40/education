@@ -4283,34 +4283,54 @@
 
 
   - [Exercises]
-    - (****) need check answers !!!!
-    - 36.1 Look at the pictures. Complete the sentences with "used to ..."
+    -...
+    - [ CHECKED ]
+    -...
+    - 36.1 Look at the pictures. 
+           Complete the sentences with "used to ..."
+      0...
       1 She used to have long hair.
       2 He used to play footbal.
       3 She used to be a taxi driver.
       4 They used to live in the country.
       5 He used to wear glasses.
-      6 This building used to build long time ago.
+      6 [! ERROR !]
+        This building used to [build long time ago -> be a hotel].
     - 36.2 Karen works very hard and has very little free time.
            A few years ago, things were different.
+      0...
       1 She used to swim every day.
       2 She used to play volleyball.
-      3 She used to go out much.
-      4 She used to play guitar.
+      3 [! ERROR !]
+        She used to go out [much -> most evenings].
+      4 [! ERROR !]
+        She used to play [ -> the] guitar.
       5 She used to read a lot.
-      6 She used to travel much.
+      6 [! ERROR !]
+        She used to travel [much -> a lot].
     - 36.3 Complete these sentences.
            Use "used to" or the present simple ("I play/ he lives etc")
-      1 I used to play tennis. I stopped playing a few years ago.
-      2 Do you do any sport? Yes, I play basketball.
-      3 Do you have a car? No, I used to have one, but I sold it.
-      4 George used to be a waiter. Now he's the manager of a hotel.
-      5 Do you go to work by car? Sometimes, but most days I go by train.
-      6 When I was a child, I neverused to eat meat, but I eat it now.
-      7 Mary loves watching TV. She watch TV every evening.
+      0...
+      1 I used to play tennis. 
+        I stopped playing a few years ago.
+      2 Do you do any sport? 
+        Yes, I play basketball.
+      3 Do you have a car? 
+        No, I used to have one, but I sold it.
+      4 George used to be a waiter. 
+        Now he's the manager of a hotel.
+      5 Do you go to work by car? 
+        Sometimes, but most days I go by train.
+      ...
+      6 When I was a child, 
+        I never used to eat meat, but I eat it now.
+      7 [! ERROR !]
+        Mary loves watching TV. 
+        She [watch -> watches] TV every evening.
       8 We used to live near the airport, 
         but we moved to the city center a few years ago.
-      9 Normally I start work at 7 o'clock, so I wake up very early.
+      9 Normally I start work at 7 o'clock, 
+        so I wake up very early.
       10 What games did you use to play when you were a child?
 
 
@@ -16623,7 +16643,7 @@ Study guide
 essentiat-grammar-in-use-book 
 Additional exercises
 Study guide
-CHECKED-(unit 35)
+CHECKED-(unit 36)
 
   стр 289 в chrome
 
