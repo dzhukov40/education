@@ -126,11 +126,11 @@
           Choose from these verbs: 
       0...
       1 She's taking a picture. 
-      2 
-      3
-      4
-      5
-      6
+      2 He's tieing a shoelace.
+      3 They are crossing the road.
+      4 He is scratching his head.
+      5 She is hiding behind a tree.
+      6 They are waving to somebody.
       -...
     - 1.2 The sentences on the right follow those on the left.
           Which sentence goes with which?
@@ -138,16 +138,189 @@
       1 [F] 
         Please don't make so much noise.
         I'm trying to work.
-      2 []
-      3
-      4
+      2 [E]
+        We need to leave soon.
+        It's getting late.
+      3 [G]
+        I don't have anywhere to live right now.
+        I'm staying with friends.
+      4 [A]
+        I need to eat something soon.
+        I'm getting hungry.
       ...
-      5
-      6
-      7
-      8 
+      5 [D]
+        They don't need their car any more.
+        They're trying to sell it.
+      6 [H]
+        Things are not so good at work.
+        The company is loosing money.
+      7 [B]
+        It isn't true what they say.
+        They're lying.
+      8 [C]
+        We're going to get wet.
+        It's raining to rain.
       -...
-    - 1.3 
+    - 1.3 Write questions. Use the present continuous.
+      0...
+      1 What's all that noise?
+        - What's happeninng?
+      2 What's the matter?
+        - Why are you crying? 
+      3 Where's your mother?
+        - Is she working today?
+      4 I haven't seen you for ages.
+        - What are you doing these days?
+      ...
+      5 Amy is a student.
+        - What is she studying?
+      6 Who are those people?
+        - What are they doing?
+      7 I heard you started a new job.
+        - Are you enjoying it?
+      8 We're not in a hurry.
+        - Why are you walking so fast?
+      -...
+    - 1.4 Put the verb the correct form,
+          positive (I'm going  etc.) or negative (I'm not doing  etc.)
+      0...
+      1 Please don't make so much noise.
+        I'm trying to work.
+      2 Let's go out now.
+        It isn't raining any more.
+      3 You can turn off the radio.
+        I'm not listenning to it.
+      4 Kate phoned last night.
+        She's on holiday with friends.
+        She is having a great time and doesn't want to come back.
+      5 Andrew started evening classes recently.
+        He is learning Japanese.
+      ...
+      6 Paul and Sarah have had an argument 
+        and now they are not speaking to one another.
+      7 The situation is already very bad 
+        and now it is getting worse.
+      8 Tim is not working today.
+        He's taken the day off.
+      9 I am looking for Sophie.
+        Do you know where she is?
+      10 The washing machine has been repaired.
+         It's working now.
+      ...
+      11 They are building a new hospital.
+         It will be finished next year.
+      12 Ben is a student, but he's not very happy.
+         He is not enjoying his course.
+      13 The weather is changing.
+         Look at those clouds.
+         I think it's going to rain.
+      14 Dan has been in the same job for a long time.
+         He is starting to get bored with it.
+
+
+
+
+2) [ Unit 2 ] Present simple (I do)
+  - [A] Study this example situation:
+    - examples:
+      - Alex is a bus driver, but now he is in bed asleep.
+        He is not driving a bus.
+        (He is asleep)
+      -...
+      - BUT! He drives a bus. He is a bus driver.
+      - table
+    ---------------|---------------------------  
+     I/we/you/they | drive  / work  / do  etc.
+         he/she/it | drives / works / does  etc.
+    ---------------|---------------------------
+  -...
+  -...
+  - [B] We use the present simple to talk about things in general.
+        We use it to say that something happens all the time 
+        or repeatedly, or that something is true in general.
+    -...
+    - examples:
+      - Nurses look after patients in hospitals.
+      - I usually go away at weekends.
+      - The eath goes round the sun.
+      - The cafe opens at 7:30 in the morning.
+    -...
+    - We say:
+      - I wowk   
+        BUT! he works   
+      - you go
+        BUT! it goes
+      - they teach
+        BUT! my sister teaches
+      - I have
+        BUT! he has
+  -...
+  -...
+  - [C] We use "do / does" to make questions and negative sentences.
+    - table
+    --------|----------------|-------- 
+        do  | I/we/you/they  | work?
+      does  |     he/she/it  | drive?
+            |                | do?
+    --------|----------------|--------
+    - table
+    -----------------|-----------|--------- 
+      I/we/you/they  |  don't    |  work
+          he/she/it  |  doesn't  |  drive
+                     |           |  do
+    -----------------|-----------|---------
+    - examples:
+      - I come from Canada.
+        Where do you come from?
+      - I don't go away very often.
+      - What does this word mean?
+        (NOT! What means this word?)
+      - Rice doesn't grow in cold climates.
+    -...
+    - In the following examples, 
+      do is also the main verb (do you do / doesn't do  etc.)
+      - What do you do?
+        I work in a shop.
+      - He's always so lazy.
+        He doesn't do anything to help.
+  -...
+  -...
+  - [D] We use the present simple to say how often we do things:
+    - I get up at 8 o'clock every morning.
+    - How often do you go to the dentist?
+    - Julie doesn't drink tea very often.
+    - Robert usually goes away two or three times a year. 
+  -...
+  -...
+  - [E] "I promise / I apologise  etc."
+    - Sometimes we do things by saying something.
+      For example, when you promise to do something,
+      you can say "I promise ...";
+      When you suggest something, you can say "I suggest ..."
+      -...
+      - I promise I won't be late.
+        (NOT! I'm promising)
+      - What do you suggest I do?
+        I suggest that you ...
+      -...
+      - In the same way we say:
+        - I appologise ...
+        - I advise ...
+        - I insist ...
+        - I agree ...
+        - I refuse ...
+        - etc.
+
+
+
+
+
+  - [Exercises]
+    - (****) need check answers !!!!
+    - 2.1 Complete the sentences using the following verbs.
+      0...
+      1
+      2
 
 
 
@@ -158,11 +331,10 @@
 
 
 
+grammar-in-use-book(unit-2)
 
-grammar-in-use-book(unit-1)
 
-
-  стр 14 в chrome
+  стр 16 в chrome
 
   (*) END: 145 Units, 302 стр.
 
