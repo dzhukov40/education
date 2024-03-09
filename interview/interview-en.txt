@@ -1,0 +1,364 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://www.geeksforgeeks.org/java-interview-questions/ ]
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ interview ] вопросы и ответы на английском
+
+
+
+10) Общие вопросы
+  - [ MAIN ]:
+    - как проходит код от разработки до продакшена
+    - если бы у вас была безграничная власть чтобы вы поменяли в своей компании
+  - [ ADDITION ]:
+    - почему уходите с прошлого места что ждете от нового места?
+    - как был построен процесс разработки
+
+
+20) релевантный опыт
+  - [ MAIN ]:
+    - логирование
+    - мониторинг
+    - трассировка
+    - докер, кубернетис helm 
+
+
+30) Linux
+  - [ MAIN ]:
+    - [ ps -aux | grep ... ] как посмотреть запущенно ли наше приложение
+    - [ ssh ] как подключиться удаленному серверу
+  - [ ADDITION ]
+    - [ scp ] как скопировать файл
+    - [ vim ] как отредактировать файл в консоле
+
+
+40) Java
+  - [ MAIN ]:
+    - [ common ]
+      - [1] What are the top Java Features?
+        - Platform Independent: Java is platform independent means we can run the same program 
+                                in any software and hardware and will get the same result.
+          Object-Oriented: Java is an object-oriented language that supports the concepts of class, 
+                           objects, four pillars of OOPS, etc.
+          High Performance: faster than other traditional interpreted programming languages.
+          Multithreaded: deal with multiple tasks at once by defining multiple threads.
+      -...
+      - [2] What is JRE?
+        - JRE stands for Java Runtime Environment, 
+          it is an installation package that provides an environment 
+          to run the Java program or application on any machine.
+      -...      
+      - [3] What is JVM?
+        - JVM stands for Java Virtual Machine it is a Java interpreter. 
+          JVM is a part of JRE.
+          It is responsible for loading, verifying, and executing the bytecode created in Java. 
+      -...
+      - [4] What is JIT?
+        - JIT stands for (Just-in-Time) compiler is a part of JRE(Java Runtime Environment), 
+          it is used for better performance of the Java applications during run-time
+      -...
+      - [5] What is a Class Variable?
+        - In Java, a class variable (also known as a static variable) 
+          is a variable that is declared within a class but outside of any method, constructor, or block. 
+          Class variables are declared with the static keyword, 
+          and they are shared by all instances (objects) of the class as well as by the class itself. 
+          No matter how many objects are derived from a class, each class variable would only exist once.
+      -...
+      - [5] What is a Instance Variable?
+        - A class variable without a static modifier known as an instance variable 
+          is typically shared by all instances of the class. 
+          These variables can have distinct values among several objects. 
+          The contents of an instance variable are completely independent of one object instance 
+          from another because they are related to a specific object instance of the class.
+      -...
+      - [6] What is covariant return type?
+        - The covariant return type specifies 
+          that the return type may vary in the same direction as the subclass. 
+          It’s possible to have different return types for an overriding method in the child class, 
+          but the child’s return type should be a subtype of the parent’s return type 
+          and because of that overriding method becomes variant with respect to the return type.
+      -...
+    - [ lombok ]
+    - [ class ]
+      - [1] What is this keyword in Java?
+        - ‘this’ is a keyword used to reference a variable that refers to the current object.
+      -...
+      - [2] What are Brief Access Specifiers and Types of Access Specifiers?
+        - Access Specifiers in Java help 
+          to restrict the scope of a class, constructor, variable, method, or data member. 
+          There are four types of Access Specifiers in Java mentioned below:
+          Public
+          Private
+          Protected
+          Default
+      -...
+    - [ Classloader ]
+      - [1] What is the Java Classloader?
+        - The Java Classloader is the part of the Java runtime environment 
+          that loads classes on demand (lazy loading) into the JVM. 
+      -...
+    - [ String ]
+      - [1] What is the difference between `String s = "Test"` and `String s = new String("Test")`? 
+            Which is better and why?
+        - In the case of `String s = "Test"`, 
+          a String with the value `“Test”` will be created in the String pool. 
+          If another String with the same value is then created (e.g., String s2 = "Test"), 
+          it will reference this same object in the String pool.
+      -...
+    - [ Array ]
+      - [1] What is an array in Java?
+        - An Array in Java is a data structure 
+          that is used to store a fixed-size sequence of elements of the same type. 
+          Elements of an array can be accessed by their index, 
+          which starts from 0 and goes up to a length of minus 1. 
+          Array declaration in Java is done with the help of square brackets 
+          and size is also specified during the declaration.  
+      -...
+      - [2] Is it possible to make an array volatile?
+        - In Java, it is not possible to make a volatile. 
+          Volatile keywords in Java can only be applied to individual variables 
+          but not to arrays or collections.
+      -...
+      - [3] What are the advantages and disadvantages of an array?
+        - (A) Direct and effective access to any element in the collection is made possible by arrays.
+              An array’s elements can be accessed using an O(1) operation, 
+              which means that the amount of time needed to do so is constant 
+              and independent of the array’s size.
+        - (B) Data can be stored effectively in memory using arrays. 
+              The size of an array is known at compile time since its elements 
+              are stored in contiguous memory regions.
+        - (C) Due to the fact that the data is stored in contiguous memory areas, 
+              arrays provide quick data retrieval.
+        - (D) Arrays are easy to implement and understand, 
+              making them an ideal choice for beginners learning computer programming.
+      -...
+    - [ Concurrency ]
+      - [ ThreadLocal ]
+        - [1] What is the "ThreadLocal" class?
+              How and why would you use it?
+          - A single "ThreadLocal" instance can store different values for each thread independently.
+            Each thread that accesses the "get()" or "set()" method of a "ThreadLocal" instance is accessing its own, 
+            independently initialized copy of the variable. 
+        -...
+        - [2] What is the "volatile" keyword? How and why would you use it?
+          - The "volatile" keyword basically says to the JVM “Warning, 
+            this variable may be modified in another Thread”. 
+            Every thread accessing a volatile field will read the variable’s current value 
+            instead of (potentially) using a cached value.
+        -...
+        - [3] 
+        -...
+    - [ Exception ]
+      - [1] Is a "finally" block executed when an exception is thrown from a "try" block 
+            that does not have a "catch" block, and if so, when?
+        - A "finally" block is executed even if an exception is thrown 
+          or propagated to the calling code block.
+      -...
+    - [ Enum ]
+      - [1] Describe enums in Java.
+        - Enums are essentially final classes with a fixed number of instances. 
+          They can implement interfaces but cannot extend another class.
+      -...
+    - [ Reflection ]
+      - [1] What is reflection? 
+            Give an example of functionality that can only be implemented using reflection. 
+        - Reflection allows programmatic access to information about a Java program’s types. 
+          Commonly used information includes: 
+          methods and fields available on a class, interfaces implemented by a class, 
+          and the runtime-retained annotations on classes, fields and methods.
+      -...
+    - [ Collection ]
+      - [ Common ] 
+        - [1] Describe and compare fail-fast and fail-safe iterators. Give examples.
+          - The main distinction between fail-fast and fail-safe iterators 
+            is whether or not the collection can be modified while it is being iterated. 
+            Fail-safe iterators allow this; 
+            fail-fast iterators do not. 
+            Fail-fast: ArrayList, HashSet, and HashMap.
+            Fail-safe: ConcurrentHashMap or CopyOnWriteArrayList
+        -... 
+      - [ HashMap ] какая может быть сложность получения обьекта
+      - [ Set]
+        - [1] If one needs a Set, how do you choose between HashSet vs. TreeSet?
+          - If you need information about order, use 'TreeSet'; 
+            for other cases, 'HashSet' is better.
+        -...
+        - [2] What is a marker interface?
+          - An Interface is recognized as an empty interface (no field or methods) 
+            it is called a marker interface. 
+            Examples of marker interfaces are Serializable, Cloneable, and Remote interfaces. 
+        -...
+    - [ Interface ]
+      - [1] What is an Interface?
+        - An interface in Java is a collection of static final variables 
+          and abstract methods that define the contract or agreement for a set of linked classes. 
+          Any class that implements an interface is required to implement a specific set of methods. 
+          It specifies the behavior that a class must exhibit 
+          but not the specifics of how it should be implemented.
+      -...
+    - приходилось ли профилировать приложения, поиск узких мест, поиск утечек памяти
+    - [ Java 8 ] 
+     - [ Optional ] зачем ввели 
+     - [ default ] зачем ввели дефолтные методы в интерфейсы
+     - [ functional ] что такое функциональный интерфейс ?
+     - [ streamAPI ] 
+       - есть лист из чисел Integer как получить лист чисел больше 10 как String.   
+  - [ ADDITION ]
+    - [ аннотации и интерфейсы ] маркерный интерфейс в чем разница с аннотацией
+  - [ SECURITY ]
+    - [1] Why it be better to store passwords or other sensitive data in character array
+          rather than in a String?
+      - Strings in Java are immutable. 
+        It means anyone who has access to memory could find this data.
+    -...
+
+
+41) OOPs
+  - [ main ]:
+    - [1] What are the main concepts of OOPs in Java?
+      - The main concepts of OOPs in Java are mentioned below:
+        Inheritance
+        Polymorphism
+        Abstraction
+        Encapsulation
+    -...
+    - [2] What do you mean by data encapsulation?
+      - Data Encapsulation is the concept of OOPS properties 
+        and characteristics of the classes that The interface is binded together. 
+        Basically, it bundles data and methods that operate on that data within a single unit. 
+        Encapsulation is achieved by declaring the instance variables of a class as private, 
+        which means they can only be accessed within the class. 
+    -...
+    - [3] What is Polymorphism?
+      - Polymorphism is defined as the ability to take more than one form 
+        It is of two types namely, 
+        Compile time polymorphism or method overloading- a function called during compile time. 
+        For instance, take a class ‘area’. Based on the number of parameters 
+        it may calculate the area of a square, triangle, or circle. 
+        Run time polymorphism or method overriding- links during run time.  
+        The method inside a class overrides the method of the parent class.
+    -...
+    - [4] What is Abstraction?
+      - Abstraction refers to the act of representing essential features 
+        without including background details. 
+        The detailed information or the implementation is hidden. 
+        The most common example of abstraction is a car, we know how to turn on the engine, 
+        accelerate and move, however, the way engine works, 
+        and its internal components are complex logic hidden from the general users. 
+        This is usually done to handle the complexity.
+    -...
+
+
+
+50) Spring
+  - [ MAIN ]:
+    - что такое спринг, зачем нужен, что из спринга использовали
+    - [ scope ] скоупы бина в spring
+    - [ @Serbice @Component @RestController @Bean ] как можно получить бин?
+    - [ DI ] какие варианты есть инжектировать бин?
+    - [ application.yaml ] какие варианты получения данных в коде    
+    - [ profile ] как разделялись конфиги на дев прод и тд ?
+
+
+60) Spring boot
+  - [ MAIN ]:
+    - зачем нам spring-boot
+    - [ autoconfiguratio ] как работает ?
+
+
+70) DВ
+  - [ MAIN ]:
+    - [ профилирование ] решать вопрос с медленным запросом
+    - [ index ] 
+    - маштобирование базы данных
+    - [ ORM ] зачем нужна
+    - [ наследование ] в Java усть наследование как это мапиться на реляционную БД
+    - [ многие ко многим ] связь в бд?
+
+
+80) Docker
+  - [ MAIN ]:
+    - [ ] что такое Docker
+    - [ ] как ускоряли запуск java приложений 
+    - [ Multistage build ]
+    - [ docker-maven-plugin ] как собирали докер образ 
+    - [ docker-compouse ] зачем нужен использовали ли
+
+
+90) Kubernetes
+  - [ MAIN ]:
+    - [ deployment ] во что заворачивали java приложение
+    - [ Daemonset ] в чем отличие демонсета от деплоймента
+    - [ secrets ] как хранились
+    - [ Ingress / Egress ] как трафик в кластер следует заводить и как заводить
+
+
+100) CI / CD
+  - [ MAIN ]: 
+    - расскажите как код от разработчика попадает на прод
+    - [ jobs ] приходилось ли писать джобы 
+    - [ ] были ли анализаторы кода
+
+
+110) безопасность
+  - 
+
+
+120) Git  
+  -
+
+
+130) Архитектура
+  - построить систему hh
+
+
+
+140) High load
+  - [ MAIN ]: 
+    - сколько запросов обрабатывала ваша система
+    - как найти узкое место в приложении
+    - летит куча маленьких сообщений как их обрабатывать
+    - в чем отличия kafka от rabitMQ
+
+
+150) Algoritms
+  - [ ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
