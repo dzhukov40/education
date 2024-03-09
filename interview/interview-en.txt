@@ -92,7 +92,6 @@
           but the child’s return type should be a subtype of the parent’s return type 
           and because of that overriding method becomes variant with respect to the return type.
       -...
-    - [ lombok ]
     - [ class ]
       - [1] What is this keyword in Java?
         - ‘this’ is a keyword used to reference a variable that refers to the current object.
@@ -105,6 +104,10 @@
           Private
           Protected
           Default
+      -...
+      - [3] What is the use of the final keyword? 
+        - The final keyword is used to make functions non-virtual. By default, 
+          all the functions are virtual so to make it non-virtual we use the final keyword.
       -...
     - [ Classloader ]
       - [1] What is the Java Classloader?
@@ -160,13 +163,109 @@
             Every thread accessing a volatile field will read the variable’s current value 
             instead of (potentially) using a cached value.
         -...
-        - [3] 
+        - [3] What is multitasking?
+          - Multitasking in Java refers to a program’s capacity to carry out several tasks at once. 
+            Threads, which are quick operations contained within a single program, can do this. 
+            Executing numerous things at once is known as multitasking.
+        -...
+        - [4] What are the two ways in which Thread can be created?
+          - Multithreading is a Java feature 
+            that allows concurrent execution of two or more parts of a program 
+            for maximum utilization of the CPU. 
+            - (1) By extending the Thread class.
+                  We create a class that extends the java.lang.Thread class. 
+                  This class overrides the run() method available in the Thread class. 
+                  A thread begins its life inside run() method. 
+            - (2) By implementing the Runnable interface.
+                  We create a new class that implements java.lang.Runnable interface 
+                  and override run() method. 
+                  Then we instantiate a Thread object and call the start() method on this object.
+        -...
+        - [5] Differentiate between process and thread?
+          -  
+                `Process`                            `Thread`
+
+  A process is a program in execution.          A thread is a single sequence of 
+                                                instructions within a process.
+
+The process takes more time to terminate.       The thread takes less time to terminate.
+
+The process takes more                          The thread takes less time for context switching.
+time for context switching.      
+              
+The process is less efficient in terms          Thread is more efficient in terms 
+of communication.                               of communication.
+
+The process is isolated.                        Threads share memory.
+
+The process has its own                         Thread has Parents’ PCB, 
+Process Control Block, Stack,                   its own Thread Control Block, 
+and Address Space.                              and Stack and common Address space.
+
+The process does not share                      Threads share data with each other.
+data with each other.
         -...
     - [ Exception ]
       - [1] Is a "finally" block executed when an exception is thrown from a "try" block 
             that does not have a "catch" block, and if so, when?
         - A "finally" block is executed even if an exception is thrown 
           or propagated to the calling code block.
+      -...
+      - [2] What is Exception Handling?
+        - An Exception is an Event that interrupts the normal flow of the program 
+          and requires special processing. 
+          During the execution of a program, 
+          errors and unplanned occurrences can be dealt 
+          with by using the Java Exception Handling mechanism. 
+          Below are some reasons why Exceptions occur in Java:
+          - Device failure
+          - Loss of Network Connection
+          - Code Errors
+          - Opening an Unavailable file
+          - Invalid User Input
+          - Physical Limitations (out of disk memory)
+      -...
+      - [3] Explain the hierarchy of Java Exception classes.
+        - 
+                            `Throable`  
+                                |
+              |-----------------|-----------------| 
+              |                                   |
+          `Exceptions`                         `Error`
+               |                                  |
+               |---`Checked Exceptions`           |---`Virtual Machine Error`
+               |                                  |
+               |---`Unchecked Exceptions`         |---`Assertion Error  etc.`
+      -...
+      - [4] Explain Runtime Exceptions.
+        - Runtime Exceptions are exceptions that occur during the execution of a code, 
+          as opposed to compile-time exceptions that occur during compilation.
+          Unlike checked exceptions, 
+          runtime exceptions do not require a declaration in the throws clause 
+          or capture in a try-catch block.
+      -...
+      - [5] What is the difference between Checked Exception and Unchecked Exception?
+        - Checked Exception:
+          Checked Exceptions are the exceptions that are checked during compile time of a program. 
+          In a program, if some code within a method throws a checked exception, 
+          then the method must either handle the exception 
+          or must specify the exception using the throws keyword. 
+          -...
+          Checked exceptions are of two types: 
+          - Fully checked exceptions: all its child classes are also checked,
+            like IOException, and InterruptedException.
+          - Partially checked exceptions: some of its child classes are unchecked, 
+            like an Exception. 
+        - Unchecked Exception:
+          Unchecked are the exceptions that are not checked at compile time of a program.
+          Exceptions under Error and RuntimeException classes are unchecked exceptions, 
+          everything else under throwable is checked.  
+      -...
+      - [6] What is exception propagation?
+        - Exception propagation is a process in which the exception is dropped 
+          from to the top to the bottom of the stack. 
+          If not caught once, the exception again drops down to the previous method, 
+          and so on until it gets caught or until it reaches the very bottom of the call stack.
       -...
     - [ Enum ]
       - [1] Describe enums in Java.
@@ -191,6 +290,41 @@
             Fail-fast: ArrayList, HashSet, and HashMap.
             Fail-safe: ConcurrentHashMap or CopyOnWriteArrayList
         -... 
+      - [ Map ]
+        - [1] What is a Map interface in Java?
+          - The map interface is present in the Java collection 
+            and can be used with Java.util package. 
+            A map interface is used for mapping values in the form of a key-value form. 
+            The map contains all unique keys. 
+            Also, it provides methods associated with it 
+            like containsKey(), contains value (), etc. 
+            There are multiple types of maps in the map interface as mentioned below:
+            SortedMap
+            TreeMap
+            HashMap
+            LinkedHashMap
+        -...
+      - [ HashSet ] 
+        - [1] What is the HashSet class in Java and how does it store elements?
+          - The HashSet class implements the Set interface in the Java Collections Framework 
+            and is a member of the HashSet class. 
+            Unlike duplicate values, it stores a collection of distinct elements. 
+            In this implementation, 
+            each element is mapped to an index in an array using a hash function, 
+            and the index is used to quickly access the element. 
+            It produces an index for the element in the array 
+            where it is stored based on the input element. 
+            Assuming the hash function distributes the elements among the buckets appropriately, 
+            the HashSet class provides constant-time performance for basic operations 
+            (add, remove, contain, and size).
+        -...
+        - [2] What is LinkedHashSet in Java Collections Framework?
+          - The LinkedHashSet is an ordered version of Hashset 
+            maintained by a doubly-linked List across all the elements. 
+            It is very helpful when iteration order is needed. 
+            During Iteration in LinkedHashSet, 
+            elements are returned in the same order they are inserted.
+        -...
       - [ HashMap ] какая может быть сложность получения обьекта
       - [ Set]
         - [1] If one needs a Set, how do you choose between HashSet vs. TreeSet?
@@ -210,6 +344,49 @@
           It specifies the behavior that a class must exhibit 
           but not the specifics of how it should be implemented.
       -...
+    - [ Garbage Collection ]
+      - [1] Why Garbage Collection is necessary in Java?
+        - For Java, Garbage collection is necessary to avoid memory leaks 
+          which can cause the program to crash and become unstable. 
+          There is no way to avoid garbage collection in Java. 
+          Unlike C++, Garbage collection in Java helps programmers 
+          to focus on the development of the application instead of managing memory resources 
+          and worrying about memory leakage. 
+          Java Virtual Machine (JVM) automatically manages the memory periodically 
+          by running a garbage collector which frees up the unused memory in the application. 
+          Garbage collection makes Java memory efficient 
+          because it removes unreferenced objects from the heap memory.
+      -...
+      - [2] What is the drawback of Garbage Collection?
+        - `1` The main drawback to Garbage collection is 
+              that it can cause pauses in an application’s execution 
+              as it works to clear the memory which slows down the performance of the application. 
+          `2` The Process of Garbage collection is non-deterministic 
+              which makes it difficult to predict when garbage collection occurs 
+              which causes unpredictable behavior in applications. 
+              For Example, if we write any program then it is hard for programmers to decide 
+              if the issue is caused by garbage collection or by any other factors in the program. 
+          `3` Garbage collection can also increase memory usage 
+              if the program creates and discards a lot of short-lived objects.
+      -...
+      - [3] What is a memory leak, and how does it affect garbage collection?
+        - In Java Memory leaks can be caused by a variety of factors, 
+          such as not closing resources properly, 
+          holding onto object references longer than necessary, 
+          or creating too many objects unnecessarily. 
+          There are situations in which garbage collector does not collect objects 
+          because there is a reference to those objects. 
+          In these situations where the application creates lots of objects 
+          and does not use them and every object has some valid references, 
+          a Garbage collector in Java cannot destroy the objects. 
+          These useless objects which do not provide any value to the program 
+          are known as Memory leaks. 
+          Memory leaks can impact garbage collection negatively 
+          by preventing the garbage collector from reclaiming unused memory. 
+          This behavior will lead to slow performance or sometimes system failure. 
+          In a program, it is important to avoid memory leaks by managing resources 
+          and object references properly. 
+      -...
     - приходилось ли профилировать приложения, поиск узких мест, поиск утечек памяти
     - [ Java 8 ] 
      - [ Optional ] зачем ввели 
@@ -219,7 +396,7 @@
        - есть лист из чисел Integer как получить лист чисел больше 10 как String.   
   - [ ADDITION ]
     - [ аннотации и интерфейсы ] маркерный интерфейс в чем разница с аннотацией
-  - [ SECURITY ]
+  - [ Security ]
     - [1] Why it be better to store passwords or other sensitive data in character array
           rather than in a String?
       - Strings in Java are immutable. 
@@ -282,6 +459,15 @@
 
 70) DВ
   - [ MAIN ]:
+    - [ common ]
+      - [1] What is JDBC?
+        - JDBC standard API is used to link Java applications and relational databases. 
+          It provides a collection of classes and interfaces 
+          that let programmers to use the Java programming language 
+          to communicate with the database. 
+          The classes and interface of JDBC allow the application to send requests 
+          which are made by users to the specified database. 
+      -...
     - [ профилирование ] решать вопрос с медленным запросом
     - [ index ] 
     - маштобирование базы данных
