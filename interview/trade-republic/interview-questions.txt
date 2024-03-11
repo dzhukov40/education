@@ -26,9 +26,32 @@
 1) Assumed questions about the homework
 
 [ common questions ]
-  - 1
+  - 1 Какие страттегии болансировки нагрузки существуют?
     -
     -
+  -...
+    - 2 Какой дизайн системы мы можем назвать хорошим?
+    -
+    -
+  -...
+    - 3 Зачем нам стоит использовать system design patterns?
+    -
+    -
+  -...
+    - 3 Расскажи немного о популярных system design patterns?
+        [ https://www.redhat.com/architect/14-software-architecture-patterns ]
+      - `circuit breaker`:
+        - The `circuit breaker` pattern minimizes the effects of a hazard 
+          by rerouting traffic to another service. 
+          While it helps make systems more fault tolerant to prevent accidents, 
+          it also requires sophisticated testing 
+          and using an infrastructure-management technology like service mesh.
+      - `command query responsibility segregation (CQRS)`:
+        - The `CQRS` pattern handles the situation where database queries happen 
+          more often than the data changes. 
+          It separates read and write activities to provide greater stability, 
+          scalability, and performance, but it requires more database technologies 
+          and therefore may increase costs.
   -...
   -...
   -...
@@ -72,21 +95,34 @@
   -...
   -...
 [ Aggregator area questions ]
-  - 1
+  - 1 Можем ли мы увеличить число сервисов "Aggregator"?
     -
     -
   -...
   -...
   -...
 [ Cleaner area questions ]
-  - 1
+  - 1 Можем ли мы увеличить число сервисов "Cleaner"?
     -
     -
   -...
   -...
   -...
 [ Reader area questions ]
-
+  - 1 Можем ли мы увеличить число сервисов "Reader"?
+    -
+    -
+  -...
+  - 2 Как мы можем использовать кеширование? 
+    -
+    -
+  -...
+  - 3 Как уменьшить нагрузку на базы данных? 
+    -
+    -
+  -...
+  -...
+  -...
 
 
 
