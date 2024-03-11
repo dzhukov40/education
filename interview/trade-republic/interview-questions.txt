@@ -38,7 +38,7 @@
     -
     -
   -...
-    - 3 Расскажи немного о популярных system design patterns?
+    - 4 Расскажи немного о популярных system design patterns?
         [ https://www.redhat.com/architect/14-software-architecture-patterns ]
       - `circuit breaker`:
         - The `circuit breaker` pattern minimizes the effects of a hazard 
@@ -52,6 +52,169 @@
           It separates read and write activities to provide greater stability, 
           scalability, and performance, but it requires more database technologies 
           and therefore may increase costs.
+      - `event sourcing `:
+        - The `event sourcing` pattern is good for applications that use real-time data. 
+          It sends a continuous stream of messages to a database, 
+          web server, log, or another target. 
+          It's very flexible but demands a highly efficient 
+          and reliable network infrastructure to minimize latency.
+      - `microservices`:
+        - The `microservices` pattern combines design patterns to create multiple services 
+          that work interdependently to create a larger application. 
+          Because each application is small, it's easier to update them when needed, 
+          but the complexity means you need greater architectural expertise 
+          to make everything work correctly.
+      - `pub-sub`:
+        - The `pub-sub` pattern sends (publishes) relevant messages to places 
+          that have subscribed to a topic. 
+          It's easy to configure but more challenging to test 
+          because interactions between the publisher and the subscriber are asynchoronous.
+      - `saga`:
+        - The `saga` pattern is used for transactions with multiple steps, 
+          such as travel reservation services. 
+          A `saga` includes the various steps that must happen for the transaction to complete. 
+          This pattern enables transactions (ideally with five or fewer steps) 
+          to happen in loosely coupled, message-driven environments, 
+          but it requires a lot of programming and can be complex to manage. 
+      - `sharding`:
+        - The `sharding` pattern segments data in a database to speed commands or queries. 
+          It ensures storage is consumed equally across instances 
+          but demands a skilled and experienced database administrator 
+          to manage `sharding` effectively.
+      - `throttling`:
+        - The `throttling` (or rate-limiting) pattern controls 
+          how fast data flows into a target. 
+          It's often used to prevent failure during a distributed denial 
+          of service attack or to manage cloud infrastructure costs. 
+          To use this pattern successfully, 
+          you need good redundancy mechanisms in place, 
+          and it's often used alongside the circuit breaker pattern 
+          to maintain service performance.
+  -...
+  -...
+  -...
+[ System design questions ]
+[https://www.interviewbit.com/system-design-interview-questions/#sharding-vs-partitioning]
+  -...
+    - 1 What is CAP theorem?
+        
+    -
+    -
+  -...
+    - 2 How is Horizontal scaling different from Vertical scaling?
+    -
+    -
+  -...
+    - 3 What do you understand by load balancing? 
+        Why is it important in system design?
+    -
+    -
+  -...
+    - 4 What do you understand by Latency, throughput, and availability of a system?
+    -
+    -
+  -...
+    - 5 What is Sharding?
+    -
+    -
+  -...
+    - 6 How is NoSQL database different from SQL databases?
+    -
+    -
+  -...
+    - 7 How is sharding different from partitioning?
+    -
+    -
+  -...
+    - 8 How is performance and scalability related to each other?
+    -
+    -
+  -...
+    - 9 What is Caching? 
+         What are the various cache update strategies available in caching?
+    -
+    -
+  -...
+    - 10 What are the various Consistency patterns available in system design?
+    -
+    -
+  -...
+    - 11 What do you understand by Content delivery network?
+    -
+    -
+  -...
+    - 12 What do you understand by Leader Election?
+    -
+    -
+  -...
+    - 13 How do you answer system design interview questions?
+    -
+    -
+  -...
+    - 14 What are some of the design issues in distributed systems?
+    -
+    -
+  -...
+    - 15 Design a global chat service like Whatsapp or a facebook messenger.
+    -
+    -
+  -...
+    - 16 How do you design a URL shortening service like TinyURL or bit.ly?
+    -
+    -
+  -...
+    - 17 Design a forum-like systems like Quora, Reddit or HackerNews.
+    -
+    -
+  -...
+    - 18 Design Facebook’s newsfeed system.
+    -
+    -
+  -...
+    - 19 Design a parking lot system?
+    -
+    -
+  -...
+    - 20 How do you design a recommendation system?
+    -
+    -
+  -...
+    - 21 Design an API Rate Limiter system for GitHub or Firebase sites.
+    -
+    -
+  -...
+    - 22 How do you design global file storage 
+         and file sharing services like Google Drive, Dropbox etc?
+    -
+    -
+  -...
+    - 23 Design a type-ahead search engine service.
+    -
+    -
+  -...
+    - 24 Design Netflix.
+    -
+    -
+  -...
+    - 25 Design Tic-Tac-Toe game.
+    -
+    -
+  -...
+    - 26 Design a traffic control system.
+    -
+    -
+  -...
+    - 27 Design Web Crawler.
+    -
+    -
+  -...
+    - 28 Design ATM system.
+    -
+    -
+  -...
+    - 29 Design Uber, Ola or Lyft type of systems.
+    -
+    -
   -...
   -...
   -...
