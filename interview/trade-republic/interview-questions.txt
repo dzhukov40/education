@@ -273,81 +273,81 @@
           and are suitable in systems requiring transactions of data.
   -...
   - 11 What do you understand by Content delivery network?
-    -
-    -
+    - Content delivery network or in short CDN 
+      is a globally distributed proxy server network 
+      that serves content from locations close by to the end-users. 
+      Usually, in websites, static files like HTML, CSS, JS files, images 
+      and videos are served from CDN.
+      - Since users receive data from centres close to them 
+        as shown in the image below, they don't have to wait for long.
+      - Load on the servers is reduced significantly 
+        as some of the responsibility is shared by CDNs.
   -...
   - 12 What do you understand by Leader Election?
-    -
-    -
+    - In a distributed environment where there are multiple servers 
+      contributing to the availability of the application, 
+      there can be situations where only one server has to take lead 
+      for updating third party APIs as different servers could cause problems 
+      while using the third party APIs. 
+      This server is called the primary server 
+      and the process of choosing this server is called leader election. 
+      The servers in the distributed environment have to detect 
+      when the leader server has failed and appoint another one to become a leader. 
+      This process is most suitable in high availability 
+      and strong consistency based applications by using a consensus algorithm.
   -...
   - 13 How do you answer system design interview questions?
-    -
-    -
+    - `Ask questions to the interviewer for clarification`:
+      Since the questions are purposefully vague, 
+      it is advised to ask relevant questions to the interviewer 
+      to ensure that both you and the interviewer are on the same page. 
+      Asking questions also shows that you care about the customer requirements.
+    - `Gather the requirements`:
+      List all the features that are required, 
+      what are the common problems and system performance parameters 
+      that are expected by the system to handle. 
+      This step helps the interviewer to see how well you plan, 
+      expect problems and come up with solutions to each of them. 
+      Every choice matters while designing a system. 
+      For every choice, at least one pros and cons of the system needs to be listed.
+    - `Come up with a design`:
+      Come up with a high-level design and low-level design solutions 
+      for each of the requirements decided. 
+      Discuss the pros and cons of the design. 
+      Also, discuss how they are beneficial to the business.
   -...
   - 14 What are some of the design issues in distributed systems?
-    -
-    -
-  -...
-  - 15 Design a global chat service like Whatsapp or a facebook messenger.
-    -
-    -
-  -...
-  - 16 How do you design a URL shortening service like TinyURL or bit.ly?
-    -
-    -
-  -...
-  - 17 Design a forum-like systems like Quora, Reddit or HackerNews.
-    -
-    -
-  -...
-  - 18 Design Facebook’s newsfeed system.
-    -
-    -
-  -...
-  - 19 Design a parking lot system?
-    -
-    -
-  -...
-  - 20 How do you design a recommendation system?
-    -
-    -
-  -...
-  - 21 Design an API Rate Limiter system for GitHub or Firebase sites.
-    -
-    -
-  -...
-  - 22 How do you design global file storage 
-         and file sharing services like Google Drive, Dropbox etc?
-    -
-    -
-  -...
-  - 23 Design a type-ahead search engine service.
-    -
-    -
-  -...
-  - 24 Design Netflix.
-    -
-    -
-  -...
-  - 25 Design Tic-Tac-Toe game.
-    -
-    -
-  -...
-  - 26 Design a traffic control system.
-    -
-    -
-  -...
-  - 27 Design Web Crawler.
-    -
-    -
-  -...
-  - 28 Design ATM system.
-    -
-    -
-  -...
-  - 29 Design Uber, Ola or Lyft type of systems.
-    -
-    -
+    - Following are some of the issues found in distributed systems:
+      - `Heterogeneity`:
+        The Internet allows applications to run 
+        over a heterogeneous collection of computers and networks. 
+        There would be different types of networks 
+        and the differences are masked by the usage of standard Internet protocols 
+        for communicating with each other. 
+        This becomes an issue while designing distributed applications
+      - `Openness`:
+        Openness represents the measure by which a system can be extended 
+        and re-implemented in different ways. 
+        In distributed systems, it specifies the degree 
+        to which new sharing services can be added 
+        and made available for client usage.
+      - `Security`:
+        The information maintained in distributed systems 
+        need to be secure as they are valuable to the users. 
+        The confidentiality, availability 
+        and integrity of the distributed systems have to be maintained 
+        and this sometimes becomes a challenge.
+      - `Scalability`:
+        A system is scalable if it remains effective 
+        when there is a significant increase in the request traffic 
+        and resources. 
+        Designing a distributed system involves planning well in advance 
+        how well the system can be made scalable under varying user loads.
+      - `Failure Handling`:
+        In a distributed environment, the failures are partial, 
+        meaning if some components fail, others would still function. 
+        It becomes challenging to handle these failures 
+        as it involves identifying right components where the failures occur.
   -...
   -...
   -...
