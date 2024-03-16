@@ -60,6 +60,10 @@
           You need to pass the parameter --dtype half to the Docker command line.
       ]
     -...
+  
+  - !!! идем все запускать через утилиту !!!
+    - [ ollama.ai ]
+      - [ https://ollama.com/ ]
 
 
 
