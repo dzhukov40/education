@@ -24,8 +24,7 @@
   - Запустим один инстанс `Redis` в docker
   - [ https://hub.docker.com/_/redis ]
   - запуск
-    - [ docker rm one-node-redis &&
-        docker run --name one-node-redis -d -p 6379:6379 redis:7.2.4-alpine ]
+    - [ docker rm one-node-redis && docker run --name one-node-redis -d -p 6379:6379 redis:7.2.4-alpine ]
 
 
 2) подключаемся через `CLI`
@@ -46,7 +45,7 @@
   - [ docker compose up -d ]
   - !!! не вышло завести 3 ноды 
 
-  
+
 
 
 
