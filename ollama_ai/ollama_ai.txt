@@ -47,8 +47,13 @@
     ]
   
 
+4) Интеграция с Java приложением
+  - https://amithkoujalgi.github.io/ollama4j/
+  -  
 
 
+5) способ создать свою уникальную нейронку
+  - https://github.com/ollama/ollama/blob/main/docs/modelfile.md
 
 
 
