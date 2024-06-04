@@ -3,6 +3,7 @@
 
 // оф сайт
 - [ https://nextjs.org/ ]
+- [ https://www.youtube.com/watch?v=cAvIwaucvQM&list=PL0lO_mIqDDFXAbfgj6lcK8cRu6yFdQgnR&index=1]
  
 
 
@@ -27,6 +28,12 @@
   - перед установкой устанавливваем [ nodejs ]
   - потом выполняем команду для создания базовой структуры
     - [ npx create-next-app@latest ]
+
+1a) устанавливаем плагины для visual code
+  - [ Nextjs snippets ]    
+  - [ ESLinter ] 
+  - [ Prettier — Code Formatter ]
+  - [ Node.js Modules Intellisense ]
   
 
 2) структура проекта
@@ -35,15 +42,33 @@
       тоесть мы в браузере указываем через  / адрес как имена папок
       и таким образом ходим по разным страницам
     - в каждой папке создаем ts файлы для описания, что показывать на странице
+    - "page.tsx or page.js" 
+      - main file for visualise our page
+      - we can see this file as "index.html"
+    - "global.css"
+      - global styles
+    - "layout.tsx / layout.js" 
+      - common template for pages
+      - usefull if we need some common code in all pages
   - D_[ node_modules ]
+    - javaScript libraries
+    - we don't push them to VCS(git) 
+    - run for getting this modules "npm install" 
   - D_[ out ]
+    - this folder by default will be created 
+      for containing static version of site for deploy.
+    - (*) static version of site not will created by default
   - D_[ public ]
     - folder to store static assets such as images, fonts, etc.
   - F_[ .eslintrc.json ]
+    - linter configuration
   - F_[ .gitignore ]
+    - file for ignore files from VCS(git)
   - F_[ next.config.js ]
   - F_[ next-env.d.ts ]
   - F_[ package.json ]
+    - main "npm" file for set libraries(modules) 
+    - we define comands in "script" section in this file
   - F_[ package-lock.json ]
   - F_[ postcss.config.js ]
   - F_[ tailwind.config.js ]
@@ -55,6 +80,8 @@
     - эта команда описана в F_[ package.json ] запустит ( next dev )
     - теперь идем на [ http://localhost:3000 ]
     - редактируем проект и мгновенно видим результат
+  - лучше использовать "yarn"
+    - [ yarn dev ]
 
 
 4) Какой выбрать стек
@@ -65,6 +92,26 @@
       - [ https://mui.com/ ]
   - Для эксперементов выбрал шаблон 
     - [ https://demos.adminmart.com/free/nextjs/modernize-nextjs-free/landingpage/index.html ]
+
+
+5) Создаем еще одну страницу
+  - идем в папку "app" и создаем папку "client"
+    - имя папки будем использоваться как url
+  - в папке "app/client" создаем "page.tsx"
+    - текст файла:
+      - [
+           export default function Client() {
+             return (
+               <h1>Client page</h1>
+             );
+          } 
+        ]
+  - теперь можем проверить перейдя на "http://localhost:3000/client"
+
+
+
+
+
 
 
 
