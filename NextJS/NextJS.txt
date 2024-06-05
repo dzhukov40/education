@@ -369,6 +369,50 @@ export default Header
 
 
 
+8) создаем еще один компонент для примера
+  - создаем файл "/app/components/Post.tsx"
+  - текст:
+    [
+      import Link from "next/link"
+      
+      const Post = (post : { id: number, title: string, body: string }) => {
+          return (
+              <div>
+                <Link href="/">Назад</Link><br />
+                <h2>{post.title}</h2>
+                <p>{post.body}</p>
+                <strong>Avtor ID: {post.id}</strong>
+              </div>
+            )
+      }
+      
+      export default Post
+    ]
+  -...
+  - теперь используем этот компонент
+  - поправим файл "app/post/[id]/pages.tsx"
+    [
+      import Post from "@/app/components/Post";
+      
+      async function fetchData(id: number) {
+        const res = await fetch('https://jsonplaceholder.typicode.com/posts/' + id);
+        const result = await res.json();
+        return result;
+      }
+      
+      
+      const PagePost = async ({ params }: { params: { id: number } }) => {
+        const currentPost = await fetchData(params.id);
+         
+          return (
+            <Post id={currentPost.id} title={currentPost.title} body={currentPost.body} />
+          )
+      }
+      
+      export default PagePost
+    ]
+
+
 
 
 
