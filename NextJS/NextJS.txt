@@ -417,9 +417,27 @@ export default Header
 9) создаем backend для тестирования front-end
   - создаем папку "api"
     - каждая новая папка в "api" будет отвечвть за отслеживания нового адресса
-  - созда  
-
-
+  - создаем папку "api/data"  
+  - создаем файл "api/data/route.tsx"
+  - текст:
+    [
+      export async function GET(request:any) {
+          const data = {
+              name: 'Bob',
+              age: 10,
+              bio: 'Some info'
+          }
+      
+          return new Response(JSON.stringify(data));
+      }
+      
+      export async function POST(request:any) {
+          return new Response(request.body);
+      }
+          ]
+  -...
+  - проверяем: "http://localhost:3000/api/data" (*) POST/GET
+  
 
 
 
