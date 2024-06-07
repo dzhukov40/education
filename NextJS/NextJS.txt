@@ -440,13 +440,77 @@ export default Header
   
 
 
+10) собираем проект (для деплоя)
+  - добавим параметр конфигурации в файле "next.config.mjs"
+  - (*) пришлось понизить версию "next.js"
+  - текст:
+    [
+      /** @type {import('next').NextConfig} */
+      const nextConfig = {
+          output: 'export'
+      };
+      
+      export default nextConfig;    
+    ]
+
+
+
+11) Заворачиваем фронт в Docker
+  - документация: https://nextjs.org/docs/app/building-your-application/deploying#docker-image
+  - скопировали Dockerfile
+  - поправили файл: "next.config.mjs"
+    [
+      /** @type {import('next').NextConfig} */
+      const nextConfig = {
+          output: 'standalone'
+      };
+      
+      export default nextConfig;
+    ]
+  -...
+  - поправили файл: "package.json"
+    [
+     ...
+     ...
+       "workspaces": {
+         "nohoist": [
+           "**/frontend",
+           "**/frontend/**"
+         ],
+         "packages": [
+           "api",
+           "frontend"
+         ]
+       }     
+     ...
+     ...
+    ]
+  -...
+  - запускаем команды
+    - [ docker build -t nextjs-docker . ]
+    - [ docker run -p 3050:3000 nextjs-docker ]
+    - проверяем: [ http://localhost:3050 ]
 
 
 
 
 
-[?] nop
-  - nop
+
+
+
+
+
+[?] ERROR
+  - Unexpected behavior when using output: 'export', 
+    generateStaticParams(), and export const dynamic
+  - solution:
+    - https://github.com/vercel/next.js/issues/56253
+    - run comands:
+      [
+        yarn install
+        yarn upgrade next@13.4.19
+        yarn build
+      ]
 
  
 
