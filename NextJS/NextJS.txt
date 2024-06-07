@@ -23,11 +23,19 @@
 
 
 
+0) учебнык материалы
+  - курс на ютуб: https://www.youtube.com/watch?v=cAvIwaucvQM&list=PL0lO_mIqDDFXAbfgj6lcK8cRu6yFdQgnR
+    - (*) папка: "youtube-_gosha_dudar_nextjs"
+  - курс на ютуб: https://www.youtube.com/watch?v=kVddMV-TrSw&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=2
+    - (*) папка: "youtube-codevolution-nextjs" 
+
+
 1) устанавливаем  
   - [ https://nextjs.org/docs/getting-started/installation ]
   - перед установкой устанавливваем [ nodejs ]
   - потом выполняем команду для создания базовой структуры
     - [ npx create-next-app@latest ]
+
 
 1a) устанавливаем плагины для visual code
   - [ Nextjs snippets ]    
@@ -73,6 +81,7 @@
   - F_[ postcss.config.js ]
   - F_[ tailwind.config.js ]
   - F_[ tsconfig.json ]
+    - TypeScript configuration
 
 
 3) Запуск внутреннего сервера
