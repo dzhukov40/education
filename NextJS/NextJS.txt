@@ -709,7 +709,7 @@ export default Header
     - "http://localhost:3000/error-test"
 
 
-21 Parallel routes
+21) Parallel routes
   - крутая штука чтобы отображать разные компоненты одновременно
   - создаем папку "app/complex-dashbord"
   - создаем папку "app/complex-dashboard/@notifications"
@@ -776,11 +776,19 @@ export default Header
     - "http://localhost:3000/complex-dashbord"
 
 
-
-
-
-
-
+22) Intercepting routes
+  - это как всплывающее окно
+  - например посмотреть картинку как большую
+  - "(.)тут имя папки интерсептора" перехватывать на том же уровне
+  - "(..)тут имя папки интерсептора" перехватывать на выше уроне
+  -...
+  - создадим папку "src/app/f1"
+  - создадим папку "src/app/f1/f2"
+  - создадим папку "src/app/f1/(.)f2"
+  -...
+  - проверяем: 
+    - "http://localhost:3000/f1" (*) кликаем на ссылу
+    - !! видим перехват, обновляем страницу и видим f2 
 
 
 
