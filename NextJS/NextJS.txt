@@ -36,6 +36,7 @@
   - перед установкой устанавливваем [ nodejs ]
   - потом выполняем команду для создания базовой структуры
     - [ npx create-next-app@latest ]
+  - REST CLIENT -> "Thunder Client"
 
 
 1a) устанавливаем плагины для visual code
@@ -790,6 +791,38 @@ export default Header
   - проверяем: 
     - "http://localhost:3000/f1" (*) кликаем на ссылу
     - !! видим перехват, обновляем страницу и видим f2 
+
+
+23) Route Handlers
+  - "route.tsx" - специальное имя файла
+  - возможность сделать backend для тестирования
+  - (*) или если нам надо вернуть не страничку а что-то другое
+  -...
+  - пример "src/api/test/route.tsx"
+  - текст:
+    [
+      export async function GET(request:any) {
+          const data = {
+              name: 'Bob',
+              age: 10,
+              bio: 'Some info'
+          }
+      
+          return new Response(JSON.stringify(data));
+      }
+    ]
+  - проверяем: 
+    - "http://localhost:3000/api/test"
+  -...
+  - динамический роут хендлер
+  - "src/api/dynamic/[id]/route.tsx"
+  -...
+  - проверяем: "http://localhost:3000/api/dynamic/4"
+  
+
+
+
+
 
 
 
