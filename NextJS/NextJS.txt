@@ -569,7 +569,11 @@ export default Header
   - проверяем: "http://localhost:3000/tort"
   
 
-
+15) делаем папки которые не буду роутерами
+  - для этого надо начать имя папки с "_"
+  - создадим "app/_private"
+  -...
+  - проверяем: "http://localhost:3000/_private"
 
 
 
