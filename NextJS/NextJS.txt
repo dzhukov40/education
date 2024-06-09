@@ -664,12 +664,49 @@ export default Header
     ]
 
 
+19) loading.tsx ожидание загрузки
+  - везде можем добавить компонент 
+    который будет показываться пока мы загружаем
+  - создаеи "app/loading.tsx"
+  - text:
+    [
+      export default function Home() {
+        return <h1>Loading...</h1>      
+      }
+    ]
 
 
-
-
-
-
+20) error.tsx как показывать ошибки
+  - файл нужен для определения как показывать ошибки
+  - создаем папку "app/error-test"
+  - создаем файл генерирующий ошибку "app/error-test/page.tsx"
+  - текст
+    [
+      "use client"
+      
+      export default function Error(
+          { error } : {
+              error: Error
+          }
+      ) {
+          return <div>{error.message}</div>
+      }
+    ]
+  - создаем "app/error-test/page.tsx"
+    [
+      export default function ErrorTest() {
+        const number = Math.random() * 2;
+        
+        if (number > 1) {
+          throw new Error("Error loading");
+        }
+      
+        return <h1>Test: {number}</h1>;
+      }
+    ]
+  -...
+  - проверяем: 
+    - "http://localhost:3000/error-test"
 
 
 
