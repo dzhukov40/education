@@ -576,7 +576,19 @@ export default Header
   - проверяем: "http://localhost:3000/_private"
 
 
-
+16) роутинг для групп
+  - создавая папку с "()" мы групируем роуты 
+    но это имя не будет использоваться как путь до страниц!
+  -... 
+  - создаем папку "app/(auth)"
+  - создаем папку "app/(auth)/forgot-password"
+  - создаем папку "app/(auth)/login"
+  - создаем папку "app/(auth)/register"
+  - создаем "page.tsx" в папках 
+  -...
+  - проверяем: 
+    - "http://localhost:3000/auth/login"
+    - "http://localhost:3000/login"
 
 
 
