@@ -519,8 +519,36 @@ export default Header
     ]
 
 
-
-
+13 (catch-all Segments)
+  - создвем папку "app/docs/[...slug]" (*) docs - зарезервированое имя папки
+    - "slug" - нами выбранное имя
+  - создаем файл "app/docs/[...slug]/page.tsx"
+  - текст:
+    [
+      export default function Docs(
+        { params } : {
+          params: {
+            slug: string[]
+          }
+        }
+      ) {
+        if (params.slug.length === 2) {
+          return (
+            <h1>
+              Viewing docs for feature {params.slug[0]} and concept {params.slug[1]}
+            </h1>
+          )
+        } else if (params.slug.length === 1) {
+            return <h1>Viewing docs for feature {params.slug[0]}</h1>
+        }
+      
+        return <h1>Home page</h1>
+      }
+    ]
+  -...
+  - проверяем: 
+    - "http://localhost:3000/docs/routing"
+    - "http://localhost:3000/docs/routing/catch-all-sigments"
 
 
 
