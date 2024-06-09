@@ -552,6 +552,23 @@ export default Header
 
 
 
+14) добавляем кастомный 404-not found page
+  - создаем файл "app/not-found.tsx"
+  - текст:
+    [
+      export default function NotFound() {
+          return (
+              <div>
+                  <h2>Page not found</h2>
+                  <p>Could not find requested resource</p>
+              </div>
+          )
+      }
+    ]
+  -...
+  - проверяем: "http://localhost:3000/tort"
+  
+
 
 
 
