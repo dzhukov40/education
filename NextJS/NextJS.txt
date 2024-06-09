@@ -5,6 +5,7 @@
 - [ https://nextjs.org/ ]
 - [ https://www.youtube.com/watch?v=cAvIwaucvQM&list=PL0lO_mIqDDFXAbfgj6lcK8cRu6yFdQgnR&index=1]
 - [https://jsonplaceholder.typicode.com/] предоставляет фейковые данные для тестирования
+- [https://www.builder.io/blog/nextjs-14-intercepting-routes]
 
 
 ---
