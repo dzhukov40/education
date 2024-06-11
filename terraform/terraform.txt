@@ -21,7 +21,84 @@
   аналог Ansible, но похоже этот инструмент больше подходит для облачной платформы
 
 
-1) TODO: надо найти большую доку и фишки синтаксиса выписать!
+0) 
+
+
+1) устанавливаем
+  - https://developer.hashicorp.com/terraform/install?product_intent=terraform
+  - (ubuntu) выполняем:
+    [
+      wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+      echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+      sudo apt update && sudo apt install terraform
+    ]
+  - проверяем: "terraform -version"
+
+
+2) простой тест
+  - есть провайдер для управления докером
+    - https://github.com/kreuzwerker/terraform-provider-docker
+  - создаем файл "learn-terraform-docker-container/main.tf"
+    - (*) Each Terraform configuration must be in its own working directory.
+  - текст:
+    [
+      terraform {
+        required_providers {
+          docker = {
+            source  = "kreuzwerker/docker"
+            version = "~> 3.0.1"
+          }
+        }
+      }
+      
+      provider "docker" {}
+      
+      resource "docker_image" "nginx" {
+        name         = "nginx"
+        keep_locally = false
+      }
+      
+      resource "docker_container" "nginx" {
+        image = docker_image.nginx.image_id
+        name  = "tutorial"
+      
+        ports {
+          internal = 80
+          external = 8000
+        }
+      }
+    ] 
+  -...
+  - инициализируем (качает все что нужно чтобы выполнить скрипт) -> "terraform init"
+    - Terraform has been successfully initialized!
+  - запускаем окружение -> "terraform apply"
+  - проверяем: 
+    - "http://localhost:8000/"
+    - "docker ps"
+  -...
+  - уничтожаем окружение: "terraform destroy"
+
+
+3) ключевые блоки файла "terraform"
+  - "terraform {}"
+  - "provider"
+  - "resources"
+
+
+4) ключевые команды "terraform"
+  - "terraform init"
+    - качает все необходимые зависимости
+    - создает папку ".terraform"
+    - создаеь ".terraform.lock.hcl"
+  - "terraform fmt" 
+    - форматирование содержимого *.tf файлов по стандартам terraform
+  - "terraform plan" 
+    - покажет план что будет сделано
+  - "terraform apply"
+    - создать окружение, которое мы описали 
+  - "terraform destroy"
+    - возвращаемся в начальное состояние окружения
+
 
 
 
