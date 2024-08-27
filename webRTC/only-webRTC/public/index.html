@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC Data Channel Example</title>
+</head>
+<body>
+    <h1>WebRTC Data Channel Example</h1>
+    
+    <button id="startButton">Create Offer</button>
+    <button id="setRemoteDescription">Set Remote Description</button>
+    
+    <h2>Local Offer/Answer and ICE Candidates:</h2>
+    <textarea id="localOffer" placeholder="Local Offer / Answer will appear here..." cols="60" rows="10" readonly></textarea>
+    
+    <h2>Paste Remote Offer/Answer and ICE Candidates Here:</h2>
+    <textarea id="remoteOffer" placeholder="Paste Remote Offer / Answer and ICE Candidates Here..." cols="60" rows="10"></textarea>
+    
+    <h2>Send a Message:</h2>
+    <input type="text" id="messageInput" placeholder="Type your message here..." />
+    <button id="sendButton" disabled>Send Message</button>
+    
+    <h2>Received Messages:</h2>
+    <pre id="messages"></pre>
+
+    <script>
+        // Grab DOM elements
+        const startButton = document.getElementById('startButton');
+        const sendButton = document.getElementById('sendButton');
+        const setRemoteDescriptionButton = document.getElementById('setRemoteDescription');
+        const localOfferTextarea = document.getElementById('localOffer');
+        const remoteOfferTextarea = document.getElementById('remoteOffer');
+        const messageInput = document.getElementById('messageInput');
+        const messages = document.getElementById('messages');
+
+        // Variables for local connection, data channel, etc.
+        let localConnection;
+        let sendChannel;
+        let receiveChannel;
+
+        function startConnection() {
+            // Create new RTCPeerConnection with a public STUN server
+            localConnection = new RTCPeerConnection({
+                iceServers: [{ urls: 'stun:stun.l.google.com:19302' }]
+            });
+
+            // Create data channel for sending messages
+            sendChannel = localConnection.createDataChannel('sendChannel');
+
+            // Set up data channel event handlers
+            sendChannel.onopen = () => {
+                sendButton.disabled = false;  // Enable the send button when the channel is open
+                console.log('Data channel is open.');
+            };
+
+            sendChannel.onclose = () => {
+                sendButton.disabled = true;  // Disable the send button if the channel closes
+                console.log('Data channel is closed.');
+            };
+
+            sendChannel.onerror = (error) => {
+                console.error('Data channel error:', error);
+            };
+
+            // Set up ICE candidate handler
+            localConnection.onicecandidate = event => {
+                if (event.candidate) {
+                    localOfferTextarea.value += JSON.stringify({ candidate: event.candidate }) + '\n';
+                }
+            };
+
+            // Set up data channel for receiving messages
+            localConnection.ondatachannel = event => {
+                receiveChannel = event.channel;
+
+                receiveChannel.onmessage = event => {
+                    messages.textContent += 'Received: ' + event.data + '\n';
+                };
+
+                receiveChannel.onopen = () => {
+                    console.log('Receive channel is open.');
+                };
+
+                receiveChannel.onclose = () => {
+                    console.log('Receive channel is closed.');
+                };
+
+                receiveChannel.onerror = (error) => {
+                    console.error('Receive channel error:', error);
+                };
+            };
+
+            // Create SDP offer and display it for manual sharing
+            localConnection.createOffer().then(offer => {
+                localConnection.setLocalDescription(offer);
+                localOfferTextarea.value = JSON.stringify({ offer }) + '\n';  // Ensuring correct JSON format with newline
+            }).catch(console.error);
+        }
+
+        function setRemoteDescription() {
+            if (!localConnection) {
+                alert('Please create an offer first by clicking "Create Offer".');
+                return;
+            }
+
+            const lines = remoteOfferTextarea.value.trim().split('\n');
+
+            lines.forEach(line => {
+                if (line.trim()) {
+                    const remoteData = JSON.parse(line.trim());
+
+                    if (remoteData.offer) {
+                        localConnection.setRemoteDescription(new RTCSessionDescription(remoteData.offer)).then(() => {
+                            localConnection.createAnswer().then(answer => {
+                                localConnection.setLocalDescription(answer);
+                                localOfferTextarea.value = JSON.stringify({ answer }) + '\n';  // Ensuring correct JSON format with newline
+                            }).catch(console.error);
+                        }).catch(console.error);
+                    } else if (remoteData.answer) {
+                        localConnection.setRemoteDescription(new RTCSessionDescription(remoteData.answer)).catch(console.error);
+                    } else if (remoteData.candidate) {
+                        localConnection.addIceCandidate(new RTCIceCandidate(remoteData.candidate)).catch(console.error);
+                    }
+                }
+            });
+        }
+
+        sendButton.addEventListener('click', () => {
+            if (sendChannel.readyState === 'open') {
+                const message = messageInput.value.trim();
+                if (message) {
+                    sendChannel.send(message);
+                    messages.textContent += 'Sent: ' + message + '\n';
+                    messageInput.value = '';  // Clear input after sending
+                }
+            } else {
+                console.error('Data channel is not open. Cannot send message.');
+            }
+        });
+
+        startButton.addEventListener('click', startConnection);
+        setRemoteDescriptionButton.addEventListener('click', setRemoteDescription);
+    </script>
+</body>
+</html>
