@@ -11,6 +11,9 @@ node server.js
 ssh -R 80:127.0.0.1:3000 serveo.net
 
 
+## use peer.html !!!
+extreamly simple lib for make serverless comunication!!!
+
 
 ## instructions (run on different devices or websites)
 1. open site on first and second device.

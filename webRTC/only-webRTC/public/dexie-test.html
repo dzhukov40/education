@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dexie.js Example with Buttons</title>
+  <!-- Include dexie.js -->
+  <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
+</head>
+<body>
+  <!-- Some HTML for the log window -->
+  <a href="http://dexie.org/docs/API-Reference" target="_new">Dexie API Reference (new tab)</a>
+  <div style="float:right">Check out this
+    <a href="https://jsfiddle.net/dfahlander/5rbc996o/" target="_top">
+      await fiddle
+    </a> also!
+  </div>
+  
+  <h3>Log</h3>
+  <textarea id="log" style="width: 100%; height: 150px;"></textarea><br>
+
+  <!-- Buttons for actions -->
+  <button id="addFriend">Add Friend</button>
+  <button id="printFriends">Print All Friends</button>
+
+  <!-- Just a simple log function... -->
+  <script>
+    function log(txt) {
+      document.getElementById('log').value += txt + "\n";
+    }
+
+    // JavaScript code from js file
+    // Define database
+    var db = new Dexie("MyFriendDB");
+    db.version(1).stores({
+      friends: '++id,name,age'
+    });
+
+    log("Using Dexie v" + Dexie.semVer);
+
+    // Open database
+    db.open().catch(function (e) {
+      log("Open failed: " + e);
+    });
+
+    // Function to add a friend to the database
+    function addFriend() {
+      db.friends.add({ name: "Foo", age: 42 }).then(function () {
+        log("Friend added: Foo, age 42");
+      }).catch(function (e) {
+        log("Error adding friend: " + e);
+      });
+    }
+
+    // Function to print all friends from the database
+    function printAllFriends() {
+      db.friends.toArray().then(function (friends) {
+        if (friends.length === 0) {
+          log("No friends found.");
+        } else {
+          log("All friends: " + JSON.stringify(friends, null, 2));
+        }
+      }).catch(function (e) {
+        log("Error fetching friends: " + e);
+      });
+    }
+
+    // Attach event listeners to buttons
+    document.getElementById('addFriend').addEventListener('click', addFriend);
+    document.getElementById('printFriends').addEventListener('click', printAllFriends);
+  </script>
+</body>
+</html>
