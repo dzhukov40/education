@@ -1,0 +1,248 @@
+---
+Ресурсы:
+
+// book: System Design Interview
+  - [ https://www.amazon.de/-/en/System-Design-Interview-insiders-guide/dp/B08CMF2CQF ]
+// web site:
+  - [ https://bytebytego.com/ ]
+
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ System Design Interview ] это одна из лучших книг по системному дизайну для интервью.
+
+
+
+1) [ Chapter 1 ] SCALE FROM ZERO TO MILLIONS OF USERS
+   [ Single server setup ] 
+   - We can start with one server where all components will be inside.
+     (web app, database, cache, etc.)
+ 
+                                                                                       
+  |-----------------------------------| 
+  | User                              |
+  |                                   |
+  |    Web browser       Mobile app   |
+  |                                   |                                                
+  |-------|------------------|--------|
+          |                  |                                                          
+          |                  |
+          |                  |                                                          
+         \ /                \ /                                                                                                                                                
+  |-------x------------------x--------|                                                                                                                                                               
+  |                                   |                                                                                                                                                                                                                                                                         
+  |            Web server             |                                                                                                                                     
+  |                                   |                                                                                                                                     
+  |-----------------------------------|                                                                                                                                       
+                                                                                                                                                                            
+                                                                                                                                                                            
+   [ Database ]                                                                                                                                                                          
+   - With the growth of the user base we need another server with database.
+
+
+  |-----------------------------------| 
+  | User                              |
+  |                                   |
+  |    Web browser       Mobile app   |
+  |                                   |                                                
+  |-------|------------------|--------|
+          |                  |                                                          
+          |                  |
+          |                  |                                                          
+         \ /                \ /                                                                                                                                                
+  |-------x------------------x--------|      |------------|                                                                                                                                                         
+  |                                   |----->|            |                                                                                                                                                                                                                                                             
+  |            Web server             |      |  Database  |                                                                                                                            
+  |                                   |<-----|            |                                                                                                                         
+  |-----------------------------------|      |------------|
+
+
+   [ Which databases to use? ]                                                                                                                                                                          
+   -           database
+              /        \ 
+             /          \
+            /            \
+          SQL             \
+(Relational database)    NoSql
+- postgresql             - key-value 
+                         - graph 
+                         - column
+                         - document
+                         - timeseries
+
+
+   [ Vertical scaling vs horizontal scaling ]                                                                                                                                                                          
+   - Vertical
+     - add to one server CPU, RAM, DISCK, etc.
+     - pros: simple
+       cons: 1. impossible add millions of CPU, RAM, DISC, etc.
+             2. does not have failover and redundancy.
+   - horizontal   
+     - add more servers.
+     - pros: 1. failover
+             2. fault-tolerance  
+             3. scalable
+       cons: 1. difficult
+             2. dublication
+             3. not efficient useage of resources
+
+
+
+
+   [ Load balancer ]   
+   - we can add more servers for handeling more requests.
+   - we can balance load.
+
+  |-----------------------------------| 
+  | User                              |
+  |                                   |
+  |    Web browser       Mobile app   |
+  |                                   |                                                
+  |---------------|-------------------|
+                  |                                                                    
+                 \ /          
+            |-----x------|
+            |            | 
+            |    Load    |
+            |  balancer  |
+            |--|------|--| 
+               |      |
+          |----|      |------|
+          |                  |
+         \ /                \ /                                                                                                                                                
+  |-------x-------|  |-------x-------|                                                                                                                                                        
+  |               |  |               |                                                                                                                                                                                                                                                            
+  | Web server 1  |  | Web server 2  |                                                                                                                           
+  |               |  |               |                                                                                                                       
+  |---------------|  |---------------|
+
+
+
+   [ Database replication ]   
+   - usually we have master and slave pattern
+     master for modefy operations (update/insert)
+     slave for not modefying operations (read)
+   -...
+   - Advantages of database replication:
+     - Better performance: (more servers can handle more requests)
+     - Reliability: If one of your database servers is destroyed it is not a problem.
+     - High availability: replicating data across different locations
+     - 
+
+            |------------|
+            |            | 
+            |     Web    |
+            |   servers  |
+            |--|------|--| 
+               |      |
+       |-------|      |--------------x----x----x
+       |                             |    |    |
+       |                          reads   |    |
+       |                             |    |    |
+       |              |---------|    |    |    |
+     writes           |         |    |    |    |
+       |        |---->| Slave   |<---|    |    |
+       |        |     |   DB 1  |         |    |
+       |        |     |---------|         |    |                      
+       |        |                         |    |
+      \ /       |                         |    |                                                                                                                                                                   
+  |----x----|   |     |---------|       reads  |                                                                                                                                                        
+  |         |   |     |         |         |    |                                                                                                                                                                                                                                                           
+  | Mastrer |<--x---->| Slave   |<--------|    |                                                                                                                               
+  |   DB    |   |     |   DB 2  |              |                                                                                                                 
+  |---------|   |     |---------|              |  
+                |                              |
+                |                            reads
+                |     |---------|              |      
+                |     |         |              |       
+                |---->| Slave   |<-------------|                     
+                      |   DB 3  |                     
+                      |---------|                     
+
+
+
+  |-----------------------------------| 
+  | User                              |
+  |                                   |
+  |    Web browser       Mobile app   |
+  |                                   |                                                
+  |---------------|-------------------|
+                  |                                                                    
+                 \ /          
+            |-----x------|
+            |            | 
+            |    Load    |
+            |  balancer  |
+            |--|------|--| 
+               |      |
+          |----|      |--------|
+          |                    |
+         \ /                  \ /                                                                                                                                                
+  |-------x-------|    |-------x-------|                                                                                                                                                        
+  |               |    |               |                                                                                                                                                                                                                                                            
+  | Web server 1  |    | Web server 2  |                                                                                                                           
+  |               |    |               |                                                                                                                       
+  |-|---------|---|    |--|----------|-|
+    |         |           |        read
+  write       |-read------|----|     |
+    |    |----------write-|    |     |
+   \ /  \ /                    \ /   \ /
+|---x----x|                  |-x-----x-|                      
+|         |    Replicate     |         |                    
+| Mastrer |<---------------->| Slave   |                    
+|   DB    |                  |   DB    |                    
+|---------|                  |---------|                    
+  
+
+
+
+   [ Cache ]  
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                            
+                                                                                                                                                                            
+system-design-interview-book add summery
+
+
+
+15th page in chrome
+
+
+
+
+
+
+
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
