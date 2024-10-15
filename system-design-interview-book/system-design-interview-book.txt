@@ -254,7 +254,29 @@
 
 
    [ Content delivery network (CDN) ]
-   - A CDN is a network of geographically dispersed servers used to deliver static content
+   - A CDN is a network of geographically 
+     dispersed servers used to deliver static content.
+   - CDN servers cache static content like images, 
+     videos, CSS, JavaScript files, etc.
+   - when a user visits a website, a CDN server closest
+     to the user will deliver static content. 
+     Intuitively, the further users are from CDN servers, 
+     the slower the website loads.
+
+
+
+   [ Considerations of using a CDN ]
+   - Cost:
+     CDNs are run by third-party providers, 
+     and you are charged for data transfers in and out of the CDN
+   - Setting an appropriate cache expiry:
+     The cache expiry time should neither be too long nor too short.
+   - CDN fallback:
+     If there is a temporary CDN outage, clients should be able to detect the problem
+     and request resources from the origin.
+   - Invalidating files:
+     You can remove a file from the CDN before it expires
+
 
 
    [ Stateless web tier ]
@@ -413,6 +435,159 @@
 
 
 
+2) [ Chapter 2 ] BACK-OF-THE-ENVELOPE ESTIMATION
+   - In a system design interview, 
+     sometimes you are asked to estimate system capacity or performance requirements 
+     using a back-of-the-envelope estimation. 
+   - You need to have a good sense of scalability basics 
+     to effectively carry out back-of-theenvelope estimation.
+
+
+
+   [ Power of two ]
+   - Although data volume can become enormous when dealing with distributed systems,
+     calculation all boils down to the basics. 
+   - To obtain correct calculations, it is critical to know 
+     the data volume unit using the power of 2.
+
+
+
+   [ Latency numbers every programmer should know ]
+   - those numbers should still be able to give us an idea of the fastness 
+     and slowness of different computer operations.
+   - By analyzing the numbers, we get the following conclusions:
+     1. Memory is fast but the disk is slow.
+     2. Avoid disk seeks if possible.
+     3. Simple compression algorithms are fast.
+     4. Compress data before sending it over the internet if possible.
+     5. Data centers are usually in different regions, 
+        and it takes time to send data between them.  
+
+
+     *   | Operation name                     |   Time
+         |------------------------------------|------------------------------------  
+                                              |
+          L1 cache reference ---------------- | -> 0.5 ns
+                                              |
+          Branch mispredict ----------------- | -> 5 ns
+                                              |
+          L2 cache reference ---------------- | -> 7 ns
+                                              |
+          Mutex lock/unlock ----------------- | -> 100 ns
+                                              |
+          Main memory reference ------------- | -> 100 ns
+                                              |
+          Compress 1K bytes with Zippy ------ | -> 10,000 ns = 10 us
+                                              |
+          Send 2K bytes --------------------- | -> 20,000 ns = 20 us
+          over 1 Gbps network                 |
+                                              |
+          Read 1 MB ------------------------- | -> 250,000 ns = 250 us
+          sequentially from memory            |
+                                              |
+          Round trip within ----------------- | -> 500,000 ns = 500 us
+          the same datacenter                 |
+                                              |
+          Disk seek ------------------------- | -> 10,000,000 ns = 10 ms
+                                              |
+          Read 1 MB sequentially ------------ | -> 10,000,000 ns = 10 ms
+          from the network                    |
+                                              |
+          Read 1 MB sequentially from disk -- | -> 30,000,000 ns = 30 ms
+                                              |
+          Send packet CA (California) ------- | -> 150,000,000 ns = 150 ms
+          to Netherlands to CA                |
+
+
+
+
+   [ Availability numbers ]
+   - High availability is the ability of a system to be continuously operational 
+     for a desirably long period of time.
+   - High availability is measured as a percentage, 
+     with 100% means a service that has 0 downtime. 
+   - Most services fall between 99% and 100%.
+   
+  
+     *   | Availability %     | Downtime per day       | Downtime per year 
+         |--------------------|------------------------|-----------  
+                              |                        |
+           99% -------------- | 14.40 minutes          | 3.65 days
+                              |                        |
+           99.9% ------------ | 1.44 minutes           | 8.77 hours
+                              |                        |
+           99.99% ----------- | 8.64 seconds           | 52.60 minutes
+                              |                        |
+           99.999% ---------- | 864.00 milliseconds    | 5.26 minutes
+                              |                        |
+           99.9999% --------- | 86.40 milliseconds     | 31.56 seconds
+                              |                        |
+
+
+
+   [ Example: Estimate Twitter QPS and storage requirements ]
+   Assumptions:
+     • 300 million monthly active users.
+     • 50% of users use Twitter daily.
+     • Users post 2 tweets per day on average.
+     • 10% of tweets contain media.
+     • Data is stored for 5 years.
+   Estimations:
+   Query per second (QPS) estimate:
+     • Daily active users (DAU) = 300 million * 50% = 150 million
+     • Tweets QPS = 150 million * 2 tweets / 24 hour / 3600 seconds = ~3500
+     • Peek QPS = 2 * QPS = ~7000
+   We will only estimate media storage here.
+     • Average tweet size:
+     • tweet_id 64 bytes
+     • text 140 bytes
+     • media 1 MB
+     • Media storage: 150 million * 2 * 10% * 1 MB = 30 TB per day
+     • 5-year media storage: 30 TB * 365 * 5 = ~55 PB
+
+
+
+   [ Tips ]
+   - Back-of-the-envelope estimation is all about the process. 
+   - Solving the problem is more important than obtaining results. 
+   - Interviewers may test your problem-solving skills. 
+   - Here are a few tips to follow:
+     1. Rounding and Approximation.
+        Use round numbers and approximation to your advantage.
+     2. Write down your assumptions.
+        It is a good idea to write down your assumptions to be referenced later.
+     3. Label your units.
+        When you write down “5”, does it mean 5 KB or 5 MB?
+     4. Commonly asked back-of-the-envelope estimations. 
+        QPS, peak QPS, storage, cache, number of servers, etc. 
+        You can practice these calculations when preparing for an interview. 
+        Practice makes perfect
+
+
+
+
+3) [ Chapter 3 ] A FRAMEWORK FOR SYSTEM DESIGN INTERVIEWS
+   - The system design interview simulates real-life problem solving 
+     where two co-workers collaborate on an ambiguous problem 
+     and come up with a solution that meets their goals. 
+   - This allows you to demonstrate your design skill, 
+     defend your design choices, and respond to feedback in a constructive manner. 
+
+
+   [ A 4-step process for effective system design interview ]
+   - Every system design interview is different. 
+   - A great system design interview is open-ended 
+     and there is no one-size-fits-all solution. 
+   - However, there are steps and common ground to cover 
+     in every system design interview.
+
+
+   [ Step 1 - Understand the problem and establish design scope ]
+
+
+
+
+
 
 
 
@@ -422,7 +597,7 @@ system-design-interview-book add summery
 
 
 
-34th page in chrome
+43th page in chrome
 
 
 
