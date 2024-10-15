@@ -207,6 +207,208 @@
 
 
    [ Cache ]  
+   - A cache is a temporary storage area that stores 
+     the result of expensive responses or frequently
+     accessed data in memory so that subsequent requests 
+     are served more quickly
+
+   [ Cache tier ]
+   - The cache tier is a temporary data store layer, 
+     much faster than the database.
+
+
+
+    1. if data exists in cache, read data from cache
+              |  
+              |
+|--------|   \ /              |-------|          |----------|
+|        |<---x---------------| Cache |          |          |
+| Web    |                    |       |          | Database |
+| server |<---x---------------|       |<--x------|          |
+|--------|   / \              |-------|  / \     |----------|
+              |                           |
+              |                2.1 if date doesn't exist in cache,           
+              |                    save data to cache.
+              |
+    2.2 Return data to the web server
+
+
+
+   [ Considerations for using cache ]
+   - Decide when to use cache.
+     Consider using cache when data is read frequently but modified infrequently.
+   -...
+   - Expiration policy.
+     It is a good practice to implement an expiration policy.
+     Once cached data is expired, it is removed from the cache.  
+   -...
+   - Consistancy.
+     This involves keeping the data store and the cache in sync.
+   -...
+   - Mitigating failures
+     A single cache server represents a potential single point of failure.
+   -...
+   - Eviction Policy
+     Least-recently-used (LRU) is the most popular cache eviction policy.
+
+
+
+   [ Content delivery network (CDN) ]
+   - A CDN is a network of geographically dispersed servers used to deliver static content
+
+
+   [ Stateless web tier ]
+   - A good practice is to store session data in
+     the persistent storage such as relational database or NoSQL 
+   
+
+   [ Stateful architecture ]
+   - A stateful server and stateless server has some key differences. 
+     A stateful server remembers client data (state) from one request to the next. 
+     A stateless server keeps no state information.
+
+
+   [ Stateless architecture ]
+   - In this stateless architecture, 
+     HTTP requests from users can be sent to any web servers, which
+     fetch state data from a shared data store.
+   - A stateless system is simpler, more robust, and scalable.
+
+
+|--------|        |--------|        |--------|
+|        |        |        |        |        |
+| User A |        | User B |        | User C |
+|        |        |        |        |        |
+|---|----|        |---|----|        |---|----|
+    |                 |                 |
+    |                 |                 |
+   \ /               \ /               \ /
+|---x-----------------x-----------------x----|
+|                                            |
+|                 Web servers                |
+|                                            |
+|---------------------|----------------------|
+                      |
+                      |
+                     \ /
+                 |----x----|
+                 | Shared  |
+                 | Storage |   
+                 |---------| 
+
+
+
+   [ Data centers ]
+   - Several technical challenges must be resolved to achieve multi-data center setup:
+     1. Traffic redirection 
+        Effective tools are needed to direct traffic to the correct data center.
+     2. Data synchronization
+        A common strategy is to replicate data across multiple data centers. 
+     3. Test and deployment
+        With multi-data center setup, it is important to test your
+        website/application at different locations
+
+
+
+   [ Message queue ]
+   - It serves as a buffer and distributes asynchronous requests. 
+
+
+
+
+|----------|           |-----------|     consume   |-----------|
+|          |  publish  | Message   |-------------->|           |
+| Producer |---------->| Queue     |   subscribe   | Consumer  |
+|          |           |           |<-- - - - - - -|           |
+|----------|           |-----------|               |-----------|
+
+
+
+   [ Logging, metrics, automation ]
+   - Logging
+    Monitoring error logs is important because 
+    it helps to identify errors and problems in the system
+  - Metrics
+    1. Host level metrics: CPU, Memory, disk I/O, etc.
+    2. Aggregated level metrics: for example, the performance of the entire database tier, 
+       cache tier, etc.
+    3. Key business metrics: daily active users, retention, revenue, etc.
+  - Automation
+    Continuous integration is a good practice, in which each code
+    check-in is verified through automation, allowing teams to detect problems early
+
+
+
+   [ Database scaling ]
+   - There are two broad approaches for database scaling: 
+     vertical scaling and horizontal scaling.
+
+   [ Vertical scaling ]
+   - You can add more CPU, RAM, etc. to your database server, 
+     but there are hardware limits. 
+     If you have a large user base, a single server is not enough.
+   - Greater risk of single point of failures.
+   - The overall cost of vertical scaling is high. 
+     Powerful servers are much more expensive
+
+
+   [ Horizontal scaling ]
+   - Horizontal scaling, also known as sharding, is the practice of adding more servers.
+   (*) Sharding separates large databases into smaller, 
+       more easily managed parts called shards.
+       Each shard shares the same schema, 
+       though the actual data on each shard is unique to the shard.
+    -...
+    - The most important factor to consider when implementing a sharding strategy 
+      is the choice of the sharding key
+    -...
+    - Problems:
+      1. Resharding data
+         When shard exhaustion happens, it requires
+         updating the sharding function and moving data around
+      2. Celebrity problem
+         This is also called a hotspot key problem.
+         Imagine data for Katy Perry, Justin Bieber, 
+         and Lady Gaga all end up on the same shard.
+      3. Join and de-normalization.
+         A common workaround is to denormalize the database 
+         so that queries can be performed in a single table.
+
+
+
+                |-------------|
+                |             |
+   |------------| user_id % 4 |-----------|
+   |            |             |           |
+   |            |-------------|           |
+   |              |         |             |                    
+   |              |         |             |                    
+   |              |         |             |  
+  \ /            \ /       \ /           \ /  
+|--x--|      |----x|      |-x---|      |--x--|
+|     |      |     |      |     |      |     |
+|  0  |      |  1  |      |  2  |      |  3  |
+|     |      |     |      |     |      |     |
+|-----|      |-----|      |-----|      |-----|
+
+
+
+
+
+
+   [ Millions of users and beyond ]
+   - Scaling a system is an iterative process.
+   - To conclude this chapter, we provide a summary of how we scale
+     our system to support millions of users:
+     1 Keep web tier stateless
+     2 Build redundancy at every tier
+     3 Cache data as much as you can
+     4 Support multiple data centers
+     5 Host static assets in CDN
+     6 Scale your data tier by sharding
+     7 Split tiers into individual services
+     8 Monitor your system and use automation tools
+     
 
 
 
@@ -215,14 +417,12 @@
 
 
 
-
-                                                                                                                                                                            
                                                                                                                                                                             
 system-design-interview-book add summery
 
 
 
-15th page in chrome
+34th page in chrome
 
 
 
