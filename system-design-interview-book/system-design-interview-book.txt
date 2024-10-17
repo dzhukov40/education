@@ -752,9 +752,372 @@
 
 
 
+4) [ Chapter 4 ] DESIGN A RATE LIMITER
+
+   [ Step 1 - Understand the problem and establish design scope ]
+   - Rate limiting can be implemented using different algorithms, 
+     each with its pros and cons. 
+   - The interactions between an interviewer and a candidate help 
+     to clarify the type of rate limiters we are trying to build.
+   -...
+   - questions:
+     - What kind of rate limiter are we going to design? 
+       Is it a client-side rate limiter or server-side API rate limiter?  
+     - Does the rate limiter throttle API requests based on IP, 
+       the user ID, or other properties?
+     - What is the scale of the system? 
+       Is it built for a startup or a big company with a large user base?
+     - Will the system work in a distributed environment?
+     - Is the rate limiter a separate service 
+       or should it be implemented in application code?
+     - Do we need to inform users who are throttled?
+ 
+   [ Requirements ]
+   - Here is a summary of the requirements for the system:
+     - Accurately limit excessive requests.
+     - Low latency. 
+       The rate limiter should not slow down HTTP response time.
+     - Use as little memory as possible.
+     - Distributed rate limiting. 
+       The rate limiter can be shared across multiple servers or processes.
+     - Exception handling. 
+       Show clear exceptions to users when their requests are throttled.
+     - High fault tolerance. 
+       If there are any problems with the rate limiter 
+       (for example, a cacheserver goes offline), it does not affect the entire system.
 
 
 
+
+   [ Step 2 - Propose high-level design and get buy-in ]
+   - Let us keep things simple and use a basic client and server model for communication.
+
+   [ Where to put the rate limiter? ]
+   - We have three options client-side, middleware, server-side.
+    
+    1. on client side
+
+|-------------------|                                        |-------------|
+|         |         |                                        |             |
+| Client  | Rate    |--------------------------------------> | API Servers |
+|         | limiter |                                        |             |
+|-------------------|                                        |-------------|
+
+
+    2. on middleware
+
+|-------------------|           |-------------|              |-------------|
+|                   |           |             |              |             |
+| Client            |---------->| Raye        |------------> | API Servers |
+|                   |           | limiter     |              |             |
+|-------------------|           |-------------|              |-------------|
+
+
+    3. on server side
+
+|-------------------|                                        |-----------------------|
+|                   |                                        |         |             |
+| Client            |--------------------------------------->| Rate    | API Servers |
+|                   |                                        | limiter |             |
+|-------------------|                                        |-----------------------|
+
+  - (*) API gateway
+    - Cloud microservices have become widely popular 
+      and rate limiting is usually implemented within a component called API gateway.
+    - API gateway is a fully managedservice that supports:
+      rate limiting, 
+      SSL termination, 
+      authentication, 
+      IP whitelisting, 
+      servicing static content, 
+      etc. 
+    - For now, we only need to know that the API gateway is a middleware 
+      that supports rate limiting.
+  -...  
+  - While designing a rate limiter, an important question to ask ourselves is: 
+    where should the rater limiter be implemented, on the server-side or in a gateway?
+    Here are a few general guidelines:
+    1. Evaluate your current technology stack, such as programming language, 
+       cache service, etc. 
+       Make sure your current programming language is efficient 
+       to implement rate limiting on the server-side.
+    2. Identify the rate limiting algorithm that fits your business needs.
+    3. If you have already used microservice architecture 
+       and included an API gateway in the design to perform authentication, 
+       IP whitelisting, etc., you may add a rate limiter to the API gateway.
+    4. Building your own rate limiting service takes time. 
+       If you do not have enough engineering resources to implement a rate limiter, 
+       a commercial API gateway is a better option. 
+
+
+
+   [ Algorithms for rate limiting ]
+   - Rate limiting can be implemented using different algorithms, 
+     and each of them has distinct pros and cons.
+     Here is a list of popular algorithms:
+     1. Token bucket
+     2. Leaking bucket
+     3. Fixed window counter
+     4. Sliding window log
+     5. Sliding window counter
+
+
+
+   [ High-level architecture ]
+   - The basic idea of rate limiting algorithms is simple. 
+     At the high-level, we need a counter to keep track of how many requests 
+     are sent from the same user, IP address, etc. 
+     If the counter is larger than the limit, the request is disallowed.
+   -...
+   - Where shall we store counters? 
+     Using the database is not a good idea due to slowness of disk access. 
+     In-memory cache is chosen because it is fast 
+     and supports time-based expiration strategy. 
+     For instance, Redis  is a popular option to implement rate limiting. 
+     It is an inmemory store.
+
+
+
+
+|-------------------|           |-------------|              |-------------|
+|                   |           |             |              |             |
+| Client            |---------->| Raye        |------------> | API Servers |
+|                   |           | limiter     |              |             |
+|-------------------|           |-------x-----|              |-------------|
+                                       / \
+                                        |
+                                        |
+                                       \ /
+                                |-------x-----|
+                                |             |
+                                | Redis       |
+                                |             |
+                                |-------------|
+
+
+   (*)
+   - The client sends a request to rate limiting middleware.
+   - Rate limiting middleware fetches the counter from the corresponding bucket in Redis and
+     checks if the limit is reached or not.
+   - If the limit is reached, the request is rejected.
+   - If the limit is not reached, the request is sent to API servers. 
+     Meanwhile, the system increments the counter and saves it back to Redis.
+
+
+
+
+   [ Step 3 - Design deep dive ]
+   - The high-level design in Figure does not answer the following questions:
+     1. How are rate limiting rules created? 
+        Where are the rules stored?
+     2. How to handle requests that are rate limited?
+   -...
+   - In this section, we will first answer the questions regarding rate limiting rules 
+     and then go over the strategies to handle rate-limited requests. 
+   - Finally, we will discuss rate limiting in distributed environment, 
+     a detailed design, performance optimization and monitoring.
+
+   [ Rate limiting rules ]
+   - We will peek inside of the component 
+     and look at some examples of rate limiting rules:
+   - excample:
+       domain: messaging
+       descriptors:
+        - key: message_type
+        Value: marketing
+        rate_limit:
+        unit: day
+        requests_per_unit: 5 
+   
+
+   [ Exceeding the rate limit ]
+   - In case a request is rate limited, 
+     APIs return a HTTP response code 429 (too many requests) to the client.
+
+   [ Rate limiter headers ]
+   - How does a client know whether it is being throttled? 
+     And how does a client know the number of allowed remaining requests 
+     before being throttled? 
+     The answer lies in HTTP response headers. 
+
+
+
+   [ Detailed design ]
+                                                                                                                                                               
+                                                             |-------------|                    
+                                                             |             |                    
+                                                             | Rules       |                    
+                                                             |             |                    
+                                                             |------x------|                    
+                                                                   / \            
+                                                                    |                                                                             
+                                |-------------|              |------|------|                                  
+                                |             |              |             |                                  
+                                | Cahed rules |<-------------| Workers     |                                  
+                                |             |              |             |                                  
+                                |-------|-----|              |-------------|                                  
+                                        |                                     
+                                        |                                      
+                                       \ /                                                                              
+|-------------------|           |-------x-----|              |-------------|
+|                   |           |             |              |             |
+| Client            |---------->| Raye        |------------> | API Servers |
+|                   |           | limiter     |              |             |
+|-------------------|           |-|-----x-----|              |-------------|
+                                  |    / \
+                                  |     |
+                                  |     |----------------------------|
+                                  |                                 \ /
+                                  |                          |-------x-----|
+                                  |                          |             |
+                             2 options:                      | Redis       |
+                             - request dropped               |             |
+                             - send to message queue         |-------------|
+
+
+
+   (*)
+   - Rules are stored on the disk. Workers frequently pull rules 
+     from the disk and store them in the cache.
+   - When a client sends a request to the server, 
+     the request is sent to the rate limiter middleware first.
+   - Rate limiter middleware loads rules from the cache. 
+     It fetches counters and last request timestamp from Redis cache. 
+     Based on the response, the rate limiter decides:
+     - if the request is not rate limited, it is forwarded to API servers.
+     - if the request is rate limited, 
+       the rate limiter returns 429 too many requests error to the client. 
+       In the meantime, the request is either dropped or forwarded to the queue.
+
+
+
+   [ Rate limiter in a distributed environment ]
+   - Building a rate limiter that works in a single server environment is not difficult. 
+     However, scaling the system to support multiple servers 
+     and concurrent threads is a different story.
+     There are two challenges:
+       1. Race condition
+       2. Synchronization issue
+
+
+   [ Race condition ]
+   - As discussed earlier, rate limiter works as follows at the high-level:
+     1. Read the counter value from Redis.
+     2. Check if ( counter + 1 ) exceeds the threshold.
+     3. If not, increment the counter value by 1 in Redis
+   -...
+   - Locks are the most obvious solution for solving race condition. 
+     However, locks will significantly slow down the system. 
+     Two strategies are commonly used to solve the problem: ...
+     
+
+   [ Synchronization issue ]
+   - Synchronization is another important factor to consider in a distributed environment. 
+     To support millions of users, 
+     one rate limiter server might not be enough to handle the traffic.
+     When multiple rate limiter servers are used, synchronization is required.
+
+
+
+|----------|           |-------------|             |----------|           |-------------|
+|          |           |             |             |          |           |             |
+| Client 1 |---------->| Raye        |             | Client 1 |------|    | Raye        |
+|          |           | limiter     |             |          |  |---x--->| limiter     |
+|----------|           |-------------|             |----------|  |   |    |-------------|
+                                                                 |   |                         
+|----------|           |-------------|             |----------|  |   |    |-------------|
+|          |           |             |             |          |  |   |--->|             |
+| Client 2 |---------->| Raye        |             | Client 2 |--|        | Raye        |
+|          |           | limiter     |             |          |           | limiter     |
+|----------|           |-------------|             |----------|           |-------------|
+
+
+
+   (*)
+   - approach is to use centralized data stores like Redis
+
+
+|----------|           |-------------|         |--------| 
+|          |           |             |         |        |
+| Client 1 |---------->| Raye        |-------->|        |
+|          |           | limiter     |         |        |
+|----------|           |-------------|         |        |
+                                               | Redis  |
+|----------|           |-------------|         |        | 
+|          |           |             |         |        | 
+| Client 2 |---------->| Raye        |-------->|        | 
+|          |           | limiter     |         |        |    
+|----------|           |-------------|         |--------| 
+
+
+
+
+   [ Performance optimization ]
+   - Performance optimization is a common topic in system design interviews. 
+    We will cover two areas to improve.
+    1. First, multi-data center setup is crucial for a rate limiter 
+       because latency is high for users located far away from the data center. 
+       Most cloud service providers build many edge server locations around the world. 
+    2. Second, synchronize data with an eventual consistency model. 
+
+
+
+   [ Monitoring ]
+   - After the rate limiter is put in place, 
+     it is important to gather analytics data to check whether the rate limiter is effective. 
+     Primarily, we want to make sure:
+     - The rate limiting algorithm is effective.
+     - The rate limiting rules are effective
+
+
+   [ Step 4 - Wrap up ]
+   - In this chapter, we discussed different algorithms of rate limiting and their pros/cons.
+     Algorithms discussed include:
+     - Token bucket
+     - Leaking bucket
+     - Fixed window
+     - Sliding window log
+     - Sliding window counter
+   -...
+   - Then, we discussed the system architecture, rate limiter in a distributed environment,
+     performance optimization and monitoring. 
+     Similar to any system design interview questions, 
+    there are additional talking points you can mention if time allows:
+    - Hard vs soft rate limiting.
+    - Hard: The number of requests cannot exceed the threshold.
+    - Soft: Requests can exceed the threshold for a short period.
+    - Rate limiting at different levels. In this chapter, 
+      we only talked about rate limiting at the application level (HTTP: layer 7). 
+      It is possible to apply rate limiting at other layers. 
+      For example, you can apply rate limiting by IP addresses using Iptables [15] (IP: layer 3).
+      Note: The Open Systems Interconnection model (OSI model) has 7 layers [16]: 
+      Layer 1: Physical layer, 
+      Layer 2: Data link layer, 
+      Layer 3: Network layer, 
+      Layer 4: Transport layer,
+      Layer 5: Session layer, 
+      Layer 6: Presentation layer, 
+      Layer 7: Application layer.
+    -...
+    - Avoid being rate limited. Design your client with best practices:
+      1. Use client cache to avoid making frequent API calls.
+      2. Understand the limit and do not send too many requests in a short time frame.
+      3. Include code to catch exceptions or errors 
+         so your client can gracefully recover from exceptions.
+      4. Add sufficient back off time to retry logic.
+
+
+
+
+
+
+5) [ Chapter 5 ] DESIGN CONSISTENT HASHING
+   - To achieve horizontal scaling, 
+     it is important to distribute requests/data efficiently and evenly across servers. 
+     Consistent hashing is a commonly used technique to achieve this goal.
+
+
+   [ The rehashing problem ]
 
 
 
@@ -777,7 +1140,7 @@ system-design-interview-book add summery
 
 
 
-51th page in chrome
+71th page in chrome
 
 
 
