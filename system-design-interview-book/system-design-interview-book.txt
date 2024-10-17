@@ -583,6 +583,186 @@
 
 
    [ Step 1 - Understand the problem and establish design scope ]
+   - Slow down. 
+   - Think deeply and ask questions to clarify requirements and assumptions.
+   - Here is a list of questions to help you get started:
+     1. What specific features are we going to build?
+     2. How many users does the product have?
+     3. How fast does the company anticipate to scale up? 
+        What are the anticipated scales in 3 months, 6 months, and a year?
+     4. What is the company’s technology stack? 
+        What existing services you might leverage to simplify the design?
+
+
+  
+   [ Example ]
+   - If you are asked to design a news feed system, 
+     you want to ask questions that help you clarify the requirements.
+   - questions:
+     1. Is this a mobile app? Or a web app? Or both?
+     2. What are the most important features for the product?
+     3. How many friends can a user have? 
+     4. What is the traffic volume?
+     5. Can feed contain images, videos, or just text?
+
+
+   [ Step 2 - Propose high-level design and get buy-in ]
+   - In this step, we aim to develop a high-level design 
+     and reach an agreement with the interviewer on the design.
+     1. Come up with an initial blueprint for the design.
+        Ask for feedback.
+        Treat your interviewer as a teammate and work together.
+     2. Draw box diagrams with key components on the whiteboard or paper.
+        This might include clients (mobile/web), 
+        APIs, web servers, data stores, cache, CDN, message queue, etc.
+     3. Do back-of-the-envelope calculations to evaluate 
+        if your blueprint fits the scale constraints.
+   - Should we include API endpoints and database schema here? 
+     This depends on the problem.
+     For large design problems like “Design Google search engine”, 
+     this is a bit of too low level.
+  
+   [ Example ]
+   - Let us use “Design a news feed system” to demonstrate 
+     how to approach the high-level design.
+   - At the high level, the design is divided into two flows: 
+     1. feed publishing.
+     2. news feed building.
+
+
+
+
+  |-----------------------------------| 
+  | User                              |
+  |                                   |
+  |    Web browser       Mobile app   |
+  |                                   |                                                
+  |---------------|-------------------|
+                  |                                                                    
+                 \ /          
+            |-----x------|
+            |            | 
+            |    Load    |
+            |  balancer  |
+            |-----|------| 
+                  |   
+                  |
+                 \ /                                                                                                                                                          
+          |-------x-------|                                                                                                                                                         
+          |               |                                                                                                                                                                                                                                                       
+          | Web server 1  |                                                                                                                      
+          |               |                                                                                                                 
+          |-|-------|---|-|  
+            |       |   |---------|
+    |-------|       |             |
+   \ /             \ /           \ /
+|---x-----|    |----x----|    |---x----------|                       
+|         |    |         |    |              |           
+| Post    |    | Fanout  |    | Notification |                     
+| Service |    | Service |    | Service      |                     
+|---|-----|    |---|-----|    |--------------|   
+    |              |
+    |              |
+   \ /            \ /
+|---x-----|    |---x-----|
+|         |    |         |
+| Post    |    | Post    |
+| Cache   |    | Cache   |
+|---|-----|    |---------|
+    |
+    |
+   \ /
+|---x-----|
+|         |
+| Post    |
+| DB      |
+|---------|
+
+
+
+
+   [ Step 3 - Design deep dive ]
+   At this step, you and your interviewer should have already achieved 
+   the following objectives:
+   1. Agreed on the overall goals and feature scope
+   2. Sketched out a high-level blueprint for the overall design
+   3. Obtained feedback from your interviewer on the high-level design
+   4. Had some initial ideas about areas to focus on 
+      in deep dive based on her feedback
+   -...
+   - Try notto get into unnecessary details. 
+     For example, talking about the EdgeRank algorithm of Facebook feed 
+     ranking in detail is not ideal during a system design interview as this takes
+     much precious time and does not prove your ability in designing a scalable system.
+
+
+
+   [ Step 4 - Wrap up ]
+   - In this final step, the interviewer might ask you a few follow-up questions 
+     or give you the freedom to discuss other additional points. 
+     Here are a few directions to follow:
+     1. The interviewer might want you to identify the system bottlenecks 
+        and discuss potential improvements.
+        Never say your design is perfect and nothing can be improved 
+     2. It could be useful to give the interviewer a recap of your design.
+     3. Error cases (server failure, network loss, etc.) are interesting to talk about.
+     4. Operation issues are worth mentioning. How do you monitor metrics and error logs?
+        How to roll out the system?
+     5. How to handle the next scale curve is also an interesting topic. 
+        For example, if your current design supports 1 million users, 
+        what changes do you need to make to support 10 million users?
+     6. Propose other refinements you need if you had more time.
+  -...
+  - To wrap up, we summarize a list of the Dos and Don’ts.
+    Dos:
+    1. Always ask for clarification. Do not assume your assumption is correct.
+    2. Understand the requirements of the problem.
+    3. There is neither the right answer nor the best answer.
+    4. Let the interviewer know what you are thinking. 
+       Communicate with your interview.
+    5. Suggest multiple approaches if possible. 
+    6. Once you agree with your interviewer on the blueprint, 
+       go into details on each component. 
+       Design the most critical components first.
+    7. Bounce ideas off the interviewer. 
+       A good interviewer works with you as a teammate
+    8. Never give up.
+    -...
+    Donts:
+    1. Don't be unprepared for typical interview questions
+    2. Don’t jump into a solution without clarifying the requirements and assumptions.
+    3. Don’t go into too much detail on a single component in the beginning. 
+       Give the highlevel design first then drills down.
+    4. If you get stuck, don't hesitate to ask for hints.
+    5. Again, communicate. Don't think in silence.
+    6. Don’t think your interview is done once you give the design. 
+       You are not done until your interviewer says you are done. 
+       Ask for feedback early and often.
+
+
+   [ Time allocation on each step ]
+   - System design interview questions are usually very broad, 
+     and 45 minutes or an hour is not enough to cover the entire design.
+     - Step 1 Understand the problem and establish design scope: 3 - 10 minutes
+     - Step 2 Propose high-level design and get buy-in: 10 - 15 minutes
+     - Step 3 Design deep dive: 10 - 25 minutes
+     - Step 4 Wrap: 3 - 5 minutes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -597,7 +777,7 @@ system-design-interview-book add summery
 
 
 
-43th page in chrome
+51th page in chrome
 
 
 
