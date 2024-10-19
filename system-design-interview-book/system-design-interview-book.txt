@@ -1115,17 +1115,328 @@
    - To achieve horizontal scaling, 
      it is important to distribute requests/data efficiently and evenly across servers. 
      Consistent hashing is a commonly used technique to achieve this goal.
+ 
+    #         #
+    #         #
+    #         # 
+    #         #
+    #  Skip   #
+    #         #
+    #         #
+    #         #
+    #         #
+
+6) [ Chapter 6 ] DESIGN A KEY-VALUE STORE
+
+    #         #
+    #         #
+    #         # 
+    #         #
+    #  Skip   #
+    #         #
+    #         #
+    #         #
+    #         #
+
+7) [ Chapter 7 ] DESIGN A UNIQUE ID GENERATOR IN DISTRIBUTED SYSTEMS
+
+    #         #
+    #         #
+    #         # 
+    #         #
+    #  Skip   #
+    #         #
+    #         #
+    #         #
+    #         #
+
+8) [ Chapter 8 ] DESIGN A URL SHORTENER
+   - In this chapter, 
+     we will tackle an interesting and classic system design interview question:
+     designing a URL shortening service like tinyurl.
 
 
-   [ The rehashing problem ]
+   [ Step 1 - Understand the problem and establish design scope ]
+   - questions:
+     1. Can you give an example of how a URL shortener work?
+     2. What is the traffic volume?
+     3. How long is the shortened URL?
+     4. What characters are allowed in the shortened URL?
+     5. Can shortened URLs be deleted or updated?
+   - Here are the basic use cases:
+     1. URL shortening: given a long URL => return a much shorter URL
+     2. URL redirecting: given a shorter URL => redirect to the original URL
+     3. High availability, scalability, and fault tolerance considerations
+
+
+   [ Back of the envelope estimation ]
+   - Write operation: 100 million URLs are generated per day.
+   - Write operation per second: 100 million / 24 /3600 = 1160
+   - Read operation: 
+     Assuming ratio of read operation to write operation is 10:1, 
+     read operation per second: 1160 * 10 = 11,600
+   - Assuming the URL shortener service will run for 10 years, 
+     this means we must support 100 million * 365 * 10 = 365 billion records.
+   - Assume average URL length is 100.
+   - Storage requirement over 10 years: 365 billion * 100 bytes * 10 years = 365 TB
+
+
+   [ Step 2 - Propose high-level design and get buy-in ]
+
+   [ API Endpoints ]
+   - API endpoints facilitate the communication between clients and servers.
+   - A URL shortener primary needs two API endpoints.
+     1. URL shortening. 
+        To create a new short URL, a client sends a POST request, 
+        which contains one parameter: 
+        the original long URL. The API looks like this:
+        
+          POST api/v1/data/shorten
+          • request parameter: {longUrl: longURLString}
+          • return shortURL 
+     ...
+     2. URL redirecting. 
+        To redirect a short URL to the corresponding long URL, 
+        a client sends a GET request. 
+        The API looks like this:
+
+          GET api/v1/shortUrl
+          • Return longURL for HTTP redirection
+          (*)
+            we can return 301 - statuse code
+            and put original url to header "location"
+
+
+   [ URL shortening ]
+   - To support the URL shortening use case, 
+     we must find a hash function fx that maps a long URL to the hashValue.
+   - The hash function must satisfy the following requirements:
+     - Each longURL must be hashed to one hashValue.
+     - Each hashValue can be mapped back to the longURL 
+
+
+   [ Step 3 - Design deep dive ]
+   - In this section, we dive deep into the following: 
+     data model, hash function, URL shortening and URL redirecting.
+
+   [ Data model ]
+   - we should store shortURL and longURL in database.
+     url table:
+      PK id (auto increment)
+         shortURL
+         longURL 
+
+
+   [ Hash function ]
+   - Hash function is used to hash a long URL to a short URL, also known as hashValue.
+
+   [ Hash value length ]
+   - The hashValue consists of characters 
+     from [0-9, a-z, A-Z], containing 10 + 26 + 26 = 62 possible characters.
+
+     lengthOfHash        Maximum number or URLs
+       1                   62^1 = 62   
+       2                   62^2 = 3,844
+                ...
+       7                   62^7 = 3,521,614,606,208 = ~ 3.5 trillion
+      
+      (*) When n = 7, 62 ^ n = ~3.5 trillion, 
+          3.5 trillion is more than enough to hold 365 billion URLs, 
+          so the length of hashValue is 7
+
+
+
+   [ Hash + collision resolution ]
+   - To shorten a long URL, 
+     we should implement a hash function 
+     that hashes a long URL to a 7- character string. 
+     A straightforward solution is to use well-known hash functions 
+     like CRC32, MD5, or SHA-1.
+   - even the shortest hash value (from CRC32) is too long (more than 7characters). 
+     How can we make it shorter?
+     To resolve hash collisions, we can recursively append a new predefined string 
+     until no more collision is discovered.
+
+
+|-------|     |---------|     |----------|     |----------|                                                         
+|       |     |         |     |          |     |          |                                                         
+| Start |---->| input:  |---->| hash     |---->| ShortUrl |                                                         --->
+|       |     | longURL |     | function |     |          |                                                          
+|-------|     |---x-----|     |----------|     |-----|----|                                                         
+                 / \                                 |           
+                  |                                  |            
+                  |                                  |            
+                  |                                  |            
+                  |                                 \ /            
+          |-------|-----|                    |-------x-------|  
+          | LongUrl +   |       yes          |               |  
+          | predefined  |<-------------------| Exist in DB ? |  
+          | string      |   has collision    |               |  
+          |-------------|                    |-------|-------|  
+                                                     |       
+                                                     | no       
+                                                     |       
+                                                    \ /       
+                                               |-----x-------|
+                                               |             |
+                                               | Save to DB  |
+                                               |             |
+                                               |-----|-------|                                                             
+                                                     |       
+                                                     |       
+                                                    \ /       
+                                                 |---x---|
+                                                 |       |
+                                                 | End   |
+                                                 |       |
+                                                 |-------|                                                              
+                                                             
+   - This method can eliminate collision; 
+     however, it is expensive to query the database to check 
+     if a shortURL exists for every request. 
+     A technique called bloom filters can improve performance. 
+     A bloom filter is a space-efficient probabilistic technique to test 
+     if an element is a member of a set.                                                              
+                                                                 
+                                                                 
+   [ Base 62 conversion ] 
+   - Base conversion is another approach commonly used for URL shorteners.
+     Let us use an example to explain how the conversion works: 
+     convert 1115710 to base 62 representation
+     1. From its name, base 62 is a way of using 62 characters for encoding. 
+        The mappings are:
+        0-0, ..., 9-9, 10-a, 11-b, ..., 35-z, 36-A, ..., 61-Z, 
+        where ‘a’ stands for 10, ‘Z’ stands for 61, etc.
+
+
+        base 62 representation:               
+                        2         1          0
+     2. 11157   = 2 x 62 + 55 x 62  + 59 x 62 = [2, 55, 59] -> [2, T, X] in base 62
+             10
+
+
+   [ Comparison of the two approaches ] 
+
+   Hash + collision resolution      |   Base 62 conversion
+                                    |
+    Fixed short URL length          |     The short URL length is not fixed. 
+                                          It goes up with the ID.
+    
+    It does not need a unique ID          This option depends on a unique ID
+    generator.                            generator.
+
+    
+    Collision is possible                 Collision is impossible because ID 
+    and must be resolved.                 is unique.
+    
+    
+    It is impossible to figure out        It is easy to figure out the next available
+    the next available short URL          short URL if ID increments by 1 for a new entry.
+    because it does                       This can be a security concern.
+    not depend on ID.
+
+
+   [ URL shortening deep dive ] 
+   As one of the core pieces of the system, 
+   we want the URL shortening flow to be logically simple and functional.
+   Base 62 conversion is used in our design.
+ 
+
+|------------|              |--------------------|        |--------------------|                                                         
+|            |              |                    |  yes   |                    |                                                         
+| 1. input:  |------------->| 2. longURL in DB ? |------->| 3. return shortURL |                                                         --->
+|    longURL |              |                    |        |                    |                                                          
+|------------|              |---------|----------|        |--------------------|                                                         
+                                 |           
+                                 |  no                     
+                                 |            
+                                \ /            
+                         |-------x-------|  
+                         |               |  
+                         | 4. Generate a |  
+                         |    new ID     |  
+                         |-------|-------|  
+                                 |           
+                                 |       
+                                \ /       
+                           |-----x------------|
+                           |                  |
+                           | 5. Convert ID to |
+                           |    shortURL      |
+                           |-----|------------|                                                             
+                                 |       
+                                 |       
+                                \ /       
+                             |---x--------------|
+                             |                  |
+                             | 6. Save ID,      |
+                             |    shortURL,     |
+                             |    longURL in DB |
+                             |------------------| 
+
+
+
+   [ URL redirect deep dive ] 
+
+
+
+  |-----------------------------------| 
+  | User                              |
+  |                                   |
+  |    Web browser       Mobile app   |
+  |                                   |                                                
+  |---------------|-------------------|
+                  |                                                                    
+                 \ /          
+            |-----x------|
+            |            | 
+            |    Load    |
+            |  balancer  |
+            |--|------|--| 
+               |      |
+          |----|      |------|
+          |                  |
+         \ /                \ /                                                                                                                                                
+  |-------x-------|  |-------x-------|         |-------x-------|                                                                                                                                                        
+  |               |  |               |         |               |                                                                                                                                                                                                                                                            
+  | Web server 1  |  | Web server 2  |  .....  | Web server n  |                                                                                                                          
+  |               |  |               |         |               |                                                                                                                       
+  |---------------|  |---------------|         |---------------|
+   
+
+                   |
+                   |
+          |--------|---------|
+         \ /                \ /
+  |-------x-------|  |-------x-------|                                                                                                                                                        
+  |               |  |               |                                                                                                                                                                                                                                                            
+  |    Cache      |  |      DB       |                                                                                                                           
+  |               |  |               |                                                                                                                       
+  |---------------|  |---------------|
 
 
 
 
-
-
-
-
+   [ Step 4 - Wrap up ] 
+   - If there is extra time at the end of the interview, 
+     here are a few additional talking points.
+     1. Rate limiter: 
+        A potential security problem 
+        we could face is that malicious users send 
+        an overwhelmingly large number of URL shortening requests. 
+     2. Web server scaling: 
+        Since the web tier is stateless, 
+        it is easy to scale the web tier by adding or removing web servers.
+     3. Database scaling: 
+        Database replication and sharding are common techniques.
+     4. Analytics: 
+        Data is increasingly important for business success. 
+        Integrating an analytics solution to the URL shortener could help 
+        to answer important questions like how many people click on a link? 
+        When do they click the link? etc.
+     5. Availability, consistency, and reliability. 
+        These concepts are at the core of any large system’s success. 
+ 
 
 
 
@@ -1140,7 +1451,7 @@ system-design-interview-book add summery
 
 
 
-71th page in chrome
+119th page in chrome
 
 
 
