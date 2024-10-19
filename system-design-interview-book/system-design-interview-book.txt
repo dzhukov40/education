@@ -1440,7 +1440,510 @@
 
 
 
+9) [ Chapter 9 ] DESIGN A WEB CRAWLER
 
+    #         #
+    #         #
+    #         # 
+    #         #
+    #  Skip   #
+    #         #
+    #         #
+    #         #
+    #         #
+
+
+10) [ Chapter 10 ] DESIGN A NOTIFICATION SYSTEM
+    - A notification alerts a user with important information 
+      like breaking news, product updates, events, offerings, etc. 
+      It has become an indispensable part of our daily life.
+    
+    - A notification is more than just mobile push notification. 
+      Three types of notification formats are: 
+      mobile push notification, SMS message, and Email.
+
+
+   [ Step 1 - Understand the problem and establish design scope ] 
+   - Building a scalable system that sends out 
+     millions of notifications a day is not an easy task. 
+     It requires a deep understanding of the notification ecosystem.
+   
+   - questions:
+     - What types of notifications does the system support?
+     - Is it a real-time system? 
+     - What are the supported devices?
+     - What triggers notifications?
+     - Will users be able to opt-out?   
+     - How many notifications are sent out each day?
+
+
+
+   [ Step 2 - Propose high-level design and get buy-in ] 
+   - This section shows the high-level design 
+     that supports various notification types: 
+     iOS push notification, Android push notification, SMS message, and Email. 
+     It is structured as follows:
+     - Different types of notifications
+     - Contact info gathering flow
+     - Notification sending/receiving flow
+
+
+   [ Different types of notifications ] 
+   - We start by looking at how each notification type works at a high level.
+
+   [ iOS push notification ] 
+    
+|------------|              |--------------------|        |--------------------|                                                         
+|            |              |                    |        |                    |                                                         
+| Provider   |------------->| APNs               |------->| IOS                |                                                         --->
+|            |              |                    |        |                    |                                                          
+|------------|              |--------------------|        |--------------------|   
+
+   
+   - We primary need three components to send an iOS push notification:
+     1. Provider
+     - Device token:
+       This is a unique identifier used for sending push notifications.
+     - Payload:  
+       This is a JSON dictionary that contains a notification’s payload.
+
+     2. APNS:    
+     - This is a remote service provided by Apple 
+       to propagate push notifications to iOS devices.
+
+     3. iOS Device: 
+     - It is the end client, which receives push notifications. 
+
+
+   [ Android push notification ] 
+   - Android adopts a similar notification flow. 
+     Instead of using APNs, Firebase Cloud Messaging(FCM) 
+     is commonly used to send push notifications to android devices.
+
+|------------|              |--------------------|        |--------------------|                                                         
+|            |              |                    |        |                    |                                                         
+| Provider   |------------->| FMC                |------->| Android            |                                                         --->
+|            |              |                    |        |                    |                                                          
+|------------|              |--------------------|        |--------------------|   
+
+
+   [ SMS message ] 
+   - For SMS messages, third party SMS services like Twilio, Nexmo, 
+     and many others are commonly used.
+
+
+|------------|              |--------------------|        |--------------------|                                                         
+|            |              |                    |        |                    |                                                         
+| Provider   |------------->| SMS Service        |------->| Sms                |                                                         --->
+|            |              |                    |        |                    |                                                          
+|------------|              |--------------------|        |--------------------|  
+
+
+   [ Email ] 
+   - Although companies can set up their own email servers, 
+     many of them opt for commercial email services. 
+     Sendgrid and Mailchimp.
+
+
+|------------|              |--------------------|        |--------------------|                                                         
+|            |              |                    |        |                    |                                                         
+| Provider   |------------->| Email Service      |------->| Email              |                                                         --->
+|            |              |                    |        |                    |                                                          
+|------------|              |--------------------|        |--------------------|  
+
+
+   [ Contact info gathering flow ] 
+   - To send notifications, we need to gather mobile device tokens, 
+     phone numbers, or emailaddresses. 
+     When a user installs our app or signs up for the first time,
+     API servers collect user contact info and store it in the database. 
+
+
+|------|     |---------------|     |--------------------|     |---------------|                                                                                         
+|      |     |               |     |                    |     |               |                                                                                         
+| User |---->| Load balancer |---->| API servers        |---->| DB            |                                                                                         --->
+|      |     |               |     |                    |     |               |                                                                                          
+|------|     |---------------|     |--------------------|     |---------------|                                  
+
+
+
+
+
+
+
+
+
+|---------|
+|         |
+| Service |-------|
+|    1    |       |
+|---------|       |
+                  |
+                  |
+                 \ /
+|---------|     |-x-------------|     |--------------------|     |---------------|                                                                                         
+|         |     |               |     |                    |     |               |                                                                                         
+| Service |---->| Notification  |---->| Third Party        |---->| Device        |                                                                                         --->
+|    2    |     | System        |     | Services           |     |               |                                                                                          
+|---------|     |-x-------------|     |--------------------|     |---------------|   
+                 / \
+                  |
+                  |
+|---------|       |
+|         |       |
+| Service |-------|
+|    n    |
+|---------|
+
+
+   [ Service 1 to N ] 
+   - A service can be a micro-service, a cron job, or a distributed system that
+     triggers notification sending events.
+
+   [ Notification system ] 
+   - The notification system is the centerpiece of sending/receiving notifications. 
+   - Starting with something simple, only one notification server is used. 
+     It provides APIs for services 1 to N, 
+     and builds notification payloads for third party services. 
+
+   [ Third-party services ] 
+   - Third party services are responsible for delivering notifications to users.
+
+   [ iOS, Android, SMS, Email ] 
+   - Users receive notifications on their devices. 
+     Three problems are identified in this design:
+     1. Single point of failure (SPOF): 
+        A single notification server means SPOF.
+     2. Hard to scale: 
+        The notification system handles everything related 
+        to push notifications in one server. 
+        It is challenging to scale databases, caches, 
+        and different notification processing components independently.
+     3. Performance bottleneck:
+        Processing and sending notifications can be resource intensive. 
+
+   [ High-level design (improved) ] 
+   - After enumerating challenges in the initial design, 
+     we improve the design as listed below:
+     1. Move the database and cache out of the notification server.
+     2. Add more notification servers and set up automatic horizontal scaling.
+     3. Introduce message queues to decouple the system components.
+
+
+
+                                  |---------|   |---------|                    
+|---------|                       |         |   |         |                         
+|         |                    |->| IOS     |-->| Workers |--|               
+| Service |----|               |  | queue   |   |         |  |                    
+|    1    |    |               |  |---------|   |---------|  |                                                  
+|---------|    |               |                             |               
+               |               |  |---------|   |---------|  |          
+               |               |  |         |   |         |  |        
+              \ /              |->| Android |-->| Workers |--|           
+|---------|   |-x------------| |  | queue   |   |         |  |   |-------------|                                                                                         
+|         |   |              | |  |---------|   |---------|  |   |             |                                                                                         
+| Service |-->| Notification |-X                             |-->| Third Party |          
+|    2    |   | System       | |  |---------|   |---------|  |   | Services    |                                                                                          
+|---------|   |-x------|-----| |  |         |   |         |  |   |-----|-------|   
+              / \      |       |->| SMS     |-->| Workers |--|         |        
+               |       |       |  | queue   |   |         |  |         |            
+               |       |       |  |---------|   |---------|  |        \ /              
+|---------|    |       |       |                             |   |-----x-------|                                 
+|         |    |       |       |  |---------|   |---------|  |   |             |                                           
+| Service |----|       |       |  |         |   |         |  |   | Devices     |               
+|    n    |            |       |->| Email   |-->| Workers |--|   |             |               
+|---------|            |          | queue   |   |         |      |-------------|           
+                       |          |---------|   |---------|                  
+                      \ /                                                                     
+                  |----x----|
+                  |         |
+                  | Cache   |
+                  |         |
+                  |----|----|                                                                              
+                       |                                       
+                      \ /                                      
+                  |----x----|                                                             
+                  |         |                                                             
+                  | DB      |                                                             
+                  |         |                                                             
+                  |---------|                                                             
+                                                              
+                                                              
+
+   [ Service 1 to N ] 
+   - They represent different services that send notifications via APIs 
+     provided by notification servers.
+
+   [ Notification servers ] 
+   - They provide the following functionalities:
+     1. Provide APIs for services to send notifications. 
+        Those APIs are only accessible internally 
+        or by verified clients to prevent spams.
+     2. Carry out basic validations to verify emails, phone numbers, etc.
+     3. Query the database or cache to fetch data needed to render a notification.
+     4. Put notification data to message queues for parallel processing.
+
+   [ Cache ] 
+   - User info, device info, notification templates are cached.
+
+   [ DB ] 
+   - It stores data about user, notification, settings, etc.
+
+   [ Message queues ]
+   - They remove dependencies between components. 
+     Message queues serve as buffers 
+     when high volumes of notifications are to be sent out. 
+
+   [ Workers ]
+   - Workers are a list of servers that pull notification events 
+     from message queues and send them to the corresponding third-party services. 
+
+   [ Third-party services ]
+   - Already explained in the initial design.
+
+   [ iOS, Android, SMS, Email ]
+   - Already explained in the initial design.
+
+   (*)
+   - Next, 
+     let us examine how every component works together to send a notification:
+     1. A service calls APIs provided by notification servers to send notifications.
+     2. Notification servers fetch metadata such as user info, 
+        device token, and notification setting from the cache or database.
+     3. A notification event is sent to the corresponding queue for processing. 
+        For instance, an iOS push notification event is sent to the iOS PN queue.
+     4. Workers pull notification events from message queues.
+     5. Workers send notifications to third party services.
+     6. Third-party services send notifications to user devices. 
+
+
+   [ Step 3 - Design deep dive ] 
+   - In the high-level design, we discussed different types of notifications, 
+     contact info gathering flow, and notification sending/receiving flow. 
+     We will explore the following in deep dive:
+     1. Reliability
+     2. Additional component and considerations: 
+        notification template, notification settings, 
+        rate limiting, retry mechanism, security in push notifications, 
+        monitor queued notifications and event tracking.
+     3. Updated design
+
+
+   [ Reliability ] 
+   - We must answer a few important reliability questions 
+     when designing a notification system in distributed environments.
+
+
+   [ How to prevent data loss? ] 
+   - One of the most important requirements 
+     in a notification system is that it cannot lose data.
+   - Notifications can usually be delayed or re-ordered, but never lost. 
+     To satisfy this requirement, 
+     the notification system persists notification data in a database 
+     and implements a retry mechanism. 
+     The notification log database is included for data persistence.
+
+
+
+|---------|     |---------------|     |----------- -|                                                                                         
+|         |     |               |     |             |                                                                                         
+| Queue   |---->| Workers       |---->| APNs        |                                                                                         --->
+|         |     |               |     |             |                                                                                          
+|---------|     |-----|---------|     |-------------|   
+                      |
+                      |
+                     \ /
+                 |----x---------|        
+                 |              |        
+                 | Notification | 
+                 | log          |
+                 |--------------|
+
+
+
+   [ Will recipients receive a notification exactly once? ] 
+   - The short answer is no. 
+     Although notification is delivered exactly once most of the time, 
+     the distributed nature could result in duplicate notifications. 
+     To reduce the duplication occurrence, 
+     we introduce a dedupe mechanism and handle each failure case carefully. 
+
+
+
+   [ Additional components and considerations ] 
+   - We have discussed how to collect user contact info, 
+     send, and receive a notification. 
+     A notification system is a lot more than that. 
+     Here we discuss additional components including template reusing, 
+     notification settings, event tracking, system monitoring, rate limiting, etc.
+
+
+   [ Notification template ] 
+   - A large notification system sends out millions of notifications per day, 
+     and many of these notifications follow a similar format. 
+     Notification templates are introduced to avoid building 
+     every notification from scratch.
+
+
+   [ Notification setting ] 
+   - Users generally receive way too many notifications daily 
+     and they can easily feel overwhelmed. 
+     Thus, many websites and apps give users fine-grained control 
+     over notification settings. 
+
+
+   [ Rate limiting ] 
+   - To avoid overwhelming users with too many notifications, 
+     we can limit the number of notifications a user can receive. 
+     This is important because receivers could turn off 
+     notifications completely if we send too often.
+
+
+   [ Retry mechanism ] 
+   - When a third-party service fails to send a notification, 
+     the notification will be added to the message queue for retrying. 
+     If the problem persists, an alert will be sent out to developers.
+
+
+   [ Security in push notifications ] 
+   - For iOS or Android apps, appKey 
+     and appSecret are used to secure push notification APIs. 
+     Only authenticated or verified clients 
+     are allowed to send push notifications using our APIs. 
+     Interested users should refer to the reference material.
+
+
+   [ Monitor queued notifications ] 
+   - A key metric to monitor is the total number of queued notifications. 
+     If the number is large, the notification events 
+     are not processed fast enough by workers. 
+     To avoid delay in the notification delivery, more workers are needed. 
+
+
+
+   [ Events tracking ] 
+   - Notification metrics, such as open rate, click rate, 
+     and engagement are important in understanding customer behaviors. 
+     Analytics service implements events tracking. 
+     Integration between the notification system 
+     and the analytics service is usually required.
+
+
+
+   [ Updated design ] 
+
+   ...
+
+   (*)
+   - In this design, 
+     many new components are added in comparison with the previous design.
+     1. The notification servers are equipped with two more critical features: 
+        authentication and rate-limiting.
+     2. We also add a retry mechanism to handle notification failures. 
+        If the system fails to send notifications, 
+        they are put back in the messaging queue 
+        and the workers will retry for a predefined number of times.
+     3. Furthermore, notification templates provide a consistent 
+        and efficient notification creation process.
+     4. Finally, monitoring 
+        and tracking systems are added for system health checks 
+        and future improvements 
+
+
+   [ Step 4 - Wrap up ] 
+   - Besides the high-level design, 
+     we dug deep into more components and optimizations.
+     1. Reliability: 
+        We proposed a robust retry mechanism to minimize the failure rate.
+     2. Security: 
+        AppKey/appSecret pair is used to ensure only verified clients 
+        can send notifications.
+     3. Tracking and monitoring: 
+        These are implemented in any stage of a notification flow 
+        to capture important stats.
+     4. Respect user settings: 
+        Users may opt-out of receiving notifications. 
+        Our system checks user settings first before sending notifications.
+     5. Rate limiting: 
+        Users will appreciate a frequency capping 
+        on the number of notifications they receive.
+
+
+
+
+
+
+
+
+
+
+
+11) [ Chapter 11 ] DESIGN A NEWS FEED SYSTEM
+
+    #         #
+    #         #
+    #         # 
+    #         #
+    #  Skip   #
+    #         #
+    #         #
+    #         #
+    #         #
+
+
+
+
+12) [ Chapter 12 ] DESIGN A CHAT SYSTEM
+
+    #         #
+    #         #
+    #         # 
+    #         #
+    #  Skip   #
+    #         #
+    #         #
+    #         #
+    #         #
+
+
+
+13) [ Chapter 13 ] DESIGN A SEARCH AUTOCOMPLETE SYSTEM
+
+    #         #
+    #         #
+    #         # 
+    #         #
+    #  Skip   #
+    #         #
+    #         #
+    #         #
+    #         #
+
+
+14) [ Chapter 14 ] DESIGN YOUTUBE
+
+    #         #
+    #         #
+    #         # 
+    #         #
+    #  Skip   #
+    #         #
+    #         #
+    #         #
+    #         # 
+
+
+15) [ Chapter 15 ] DESIGN GOOGLE DRIVE
+
+    #         #
+    #         #
+    #         # 
+    #         #
+    #  Skip   #
+    #         #
+    #         #
+    #         #
+    #         # 
 
 
 
