@@ -32,19 +32,21 @@
 
 5) questions
   - [ Tell me about yourself? ]
-    - I am originaly from russia but now live in berlin.
-      I am java developer with more then 7 years of expireance.
-      I worked on different projects and was responsable for design and 
-      implement different microservices as part of different information systems.
-
-      I like learn new technologes and new aprouches of softwere development.
+    - I am from Russia but now live in Berlin.
+      I am a Java developer with more than 7 years of experience.
+      I have worked on different projects and was responsible for designing 
+      and implementing various microservices as part of different information systems.
+      I enjoy learning new technologies and new approaches to software development.
       
 
 
   - [ What is your biggest weakness? ]
-    - I guess it is done awreathing in time.
-      Deadlines is treaky things for me personaly.
-      It is common to work
+    - I think my main weakness is estimating the time required to complete a task. 
+      There are several principles that I try to follow:
+        1 breaking the task into smaller components,
+        2 separating the parts of the task that depend on other teams 
+          or people into separate tasks,
+        3 remembering that writing good tests also takes time.
   
 
   - [ Tell me about a time when you had to solve a complex code problem. ]
@@ -59,13 +61,45 @@
   - [ Tell me about a time when you had to manage competing deadlines. ]
     -
 
-  - [ Tell me about a time when you had to persuade someone at work. ]
+  - [ Another developer disagrees with your solution and proposes their own? ]
+    - If another developer disagrees with my solution and proposes their own, 
+      my approach is to stay open-minded and focus on understanding their perspective. 
+      I would first listen carefully to their reasoning 
+      and ask clarifying questions if needed. 
+      My goal is to fully understand the technical rationale behind their suggestion.
+
+      Next, 
+      I would compare both approaches by discussing the pros and cons, 
+      ideally backed by data or concrete examples. 
+      If their solution proves to be more effective or efficient, 
+      I’m willing to adapt and go with their idea. 
+      On the other hand, if I still believe my solution is better, 
+      I would respectfully present my case with supporting arguments.
+      
+      Ultimately, 
+      my priority is not to ‘win’ but to find the best solution for the project 
+      and the team. 
+      Collaboration is key, 
+      and I value open discussions that lead to the best possible outcome.
 
   - [ Tell me about a time when you failed at work. ]
     - 
 
   - [ Why us? ]
-    -
+    - I am interested in the field of stock market investments.
+      I have a brokerage account and crypto assets.
+      I have experience working in the largest banks in Russia.
+      I believe Trade Republic is a dynamically developing company with great prospects.
+      I might be wrong, but I think your company still retains the spirit of a startup,
+        which means incredible flexibility in making technical decisions.
+      I see your company as a place where successful solutions 
+        and practices can easily spread.
+
+
+  - [ Feature Flags ]
+    - Feature Flags are a mechanism that allows us to enable 
+      or disable specific functionality of our application 
+      without having to modify code or, ideally, redeploy our app.
 
 
   - [ Do you have any questions for us? ]
