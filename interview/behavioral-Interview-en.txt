@@ -1,0 +1,162 @@
+---
+Ресурсы:
+
+// оф сайт
+- [  ]
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ interview ] вопросы и ответы на английском
+
+
+
+4) help
+  [ https://www.indeed.com/career-advice/interviewing/behavioral-interview-questions ]
+  Structure of answer:
+    Situation: Describe a situation 
+               in your work experience pertinent to the question.
+    Task: Explain what your task was in that situation.
+    Action: Detail the action you took to address the situation.
+    Result: Summarize the outcome of your response.
+
+
+5) questions
+  - [ Tell me about yourself? ]
+    - I am originaly from russia but now live in berlin.
+      I am java developer with more then 7 years of expireance.
+      I worked on different projects and was responsable for design and 
+      implement different microservices as part of different information systems.
+
+      I like learn new technologes and new aprouches of softwere development.
+      
+
+
+  - [ What is your biggest weakness? ]
+    - I guess it is done awreathing in time.
+      Deadlines is treaky things for me personaly.
+      It is common to work
+  
+
+  - [ Tell me about a time when you had to solve a complex code problem. ]
+    -  
+
+  - [ Describe a situation when you had to collaborate with a difficult software engineer. ]
+  
+
+  - [ Tell me about a problem and how you overcame it? ]
+    -
+
+  - [ Tell me about a time when you had to manage competing deadlines. ]
+    -
+
+  - [ Tell me about a time when you had to persuade someone at work. ]
+
+  - [ Tell me about a time when you failed at work. ]
+    - 
+
+  - [ Why us? ]
+    -
+
+
+  - [ Do you have any questions for us? ]
+    -
+
+
+
+
+
+10) Behavioral Interview Questions
+[help]
+  [ https://www.indeed.com/career-advice/interviewing/behavioral-interview-questions ]
+  Structure of answer:
+    Situation: Describe a situation 
+               in your work experience pertinent to the question.
+    Task: Explain what your task was in that situation.
+    Action: Detail the action you took to address the situation.
+    Result: Summarize the outcome of your response.
+-...
+[questions]
+  - [1] Give me an example of a time you had a conflict with a team member. 
+        How did you handle it? 
+    -
+    -
+  -...
+  - [2] Tell me about a time you made a mistake at work. 
+        How did you resolve the problem, 
+        and what did you learn from your mistake?
+    -
+    -
+  -...
+  - [3] Describe an occasion when you had to manage your time to complete a task. 
+        How did you do it?
+    -
+    -
+  -...
+  - [4] Describe an occasion when you failed at a task. 
+        What did you learn from it?
+    -
+    -
+  -...
+  - [5] Tell me about a time you took the initiative in your career. 
+        What was your motivation for doing so?
+    -
+    -
+  -...  
+  - [6] Describe a time when you used your leadership skills to motivate 
+        your team or colleagues.  
+    -
+    -
+  -...
+  - [7] Describe a time when you were responsible for a task 
+        you didn't receive training on and were unsure how to complete. 
+        How did you handle it?
+    -
+    -
+  -...
+  - [8] Share an example of a career goal you had. 
+        What steps did you take to achieve it?
+    -
+    -
+  -...
+  - [9] Give an example of a time when you had to make a difficult decision. 
+        How did you handle it?
+    -
+    -
+  -...
+  - [10] Describe your process for solving problems. 
+         What steps do you take to resolve important issues at work?
+    -
+    -
+  -...
+
+
+
+
+
+
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
