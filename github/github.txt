@@ -1,0 +1,117 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://github.com/ ] 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ github ] ...
+
+
+1) Install 
+
+
+
+
+10) GitHub Actions 
+  - General:
+    - Info: GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform 
+            that allows you to automate your build, test, and deployment pipeline. 
+            You can create workflows that run tests whenever you push a change to your repository, 
+            or that deploy merged pull requests to production.
+    - link: [ https://github.com/features/actions ]
+  -...
+  -...
+    - The components of GitHub Actions
+      - "Workflows"
+        - A workflow is a configurable automated process that will run one or more jobs. 
+          Workflows are defined by a YAML file checked in to your repository 
+          and will run when triggered by an event in your repository, 
+          or they can be triggered manually, or at a defined schedule.
+        -...
+        - Workflows are defined in the .github/workflows directory in a repository. 
+          A repository can have multiple workflows, each of which can perform a different set of tasks.
+      -...
+      - "Events"
+        - An event is a specific activity in a repository that triggers a workflow run. 
+          For example, an activity can originate from GitHub when someone creates a pull request, 
+          opens an issue, or pushes a commit to a repository. 
+        - listOfEvents: [ https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows ]
+      - "Jobs"
+        - A job is a set of steps in a workflow that is executed on the same runner. 
+          Each step is either a shell script that will be executed, or an action that will be run. 
+          Steps are executed in order and are dependent on each other. 
+          Since each step is executed on the same runner, you can share data from one step to another. 
+      - "Actions"
+        - An action is a custom application for the GitHub Actions platform that performs a complex 
+          but frequently repeated task. 
+          Use an action to help reduce the amount of repetitive code that you write in your workflow files. 
+          An action can pull your Git repository from GitHub, set up the correct toolchain for your build environment, 
+          or set up the authentication to your cloud provider.
+      - "Runners"
+        - A runner is a server that runs your workflows when they're triggered. 
+          Each runner can run a single job at a time. GitHub provides Ubuntu Linux, 
+          Microsoft Windows, and macOS runners to run your workflows.
+
+
+
+
+  - in repo we store our github workflows
+    - [ .github/workflows ] location
+
+
+
+
+
+
+12) local run
+  - "act" 
+    - info: this tool allows to run github workflows local
+    - link: [ https://github.com/nektos/act ]
+    - install: [ brew install act ] 
+  
+
+
+
+
+
+20) Copilot
+  - link: [ https://github.com/features/copilot ]
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

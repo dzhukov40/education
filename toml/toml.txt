@@ -1,0 +1,47 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://toml.io/en/ ]
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ toml ] A config file format for humans.
+TOML aims to be a minimal configuration file format that's easy to read due to obvious semantics. 
+TOML is designed to map unambiguously to a hash table. 
+TOML should be easy to parse into data structures in a wide variety of languages.
+
+
+1) Установка
+
+
+
+ 
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

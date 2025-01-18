@@ -72,6 +72,25 @@
     - можем запустить команду и отконектиться от сервера  [ ctrl + B + D ]
     запущенная программа продолжет работать и потом можем назад присоединиться [ tmux attach ]
   - (*) tmux  сохранит всю историю команд выполненных на сервере
+    - info: tmux’s authors describe it as a terminal multiplexer
+      You see that tmux basically offers two big features:
+      - 1. Window management in your terminal 
+        Within one terminal window you can open multiple windows 
+        and split-views (called “panes” in tmux lingo). 
+        Each pane will contain its own, 
+        independently running shell instance (bash, zsh, whatever you’re using). 
+        This allows you to have multiple terminal commands 
+        and applications running side by side without the need to open 
+        multiple terminal emulator windows.
+      - 2. Session management 
+        On top of that tmux keeps these windows and panes in a session. 
+        You can exit a session at any point. This is called “detaching”. 
+        tmux will keep this session alive until you kill the tmux server (e.g. when you reboot). 
+        This is incredibly useful because at any later point in time 
+        you can pick that session up exactly from where you left it 
+        by simply “attaching” to that session.
+    - install (macOS)
+      - [ brew install tmux ]
     - режим просмотра истории команд [ ctrl + B + PgUp ]
       - перемещения по истории [ PgUp, PgDown, стрелки ]
       - выйти из режима [ Esc, Ctrl + C ]

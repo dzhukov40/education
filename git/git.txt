@@ -132,6 +132,11 @@
     - [ git push origin HEAD ]
    
 
+13) Track an empty folder in Git.
+  - link: [ https://stackoverflow.com/questions/7229885/what-are-the-differences-between-gitignore-and-gitkeep ]
+  - Note: this is not part of Git, people just decided to do this
+    - [ .gitkeep ] we can put this file   
+
 
 
 

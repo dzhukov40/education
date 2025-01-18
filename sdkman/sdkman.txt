@@ -54,6 +54,18 @@
     - [ gradle -version ]
 
 
+4) we cann use [ .java-version ] file
+  - this file should contain something like [ 21.0 ]
+  - in this case "sdkman" will see it and will try to use this version
+  - (!) ****
+  - Sdkman magic
+    - [
+        When you run a Gradle task (like ./gradlew build), SDKMAN! 
+        will detect the .java-version file.
+        SDKMAN! will switch the Java version for the current session 
+        to the version specified in .java-version.
+        Gradle will use the Java version that SDKMAN! has set.
+      ]
 
 
 

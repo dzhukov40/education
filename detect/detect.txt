@@ -1,0 +1,56 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://detekt.dev/docs/intro ] 
+- [ https://github.com/detekt/detekt ]
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ sentry ] Sentry is a developer-first error tracking 
+  and performance monitoring platform that helps developers see what actually matters, 
+  solve quicker, and learn continuously about their applications.
+
+
+1) Install 
+  - add as kotlin plugin
+    - [
+        plugins {
+          id("io.gitlab.arturbosch.detekt")
+        }
+    ]
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

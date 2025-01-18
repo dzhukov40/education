@@ -149,6 +149,16 @@ public class JooqConfiguration {
 
 
 
+2) Testing
+  - @JooqTest helps to write repository level timeoutSeconds
+  - 
+
+
+
+
+
+
+
  
 
 

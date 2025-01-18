@@ -111,6 +111,38 @@
 
 
 
+10) Version Catalogs
+  - A version catalog is a selected list of dependencies 
+    that can be referenced in build scripts, simplifying dependency management.
+  - Link:
+    - https://docs.gradle.org/current/userguide/version_catalogs.html
+  - how it looks like:
+    - file in progect: "gradle/libs.versions.toml"
+      - content in (*.toml):
+        [
+          [libraries]
+           groovy-core = { group = "org.codehaus.groovy", name = "groovy", version = "3.0.5" }
+        ]
+    - and in gradle.kts we will be able use (libs.*) for refer to line in (*.toml)
+      - example
+      - [
+          dependencies {
+            implementation(libs.groovy.core)
+          }
+        ]
+
+
+
+
+ 15) gradle docker-compouse plugin
+   - id("com.avast.gradle.docker-compose")
+     - link: https://github.com/avast/gradle-docker-compose-plugin
+
+
+ 20) gradle Using test fixtures
+   - https://docs.gradle.org/current/userguide/java_testing.html#sec:java_test_fixtures
+   - plugin: id("java-test-fixtures")
+
 
 
 

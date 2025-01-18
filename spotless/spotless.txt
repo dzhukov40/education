@@ -1,0 +1,50 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://www.mkdocs.org/ ]
+- [ https://github.com/diffplug/spotless ] 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ Spotless ] (Formatter) Spotless can format <antlr | c | c# | c++ | css | flow 
+  | graphql | groovy | html | java | javascript | json | jsx | kotlin 
+  | less | license headers | markdown | objective-c | protobuf | python 
+  | scala | scss | shell | sql | typeScript | vue | yaml | anything>
+   using <gradle | maven | sbt | anything>.
+
+
+1) Установка
+
+
+
+
+ 
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

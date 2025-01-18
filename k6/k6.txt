@@ -1,0 +1,52 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://k6.io/ ]
+- [ https://github.com/grafana/k6 ] 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ k6 ] Grafana k6 is an open-source, developer-friendly, 
+and extensible load testing tool. 
+k6 allows you to prevent performance issues and proactively improve reliability.
+
+
+1) Установка
+  - https://grafana.com/docs/k6/latest/set-up/install-k6/
+    - [ brew install k6 ]
+    - docker container -> [ docker pull grafana/k6  OR  docker pull grafana/k6:master-with-browser ]
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

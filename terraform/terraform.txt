@@ -26,6 +26,17 @@
 
 
 1) устанавливаем
+  - (macos)
+    - there is a "tfenv" this like sdkman but for terraform
+    - [ https://github.com/tfutils/tfenv ]
+    - install
+      - [ brew install tfenv ]
+    - look up available versions:
+      - [ tfenv list-remote ]
+    - istal terraform ezample:
+      - [ tfenv install 1.2.9 ]
+      - [ tfenv use 1.2.9 ] make it as default
+  -...
   - https://developer.hashicorp.com/terraform/install?product_intent=terraform
   - (ubuntu) выполняем:
     [
@@ -124,3 +135,7 @@
 
 #----------------------------------------------- 
  
+
+
+
+
