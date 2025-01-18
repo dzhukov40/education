@@ -1,0 +1,50 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://www.metabase.com/ ] 
+- [ https://github.com/metabase/metabase  ]
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ editorconfig ] Fast analytics with the friendly UX 
+  and integrated tooling to let your company explore data on their own.
+
+
+1) Additional info
+  - Metabase is a new data visualisation tool.
+  - It makes it easy to explore data from Snowflake or other data storages, 
+    visualise your query as a chart and then combine multiple charts into a dashboard.  
+
+
+
+
+ 
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

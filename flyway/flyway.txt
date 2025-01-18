@@ -1,0 +1,48 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://www.red-gate.com/products/flyway/community/ ]
+- [ https://github.com/flyway/flyway ]
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ flyway ] Version control your database code
+Track database changes with a single source of truth and increase the reliability of deployments
+
+
+1) Установка
+ - mac
+   [ brew install flyway ]
+
+
+
+ 
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

@@ -1,0 +1,247 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://www.snowflake.com/en/emea/ ] 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ snowflake ] Storage for a lot of data for analitycs.
+  Snowflake provides a variety of mechanisms for connecting to Snowflake 
+  and executing database commands. 
+  Choose between the web interface or the command line tool 
+  to connect to your Snowflake account.
+
+
+
+1) Additional info
+  - Metabase is a new data visualisation tool.
+  - It makes it easy to explore data from Snowflake or other data storages, 
+    visualise your query as a chart and then combine multiple charts into a dashboard.  
+
+
+5) Architecture Overview
+  - info: Airflow is a platform that lets you build and run workflows. 
+    A workflow is represented as a `DAG` (a Directed Acyclic Graph), 
+    and contains individual pieces of work called `Tasks`, 
+    arranged with dependencies and data flows taken into account.
+  -...
+  - Control Flow:
+    - `DAGs` are designed to be run many times, and multiple runs of them can happen in parallel. 
+      `DAGs` are parameterized, always including an interval they are “running for” (the data interval), 
+      but with other optional parameters as well.
+    - `Tasks` have dependencies declared on each other. 
+      You’ll see this in a DAG either using the `>>` and `<<` operators:
+      - example
+        ```python
+          first_task >> [second_task, third_task]
+          fourth_task << third_task
+        ```  
+
+
+7) DAGs
+  - info: A DAG (Directed Acyclic Graph) is the core concept of Airflow, 
+    collecting Tasks together, organized with dependencies 
+    and relationships to say how they should run.
+  - Here’s a basic example DAG:
+    It defines four Tasks - A, B, C, and D - and dictates the order in which they have to run, 
+    and which tasks depend on what others. 
+    It will also say how often to run the DAG - maybe “every 5 minutes starting tomorrow”, 
+    or “every day since January 1st, 2020”.
+
+    |----|      |-----|      |--------|
+    | a  |------| c   |------| d      |
+    |    |      |-----|      |        |
+    |    |               |---|        |
+    |    |      |-----|  |   |--------|
+    |    |------| b   |--|   
+    |----|      |-----|
+  
+  -...
+  - Declaring a DAG
+    - There are three ways to declare a DAG 
+    - 1. either you can use with statement (context manager), 
+      which will add anything inside it to the DAG implicitly:
+      ```python
+        import datetime
+      
+        from airflow import DAG
+        from airflow.operators.empty import EmptyOperator
+      
+        with DAG(
+            dag_id="my_dag_name",
+            start_date=datetime.datetime(2021, 1, 1),
+            schedule="@daily",
+        ):
+            EmptyOperator(task_id="task")
+      ``` 
+    -...
+    - 2. Or, you can use a standard constructor, 
+      passing the DAG into any operators you use:
+      ```python
+        import datetime
+       
+        from airflow import DAG
+        from airflow.operators.empty import EmptyOperator
+       
+        my_dag = DAG(
+            dag_id="my_dag_name",
+            start_date=datetime.datetime(2021, 1, 1),
+            schedule="@daily",
+        )
+        EmptyOperator(task_id="task", dag=my_dag)
+      ```
+    -...
+    - 3. Or, you can use the `@dag` decorator to turn a function 
+      into a DAG generator:
+      ```python
+        import datetime
+        
+        from airflow.decorators import dag
+        from airflow.operators.empty import EmptyOperator
+        
+        
+        @dag(start_date=datetime.datetime(2021, 1, 1), schedule="@daily")
+        def generate_dag():
+            EmptyOperator(task_id="task")
+        
+        
+        generate_dag()
+      ```
+  -...
+  - Task Dependencies
+    - info: A Task/Operator does not usually live alone; 
+      it has dependencies on other tasks (those upstream of it), 
+      and other tasks depend on it (those downstream of it). 
+      Declaring these dependencies between tasks is what makes up the DAG structure 
+      (the edges of the directed acyclic graph).
+    - There are two main ways to declare individual task dependencies.
+      - 1. The recommended one is to use the `>>` and `<<` operators:
+        - example
+          ```python
+            first_task >> [second_task, third_task]
+            third_task << fourth_task  
+          ```
+      - 2. Use the more explicit `set_upstream` and `set_downstream` methods:    
+        - example
+          ```python
+            first_task.set_downstream([second_task, third_task])
+            third_task.set_upstream(fourth_task)
+  -... ```
+  -...
+  - Loading DAGs
+    - Airflow loads DAGs from Python source files, 
+      which it looks for inside its configured `DAG_FOLDER`. 
+      It will take each file, execute it, and then load any DAG objects from that file.
+    - This means you can define multiple DAGs per Python file, 
+      or even spread one very complex DAG across multiple Python files using imports.
+    - (*) Note, though, that when Airflow comes to load DAGs from a Python file, 
+      it will only pull any objects at the top level that are a DAG instance.
+    - [ .airflowignore  ] You can also provide an file inside your `DAG_FOLDER`, 
+      or any of its subfolders, which describes patterns of files for the loader to ignore.
+  -...
+  -...
+  - Running DAGs
+    - DAGs will run in one of two ways:
+      - When they are triggered either manually or via the API
+      - On a defined schedule, which is defined as part of the DAG
+      - (*) DAGs do not require a schedule, but it’s very common to define one.
+    - examples:
+      ```python
+        with DAG("my_daily_dag", schedule="0 0 * * *"):
+            ...
+        
+        with DAG("my_one_time_dag", schedule="@once"):
+            ...
+        
+        with DAG("my_continuous_dag", schedule="@continuous"):
+      ```
+  -...
+  -...
+  - Control Flow
+    - info: By default, a DAG will only run a Task when all the Tasks it depends on are successful. 
+      There are several ways of modifying this, however:
+      - `Branching` - select which Task to move onto based on a condition
+      - `Trigger Rules` - set the conditions under which a DAG will run a task
+      - `Setup and Teardown` - define setup and teardown relationships
+      - `Latest Only` - a special form of branching that only runs on DAGs running against the present
+      - `Depends On Past` - tasks can depend on themselves from a previous run
+
+
+
+
+
+
+
+
+
+15) XComs
+  - lable: Core conception
+  - info: XComs (short for “cross-communications”) are a mechanism 
+    that let Tasks talk to each other, as by default Tasks are entirely isolated 
+    and may be running on entirely different machines
+    An XCom is identified by a key (essentially its name), 
+    as well as the task_id and dag_id it came from. 
+  - important: XComs are explicitly “pushed” and “pulled” to/from their storage 
+    using the xcom_push and xcom_pull methods on Task Instances.
+  - example: 
+    - 1. To push a value within a task called “task-1” that will be used by another task
+      ```python
+         # pushes data in any_serializable_value into xcom with key "identifier as string"
+         task_instance.xcom_push(key="identifier as a string", value=any_serializable_value)
+      ```
+    -...
+    - 2. To pull the value that was pushed in the code above in a different task
+      ```python
+         # pushes data in any_serializable_value into xcom with key "identifier as string"
+         task_instance.xcom_push(key="identifier as a string", value=any_serializable_value)
+      ```
+    -...
+    - 3. You can also use XComs in templates:
+      ```python
+         SELECT * FROM {{ task_instance.xcom_pull(task_ids='foo', key='table_name') }}
+      ```   
+  -...
+  - interesting:
+    - If you want to push multiple XComs at once or rename the pushed XCom key, 
+      you can use set "do_xcom_push" and "multiple_outputs" arguments to True, 
+      and then return a dictionary of values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

@@ -1,0 +1,72 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://github.com/Kotlin/kotlinx-kover ] 
+- [ https://kotlin.github.io/kotlinx-kover/gradle-plugin/ ]
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ Kover ] Kover is a set of solutions for collecting test coverage of Kotlin code 
+  compiled for JVM and Android platforms.
+  - [ Kover gragle plugin ] Features
+    1. Collection of code coverage through JVM tests (JS and native targets are not supported yet).
+    2. Generating HTML and XML reports.
+    3. Support for Kotlin JVM, Kotlin Multiplatform projects.
+    4. Support for Kotlin Android projects with build variants 
+       (instrumentation tests executing on the Android device are not supported yet).
+    5. Support mixed Kotlin and Java sources
+    6. Verification rules with bounds in the Gradle plugin to keep track of coverage.
+    7. Using JaCoCo library in Gradle plugin as an alternative for coverage measuring and report generation.
+    
+
+
+1) Install 
+  - add as kotlin plugin
+    - [
+        plugins {
+          id("io.gitlab.arturbosch.detekt")
+        }
+    ]
+  - ...
+  - Generating reports
+    - [ koverXmlReport ] Gradle task to generate a JaCoCo-compatible XML report 
+    - [ koverHtmlReport ] Gradle task to generate an HTML report 
+    - [ koverVerify ] Gradle task to validate verification rules specified in the project in verification block 
+    - [ koverBinaryReport ] Gradle task to generate a binary report in IC format
+    - [ koverLog ] Gradle task to print coverage to the log, call 
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

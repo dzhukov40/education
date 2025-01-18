@@ -1,0 +1,481 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://www.fireblocks.com/developers ] 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ fireblocks ] Fireblocks provides a suite of applications 
+  to manage digital asset operations and a complete development platform 
+  to build your business on the blockchain.
+
+
+1) Documentation Overview
+  - link: https://developers.fireblocks.com/docs/introduction
+  - Explore & Design
+    - This section is all about exploring Fireblocks' capabilities, 
+      designing your product, and learning best practices
+  - Build & Integrate
+    - This section is dedicated to developers. 
+      It starts with an introduction to Fireblocks' SDK and developer tools, 
+      and includes various code examples for different features.
+  - API Reference
+    - The API Reference section is an integral part of the Build & Integrate.
+
+
+3) The Fireblocks platform
+  - Digital Asset Wallets
+    - Secure, and scalable MPC-based wallets with robust key management to custody digital assets.
+  - Platform Governance
+    - The Policy Engine automates governance policies for transaction rules and admin approvals. 
+      It enables you to configure a list of rules that dictate how transactions are handled and approved.
+  - Treasury Management
+    - Fireblocks' single platform centralizes wallet and address management to simplify crypto 
+      and NFT treasury operations. Wallets are organized into Vault accounts (segregated or omnibus) 
+      where you can set specific transaction policies to protect the movement of funds.
+
+
+4) Explore Use Cases
+  - info: Fireblocks supports a range of use cases, 
+    from centralizing treasury management to building a fintech application. 
+    Here are some of the use cases we support:
+    - NFT Marketplaces and Platforms
+    - Treasury Management
+    - Digital Asset Custody
+    - CeFi and DeFi Trading
+    - Cross Border Payments
+    - Web3 Gaming
+    - Tokenization
+    - Staking
+    - Smart Contract Security and Management
+    - Wallets for Retail Applications
+
+
+5) Fireblocks Feature Landscape
+  - Wallet-as-a-Service
+    - Fireblocks Wallet-as-a-Service (WaaS) is an API-based solution 
+      that includes the most secure MPC wallets by design. 
+      Our APIs generate ECDSA and EdDSA signatures to sign any transaction. 
+      It enables anyone to create, manage, and secure wallets for any number of users
+      without performing the security work themselves.
+  - Self-Custody Infrastructure
+    - Be the owner of your funds without compromising speed 
+      and security using Fireblocks' self-custody infrastructure
+  - Tokenization
+    - Deploy, manage, mint, 
+      and burn custom tokenized on-chain assets securely using the Fireblocks API
+  - Treasury Management
+    - Store your funds securely in hot and cold wallets, manage your fund operations, 
+      and connect to exchanges, DeFi, 
+      and trading counterparties with Fireblocks Treasury Management
+ 
+
+
+10) Fireblocks Key Features & Capabilities
+  - Hot, warm, and cold MPC-CMP wallets
+    - [ hot wallet ] - the third MPC key share is held by an API user on an API co-signer, 
+      and transaction approvals can be automated.
+    - [ warm wallet ] - the third MPC key share is held on your internet-connected mobile device, 
+      and approvals occur on the Fireblocks mobile app.
+    - [ cold wallet ] - the third MPC key share is held on your air-gapped (offline) mobile device. 
+      Approvals for transactions require bi-directional QR code scanning.
+  -...
+  - Workspaces
+    - link: [ https://developers.fireblocks.com/docs/workspace-environments ]
+    - [ Developer Sandbox ]
+    - [ Testnet ] 
+    - [	Mainnet]
+  -...
+  - Role-based access control
+    - link: [ https://support.fireblocks.io/hc/en-us/articles/360012832959-User-roles ]
+    - info: Fireblocks has extensive role-based access control capabilities for various user roles. 
+      These access roles grant them permissions related to:
+      - Parts of the platform they can access
+      - Types of actions they can perform
+      - MPC key shares that they hold and can use to sign transactions
+  -...
+  - Admin Quorum
+    - link: [ https://support.fireblocks.io/hc/en-us/articles/360017665119-Admin-Quorum ]
+    - info: The Admin Quorum threshold defines the number of Admins required 
+      to approve new workspace connections and changes.
+  -...
+  - Accounts
+    - info: Accounts compile all types of accounts that Fireblocks supports
+    - types:
+      - [ Vault account ] is a unique on-chain wallet, 
+        with your private key secured by our MPC-CMP architecture, 
+        that enables you to securely store and transfer your digital assets.
+      - [ Exchange account ] allows you to leverage your exchange's API credentials 
+        to securely transfer assets between exchanges and other Fireblocks accounts.
+      - [ Fiat account ] enables you to transfer fiat to any other account 
+        within your Fireblocks workspace or network connections that support that specific fiat provider.        
+  -...
+  - Vaults
+    - link: [ https://developers.fireblocks.com/docs/create-direct-custody-wallets ]
+    - info: The Fireblocks Vault is your secure MPC-CMP solution for wallet and address management. 
+      The Vault allows you to create and manage multiple vault accounts, which contain your asset wallets. 
+  -...
+  - Assets
+    - link: [ https://developers.fireblocks.com/docs/list-supported-assets-1 ]
+    - info: Asset wallets are used to manage internal deposit addresses for different asset types.
+  -...
+  - Transaction Authorization Policy (TAP)
+    - link: [ https://developers.fireblocks.com/docs/set-transaction-authorization-policy ]
+    - info: With the TAP, you control who can move funds, 
+      how much can be transferred in a single transaction or a certain time period, 
+      and how transactions are authorized. 
+  -...
+  - Transactions API
+    - link: [ https://developers.fireblocks.com/reference/create-transactions ]
+    - info: All transactions are routed through the Create a new transaction API call. 
+      Users can only issue transactions based on their access roles and the workspace’s TAP settings.
+  -...
+  - Whitelisted addresses
+    - link: [ https://developers.fireblocks.com/docs/whitelist-addresses ]
+    - info: Whitelisted addresses are deposit addresses that exist outside of your Fireblocks Vault. 
+      You can perform transactions from your workspace by whitelisting an address for any supported blockchain.
+    - types:
+      - [ Internal wallet ] - a deposit address existing inside your organization.
+      - [ External wallet ] - a deposit address existing outside your organization.
+      - [ Contract wallet ] - a deposit address of an on-chain smart contract.
+  -...
+  - Fireblocks Network
+    - The Fireblocks Network is a settlement workflow allowing you to quickly transfer 
+      with your network counterparties without the need to manually whitelist their addresses.
+  -...
+  -... skip some 
+  -...
+  - Transaction screening (AML/KYT)
+    - link: [ https://developers.fireblocks.com/docs/define-aml-policies ]
+    - info: Transaction screening allows you to automate real-time monitoring of your crypto transactions 
+      in order to ensure compliance with Anti-Money Laundering/Counter Financing of Terrorism (AML/CFT) regulations, 
+      prevent interactions with sanctioned entities and identify customer behavior. 
+
+
+
+
+
+
+
+15) Fireblocks Object Model
+  - [ Fireblocks Workspace ] 
+    - [ Vault account ]
+      - [ Asset wallets ]
+        - like: [ ETF ], [ BTC ]
+    - [ Exchange account ]
+      - like [ Coinbase ], [ Binance ]
+    - [ Fiat account ]
+    - [ Whitelisted/unmanagad ]
+      - [ Internal ]
+      - [ Extend ]
+      - [ Contact ]
+  -...
+  -...
+  - Vault accounts 
+    - has 2 most popylar stratagy
+      - Segregated
+        - With this vault structure, each user of your application is assigned individual vault accounts.
+      - Omnibus 
+        - With this vault structure, all users of your application are assigned one, 
+          or several, centralized vault accounts.
+  -...
+  - Vault wallets
+    - link: https://developers.fireblocks.com/docs/create-direct-custody-wallets
+    - info: Each vault account can hold any number of assets supported by Fireblocks, 
+      including multiple deposit addresses for blockchains that support it, 
+      such as UTXO-based chains like BTC. Depending on the asset type, 
+      different wallets may support multiple address types or formats. 
+      Each vault wallet is assigned to a single digital asset supported by Fireblocks.
+
+
+
+
+
+17) Workspace Comparison 
+  - 
+| Workspace Types       | Developer Sandbox            | Testnet               | Mainnet               |
+|-----------------------|------------------------------|-----------------------|-----------------------|
+| **Console URL**       | sandbox.fireblocks.io        | console.fireblocks.io | console.fireblocks.io |
+| **API URL**           | sandbox-api.fireblocks.io/v1 | api.fireblocks.io/v1  | api.fireblocks.io/v1  |
+| **Workspace Types**   | Quick Experimentation        | Development           | Staging/Production    |
+.....
+.....
+
+
+
+18) Data Privacy and Protection
+  - Fireblocks does not store or process any client Personal Identifiable Information (PII). 
+    To achieve this, the customer is required to strictly use anonymized tokens, 
+    such as Universally Unique Identifiers (UUID) to reflect client data. 
+    These anonymous tokens are mapped internally by the customer to actual client identifiers 
+    stored on the customer's end.
+  -... 
+  - (*) The following table lists the relevant fields that allow persistent information to be stored 
+    in Fireblocks–for which the anonymous tokens should be used.
+    +------------------+-------------------------------+------------------+
+    | API Endpoint     | Method                        | Parameter        |
+    +------------------+-------------------------------+------------------+
+    | Vault            | Create a new vault account    | name             |
+    | Vault            | Create a new asset deposit    | description      |
+    |                  | address                       |                  |
+    | Vault            | Rename a vault account        | description      |
+    | Internal Wallet  | Create an internal wallet     | name             |
+    | Internal Wallet  | Set an AML/KYT customer       | customerRefId    |
+    |                  | reference ID for an internal  |                  |
+    |                  | wallet                        |                  |
+    | External Wallet  | Create an external wallet     | name             |
+    | External Wallet  | Set an AML customer reference | customerRefId    |
+    |                  | ID for an external wallet     |                  |
+    | Contracts        | Create a contract             | name             |
+    | Transactions     | Create a new transaction      | note             |
+    | Transactions     | Estimate a transaction fee    | note             |
+    +------------------+-------------------------------+------------------+
+  -...
+  - Developer Center
+    - info: The Developer Center page lets your organization view 
+      and monitor your workspace's API activity in the Fireblocks Console.
+
+
+
+
+
+
+19) Manage Users
+  - info: First, we need to understand the user permissions. 
+    Each user role contains other capabilities in addition to transaction permissions.
+  - (*) Before getting started, familiarize yourself with user groups and approval groups. 
+    These two features are crucial for defining user roles 
+    and actions in your Fireblocks workspace 
+    and can significantly enhance your operational efficiency and security.
+  - (**) Tips:
+    - Segregate users into two categories: 
+      those responsible for managerial decisions and changes, and those handling day-to-day operations.
+    - Always consider the admin quorum approval. 
+    - Start by defining groups and their tasks. 
+      Based on these tasks, identify the roles that match and add individual users accordingly.
+
+
+
+
+
+25) Manage API Access
+  - Fireblocks API Keys can be created via the web console or the API:
+    - For creating API keys via the console please check the `following guide`
+    - For adding additional API keys please refer to the following `API endpoint`
+  - link: [ https://developers.fireblocks.com/docs/manage-api-keys ]
+
+
+
+
+
+30) Whitelist IPs for API Keys
+  -....
+
+
+
+35) Define Approval Quorums
+  - The Admin Quorum lists all users with Admin privileges
+  - The Admin Quorum threshold defines the number of Admins required 
+    to approve new workspace connections and changes
+  -...
+
+
+
+
+
+40) Set Transaction Authorization Policy
+  - Info: With the Fireblocks platform, your funds are, 
+    by design, protected with several security layers. 
+    The Authorization Policy is a crucial layer that defines what actions are allowed 
+    or blocked by which users from which sources, to which destinations and additional limitations.
+  -
+
+
+
+
+
+45) Segregate Duties
+  - To ensure the security of your workspace operations, 
+    it is crucial to segregate duties and delegate responsibilities appropriately. 
+    The first and most important step is to distinguish between users handling critical managerial tasks 
+    and those managing regular operations.
+  -...
+
+
+50) Manage Wallets
+  - link: [ https://developers.fireblocks.com/docs/overview ]
+  - help article: [ https://www.fireblocks.com/a-guide-to-digital-asset-wallets-and-service-providers ] 
+    - Wallet and Custody Types:
+      - Non-Custodial Wallet 
+      - Direct-Custody
+      - Subcustody
+  -...
+  - Fireblocks provides customers with an option to choose what custody model works best for their use case.
+  - conceptual differences between Embedded Wallets and Direct Custody wallets:
+  - +--------------------------------+--------------------------------+--------------------------------+
+    | Feature                        | Direct Custody Wallets         | Embedded Wallets               |
+    +--------------------------------+--------------------------------+--------------------------------+
+    | Signature Scheme               | 3-of-3 MPC                     | 2-of-2                         |
+    | Master Key                     | One master key per workspace   | Each wallet has its own key    |
+    | UTXO-based Assets (e.g., BTC)  | Multiple deposit addresses per | One wallet can have multiple   |
+    |                                | wallet per vault account       | accounts, each with 1 BTC      |
+    |                                |                                | address                        |
+    | Fireblocks Network & Exchange  | Supported                      | Not supported                  |
+    | Integrations                   |                                |                                |
+    +--------------------------------+--------------------------------+--------------------------------+
+  -...
+  - we have to tutes of custady:
+    - Direct Custody Wallets
+      - structuse:
+ |---------------------
+ | Workspace
+ |  
+ |  |----------------
+ |  | vault
+ |  |  
+ |  |  
+ |  |  vault account #1 ------> BTC, ETF
+ |  |  
+ |  |  vault account #2 ------> ETF
+ |  |  
+ |  |  vault account #N ------> BTC, ETF, SOL
+ |  |  
+ |  |  
+
+  -...
+  -...
+    - Embedded Wallets
+      - structure:
+ |-------------------------------------------------------------
+ | Workspace
+ |  
+ |  |------------------------------------------|    |-------------------------|
+ |  | vault                                    |    | Embedded Wallet #1      | 
+ |  |                                          |    |                         |
+ |  |                                          |    | Account #1 --> ETF, SOL |                 
+ |  |  vault account #1 ------> BTC, ETF       |    |                         |                                  
+ |  |                                          |    |-------------------------|                        
+ |  |  vault account #2 ------> ETF            |                      
+ |  |                                          |    |-------------------------|                          
+ |  |  vault account #N ------> BTC, ETF, SOL  |    | Embedded Wallet #1      |                                  
+ |  |                                          |    |                         |                              
+ |  |                                          |    | Account #1 --> ETF, SOL |                              
+ |  |                                          |    |                         |                                      
+ |  |                                          |    | Account #2 --> BTC      |                                     
+ |  |                                          |    |                         |                                    
+ |  |------------------------------------------|    |-------------------------|                                       
+ | 
+
+
+
+
+
+
+
+
+55) Create Direct Custody Wallets
+  - link: [ https://developers.fireblocks.com/docs/create-direct-custody-wallets ]
+  - (*) important to understand flows
+
+
+
+
+60) Create Embedded Wallets
+  - The Fireblocks Embedded Wallets (EW) solution allows you to manage digital assets securely 
+    and effectively by granting end users full control over their funds or tokens without reliance 
+    on a third-party custodian.
+  - The Fireblocks EW comes with native web and mobile Software Development Kits (SDKs), 
+    which businesses can seamlessly integrate into their existing applications
+
+
+65) Control Deposit Confirmation Policy
+  - Blockchain confirmations are crucial for maintaining the security and integrity of the blockchain. 
+    This process ensures that transactions are securely verified, preventing fraud and double-spending. 
+    However, the number of confirmations also directly impacts the time it takes for a transaction 
+    to complete and for the funds to become available in your wallet.
+  -...
+  - Fireblocks Deposit Control and Confirmation Policy
+    - info: The Deposit Control and Confirmation Policy lets you specify 
+      how many blockchain network confirmations are required for incoming 
+      and outgoing transactions to clear so their funds can be credited to a wallet.
+    - Default Confirmation Policy
+      - link: [ https://support.fireblocks.io/hc/en-us/articles/10883496786204-Default-Deposit-Control-and-Confirmation-Policy ]
+      - info: Each workspace in Fireblocks has a default configuration policy 
+        that specifies the number of confirmations required for each blockchain to complete transactions 
+        and make the funds available in the wallet.
+    -...
+    - Custom Deposit Control and Confirmation Policy
+      - link: [ https://support.fireblocks.io/hc/en-us/articles/10883650908572-Build-a-custom-Deposit-Control-and-Confirmation-Policy ]
+      - info: You can define your own confirmation policy based on your organization’s business needs. 
+
+
+
+
+
+70) Manage Deposits at Scale
+  - info: One of the most important processes for a business is the ability to handle deposits made by clients. 
+    To facilitate this, each client needs their own wallet for the asset they want to deposit.
+  - content information: In this guide, we will outline the recommended workflows for Fireblocks clients 
+    to achieve an efficient setup for processing user deposits. The topics covered include:
+    - Setting up the correct wallet structure for your use case
+    - Receiving notifications on incoming transfers
+    - Processing UTXO and Tag/Memo-based asset deposits
+    - Processing account-based asset deposits
+    - Best practices for generating deposit addresses
+    - Validating wallet balances
+    - Maintaining an internal ledger
+  -...
+  - Go step by step
+  -...
+  - Setting up the correct wallet structure for your use case
+    - we have two options:
+      - Segregated Vault Structure: 
+        Ideal for customers running a B2B business. 
+        This setup is recommended for those who want full segregation of their clients' funds.
+      - Omnibus Vault Structure:   (*) our option
+        Ideal for customers running a B2C business. 
+        This setup is recommended for those who want to create a dedicated wallet 
+        for each user and then sweep the funds into a single Treasury wallet.
+  -...
+  - Get Notifications for Incoming Transactions
+    - To receive notifications about incoming transactions to your Fireblocks wallets, 
+      we recommend using the Webhook service.
+      Webhooks are push notifications sent by Fireblocks to a URL specified by the customer. 
+  -...
+  - Process UTXO and Tag/Memo Based Assets Deposits
+    - 
+
+
+
+
+
+
+
+
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

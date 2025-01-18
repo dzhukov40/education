@@ -1,0 +1,51 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://docs.growthbook.io/ ]
+- [ https://github.com/growthbook/growthbook ] 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ growthbook ] GrowthBook is an open-source platform 
+  for feature flagging and A/B testing built for data teams, 
+  engineers, and product managers. 
+  It's great whether you're looking to just analyze experiment results 
+  or looking to make it easier to deploy code.
+
+
+1) Install 
+ 
+
+
+
+
+ 
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

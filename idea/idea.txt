@@ -49,10 +49,30 @@
 
 4) Плагины (Plagins)
   - [ sonarlint ] статический анализатор кода
+    - [ SonarQube for IDE ] looks like they rename a plugin
+  - [ Snyk ] real-time vulnerability scanning of code, open source libraries, 
+    containers, and cloud infrastructure — and provides actionable fix advice in-line 
+    so you can fix quickly and move on.
   - [ Codota ] прокаченное автодополнение кода + можно посмотреть примеры кода
   - [ Lombok ] нужен чтобы удобно работать с проектом]. использую Lombok
   - [ Kubernates ] упрощает работу с kubernates файлами
   - [ Go Template ] в helm используется этот шаблонизатор по умолчанию
+  - [ OpenAPI Specifications ] Для просмотра Swagger Файлов
+  - [ Makefile Language ] можно будет завести  MakeFile и запускать такски 
+  - [ AsyncAPI ] как Swagger но для ассинхронного взаимодействия
+  - [ PlantUML Integration ] Для работы с *.pumpl файлами
+    - gradle plagin for doing fomething cool with *pumpl
+    - [ id("com.cosminpolifronie.gradle.plantuml") ]
+  - [ AsciiDoc ] Это формат подходит для Confluense (post docs after build )
+    -(*) publichser plugin: id("ch.nomisp.confluence.publisher")
+  - [ ktlint ] Checks or do code auto format
+    - link: https://github.com/JLLeitschuh/ktlint-gradle
+    - link: https://github.com/pinterest/ktlint
+    - comands in gradle:
+      - [ gradle ktlint ] run the verification
+      - [ gradle ktlintFormat ] run the formatter
+  - [ Terraform and HCL ] for terraform support
+  - [ GitHub Actions Manager ] for github actions
   
 
 5) Хоткеи в маке ( Mac OS )

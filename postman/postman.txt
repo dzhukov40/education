@@ -30,6 +30,7 @@
 
 2a) устанавливаем на mac
   - воспользуемся пакетным менеджером
+    - (*) in modern `brew` can instal like this [ brew install postman ]
     - [ brew cask install <не открытая программа> ] для устаноки non-open source пакеты 
     - [ brew cask install postman ]
     - [!] ( Error: Download failed on Cask 'postman' with message: )

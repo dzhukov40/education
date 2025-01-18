@@ -1,0 +1,47 @@
+---
+Ресурсы:
+
+// оф сайт
+- [  ]
+- [  ]
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ cartographer ] Cartographer is a service providing an Asset and Listing inventory 
+  for the purpose of providing metadata about financial instruments to Trading Infrastructure services.
+  The service provides:
+  - Ingestion and curation of metadata from 3rd party services
+  - Delivery of metadata to downstream Trading Infrastructure services
+  - API for services access to metadata
+  - Frontend for user exploration and investigation
+
+
+1) Установка
+
+
+
+
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

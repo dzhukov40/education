@@ -1,0 +1,48 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://pact.io/ ]
+- [ https://github.com/pact-foundation/pact-jvm ] 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ Pack ] is an implementation of "consumer driven contract" 
+  testing that allows mocking of responses in the consumer codebase, 
+  and verification of the interactions in the provider codebase. 
+
+
+1) Установка
+
+
+
+
+ 
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

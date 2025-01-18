@@ -39,6 +39,9 @@
 
 
 
+3) Plagins
+  - [ Kubernetes ] 
+  - [ HashiCorp Terraform ]
 
 
 

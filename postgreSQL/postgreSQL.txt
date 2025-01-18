@@ -47,6 +47,18 @@
       - [ psql -h localhost -p 5432 -U postgres ]
 
 
+3) Simple commands
+  - [ \l ] or [ \list ] - list all available databases
+  - [ \c <database_name> ] - Connect to a different database
+  - [ \dn ] - Show All Schemas
+  - [ \dt ] - list all tables in the currently connected database 
+  - [ \d <table_name> ] - to describe the structure of a specific table (columns, types, etc.)
+  - [ SELECT * FROM users; ] example of sql
+
+
+
+
+
 
 
 [?] nop

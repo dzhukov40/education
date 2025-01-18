@@ -1,0 +1,50 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://direnv.net/ ] 
+- [ https://github.com/direnv/direnv ]
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ direnv ] is an extension for your shell.
+  It augments existing shells with a new feature that can load 
+  and unload environment variables depending on the current directory.
+
+
+1) Install 
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 

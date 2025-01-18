@@ -1,0 +1,51 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://docs.renovatebot.com/ ] 
+- [ https://github.com/renovatebot/renovate ]
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ renovatebot ] Renovate is an automated dependency update tool. 
+  It helps to update dependencies in your code without needing to do it manually. 
+  When Renovate runs on your repo, it looks for references to dependencies (both public and private) and, 
+  if there are newer versions available, Renovate can create pull requests to update your versions automatically.
+
+
+1) Install 
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
