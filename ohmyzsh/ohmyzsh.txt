@@ -88,3 +88,94 @@
 
 #----------------------------------------------- 
  
+
+---
+Ресурсы:
+
+// оф сайт
+- [ https://ohmyz.sh/ ]
+- [ https://github.com/ohmyzsh/ohmyzsh ] 
+
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ ohmyz ] Oh My Zsh is a delightful, open source, 
+  community-driven framework for managing your Zsh configuration. 
+  It comes bundled with thousands of helpful functions, 
+  helpers, plugins, themes, and a few things that make you shout...
+
+
+1) Установка
+  - идем на сайт, там все есть
+
+
+
+
+
+5) plugins
+  - Install plugins.
+    - "autosuggesions plugin"
+      - [ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions ]
+      - Configure the Key Binding: 
+        To make the Tab key accept the suggestion, 
+        you need to change the key bindings for zsh-autosuggestions.
+        - [
+          Add the following line to the end of your .zshrc file:
+          bindkey "^I" accept-autosuggestion 
+        ]
+    - ...
+    - "zsh-syntax-highlighting plugin"
+      - [ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting ] 
+    - ...
+    - "zsh-fast-syntax-highlighting plugin"
+      - [ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting ]
+    - ...
+      - "zsh-autocomplete plugin"
+        - [ git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete ]
+    -...
+      - brew install zsh-syntax-highlighting
+    -...
+      - "zsh-bat" - plugin replaces the cat command and gives you a better output
+        - info: This plugin will replace cat with bat. To run the real cat command, you can use rcat
+        - link: https://github.com/fdellwing/zsh-bat
+        - install:
+          - "bat" 
+            - link: https://github.com/sharkdp/bat 
+            - install: [ brew install bat ]
+          - [ git clone https://github.com/fdellwing/zsh-bat.git $ZSH_CUSTOM/plugins/zsh-bat ]
+          - (*) Add zsh-bat to your plugin list in ~/.zshrc.
+  - ...
+  - ...
+  - Enable plugins by adding them to .zshrc.
+    - Open .zshrc
+    - vim ~/.zshrc
+    - Find the line which says plugins=(git).
+    - Replace that line with p
+      lugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)
+
+
+
+ 
+
+
+[?] nop
+  - nop
+
+ 
+ 
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
