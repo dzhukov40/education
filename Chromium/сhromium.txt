@@ -22,6 +22,7 @@
 
 
 
+
 1) устанавливаем 
   - Chromium уже есть в репозиториях Ubuntu [ sudo apt install chromium-browser ]
  
