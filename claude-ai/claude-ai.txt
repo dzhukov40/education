@@ -1,0 +1,58 @@
+---
+Ресурсы:
+
+// оф сайт
+- [ https://claude.com/product/claude-code ]
+// IDE plugin
+- [ https://plugins.jetbrains.com/plugin/27310-claude-code-beta- ] 
+// LM studio
+- [ https://lmstudio.ai/ ]
+
+---
+элементы документа 
+
+[?] - информация потенциально для многократного использования
+[!] - была ошибка, недочет, нашли решение 
+[*] - важное контекстное примечание 
+[#<имяТега>] - так можим выносить различного рода информацию, оставляя ссылку 
+
+---
+краткое описание 
+
+- [ claude-code ]  
+
+
+
+
+1) устанавливаем
+  - (*) надо поставить [ curl -fsSL https://claude.ai/install.sh | bash ]
+
+
+2) install lmstudio
+  - [ https://lmstudio.ai/ ]
+
+
+
+
+docker run -d -p 3000:8080 \
+  --network=host \
+  -v open-webui:/app/backend/data \
+  ghcr.io/open-webui/open-webui:main
+
+docker run -d -p 3001:8080 \
+  -v open-webui:/app/backend/data \
+  --add-host=host.docker.internal:host-gateway \
+  ghcr.io/open-webui/open-webui:main
+Then open:
+
+http://localhost:3001
+
+  
+
+// #c 
+#----------------------------------------------- 
+
+ 
+
+#----------------------------------------------- 
+ 
